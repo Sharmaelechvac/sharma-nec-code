@@ -7,6 +7,6 @@
     { "id": "SR-4", "title": "Outdoor outlet height", "text": "Outdoor outlets at 24 in above grade.", "tag": "Sharma rule" },
     { "id": "SR-5", "title": "Wall receptacle height", "text": "Wall receptacles at 18 in to the BOTTOM of the box. If the plan detail shows a different height, the plan governs.", "tag": "Sharma rule" },
     { "id": "SR-6", "title": "Microwave circuit", "text": "The microwave gets its own dedicated 20A circuit on 12 AWG copper. This one stays copper even on a CCA job.", "tag": "Sharma rule" },
-    { "id": "SR-7", "title": "Wire — copper and CCA", "text": "Sharma runs both copper and CCA. Copper: 14 AWG on 15A, 12 AWG on 20A. CCA is sized one AWG up: 12 AWG on 15A, 10 AWG on 20A, and devices and terminations must be rated for CCA. The lead decides which wire a job gets — helpers never swap on their own. Never backstab.", "tag": "Sharma rule", "status": "wording-pending-mike-check" }
+    { "id": "SR-7", "title": "Wire — copper and CCA", "text": "Sharma runs both copper and CCA. Copper: 14 AWG on 15A, 12 AWG on 20A. CCA is sized one AWG up: 12 AWG on 15A, 10 AWG on 20A. CCA: use the screw terminals, never the push-in holes — ordinary 15/20A device screw terminals are fine with CCA, and CO/ALR is only for plain aluminum. Wire nuts and connectors for CCA must say AL-CU. The lead decides which wire a job gets — helpers never swap on their own. Never backstab.", "tag": "Sharma rule", "status": "wording-pending-mike-check" }
   ]
 }
