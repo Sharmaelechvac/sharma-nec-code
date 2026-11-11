@@ -1,0 +1,11 @@
+{
+  "meta": { "source": "Sharma Electric & HVAC house rules", "status": "Set by Sanjay; wire-material item pending Mike Holt ruling", "version": "placeholder-v1" },
+  "rules": [
+    { "id": "SR-1", "title": "Dual-function breakers", "text": "Every 120V breaker is a dual-function AFCI/GFCI breaker. The crew never picks a GFCI outlet for protection — protection lives at the breaker.", "tag": "Sharma rule" },
+    { "id": "SR-2", "title": "Switch height", "text": "Switches at 48 in to center.", "tag": "Sharma rule" },
+    { "id": "SR-3", "title": "Garage outlet height", "text": "Garage outlets at 48 in to center.", "tag": "Sharma rule" },
+    { "id": "SR-4", "title": "Outdoor outlet height", "text": "Outdoor outlets at 24 in above grade.", "tag": "Sharma rule" },
+    { "id": "SR-5", "title": "Wall receptacle height", "text": "Wall receptacles at 18 in to the BOTTOM of the box. If the plan detail shows a different height, the plan governs.", "tag": "Sharma rule" },
+    { "id": "SR-6", "title": "Microwave circuit", "text": "The microwave gets its own dedicated 20A circuit. Wire material/size: PENDING Mike Holt ruling (12 AWG copper vs Sharma CCA standard) — do not use this entry for material until the ruling lands.", "tag": "Sharma rule", "status": "pending-ruling" }
+  ]
+}

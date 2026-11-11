@@ -1,0 +1,17 @@
+{
+  "meta": { "status": "PLACEHOLDER starter bank — exam-prep expansion comes in later waves; Mike Holt to check every question", "pass": 80, "version": "placeholder-v1" },
+  "questions": [
+    { "q": "What is the maximum breaker size for a 12 AWG copper conductor on a general branch circuit?", "choices": ["15A", "20A", "25A", "30A"], "answer": 1, "why": "240.4(D) caps 12 AWG copper at 20A.", "cite": "240.4(D)" },
+    { "q": "Along a dwelling wall line, receptacles must be spaced so no point is more than how far from a receptacle?", "choices": ["4 ft", "6 ft", "8 ft", "12 ft"], "answer": 1, "why": "210.52(A): no point more than 6 ft from a receptacle (12 ft max between receptacles).", "cite": "210.52(A)" },
+    { "q": "How deep must the working space be in front of a 120/240V residential panel?", "choices": ["24 in", "30 in", "36 in", "42 in"], "answer": 2, "why": "110.26 / Table 110.26(A)(1): 3 ft for 0–150V to ground, condition 1.", "cite": "110.26" },
+    { "q": "How are equipment grounding conductors counted for box fill?", "choices": ["One volume allowance for all of them together", "One allowance each", "Not counted", "Two allowances"], "answer": 0, "why": "314.16(B)(5): all EGCs in the box count as a single volume allowance based on the largest EGC.", "cite": "314.16(B)(5)" },
+    { "q": "A 48A continuous EV charger needs what minimum branch-circuit rating?", "choices": ["48A", "50A", "60A", "70A"], "answer": 2, "why": "EV charging is continuous: 48 × 1.25 = 60A (625 / 210.19).", "cite": "625.41" },
+    { "q": "What is the maximum conduit fill for three or more conductors?", "choices": ["53%", "40%", "31%", "25%"], "answer": 1, "why": "Chapter 9, Table 1: over 2 conductors = 40%.", "cite": "Ch. 9 Table 1" },
+    { "q": "In a subpanel (separate from the service), grounds and neutrals must be:", "choices": ["Bonded together", "Kept separate, neutral isolated", "Both bonded to the can", "Neutrals removed"], "answer": 1, "why": "The neutral-to-ground bond happens at the service only (250.24 / 250.142(B)).", "cite": "250.142(B)" },
+    { "q": "Bathroom receptacles require a circuit of what rating?", "choices": ["15A", "20A", "Either, shared with lights", "30A"], "answer": 1, "why": "210.11(C)(3): at least one 20A circuit for bathroom receptacles.", "cite": "210.11(C)(3)" },
+    { "q": "For AC equipment, conductor size is chosen from the nameplate value called:", "choices": ["MOCP", "MCA (minimum circuit ampacity)", "FLA only", "Breaker size"], "answer": 1, "why": "Article 440: conductors per nameplate MCA; breaker/fuse per nameplate max (MOCP).", "cite": "440.6" },
+    { "q": "How many 20A small-appliance branch circuits does a kitchen need at minimum?", "choices": ["One", "Two", "Three", "Four"], "answer": 1, "why": "210.11(C)(1): two or more 20A small-appliance circuits.", "cite": "210.11(C)(1)" },
+    { "q": "A receptacle must be installed within how many feet of a bathroom basin's outside edge?", "choices": ["3 ft", "4 ft", "6 ft", "No rule"], "answer": 0, "why": "210.52(D): within 3 ft of the outside edge of each basin.", "cite": "210.52(D)" },
+    { "q": "The 120% rule for backfed solar breakers applies to:", "choices": ["Wire size", "Panel busbar loading (705.12)", "Conduit fill", "Ground rod count"], "answer": 1, "why": "705.12: sum of overcurrent devices feeding a busbar ≤ 120% of the bus rating.", "cite": "705.12" }
+  ]
+}
