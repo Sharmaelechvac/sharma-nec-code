@@ -4,8 +4,8 @@ A separate code app for Sharma electricians. **Not part of Electrician 101.**
 Basis: NEC 2020 (Florida Building Code, 8th Edition). All explanations in our own
 plain words with article/section citations — no verbatim NFPA text.
 
-## Status: REVIEW BUILD — NOT LIVE
-- Nothing is published. No GitHub Pages. Goes live only on Sanjay's own OK.
+## Status: LIVE (Sanjay said "Go live" in his own words, 2026-11-11)
+- Live at https://sharmaelechvac.github.io/sharma-nec-code/ — content still DRAFT until Mike Holt checks it; banner stays until he clears it.
 - All content is DRAFT until Mike Holt (master electrician) checks it.
 - Steve Wozniak reviews the build.
 
