@@ -1,0 +1,2458 @@
+{
+  "schema_version": "book-v1",
+  "nec_edition": "2020",
+  "jurisdiction": "Florida Building Code 8th Edition (2023)",
+  "chapter": 2,
+  "chapter_title": "Wiring and Protection",
+  "id_prefix": "C2",
+  "label": "Reference aid; the AHJ and the printed NEC govern.",
+  "sections": [
+    {
+      "id": "C2-ART-200",
+      "chapter": 2,
+      "article": "200",
+      "section": "200",
+      "title": "Grounded conductors — how they are identified",
+      "plain_explanation": "Article 200 is about the grounded conductor, which in a house is usually the neutral. Its job in this article is identification: how a worker can tell, by color, marking, or terminal, which conductor is grounded so nobody lands it in the wrong place. It does not size the neutral — that work lives in Articles 210, 215, 220, and 250.",
+      "on_the_job": "Treat white and gray as a warning label, not a suggestion. Before you splice, land, or re-mark a conductor, check what it is actually connected to at both ends.",
+      "sharma_note": "",
+      "figure_idea": "A panel detail showing a white insulated neutral landed on the isolated neutral bar, a green ground on the ground bar, and a black hot on a breaker, each labeled.",
+      "related_ids": [
+        "C2-L-001",
+        "C2-L-002",
+        "C2-L-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": null,
+      "next_id": "C2-200.6",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-200.6",
+      "chapter": 2,
+      "article": "200",
+      "section": "200.6",
+      "title": "How a grounded conductor is marked",
+      "plain_explanation": "This section gives the ways a grounded conductor may be identified, and the method changes with conductor size. Smaller insulated conductors use a continuous white or gray outer finish, or white or gray with colored stripes other than green. Larger conductors may use that same finish, or be identified at terminations and accessible points in the ways the section allows.",
+      "on_the_job": "On rough-in, pick the right roll — do not plan to tape your way out of the wrong insulation color on small branch wiring. On larger feeders, mark every accessible point, not just the end you happen to be landing today.",
+      "sharma_note": "",
+      "figure_idea": "Three feeder conductors at a panel: black, red, and one wrapped with white tape at the end, with a note that small branch conductors use factory white or gray insulation.",
+      "related_ids": [
+        "C2-L-001",
+        "C2-L-004"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-ART-200",
+      "next_id": "C2-200.7",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-200.7",
+      "chapter": 2,
+      "article": "200",
+      "section": "200.7",
+      "title": "What white or gray insulation may be used for",
+      "plain_explanation": "White or gray insulation is reserved for the grounded conductor, with narrow exceptions the section spells out. The familiar field examples are a re-identified conductor in a cable assembly used as a hot for a switch loop or a 240V circuit, and flexible cord uses — and re-identification has to be permanent and visible where required. A white conductor is never free to be a ground; equipment grounds are green, green with yellow stripes, or bare.",
+      "on_the_job": "If you re-identify a white wire as a hot, mark it at every box where it appears and tell the trim crew. If you open a box and find an unmarked white on a switch or breaker, stop and trace it instead of assuming.",
+      "sharma_note": "Never backstab and never guess a re-identified white — Sharma crews trace it. See S-10 for conductor and termination practice generally.",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-002",
+        "C2-L-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-200.6",
+      "next_id": "C2-ART-210",
+      "sharma_rule_ids": [
+        "S-10"
+      ]
+    },
+    {
+      "id": "C2-ART-210",
+      "chapter": 2,
+      "article": "210",
+      "section": "210",
+      "title": "Branch circuits — the circuits that feed the load",
+      "plain_explanation": "Article 210 governs the final run of wiring that delivers power to lights, receptacles, and appliances. It sets circuit ratings, the protection people need from shock and arc faults, which dedicated circuits a dwelling must have, where receptacles and lights must go, and how much load a circuit may carry. Most of Sharma's rough-in and trim work is judged against this article.",
+      "on_the_job": "Read a house plan through Article 210 first: protection, dedicated circuits, receptacle layout, then lighting outlets. That order catches the expensive misses before wire is pulled.",
+      "sharma_note": "S-01: on commercial work Sharma runs 20A minimum branch circuits — stricter than this article requires for dwellings.",
+      "figure_idea": "A house floor plan with circuits color-coded: kitchen small-appliance, laundry, bathroom, garage, and general area circuits each in a different color.",
+      "related_ids": [
+        "L-001",
+        "L-005",
+        "L-010",
+        "Q-001",
+        "S-01"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-200.7",
+      "next_id": "C2-210.4",
+      "sharma_rule_ids": [
+        "S-01"
+      ]
+    },
+    {
+      "id": "C2-210.4",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.4",
+      "title": "Multiwire branch circuits",
+      "plain_explanation": "A multiwire branch circuit shares one grounded conductor between two or three ungrounded conductors taken from different phases or legs. Because the shared neutral only carries the unbalanced current when the hots are on opposite legs, landing both hots on the same leg can overload a neutral that has no breaker of its own. The article also requires a way to disconnect all the hots together at the panel and grouping so the shared set can be identified.",
+      "on_the_job": "Before you share a neutral, confirm the breakers are on opposite legs and tied or on a common-trip / handle-tied arrangement as required. In a 120/240V house panel, that means adjacent positions are not automatically opposite legs in every panel layout — check, do not assume.",
+      "sharma_note": "",
+      "figure_idea": "A two-pole breaker feeding a red hot, a black hot, and one shared white neutral to two receptacle runs, with the opposite-leg point circled.",
+      "related_ids": [
+        "C2-L-005",
+        "C2-Q-001"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-ART-210",
+      "next_id": "C2-210.8",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.8",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.8",
+      "title": "Ground-fault protection for people",
+      "plain_explanation": "This section requires ground-fault protection in the places where a person, water, concrete, or the outdoors make a fault to ground most dangerous. Protection can be provided at the receptacle, at the breaker, or by a device feeding through to downstream outlets, as long as the outlet that needs protection actually gets it. The 2020 dwelling rule reaches further than older editions — see the next pages.",
+      "on_the_job": "Walk the job location by location, not room name by room name. A receptacle in an unfinished part of a basement, within reach of a sink, or in a laundry area is judged by where it sits, not by what the plan calls the room.",
+      "sharma_note": "S-07: Sharma protects 120V circuits at the breaker with dual-function breakers and installs standard tamper-resistant receptacles at points marked GFI. No GFCI receptacles.",
+      "figure_idea": "A house diagram with the GFCI locations shaded: bathroom, garage, outdoors, basement, kitchen, sink areas, laundry, and tub/shower areas.",
+      "related_ids": [
+        "L-005",
+        "L-006",
+        "L-098",
+        "Q-004",
+        "S-07",
+        "K-05",
+        "B-04",
+        "G-03"
+      ],
+      "florida_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). A local AHJ amendment controls over any general summary here.",
+      "verified": true,
+      "prev_id": "C2-210.4",
+      "next_id": "C2-210.8(A)",
+      "sharma_rule_ids": [
+        "S-07"
+      ]
+    },
+    {
+      "id": "C2-210.8(A)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.8(A)",
+      "title": "Dwelling locations that need GFCI protection",
+      "plain_explanation": "For dwellings, this list covers receptacles in bathrooms, garages and certain accessory buildings, outdoors, crawl spaces, basements, kitchen areas covered by the list, near sinks, in boathouses, near tubs and showers, in laundry areas, and in indoor damp or wet locations. In NEC 2020 the rule applies to receptacles rated 125V through 250V on single-phase circuits of 150V to ground or less — that is why a 240V dryer or garage receptacle is no longer outside the rule. Measurement points matter: distances are taken from the sink, tub, or shower feature the list names.",
+      "on_the_job": "Use the existing lookup items for the full location list instead of working from memory on a walk-through. Pay special attention to the 6 ft sink and tub/shower measurements and to unfinished basement and garage areas that a finished-room mindset misses.",
+      "sharma_note": "S-07: protection is at the DFN breaker, so a standard TR receptacle in one of these locations is protected even though the device itself has no test buttons. Do not swap in a GFCI receptacle.",
+      "figure_idea": "A bathroom and kitchen plan with 6 ft arcs drawn from a sink edge and from a tub edge, shading every receptacle inside the arcs.",
+      "related_ids": [
+        "L-005",
+        "L-006",
+        "L-007",
+        "Q-004",
+        "Q-005",
+        "S-07",
+        "S-08"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.8",
+      "next_id": "C2-210.8(A)(10)",
+      "sharma_rule_ids": [
+        "S-07"
+      ]
+    },
+    {
+      "id": "C2-210.8(A)(10)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.8(A)(10)",
+      "title": "Laundry areas — including the dryer receptacle",
+      "plain_explanation": "Item (10) on the dwelling list is laundry areas. Read together with the 2020 voltage range in 210.8(A), it covers the 250V dryer receptacle as well as the 120V washer receptacle. That is the code reason a modern Sharma dryer circuit needs ground-fault protection even though older Florida houses were built without it.",
+      "on_the_job": "Do not treat the dryer as exempt because it is 240V, and do not protect only the washer outlet. Check the whole laundry area, including a laundry closet in a hallway or garage layout.",
+      "sharma_note": "S-08: dryer circuit is a Siemens Q230GF, 30A 2-pole GFCI breaker. That is the locked Sharma catalog number — do not substitute an older dryer breaker note.",
+      "figure_idea": "A laundry closet showing a washer receptacle and a 4-wire dryer receptacle, both with a line back to the panel and the 2-pole GFCI breaker highlighted.",
+      "related_ids": [
+        "L-005",
+        "LA-03",
+        "LA-05",
+        "S-08",
+        "C2-Q-002"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.8(A)",
+      "next_id": "C2-210.8(B)",
+      "sharma_rule_ids": [
+        "S-08"
+      ]
+    },
+    {
+      "id": "C2-210.8(B)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.8(B)",
+      "title": "GFCI locations outside dwellings",
+      "plain_explanation": "Non-dwelling occupancies have their own GFCI list, covering places such as bathrooms, kitchens, rooftops, outdoors, near sinks, indoor damp or wet locations, locker rooms with showers, and garages and service bays. The voltage and size limits in this subsection are not identical to the dwelling list, so a commercial job cannot be roughed from house habits alone. Kitchens in commercial work are judged by the article's own definition and equipment, not by whether food is sold there.",
+      "on_the_job": "On a commercial walk, list the wet and outdoor locations from the plans and the equipment schedule, then match each one to this subsection. Flag rooftop and service-bay receptacles early — they are the ones most often added late.",
+      "sharma_note": "S-01 applies on commercial work: 20A minimum branch circuits.",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-006",
+        "C2-Q-003",
+        "S-01"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.8(A)(10)",
+      "next_id": "C2-210.8(D)",
+      "sharma_rule_ids": [
+        "S-01"
+      ]
+    },
+    {
+      "id": "C2-210.8(D)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.8(D)",
+      "title": "Specific appliances that need GFCI protection",
+      "plain_explanation": "Beyond location lists, this subsection names appliances that need ground-fault protection wherever they are installed in a dwelling, within the voltage and rating limits it states. The v1 content already covers the dishwasher here; the list in the 2020 edition is wider than that one appliance, and it is applied by appliance and rating, not by room. When an appliance is on the list, moving it to a room that is not on the 210.8(A) list does not remove the requirement.",
+      "on_the_job": "Check the appliance schedule, not just the room finish. If a listed appliance will be cord-and-plug or hardwired within the stated limits, plan the protection before the panel schedule is finalized.",
+      "sharma_note": "S-07: a DFN breaker supplies this protection on 120V circuits, with a standard TR receptacle at the appliance where there is a receptacle.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-008",
+        "K-05",
+        "C2-L-007",
+        "S-07"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.8(B)",
+      "next_id": "C2-210.8(F)",
+      "sharma_rule_ids": [
+        "S-07"
+      ]
+    },
+    {
+      "id": "C2-210.8(F)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.8(F)",
+      "title": "Outdoor outlets other than receptacles",
+      "plain_explanation": "This subsection reaches outdoor outlets that are not receptacles — the hardwired outdoor equipment case, within the rating limits it states. The condenser is the example Sharma runs into: a hardwired outdoor unit can be an outlet for this rule even though there is no plug and no receptacle at the unit. Enforcement of this requirement for HVAC equipment has not been uniform, which is flagged below rather than smoothed over.",
+      "on_the_job": "Ask the AHJ's current position before finalizing a condenser circuit on a job where this has not already been settled. Do not promise a homeowner or a builder either answer until that check is made.",
+      "sharma_note": "Sharma practice (tip, not an S-rule): condensers are normally on a standard 2-pole breaker sized to the nameplate maximum overcurrent protection. Confirm the AHJ — do not present that practice as a code exemption.",
+      "figure_idea": "A condenser pad with a hardwired whip to a disconnect, labeled 'outlet, not a receptacle,' and a callout to confirm the local position.",
+      "related_ids": [
+        "L-009",
+        "O-02",
+        "AH-05",
+        "C2-L-008"
+      ],
+      "florida_note": "Local amendments and AHJ positions on this subsection have varied in Florida, including after a TIA on this topic. The AHJ for the job governs.",
+      "verified": false,
+      "prev_id": "C2-210.8(D)",
+      "next_id": "C2-210.11",
+      "sharma_rule_ids": [],
+      "unverified_reason": "UNVERIFIED as to local enforcement for AC condensers, per v1 README item 2 and the Ch.2 brief. The existence of 210.8(F) and its subject are as stated in the brief; how a given Florida AHJ enforces it for condensers was not re-checked for this pass."
+    },
+    {
+      "id": "C2-210.11",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.11",
+      "title": "Branch circuits a dwelling must have",
+      "plain_explanation": "This section is the circuit-count backbone of a house: enough branch circuits for the load, plus the named dwelling circuits the next pages cover. General circuits are spread so the load is divided, and the required small-appliance, laundry, bathroom, and garage circuits have their own limits on what else they may feed. A panel schedule that only counts spare spaces has not answered this section — the named circuits have to exist and serve the right outlets.",
+      "on_the_job": "Build the panel schedule from this section outward: named circuits first, then general area circuits, then spares. If a named circuit is feeding lights or another room, that is a rough-in error, not a labeling fix.",
+      "sharma_note": "Sharma often uses modest 15A area circuits for lights, fans, and general receptacles and reserves 20A circuits for the required dedicated loads. That is company practice, not a code minimum — and S-01 reverses it on commercial work.",
+      "figure_idea": "A draft panel schedule with the four named dwelling circuits highlighted at the top and general circuits below.",
+      "related_ids": [
+        "L-001",
+        "L-002",
+        "L-003",
+        "L-004",
+        "Q-001",
+        "Q-002",
+        "Q-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.8(F)",
+      "next_id": "C2-210.11(C)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.11(C)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.11(C)",
+      "title": "The named dwelling circuits: kitchen, laundry, bathroom, garage",
+      "plain_explanation": "This subsection names four things. At least two 20A small-appliance circuits serve kitchen, pantry, breakfast, and dining receptacles, with tight limits on other outlets. At least one 20A laundry circuit serves the laundry receptacle and nothing else outside that area. At least one 20A bathroom circuit serves bathroom receptacles, or — for a single bathroom only — may carry that bathroom's other outlets. And the 2020 edition adds a dedicated 20A garage circuit for the required garage receptacles, with a limited allowance for readily accessible outdoor receptacles.",
+      "on_the_job": "Label these four on the panel schedule by their code job, not by a room nickname, and check the 'no other outlets' limits before adding a convenience receptacle to any of them. The single-bathroom exception is the trap: it does not let one circuit carry two bathrooms' receptacles plus lights.",
+      "sharma_note": "S-06 sits on top of this list: the microwave gets its own 20A circuit in 12 AWG copper, separate from the small-appliance circuits.",
+      "figure_idea": "Four labeled home runs leaving a panel: two to the kitchen counters, one to the laundry, one to the bathroom, one to the garage, each with a 'no other outlets' tag where it applies.",
+      "related_ids": [
+        "L-001",
+        "L-002",
+        "L-003",
+        "L-004",
+        "Q-001",
+        "Q-002",
+        "Q-003",
+        "K-01",
+        "LA-01",
+        "B-01",
+        "G-02",
+        "S-06"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.11",
+      "next_id": "C2-210.12",
+      "sharma_rule_ids": [
+        "S-06"
+      ]
+    },
+    {
+      "id": "C2-210.12",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.12",
+      "title": "Arc-fault protection",
+      "plain_explanation": "Arc-fault protection guards against damaged, pinched, or deteriorating wiring and loose connections that can arc long before a breaker sees an overload. The protection may be provided by a listed combination-type breaker or by one of the other arrangements the article permits, but the outlets in the listed rooms have to end up protected. Arc-fault and ground-fault protection do different jobs; one does not replace the other.",
+      "on_the_job": "Think of this as a room list applied at the panel. When a plan adds a room or changes a room's use, re-check the list instead of copying the last house's schedule.",
+      "sharma_note": "S-07: Sharma's dual-function breaker provides both arc-fault and ground-fault protection on every 120V circuit, so the room-by-room question is answered at the breaker for standard house work.",
+      "figure_idea": "A cutaway wall showing a nail through a cable with a small arc, and the breaker in the panel sensing the arcing signature.",
+      "related_ids": [
+        "L-010",
+        "Q-006",
+        "S-07",
+        "BL-02",
+        "K-06",
+        "LA-04"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.11(C)",
+      "next_id": "C2-210.12(A)",
+      "sharma_rule_ids": [
+        "S-07"
+      ]
+    },
+    {
+      "id": "C2-210.12(A)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.12(A)",
+      "title": "Rooms where dwelling circuits need AFCI protection",
+      "plain_explanation": "For dwellings, this subsection applies to 120V, single-phase, 15A and 20A branch circuits supplying outlets or devices in the listed rooms and areas — kitchens, family and living areas, bedrooms, and the other habitable and utility areas it names, including laundry areas and hallways. A bathroom, garage, or unfinished basement is not judged by this list the same way a bedroom is; use the existing lookup item for the full room list rather than a memory shortcut. The rating limits matter too: a 240V appliance circuit is outside this subsection's stated range.",
+      "on_the_job": "On the panel schedule, mark every 15A and 20A 120V circuit with the rooms it serves, then test that list against this subsection. Mixed circuits that touch a listed room need the protection for the circuit.",
+      "sharma_note": "S-07 already puts a dual-function breaker on every 120V circuit, which is stricter and simpler than sorting rooms at trim. Keep it that way unless Sanjay directs otherwise on a specific job.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-010",
+        "Q-006",
+        "C2-Q-004",
+        "S-07"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.12",
+      "next_id": "C2-210.12(D)",
+      "sharma_rule_ids": [
+        "S-07"
+      ]
+    },
+    {
+      "id": "C2-210.12(D)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.12(D)",
+      "title": "Extending or modifying an existing circuit",
+      "plain_explanation": "Work on an existing circuit can pull arc-fault duties with it. This subsection deals with branch circuits that are modified, replaced, or extended in the listed dwelling areas, and with a panel or device change that has a similar effect. There is an exception connected with a short extension — its exact length and conditions are flagged below and must be checked in the printed code before a crew relies on it.",
+      "on_the_job": "On service work, ask first whether the job is a repair in place or an extension or modification. If wire is being added or the circuit is being reworked, assume this subsection is in play and confirm the exception in the book before quoting it to an inspector.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-011",
+        "C2-L-009"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-210.12(A)",
+      "next_id": "C2-210.19",
+      "sharma_rule_ids": [],
+      "unverified_reason": "UNVERIFIED: the 6 ft exception wording in 210.12(D) was flagged in the v1 README (item 3) as taken from memory and not re-checked this pass. This page therefore does not state a length as fact; Mike to confirm against the printed 2020 text."
+    },
+    {
+      "id": "C2-210.19",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.19",
+      "title": "Sizing branch-circuit conductors",
+      "plain_explanation": "Conductors and breakers for a branch circuit are sized for the load the circuit will actually carry, and a continuous load — one that runs at its maximum for three hours or more — is counted at 125 percent for that sizing unless the assembly is listed for continuous operation at its rating. That is why a load that looks like it 'fits' a breaker on nameplate amps alone can still need the next size up. Multi-outlet circuits supplying receptacles for cord-and-plug loads are also sized by the rating rules in this section and in 210.23.",
+      "on_the_job": "Find the continuous loads first: EV charging, fixed heating, some lighting and equipment. Do the 125 percent math on paper in the job file, not in your head at the supply counter.",
+      "sharma_note": "S-01: commercial branch circuits are 20A minimum with 12 AWG copper minimum at Sharma, whatever the general sizing math would allow at 15A.",
+      "figure_idea": "A worked example strip: 16A continuous load, times 1.25, equals a 20A circuit — with the breaker and the conductor both stepped up.",
+      "related_ids": [
+        "L-028",
+        "C2-L-010",
+        "C2-Q-005",
+        "S-01",
+        "S-10"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.12(D)",
+      "next_id": "C2-210.21",
+      "sharma_rule_ids": [
+        "S-01",
+        "S-10"
+      ]
+    },
+    {
+      "id": "C2-210.21",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.21",
+      "title": "Outlet devices and receptacle ratings on a circuit",
+      "plain_explanation": "This section matches the device to the circuit: lampholders, receptacles, and cord-and-plug equipment may not be loaded beyond their own ratings, and a receptacle's rating must fit the circuit it sits on. On a 20A multi-outlet circuit, 15A duplex receptacles are permitted because the load is spread across outlets; a single receptacle on an individual 20A circuit is a different case and must match the circuit. The existing lookup item carries the rating table in plain form.",
+      "on_the_job": "When a plan calls for a single dedicated receptacle — a fridge, a microwave, a shop tool — check the device rating against the circuit rating before trim. Do not let a trim bin of 15A devices decide the question.",
+      "sharma_note": "S-06: the microwave's individual 20A circuit pairs with that sizing check.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-029",
+        "C2-Q-006",
+        "S-06"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.19",
+      "next_id": "C2-210.23",
+      "sharma_rule_ids": [
+        "S-06"
+      ]
+    },
+    {
+      "id": "C2-210.23",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.23",
+      "title": "How much load a branch circuit may carry",
+      "plain_explanation": "This section caps what may be put on a circuit by its rating. A single cord-and-plug appliance that is not fastened in place may not take more than 80 percent of a circuit that also serves other outlets, and fastened-in-place equipment has its own limit when it shares a circuit with lighting or portable loads. Motor and specific-appliance loads are sent to their own articles instead of being judged by a general percentage.",
+      "on_the_job": "Do the percentage math for the big plug-in loads: space heaters, window units, and shop equipment are where a shared 20A circuit quietly goes over. If a load is fastened in place and shares the circuit, check the second limit too.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-030",
+        "Q-016",
+        "C2-L-011"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.21",
+      "next_id": "C2-210.52",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.52",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52",
+      "title": "Where dwelling receptacles must go",
+      "plain_explanation": "This is the placement section: it decides where receptacles are required in a dwelling, room by room and surface by surface, so that cords stay short and extension cords stay out of daily use. It does not set circuit ratings — 210.11 does that — and it does not set a general mounting height for ordinary wall receptacles. The subsections that follow walk the house in the order Sharma roughs it: walls, counters, bathrooms, outdoors, laundry, garage, halls, and foyers.",
+      "on_the_job": "Rough from this section with a tape and the floor plan, not from habit. Most placement callbacks are a missed wall, a missed bay, or a counter run measured from the wrong edge.",
+      "sharma_note": "S-04: where the plan is silent, receptacles are set 18 in to the bottom of the box. That is a Sharma standard, not a number from this section — countertop limits in 210.52(C) are code and are different.",
+      "figure_idea": "A floor plan with a receptacle symbol being placed along every wall, counter, and hallway in sequence.",
+      "related_ids": [
+        "L-012",
+        "L-097",
+        "S-04"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.23",
+      "next_id": "C2-210.52(A)",
+      "sharma_rule_ids": [
+        "S-04"
+      ]
+    },
+    {
+      "id": "C2-210.52(A)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52(A)",
+      "title": "Wall spacing in habitable rooms",
+      "plain_explanation": "In kitchens, family rooms, bedrooms, and the other rooms this subsection lists, receptacles are placed so that no point along the floor line of a wall is more than 6 ft from a receptacle — which works out to 12 ft maximum between receptacles on a run. Wall space is counted from 2 ft wide upward, and the section explains how fixed panels, sliding panels, and room dividers count, and when a floor receptacle may count toward the requirement. A receptacle behind a fixed appliance or too far above the floor does not do the job this spacing is meant to do.",
+      "on_the_job": "Measure along the floor line around corners and breaks, the way a lamp cord actually travels. Mark the 2 ft wall pieces — beside a door, between a closet and a corner — because those are the ones that get skipped.",
+      "sharma_note": "S-04 sets the box height when the plan is silent: 18 in to the bottom of the box. S-05 sets switch boxes at 48 in to center under the same condition.",
+      "figure_idea": "A wall elevation with a tape running along the floor line, arrows showing 6 ft maximum from any point to the nearest receptacle and 12 ft maximum between two.",
+      "related_ids": [
+        "L-012",
+        "L-013",
+        "L-014",
+        "Q-007",
+        "Q-008",
+        "BL-01",
+        "S-04"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.52",
+      "next_id": "C2-210.52(C)",
+      "sharma_rule_ids": [
+        "S-04"
+      ]
+    },
+    {
+      "id": "C2-210.52(C)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52(C)",
+      "title": "Kitchen countertops, islands, and peninsulas",
+      "plain_explanation": "Countertop receptacles are placed so no point along the wall line of a counter is more than 24 in from a receptacle, and a counter run 12 in or wider needs one. Islands and peninsulas are handled by counter area in the 2020 edition: one receptacle for the first portion of countertop area and one more for each additional stated increment — the existing checklist item carries the 2020 numbers. This subsection also limits how far above a counter a receptacle may sit and restricts receptacles placed face-up in a work surface to listed assemblies.",
+      "on_the_job": "Count island area from the actual countertop drawing, including an overhang that is part of the work surface, and confirm the count before rough-in — adding an island receptacle after cabinets are set is the expensive version. Keep receptacles off the side of an island where the 2020 placement rules do not allow them to count.",
+      "sharma_note": "",
+      "figure_idea": "An island drawn in plan with its countertop area shaded and divided into the first area block and the additional blocks, one receptacle marked per block.",
+      "related_ids": [
+        "L-015",
+        "L-016",
+        "L-017",
+        "L-097",
+        "Q-009",
+        "Q-010",
+        "K-02",
+        "K-03",
+        "K-04",
+        "C2-Q-007"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.52(A)",
+      "next_id": "C2-210.52(D)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.52(D)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52(D)",
+      "title": "Bathroom receptacles",
+      "plain_explanation": "Each bathroom needs a receptacle close to every basin: within 3 ft of the outside edge of the basin, on a wall or partition next to it, or in one of the other positions this subsection permits. A double vanity has two basins and needs the requirement met for each one. This placement rule works alongside the bathroom circuit rule in 210.11(C)(3) and the GFCI list in 210.8(A) — all three have to be satisfied at the same sink.",
+      "on_the_job": "Measure from the basin's outside edge, not from the center of the faucet and not from the cabinet edge. On a long double vanity, one receptacle in the middle may not be within 3 ft of both basins — check both.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-018",
+        "Q-011",
+        "B-02",
+        "B-04"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.52(C)",
+      "next_id": "C2-210.52(E)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.52(E)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52(E)",
+      "title": "Outdoor receptacles for a dwelling",
+      "plain_explanation": "A one- and two-family dwelling needs readily accessible outdoor receptacles at the front and at the back, no more than 6.5 ft above grade, and additional rules cover balconies, decks, and porches that are accessible from inside. Multifamily buildings have their own version of this requirement. 'Readily accessible from grade' is part of the rule — a receptacle that can only be reached by a ladder or through a locked gate area does not serve the purpose.",
+      "on_the_job": "Place the front and back receptacles where a person standing on the ground can actually use them, and check porches and decks on the plan for the extra receptacle. Height is measured from grade at that wall, which matters on a sloped lot.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-019",
+        "Q-012",
+        "O-01"
+      ],
+      "florida_note": "Florida lots often slope toward drainage swales; measure the 6.5 ft from the grade at the receptacle, and confirm any local amendment with the AHJ.",
+      "verified": true,
+      "prev_id": "C2-210.52(D)",
+      "next_id": "C2-210.52(F)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.52(F)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52(F)",
+      "title": "Laundry receptacles",
+      "plain_explanation": "At least one receptacle is required in the laundry area of a dwelling, and it is served by the laundry branch circuit covered in 210.11(C)(2). A laundry closet counts the same as a laundry room for this placement rule. The dryer receptacle is a separate, larger outlet — this subsection is about the general laundry receptacle, usually the washer.",
+      "on_the_job": "If the washer location moves on a plan revision, move this receptacle with it and keep it on the laundry circuit. A receptacle borrowed from an adjacent hallway circuit fails both placement and circuit rules.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-020",
+        "LA-02",
+        "LA-01"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.52(E)",
+      "next_id": "C2-210.52(G)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.52(G)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52(G)",
+      "title": "Garage receptacles — one per vehicle bay",
+      "plain_explanation": "In the 2020 edition, a dwelling garage with power needs at least one receptacle in each vehicle bay, placed no more than 5.5 ft above the floor. Attached and detached garages are both addressed, and garages without electric power are outside the requirement. The bay rule replaced the older single-garage-receptacle habit — a three-bay garage is not finished with one receptacle by the door.",
+      "on_the_job": "Count bays from the door layout on the plan, not from how the owner says they will park. Put one receptacle in each bay at rough-in; adding the third bay's receptacle at trim is a drywall patch.",
+      "sharma_note": "",
+      "figure_idea": "A three-bay garage in plan view with one receptacle symbol inside each bay outline and a 5.5 ft height note.",
+      "related_ids": [
+        "L-021",
+        "G-01",
+        "G-02",
+        "C2-Q-008"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.52(F)",
+      "next_id": "C2-210.52(H)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.52(H)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52(H)",
+      "title": "Hallway receptacles",
+      "plain_explanation": "A dwelling hallway that is 10 ft or longer needs at least one receptacle. Length is measured along the centerline of the hallway, following its turns, without going through a doorway into another room. Short halls need none under this subsection, which is why the measurement — not a guess at 'about ten feet' — decides it.",
+      "on_the_job": "Run the tape down the centerline and around the bend of an L-shaped hall before deciding. Vacuum and night-light use is exactly what this receptacle is for.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-022",
+        "Q-013",
+        "BL-12"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.52(G)",
+      "next_id": "C2-210.52(I)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.52(I)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52(I)",
+      "title": "Foyer receptacles",
+      "plain_explanation": "A foyer that is not part of a larger room has its own receptacle rule, based on its area and on wall space that is not interrupted by a door or an opening. Larger foyers need more than one receptacle, placed on the uninterrupted walls the subsection describes. A small entry that opens directly into a living area is judged as part of that room instead — the existing lookup item works through the distinction.",
+      "on_the_job": "Measure the foyer as its own space when it is separated by doors or cased openings. Do not count a wall segment that is mostly doorway as usable wall space.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-023",
+        "C2-L-012"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.52(H)",
+      "next_id": "C2-210.63",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.63",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.63",
+      "title": "A service receptacle near heating and air-conditioning equipment",
+      "plain_explanation": "Equipment that needs servicing needs a receptacle close to it: a 125V, 15A or 20A receptacle on the same level and within 25 ft of heating, air-conditioning, and refrigeration equipment. It may not be wired to the load side of the equipment disconnect, so it stays live for a work light and tools while the unit is shut off. Rooftop and attic equipment are the cases Sharma meets most.",
+      "on_the_job": "At rough-in, locate the air handler and condenser, then place the receptacle and prove the 25 ft with a tape — following the access path, not through a wall. Keep it off the equipment circuit's load side.",
+      "sharma_note": "",
+      "figure_idea": "An attic air handler with a receptacle on a joist nearby, a 25 ft arc drawn around the unit, and the disconnect shown with the receptacle wired ahead of it.",
+      "related_ids": [
+        "L-024",
+        "Q-014",
+        "O-06",
+        "AH-02",
+        "C2-Q-009"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.52(I)",
+      "next_id": "C2-210.70",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.70",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.70",
+      "title": "Lighting outlets and wall switches",
+      "plain_explanation": "Habitable rooms, kitchens, and bathrooms need a wall-switched lighting outlet; in some living areas a switched receptacle may stand in for it, and the subsection separates those cases. Hallways, stairways, attached garages, and entries have their own switch-location rules, and rooms and spaces used for storage or equipment, plus attics and similar spaces, have lighting requirements of their own. The point throughout is that a person should never have to cross a dark room or a dark stair to reach a switch.",
+      "on_the_job": "Walk the plan as a person arriving at night: front door, hall, stairs, each room. If any leg of that walk is in the dark, a switching rule has probably been missed.",
+      "sharma_note": "S-05: switch boxes at 48 in to center when the plan is silent.",
+      "figure_idea": "A stair section with a switch at the bottom landing, a switch at the top landing, and the light over the stair lit from either one.",
+      "related_ids": [
+        "L-025",
+        "L-026",
+        "L-027",
+        "Q-015",
+        "B-06",
+        "BL-05",
+        "AH-01",
+        "S-05"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.63",
+      "next_id": "C2-ART-215",
+      "sharma_rule_ids": [
+        "S-05"
+      ]
+    },
+    {
+      "id": "C2-ART-215",
+      "chapter": 2,
+      "article": "215",
+      "section": "215",
+      "title": "Feeders — power between the service and the final panels",
+      "plain_explanation": "A feeder carries power from service equipment, a transformer, or another source to the panelboards where branch circuits begin. Article 215 is short: it covers feeder conductor sizing, overcurrent protection, and ground-fault protection for certain large feeders. Most feeder questions on a Sharma job are really answered together with Article 220 for the load, Article 240 for the protection, and Article 250 for the grounding conductor that runs with it.",
+      "on_the_job": "Name the run correctly on the schedule — service conductors, feeder, or branch circuit — because the sizing and grounding rules change with the name. A subpanel feed is a feeder, and it is wired like one.",
+      "sharma_note": "S-02 and S-09 frame Sharma feeder work: new gear is Siemens, and the house panel normally sits back to back with the meter where the house allows.",
+      "figure_idea": "A one-line diagram: meter and service disconnect, a feeder run, a subpanel, and branch circuits leaving the subpanel.",
+      "related_ids": [
+        "C2-L-013",
+        "C2-L-014",
+        "S-02",
+        "S-09"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-210.70",
+      "next_id": "C2-215.2",
+      "sharma_rule_ids": [
+        "S-02",
+        "S-09"
+      ]
+    },
+    {
+      "id": "C2-215.2",
+      "chapter": 2,
+      "article": "215",
+      "section": "215.2",
+      "title": "Feeder conductor size and the continuous-load rule",
+      "plain_explanation": "Feeder conductors must have ampacity at least as large as the noncontinuous load plus 125 percent of the continuous load, before derating and correction are worked through, unless a listed assembly rated for continuous operation is used. Feeders supplying a dwelling's whole load may also be sized under the dwelling service and feeder table covered in Chapter 3, which is why a house feeder is not always sized from the general ampacity table alone. The calculated load itself comes from Article 220.",
+      "on_the_job": "Do the Article 220 number first, then size the feeder — never size from the size of the panel that happens to be on the truck. Write the continuous portion down separately so the 125 percent step can be checked.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-013",
+        "C2-Q-010"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-ART-215",
+      "next_id": "C2-215.3",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-215.3",
+      "chapter": 2,
+      "article": "215",
+      "section": "215.3",
+      "title": "Feeder overcurrent protection",
+      "plain_explanation": "A feeder is protected by an overcurrent device rated not over the ampacity of its conductors, subject to the allowances in Article 240 — including the next-higher-standard-rating allowance where it applies and the tap rules where it does not. The breaker at the start of the feeder is therefore a conductor-protection question first and a load question second. Where a feeder continues to a subpanel, the equipment grounding conductor and the neutral treatment at that subpanel are Article 250 questions, covered later in this chapter.",
+      "on_the_job": "Match three numbers before energizing: feeder conductor ampacity, breaker rating, and the Article 240 rule you are relying on. If the middle number is larger than the first, name the allowance in the job file.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-014",
+        "L-032"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-215.2",
+      "next_id": "C2-ART-220",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-ART-220",
+      "chapter": 2,
+      "article": "220",
+      "section": "220",
+      "title": "Load calculations — proving the service is big enough",
+      "plain_explanation": "Article 220 is the arithmetic of the trade: it turns floor area, appliance nameplates, and heating and cooling equipment into a number that sizes branch circuits, feeders, and services. It offers a standard method that counts loads item by item and, for dwellings, an optional method that uses demand factors on the whole house. Sharma's house services are normally proved with the optional dwelling method, and the app's load calculator is built on it.",
+      "on_the_job": "Never size a service from the breaker that was there before or from a neighbor's house. Run the calculation, keep it in the job file, and let it pick the service size.",
+      "sharma_note": "",
+      "figure_idea": "A worksheet graphic: floor area, small-appliance circuits, laundry, appliances, and the larger of heat or AC feeding into one total, then a service size.",
+      "related_ids": [
+        "220.82",
+        "Q-064",
+        "Q-065",
+        "Q-066",
+        "C2-L-015"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-215.3",
+      "next_id": "C2-220.12",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.12",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.12",
+      "title": "General lighting load by floor area",
+      "plain_explanation": "For dwellings, the general lighting load is taken at 3 volt-amperes for each square foot of floor area, measured from the outside dimensions of the building, with the exclusions and inclusions the table and its notes describe — open porches and unfinished spaces not adaptable for future use are treated differently from living area and adaptable space. This is the starting block of both the standard and the optional dwelling calculations. It covers general lighting and general-use receptacles; named circuits and appliances are added on top of it.",
+      "on_the_job": "Measure the house the way the calculation does — outside dimensions — and do not subtract for hallways or closets. When a plan shows a finished bonus or a future area, decide with the calculation in hand whether it counts, and note the decision.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "Q-066",
+        "C2-L-015",
+        "C2-Q-011"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-ART-220",
+      "next_id": "C2-220.82",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.82",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.82",
+      "title": "The optional method for a dwelling service or feeder",
+      "plain_explanation": "Where a feeder or service supplies an entire dwelling, this optional method lets the load be totaled with demand factors instead of adding every load at full value. The method has conditions: it is for a dwelling, the service or feeder must carry the entire load, and the rating must meet the minimum this section sets. The general-loads part and the heating-and-cooling part are calculated separately and then added, and the existing calc table 220.82 in the app carries the rule rows and worked test cases for the method.",
+      "on_the_job": "Use the app calculator, then hand-check the two parts before you order gear: the demand-factored general load, and the larger heating-or-cooling figure. Save the printout or worksheet with the permit paperwork.",
+      "sharma_note": "S-09 affects the gear this calculation sizes: meter and panel back to back where the house allows.",
+      "figure_idea": "The calculator screen for 220.82 with its two blocks — general loads and heating/cooling — feeding a single service size.",
+      "related_ids": [
+        "220.82",
+        "Q-064",
+        "SP-04",
+        "C2-Q-012",
+        "S-09"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-220.12",
+      "next_id": "C2-220.82(B)",
+      "sharma_rule_ids": [
+        "S-09"
+      ]
+    },
+    {
+      "id": "C2-220.82(B)",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.82(B)",
+      "title": "Optional method — the general loads",
+      "plain_explanation": "The general-loads block starts with floor area at 3 VA per square foot, adds 1,500 VA for each small-appliance circuit and for the laundry circuit, and adds the nameplate ratings of the appliances and motors the subsection lists. The first 10 kVA of that total is taken at full value and the remainder at 40 percent. That demand step is the whole advantage of the optional method, and it only applies to the loads this block covers — heating and cooling are handled separately in the next part.",
+      "on_the_job": "Count circuits, not appliances, for the 1,500 VA blocks: two small-appliance circuits are required, and a third one that is installed also counts. Use nameplate VA where a rating is given in amps and volts.",
+      "sharma_note": "",
+      "figure_idea": "A bar showing a general-load total split at 10 kVA: the first block at 100 percent, the rest at 40 percent.",
+      "related_ids": [
+        "220.82",
+        "Q-064",
+        "Q-065",
+        "Q-066",
+        "C2-Q-013"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-220.82",
+      "next_id": "C2-220.82(C)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.82(C)",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.82(C)",
+      "title": "Optional method — heating and cooling",
+      "plain_explanation": "Heating and cooling do not run at full load together, so this part takes the largest of several stated options rather than the sum — air conditioning at full value is one option, fixed electric space heating is treated by count of units, and heat pumps with supplementary heat have their own sub-cases. Because those heat-pump sub-cases were only summarized in the v1 material, this page states the structure and not item-by-item percentages for them. Mike must confirm the sub-cases against the printed code before any calculator logic or exam answer depends on them.",
+      "on_the_job": "In Florida the air-conditioning figure usually wins this comparison, but a house with strip heat or a heat pump with auxiliary heat still needs the comparison done and written down. Take the compressor and air-handler figures from nameplates, not from tonnage rules of thumb.",
+      "sharma_note": "",
+      "figure_idea": "A balance graphic: AC load on one side, heating load on the other, with only the heavier side carried into the total.",
+      "related_ids": [
+        "220.82",
+        "C2-L-016"
+      ],
+      "florida_note": "Florida heat pumps with electric auxiliary heat are common in Sharma's territory; that is exactly the sub-case flagged for confirmation, so do not skip the comparison on a Florida house.",
+      "verified": false,
+      "prev_id": "C2-220.82(B)",
+      "next_id": "C2-ART-225",
+      "sharma_rule_ids": [],
+      "unverified_reason": "UNVERIFIED in part: v1 README item 4 — 220.82(C) was summarized in plain words, not item by item, and the heat-pump sub-cases were not re-checked against the printed code. This page avoids stating those sub-case percentages as fact."
+    },
+    {
+      "id": "C2-ART-225",
+      "chapter": 2,
+      "article": "225",
+      "section": "225",
+      "title": "Outside branch circuits and feeders",
+      "plain_explanation": "Article 225 covers wiring that runs outside — between buildings, across a yard, or overhead or underground to a detached structure. Its recurring themes are clearances, support, a disconnect at the building being supplied, and limits on how many supplies a building may have. Sharma meets it on detached garages, barns, pool houses, and site lighting fed from a house or a main building.",
+      "on_the_job": "When a run leaves a building, switch articles. A feeder inside one building and the same feeder continued to a second building are judged by different pages, and the second building needs its own disconnect and grounding treatment.",
+      "sharma_note": "",
+      "figure_idea": "A site plan: house panel, a buried feeder crossing a yard, and a detached garage with its own disconnect and ground rods.",
+      "related_ids": [
+        "C2-L-017",
+        "C2-L-018"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-220.82(C)",
+      "next_id": "C2-225.30",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-225.30",
+      "chapter": 2,
+      "article": "225",
+      "section": "225.30",
+      "title": "How many supplies may feed one building",
+      "plain_explanation": "The general rule is one: a building or structure gets a single feeder or branch circuit, or a single set of feeders, subject to the exceptions the section lists for things such as emergency and standby systems, fire pumps, and certain large or separately controlled installations. Two ordinary feeders run to the same detached garage because two panels were convenient is not one of the ordinary cases. Where an exception is used, the building must carry a permanent plaque or directory showing where the other disconnects are.",
+      "on_the_job": "Before running a second supply to a structure that already has one, name the exception in writing in the job file. If you cannot name one, redesign to a single larger feeder and a subpanel.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-017",
+        "C2-Q-014"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-ART-225",
+      "next_id": "C2-225.31",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-225.31",
+      "chapter": 2,
+      "article": "225",
+      "section": "225.31",
+      "title": "A disconnect at the building being supplied",
+      "plain_explanation": "A feeder or branch circuit supplying another building must have a disconnecting means at that building, located and grouped as this section and the following sections require, suitable for use as service equipment where required, and rated as those sections set out. The disconnect is what lets a person at the detached building kill its power without walking back to the main building. Its rating and location rules sit in the sections immediately after this one, so read them together on a real job.",
+      "on_the_job": "Mount and label the disconnect at rough-in, not at final. If the feeder feeds a subpanel inside the building, confirm which device is the building disconnect and that it is grouped and marked as such.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-018",
+        "C2-Q-015"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-225.30",
+      "next_id": "C2-ART-230",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-ART-230",
+      "chapter": 2,
+      "article": "230",
+      "section": "230",
+      "title": "Services — where utility power enters",
+      "plain_explanation": "Article 230 governs the service: the conductors and equipment that bring utility power to the building and end at the service disconnect. It covers how many services a building may have, conductor clearances, where the disconnect goes and how many there may be, how big a dwelling service must be, and two 2020 additions Sharma sees on every house — surge protection and an outdoor emergency disconnect. The meter and panel layout a builder notices most is decided here and in Article 250.",
+      "on_the_job": "Plan the service as one assembly at rough-in: drop or lateral clearances, meter position, disconnect, SPD, emergency disconnect, grounding electrode system. Finding one piece missing at final is a re-inspection.",
+      "sharma_note": "S-09: meter outside, panel inside directly behind it, where the house allows. S-02: new service gear is Siemens.",
+      "figure_idea": "A house gable end showing a service drop with clearances, a meter, an outdoor emergency disconnect, and the panel inside on the same wall.",
+      "related_ids": [
+        "L-046",
+        "L-047",
+        "L-048",
+        "L-049",
+        "L-050",
+        "L-051",
+        "S-02",
+        "S-09"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-225.31",
+      "next_id": "C2-230.9",
+      "sharma_rule_ids": [
+        "S-02",
+        "S-09"
+      ]
+    },
+    {
+      "id": "C2-230.9",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.9",
+      "title": "Clearances for service conductors",
+      "plain_explanation": "Service conductors that run where people, windows, doors, and vehicles can reach them need clearance. Overhead conductors near a building must keep the distances this section sets from windows, doors, porches, and similar features, with a stated allowance where conductors run above an opening. Underground and other service arrangements are handled by their own parts of the article and by Article 300 burial rules.",
+      "on_the_job": "Check the drop against the finished building, not the framing: a window that will open, a porch roof, and a balcony added on a plan revision all change the clearance picture. Use the existing lookup item for the window rule crews ask about most.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-051",
+        "C2-L-019"
+      ],
+      "florida_note": "The utility's own service standards also apply in Florida and may be stricter at the pole and weatherhead; the AHJ and the serving utility both have a say at the service.",
+      "verified": true,
+      "prev_id": "C2-ART-230",
+      "next_id": "C2-230.67",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-230.67",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.67",
+      "title": "Surge protection on the service",
+      "plain_explanation": "New in the 2020 edition, this section requires surge protection when a service supplies a dwelling: a listed Type 1 or Type 2 surge protective device, installed in or next to the service equipment, with the rating and connection rules the section states. It also applies when service equipment is replaced. It protects the house's electronics against surges arriving on the service; it is not lightning protection and it is not a substitute for equipment-level protection on sensitive gear.",
+      "on_the_job": "Confirm the SPD is on the material list for every new house service and every service change, and that its location — integral to the panel or in an enclosure next to it — is drawn before rough-in. A surge device left in the truck is a failed item.",
+      "sharma_note": "S-02: new gear is Siemens, so the SPD choice follows the Siemens service equipment on Sharma jobs.",
+      "figure_idea": "A panel with an integral surge device shown beside the main breaker and a short lead connection drawn in.",
+      "related_ids": [
+        "L-046",
+        "Q-045",
+        "SP-05",
+        "S-02",
+        "C2-Q-016"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-230.9",
+      "next_id": "C2-230.70",
+      "sharma_rule_ids": [
+        "S-02"
+      ]
+    },
+    {
+      "id": "C2-230.70",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.70",
+      "title": "Where the service disconnect goes",
+      "plain_explanation": "The service disconnect must be readily accessible and in one of the locations this section allows: outside the building, or inside near the point where the service conductors enter, subject to the 2020 wording and to what the AHJ accepts for conductor length inside. Every occupant also needs access to disconnecting means for their own space in the occupancies the section covers. The disconnect is what everything downstream is judged from — it is where the service ends and feeders and branch circuits begin.",
+      "on_the_job": "Decide the disconnect location with the inspector's local practice in mind before the service is built, especially on a service change where an older inside location is being reused. Keep the path to it clear and the location marked.",
+      "sharma_note": "S-09's back-to-back layout puts the panel directly behind the meter, which keeps service conductors inside the building to the shortest practical run.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-049",
+        "C2-L-020",
+        "S-09"
+      ],
+      "florida_note": "Florida AHJs differ on how much service conductor they accept inside a building before the disconnect. Confirm the local position on a service layout that is not the standard back-to-back arrangement.",
+      "verified": true,
+      "prev_id": "C2-230.67",
+      "next_id": "C2-230.71",
+      "sharma_rule_ids": [
+        "S-09"
+      ]
+    },
+    {
+      "id": "C2-230.71",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.71",
+      "title": "How many service disconnects, and how they are grouped",
+      "plain_explanation": "The 2020 edition reorganized this rule: a service may have up to the stated maximum number of disconnects, each disconnect must be in its own enclosure, and the disconnects must be grouped where the section requires grouping. The older picture of several switches ganged in one enclosure as separate service disconnects is not the 2020 arrangement. The existing lookup item carries the count as v1 checked it.",
+      "on_the_job": "On a service with more than one disconnect, draw each enclosure on the plan and show the grouping. Do not order a multi-switch assembly on an old-edition habit without checking it against this section.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-050",
+        "C2-Q-017"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-230.70",
+      "next_id": "C2-230.79(C)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-230.79(C)",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.79(C)",
+      "title": "Minimum size for a one-family dwelling service",
+      "plain_explanation": "A one-family dwelling service disconnect is rated at least 100 amperes, 3-wire. That is a floor, not a recommendation: the Article 220 calculation governs whenever it comes out higher, which on a modern Florida house with electric range, dryer, water heating, and air conditioning it usually does. Other occupancies and uses have their own minimums in the surrounding subsections of 230.79.",
+      "on_the_job": "Never quote a 100A service because it is the minimum. Run the calculation, and if the result is close to a standard size, say so with the worksheet in hand.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-048",
+        "Q-047",
+        "C2-Q-018"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-230.71",
+      "next_id": "C2-230.85",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-230.85",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.85",
+      "title": "An outdoor emergency disconnect for dwellings",
+      "plain_explanation": "Also new in 2020, this section requires one- and two-family dwellings to have an emergency disconnect in a readily accessible outdoor location, marked as the emergency disconnect in the way the section requires. It exists so firefighters and first responders can kill power to the house without entering it. Where the service equipment itself is outdoors and meets the section, the arrangement may already satisfy it; where the disconnect is indoors, a separate outdoor device is the usual answer.",
+      "on_the_job": "Add the emergency disconnect to the service material list and the plan notes at the same time as the SPD — the two 2020 items are missed together. Mark it as required, not with a generic label.",
+      "sharma_note": "S-02: the device is part of the Siemens service gear package on a new Sharma service.",
+      "figure_idea": "An outdoor meter-main on a house wall with the emergency disconnect handle and its marking highlighted.",
+      "related_ids": [
+        "L-047",
+        "Q-046",
+        "SP-06",
+        "O-07",
+        "S-02"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-230.79(C)",
+      "next_id": "C2-ART-240",
+      "sharma_rule_ids": [
+        "S-02"
+      ]
+    },
+    {
+      "id": "C2-ART-240",
+      "chapter": 2,
+      "article": "240",
+      "section": "240",
+      "title": "Overcurrent protection — breakers and fuses",
+      "plain_explanation": "Article 240 is the protection article: it decides where overcurrent devices go, what standard ratings exist, how conductors are protected, when the next higher rating may be used, how tap conductors work, and where panels may and may not be located. A breaker has two jobs that must not be confused — it protects the conductor, and only through that does it protect the equipment and the building. Most of Article 240 that Sharma uses daily is in 240.4 and 240.24.",
+      "on_the_job": "For every circuit, ask the Article 240 question out loud: what conductor am I protecting, at what ampacity, and which rule lets me use this breaker size? If the answer is a shrug, the circuit is not designed yet.",
+      "sharma_note": "S-03: in an existing Square D panel, use Square D breakers listed for that panel. Brand mixing is not an Article 240 allowance.",
+      "figure_idea": "A breaker panel with one breaker lifted out, showing its rating marking and the conductor it protects drawn beside it.",
+      "related_ids": [
+        "L-031",
+        "L-032",
+        "L-043",
+        "L-044",
+        "S-03"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-230.85",
+      "next_id": "C2-240.4",
+      "sharma_rule_ids": [
+        "S-03"
+      ]
+    },
+    {
+      "id": "C2-240.4",
+      "chapter": 2,
+      "article": "240",
+      "section": "240.4",
+      "title": "Protecting a conductor at its ampacity",
+      "plain_explanation": "The starting rule of the article is simple: conductors are protected against overcurrent at their ampacity, in the ways this section then refines. It points to the special cases handled elsewhere — motors, air conditioning, welders, transformers, and others — where the nameplate or a specific article changes the protection picture. It also contains the two allowances Sharma uses most, covered on the next two pages: rounding up to the next standard rating in limited conditions, and the small-conductor caps.",
+      "on_the_job": "When equipment has a nameplate that states its own maximum protection, follow that equipment article and the nameplate — the general rule here is not permission to upsize. Write the special-case citation in the job file when you use one.",
+      "sharma_note": "S-10 governs the wire this protection is matched to at Sharma: copper by default, CCA one size up, rated in the aluminum column.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-031",
+        "L-032",
+        "S-10",
+        "C2-L-021"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-ART-240",
+      "next_id": "C2-240.4(B)",
+      "sharma_rule_ids": [
+        "S-10"
+      ]
+    },
+    {
+      "id": "C2-240.4(B)",
+      "chapter": 2,
+      "article": "240",
+      "section": "240.4(B)",
+      "title": "When the next higher breaker size may be used",
+      "plain_explanation": "Where a conductor's ampacity does not land on a standard rating, the next higher standard overcurrent device may be used only when the conditions in this subsection are all met: the conductor is not part of a multi-outlet branch circuit supplying receptacles, the ampacity is not over the stated ceiling for this allowance, and the next higher device does not exceed that same ceiling. It is an allowance with fences, not a general right to round up. The existing lookup item works the common examples.",
+      "on_the_job": "State all three conditions when you use this allowance on a feeder or an equipment circuit. If the circuit feeds receptacles on a multi-outlet branch circuit, stop — the allowance is not available.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-032",
+        "C2-Q-019"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-240.4",
+      "next_id": "C2-240.4(D)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-240.4(D)",
+      "chapter": 2,
+      "article": "240",
+      "section": "240.4(D)",
+      "title": "The small-conductor caps",
+      "plain_explanation": "Whatever the ampacity table allows at a higher temperature rating, this subsection caps overcurrent protection for small conductors: 14 AWG copper at 15A, 12 AWG copper at 20A, and 10 AWG copper at 30A, with tighter caps for aluminum and copper-clad aluminum — 12 AWG at 15A and 10 AWG at 25A. Specific equipment articles can direct otherwise for their own equipment, but for general branch wiring these caps are the numbers that decide the breaker. They are also why a 12 AWG conductor on a 25A breaker fails inspection even when a table column seems to allow the ampacity.",
+      "on_the_job": "Memorize the copper row and the aluminum/CCA row separately. On a CCA job, a 20A circuit means 10 AWG wire — check the roll before it is pulled, not at the panel.",
+      "sharma_note": "S-10 is this rule as Sharma practice: copper 14 on 15A and 12 on 20A; CCA one size up, 12 on 15A and 10 on 20A, with terminations marked for the conductor and no backstabbing.",
+      "figure_idea": "A three-row chart graphic: wire size, copper cap, aluminum/CCA cap, with the CCA row highlighted.",
+      "related_ids": [
+        "L-031",
+        "Q-017",
+        "Q-018",
+        "BL-13",
+        "S-10",
+        "C2-Q-020"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-240.4(B)",
+      "next_id": "C2-240.6",
+      "sharma_rule_ids": [
+        "S-10"
+      ]
+    },
+    {
+      "id": "C2-240.6",
+      "chapter": 2,
+      "article": "240",
+      "section": "240.6",
+      "title": "Standard ratings for breakers and fuses",
+      "plain_explanation": "Overcurrent devices come in standard ampere ratings, and this section lists them — the familiar steps from small branch ratings through the large service ratings, plus the additional standard ratings it names for fuses. Nonstandard ratings exist only in the limited cases the Code allows. A calculation that lands between two standard ratings is resolved by the protection rules, not by ordering a breaker in the calculated size.",
+      "on_the_job": "When a load calculation lands at a nonstandard number, write the next step as a choice between the standard ratings on either side and record which rule you used. Do not write a nonstandard breaker size on a material list.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-021",
+        "C2-Q-021"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-240.4(D)",
+      "next_id": "C2-240.24",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-240.24",
+      "chapter": 2,
+      "article": "240",
+      "section": "240.24",
+      "title": "Where overcurrent devices may be located",
+      "plain_explanation": "Overcurrent devices must be readily accessible, protected from damage, and within the height limit this section sets — the operating handle, at its highest position, no more than 6 ft 7 in above the floor or working platform, with exceptions for the cases the section names. The same section bars overcurrent devices from the vicinity of easily ignitable material, from clothes closets, and, in dwellings, from bathrooms. The exception wording under subsection (A) is flagged below; the height number and the closet and bathroom prohibitions are covered by the checked v1 items linked here.",
+      "on_the_job": "Measure handle height to the top breaker in the panel as installed, including a raised floor or platform change on a remodel. And site the panel early: a closet or bathroom location is a relocation, not a waiver request.",
+      "sharma_note": "S-09's back-to-back panel still has to satisfy this section and the working-space rules in Article 110 — a good meter position does not excuse a panel in a closet.",
+      "figure_idea": "A panel on a wall with a tape from the floor to the top breaker handle at 6 ft 7 in, and a closet door and a bathroom door both crossed out as locations.",
+      "related_ids": [
+        "L-043",
+        "L-044",
+        "Q-019",
+        "Q-020",
+        "B-07",
+        "SP-13",
+        "S-09"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-240.6",
+      "next_id": "C2-ART-250",
+      "sharma_rule_ids": [
+        "S-09"
+      ],
+      "unverified_reason": "UNVERIFIED in part: v1 README item 3 — the exception wording in 240.24(A) was taken from memory and not re-checked this pass. The 6 ft 7 in height and the 240.24(D)/(E) closet and bathroom prohibitions are as covered by checked v1 items L-043/L-044 and Q-019/Q-020; Mike to confirm the (A) exceptions against the printed 2020 text."
+    },
+    {
+      "id": "C2-ART-250",
+      "chapter": 2,
+      "article": "250",
+      "section": "250",
+      "title": "Grounding and bonding — the fault-current path",
+      "plain_explanation": "Article 250 is the longest and most argued article in this chapter. Grounding connects a system to earth through electrodes; bonding connects metal parts together so a fault has a low-impedance path back to the source that trips the breaker fast. Earth itself is not that fault path — the breaker trips because bonding carries the fault home. The pages that follow walk the service bond, the electrodes, the sizing tables, and the piping and intersystem bonds in that order.",
+      "on_the_job": "On every job, trace one imaginary fault with your finger: from a hot wire touching a metal box, through the ground or bond, back to the source, and out on the hot again. If any link in that loop is missing, painted over, or loose, you have found the defect.",
+      "sharma_note": "Torque and termination discipline decide whether this article works in real life. A correctly sized conductor on a loose lug is not a fault path.",
+      "figure_idea": "A fault-path diagram: a hot conductor touching an appliance frame, fault current traveling the green ground back to the service bond, and the breaker opening.",
+      "related_ids": [
+        "L-052",
+        "L-056",
+        "L-057",
+        "L-058",
+        "SP-07",
+        "SP-09",
+        "SP-10"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-240.24",
+      "next_id": "C2-250.4",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.4",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.4",
+      "title": "What grounding and bonding must accomplish",
+      "plain_explanation": "This general section states the performance the rest of the article builds: grounded systems are connected to earth in a way that limits voltage from lightning and surges and stabilizes voltage to ground, and electrical equipment and enclosures are bonded together into a continuous, low-impedance path that can carry fault current long enough for the overcurrent device to open. It also states plainly that the earth is not to be used as the sole equipment grounding conductor. When a specific installation rule is unclear, this section is the test it has to pass.",
+      "on_the_job": "Use this page when a field argument starts: 'will it trip the breaker, fast, every time?' is the question this section asks. If the honest answer is no, the detail is wrong whatever it looks like.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-022",
+        "C2-Q-022"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-ART-250",
+      "next_id": "C2-250.24",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.24",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.24",
+      "title": "Grounding at the service — and nowhere downstream",
+      "plain_explanation": "At the service, the grounded conductor is connected to the grounding electrode system and to the equipment grounding conductors through the main bonding jumper, in the service equipment. That is the one place in a premises system where neutral and ground meet. Downstream of the service — in subpanels and feeders — the grounded conductor is kept isolated from equipment grounds and enclosures, so normal neutral current never travels on metal parts and fault current has one clear path home.",
+      "on_the_job": "In every subpanel: neutral bar isolated and not bonded to the can, ground bar bonded to the can, grounds and neutrals on their own bars, and no bonding screw or strap left in place by habit. Photograph the first subpanel on a job and check it against this page.",
+      "sharma_note": "S-09's back-to-back service is where Sharma's bond is made; every panel downstream of it is wired isolated-neutral, no exceptions for a detached building panel that is actually a subpanel — see 250.32 for the separate-building case.",
+      "figure_idea": "Two panel drawings side by side: a service panel with the bond shown, and a subpanel with the bonding strap removed and the neutral bar floating.",
+      "related_ids": [
+        "L-057",
+        "SP-10",
+        "C2-L-023",
+        "C2-Q-023",
+        "S-09"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.4",
+      "next_id": "C2-250.28",
+      "sharma_rule_ids": [
+        "S-09"
+      ]
+    },
+    {
+      "id": "C2-250.28",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.28",
+      "title": "Main and system bonding jumpers",
+      "plain_explanation": "The bonding jumper is the conductor or connection that ties the grounded conductor, the equipment grounding system, and the enclosure together at the service, and the system bonding jumper does the same job for a separately derived system. This section covers their material and how they are sized — for the main bonding jumper, by reference to the same sizing table used for the grounding electrode conductor, with the limits the section states. A jumper that is present but undersized or poorly landed does not do the job.",
+      "on_the_job": "Factory-installed straps and screws count only when they are the listed means for that equipment and actually installed. On a service change, verify the jumper exists before you call for inspection — it is a small part with a whole article riding on it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-024",
+        "L-057"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.24",
+      "next_id": "C2-250.32",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.32",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.32",
+      "title": "A separate building fed by a feeder",
+      "plain_explanation": "When a feeder supplies a second building or structure, that building needs its own grounding electrode system and a disconnect, and an equipment grounding conductor is run with the feeder in modern work. The grounded conductor at the separate building is not bonded again in the ordinary case — the bond stays at the service — and the narrow exception for existing installations has conditions that must all be met. This is the Article 250 companion to the Article 225 pages earlier in this chapter.",
+      "on_the_job": "Treat a detached garage panel as a subpanel that also needs electrodes: four-wire feeder, isolated neutral, ground bar bonded, rods driven at the building. Do not re-bond the neutral because the building 'feels like' its own service.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-025",
+        "C2-Q-024"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.28",
+      "next_id": "C2-250.50",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.50",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.50",
+      "title": "The grounding electrode system — all of it, bonded together",
+      "plain_explanation": "Every grounding electrode that is present at a building must be bonded together into one grounding electrode system: metal underground water pipe, building steel, a concrete-encased electrode, a ground ring, rods and pipes, plates, and the other electrodes the next section lists. 'Present' is the deciding word — an electrode that exists on the job may not be skipped because another one was easier to connect. The grounding electrode conductor connects that system to the service.",
+      "on_the_job": "Inventory the electrodes on the site walk: water service material, foundation steel or rebar, and what will be driven. A concrete-encased electrode has to be caught before the pour — after it, the chance is gone.",
+      "sharma_note": "",
+      "figure_idea": "A foundation plan with a Ufer connection stubbed up, a water pipe bond, and two ground rods, all tied by one conductor back to the service.",
+      "related_ids": [
+        "L-056",
+        "SP-09",
+        "C2-L-026"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.32",
+      "next_id": "C2-250.52",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.52",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.52",
+      "title": "Electrodes that are permitted — and the ones that are not",
+      "plain_explanation": "This section lists what may serve as a grounding electrode, from underground water pipe with its conditions, through building steel and concrete-encased electrodes — at least 20 ft of the stated rebar or bare copper conductor encased in the foundation — to rods, pipes, and plates. It also lists what may not be used, which includes metal underground gas piping and aluminum electrodes. A water pipe electrode has its own supplementing rule, covered with the installation section.",
+      "on_the_job": "The concrete-encased electrode is the one to coordinate with the builder: 20 ft of qualifying rebar or conductor, encased as the section requires, with an accessible connection. Confirm it with the concrete crew before the pour, in writing on the job notes.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-055",
+        "Q-042",
+        "C2-L-027"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.50",
+      "next_id": "C2-250.53",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.53",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.53",
+      "title": "Installing electrodes — rods, depth, and the second rod",
+      "plain_explanation": "Electrodes must be installed as this section requires: driven or buried to the depths it states, kept as close as practicable to each other and to the service, and supplemented where a single rod, pipe, or plate does not meet the stated resistance to earth — 25 ohms or less — or is not tested at all. In practice that means a second rod, spaced at least 6 ft from the first, on almost every job. Rod connections must be accessible or of the irreversible or exothermic type the article allows where they are buried.",
+      "on_the_job": "Drive two rods at least 6 ft apart unless you have a tested 25-ohm-or-less result in the job file. Keep the grounding electrode conductor run short, straight, and protected where it is exposed.",
+      "sharma_note": "",
+      "figure_idea": "Two ground rods driven flush, spaced with a 6 ft tape between them, and the conductor clamped to each in turn on its way to the service.",
+      "related_ids": [
+        "L-053",
+        "L-054",
+        "Q-040",
+        "Q-041",
+        "SP-08",
+        "C2-Q-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.52",
+      "next_id": "C2-250.66",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.66",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.66",
+      "title": "Sizing the grounding electrode conductor",
+      "plain_explanation": "The grounding electrode conductor is sized from Table 250.66 by the size of the largest service-entrance conductor, not by the amperage of the service disconnect alone. The section then caps what is actually required for particular electrodes: a run that goes only to rods needs no larger than the stated maximum, and a run to a concrete-encased electrode has its own larger cap — the existing checklist and quiz items carry those numbers. Aluminum and copper-clad conductors used for this purpose have material and installation limits in the surrounding sections.",
+      "on_the_job": "Read the service conductor size off the actual conductors, then open the table — a 200A service on compact conductors is not automatically the row you expect. Where one conductor serves several electrodes, size and cap it electrode by electrode as the section directs.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-052",
+        "Q-038",
+        "Q-039",
+        "SP-07",
+        "C2-Q-026"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.53",
+      "next_id": "C2-250.68",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.68",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.68",
+      "title": "Connections to electrodes — accessibility and continuity",
+      "plain_explanation": "Grounding electrode conductor connections must be made so they stay effective: clamps and connectors listed for the electrode and the conductor, connections to a water pipe made at an accessible point within the stated distance of where the pipe enters the building, and the conductor kept continuous or spliced only by the methods this section allows. Interior metal water piping farther into the building is a bonding question, not a substitute electrode connection point.",
+      "on_the_job": "Land the water-pipe clamp where it can be inspected, on clean metal, and do not bury a mechanical splice in the grounding electrode conductor run. If a run is cut short on a remodel, replace it or use an allowed irreversible splice — not a split bolt in a wall.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C2-L-028",
+        "L-059"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.66",
+      "next_id": "C2-250.94",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.94",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.94",
+      "title": "The intersystem bonding termination",
+      "plain_explanation": "Other systems — telephone, cable, antenna, and similar communications systems — need a place to bond to the electrical grounding system, and this section requires an intersystem bonding termination at the service or metering equipment, accessible for connection, with room for the stated number of terminations. It is the small bar or bridge by the meter that keeps a cable installer from clamping onto a random pipe. It does not replace the bonding those systems' own articles require; it gives them the listed place to land.",
+      "on_the_job": "Install it where the other utilities actually arrive at the house, and leave it accessible after siding and landscaping. Point it out on the final walk — half its failures are being buried behind finishes.",
+      "sharma_note": "",
+      "figure_idea": "A meter base with a small bonding bridge mounted beside it, with telephone and cable ground wires landed on its terminals.",
+      "related_ids": [
+        "L-060",
+        "SP-11",
+        "C2-L-029"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.68",
+      "next_id": "C2-250.104",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.104",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.104",
+      "title": "Bonding metal piping systems",
+      "plain_explanation": "Metal water piping in a building supplied by a grounded system must be bonded, sized and connected as this section directs, and other metal piping that is likely to become energized — gas piping is the standard example — must be bonded as well. The bonding jumper is sized by the circuit or service that could energize the piping, using the tables this section points to. Bonding a pipe is a different job from using it as an electrode, and a pipe can need both treatments in different places.",
+      "on_the_job": "Trace the water piping bond from the panel to clean pipe, and check any jumper over a water meter or filter so the path stays continuous when the meter is removed. For gas piping, bond per this section and the appliance and piping instructions — and see the Florida note on CSST.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-059",
+        "C2-L-030"
+      ],
+      "florida_note": "CSST gas piping carries manufacturer bonding instructions and FBC Fuel Gas requirements beyond this section. The v1 item L-059 is simplified to this section's rule; do not treat this page as covering CSST bonding.",
+      "verified": true,
+      "prev_id": "C2-250.94",
+      "next_id": "C2-250.122",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.122",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.122",
+      "title": "Sizing the equipment grounding conductor",
+      "plain_explanation": "The green or bare conductor that runs with a circuit is sized from Table 250.122 by the rating of the overcurrent device ahead of it — not by the size of the current-carrying conductors, except that when circuit conductors are upsized, the equipment ground must be upsized in proportion. It must be able to carry fault current back to the source for as long as the breaker takes to open, which is why a long, upsized run with a standard ground is a defect even though every receptacle tests 'grounded.' The existing quiz items carry the table's common values.",
+      "on_the_job": "When you upsize a run for voltage drop, upsize the ground in the same proportion and write both sizes on the plan. Cable assemblies do this for you; conduit runs do not — check the pull list.",
+      "sharma_note": "S-10: on a CCA branch run, the equipment grounding conductor and its connectors still have to be suitable for the installation — check AL-CU markings where CCA is involved.",
+      "figure_idea": "A conduit pull list showing a circuit upsized from 12 to 10 AWG for a long run, with the equipment ground upsized beside it.",
+      "related_ids": [
+        "L-058",
+        "Q-043",
+        "Q-044",
+        "SP-07",
+        "C2-Q-027",
+        "S-10"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C2-250.104",
+      "next_id": "C2-250.140",
+      "sharma_rule_ids": [
+        "S-10"
+      ]
+    },
+    {
+      "id": "C2-250.140",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.140",
+      "title": "Frames of ranges and dryers on existing circuits",
+      "plain_explanation": "Older installations were permitted to ground the frames of ranges and clothes dryers to the neutral on a 3-wire circuit, and this section keeps that arrangement lawful only for existing installations that meet all of its conditions. New work is 4-wire: two hots, an insulated neutral, and a separate equipment ground, with the appliance's bonding strap removed. This page is a tip for service work, not a design rule — and its detailed conditions are flagged below.",
+      "on_the_job": "On a service call, identify what is actually in the wall before quoting a receptacle swap. If the circuit is being replaced or extended as new work, pull 4-wire and set a 4-wire receptacle and cord; never create a new 3-wire installation, and never leave the strap in place on a 4-wire hookup.",
+      "sharma_note": "",
+      "figure_idea": "A dryer back panel showing the bonding strap removed and a 4-wire cord's green lead landed on the frame screw.",
+      "related_ids": [
+        "LA-06",
+        "C2-L-031"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-250.122",
+      "next_id": null,
+      "sharma_rule_ids": [],
+      "unverified_reason": "UNVERIFIED as a detailed statement: v1 README item 3 lists 250.140 among section wordings taken from memory and not re-checked this pass, and the Ch.2 brief treats it as a v1 tip only. The new-work 4-wire practice in this page is the standing Sharma field practice (LA-06); Mike to confirm the existing-installation conditions against the printed 2020 text before this page is relied on for a borderline case."
+    }
+  ],
+  "toc": [
+    {
+      "id": "C2-ART-200",
+      "article": "200",
+      "title": "Grounded conductors — how they are identified",
+      "children": [
+        {
+          "id": "C2-200.6",
+          "section": "200.6",
+          "title": "How a grounded conductor is marked"
+        },
+        {
+          "id": "C2-200.7",
+          "section": "200.7",
+          "title": "What white or gray insulation may be used for"
+        }
+      ]
+    },
+    {
+      "id": "C2-ART-210",
+      "article": "210",
+      "title": "Branch circuits — the circuits that feed the load",
+      "children": [
+        {
+          "id": "C2-210.4",
+          "section": "210.4",
+          "title": "Multiwire branch circuits"
+        },
+        {
+          "id": "C2-210.8",
+          "section": "210.8",
+          "title": "Ground-fault protection for people"
+        },
+        {
+          "id": "C2-210.8(A)",
+          "section": "210.8(A)",
+          "title": "Dwelling locations that need GFCI protection"
+        },
+        {
+          "id": "C2-210.8(A)(10)",
+          "section": "210.8(A)(10)",
+          "title": "Laundry areas — including the dryer receptacle"
+        },
+        {
+          "id": "C2-210.8(B)",
+          "section": "210.8(B)",
+          "title": "GFCI locations outside dwellings"
+        },
+        {
+          "id": "C2-210.8(D)",
+          "section": "210.8(D)",
+          "title": "Specific appliances that need GFCI protection"
+        },
+        {
+          "id": "C2-210.8(F)",
+          "section": "210.8(F)",
+          "title": "Outdoor outlets other than receptacles"
+        },
+        {
+          "id": "C2-210.11",
+          "section": "210.11",
+          "title": "Branch circuits a dwelling must have"
+        },
+        {
+          "id": "C2-210.11(C)",
+          "section": "210.11(C)",
+          "title": "The named dwelling circuits: kitchen, laundry, bathroom, garage"
+        },
+        {
+          "id": "C2-210.12",
+          "section": "210.12",
+          "title": "Arc-fault protection"
+        },
+        {
+          "id": "C2-210.12(A)",
+          "section": "210.12(A)",
+          "title": "Rooms where dwelling circuits need AFCI protection"
+        },
+        {
+          "id": "C2-210.12(D)",
+          "section": "210.12(D)",
+          "title": "Extending or modifying an existing circuit"
+        },
+        {
+          "id": "C2-210.19",
+          "section": "210.19",
+          "title": "Sizing branch-circuit conductors"
+        },
+        {
+          "id": "C2-210.21",
+          "section": "210.21",
+          "title": "Outlet devices and receptacle ratings on a circuit"
+        },
+        {
+          "id": "C2-210.23",
+          "section": "210.23",
+          "title": "How much load a branch circuit may carry"
+        },
+        {
+          "id": "C2-210.52",
+          "section": "210.52",
+          "title": "Where dwelling receptacles must go"
+        },
+        {
+          "id": "C2-210.52(A)",
+          "section": "210.52(A)",
+          "title": "Wall spacing in habitable rooms"
+        },
+        {
+          "id": "C2-210.52(C)",
+          "section": "210.52(C)",
+          "title": "Kitchen countertops, islands, and peninsulas"
+        },
+        {
+          "id": "C2-210.52(D)",
+          "section": "210.52(D)",
+          "title": "Bathroom receptacles"
+        },
+        {
+          "id": "C2-210.52(E)",
+          "section": "210.52(E)",
+          "title": "Outdoor receptacles for a dwelling"
+        },
+        {
+          "id": "C2-210.52(F)",
+          "section": "210.52(F)",
+          "title": "Laundry receptacles"
+        },
+        {
+          "id": "C2-210.52(G)",
+          "section": "210.52(G)",
+          "title": "Garage receptacles — one per vehicle bay"
+        },
+        {
+          "id": "C2-210.52(H)",
+          "section": "210.52(H)",
+          "title": "Hallway receptacles"
+        },
+        {
+          "id": "C2-210.52(I)",
+          "section": "210.52(I)",
+          "title": "Foyer receptacles"
+        },
+        {
+          "id": "C2-210.63",
+          "section": "210.63",
+          "title": "A service receptacle near heating and air-conditioning equipment"
+        },
+        {
+          "id": "C2-210.70",
+          "section": "210.70",
+          "title": "Lighting outlets and wall switches"
+        }
+      ]
+    },
+    {
+      "id": "C2-ART-215",
+      "article": "215",
+      "title": "Feeders — power between the service and the final panels",
+      "children": [
+        {
+          "id": "C2-215.2",
+          "section": "215.2",
+          "title": "Feeder conductor size and the continuous-load rule"
+        },
+        {
+          "id": "C2-215.3",
+          "section": "215.3",
+          "title": "Feeder overcurrent protection"
+        }
+      ]
+    },
+    {
+      "id": "C2-ART-220",
+      "article": "220",
+      "title": "Load calculations — proving the service is big enough",
+      "children": [
+        {
+          "id": "C2-220.12",
+          "section": "220.12",
+          "title": "General lighting load by floor area"
+        },
+        {
+          "id": "C2-220.82",
+          "section": "220.82",
+          "title": "The optional method for a dwelling service or feeder"
+        },
+        {
+          "id": "C2-220.82(B)",
+          "section": "220.82(B)",
+          "title": "Optional method — the general loads"
+        },
+        {
+          "id": "C2-220.82(C)",
+          "section": "220.82(C)",
+          "title": "Optional method — heating and cooling"
+        }
+      ]
+    },
+    {
+      "id": "C2-ART-225",
+      "article": "225",
+      "title": "Outside branch circuits and feeders",
+      "children": [
+        {
+          "id": "C2-225.30",
+          "section": "225.30",
+          "title": "How many supplies may feed one building"
+        },
+        {
+          "id": "C2-225.31",
+          "section": "225.31",
+          "title": "A disconnect at the building being supplied"
+        }
+      ]
+    },
+    {
+      "id": "C2-ART-230",
+      "article": "230",
+      "title": "Services — where utility power enters",
+      "children": [
+        {
+          "id": "C2-230.9",
+          "section": "230.9",
+          "title": "Clearances for service conductors"
+        },
+        {
+          "id": "C2-230.67",
+          "section": "230.67",
+          "title": "Surge protection on the service"
+        },
+        {
+          "id": "C2-230.70",
+          "section": "230.70",
+          "title": "Where the service disconnect goes"
+        },
+        {
+          "id": "C2-230.71",
+          "section": "230.71",
+          "title": "How many service disconnects, and how they are grouped"
+        },
+        {
+          "id": "C2-230.79(C)",
+          "section": "230.79(C)",
+          "title": "Minimum size for a one-family dwelling service"
+        },
+        {
+          "id": "C2-230.85",
+          "section": "230.85",
+          "title": "An outdoor emergency disconnect for dwellings"
+        }
+      ]
+    },
+    {
+      "id": "C2-ART-240",
+      "article": "240",
+      "title": "Overcurrent protection — breakers and fuses",
+      "children": [
+        {
+          "id": "C2-240.4",
+          "section": "240.4",
+          "title": "Protecting a conductor at its ampacity"
+        },
+        {
+          "id": "C2-240.4(B)",
+          "section": "240.4(B)",
+          "title": "When the next higher breaker size may be used"
+        },
+        {
+          "id": "C2-240.4(D)",
+          "section": "240.4(D)",
+          "title": "The small-conductor caps"
+        },
+        {
+          "id": "C2-240.6",
+          "section": "240.6",
+          "title": "Standard ratings for breakers and fuses"
+        },
+        {
+          "id": "C2-240.24",
+          "section": "240.24",
+          "title": "Where overcurrent devices may be located"
+        }
+      ]
+    },
+    {
+      "id": "C2-ART-250",
+      "article": "250",
+      "title": "Grounding and bonding — the fault-current path",
+      "children": [
+        {
+          "id": "C2-250.4",
+          "section": "250.4",
+          "title": "What grounding and bonding must accomplish"
+        },
+        {
+          "id": "C2-250.24",
+          "section": "250.24",
+          "title": "Grounding at the service — and nowhere downstream"
+        },
+        {
+          "id": "C2-250.28",
+          "section": "250.28",
+          "title": "Main and system bonding jumpers"
+        },
+        {
+          "id": "C2-250.32",
+          "section": "250.32",
+          "title": "A separate building fed by a feeder"
+        },
+        {
+          "id": "C2-250.50",
+          "section": "250.50",
+          "title": "The grounding electrode system — all of it, bonded together"
+        },
+        {
+          "id": "C2-250.52",
+          "section": "250.52",
+          "title": "Electrodes that are permitted — and the ones that are not"
+        },
+        {
+          "id": "C2-250.53",
+          "section": "250.53",
+          "title": "Installing electrodes — rods, depth, and the second rod"
+        },
+        {
+          "id": "C2-250.66",
+          "section": "250.66",
+          "title": "Sizing the grounding electrode conductor"
+        },
+        {
+          "id": "C2-250.68",
+          "section": "250.68",
+          "title": "Connections to electrodes — accessibility and continuity"
+        },
+        {
+          "id": "C2-250.94",
+          "section": "250.94",
+          "title": "The intersystem bonding termination"
+        },
+        {
+          "id": "C2-250.104",
+          "section": "250.104",
+          "title": "Bonding metal piping systems"
+        },
+        {
+          "id": "C2-250.122",
+          "section": "250.122",
+          "title": "Sizing the equipment grounding conductor"
+        },
+        {
+          "id": "C2-250.140",
+          "section": "250.140",
+          "title": "Frames of ranges and dryers on existing circuits"
+        }
+      ]
+    }
+  ],
+  "index": [
+    {
+      "term": "AFCI, dwelling rooms",
+      "ids": [
+        "C2-210.12",
+        "C2-210.12(A)",
+        "C2-L-034"
+      ]
+    },
+    {
+      "term": "AFCI, extending or modifying a circuit",
+      "ids": [
+        "C2-210.12(D)",
+        "C2-L-009"
+      ]
+    },
+    {
+      "term": "Appliances, GFCI for specific",
+      "ids": [
+        "C2-210.8(D)",
+        "C2-L-007"
+      ]
+    },
+    {
+      "term": "Bathroom, circuit",
+      "ids": [
+        "C2-210.11(C)",
+        "L-003"
+      ]
+    },
+    {
+      "term": "Bathroom, receptacle placement",
+      "ids": [
+        "C2-210.52(D)",
+        "L-018"
+      ]
+    },
+    {
+      "term": "Bonding jumper, main",
+      "ids": [
+        "C2-250.28",
+        "C2-L-024"
+      ]
+    },
+    {
+      "term": "Bonding, piping",
+      "ids": [
+        "C2-250.104",
+        "C2-L-030"
+      ]
+    },
+    {
+      "term": "Branch circuit, multiwire",
+      "ids": [
+        "C2-210.4",
+        "C2-L-005"
+      ]
+    },
+    {
+      "term": "Breaker ratings, standard",
+      "ids": [
+        "C2-240.6",
+        "C2-L-021"
+      ]
+    },
+    {
+      "term": "Breaker, next higher size",
+      "ids": [
+        "C2-240.4(B)",
+        "L-032",
+        "C2-L-032"
+      ]
+    },
+    {
+      "term": "Building, separate — disconnect",
+      "ids": [
+        "C2-225.31",
+        "C2-L-018"
+      ]
+    },
+    {
+      "term": "Building, separate — grounding",
+      "ids": [
+        "C2-250.32",
+        "C2-L-025"
+      ]
+    },
+    {
+      "term": "Building, separate — number of supplies",
+      "ids": [
+        "C2-225.30",
+        "C2-L-017"
+      ]
+    },
+    {
+      "term": "CCA (copper-clad aluminum), breaker caps",
+      "ids": [
+        "C2-240.4(D)",
+        "C2-Q-020",
+        "S-10"
+      ]
+    },
+    {
+      "term": "Condenser, GFCI and outdoor outlets",
+      "ids": [
+        "C2-210.8(F)",
+        "C2-L-008"
+      ]
+    },
+    {
+      "term": "Continuous load, 125 percent",
+      "ids": [
+        "C2-210.19",
+        "C2-215.2",
+        "C2-L-010",
+        "C2-L-036"
+      ]
+    },
+    {
+      "term": "Countertop receptacles",
+      "ids": [
+        "C2-210.52(C)",
+        "L-015",
+        "L-017"
+      ]
+    },
+    {
+      "term": "Dryer, 3-wire existing circuit",
+      "ids": [
+        "C2-250.140",
+        "C2-L-031"
+      ]
+    },
+    {
+      "term": "Dryer, GFCI for",
+      "ids": [
+        "C2-210.8(A)(10)",
+        "S-08",
+        "LA-03"
+      ]
+    },
+    {
+      "term": "Earth, not a fault path",
+      "ids": [
+        "C2-250.4",
+        "C2-L-022"
+      ]
+    },
+    {
+      "term": "Emergency disconnect, outdoor",
+      "ids": [
+        "C2-230.85",
+        "L-047"
+      ]
+    },
+    {
+      "term": "Equipment grounding conductor, sizing",
+      "ids": [
+        "C2-250.122",
+        "L-058"
+      ]
+    },
+    {
+      "term": "Equipment grounding conductor, upsizing with conductors",
+      "ids": [
+        "C2-250.122",
+        "C2-L-038"
+      ]
+    },
+    {
+      "term": "Feeder, definition and sizing",
+      "ids": [
+        "C2-ART-215",
+        "C2-215.2",
+        "C2-L-013"
+      ]
+    },
+    {
+      "term": "Feeder, overcurrent protection",
+      "ids": [
+        "C2-215.3",
+        "C2-L-014"
+      ]
+    },
+    {
+      "term": "Foyer receptacles",
+      "ids": [
+        "C2-210.52(I)",
+        "C2-L-012"
+      ]
+    },
+    {
+      "term": "Garage, 240V receptacle GFCI",
+      "ids": [
+        "C2-210.8(A)",
+        "C2-L-033"
+      ]
+    },
+    {
+      "term": "Garage, circuit",
+      "ids": [
+        "C2-210.11(C)",
+        "L-004"
+      ]
+    },
+    {
+      "term": "Garage, receptacle per bay",
+      "ids": [
+        "C2-210.52(G)",
+        "L-021"
+      ]
+    },
+    {
+      "term": "Gas piping, bonding",
+      "ids": [
+        "C2-250.104",
+        "C2-L-030"
+      ]
+    },
+    {
+      "term": "Gas piping, not an electrode",
+      "ids": [
+        "C2-250.52",
+        "C2-L-027"
+      ]
+    },
+    {
+      "term": "GFCI, commercial locations",
+      "ids": [
+        "C2-210.8(B)",
+        "C2-L-006"
+      ]
+    },
+    {
+      "term": "GFCI, dwelling locations",
+      "ids": [
+        "C2-210.8",
+        "C2-210.8(A)",
+        "L-005"
+      ]
+    },
+    {
+      "term": "Ground rod, second rod and 25 ohms",
+      "ids": [
+        "C2-250.53",
+        "L-053",
+        "C2-Q-025"
+      ]
+    },
+    {
+      "term": "Grounded conductor, identification",
+      "ids": [
+        "C2-ART-200",
+        "C2-200.6",
+        "C2-L-001"
+      ]
+    },
+    {
+      "term": "Grounding electrode conductor, sizing",
+      "ids": [
+        "C2-250.66",
+        "L-052",
+        "C2-L-037"
+      ]
+    },
+    {
+      "term": "Grounding electrode system, all electrodes",
+      "ids": [
+        "C2-250.50",
+        "C2-L-026"
+      ]
+    },
+    {
+      "term": "Grounding electrodes, permitted and prohibited",
+      "ids": [
+        "C2-250.52",
+        "L-055"
+      ]
+    },
+    {
+      "term": "Hallway receptacle",
+      "ids": [
+        "C2-210.52(H)",
+        "L-022"
+      ]
+    },
+    {
+      "term": "Hallway, AFCI",
+      "ids": [
+        "C2-210.12(A)",
+        "C2-L-034"
+      ]
+    },
+    {
+      "term": "Heating and cooling in a load calculation",
+      "ids": [
+        "C2-220.82(C)",
+        "C2-L-016"
+      ]
+    },
+    {
+      "term": "HVAC service receptacle",
+      "ids": [
+        "C2-210.63",
+        "L-024"
+      ]
+    },
+    {
+      "term": "Intersystem bonding termination",
+      "ids": [
+        "C2-250.94",
+        "L-060",
+        "C2-L-029"
+      ]
+    },
+    {
+      "term": "Island and peninsula receptacles",
+      "ids": [
+        "C2-210.52(C)",
+        "L-016",
+        "C2-Q-007"
+      ]
+    },
+    {
+      "term": "Kitchen, small-appliance circuits",
+      "ids": [
+        "C2-210.11(C)",
+        "L-001"
+      ]
+    },
+    {
+      "term": "Laundry, circuit and receptacle",
+      "ids": [
+        "C2-210.11(C)",
+        "C2-210.52(F)",
+        "L-002",
+        "L-020"
+      ]
+    },
+    {
+      "term": "Laundry, GFCI in",
+      "ids": [
+        "C2-210.8(A)(10)",
+        "LA-03"
+      ]
+    },
+    {
+      "term": "Lighting load, 3 VA per square foot",
+      "ids": [
+        "C2-220.12",
+        "Q-066",
+        "C2-Q-011"
+      ]
+    },
+    {
+      "term": "Lighting outlets and switches",
+      "ids": [
+        "C2-210.70",
+        "L-025",
+        "L-026",
+        "L-027"
+      ]
+    },
+    {
+      "term": "Load calculation, optional dwelling method",
+      "ids": [
+        "C2-220.82",
+        "C2-220.82(B)",
+        "220.82"
+      ]
+    },
+    {
+      "term": "Load, how much a circuit may carry",
+      "ids": [
+        "C2-210.23",
+        "L-030"
+      ]
+    },
+    {
+      "term": "Neutral, identification of",
+      "ids": [
+        "C2-200.6",
+        "C2-200.7",
+        "C2-L-002"
+      ]
+    },
+    {
+      "term": "Neutral, isolated in a subpanel",
+      "ids": [
+        "C2-250.24",
+        "C2-L-023"
+      ]
+    },
+    {
+      "term": "Outdoor receptacles, dwelling",
+      "ids": [
+        "C2-210.52(E)",
+        "L-019"
+      ]
+    },
+    {
+      "term": "Overcurrent device, location and height",
+      "ids": [
+        "C2-240.24",
+        "L-043",
+        "L-044"
+      ]
+    },
+    {
+      "term": "Panel, in a bathroom or closet",
+      "ids": [
+        "C2-240.24",
+        "L-043"
+      ]
+    },
+    {
+      "term": "Range, 3-wire existing circuit",
+      "ids": [
+        "C2-250.140",
+        "C2-L-031"
+      ]
+    },
+    {
+      "term": "Receptacle ratings on a 20A circuit",
+      "ids": [
+        "C2-210.21",
+        "L-029"
+      ]
+    },
+    {
+      "term": "Receptacle spacing, walls",
+      "ids": [
+        "C2-210.52(A)",
+        "L-012",
+        "L-013"
+      ]
+    },
+    {
+      "term": "Receptacle, count on a house circuit",
+      "ids": [
+        "C2-L-035"
+      ]
+    },
+    {
+      "term": "Service clearances",
+      "ids": [
+        "C2-230.9",
+        "L-051",
+        "C2-L-019"
+      ]
+    },
+    {
+      "term": "Service disconnect, location",
+      "ids": [
+        "C2-230.70",
+        "L-049",
+        "C2-L-020"
+      ]
+    },
+    {
+      "term": "Service disconnects, number of",
+      "ids": [
+        "C2-230.71",
+        "L-050"
+      ]
+    },
+    {
+      "term": "Service, minimum dwelling size",
+      "ids": [
+        "C2-230.79(C)",
+        "L-048",
+        "C2-L-040"
+      ]
+    },
+    {
+      "term": "Small-conductor caps",
+      "ids": [
+        "C2-240.4(D)",
+        "L-031",
+        "S-10"
+      ]
+    },
+    {
+      "term": "Subpanel, neutral and ground in",
+      "ids": [
+        "C2-250.24",
+        "SP-10"
+      ]
+    },
+    {
+      "term": "Surge protection at the service",
+      "ids": [
+        "C2-230.67",
+        "L-046"
+      ]
+    },
+    {
+      "term": "Ufer (concrete-encased electrode)",
+      "ids": [
+        "C2-250.52",
+        "C2-250.50",
+        "L-055"
+      ]
+    },
+    {
+      "term": "Water pipe, bonding",
+      "ids": [
+        "C2-250.104",
+        "L-059"
+      ]
+    },
+    {
+      "term": "Water pipe, electrode connection point",
+      "ids": [
+        "C2-250.68",
+        "C2-L-028"
+      ]
+    },
+    {
+      "term": "White wire used as a hot",
+      "ids": [
+        "C2-200.7",
+        "C2-L-002"
+      ]
+    }
+  ]
+}

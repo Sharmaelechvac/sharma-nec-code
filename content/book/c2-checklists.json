@@ -1,0 +1,77 @@
+[
+  {
+    "room": "Service / Panel",
+    "items": [
+      {
+        "id": "C2-SP-01",
+        "text": "Emergency disconnect outdoors, readily accessible, and marked as the emergency disconnect — not with a generic label.",
+        "severity": "code",
+        "nec_ref": "230.85"
+      },
+      {
+        "id": "C2-SP-02",
+        "text": "Service disconnect(s): each in its own enclosure and grouped as 230.71 requires; count checked against the 2020 rule, not an old multi-switch habit.",
+        "severity": "code",
+        "nec_ref": "230.71"
+      },
+      {
+        "id": "C2-SP-03",
+        "text": "Main bonding jumper present, sized per 250.28, and actually installed — verified by eye, not assumed from the factory strap.",
+        "severity": "code",
+        "nec_ref": "250.28"
+      },
+      {
+        "id": "C2-SP-04",
+        "text": "Feeder to any subpanel: neutral isolated, ground bar bonded to the can, no bonding screw or strap left in a downstream panel.",
+        "severity": "code",
+        "nec_ref": "250.24(A)(5)"
+      }
+    ]
+  },
+  {
+    "room": "Garage",
+    "items": [
+      {
+        "id": "C2-G-01",
+        "text": "One receptacle counted in EACH vehicle bay on the plan, not one per garage door remote location.",
+        "severity": "code",
+        "nec_ref": "210.52(G)(1)"
+      },
+      {
+        "id": "C2-G-02",
+        "text": "240V garage receptacle (welder, lift, compressor) checked for GFCI under the 2020 125–250V range in 210.8(A).",
+        "severity": "code",
+        "nec_ref": "210.8(A)"
+      }
+    ]
+  },
+  {
+    "room": "Laundry",
+    "items": [
+      {
+        "id": "C2-LA-01",
+        "text": "Dryer receptacle is 4-wire on new work, appliance bonding strap removed, and the circuit protected per S-08.",
+        "severity": "sharma",
+        "nec_ref": "210.8(A)(10)",
+        "sharma_rule_id": "S-08"
+      }
+    ]
+  },
+  {
+    "room": "Outdoor",
+    "items": [
+      {
+        "id": "C2-O-01",
+        "text": "Detached structure fed from the house: its own disconnect at the building, its own electrodes, and a 4-wire feeder with isolated neutral.",
+        "severity": "code",
+        "nec_ref": "225.31 / 250.32"
+      },
+      {
+        "id": "C2-O-02",
+        "text": "Condenser GFCI position under 210.8(F) confirmed with the AHJ for this jurisdiction and noted in the job file before final.",
+        "severity": "tip",
+        "nec_ref": "210.8(F)"
+      }
+    ]
+  }
+]

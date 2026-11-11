@@ -1,0 +1,704 @@
+[
+  {
+    "id": "C2-L-001",
+    "question": "What color insulation identifies a grounded (neutral) conductor?",
+    "aliases": [
+      "white or gray neutral",
+      "neutral color",
+      "grounded conductor identification"
+    ],
+    "answer_plain": "Small insulated grounded conductors are identified by a continuous white or gray outer finish, or white or gray with colored stripes other than green running along the insulation. Larger conductors may also be identified at their terminations and at accessible points where the section allows that method. Green and bare are reserved for grounding, never for the neutral.",
+    "nec_ref": "200.6",
+    "nec_edition": "2020",
+    "tags": [
+      "identification",
+      "neutral",
+      "residential"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": "neutral-colors"
+  },
+  {
+    "id": "C2-L-002",
+    "question": "Can a white wire ever be used as a hot conductor?",
+    "aliases": [
+      "white wire as hot",
+      "re-identified white",
+      "switch loop white"
+    ],
+    "answer_plain": "Yes, in the limited cases 200.7 allows, such as the hot leg of a switch loop or a 240V circuit run in a cable assembly, and only when the conductor is permanently re-identified at the required locations. The re-identification has to show wherever that conductor is visible in a box. A white wire that has not been re-identified is treated as a grounded conductor.",
+    "nec_ref": "200.7",
+    "nec_edition": "2020",
+    "tags": [
+      "identification",
+      "switch loop"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-003",
+    "question": "Is a white conductor ever an equipment ground?",
+    "aliases": [
+      "white ground wire",
+      "neutral vs ground color"
+    ],
+    "answer_plain": "No. Equipment grounding conductors are identified as green, green with one or more yellow stripes, or bare. A white or gray conductor is a grounded circuit conductor, and confusing the two puts neutral current on metal parts or leaves a fault without a proper path.",
+    "nec_ref": "200.6 / 250.119",
+    "nec_edition": "2020",
+    "tags": [
+      "identification",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-004",
+    "question": "How are large feeder neutrals identified at a panel?",
+    "aliases": [
+      "big neutral marking",
+      "feeder neutral tape"
+    ],
+    "answer_plain": "On larger conductors the Code allows identification at terminations and at other accessible points, using white or gray marking that encircles the insulation where that method is used. Every accessible point should show it, not only the lug you are landing today. Small branch-circuit conductors do not get this option; they use factory white or gray insulation.",
+    "nec_ref": "200.6",
+    "nec_edition": "2020",
+    "tags": [
+      "identification",
+      "feeders"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-005",
+    "question": "What makes a circuit a multiwire branch circuit?",
+    "aliases": [
+      "MWBC definition",
+      "shared neutral circuit"
+    ],
+    "answer_plain": "A multiwire branch circuit uses two or three ungrounded conductors from different phases or legs sharing a single grounded conductor. The shared neutral carries only the unbalanced current when the hots are correctly placed on opposite legs. Landing both hots on the same leg can overload that neutral, and no breaker watches the neutral alone.",
+    "nec_ref": "210.4",
+    "nec_edition": "2020",
+    "tags": [
+      "branch circuits",
+      "shared neutral"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": "mwbc"
+  },
+  {
+    "id": "C2-L-006",
+    "question": "Where does a commercial job need GFCI protection?",
+    "aliases": [
+      "commercial GFCI list",
+      "210.8(B) locations"
+    ],
+    "answer_plain": "Non-dwelling GFCI locations include bathrooms, kitchens, rooftops, outdoor areas, locations near sinks, indoor damp or wet locations, locker rooms with showers, and garages and service bays, within the voltage and rating limits that subsection states. The commercial list is not the dwelling list, so a shop or office is checked against 210.8(B) on its own terms. Rooftop and service-bay receptacles are the locations most often missed in a commercial layout.",
+    "nec_ref": "210.8(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "GFCI",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-01"
+  },
+  {
+    "id": "C2-L-007",
+    "question": "Which appliances have their own GFCI rule in a dwelling?",
+    "aliases": [
+      "210.8(D) appliances",
+      "appliance GFCI list"
+    ],
+    "answer_plain": "Section 210.8(D) names specific appliances that need ground-fault protection in dwellings within its stated voltage and rating limits, and v1 already covers the dishwasher under it. The test is the appliance and its rating, not the room it sits in. Check the appliance schedule against this subsection whenever a listed appliance is added or replaced.",
+    "nec_ref": "210.8(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "GFCI",
+      "appliances"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-07"
+  },
+  {
+    "id": "C2-L-008",
+    "question": "Does a hardwired condenser count as an outdoor outlet for GFCI?",
+    "aliases": [
+      "condenser outlet 210.8(F)",
+      "hardwired outdoor outlet"
+    ],
+    "answer_plain": "An outlet is the point where current is taken to supply equipment, so a hardwired outdoor unit can be an outlet even with no receptacle at the unit. Section 210.8(F) addresses outdoor outlets other than receptacles within its rating limits. How a given Florida AHJ enforces that section for condensers has varied, so the local position must be confirmed for the job.",
+    "nec_ref": "210.8(F)",
+    "nec_edition": "2020",
+    "tags": [
+      "GFCI",
+      "outdoor",
+      "HVAC"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "UNVERIFIED as to local enforcement for condensers — confirm the AHJ, per v1 README item 2."
+  },
+  {
+    "id": "C2-L-009",
+    "question": "Does extending a circuit in a bedroom trigger AFCI?",
+    "aliases": [
+      "AFCI extension rule",
+      "modify circuit AFCI"
+    ],
+    "answer_plain": "Modifying, replacing, or extending a branch circuit in an area listed in 210.12(A) generally pulls arc-fault protection in for that circuit, and a panel or device change can have the same effect. There is an exception tied to a short extension whose exact length and conditions must be checked in the printed 2020 text before it is relied on. When in doubt on a service job, plan on providing the protection and price it that way.",
+    "nec_ref": "210.12(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "AFCI",
+      "service work"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "UNVERIFIED: the short-extension length in 210.12(D) is flagged in the v1 README as not re-checked this pass."
+  },
+  {
+    "id": "C2-L-010",
+    "question": "A continuous load is 32A. What is the minimum circuit rating?",
+    "aliases": [
+      "continuous load math",
+      "125 percent sizing"
+    ],
+    "answer_plain": "A continuous load is counted at 125 percent when conductors and overcurrent devices are sized, unless the assembly is listed for continuous operation at its rating. 32A times 1.25 is 40A, so the circuit is sized at 40A minimum. Both the conductor ampacity and the breaker have to satisfy that figure.",
+    "nec_ref": "210.19(A)(1) / 210.20(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "continuous load",
+      "sizing"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-011",
+    "question": "How much of a 20A circuit can one plug-in space heater use?",
+    "aliases": [
+      "80 percent rule cord and plug",
+      "210.23 limit"
+    ],
+    "answer_plain": "A single cord-and-plug appliance that is not fastened in place may not exceed 80 percent of the branch-circuit rating where the circuit also supplies other outlets. On a 20A circuit that ceiling is 16A. A heater nameplated above that does not belong on a shared general circuit.",
+    "nec_ref": "210.23(A)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "loads",
+      "branch circuits"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-012",
+    "question": "When does a foyer need more than one receptacle?",
+    "aliases": [
+      "foyer receptacle count",
+      "210.52(I) area"
+    ],
+    "answer_plain": "Foyer receptacles are based on the foyer's area and on wall space that is not broken by doors or openings, with larger foyers requiring more than one receptacle on the uninterrupted walls. A foyer that is simply part of an open living area is judged under the general wall-spacing rule for that room instead. Measure the space as the plan actually separates it before deciding which rule applies.",
+    "nec_ref": "210.52(I)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "foyer"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-013",
+    "question": "How is a feeder different from a branch circuit and a service?",
+    "aliases": [
+      "feeder definition",
+      "feeder vs branch"
+    ],
+    "answer_plain": "A feeder runs between service equipment, or another power source, and the final branch-circuit overcurrent devices — in a house, typically between the service panel and a subpanel. Service conductors end at the service disconnect, and branch circuits begin at the final overcurrent device and run to the outlets. The name matters because sizing, protection, and grounding rules differ for each of the three.",
+    "nec_ref": "215.1 / Art. 100",
+    "nec_edition": "2020",
+    "tags": [
+      "feeders",
+      "definitions"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": "one-line-feeder"
+  },
+  {
+    "id": "C2-L-014",
+    "question": "What protects a feeder from overcurrent?",
+    "aliases": [
+      "feeder breaker sizing",
+      "215.3"
+    ],
+    "answer_plain": "A feeder is protected by an overcurrent device at its start, rated not over the ampacity of the feeder conductors except where Article 240 specifically allows otherwise. If a breaker is larger than the conductor ampacity, the allowance being used must be named and its conditions met. Feeder taps are judged under the tap rules in 240.21, not under the general rounding allowance.",
+    "nec_ref": "215.3 / 240.4",
+    "nec_edition": "2020",
+    "tags": [
+      "feeders",
+      "overcurrent"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-015",
+    "question": "What loads go into the first block of a dwelling load calculation?",
+    "aliases": [
+      "load calc starting point",
+      "220 general loads"
+    ],
+    "answer_plain": "The dwelling calculation starts with general lighting at 3 VA per square foot of floor area measured from outside dimensions. It then adds the named circuits at their stated values and appliance loads at nameplate. Demand factors are applied only after that full inventory exists; skipping the inventory understates the service.",
+    "nec_ref": "220.12 / 220.82(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "load calculations",
+      "residential"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-016",
+    "question": "Do heat and AC get added together in the optional method?",
+    "aliases": [
+      "220.82(C) heat vs AC",
+      "optional method HVAC"
+    ],
+    "answer_plain": "No. The optional method's heating-and-cooling part takes the largest of its stated options rather than the sum, because the two systems are not treated as running at full load at the same time. Heat pumps with supplementary heat have their own sub-cases in that part. Those sub-cases were only summarized in v1 and must be checked against the printed code before a calculator or an exam answer relies on them.",
+    "nec_ref": "220.82(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "load calculations",
+      "HVAC"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "UNVERIFIED in part: heat-pump sub-cases in 220.82(C) were not re-checked item by item (v1 README item 4)."
+  },
+  {
+    "id": "C2-L-017",
+    "question": "Can I run two separate feeders to a detached garage?",
+    "aliases": [
+      "two feeders one building",
+      "225.30"
+    ],
+    "answer_plain": "Generally no. A building is supplied by a single feeder or branch circuit, or one set of feeders, apart from the exceptions 225.30 lists for things such as emergency and standby systems and fire pumps. The ordinary fix is one larger feeder to a subpanel in the garage. If an exception is genuinely used, a plaque or directory at each disconnect location must show the other supplies.",
+    "nec_ref": "225.30",
+    "nec_edition": "2020",
+    "tags": [
+      "outside feeders",
+      "detached buildings"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-018",
+    "question": "Does a detached garage fed from the house need its own disconnect?",
+    "aliases": [
+      "detached building disconnect",
+      "225.31"
+    ],
+    "answer_plain": "Yes. A feeder or branch circuit supplying a separate building needs a disconnecting means at that building, grouped and located as Article 225 requires and rated as its following sections set out. Its purpose is to kill the building's power at the building. The grounding electrode system at that building is a separate Article 250 requirement covered in 250.32.",
+    "nec_ref": "225.31",
+    "nec_edition": "2020",
+    "tags": [
+      "outside feeders",
+      "disconnects"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-019",
+    "question": "Can a service drop pass directly in front of a window?",
+    "aliases": [
+      "service drop window clearance",
+      "230.9"
+    ],
+    "answer_plain": "Service conductors must keep the clearances 230.9 sets from windows, doors, porches, and similar building features, with a stated allowance for conductors that run above the top level of a window. The clearance is judged against the finished, openable building, not bare framing. The serving utility's own standards can add requirements at the same location.",
+    "nec_ref": "230.9(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "services",
+      "clearances"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "The serving utility's service standards also apply in Florida and may be stricter."
+  },
+  {
+    "id": "C2-L-020",
+    "question": "Must the service disconnect be outside the house?",
+    "aliases": [
+      "service disconnect location",
+      "230.70 inside or outside"
+    ],
+    "answer_plain": "Not necessarily. The disconnect must be readily accessible and located outside, or inside near the point where the service conductors enter, under the 2020 wording and the AHJ's practice for conductor length inside a building. A separate 2020 rule also requires an outdoor emergency disconnect for one- and two-family dwellings, which is a different requirement. Do not confuse satisfying one of those rules with satisfying the other.",
+    "nec_ref": "230.70 / 230.85",
+    "nec_edition": "2020",
+    "tags": [
+      "services",
+      "disconnects"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Florida AHJs differ on how much service conductor they accept inside before the disconnect; confirm local practice on non-standard layouts."
+  },
+  {
+    "id": "C2-L-021",
+    "question": "Is 45A a standard breaker rating?",
+    "aliases": [
+      "standard ampere ratings",
+      "240.6 list"
+    ],
+    "answer_plain": "Yes. The standard ratings in 240.6(A) step through values that include 45A, along with the familiar 15, 20, 25, 30, 35, 40, and 50A sizes and larger steps above them. A calculated load between two standard ratings is resolved by the protection rules, not by specifying a nonstandard breaker. Fuses have additional standard ratings named in the same section.",
+    "nec_ref": "240.6(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "overcurrent",
+      "ratings"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-022",
+    "question": "Can the earth itself be the ground-fault return path?",
+    "aliases": [
+      "earth as ground path",
+      "250.4 fault path"
+    ],
+    "answer_plain": "No. Section 250.4 states that the earth is not to be used as the sole equipment grounding conductor, and the grounding system must instead provide an effective, low-impedance fault-current path. That path is what carries enough current to open the overcurrent device quickly. Ground rods serve earth connection and surge and lightning purposes; they do not clear a ground fault by themselves.",
+    "nec_ref": "250.4(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "bonding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-023",
+    "question": "Why must subpanel neutrals be isolated?",
+    "aliases": [
+      "subpanel neutral isolated",
+      "250.24 downstream bond"
+    ],
+    "answer_plain": "The neutral-to-ground bond is made at the service, and downstream of it the grounded conductor must be kept apart from equipment grounds and enclosures. Bonding again in a subpanel puts normal neutral current onto metal parts and grounding conductors. It also splits fault current between paths, which works against fast, reliable breaker operation.",
+    "nec_ref": "250.24(A)(5) / 250.142(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "subpanels"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": "service-vs-subpanel"
+  },
+  {
+    "id": "C2-L-024",
+    "question": "What sizes the main bonding jumper?",
+    "aliases": [
+      "main bonding jumper size",
+      "250.28 sizing"
+    ],
+    "answer_plain": "The main bonding jumper is sized by reference to Table 250.66, based on the size of the service-entrance conductors, under the rules and limits in 250.28. It may be a wire, bus, or a listed connection supplied with the equipment, but it must actually be installed. On a service change, treat its presence and size as an inspection item, not an assumption.",
+    "nec_ref": "250.28(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "bonding",
+      "services"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-025",
+    "question": "Does a detached garage need ground rods if it has a subpanel?",
+    "aliases": [
+      "separate building electrodes",
+      "250.32 rods"
+    ],
+    "answer_plain": "Yes, in the ordinary case. A building supplied by a feeder needs its own grounding electrode system under 250.32, in addition to the equipment grounding conductor run with the feeder. The neutral at that building is not re-bonded in modern work; the bond remains at the service. An existing-installation exception exists with conditions that all have to be verified before it is used.",
+    "nec_ref": "250.32",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "detached buildings"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-026",
+    "question": "If a house has a Ufer, water pipe, and rods, which ones must be connected?",
+    "aliases": [
+      "all electrodes bonded",
+      "250.50 system"
+    ],
+    "answer_plain": "All of them. Section 250.50 requires every grounding electrode present at the building to be bonded together into a single grounding electrode system. An electrode may not be skipped because another one was easier to reach. The concrete-encased electrode is the one that has to be coordinated before the foundation is poured.",
+    "nec_ref": "250.50",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "electrodes"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-027",
+    "question": "Can a metal gas pipe be used as a grounding electrode?",
+    "aliases": [
+      "gas pipe electrode prohibited",
+      "250.52(B)"
+    ],
+    "answer_plain": "No. Metal underground gas piping is on the list of things that may not be used as a grounding electrode, and aluminum electrodes are on that same prohibited list. Gas piping may still need bonding under 250.104 because it is likely to become energized, which is a different job. Bonding a pipe and using it as an electrode are not interchangeable.",
+    "nec_ref": "250.52(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "electrodes",
+      "gas piping"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-028",
+    "question": "Where on a water pipe is the grounding connection made?",
+    "aliases": [
+      "water pipe connection point",
+      "250.68"
+    ],
+    "answer_plain": "The connection to a metal underground water pipe electrode is made at an accessible point within the first 5 ft of the pipe as it enters the building, under the rule in 250.68(C). Interior water piping beyond that point is treated as a bonding matter rather than the electrode connection. Any jumper needed to keep the path continuous around a meter or similar device must also be installed.",
+    "nec_ref": "250.68(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "water piping"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-029",
+    "question": "Who uses the intersystem bonding termination?",
+    "aliases": [
+      "IBT who uses it",
+      "250.94 purpose"
+    ],
+    "answer_plain": "Telephone, cable, antenna, and other communications installers use it to bond their systems to the electrical grounding system at a listed, accessible point. It is installed at or near the service equipment or metering equipment. Providing it keeps those installers from clamping onto a random pipe or the nearest rod.",
+    "nec_ref": "250.94",
+    "nec_edition": "2020",
+    "tags": [
+      "bonding",
+      "communications"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": "ibt"
+  },
+  {
+    "id": "C2-L-030",
+    "question": "Is bonding the gas piping the same as grounding it to a rod?",
+    "aliases": [
+      "gas bonding vs electrode",
+      "250.104(B)"
+    ],
+    "answer_plain": "No. Gas and other metal piping that is likely to become energized is bonded with a jumper sized from the circuit that could energize it, so a fault on that piping trips a breaker. That bond normally lands on the service equipment, the grounded conductor, or another point the section allows. It does not make the piping an electrode, and CSST has separate manufacturer and fuel-gas code bonding instructions.",
+    "nec_ref": "250.104(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "bonding",
+      "gas piping"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "CSST bonding is not fully covered here; follow the manufacturer instructions and the FBC Fuel Gas code."
+  },
+  {
+    "id": "C2-L-031",
+    "question": "My dryer outlet has only three slots. Is that legal to leave?",
+    "aliases": [
+      "3-wire dryer existing",
+      "250.140 tip"
+    ],
+    "answer_plain": "It can be, for an existing installation that meets all of the conditions in 250.140, where the frame of the dryer was permitted to be grounded through the neutral. It is never the way new work is installed: new dryer circuits are 4-wire with a separate equipment ground, and the appliance bonding strap is removed. The detailed existing-installation conditions were not re-checked for this pass, so a borderline case goes to the printed code and to Mike before it is left in place.",
+    "nec_ref": "250.140",
+    "nec_edition": "2020",
+    "tags": [
+      "dryer",
+      "existing work"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "UNVERIFIED as a detailed statement — tip only, per v1 README item 3."
+  },
+  {
+    "id": "C2-L-032",
+    "question": "What is the largest breaker allowed on a feeder whose ampacity is 55A?",
+    "aliases": [
+      "round up feeder breaker",
+      "240.4(B) example"
+    ],
+    "answer_plain": "Where all of the conditions in 240.4(B) are met, a conductor with 55A ampacity may be protected by the next higher standard rating, 60A. The allowance is not available for a multi-outlet branch circuit supplying receptacles, and it stops at the ceiling that subsection states. If any condition fails, the conductor is protected at or below its ampacity instead.",
+    "nec_ref": "240.4(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "overcurrent",
+      "feeders"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-033",
+    "question": "Does a garage receptacle for a car lift or welder need GFCI?",
+    "aliases": [
+      "garage 240V GFCI",
+      "210.8(A) 250V"
+    ],
+    "answer_plain": "In a dwelling garage, the 2020 version of 210.8(A) reaches receptacles rated 125V through 250V, so a 240V receptacle in the garage is within the rule rather than outside it. That was a change from older practice and is a common miss on equipment added after the house was built. Check the circuit's voltage to ground and rating against the subsection before assuming an exemption.",
+    "nec_ref": "210.8(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "GFCI",
+      "garage"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-07"
+  },
+  {
+    "id": "C2-L-034",
+    "question": "Are hallway circuits on the AFCI list?",
+    "aliases": [
+      "hallway AFCI",
+      "210.12(A) hallway"
+    ],
+    "answer_plain": "Yes, hallways are among the dwelling areas listed in 210.12(A) for 120V, 15A and 20A branch circuits supplying outlets or devices. A circuit that only passes through a hallway is a different question from a circuit that supplies an outlet or device in it. At Sharma the point is academic on standard work, because every 120V breaker is dual-function under S-07.",
+    "nec_ref": "210.12(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "AFCI",
+      "hallways"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-07"
+  },
+  {
+    "id": "C2-L-035",
+    "question": "How many receptacles may be put on a general 20A circuit in a house?",
+    "aliases": [
+      "receptacle count limit dwelling",
+      "210.11 / 220"
+    ],
+    "answer_plain": "The NEC does not set a maximum receptacle count for general-purpose circuits in a dwelling; the count comes out of the load calculation and good circuit division instead. Commercial work is different, because receptacle loads there are calculated at the volt-ampere value the Code assigns per receptacle yoke. Overloading a house circuit with too many likely-simultaneous loads is still poor design even though no count is stated. Sharma practice is to keep area circuits modest and give known heavy loads their own circuits.",
+    "nec_ref": "210.11(A) / 220.14",
+    "nec_edition": "2020",
+    "tags": [
+      "branch circuits",
+      "design"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-036",
+    "question": "What counts as a continuous load?",
+    "aliases": [
+      "continuous load three hours",
+      "Art. 100 / 210.19"
+    ],
+    "answer_plain": "A continuous load is one where the maximum current is expected to run for three hours or more. Fixed electric space heating, EV charging, and many commercial lighting loads meet that test in practice. Continuous status changes the sizing math to 125 percent for conductors and overcurrent devices unless a listed continuous-rated assembly is used.",
+    "nec_ref": "210.19(A)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "continuous load",
+      "definitions"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-037",
+    "question": "A 200A service has 2/0 copper service conductors. What copper GEC does Table 250.66 give?",
+    "aliases": [
+      "250.66 worked example",
+      "GEC 2/0 service"
+    ],
+    "answer_plain": "Table 250.66 gives a 4 AWG copper grounding electrode conductor for 2/0 copper service-entrance conductors. Separate caps then limit what a run to a single type of electrode must be, such as the rod and concrete-encased maximums covered in the v1 items. Size from the conductor that is actually installed, not from the disconnect rating alone.",
+    "nec_ref": "250.66",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "GEC"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-038",
+    "question": "If I upsize a circuit for voltage drop, must the ground get bigger too?",
+    "aliases": [
+      "upsized conductors EGC proportion",
+      "250.122(B)"
+    ],
+    "answer_plain": "Yes. Where circuit conductors are increased in size, the equipment grounding conductor is increased proportionally by circular-mil area under 250.122(B). A long run pulled in larger wire with a standard-size ground does not carry the same fault performance the table assumes. Cable assemblies with a factory ground sized for the upsized cable are the simple way to stay compliant on NM runs.",
+    "nec_ref": "250.122(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "voltage drop"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C2-L-039",
+    "question": "Does every sump pump or sewage ejector receptacle need GFCI?",
+    "aliases": [
+      "sump pump GFCI location",
+      "210.8 by location"
+    ],
+    "answer_plain": "GFCI follows the location and any specific-appliance rule, not the fact that the equipment touches water: a receptacle in an unfinished basement, a crawl space, or within the stated distance of a sink or tub is on the dwelling list. A pump in a finished area outside every listed location is judged differently. Nuisance-trip worries do not remove a listed location's requirement; solve access and alarm concerns instead of deleting the protection.",
+    "nec_ref": "210.8(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "GFCI",
+      "basement"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-07"
+  },
+  {
+    "id": "C2-L-040",
+    "question": "What is the minimum service for a house with a calculated load of 87A?",
+    "aliases": [
+      "calculated load service size",
+      "220 / 230.79"
+    ],
+    "answer_plain": "The calculation sets the floor for the installation, and a one-family dwelling service disconnect may not be rated below 100A in any case. An 87A calculated load therefore lands on at least a 100A service, and any growth the owner and designer intend should be discussed before gear is ordered. Never present the 100A code minimum as though the calculation had produced it.",
+    "nec_ref": "220.82 / 230.79(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "load calculations",
+      "services"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  }
+]
