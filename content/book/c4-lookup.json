@@ -892,5 +892,84 @@
     ],
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-053",
+    "question": "Which ampacity column do you use for copper-clad aluminum (CCA)?",
+    "aliases": [
+      "CCA ampacity column",
+      "is CCA sized like copper or aluminum",
+      "310.16 CCA"
+    ],
+    "answer_plain": "Use the aluminum-or-copper-clad-aluminum column of Table 310.16 — never the copper column — with the 60 °C limit for NM cable and the small-conductor caps doing the rest. In practice that is one AWG up from copper: 12 AWG CCA on 15 A, 10 AWG on 20 A, 8 AWG on 30 A. There is no 14 AWG CCA in NM work under the 2020 Code; 334.104 starts CCA at 12 AWG.",
+    "nec_ref": "310.16",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "ampacity",
+      "conductors"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": null
+  },
+  {
+    "id": "C4-L-054",
+    "question": "Where can CCA land — and where can it never land?",
+    "aliases": [
+      "CCA terminations",
+      "can you backstab CCA",
+      "AL/CU wire nuts CCA"
+    ],
+    "answer_plain": "Standard 15 and 20 A switches and receptacles take CCA on their screw terminals; CO/ALR marking is not required at that size, but 30 A and larger devices must be marked AL/CU. Splices are different: only connectors marked CC, CC-CU, or AL/CU are listed for CCA, and a copper-only (CU) wire nut is not. Never backstab CCA — push-in terminals are listed for 14 AWG solid copper only.",
+    "nec_ref": "110.14",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "terminations",
+      "devices"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": null
+  },
+  {
+    "id": "C4-L-055",
+    "question": "What resistance value do you use for voltage drop on a CCA run?",
+    "aliases": [
+      "CCA voltage drop resistance",
+      "Table 8 CCA"
+    ],
+    "answer_plain": "Chapter 9 Table 8 lists resistance for copper and for aluminum only — there is no copper-clad aluminum row to read a value from, so do not borrow a number and do not guess one. Use the conductor manufacturer's published data (for Sharma, Copperweld) or UL data for the exact product, and keep that sheet with the calculation. Until that cited data is attached, treat any CCA voltage-drop number as unverified.",
+    "nec_ref": "Chapter 9, Table 8",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "voltage drop"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": null,
+    "verified": false,
+    "unverified_reason": "Chapter 9 Table 8 (2020) has no CCA row; no cited manufacturer/UL resistance value is in hand yet, per Sanjay's rule — never invent a value."
+  },
+  {
+    "id": "C4-L-056",
+    "question": "Does using CCA change box fill or conduit fill?",
+    "aliases": [
+      "CCA box fill 314.16",
+      "CCA conduit fill same"
+    ],
+    "answer_plain": "No — 314.16 box fill and the Chapter 9 Tables 4 and 5 conduit fill both go by conductor size and insulation type, never by the metal inside. The same AWG with the same insulation fills exactly the same whether it is copper, aluminum, or CCA. The practical catch is that a CCA circuit runs one AWG larger, so the fill number follows the bigger wire actually installed — a 10 AWG conductor counts 2.50 cubic inches in a box, whatever it is made of.",
+    "nec_ref": "314.16",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "box fill",
+      "conduit fill"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": null
   }
 ]

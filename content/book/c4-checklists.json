@@ -134,6 +134,12 @@
         "text": "Panel and HVAC equipment SCCR checked against available fault current on commercial work; both numbers in the job file.",
         "nec_ref": "408.6",
         "severity": "code"
+      },
+      {
+        "id": "C4-D-23",
+        "text": "CCA terminations checked: screw terminals only — never backstab (push-in is 14 AWG solid copper only); splices only with connectors marked CC, CC-CU, or AL/CU; 30 A+ devices marked AL/CU",
+        "nec_ref": "110.14",
+        "severity": "code"
       }
     ]
   }

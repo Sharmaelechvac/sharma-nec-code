@@ -478,5 +478,69 @@
     "nec_ref": "480.12",
     "difficulty": 2,
     "exam": "master"
+  },
+  {
+    "id": "C4-Q-031",
+    "article": "310",
+    "question": "A 20 A branch circuit is wired in copper-clad aluminum (CCA) NM cable. What is the minimum conductor size?",
+    "choices": [
+      "12 AWG CCA",
+      "10 AWG CCA",
+      "8 AWG CCA",
+      "14 AWG CCA"
+    ],
+    "answer_index": 1,
+    "explain_plain": "CCA takes its ampacity from the aluminum-or-CCA column of Table 310.16, one AWG up from copper, so a 20 A circuit needs 10 AWG CCA. There is no 14 AWG CCA in NM under the 2020 Code.",
+    "nec_ref": "310.16",
+    "exam": "both",
+    "difficulty": 2
+  },
+  {
+    "id": "C4-Q-032",
+    "article": "110",
+    "question": "How may a CCA conductor be terminated on a 15 A receptacle?",
+    "choices": [
+      "Backstab (push-in) terminal",
+      "Screw terminal",
+      "Either — both are listed",
+      "Only with a CO/ALR receptacle"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Push-in backstab terminals are listed for 14 AWG solid copper only, so CCA always lands on the screw terminal. Standard 15/20 A devices do not need a CO/ALR marking for CCA.",
+    "nec_ref": "110.14",
+    "exam": "both",
+    "difficulty": 2
+  },
+  {
+    "id": "C4-Q-033",
+    "article": "110",
+    "question": "A wire nut used to splice CCA to copper in a junction box must be marked:",
+    "choices": [
+      "CU only",
+      "AL/CU (or CC / CC-CU)",
+      "No marking is required",
+      "CU-CLAD only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Splice connectors for CCA must be listed and marked for it — AL/CU, CC, or CC-CU. A copper-only (CU) wire nut is not listed for CCA, even though a plain device screw terminal is fine at 15/20 A.",
+    "nec_ref": "110.14",
+    "exam": "both",
+    "difficulty": 2
+  },
+  {
+    "id": "C4-Q-034",
+    "article": "314",
+    "question": "In a 314.16 box-fill calculation, one 10 AWG CCA conductor counts:",
+    "choices": [
+      "2.00 cubic inches — CCA counts less than copper",
+      "2.50 cubic inches — the same as any 10 AWG conductor",
+      "3.00 cubic inches — CCA counts more than copper",
+      "Nothing — equipment grounds only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Box fill goes by conductor size and insulation, not by metal: a 10 AWG conductor is 2.50 cubic inches whether it is copper, aluminum, or CCA. CCA circuits simply land on the bigger size more often.",
+    "nec_ref": "314.16",
+    "exam": "both",
+    "difficulty": 2
   }
 ]
