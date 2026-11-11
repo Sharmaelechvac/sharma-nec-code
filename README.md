@@ -33,3 +33,11 @@ inspection checklists, Florida-specific rules, FL journeyman/master exam prep.
 ## Open item
 Sharma rule SR-6 (microwave circuit) wire material/size is PENDING Mike Holt's
 ruling: 12 AWG copper vs the Sharma CCA standard (10 AWG CCA for 20A).
+
+## Field Book (DRAFT branch `field-book-draft` — NOT merged, NOT live)
+- Chapter 1 (General, Arts. 90/100/110) built into the app as book pages in the
+  00-COMMON `book-v1` format: `content/book/c1.json` (+ `c1-lookup.json`,
+  `c1-quiz.json`, `c1-checklists.json` companions), rendered by the 📕 Field Book
+  tab with TOC, index and prev/next. 65 pages, 1 unverified page flagged in-file.
+- Status: DRAFT for Mike Holt review. Merging this branch to `main` is the
+  go-live step and happens only on Sanjay's OK in his own words.

@@ -1,0 +1,418 @@
+[
+  {
+    "id": "C7-Q-001",
+    "article": "700",
+    "question": "Emergency power must be available within how long after the normal supply fails?",
+    "choices": [
+      "10 seconds",
+      "60 seconds",
+      "2 minutes",
+      "10 minutes"
+    ],
+    "answer_index": 0,
+    "explain_plain": "700.12 sets the 10-second duty for emergency systems. The 60-second figure belongs to legally required standby in 701.12.",
+    "nec_ref": "700.12",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-002",
+    "article": "701",
+    "question": "Legally required standby power must be available within how long after the normal supply fails?",
+    "choices": [
+      "10 seconds",
+      "30 seconds",
+      "60 seconds",
+      "5 minutes"
+    ],
+    "answer_index": 2,
+    "explain_plain": "701.12 sets 60 seconds for legally required standby — slower than emergency (700), because these loads aid the response rather than protect the escape itself.",
+    "nec_ref": "701.12",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-003",
+    "article": "702",
+    "question": "A homeowner's generator that nobody required, feeding selected loads for comfort and refrigeration, is classified as:",
+    "choices": [
+      "An emergency system",
+      "A legally required standby system",
+      "An optional standby system",
+      "A critical operations power system"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Optional standby (702) is defined by the absence of a legal requirement and by life safety not depending on it.",
+    "nec_ref": "702.1",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C7-Q-004",
+    "article": "702",
+    "question": "With manual transfer equipment, an optional standby system must be capable of supplying:",
+    "choices": [
+      "The full calculated load of the building",
+      "All equipment intended to be operated at one time, with the user selecting the load",
+      "At least 22 kW",
+      "Only lighting loads"
+    ],
+    "answer_index": 1,
+    "explain_plain": "702.4(B)(1): manual transfer means the user selects the connected load, and the source must carry what is intended to run at one time.",
+    "nec_ref": "702.4(B)(1)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-005",
+    "article": "702",
+    "question": "With automatic transfer equipment and no load management, an optional standby source must:",
+    "choices": [
+      "Carry only the loads the owner likes best",
+      "Be sized to the calculated load and carry the full transferred load",
+      "Be no larger than 15 kW",
+      "Feed the service directly without transfer equipment"
+    ],
+    "answer_index": 1,
+    "explain_plain": "702.4(B)(2)(a): automatic transfer with no one choosing loads means the source carries the full transferred load.",
+    "nec_ref": "702.4(B)(2)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-006",
+    "article": "702",
+    "question": "The load used to size an automatic optional standby system is figured:",
+    "choices": [
+      "From the generator sales brochure",
+      "Under Article 220 or by another approved method",
+      "At 50 percent of the service rating in all cases",
+      "Only from the nameplate of the largest appliance"
+    ],
+    "answer_index": 1,
+    "explain_plain": "702.4(B)(2) points the sizing calculation to Article 220 or another approved method, which includes recorded-demand routes for existing installations.",
+    "nec_ref": "702.4(B)(2)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-007",
+    "article": "702",
+    "question": "The rule in 702.5(D) that transfer equipment must prevent in any operation is:",
+    "choices": [
+      "Simultaneous interconnection of all sources of supply",
+      "Operation during a storm",
+      "Use of a portable generator outdoors",
+      "Feeding nonessential loads"
+    ],
+    "answer_index": 0,
+    "explain_plain": "702.5(D) is the inadvertent-interconnection duty — the anti-backfeed rule that protects utility crews and the public.",
+    "nec_ref": "702.5(D)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-008",
+    "article": "702",
+    "question": "A meter-mounted transfer switch on an optional standby system must be:",
+    "choices": [
+      "Any switch the utility leaves behind",
+      "Listed as a meter-mounted transfer switch, and manual unless rated under the automatic sizing duty",
+      "Automatic in all cases",
+      "Unlisted if the owner signs a waiver"
+    ],
+    "answer_index": 1,
+    "explain_plain": "702.5(B): listed meter-mounted gear, manual unless rated in accordance with 702.4(B)(2).",
+    "nec_ref": "702.5(B)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C7-Q-009",
+    "article": "702",
+    "question": "Field marking of the transfer equipment short-circuit current rating on the exterior of the gear is required by 702.5(C) for:",
+    "choices": [
+      "All dwelling units only",
+      "Installations other than dwelling units",
+      "Only hospitals",
+      "Only portable generators"
+    ],
+    "answer_index": 1,
+    "explain_plain": "702.5(C) documentation applies in other than dwelling units.",
+    "nec_ref": "702.5(C)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-010",
+    "article": "702",
+    "question": "The sign required at a generator power inlet states:",
+    "choices": [
+      "The generator fuel type",
+      "Which kind of system may be connected — separately derived (bonded neutral) only, or nonseparately derived (floating neutral) only",
+      "The owner's phone number",
+      "The date of the last oil change"
+    ],
+    "answer_index": 1,
+    "explain_plain": "702.7(C): the inlet sign matches the inlet to the generator's neutral arrangement.",
+    "nec_ref": "702.7(C)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C7-Q-011",
+    "article": "702",
+    "question": "A portable generator of 15 kW or less connected through a flanged inlet:",
+    "choices": [
+      "Always needs a 200A disconnect",
+      "Does not require a disconnecting means under 702.12(B)",
+      "May backfeed through a dryer receptacle",
+      "Must be hardwired"
+    ],
+    "answer_index": 1,
+    "explain_plain": "702.12(B) removes the disconnect requirement for that small portable case; 702.5 transfer duties still apply.",
+    "nec_ref": "702.12(B)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C7-Q-012",
+    "article": "705",
+    "question": "A panel has a 225A busbar and a 200A main breaker. Using the 120 percent method, the largest inverter output current allowed is:",
+    "choices": [
+      "20A",
+      "40A",
+      "56A",
+      "70A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "225 x 1.20 = 270A; 270 - 200 = 70A for the source device; 70 / 1.25 = 56A of inverter output. The 70A figure is the device capacity before the continuous factor, which is the trap in this question.",
+    "nec_ref": "705.12(B)(3)(2)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-013",
+    "article": "705",
+    "question": "Using the 100 percent busbar method on a 225A busbar with a 200A main, the largest inverter output current is:",
+    "choices": [
+      "20A",
+      "32A",
+      "56A",
+      "70A"
+    ],
+    "answer_index": 0,
+    "explain_plain": "The method allows only busbar minus main: 225 - 200 = 25A, and 25 / 1.25 = 20A of inverter output.",
+    "nec_ref": "705.12(B)(3)(1)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-014",
+    "article": "705",
+    "question": "Each source interconnection to a panelboard must be made at:",
+    "choices": [
+      "Any spare breaker, shared with a load if space is tight",
+      "A dedicated circuit breaker or fusible disconnecting means",
+      "The main breaker lugs",
+      "A tandem breaker shared with another source"
+    ],
+    "answer_index": 1,
+    "explain_plain": "705.12(A): one source system, one dedicated overcurrent and disconnect device.",
+    "nec_ref": "705.12(A)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-015",
+    "article": "705",
+    "question": "Where a power control system (PCS) is installed under 705.13, the value used as the source output current in the 705.12 calculations is:",
+    "choices": [
+      "The inverter maximum rating in all cases",
+      "The PCS controller setting",
+      "Zero",
+      "The service rating"
+    ],
+    "answer_index": 1,
+    "explain_plain": "705.12 as modified by 705.13: the controller setting stands in for the source output current, which is why the setting must be recorded and protected.",
+    "nec_ref": "705.13",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-016",
+    "article": "705",
+    "question": "The plaque or directory required by 705.10 is placed at:",
+    "choices": [
+      "The inverter only",
+      "The service equipment, or another approved and readily visible location",
+      "Inside the utility meter",
+      "The building department office"
+    ],
+    "answer_index": 1,
+    "explain_plain": "705.10 puts the multiple-source directory where responders and electricians will actually look — at the service equipment or an approved visible spot.",
+    "nec_ref": "705.10",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C7-Q-017",
+    "article": "706",
+    "question": "Each energy storage system disconnect must be permanently marked:",
+    "choices": [
+      "With the installer's name",
+      "ENERGY STORAGE SYSTEM DISCONNECT, with open/closed indication",
+      "With the battery chemistry only",
+      "No marking is required if it is in sight"
+    ],
+    "answer_index": 1,
+    "explain_plain": "706.15(C) requires the open/closed indication and the permanent ESS disconnect marking, with voltage and fault-current data where the section requires them.",
+    "nec_ref": "706.15(C)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-018",
+    "article": "706",
+    "question": "Article 706 applies to energy storage systems with a capacity greater than:",
+    "choices": [
+      "100 Wh",
+      "1 kWh",
+      "10 kWh",
+      "100 kWh"
+    ],
+    "answer_index": 1,
+    "explain_plain": "706.1 scopes the article to ESS over 1 kWh that can feed a premises wiring system.",
+    "nec_ref": "706.1",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-019",
+    "article": "710",
+    "question": "A stand-alone supply may be smaller than the calculated load, but the combined source capacity must at least equal:",
+    "choices": [
+      "The service rating",
+      "The load of the largest single utilization equipment connected",
+      "The total of every receptacle load",
+      "Twice the lighting load"
+    ],
+    "answer_index": 1,
+    "explain_plain": "710.15(A): the floor is the largest single utilization load; general lighting is not counted as that single load.",
+    "nec_ref": "710.15(A)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-020",
+    "article": "725",
+    "question": "A circuit is Class 2 because of:",
+    "choices": [
+      "The color of its cable",
+      "Its listed Class 2 power source and the limits that source imposes",
+      "Its voltage being under 50 volts in all cases",
+      "The installer's preference"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Classification follows the power source (725.2, 725.121). The relaxed wiring methods are earned by the listed, limited source.",
+    "nec_ref": "725.121",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-021",
+    "article": "725",
+    "question": "For open runs outside enclosures, Class 2 conductors must be separated from power conductors by at least:",
+    "choices": [
+      "1/4 inch",
+      "1 inch",
+      "2 inches",
+      "6 inches"
+    ],
+    "answer_index": 2,
+    "explain_plain": "725.136(I) sets 2 inches for other applications, unless a raceway or a named sheathed cable protects one side, or a barrier or tubing separates them. The 1/4-inch figure belongs inside equipment enclosures under 725.136(D).",
+    "nec_ref": "725.136(I)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-022",
+    "article": "725",
+    "question": "Inside an enclosure serving the same equipment, Class 2 conductors introduced only for that equipment must be separated from power conductors by at least:",
+    "choices": [
+      "1/4 inch",
+      "2 inches",
+      "6 inches",
+      "No separation is ever required"
+    ],
+    "answer_index": 0,
+    "explain_plain": "725.136(D) is the same-equipment case, with a quarter-inch minimum separation — a different rule from the 2-inch open-run rule in 725.136(I).",
+    "nec_ref": "725.136(D)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-023",
+    "article": "800",
+    "question": "Communications cables run parallel to power conductors need at least what separation under 800.133(A)(2), absent a raceway or sheathed-cable exception?",
+    "choices": [
+      "1/4 inch",
+      "2 inches",
+      "12 inches",
+      "6 feet"
+    ],
+    "answer_index": 1,
+    "explain_plain": "800.133(A)(2) is Chapter 8's parallel to the Class 2 rule: 2 inches, with raceway and cable exceptions.",
+    "nec_ref": "800.133(A)(2)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-024",
+    "article": "760",
+    "question": "On a PLFA system the branch-circuit overcurrent device feeding the fire alarm equipment must be:",
+    "choices": [
+      "Any color, if labelled in the office",
+      "Identified in red, accessible only to qualified personnel, and marked as the fire alarm circuit",
+      "Hidden so nobody turns it off",
+      "Shared with the lighting panel to save space"
+    ],
+    "answer_index": 1,
+    "explain_plain": "760.121(B): dedicated circuit, red identification, qualified access, and identification at the control unit.",
+    "nec_ref": "760.121(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-025",
+    "article": "760",
+    "question": "The maximum output voltage of a non-power-limited fire alarm (NPLFA) power source is:",
+    "choices": [
+      "30 volts",
+      "150 volts",
+      "600 volts nominal",
+      "No limit"
+    ],
+    "answer_index": 2,
+    "explain_plain": "760.41: NPLFA sources follow the normal wiring chapters and stay at or under 600 volts nominal — that energy is why NPLFA wiring is treated like power wiring.",
+    "nec_ref": "760.41",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C7-Q-026",
+    "article": "700",
+    "question": "A listed surge protective device is required on:",
+    "choices": [
+      "Emergency system panelboards and switchboards",
+      "Only the generator",
+      "Only dwelling panels",
+      "No emergency equipment"
+    ],
+    "answer_index": 0,
+    "explain_plain": "700.8 requires a listed SPD for all emergency system panelboards and switchboards.",
+    "nec_ref": "700.8",
+    "difficulty": 1,
+    "exam": "journeyman"
+  }
+]

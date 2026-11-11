@@ -1,0 +1,2278 @@
+{
+  "schema_version": "book-v1",
+  "nec_edition": "2020",
+  "jurisdiction": "Florida Building Code 8th Edition (2023)",
+  "chapter": 4,
+  "chapter_title": "Equipment for General Use",
+  "id_prefix": "C4",
+  "label": "Reference aid; the AHJ and the printed NEC govern.",
+  "sections": [
+    {
+      "id": "C4-ART-400",
+      "chapter": 4,
+      "article": "400",
+      "section": "400",
+      "title": "Flexible cords and cables — article intro",
+      "plain_explanation": "Article 400 covers cords and flexible cables used to connect equipment, not wire that is installed as part of a building. It sorts cord types by construction and permitted use, and it draws a hard line against using a cord as a substitute for permanent wiring. If the wire is meant to stay in the building, it belongs in a Chapter 3 wiring method, not in a cord.",
+      "on_the_job": "When you reach for a cord, ask whether the equipment is meant to move, be serviced, or be exchanged. If the answer is no, run a permanent wiring method instead. Check the cord jacket marking for the type letter before you trust it in a damp or hard-use location.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": null,
+      "next_id": "C4-400.7"
+    },
+    {
+      "id": "C4-400.7",
+      "chapter": 4,
+      "article": "400",
+      "section": "400.7",
+      "title": "What flexible cords may be used for",
+      "plain_explanation": "Section 400.7 lists the jobs a flexible cord is allowed to do: hanging fixtures, connecting portable equipment, appliances that need to be moved for cleaning or service, and similar uses where flexibility is the point. The common thread is that the equipment, not the building, is what moves. A cord feeding a fixed outlet box or a permanent load is outside this list.",
+      "on_the_job": "Before you plug or hard-wire a cord to anything, name the 400.7 use out loud. If you cannot name one, stop and run conduit or cable. Watch especially for cords run through walls, ceilings, or doorways, which this article does not allow.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-400",
+      "next_id": "C4-400.12"
+    },
+    {
+      "id": "C4-400.12",
+      "chapter": 4,
+      "article": "400",
+      "section": "400.12",
+      "title": "Uses flexible cords are not permitted for — section number flagged",
+      "plain_explanation": "This section is the stop list for flexible cords. A cord may not replace building wiring, pass through holes in walls or ceilings, run through doorways or windows where it can be pinched, be attached to building surfaces as a permanent run, or be hidden inside walls and floors. Most failed 'cord' installations fail here, not on ampacity. The substance is not in doubt; the citation is flagged below.",
+      "on_the_job": "On a service call, trace the whole cord, not just the ends. If any part of it is stapled, hidden, or passing through a partition, the fix is a permanent wiring method, not a heavier cord.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-400.7",
+      "next_id": "C4-ART-402",
+      "unverified_reason": "In NEC 2017 this list was numbered 400.8. The ChatGPT research supplied for this chapter cites the prohibited-uses list at 400.12 for NEC 2020, which matches the 2020 reorganization of Article 400, but neither number was checked against the printed NEC 2020 text in this pass. Mike to confirm 400.12 before this page is marked verified."
+    },
+    {
+      "id": "C4-ART-402",
+      "chapter": 4,
+      "article": "402",
+      "section": "402",
+      "title": "Fixture wires — article intro",
+      "plain_explanation": "Article 402 covers the small conductors used inside fixtures and equipment, called fixture wires. They are for wiring within a luminaire or similar equipment and for connecting that equipment over a limited distance, not for general branch-circuit runs through a building. Sizes run smaller than branch wiring, which is exactly why they must stay inside the equipment they belong to.",
+      "on_the_job": "If you find a fixture wire run acting like a branch circuit through a wall or ceiling, flag it. Replace that run with a Chapter 3 method sized for the circuit. Keep fixture-wire splices inside the fixture or its listed outlet box.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-400.12",
+      "next_id": "C4-ART-404"
+    },
+    {
+      "id": "C4-ART-404",
+      "chapter": 4,
+      "article": "404",
+      "section": "404",
+      "title": "Switches — article intro",
+      "plain_explanation": "Article 404 covers switches: the devices that open and close a circuit, from a simple single-pole snap switch to motor-circuit switches. It handles which conductor a switch may interrupt, where a grounded (neutral) conductor must be available at a switch box, how high and how accessible a switch must be, and how switch terminals are marked for conductor materials. Start here whenever a switching question is about the device itself rather than the circuit feeding it.",
+      "on_the_job": "On rough-in, the two 404 questions to settle before the walls close are neutral availability at switch boxes and switch height. Both are cheap at rough-in and expensive after drywall.",
+      "sharma_note": "S-05: when the plan is silent, Sharma sets switches at 48 in. to the center of the box. That is a company preference, not an Article 404 requirement.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-069",
+        "L-070",
+        "Q-051",
+        "BL-06",
+        "S-05"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-05"
+      ],
+      "prev_id": "C4-ART-402",
+      "next_id": "C4-404.2(A)"
+    },
+    {
+      "id": "C4-404.2(A)",
+      "chapter": 4,
+      "article": "404",
+      "section": "404.2(A)",
+      "title": "Three-way and four-way switching — what the switch may control",
+      "plain_explanation": "Section 404.2(A) deals with which conductor a switch interrupts. In plain terms, switching belongs in the ungrounded (hot) conductor, and three-way and four-way arrangements must be wired so the load is never left connected to a hot conductor with the switch appearing to be off in a way that leaves lampholder shells energized. The traveler system exists to let two or more locations control one load while keeping that rule intact.",
+      "on_the_job": "Wire 3-way/4-way runs by function, not by color habit: common, travelers, switched leg, neutral, ground. Test every switch position at trim and confirm the load is fully controlled from each location before you leave. Never borrow a neutral from another circuit to make a traveler scheme work.",
+      "sharma_note": "Sharma practice note (job practice, not code text): label travelers at rough-in when a run is long or passes through several boxes. It saves the trim crew from ringing out pairs.",
+      "figure_idea": "Figure idea (original, ours): a simple line drawing in our own style showing one load, a 3-way at each end and a 4-way in the middle, with boxes labelled common / travelers / switched leg — no textbook diagram copied.",
+      "related_ids": [
+        "C4-L-001",
+        "C4-L-002"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-404",
+      "next_id": "C4-404.2(C)"
+    },
+    {
+      "id": "C4-404.2(C)",
+      "chapter": 4,
+      "article": "404",
+      "section": "404.2(C)",
+      "title": "A neutral must be available at most switch locations",
+      "plain_explanation": "Section 404.2(C) requires a grounded conductor — the neutral — to be present at most switch locations in a dwelling and in general lighting control. The reason is practical: modern controls, timers, occupancy sensors, and smart switches often need a neutral to power themselves. There are listed exceptions, including some raceway installations where the neutral can be added later and certain replacement or retrofit situations, so read the exception list for the exact job instead of assuming.",
+      "on_the_job": "At rough-in, pull the neutral through every switch box even when the planned device is a plain snap switch that does not use it today. Cap it neatly in the back of the box. That one habit prevents the most common 404.2(C) correction and makes later smart-switch work possible without opening walls.",
+      "sharma_note": "Sharma note: this is why the Honeywell / ecobee-era control work and smart switches on Sharma jobs assume a neutral in the box. Do not design a switch location that strands a future electronic control without one.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-069",
+        "Q-051",
+        "BL-06"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-404.2(A)",
+      "next_id": "C4-404.4"
+    },
+    {
+      "id": "C4-404.4",
+      "chapter": 4,
+      "article": "404",
+      "section": "404.4",
+      "title": "Switches in damp or wet locations — and out of the tub/shower wet location",
+      "plain_explanation": "Article 404 requires switches installed in damp or wet locations to be in enclosures suited to the location, and it separately restricts switches in a bathtub or shower space: a switch may not be installed within the wet location of a tub or shower unless it is part of a listed tub or shower assembly made for that purpose. The rule parallels the receptacle and luminaire zones in 406.9(C) and 410.10(D) — the wettest part of the room is kept free of devices a wet person would operate. A switch on the dry wall outside that space is an ordinary installation.",
+      "on_the_job": "At layout, treat the tub/shower wet location as a no-switch zone the same way you treat it as a no-receptacle zone. Exterior and patio switches get weatherproof enclosures suited to whether a cover must close over a plug or cord. Pool and spa switching also answers to Article 680 — check Chapter 6 before you place a switch near water.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-406.9(C)",
+        "C4-410.10(D)"
+      ],
+      "florida_note": "Florida note: outdoor kitchens, lanais, and pool-adjacent switching are damp or wet locations in practice; enclosure choice matters more here than the switch itself.",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-404.2(C)",
+      "next_id": "C4-404.8(A)"
+    },
+    {
+      "id": "C4-404.8(A)",
+      "chapter": 4,
+      "article": "404",
+      "section": "404.8(A)",
+      "title": "Switches must be reachable — operating handle height",
+      "plain_explanation": "Section 404.8(A) requires switches to be readily accessible and sets a ceiling on height: the center of the operating handle, in its highest position, may not be more than 6 ft 7 in. above the floor or working platform. The point is that a person standing on the floor must be able to operate the switch without a ladder or a reach tool. It does not set the normal mounting height for a house switch — that comes from the plan or company practice.",
+      "on_the_job": "Measure to the handle in its up position, not to the top of the box. Special cases exist for switches next to equipment they serve and for busway-type installations, so check the exceptions before you relocate a switch that looks too high.",
+      "sharma_note": "S-05: Sharma's default is 48 in. to the center of the box when the plan is silent. The plan governs when it states a height. Do not present 48 in. as a code number — 404.8(A) is the code ceiling, S-05 is our working height.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-070",
+        "S-05"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-05"
+      ],
+      "prev_id": "C4-404.4",
+      "next_id": "C4-404.14"
+    },
+    {
+      "id": "C4-404.14",
+      "chapter": 4,
+      "article": "404",
+      "section": "404.14",
+      "title": "Snap switch ratings and the loads they may control",
+      "plain_explanation": "Section 404.14 ties a general-use snap switch to the kind of load it controls. A switch marked for AC only, or for AC/DC, has different limits for motor, inductive, and tungsten-type loads, and a switch may not be loaded past the rating that applies to that load type. In plain terms: the amp number on the yoke is not a promise for every load — the load type decides which limit applies.",
+      "on_the_job": "Read the yoke marking before you put a snap switch on a motor, a ballast bank, or a heater. Where the load is a motor or is otherwise hard on contacts, use a switch rated for that duty or control it through a rated contactor or relay.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-404.8(A)",
+      "next_id": "C4-404.15(C)"
+    },
+    {
+      "id": "C4-404.15(C)",
+      "chapter": 4,
+      "article": "404",
+      "section": "404.15(C)",
+      "title": "Switch terminal markings for conductor materials — UNVERIFIED section number",
+      "plain_explanation": "This page is flagged. The ch4 brief records that NEMA material cited 404.15(C) for the terminal-marking rules for snap switches used with copper-clad aluminum, but that citation was not checked against the printed NEC 2020 text in the v1 pass. The substance from the NEMA / UL guide information is: 15A and 20A snap switch screw terminals accept copper and CCA unless marked otherwise, and CO/ALR marking is what adds plain aluminum. Treat the substance as guide information and the section number as unconfirmed until Mike checks it against the book.",
+      "on_the_job": "Until the citation is confirmed, check the device itself: read the terminal marking on the switch you are holding and the conductor you are landing. Do not backstab CCA — push-in terminals are for 14 AWG solid copper only (see S-10).",
+      "sharma_note": "S-10 applies: CCA is sized one AWG larger than copper and terminations must be listed for the conductor. Never backstab.",
+      "figure_idea": "",
+      "related_ids": [
+        "S-10"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [
+        "S-10"
+      ],
+      "unverified_reason": "Section number 404.15(C) comes from a NEMA citation quoted in content/v1/README.md and was not checked against the printed NEC 2020 text.",
+      "prev_id": "C4-404.14",
+      "next_id": "C4-ART-406"
+    },
+    {
+      "id": "C4-ART-406",
+      "chapter": 4,
+      "article": "406",
+      "section": "406",
+      "title": "Receptacles, cord connectors, and attachment plugs — article intro",
+      "plain_explanation": "Article 406 covers receptacle outlets and the plugs and cord connectors that go into them: how receptacles are rated and grounded, when a replacement must upgrade protection, where face-up devices may be used, what damp and wet locations demand, the tub and shower exclusion zone, and where tamper-resistant receptacles are required. It is the article behind most device-level corrections on a residential final.",
+      "on_the_job": "At trim, work 406 as a checklist room by room: correct replacement type, WR where the location needs it, in-use cover where the location is wet, TR where 406.12 requires it, and nothing inside the tub/shower zone.",
+      "sharma_note": "S-07: points marked GFI on a Sharma plan get a standard tamper-resistant receptacle protected by the dual-function breaker. Sharma does not install GFCI receptacles as the standard device.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-071",
+        "L-072",
+        "L-073",
+        "L-074",
+        "L-075",
+        "Q-052",
+        "Q-053",
+        "S-07"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-07"
+      ],
+      "prev_id": "C4-404.15(C)",
+      "next_id": "C4-406.4(D)"
+    },
+    {
+      "id": "C4-406.4(D)",
+      "chapter": 4,
+      "article": "406",
+      "section": "406.4(D)",
+      "title": "Replacing a receptacle — the replacement must meet today's rules for that location",
+      "plain_explanation": "Section 406.4(D) governs what you must do when you swap out an existing receptacle. Where current code requires GFCI, AFCI, tamper-resistant, or weather-resistant protection at that location, the replacement has to provide it. Where there is no equipment grounding conductor in the box, the permitted paths are a non-grounding-type replacement, a GFCI-type replacement marked as having no equipment ground, or a grounding-type receptacle fed through a GFCI device and marked accordingly. You may not simply install a standard grounding receptacle on an ungrounded circuit and leave it looking grounded.",
+      "on_the_job": "On a service swap, test for a real ground first, then pick the replacement path and apply the required marking sticker or engraving before you leave. Photograph the marking for the job record when it is a no-equipment-ground installation.",
+      "sharma_note": "S-07 note: on new Sharma work the GFCI/AFCI protection lives at the DFN breaker, so a replacement on a Sharma DFN circuit normally keeps a standard TR device. On older panels without that protection, 406.4(D) is what forces the upgrade at the device.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-071",
+        "C4-L-010",
+        "C4-L-011",
+        "S-07"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-07"
+      ],
+      "prev_id": "C4-ART-406",
+      "next_id": "C4-406.5(E)"
+    },
+    {
+      "id": "C4-406.5(E)",
+      "chapter": 4,
+      "article": "406",
+      "section": "406.5(E)",
+      "title": "Face-up receptacles in countertops — UNVERIFIED wording",
+      "plain_explanation": "This page is flagged. The v1 README lists the wording of 406.5(E) as unverified. The working understanding from the brief is that this subsection addresses receptacles installed face-up in work surfaces and countertops, a position that collects spills, crumbs, and liquids directly into the device, and that such installations are restricted and must use assemblies listed for that use. Do not quote dimensions or a flat prohibition from this page until Mike confirms the 2020 wording.",
+      "on_the_job": "Field habit that is safe either way: do not cut a standard duplex into a countertop face-up. Put the receptacle on the side of the cabinet, on the wall at the backsplash, or use a listed pop-up assembly made for countertop use, and confirm the current wording with the AHJ on a kitchen island job.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-072"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "unverified_reason": "Wording of 406.5(E) flagged UNVERIFIED in content/v1/README.md; substance paraphrased from the brief only.",
+      "prev_id": "C4-406.4(D)",
+      "next_id": "C4-406.9(A)"
+    },
+    {
+      "id": "C4-406.9(A)",
+      "chapter": 4,
+      "article": "406",
+      "section": "406.9(A)",
+      "title": "Receptacles in damp locations",
+      "plain_explanation": "Section 406.9(A) covers receptacles in damp locations — places that are protected from direct weather but can be damp, such as a covered porch or a carport. The receptacle must be weather-resistant type, and the enclosure must keep moisture out of the wiring connections when no plug is inserted; a cover that is weatherproof when the plug is out is the usual way this is met. Damp is the middle category: not dry indoors, not taking direct rain.",
+      "on_the_job": "Look up before you decide: if the device can get rained on with the cover open or closed, treat it as wet, not damp, and use the 406.9(B) in-use arrangement. When in doubt, install the wet-location setup — it satisfies the damp case too.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-073",
+        "C4-L-012"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-406.5(E)",
+      "next_id": "C4-406.9(B)"
+    },
+    {
+      "id": "C4-406.9(B)",
+      "chapter": 4,
+      "article": "406",
+      "section": "406.9(B)",
+      "title": "Receptacles in wet locations — in-use covers and weather-resistant devices",
+      "plain_explanation": "Section 406.9(B) covers receptacles in wet locations, where water can reach the device whether or not something is plugged in. The enclosure must stay weatherproof while a plug is inserted and the cord is in use — the bubble or in-use cover — and 15A and 20A, 125V and 250V receptacles in wet locations must be weather-resistant (WR) type. An unattended wet-location receptacle, such as one on a house exterior, needs that in-use protection; the rule has specific treatment for receptacles that are attended while in use.",
+      "on_the_job": "Stock both parts on the truck: a WR receptacle and an extra-duty in-use cover. A flat flip lid on an exterior receptacle that runs a pump, a charger, or landscape equipment is a correction waiting to happen. Seat the cover gasket fully and route the cord out the bottom notch so the cover can close.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-073",
+        "C4-L-012",
+        "O-03"
+      ],
+      "florida_note": "Florida note: afternoon rain and irrigation spray make most Florida exterior receptacles wet locations in practice, whatever the plan calls them. Default to WR + in-use cover outside.",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-406.9(A)",
+      "next_id": "C4-406.9(C)"
+    },
+    {
+      "id": "C4-406.9(C)",
+      "chapter": 4,
+      "article": "406",
+      "section": "406.9(C)",
+      "title": "No receptacles inside the tub or shower zone",
+      "plain_explanation": "Section 406.9(C) keeps receptacles out of the zone directly inside and immediately around a bathtub or shower stall. In the 2020 arrangement this zone is measured 3 ft horizontally and 8 ft vertically from the top of the bathtub rim or the shower stall threshold, and no receptacle may be installed within that zone. The rule exists because a person in water is in the worst possible position to contact a device or a cord connected to it.",
+      "on_the_job": "On layout, mark the zone on the floor plan before you place bath receptacles, not at trim. Vanity receptacles belong outside the zone even when the counter runs close to the tub. If the only wall space is inside the zone, move the discussion to the builder before rough-in, not to the inspector at final.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-073",
+        "Q-053",
+        "B-03"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-406.9(B)",
+      "next_id": "C4-406.12"
+    },
+    {
+      "id": "C4-406.12",
+      "chapter": 4,
+      "article": "406",
+      "section": "406.12",
+      "title": "Tamper-resistant receptacles in dwellings and other listed occupancies",
+      "plain_explanation": "Section 406.12 requires tamper-resistant receptacles in dwelling units and in a list of other occupancies where children are present, such as guest rooms, childcare and preschool areas, dormitories, and certain medical and office waiting areas. A TR receptacle has internal shutters that only open when both blades of a plug go in together, so a key or paperclip pushed into one slot does not reach a live contact. The requirement applies at the receptacle locations the article covers, generally those at normal reachable height rather than the listed exceptions such as receptacles high above the floor or inside a luminaire.",
+      "on_the_job": "Use TR devices as the default dwelling device and check the exception before you substitute a standard one. A failed shutter on a damaged TR receptacle means replacement, not a standard-device swap (see 406.4(D)).",
+      "sharma_note": "S-07 pairs with this page: the standard Sharma dwelling device is a TR receptacle, with GFCI/AFCI protection supplied by the DFN breaker rather than by a GFCI receptacle.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-074",
+        "L-075",
+        "Q-052",
+        "S-07"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-07"
+      ],
+      "prev_id": "C4-406.9(C)",
+      "next_id": "C4-ART-408"
+    },
+    {
+      "id": "C4-ART-408",
+      "chapter": 4,
+      "article": "408",
+      "section": "408",
+      "title": "Switchboards, switchgear, and panelboards — article intro",
+      "plain_explanation": "Article 408 covers the boards themselves: switchboards, switchgear, and the panelboards Sharma installs on nearly every job. For residential and light commercial work the live parts of this article are the circuit directory, identification of circuits, closing unused openings, overcurrent protection of the panelboard, and the rule that breakers be the type listed for the panel they sit in. The industrial switchboard sections matter on larger commercial gear; the directory and listing rules matter everywhere.",
+      "on_the_job": "Treat the panel as a document, not just a box: directory filled in, circuits identified at every disconnect, unused openings closed, and only listed breakers installed. An inspector can fail a beautiful rough-in on a blank directory.",
+      "sharma_note": "S-02: all new Sharma gear is Siemens. S-03: in an existing Square D panel, install Square D breakers listed for that panel — never mix brands to fill a space.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-045",
+        "SP-14",
+        "S-02",
+        "S-03"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-02",
+        "S-03"
+      ],
+      "prev_id": "C4-406.12",
+      "next_id": "C4-408.4(A)"
+    },
+    {
+      "id": "C4-408.4(A)",
+      "chapter": 4,
+      "article": "408",
+      "section": "408.4(A)",
+      "title": "The circuit directory — specific, on site, and kept current",
+      "plain_explanation": "Section 408.4(A) requires every circuit and circuit modification to be identified at the panelboard with enough detail to tell circuits apart, and a circuit directory (or circuit identification) must be provided at the board. Generic labels like 'plugs,' 'lights,' or 'bedroom' written for a different house do not meet the intent; the identification has to describe the actual purpose or use of each circuit in that building. Spare positions must be marked as spares, and the directory must be updated when circuits change.",
+      "on_the_job": "Fill the directory at trim, from the actual panel schedule, and have the person who wired the house check it circuit by circuit with a tester or by switching. A directory copied from the plan without field verification is how 'Kitchen' ends up feeding the water heater.",
+      "sharma_note": "Sharma note: the directory is part of the finished product the builder sees. Neat, specific, and correct — 'NE bedroom receptacles,' not 'BR.'",
+      "figure_idea": "",
+      "related_ids": [
+        "L-045",
+        "SP-14",
+        "C4-L-020"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-408",
+      "next_id": "C4-408.4(B)"
+    },
+    {
+      "id": "C4-408.4(B)",
+      "chapter": 4,
+      "article": "408",
+      "section": "408.4(B)",
+      "title": "Identification of the source of supply",
+      "plain_explanation": "Section 408.4(B) addresses panelboards supplied by a feeder: the board must be marked to identify where its supply comes from when that source is in a different location or is not obvious, so that a person standing at the panel can find the disconnect that kills it. Companion identification rules in Article 408 also require disconnects and circuits to be marked for their purpose where they are not self-evident. The theme of the whole part is that nobody should have to guess what feeds what.",
+      "on_the_job": "On a sub-panel, label the feeder source (for example, 'Fed from Main Panel, Garage') at the sub-panel and label the feeder breaker at the source panel. Do the same for any panel fed from a generator or a second service, and make the two labels agree with each other.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-021"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-408.4(A)",
+      "next_id": "C4-408.6"
+    },
+    {
+      "id": "C4-408.6",
+      "chapter": 4,
+      "article": "408",
+      "section": "408.6",
+      "title": "The equipment's short-circuit current rating must cover the available fault current",
+      "plain_explanation": "Section 408.6 requires switchboards, switchgear, and panelboards to have a short-circuit current rating (SCCR) at least equal to the available fault current where they are installed. A panel that matches the job on volts and amps can still be the wrong panel if its SCCR is below the fault current the service can deliver into a short. This requirement was added in the 2020 edition, which is why older change-out habits never asked the question.",
+      "on_the_job": "On a service change or a commercial panel set, get the available fault current (from the utility or the design documents) and compare it with the SCCR marked on the gear before the gear is ordered. Record both numbers in the job file. If the fault current is unknown, that is an engineering question for Mike, not a field estimate.",
+      "sharma_note": "S-02 pairs with this page: new Sharma gear is Siemens, and the SCCR check is part of selecting it, not an afterthought at inspection.",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-042",
+        "S-02"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-02"
+      ],
+      "prev_id": "C4-408.4(B)",
+      "next_id": "C4-408.7"
+    },
+    {
+      "id": "C4-408.7",
+      "chapter": 4,
+      "article": "408",
+      "section": "408.7",
+      "title": "Unused openings must be closed",
+      "plain_explanation": "Section 408.7 requires unused openings in a panelboard (and in switchboards and switchgear) to be closed with closures that give protection substantially equal to the wall of the enclosure. An open breaker space with a missing filler plate is an exposed live-part opening, a dust and vermin path, and an automatic correction. Tape is not a closure.",
+      "on_the_job": "Keep listed filler plates for the panel brand on the trim truck. Before final, open every panel, run a finger check for open spaces, blank plates, and missing knock-out closures, and close them with the manufacturer's part.",
+      "sharma_note": "S-02/S-03 apply to the closure as well: use the filler listed for that panel, not a near-fit from another brand.",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-022",
+        "S-02",
+        "S-03"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-02",
+        "S-03"
+      ],
+      "prev_id": "C4-408.6",
+      "next_id": "C4-408.36"
+    },
+    {
+      "id": "C4-408.36",
+      "chapter": 4,
+      "article": "408",
+      "section": "408.36",
+      "title": "The panelboard itself must be protected",
+      "plain_explanation": "Section 408.36 requires a panelboard to be protected by an overcurrent device rated no higher than the panelboard's rating, located in or ahead of the board, with listed exceptions such as certain existing installations and mains supplied under specific service rules. In plain terms, a 100A panel may not sit behind a 200A breaker just because the feeder wires are large. The bus has its own limit and something must enforce it.",
+      "on_the_job": "When you set a sub-panel, check three numbers together: panel bus rating, feeder conductor ampacity, and the breaker feeding it. The smallest applicable limit governs. Record all three on the panel schedule for the office file.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-023"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-408.7",
+      "next_id": "C4-408.41"
+    },
+    {
+      "id": "C4-408.41",
+      "chapter": 4,
+      "article": "408",
+      "section": "408.41",
+      "title": "Each grounded (neutral) conductor gets its own terminal",
+      "plain_explanation": "Section 408.41 requires each grounded conductor in a panelboard to terminate in its own individual terminal that is not used for any other conductor, unless the terminal is specifically identified for more than one. Doubling two neutrals under one screw is a classic correction: when one circuit is worked on, loosening the shared terminal can open the neutral of a live circuit sharing it. Equipment grounding conductors follow their own termination rules and the panel's listing; the one-per-terminal discipline on this page is about the grounded conductors.",
+      "on_the_job": "At trim, land neutrals one to a screw and torque them; never park a second neutral under a screw 'temporarily.' On a panel change-out, budget the time to separate doubled neutrals — finding them is part of the job, and the directory update in 408.4(A) happens on the same visit.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-408.4(A)",
+        "C4-D-21"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-408.36",
+      "next_id": "C4-408.43"
+    },
+    {
+      "id": "C4-408.43",
+      "chapter": 4,
+      "article": "408",
+      "section": "408.43",
+      "title": "A panelboard may not be installed face-up",
+      "plain_explanation": "Section 408.43 prohibits installing a panelboard in a face-up position. A load center belongs on a vertical surface with its breakers oriented as the listing intends; a face-up board collects debris and water, and its breakers do not operate or indicate as designed. The rule was added in the 2020 edition and most often matters on custom commercial millwork and unusual equipment layouts, not on a standard house panel.",
+      "on_the_job": "If a plan or a cabinet detail shows a panel lying flat, stop at rough-in and raise it with the builder — the fix is a layout change, not a field workaround. Check orientation on any pre-built equipment package before it is set.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-408.4(A)"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-408.41",
+      "next_id": "C4-ART-409"
+    },
+    {
+      "id": "C4-ART-409",
+      "chapter": 4,
+      "article": "409",
+      "section": "409",
+      "title": "Industrial control panels — article intro",
+      "plain_explanation": "Article 409 covers industrial control panels: the factory- or field-assembled panels that control industrial machinery, with their short-circuit current rating (SCCR) marking, supply conductor sizing, and internal wiring rules. The SCCR is the headline item — a panel may not be installed where the available fault current exceeds the rating marked on it. Sharma meets this article on light commercial and equipment work rather than in houses.",
+      "on_the_job": "Read the SCCR on the panel label and compare it with the available fault current at its supply before you set the panel. If the panel has no SCCR marking or the fault current is unknown, stop and take it to Mike — that is an engineering check, not a field guess.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-408.43",
+      "next_id": "C4-ART-410"
+    },
+    {
+      "id": "C4-ART-410",
+      "chapter": 4,
+      "article": "410",
+      "section": "410",
+      "title": "Luminaires, lampholders, and lamps — article intro",
+      "plain_explanation": "Article 410 covers light fixtures in the broad code sense: luminaires, lampholders, and lamps, including where they may be installed, how they are supported, temperature limits near combustible material, and the special zones in bathtubs, showers, and clothes closets. The two pages Sharma hits constantly are the tub/shower zone and the closet rules. Fixture listing and its instructions (110.3(B)) do half the work in this article — the box and the spec sheet are part of the code answer.",
+      "on_the_job": "Read the fixture's own listing before you rough the box: weight, temperature rating, damp/wet rating, and closet or shower suitability are all on the label or the cut sheet, not in the field manual.",
+      "sharma_note": "Sharma bath practice (company practice, not 410): vanity lighting plus the architect's wet-location shower light, with no extra general ceiling light added by habit. Follow the plan; do not add or delete bath lights on your own.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-076",
+        "L-077",
+        "B-05",
+        "BL-11"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-409",
+      "next_id": "C4-410.10(D)"
+    },
+    {
+      "id": "C4-410.10(D)",
+      "chapter": 4,
+      "article": "410",
+      "section": "410.10(D)",
+      "title": "Luminaires in the bathtub and shower zone",
+      "plain_explanation": "Section 410.10(D) controls fixtures inside the zone measured 3 ft horizontally and 8 ft vertically from the top of the tub rim or the shower threshold. Inside that zone a luminaire must be listed for damp locations, and for wet locations where it is subject to shower spray, and certain fixture types — including hanging fixtures, pendants, and ceiling-suspended fans — are not permitted in the zone at all. A fixture outside the zone is not governed by this subsection even if it is in the same bathroom.",
+      "on_the_job": "Mark the zone on the plan at rough-in and check every bath fixture against it, including the shower light and any fan/light combo. Confirm the damp or wet marking on the fixture label matches where it actually sits, and keep the label information in the job file.",
+      "sharma_note": "Sharma note: the architect's specified shower light is the fixture of record — install the listed wet-location model specified, not a damp-only substitute from stock.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-076",
+        "B-05",
+        "C4-L-030"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-410",
+      "next_id": "C4-410.16"
+    },
+    {
+      "id": "C4-410.16",
+      "chapter": 4,
+      "article": "410",
+      "section": "410.16",
+      "title": "Luminaires in clothes closets — UNVERIFIED clearances",
+      "plain_explanation": "This page is flagged. The v1 README lists the 410.16 closet clearance wording and dimensions as unverified, so this page states the structure of the rule without quoting the clearance table as fact. The structure is: only certain luminaire types may be installed in a clothes closet, surface-mounted and recessed fixtures have minimum clearances from the storage space (the area where clothes and boxes are stored), and pendant fixtures and bare lamps are the recurring problem types because they sit close to stored material and can be broken. Mike must confirm the 2020 clearance distances before this page loses its flag.",
+      "on_the_job": "Safe field practice until the numbers are confirmed here: keep fixtures out of the storage space entirely where the plan allows, use an enclosed, listed closet-suitable fixture, and never hang a pendant or an exposed lamp in a closet. Check the plan and the AHJ rather than working from a remembered clearance number.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-077",
+        "BL-11"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "unverified_reason": "Closet clearance dimensions and wording in 410.16 flagged UNVERIFIED in content/v1/README.md; distances intentionally not stated as fact.",
+      "prev_id": "C4-410.10(D)",
+      "next_id": "C4-410.116"
+    },
+    {
+      "id": "C4-410.116",
+      "chapter": 4,
+      "article": "410",
+      "section": "410.116",
+      "title": "Recessed luminaires — insulation contact and thermal protection",
+      "plain_explanation": "Section 410.116 covers recessed luminaires: the clearance they must keep from combustible material, the thermal protection that shuts the fixture down if it overheats, and the difference between fixtures listed for direct contact with insulation (Type IC) and those that must keep insulation away. An IC rating is a property of the specific fixture, not of recessed fixtures in general. The fixture's marking also decides whether it may be installed in a ceiling that will be insulated after the fact.",
+      "on_the_job": "Read the housing label before the ceiling closes: IC or non-IC, and the insulation clearance if it is non-IC. In an insulated Florida attic ceiling, a non-IC can buried in blown insulation is both a code correction and a heat problem — flag it at rough-in, while the fix is still cheap.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-ART-410",
+        "C4-L-044"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-410.16",
+      "next_id": "C4-ART-411"
+    },
+    {
+      "id": "C4-ART-411",
+      "chapter": 4,
+      "article": "411",
+      "section": "411",
+      "title": "Lighting systems operating at 30 volts or less — article intro",
+      "plain_explanation": "Article 411 covers low-voltage lighting systems that operate at 30V or less: the listed system, its power supply, and the secondary wiring that feeds the fixtures. These systems are installed as a listed assembly, not assembled from loose parts in the field, and the secondary conductors have their own rules distinct from ordinary branch wiring. Sharma meets this article mainly in landscape-style and specialty accent lighting inside a project.",
+      "on_the_job": "Install the system as the listed package: listed power supply, listed fixtures, and the manufacturer's wiring instructions. Do not extend a 30V secondary with branch-circuit wire methods or bury connections the listing does not allow.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-410.116",
+      "next_id": "C4-ART-422"
+    },
+    {
+      "id": "C4-ART-422",
+      "chapter": 4,
+      "article": "422",
+      "section": "422",
+      "title": "Appliances — article intro",
+      "plain_explanation": "Article 422 covers appliances: water heaters, dishwashers, disposals, ranges and cooktops, dryers as appliances, space heaters that plug or hard-wire as appliances, and similar equipment. Its working parts are branch-circuit sizing for specific appliances, permitted cord-and-plug connections, overcurrent protection, and the disconnecting means that lets a servicer kill the appliance safely. Where an appliance is also a motor load or also HVAC equipment, Articles 430 and 440 may govern instead or in addition — check the appliance's own article first.",
+      "on_the_job": "For every appliance on a job, settle three things from the nameplate before rough-in is closed: circuit size, cord-and-plug or hard-wired, and where the disconnect will be. The nameplate, not the catalog photo, is the source.",
+      "sharma_note": "S-06: the microwave gets its own 20A circuit on 12 AWG copper. Do not lump the microwave onto an appliance circuit shared with the hood or anything else.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-078",
+        "L-079",
+        "L-080",
+        "Q-054",
+        "K-09",
+        "S-06"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-06"
+      ],
+      "prev_id": "C4-ART-411",
+      "next_id": "C4-422.5"
+    },
+    {
+      "id": "C4-422.5",
+      "chapter": 4,
+      "article": "422",
+      "section": "422.5",
+      "title": "GFCI protection required for specific appliances",
+      "plain_explanation": "Section 422.5 lists appliances that must be GFCI protected for personnel in the areas it names, a list that in the 2020 edition reaches items such as dishwashers in dwelling kitchens and certain vending, drinking-water, and similar equipment, with the protection allowed at the breaker, the receptacle, or another listed point the section permits. This appliance-level rule sits on top of the room-level rules in 210.8 — meeting one does not erase the other. Edition caution: the ChatGPT research supplied for this chapter listed ranges, wall ovens, dryers, and microwaves inside this 2020 list. That wider list is an NEC 2023 expansion — not yet adopted in FL — and it is not part of the NEC 2020 list this book teaches. Do not apply it on a Florida 2020 job.",
+      "on_the_job": "Check an appliance against both lists: 210.8 for the room and receptacle, and 422.5 for the appliance itself. On Sharma work the DFN breaker usually supplies this protection for a 120V appliance circuit (S-07); confirm the breaker type actually provides GFCI, not AFCI only.",
+      "sharma_note": "S-07: every 120V breaker on new Sharma work is dual-function AFCI/GFCI, which is what makes the breaker the protection point for these appliances.",
+      "figure_idea": "",
+      "related_ids": [
+        "S-07",
+        "C4-L-043"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-07"
+      ],
+      "prev_id": "C4-ART-422",
+      "next_id": "C4-422.13"
+    },
+    {
+      "id": "C4-422.13",
+      "chapter": 4,
+      "article": "422",
+      "section": "422.13",
+      "title": "Storage water heaters — treat the load as continuous for circuit sizing",
+      "plain_explanation": "Section 422.13 sizes the branch circuit for a fixed storage water heater of 120 gallons or less at not less than 125 percent of the heater's nameplate rating. In practice that is why a common 4500W, 240V heater (18.75A) lands on a 25A minimum calculation and is conventionally wired on a 30A circuit with 10 AWG copper — the arithmetic must be run for the actual nameplate on the actual job, not copied from the last house. The heater is treated this way because it can run for long stretches recovering a tank.",
+      "on_the_job": "Do the division every time: nameplate watts divided by voltage, times 1.25, then choose the standard breaker and conductor that cover it. Write the result on the panel schedule so the next person does not have to reverse-engineer it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-078",
+        "Q-054",
+        "C4-L-040"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-422.5",
+      "next_id": "C4-422.16(B)(4)"
+    },
+    {
+      "id": "C4-422.16(B)(4)",
+      "chapter": 4,
+      "article": "422",
+      "section": "422.16(B)(4)",
+      "title": "Cord-and-plug connection for range hoods",
+      "plain_explanation": "Section 422.16(B)(4) is the provision the brief assigns to cord-and-plug-connected range hoods: a listed range hood may be connected with a cord and plug where the conditions of that subsection are met, including that the hood is marked for that connection method and the receptacle arrangement matches the rule. Cord connection is what lets the hood be removed for service without unwiring it, but it is only permitted because the appliance and the installation meet the listed conditions — not as a general shortcut for any fixed appliance.",
+      "on_the_job": "Confirm the hood's instructions allow cord connection and that the receptacle location matches the plan before rough-in. If the hood is listed for hard-wiring only, hard-wire it; the cord kit in the truck does not override the listing.",
+      "sharma_note": "Sharma note (company practice, not a 422 rule): the range hood often rides the dishwasher/disposal circuit in Sharma design practice. S-06 still stands on its own — the microwave keeps its own dedicated 20A copper circuit and is never lumped in with the hood.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-080",
+        "K-09",
+        "S-06",
+        "C4-L-041"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-06"
+      ],
+      "prev_id": "C4-422.13",
+      "next_id": "C4-422.31"
+    },
+    {
+      "id": "C4-422.31",
+      "chapter": 4,
+      "article": "422",
+      "section": "422.31",
+      "title": "Disconnecting means for permanently connected appliances",
+      "plain_explanation": "Section 422.31 covers how a permanently connected appliance is disconnected for service. Depending on the appliance's rating, the disconnect may be a switch or breaker that meets the article's conditions, and for larger appliances the disconnect must be capable of being locked in the open position or meet the subsection that applies to its size. The intent is simple: the person servicing the appliance must be able to cut its power and keep it cut. The branch-circuit breaker can serve this role only where the conditions for doing so are met.",
+      "on_the_job": "At rough-in, decide where each hard-wired appliance's disconnect lives and confirm a servicer can reach it. A water heater, an air handler, or a cooktop whose only disconnect is an unlabelled breaker two rooms away is a conversation to have before final, not after.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-079",
+        "C4-L-042"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-422.16(B)(4)",
+      "next_id": "C4-ART-424"
+    },
+    {
+      "id": "C4-ART-424",
+      "chapter": 4,
+      "article": "424",
+      "section": "424",
+      "title": "Fixed electric space-heating equipment — article intro",
+      "plain_explanation": "Article 424 covers heating that is built into the building: baseboard heaters, wall heaters, radiant panels and cables, duct heaters, and boilers used for space heat. Its core ideas are that heating loads are treated as continuous, that the equipment must be listed and installed to its instructions, and that disconnects and controls must let the heater be serviced and shut off safely. In Florida houses Sharma meets this article most often at duct heat strips in an air handler and at the occasional wall or bath heater.",
+      "on_the_job": "Size every heater circuit from the nameplate as a continuous load, and confirm the disconnect and control arrangement before the air handler or heater is set. Heat strips are also a load-calc input — tell the office the strip size you actually installed, not the one the plan first showed.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-083",
+        "AH-08"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-422.31",
+      "next_id": "C4-424.4(B)"
+    },
+    {
+      "id": "C4-424.4(B)",
+      "chapter": 4,
+      "article": "424",
+      "section": "424.4(B)",
+      "title": "Branch-circuit sizing for fixed space heat — 125 percent, UNVERIFIED section number",
+      "plain_explanation": "This page is flagged on its citation, not its arithmetic. The brief records that the 125 percent branch-circuit sizing rule for fixed electric space-heating was 424.3(B) in the 2017 edition and that the 2020 number, given as 424.4(B), was not re-checked in the v1 pass. The substance is stable across both editions: fixed space-heating loads are considered continuous, so the branch-circuit conductors and overcurrent protection are sized at not less than 125 percent of the total load connected to the circuit, including any motor load in the same equipment.",
+      "on_the_job": "Run the math as continuous load regardless of the flag: nameplate amps times 1.25, then select conductor and breaker. Mike to confirm the 2020 subsection number against the printed book before this page is marked verified.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-083",
+        "AH-08",
+        "C4-L-049"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "unverified_reason": "Section number 424.4(B) not re-checked against NEC 2020 in the v1 pass (was 424.3(B) in 2017), per content/v1/README.md and the ch4 brief.",
+      "prev_id": "C4-ART-424",
+      "next_id": "C4-424.19"
+    },
+    {
+      "id": "C4-424.19",
+      "chapter": 4,
+      "article": "424",
+      "section": "424.19",
+      "title": "Disconnecting means for fixed space-heating equipment",
+      "plain_explanation": "Section 424.19 requires a disconnecting means for fixed space-heating equipment that disconnects the heater and its controller, placed so the equipment can be serviced safely, with provisions for locking or for the breaker arrangement depending on the installation. A duct heater inside an air handler is normally disconnected at the air handler's disconnect, which is why the 440/424 boundary matters on an HVAC change-out: the heat strips and the blower are one piece of equipment at service time.",
+      "on_the_job": "Confirm the disconnect kills the strips and the blower together, and that it is within reach of the person servicing the unit. On a change-out, if you move the disconnect, re-verify the heat-strip circuit at the new location before start-up.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-050"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-424.4(B)",
+      "next_id": "C4-ART-425"
+    },
+    {
+      "id": "C4-ART-425",
+      "chapter": 4,
+      "article": "425",
+      "section": "425",
+      "title": "Fixed resistance and electrode industrial process heating equipment — article intro",
+      "plain_explanation": "Article 425 covers electric heating used for an industrial process rather than for comfort: process tanks, ovens, and similar equipment. Sharma's residential and light commercial work rarely installs it, so this first pass gives the article a place in the book and a scope page only. Where a commercial job includes process heat, work the article with the equipment listing and ask Mike before treating it like space heat under 424.",
+      "on_the_job": "Do not borrow 424 rules for a 425 load by habit. Identify the article from the equipment's use, then apply that article plus the listing.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-424.19",
+      "next_id": "C4-ART-426"
+    },
+    {
+      "id": "C4-ART-426",
+      "chapter": 4,
+      "article": "426",
+      "section": "426",
+      "title": "Fixed outdoor electric deicing and snow-melting equipment — article intro",
+      "plain_explanation": "Article 426 covers fixed electric equipment that melts snow and ice outdoors: heated pavements, walks, and similar surfaces. It is a later-pass article for a Florida book — Sharma does not install snow-melting in its territory — and it is included here so Chapter 4 walks the NEC in complete official order. Ground-fault protection of equipment is a central theme of this article when it does apply, as with its sister heating articles.",
+      "on_the_job": "If a Florida job somehow specifies deicing equipment (a northern builder's standard detail copied onto a Florida plan is the usual way), flag it to the office rather than installing or deleting it silently.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "Florida note: no snow load in Sharma's territory; treat any 426 equipment on a Florida plan as a probable copy-over from another climate and confirm with the builder.",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-425",
+      "next_id": "C4-ART-427"
+    },
+    {
+      "id": "C4-ART-427",
+      "chapter": 4,
+      "article": "427",
+      "section": "427",
+      "title": "Fixed electric heating equipment for pipelines and vessels — article intro",
+      "plain_explanation": "Article 427 covers electric heat tracing and heating for pipes and vessels: the cable or panel that keeps a pipe from freezing or keeps a process fluid at temperature. Sharma meets its Florida cousin in the form of pipe heat trace on exposed commercial plumbing and in freeze protection details, not in ordinary house work. Ground-fault equipment protection is again a central requirement because the heating element runs where people and water are both present.",
+      "on_the_job": "Install heat trace exactly to its listing: correct cable for the pipe, correct controller and sensor location, and the required ground-fault equipment protection in place and tested. Photograph the controller setting at turnover.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-426",
+      "next_id": "C4-ART-430"
+    },
+    {
+      "id": "C4-ART-430",
+      "chapter": 4,
+      "article": "430",
+      "section": "430",
+      "title": "Motors, motor circuits, and controllers — article intro",
+      "plain_explanation": "Article 430 is the longest working article in Chapter 4 and the one most often misapplied, because it is a system, not a single rule: conductors sized from table full-load current, separate overload protection sized from the nameplate, short-circuit and ground-fault protection sized from its own tables and percentages, a controller, and a disconnect within sight. Each of those five jobs has its own sizing basis, and using one number for all five is the classic 430 error. Air-conditioning equipment is pulled out of parts of 430 by Article 440, which has its own nameplate-driven rules — always check which article governs the equipment in front of you.",
+      "on_the_job": "Work a motor in this order, every time: (1) table FLC for conductors and short-circuit protection, (2) nameplate FLA for overloads, (3) disconnect within sight, (4) controller rating. Write all four down before you order material.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-025",
+        "C4-L-026",
+        "C4-L-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-427",
+      "next_id": "C4-430.6"
+    },
+    {
+      "id": "C4-430.6",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.6",
+      "title": "Which current do you size from — table values vs. nameplate",
+      "plain_explanation": "Section 430.6 is the traffic rule for the whole article. For sizing conductors, disconnects, controllers, and short-circuit/ground-fault protection, you use the full-load current values from the Article 430 tables for the motor's horsepower and voltage — not the amps printed on that particular motor's nameplate, because the next replacement motor may differ. Overload protection is the exception: it is sized from the actual nameplate current of the motor installed, because it protects that specific machine. Mixing those two bases up is the single most common motor calculation error.",
+      "on_the_job": "Keep two numbers on your worksheet and label them: 'Table FLC' and 'Nameplate FLA.' If a number on your page is not labelled, stop and label it before you size anything from it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-430",
+      "next_id": "C4-430.22"
+    },
+    {
+      "id": "C4-430.22",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.22",
+      "title": "Conductors for a single motor — 125 percent of table full-load current",
+      "plain_explanation": "Section 430.22 sizes the branch-circuit conductors feeding one continuous-duty motor at not less than 125 percent of the motor's full-load current as taken from the Article 430 tables. The extra quarter covers the heating of a motor that runs for long periods at full load. Intermittent and short-time duty motors are treated under their own parts of this section, so the duty rating on the nameplate decides which rule you are in before you do any arithmetic.",
+      "on_the_job": "Take the table FLC for the horsepower and voltage, multiply by 1.25, then select the conductor from the ampacity table using the correct temperature column for the terminations. Do not size the wire from the nameplate amps and do not round the 125 percent away.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-026"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.6",
+      "next_id": "C4-430.24"
+    },
+    {
+      "id": "C4-430.24",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.24",
+      "title": "Conductors feeding several motors",
+      "plain_explanation": "Section 430.24 sizes conductors that feed two or more motors (or motors with other loads): take 125 percent of the full-load current of the largest motor, add the full-load currents of the other motors at 100 percent, and add any other loads under their own rules, all using the Article 430 table values. The largest motor gets the continuous-duty margin; the rest are added at face value, on the reasonable basis that the feeder sees the sum. It is the feeder-level companion to the single-motor rule in 430.22.",
+      "on_the_job": "Build the sum in a labelled column — largest motor first at 125 percent, then each additional motor at 100 percent — so the next person can audit it. Do not apply 125 percent to every motor on the feeder, and do not size a multi-motor feeder from one nameplate.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-430.22",
+        "C4-L-045"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.22",
+      "next_id": "C4-430.32"
+    },
+    {
+      "id": "C4-430.32",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.32",
+      "title": "Overload protection — protects the motor from running too hot",
+      "plain_explanation": "Section 430.32 requires overload protection for continuous-duty motors over the small sizes the article sets, sized from the motor's nameplate full-load current with the percentage depending on the motor's service factor and temperature-rise markings. The overload device watches running current over time and trips before the windings cook; it is not there to clear a short circuit, which is the branch protective device's job. A motor with built-in thermal protection meets this requirement through its own device where the article allows it.",
+      "on_the_job": "Read service factor and rise off the nameplate before you select or set an overload. If the overload trips repeatedly, measure the running amps and find the mechanical cause — do not solve a tripping overload by setting it higher than 430.32 permits.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.24",
+      "next_id": "C4-430.52"
+    },
+    {
+      "id": "C4-430.52",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.52",
+      "title": "Branch-circuit short-circuit and ground-fault protection for motors",
+      "plain_explanation": "Section 430.52 sizes the device that clears a fault on a motor branch circuit, using the percentages in Table 430.52 applied to the table full-load current, with the device type (fuses, inverse-time breaker, instantaneous-trip breaker, and so on) deciding which column applies. These percentages are deliberately far above running current, because the device must ride through motor starting inrush without opening, while still clearing a fault. That is why a motor circuit can legally have a breaker that looks oversized for its wire — the overload device, not the breaker, is protecting the motor and, through its sizing rules, the circuit against overload.",
+      "on_the_job": "Never judge a motor circuit by house-circuit instincts. Check all three together: conductor at 125 percent of table FLC (430.22), overload from the nameplate (430.32), fault protection from Table 430.52. If one of the three is missing from the job paperwork, the calculation is not finished.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-027"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.32",
+      "next_id": "C4-430.102"
+    },
+    {
+      "id": "C4-430.102",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.102",
+      "title": "The motor disconnect must be within sight",
+      "plain_explanation": "Section 430.102 places the disconnecting means for a motor and its controller within sight from the equipment it disconnects — visible and not more than 50 ft away, the Article 100 meaning of 'in sight.' The person servicing the machine must be able to see the disconnect, or the disconnect must be of a type that can be locked open under the conditions the article allows. A breaker in a panel across the building, with no lockable arrangement, does not give a servicer control of the machine in front of them.",
+      "on_the_job": "Stand at the motor and point at its disconnect before you call the job done. If you cannot see it, either move it, add the local disconnect, or confirm the lockable arrangement the article permits and document it. The same within-sight habit is what 440.14 demands for HVAC equipment.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-028",
+        "AH-04"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.52",
+      "next_id": "C4-430.109"
+    },
+    {
+      "id": "C4-430.109",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.109",
+      "title": "What may serve as the motor disconnect",
+      "plain_explanation": "Section 430.109 lists the types of switches and devices permitted to serve as a motor disconnect, including horsepower-rated switches and listed circuit breakers, with the permitted type depending on the motor's size and duty. A general-use switch that is fine for a lighting load is not automatically a motor disconnect; the device must be rated for interrupting a motor circuit of that horsepower. Small fractional-horsepower motors have their own permitted arrangements under this section and 430.111.",
+      "on_the_job": "Read the horsepower rating on the switch, not just the amp rating, before you land a motor on it. When the disconnect is a breaker in a panelboard, confirm it is a permitted type for that motor and that the within-sight rule in 430.102 is separately satisfied.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-040"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.102",
+      "next_id": "C4-430.110"
+    },
+    {
+      "id": "C4-430.110",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.110",
+      "title": "Rating of the motor disconnect — at least 115 percent",
+      "plain_explanation": "Section 430.110 sizes the disconnecting means for a motor circuit: a general-use switch used as a motor disconnect must have an ampere rating of at least 115 percent of the motor's full-load current as taken from the Article 430 tables, and horsepower-rated devices are selected by their horsepower rating for the motor served. The disconnect is a switching device that must safely make and break motor current, which is why its sizing basis is its own rule and not simply 'match the breaker.' Combined with 430.102 (within sight) and 430.109 (permitted types), this completes the disconnect picture.",
+      "on_the_job": "Check two markings on a motor disconnect: the amp rating against 115 percent of table FLC, or the horsepower rating against the motor. If either fails, the disconnect is the wrong device even if it has worked for years on the old motor.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-430.102",
+        "C4-430.109",
+        "C4-L-046"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.109",
+      "next_id": "C4-ART-440"
+    },
+    {
+      "id": "C4-ART-440",
+      "chapter": 4,
+      "article": "440",
+      "section": "440",
+      "title": "Air-conditioning and refrigerating equipment — article intro",
+      "plain_explanation": "Article 440 takes hermetic refrigerant motor-compressors and air-conditioning equipment out of the general motor rules and gives them a nameplate-driven system. The equipment nameplate states the minimum circuit ampacity (MCA) and the maximum overcurrent protection (MOCP, sometimes marked MOP or 'max fuse/breaker'), and those two printed numbers — not a horsepower table — size the circuit. Article 440 also sets the disconnect rule Sharma's crews use daily: within sight, readily accessible, at the equipment. Where 430 and 440 disagree for a compressor, 440 governs.",
+      "on_the_job": "Read the nameplate before you run the wire, every unit, every change-out. A replacement condenser with a higher MCA than the old one is a new circuit calculation, not a like-for-like swap. Photograph the nameplate for the job file at rough-in and again at start-up.",
+      "sharma_note": "Sharma practice (tip, not an S-rule): the condenser is wired to the nameplate MOCP with a standard 2-pole breaker. The 210.8(F) GFCI question for outdoor outlets/equipment has varied by TIA and local amendment — confirm the AHJ position on the job rather than assuming; see the Chapter 2 cross-link on the 440.4(B) page.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-081",
+        "L-082",
+        "Q-055",
+        "Q-056",
+        "AH-03",
+        "AH-04",
+        "O-05"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.110",
+      "next_id": "C4-440.4(B)"
+    },
+    {
+      "id": "C4-440.4(B)",
+      "chapter": 4,
+      "article": "440",
+      "section": "440.4(B)",
+      "title": "Reading the HVAC nameplate — MCA and MOCP do the sizing",
+      "plain_explanation": "Section 440.4(B) covers the nameplate marking for equipment with a hermetic refrigerant motor-compressor: the plate carries the rated-load current and the branch-circuit selection current, and the manufacturer's marked minimum circuit ampacity and maximum overcurrent device rating are built from them. In field language: MCA tells you the smallest conductor ampacity the circuit may have; MOCP tells you the largest fuse or breaker you may protect it with. A breaker smaller than MOCP is allowed; a conductor smaller than MCA is not. The plate, not a tonnage rule of thumb, is the calculation.",
+      "on_the_job": "On every condenser and air handler: record MCA, MOCP, voltage, and phase from the plate. Wire to at least MCA, protect at no more than MOCP, and if the installed breaker or wire disagrees with a change-out unit's new plate, stop and tell the office before start-up — that is a change order conversation, not a field improvisation.",
+      "sharma_note": "Cross-link (Chapter 2): the question of GFCI protection for outdoor HVAC equipment under 210.8(F) is handled on the Chapter 2 pages and is deliberately not resolved here; local AHJ position governs on the job.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-081",
+        "Q-055",
+        "AH-03",
+        "C4-L-029",
+        "C4-L-030"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-440",
+      "next_id": "C4-440.10"
+    },
+    {
+      "id": "C4-440.10",
+      "chapter": 4,
+      "article": "440",
+      "section": "440.10",
+      "title": "Short-circuit current rating of air-conditioning and refrigerating equipment",
+      "plain_explanation": "Section 440.10 requires motor controllers and industrial control equipment used with air-conditioning and refrigerating equipment to have a short-circuit current rating suitable for the available fault current, with the rating marked as the article requires. It is the Article 440 companion to 408.6 and 409: modern packaged HVAC gear and its control panels carry an SCCR, and a unit installed where the available fault current exceeds it is a mismatch even when MCA and MOCP are perfect. The issue arises on commercial rooftops and larger services, rarely on a house condenser.",
+      "on_the_job": "On commercial HVAC work, add SCCR to the nameplate photograph set: MCA, MOCP, and SCCR, plus the available fault current when the design provides it. A mismatch goes to Mike before the unit is set, not to the inspector at final.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-440.4(B)",
+        "C4-408.6",
+        "C4-L-047"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-440.4(B)",
+      "next_id": "C4-440.14"
+    },
+    {
+      "id": "C4-440.14",
+      "chapter": 4,
+      "article": "440",
+      "section": "440.14",
+      "title": "The HVAC disconnect — within sight and readily accessible",
+      "plain_explanation": "Section 440.14 requires the disconnecting means for air-conditioning and refrigerating equipment to be within sight from the equipment and readily accessible to it, with an exception for certain industrial/process installations where conditions are met. 'Within sight' carries the Article 100 meaning: visible and within 50 ft. The disconnect may be on the equipment or separate from it, but a person servicing the unit must be able to reach it and see the unit from it. A breaker inside the house panel does not satisfy this by itself.",
+      "on_the_job": "Set the disconnect where the service tech stands: at the condenser pad, in sight, with working space in front of it, not behind a fence line or above reach. On a change-out, if the old disconnect is inside the old unit's shadow or was never installed, relocate or add it as part of the job and note it on the invoice record.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-082",
+        "Q-056",
+        "O-05",
+        "AH-04",
+        "C4-L-031"
+      ],
+      "florida_note": "Florida note: exterior disconnects live in weather — use listed outdoor equipment and keep the working space clear of the condensate line and landscaping at final.",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-440.10",
+      "next_id": "C4-440.22"
+    },
+    {
+      "id": "C4-440.22",
+      "chapter": 4,
+      "article": "440",
+      "section": "440.22",
+      "title": "Short-circuit and ground-fault protection for a compressor circuit",
+      "plain_explanation": "Section 440.22 sizes the branch-circuit short-circuit and ground-fault protection for a hermetic motor-compressor circuit and ties it to the equipment's rated-load or branch-circuit selection current, with the marked MOCP on a listed unit's nameplate being the number the installer works to in practice. As with motors generally, this device is allowed to be larger than the conductor's plain ampacity, because equipment overload protection inside the unit does the running protection and the breaker must ride through compressor starting current. That allowance only exists inside Article 440's system — never borrow it for a general circuit.",
+      "on_the_job": "If a condenser trips a breaker sized at or below its MOCP, the fault is in the equipment or the circuit, not in the arithmetic: measure starting and running current and inspect the contactor and conductors before anyone proposes a larger breaker. A breaker above the nameplate MOCP is never the fix.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-029"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-440.14",
+      "next_id": "C4-440.32"
+    },
+    {
+      "id": "C4-440.32",
+      "chapter": 4,
+      "article": "440",
+      "section": "440.32",
+      "title": "Conductor sizing for a single motor-compressor",
+      "plain_explanation": "Section 440.32 sizes conductors for a single hermetic motor-compressor at not less than 125 percent of the compressor's rated-load current or branch-circuit selection current, whichever is greater. On listed equipment the manufacturer has already done this work and printed it as the MCA, so the field rule and the nameplate rule agree: the conductor ampacity must be at least the MCA. Where you are sizing from a compressor's own data rather than a unit plate, this section is the arithmetic behind the plate.",
+      "on_the_job": "When the plate is present, wire to the MCA and do not re-derive it. When the plate is missing or illegible on existing equipment, stop and get the data from the manufacturer rather than estimating from tonnage.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-029"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-440.22",
+      "next_id": "C4-ART-445"
+    },
+    {
+      "id": "C4-ART-445",
+      "chapter": 4,
+      "article": "445",
+      "section": "445",
+      "title": "Generators — article intro",
+      "plain_explanation": "Article 445 covers generators themselves: their marking, conductor ampacity, overcurrent protection, and shutdown controls. The transfer equipment and the optional-standby-system rules that decide what a generator may feed live mainly in Chapter 7 (Article 702), and required standby systems in 700/701 — this article is about the machine. Sharma meets 445 on whole-house generator work in dwellings, where the 2020 outdoor shutdown rule on the next pages is the item inspectors ask about.",
+      "on_the_job": "Separate the two questions on a generator job: is the machine itself installed to 445, and is the system it feeds wired and sized to Chapter 7? Passing one does not pass the other. Cross-link to Chapter 7 for transfer-switch sizing; do not size a transfer switch from this chapter.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-091",
+        "Q-062",
+        "O-09"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-440.32",
+      "next_id": "C4-445.6"
+    },
+    {
+      "id": "C4-445.6",
+      "chapter": 4,
+      "article": "445",
+      "section": "445.6",
+      "title": "Stationary generators must be listed (2020 addition)",
+      "plain_explanation": "Section 445.6, added in the 2020 edition, requires stationary generators operating at 600 volts or less to be listed. Before this edition a generator could arrive on a job with no listing requirement stated in Article 445 itself; now the machine's listing is a code item, checked the same way as any other equipment's. The listing carries the installation instructions that 110.3(B) makes enforceable, including clearances, exhaust, and the shutdown arrangement in 445.18.",
+      "on_the_job": "At quote stage for a standby generator, confirm the exact model is listed and get its installation manual into the job file before the pad is poured. An unlisted or grey-market unit is a stop, not a discount.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-ART-445",
+        "C4-L-048"
+      ],
+      "florida_note": "Florida note: hurricane-season generator work is where unlisted units most often appear in Sharma's territory; the listing check happens at quote, not at inspection.",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-445",
+      "next_id": "C4-445.13"
+    },
+    {
+      "id": "C4-445.13",
+      "chapter": 4,
+      "article": "445",
+      "section": "445.13",
+      "title": "Generator conductors — 115 percent of nameplate current",
+      "plain_explanation": "Section 445.13 sizes the conductors from a generator to its first distribution device or devices at not less than 115 percent of the generator's nameplate current rating, with the article's own provisions for cases where design prevents overloading. The margin exists because a generator can be asked to carry its full rating for the whole duration of an outage. Neutral conductor treatment has its own paragraphs in this section, so do not assume the neutral is automatically the same size as the ungrounded conductors on every system type.",
+      "on_the_job": "Size from the nameplate on the actual machine, and confirm whether the installation is a separately derived system before you settle the neutral and grounding arrangement — that decision belongs with the Chapter 2/Chapter 7 pages and the transfer equipment, and it changes this section's wiring.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-033"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-445.6",
+      "next_id": "C4-445.18(D)"
+    },
+    {
+      "id": "C4-445.18(D)",
+      "chapter": 4,
+      "article": "445",
+      "section": "445.18(D)",
+      "title": "Outdoor shutdown for a generator at a one-family dwelling",
+      "plain_explanation": "Section 445.18(D) is the 2020 provision the brief assigns to the emergency shutdown of a generator installed outdoors at a one- or two-family dwelling: in addition to the shutdown provisions that apply to generators generally, a dwelling unit generator located outside must have a readily accessible disconnecting/shutdown device located outside the dwelling, so the machine can be shut down by occupants or first responders without entering the building or standing at the machine itself. Read it together with the rest of 445.18, which governs shutdown of the prime mover generally.",
+      "on_the_job": "On a dwelling generator job, locate the outdoor shutdown where a responder would look for it — at the normal entry side of the house, plainly identified — and test it at start-up. Confirm the device you installed is the one the generator's listing and the AHJ expect; note its location on the job record and the panel directory.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-091",
+        "Q-062",
+        "O-09",
+        "C4-L-034"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-445.13",
+      "next_id": "C4-ART-450"
+    },
+    {
+      "id": "C4-ART-450",
+      "chapter": 4,
+      "article": "450",
+      "section": "450",
+      "title": "Transformers and transformer vaults — article intro",
+      "plain_explanation": "Article 450 covers transformers: overcurrent protection of the transformer and its conductors, location, guarding, ventilation, and the vault construction rules for indoor installations. Sharma's day-to-day contact is the small dry-type transformer in light commercial work — a 480-to-208/120 step-down or a control transformer — where the protection table and the primary/secondary conductor rules are the working content. Vault and liquid-filled rules are later-pass material for this book.",
+      "on_the_job": "For a dry-type install: confirm primary and secondary protection against the 450.3 table for the actual voltages, confirm the secondary conductors are protected as Chapter 2 requires, and keep ventilation clearances the listing demands. Photograph the transformer nameplate into the job file.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-035"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-445.18(D)",
+      "next_id": "C4-450.3"
+    },
+    {
+      "id": "C4-450.3",
+      "chapter": 4,
+      "article": "450",
+      "section": "450.3",
+      "title": "Overcurrent protection for transformers",
+      "plain_explanation": "Section 450.3 sets transformer overcurrent protection through its tables, one for transformers over 1000V and one for 1000V and below, with the required protection depending on voltage, whether protection is primary-only or primary-and-secondary, and the transformer's impedance where the table calls for it. Primary-only protection is permitted only within the table's limits; beyond them, both sides must be protected. The percentages are table lookups for the specific case — do not carry one remembered percentage to a different voltage or impedance.",
+      "on_the_job": "Work the table for the case in front of you and write the case (voltage class, impedance, primary-only or both) on the worksheet. If the impedance is not on the nameplate you can read, stop — the table answer may depend on it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-035"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-450",
+      "next_id": "C4-450.9"
+    },
+    {
+      "id": "C4-450.9",
+      "chapter": 4,
+      "article": "450",
+      "section": "450.9",
+      "title": "Transformer ventilation — and no storage on top",
+      "plain_explanation": "Section 450.9 requires transformers to be installed so air can circulate and carry heat away, and the 2020 edition expanded its marking provisions so the horizontal top surfaces of covered dry-type transformers are marked against being used for storage. A transformer is a heater by design losses; blocking its vents or stacking boxes on it raises its temperature and shortens its life. Ventilation is an installation requirement, not a housekeeping preference.",
+      "on_the_job": "Keep the manufacturer's clearances on all vented faces and treat the top of a dry-type transformer as equipment space, never a shelf. On a commercial service call, photograph and report storage stacked on a transformer rather than just moving it quietly — it will be back.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-450.3",
+        "C4-L-049"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-450.3",
+      "next_id": "C4-450.14"
+    },
+    {
+      "id": "C4-450.14",
+      "chapter": 4,
+      "article": "450",
+      "section": "450.14",
+      "title": "A transformer needs a disconnecting means",
+      "plain_explanation": "Section 450.14 requires a disconnecting means for transformers, located either in a readily accessible location within sight of the transformer or in a remote location, with the article's exceptions (which include certain small transformers such as Class 2 and similar limited cases). Where the disconnect is remote, it must be lockable in the open position and the transformer must be marked with the disconnect's location, so a person servicing the transformer can find and secure its source. The 2020 clarifications to this section are about exactly that remote case.",
+      "on_the_job": "On a dry-type install, decide the disconnect location with the transformer location, not after. If the disconnect ends up remote, apply the lockable arrangement and the location marking in the same visit and record both in the job file.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-450.3",
+        "C4-L-050"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-450.9",
+      "next_id": "C4-ART-455"
+    },
+    {
+      "id": "C4-ART-455",
+      "chapter": 4,
+      "article": "455",
+      "section": "455",
+      "title": "Phase converters — article intro",
+      "plain_explanation": "Article 455 covers phase converters, the equipment that lets three-phase motors run from a single-phase supply. It addresses marking, conductor sizing for the single-phase input, and disconnect requirements, with sizing tied to the largest motor or load the converter serves. Sharma meets converters rarely, on small commercial and agricultural-type jobs at the edge of its territory; this first pass gives the article its place and scope.",
+      "on_the_job": "A converter is sized to its load, not to the building service. Get the motor data for everything the converter will ever run at once, and give that list to the office before quoting the install.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-450.14",
+      "next_id": "C4-ART-460"
+    },
+    {
+      "id": "C4-ART-460",
+      "chapter": 4,
+      "article": "460",
+      "section": "460",
+      "title": "Capacitors — article intro",
+      "plain_explanation": "Article 460 covers capacitors installed on electrical systems, most often for power-factor correction on commercial services and large motor loads. Its working rules concern conductor ampacity (capacitor circuits are sized above the capacitor's rated current), overcurrent protection, disconnecting means, and the stored-energy discharge that makes a capacitor keep a charge after it is switched off. That stored charge is the safety point of the article: a disconnected capacitor is not automatically a dead capacitor.",
+      "on_the_job": "Treat capacitor terminals as live until discharged and verified with a meter. Allow the discharge device its time, then test — never assume. Include the capacitor's kvar and voltage from its nameplate in the job record.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-455",
+      "next_id": "C4-ART-470"
+    },
+    {
+      "id": "C4-ART-470",
+      "chapter": 4,
+      "article": "470",
+      "section": "470",
+      "title": "Resistors and reactors — article intro",
+      "plain_explanation": "Article 470 covers resistors and reactors used on electrical systems, such as starting resistors for motors and current-limiting reactors. Its themes are clearance from combustible material (these devices make heat by design), enclosure and guarding, and conductor sizing for the duty. Sharma encounters this equipment mainly inside larger commercial gear rather than as field-installed material, so this first pass is a scope page.",
+      "on_the_job": "Heat is the installation: keep the clearances and ventilation the listing requires, and do not enclose a resistor bank in a way its manufacturer did not intend. If a reactor or resistor shows heat discoloration on a service call, report it rather than just resetting the equipment.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-460",
+      "next_id": "C4-ART-480"
+    },
+    {
+      "id": "C4-ART-480",
+      "chapter": 4,
+      "article": "480",
+      "section": "480",
+      "title": "Storage batteries — article intro",
+      "plain_explanation": "Article 480 covers storage battery installations: the battery systems that back up services, feed UPS equipment, and increasingly pair with solar and generator work. Its working rules address disconnecting means, overcurrent protection, wiring to battery circuits, and the ventilation and spill concerns that depend on battery chemistry. The article works alongside the energy-storage rules in Chapter 7 (Article 706), which govern the system as a whole — 480 is about the battery installation itself.",
+      "on_the_job": "Identify the chemistry and the system listing before you wire anything: vented, sealed, and lithium systems have different room and protection needs. Put the battery disconnect where it is identified for the system and label it at the service as the system rules require (see Chapter 7 cross-links).",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-L-038"
+      ],
+      "florida_note": "Florida note: battery rooms and garages in Florida heat age batteries faster; record the install date and chemistry in the job file so replacement is planned, not discovered during an outage.",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-470",
+      "next_id": "C4-480.7"
+    },
+    {
+      "id": "C4-480.7",
+      "chapter": 4,
+      "article": "480",
+      "section": "480.7",
+      "title": "Battery disconnects — DC is its own problem",
+      "plain_explanation": "Section 480.7 sets the disconnecting methods for battery circuits, reorganized and expanded in the 2020 edition as battery requirements were gathered back into Article 480 from Article 706. The field point that matters most: interrupting DC is harder than interrupting AC, because DC has no natural current zero to help an arc die. A switching device must be rated for the DC voltage and current it will actually break; an AC-only device is not assumed suitable, whatever its amp rating says.",
+      "on_the_job": "Read the DC rating on any battery disconnect, fuse holder, or breaker before it goes in, and confirm polarity markings on polarized DC devices. If the rating plate does not mention DC, the device does not go on a battery circuit.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-ART-480",
+        "C4-L-051"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-480",
+      "next_id": "C4-480.12"
+    },
+    {
+      "id": "C4-480.12",
+      "chapter": 4,
+      "article": "480",
+      "section": "480.12",
+      "title": "Battery interconnections (moved into 480 in 2020)",
+      "plain_explanation": "Section 480.12 carries the battery interconnection requirements that the 2020 edition moved into Article 480 from Article 706: the conductors and connections that join cells and batteries into a bank, sized for the maximum current the bank can deliver and made with terminals and methods suited to the battery system. Battery banks can deliver enormous fault current at very low impedance, so connection quality — correct lugs, correct torque, protected runs — is a safety item, not a neatness item. Manufacturer instructions for the specific battery system govern the details the article leaves to the listing.",
+      "on_the_job": "Torque interconnection hardware to the battery manufacturer's specification and record it; a loose intercell connection announces itself as heat under load. Keep interconnection runs protected from physical damage and from the electrolyte environment of the battery type installed.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C4-ART-480",
+        "C4-L-052"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-480.7",
+      "next_id": "C4-ART-490"
+    },
+    {
+      "id": "C4-ART-490",
+      "chapter": 4,
+      "article": "490",
+      "section": "490",
+      "title": "Equipment over 1000 volts, nominal — article intro",
+      "plain_explanation": "Article 490 covers equipment operating over 1000 volts nominal: medium-voltage switchgear, conductors' termination practices, and clearances for the gear Sharma's crews do not normally install but may work around on commercial and utility-adjacent sites. It closes Chapter 4 in official order. Nothing in Sharma's residential work is installed under this article, and no Sharma field employee works on over-1000V equipment under this book — such work is referred to qualified medium-voltage contractors.",
+      "on_the_job": "Your job with 490 equipment is recognition and respect: identify it, keep clear of it, and never open, rack, or test it. If a job appears to require work on the medium-voltage side, stop and take it to Sanjay and Mike the same day.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-480.12",
+      "next_id": null
+    }
+  ],
+  "toc": [
+    {
+      "id": "C4-ART-400",
+      "article": "400",
+      "title": "Flexible Cords and Cables",
+      "children": [
+        {
+          "id": "C4-400.7",
+          "section": "400.7",
+          "title": "What flexible cords may be used for"
+        },
+        {
+          "id": "C4-400.12",
+          "section": "400.12",
+          "title": "Uses flexible cords are not permitted for — section number flagged"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-402",
+      "article": "402",
+      "title": "Fixture Wires",
+      "children": []
+    },
+    {
+      "id": "C4-ART-404",
+      "article": "404",
+      "title": "Switches",
+      "children": [
+        {
+          "id": "C4-404.2(A)",
+          "section": "404.2(A)",
+          "title": "Three-way and four-way switching — what the switch may control"
+        },
+        {
+          "id": "C4-404.2(C)",
+          "section": "404.2(C)",
+          "title": "A neutral must be available at most switch locations"
+        },
+        {
+          "id": "C4-404.4",
+          "section": "404.4",
+          "title": "Switches in damp or wet locations — and out of the tub/shower wet location"
+        },
+        {
+          "id": "C4-404.8(A)",
+          "section": "404.8(A)",
+          "title": "Switches must be reachable — operating handle height"
+        },
+        {
+          "id": "C4-404.14",
+          "section": "404.14",
+          "title": "Snap switch ratings and the loads they may control"
+        },
+        {
+          "id": "C4-404.15(C)",
+          "section": "404.15(C)",
+          "title": "Switch terminal markings for conductor materials — UNVERIFIED section number"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-406",
+      "article": "406",
+      "title": "Receptacles, Cord Connectors, and Attachment Plugs",
+      "children": [
+        {
+          "id": "C4-406.4(D)",
+          "section": "406.4(D)",
+          "title": "Replacing a receptacle — the replacement must meet today's rules for that location"
+        },
+        {
+          "id": "C4-406.5(E)",
+          "section": "406.5(E)",
+          "title": "Face-up receptacles in countertops — UNVERIFIED wording"
+        },
+        {
+          "id": "C4-406.9(A)",
+          "section": "406.9(A)",
+          "title": "Receptacles in damp locations"
+        },
+        {
+          "id": "C4-406.9(B)",
+          "section": "406.9(B)",
+          "title": "Receptacles in wet locations — in-use covers and weather-resistant devices"
+        },
+        {
+          "id": "C4-406.9(C)",
+          "section": "406.9(C)",
+          "title": "No receptacles inside the tub or shower zone"
+        },
+        {
+          "id": "C4-406.12",
+          "section": "406.12",
+          "title": "Tamper-resistant receptacles in dwellings and other listed occupancies"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-408",
+      "article": "408",
+      "title": "Switchboards, Switchgear, and Panelboards",
+      "children": [
+        {
+          "id": "C4-408.4(A)",
+          "section": "408.4(A)",
+          "title": "The circuit directory — specific, on site, and kept current"
+        },
+        {
+          "id": "C4-408.4(B)",
+          "section": "408.4(B)",
+          "title": "Identification of the source of supply"
+        },
+        {
+          "id": "C4-408.6",
+          "section": "408.6",
+          "title": "The equipment's short-circuit current rating must cover the available fault current"
+        },
+        {
+          "id": "C4-408.7",
+          "section": "408.7",
+          "title": "Unused openings must be closed"
+        },
+        {
+          "id": "C4-408.36",
+          "section": "408.36",
+          "title": "The panelboard itself must be protected"
+        },
+        {
+          "id": "C4-408.41",
+          "section": "408.41",
+          "title": "Each grounded (neutral) conductor gets its own terminal"
+        },
+        {
+          "id": "C4-408.43",
+          "section": "408.43",
+          "title": "A panelboard may not be installed face-up"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-409",
+      "article": "409",
+      "title": "Industrial Control Panels",
+      "children": []
+    },
+    {
+      "id": "C4-ART-410",
+      "article": "410",
+      "title": "Luminaires, Lampholders, and Lamps",
+      "children": [
+        {
+          "id": "C4-410.10(D)",
+          "section": "410.10(D)",
+          "title": "Luminaires in the bathtub and shower zone"
+        },
+        {
+          "id": "C4-410.16",
+          "section": "410.16",
+          "title": "Luminaires in clothes closets — UNVERIFIED clearances"
+        },
+        {
+          "id": "C4-410.116",
+          "section": "410.116",
+          "title": "Recessed luminaires — insulation contact and thermal protection"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-411",
+      "article": "411",
+      "title": "Lighting Systems Operating at 30 Volts or Less",
+      "children": []
+    },
+    {
+      "id": "C4-ART-422",
+      "article": "422",
+      "title": "Appliances",
+      "children": [
+        {
+          "id": "C4-422.5",
+          "section": "422.5",
+          "title": "GFCI protection required for specific appliances"
+        },
+        {
+          "id": "C4-422.13",
+          "section": "422.13",
+          "title": "Storage water heaters — treat the load as continuous for circuit sizing"
+        },
+        {
+          "id": "C4-422.16(B)(4)",
+          "section": "422.16(B)(4)",
+          "title": "Cord-and-plug connection for range hoods"
+        },
+        {
+          "id": "C4-422.31",
+          "section": "422.31",
+          "title": "Disconnecting means for permanently connected appliances"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-424",
+      "article": "424",
+      "title": "Fixed Electric Space-Heating Equipment",
+      "children": [
+        {
+          "id": "C4-424.4(B)",
+          "section": "424.4(B)",
+          "title": "Branch-circuit sizing for fixed space heat — 125 percent, UNVERIFIED section number"
+        },
+        {
+          "id": "C4-424.19",
+          "section": "424.19",
+          "title": "Disconnecting means for fixed space-heating equipment"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-425",
+      "article": "425",
+      "title": "Fixed Resistance and Electrode Industrial Process Heating Equipment",
+      "children": []
+    },
+    {
+      "id": "C4-ART-426",
+      "article": "426",
+      "title": "Fixed Outdoor Electric Deicing and Snow-Melting Equipment",
+      "children": []
+    },
+    {
+      "id": "C4-ART-427",
+      "article": "427",
+      "title": "Fixed Electric Heating Equipment for Pipelines and Vessels",
+      "children": []
+    },
+    {
+      "id": "C4-ART-430",
+      "article": "430",
+      "title": "Motors, Motor Circuits, and Controllers",
+      "children": [
+        {
+          "id": "C4-430.6",
+          "section": "430.6",
+          "title": "Which current do you size from — table values vs. nameplate"
+        },
+        {
+          "id": "C4-430.22",
+          "section": "430.22",
+          "title": "Conductors for a single motor — 125 percent of table full-load current"
+        },
+        {
+          "id": "C4-430.24",
+          "section": "430.24",
+          "title": "Conductors feeding several motors"
+        },
+        {
+          "id": "C4-430.32",
+          "section": "430.32",
+          "title": "Overload protection — protects the motor from running too hot"
+        },
+        {
+          "id": "C4-430.52",
+          "section": "430.52",
+          "title": "Branch-circuit short-circuit and ground-fault protection for motors"
+        },
+        {
+          "id": "C4-430.102",
+          "section": "430.102",
+          "title": "The motor disconnect must be within sight"
+        },
+        {
+          "id": "C4-430.109",
+          "section": "430.109",
+          "title": "What may serve as the motor disconnect"
+        },
+        {
+          "id": "C4-430.110",
+          "section": "430.110",
+          "title": "Rating of the motor disconnect — at least 115 percent"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-440",
+      "article": "440",
+      "title": "Air-Conditioning and Refrigerating Equipment",
+      "children": [
+        {
+          "id": "C4-440.4(B)",
+          "section": "440.4(B)",
+          "title": "Reading the HVAC nameplate — MCA and MOCP do the sizing"
+        },
+        {
+          "id": "C4-440.10",
+          "section": "440.10",
+          "title": "Short-circuit current rating of air-conditioning and refrigerating equipment"
+        },
+        {
+          "id": "C4-440.14",
+          "section": "440.14",
+          "title": "The HVAC disconnect — within sight and readily accessible"
+        },
+        {
+          "id": "C4-440.22",
+          "section": "440.22",
+          "title": "Short-circuit and ground-fault protection for a compressor circuit"
+        },
+        {
+          "id": "C4-440.32",
+          "section": "440.32",
+          "title": "Conductor sizing for a single motor-compressor"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-445",
+      "article": "445",
+      "title": "Generators",
+      "children": [
+        {
+          "id": "C4-445.6",
+          "section": "445.6",
+          "title": "Stationary generators must be listed (2020 addition)"
+        },
+        {
+          "id": "C4-445.13",
+          "section": "445.13",
+          "title": "Generator conductors — 115 percent of nameplate current"
+        },
+        {
+          "id": "C4-445.18(D)",
+          "section": "445.18(D)",
+          "title": "Outdoor shutdown for a generator at a one-family dwelling"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-450",
+      "article": "450",
+      "title": "Transformers and Transformer Vaults",
+      "children": [
+        {
+          "id": "C4-450.3",
+          "section": "450.3",
+          "title": "Overcurrent protection for transformers"
+        },
+        {
+          "id": "C4-450.9",
+          "section": "450.9",
+          "title": "Transformer ventilation — and no storage on top"
+        },
+        {
+          "id": "C4-450.14",
+          "section": "450.14",
+          "title": "A transformer needs a disconnecting means"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-455",
+      "article": "455",
+      "title": "Phase Converters",
+      "children": []
+    },
+    {
+      "id": "C4-ART-460",
+      "article": "460",
+      "title": "Capacitors",
+      "children": []
+    },
+    {
+      "id": "C4-ART-470",
+      "article": "470",
+      "title": "Resistors and Reactors",
+      "children": []
+    },
+    {
+      "id": "C4-ART-480",
+      "article": "480",
+      "title": "Storage Batteries",
+      "children": [
+        {
+          "id": "C4-480.7",
+          "section": "480.7",
+          "title": "Battery disconnects — DC is its own problem"
+        },
+        {
+          "id": "C4-480.12",
+          "section": "480.12",
+          "title": "Battery interconnections (moved into 480 in 2020)"
+        }
+      ]
+    },
+    {
+      "id": "C4-ART-490",
+      "article": "490",
+      "title": "Equipment Over 1000 Volts, Nominal",
+      "children": []
+    }
+  ],
+  "index": [
+    {
+      "term": "3-way / 4-way switching",
+      "ids": [
+        "C4-404.2(A)",
+        "C4-L-001",
+        "C4-L-002"
+      ]
+    },
+    {
+      "term": "Air handler, heat strips",
+      "ids": [
+        "C4-ART-424",
+        "C4-424.19"
+      ]
+    },
+    {
+      "term": "Appliances, disconnect",
+      "ids": [
+        "C4-422.31",
+        "C4-L-042"
+      ]
+    },
+    {
+      "term": "Appliances, GFCI for specific",
+      "ids": [
+        "C4-422.5"
+      ]
+    },
+    {
+      "term": "Available fault current / SCCR",
+      "ids": [
+        "C4-408.6",
+        "C4-440.10",
+        "C4-ART-409"
+      ]
+    },
+    {
+      "term": "Batteries, storage",
+      "ids": [
+        "C4-ART-480"
+      ]
+    },
+    {
+      "term": "Battery disconnect, DC rating",
+      "ids": [
+        "C4-480.7"
+      ]
+    },
+    {
+      "term": "Capacitors",
+      "ids": [
+        "C4-ART-460"
+      ]
+    },
+    {
+      "term": "Circuit directory, panelboard",
+      "ids": [
+        "C4-408.4(A)",
+        "C4-L-020"
+      ]
+    },
+    {
+      "term": "Closet luminaires",
+      "ids": [
+        "C4-410.16"
+      ]
+    },
+    {
+      "term": "Condenser, nameplate sizing",
+      "ids": [
+        "C4-440.4(B)",
+        "C4-L-029",
+        "C4-L-030"
+      ]
+    },
+    {
+      "term": "Countertop receptacle, face-up",
+      "ids": [
+        "C4-406.5(E)"
+      ]
+    },
+    {
+      "term": "Damp location receptacle",
+      "ids": [
+        "C4-406.9(A)"
+      ]
+    },
+    {
+      "term": "Disconnect, appliance",
+      "ids": [
+        "C4-422.31"
+      ]
+    },
+    {
+      "term": "Disconnect, fixed space heat",
+      "ids": [
+        "C4-424.19"
+      ]
+    },
+    {
+      "term": "Disconnect, HVAC within sight",
+      "ids": [
+        "C4-440.14",
+        "C4-L-031"
+      ]
+    },
+    {
+      "term": "Disconnect, motor rating 115%",
+      "ids": [
+        "C4-430.110"
+      ]
+    },
+    {
+      "term": "Disconnect, motor within sight",
+      "ids": [
+        "C4-430.102",
+        "C4-L-028"
+      ]
+    },
+    {
+      "term": "Face-up panelboard, prohibited",
+      "ids": [
+        "C4-408.43"
+      ]
+    },
+    {
+      "term": "Fixture wires",
+      "ids": [
+        "C4-ART-402"
+      ]
+    },
+    {
+      "term": "Flexible cords, permitted uses",
+      "ids": [
+        "C4-400.7"
+      ]
+    },
+    {
+      "term": "Flexible cords, prohibited uses",
+      "ids": [
+        "C4-400.12"
+      ]
+    },
+    {
+      "term": "Flexible cords, prohibited uses (cite flagged)",
+      "ids": [
+        "C4-400.12"
+      ]
+    },
+    {
+      "term": "Generator conductors, 115%",
+      "ids": [
+        "C4-445.13"
+      ]
+    },
+    {
+      "term": "Generator, listing (2020)",
+      "ids": [
+        "C4-445.6"
+      ]
+    },
+    {
+      "term": "Generator, outdoor shutdown (dwelling)",
+      "ids": [
+        "C4-445.18(D)",
+        "C4-L-034"
+      ]
+    },
+    {
+      "term": "Heat trace, pipelines",
+      "ids": [
+        "C4-ART-427"
+      ]
+    },
+    {
+      "term": "HVAC, MCA / MOCP",
+      "ids": [
+        "C4-440.4(B)",
+        "C4-440.22",
+        "C4-440.32"
+      ]
+    },
+    {
+      "term": "Industrial control panels, SCCR",
+      "ids": [
+        "C4-ART-409"
+      ]
+    },
+    {
+      "term": "Interconnections, battery",
+      "ids": [
+        "C4-480.12"
+      ]
+    },
+    {
+      "term": "Low-voltage lighting, 30V or less",
+      "ids": [
+        "C4-ART-411"
+      ]
+    },
+    {
+      "term": "Luminaires, tub/shower zone",
+      "ids": [
+        "C4-410.10(D)",
+        "C4-L-030"
+      ]
+    },
+    {
+      "term": "Medium voltage, over 1000V",
+      "ids": [
+        "C4-ART-490"
+      ]
+    },
+    {
+      "term": "Motor, conductors 125%",
+      "ids": [
+        "C4-430.22",
+        "C4-L-026"
+      ]
+    },
+    {
+      "term": "Motor, overload protection",
+      "ids": [
+        "C4-430.32",
+        "C4-L-025"
+      ]
+    },
+    {
+      "term": "Motor, short-circuit protection",
+      "ids": [
+        "C4-430.52",
+        "C4-L-027"
+      ]
+    },
+    {
+      "term": "Motor, table current vs nameplate",
+      "ids": [
+        "C4-430.6",
+        "C4-L-025"
+      ]
+    },
+    {
+      "term": "Neutral at switch locations",
+      "ids": [
+        "C4-404.2(C)"
+      ]
+    },
+    {
+      "term": "Neutral terminations, one per terminal",
+      "ids": [
+        "C4-408.41"
+      ]
+    },
+    {
+      "term": "Panelboard, protection of",
+      "ids": [
+        "C4-408.36"
+      ]
+    },
+    {
+      "term": "Panelboard, source identification",
+      "ids": [
+        "C4-408.4(B)"
+      ]
+    },
+    {
+      "term": "Panelboard, unused openings",
+      "ids": [
+        "C4-408.7",
+        "C4-L-022"
+      ]
+    },
+    {
+      "term": "Phase converters",
+      "ids": [
+        "C4-ART-455"
+      ]
+    },
+    {
+      "term": "Range hood, cord-and-plug",
+      "ids": [
+        "C4-422.16(B)(4)",
+        "C4-L-041"
+      ]
+    },
+    {
+      "term": "Receptacle, replacement rules",
+      "ids": [
+        "C4-406.4(D)",
+        "C4-L-010",
+        "C4-L-011"
+      ]
+    },
+    {
+      "term": "Receptacle, tamper-resistant",
+      "ids": [
+        "C4-406.12"
+      ]
+    },
+    {
+      "term": "Receptacle, tub/shower zone",
+      "ids": [
+        "C4-406.9(C)"
+      ]
+    },
+    {
+      "term": "Recessed luminaires, IC rating",
+      "ids": [
+        "C4-410.116"
+      ]
+    },
+    {
+      "term": "Resistors and reactors",
+      "ids": [
+        "C4-ART-470"
+      ]
+    },
+    {
+      "term": "Several motors, feeder sizing",
+      "ids": [
+        "C4-430.24"
+      ]
+    },
+    {
+      "term": "Space heating, 125% sizing",
+      "ids": [
+        "C4-424.4(B)",
+        "C4-L-049"
+      ]
+    },
+    {
+      "term": "Switch height, accessibility",
+      "ids": [
+        "C4-404.8(A)"
+      ]
+    },
+    {
+      "term": "Switch terminals, CCA (UNVERIFIED cite)",
+      "ids": [
+        "C4-404.15(C)"
+      ]
+    },
+    {
+      "term": "Switches, tub/shower wet location",
+      "ids": [
+        "C4-404.4"
+      ]
+    },
+    {
+      "term": "Transformer, disconnect",
+      "ids": [
+        "C4-450.14"
+      ]
+    },
+    {
+      "term": "Transformer, overcurrent protection",
+      "ids": [
+        "C4-450.3",
+        "C4-L-035"
+      ]
+    },
+    {
+      "term": "Transformer, ventilation / no storage",
+      "ids": [
+        "C4-450.9"
+      ]
+    },
+    {
+      "term": "Water heater, storage, sizing",
+      "ids": [
+        "C4-422.13",
+        "C4-L-040"
+      ]
+    },
+    {
+      "term": "Wet location receptacle, in-use cover",
+      "ids": [
+        "C4-406.9(B)",
+        "C4-L-012"
+      ]
+    }
+  ],
+  "revision": "v2 — reconciled against unverified ChatGPT research supplied 2026-11-11; see summary.md"
+}

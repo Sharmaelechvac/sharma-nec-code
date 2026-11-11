@@ -1,0 +1,482 @@
+[
+  {
+    "id": "C4-Q-001",
+    "article": "404",
+    "question": "A grounded (neutral) conductor is required at most switch locations mainly so that:",
+    "choices": [
+      "The switch can break the neutral",
+      "Electronic controls can be powered",
+      "The traveler can be grounded",
+      "The box fill is reduced"
+    ],
+    "answer_index": 1,
+    "explain_plain": "404.2(C) puts a neutral in the box so timers, sensors, and smart switches that need power can use it. The switch still interrupts the ungrounded conductor.",
+    "nec_ref": "404.2(C)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-002",
+    "article": "404",
+    "question": "The center of a switch handle, in its highest position, may not be more than what height above the floor?",
+    "choices": [
+      "48 in",
+      "54 in",
+      "6 ft",
+      "6 ft 7 in"
+    ],
+    "answer_index": 3,
+    "explain_plain": "404.8(A) caps the operating handle at 6 ft 7 in. Sharma's 48 in. to box center (S-05) is a company working height, not the code maximum.",
+    "nec_ref": "404.8(A)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-003",
+    "article": "404",
+    "question": "In a 3-way/4-way run controlled from three locations, the middle device is a:",
+    "choices": [
+      "3-way switch",
+      "4-way switch",
+      "Single-pole switch",
+      "Dimmer only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The two ends are always 3-way switches; any number of 4-way switches sit between them and swap the traveler pair.",
+    "nec_ref": "404.2(A)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-004",
+    "article": "406",
+    "question": "Replacing a receptacle in a location where current code requires GFCI protection, the replacement must:",
+    "choices": [
+      "Match the old device exactly",
+      "Provide GFCI protection",
+      "Be a GFCI receptacle brand only",
+      "Be tamper-resistant only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "406.4(D) makes the replacement meet today's protection rules for that location. The protection may come from a breaker or device — the location must end up protected.",
+    "nec_ref": "406.4(D)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-005",
+    "article": "406",
+    "question": "A grounding-type receptacle may be installed on a circuit with no equipment ground when it is:",
+    "choices": [
+      "Left unmarked",
+      "Fed through a GFCI device and marked 'no equipment ground'",
+      "Bonded to the neutral in the box",
+      "Painted a different color"
+    ],
+    "answer_index": 1,
+    "explain_plain": "406.4(D) permits a GFCI-protected grounding receptacle with the required marking. Bootlegging the ground to the neutral is never permitted.",
+    "nec_ref": "406.4(D)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-006",
+    "article": "406",
+    "question": "An exterior receptacle running a pool pump needs, in a wet location:",
+    "choices": [
+      "A flat flip cover",
+      "A WR receptacle and an in-use (bubble) cover",
+      "A GFCI receptacle only",
+      "No cover if under a porch roof that leaks"
+    ],
+    "answer_index": 1,
+    "explain_plain": "406.9(B): the enclosure must remain weatherproof with the plug inserted, and the receptacle must be weather-resistant type.",
+    "nec_ref": "406.9(B)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-007",
+    "article": "406",
+    "question": "No receptacle may be installed within the tub/shower zone, which measures:",
+    "choices": [
+      "2 ft horizontally, 6 ft vertically",
+      "3 ft horizontally, 8 ft vertically from the rim/threshold",
+      "4 ft in every direction",
+      "The width of the tub only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "406.9(C) sets the zone at 3 ft horizontal and 8 ft vertical from the top of the tub rim or the shower stall threshold.",
+    "nec_ref": "406.9(C)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-008",
+    "article": "406",
+    "question": "Tamper-resistant receptacles protect children because they:",
+    "choices": [
+      "Trip on overcurrent",
+      "Have shutters that open only when both plug blades enter together",
+      "Are rated 20A",
+      "Use a special faceplate screw"
+    ],
+    "answer_index": 1,
+    "explain_plain": "406.12 TR receptacles use internal shutters; a single object pushed into one slot does not reach a live contact.",
+    "nec_ref": "406.12",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-009",
+    "article": "408",
+    "question": "A panel directory entry that reads only 'plugs — 2nd floor' fails 408.4(A) because the directory must:",
+    "choices": [
+      "Use the builder's room names",
+      "Identify each circuit specifically enough to distinguish it and describe its actual use",
+      "Be typed, not handwritten",
+      "List the wire size of each circuit"
+    ],
+    "answer_index": 1,
+    "explain_plain": "408.4(A) requires specific identification of purpose or use for every circuit, updated when circuits change; spares are marked as spares.",
+    "nec_ref": "408.4(A)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-010",
+    "article": "408",
+    "question": "An unused breaker space in a panelboard must be:",
+    "choices": [
+      "Covered with electrical tape",
+      "Left open for ventilation",
+      "Closed with a listed filler/closure for that panel",
+      "Filled with any spare breaker, connected or not"
+    ],
+    "answer_index": 2,
+    "explain_plain": "408.7 requires unused openings closed with closures giving protection substantially equal to the enclosure wall.",
+    "nec_ref": "408.7",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-011",
+    "article": "410",
+    "question": "A luminaire subject to shower spray inside the 410.10(D) zone must be listed for:",
+    "choices": [
+      "Dry locations",
+      "Damp locations only",
+      "Wet locations",
+      "Closet use"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Inside the 3 ft by 8 ft zone the fixture must be damp-listed, and wet-listed where shower spray reaches it. Pendants and hanging fixtures are not permitted in the zone.",
+    "nec_ref": "410.10(D)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-012",
+    "article": "422",
+    "question": "A 4500W, 240V storage water heater draws 18.75A. Its branch circuit must be sized at not less than:",
+    "choices": [
+      "18.75A",
+      "20A",
+      "About 23.4A (125% of nameplate)",
+      "30A by rule, with no calculation"
+    ],
+    "answer_index": 2,
+    "explain_plain": "422.13: 18.75 x 1.25 = 23.44A minimum, which is why the conventional install lands on a 30A circuit with 10 AWG copper.",
+    "nec_ref": "422.13",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-013",
+    "article": "422",
+    "question": "The microwave on a Sharma job is wired:",
+    "choices": [
+      "On the range hood circuit",
+      "On the dishwasher/disposal circuit",
+      "On its own 20A circuit, 12 AWG copper (S-06)",
+      "On a small-appliance circuit"
+    ],
+    "answer_index": 2,
+    "explain_plain": "S-06 is a Sharma rule: microwave gets its own 20A circuit on 12 AWG copper unless the plan or nameplate says otherwise. The hood riding the dishwasher/disposal circuit is separate company practice, not the microwave.",
+    "nec_ref": "422 / S-06",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-014",
+    "article": "424",
+    "question": "Fixed electric space-heating branch circuits are sized at what percentage of the connected load?",
+    "choices": [
+      "100%",
+      "115%",
+      "125%",
+      "150%"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Fixed space heat is treated as a continuous load and sized at 125%. Note for review: the 2020 subsection number is flagged UNVERIFIED in the v1 notes; the percentage is the tested substance.",
+    "nec_ref": "424.4(B) — cite UNVERIFIED",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-015",
+    "article": "430",
+    "question": "Overload protection for a motor is sized from:",
+    "choices": [
+      "Table 430.52",
+      "The motor nameplate full-load current",
+      "The horsepower alone",
+      "The branch breaker rating"
+    ],
+    "answer_index": 1,
+    "explain_plain": "430.6 / 430.32: overloads protect the specific motor installed, so they are sized from its nameplate current, with the percentage set by service factor and rise.",
+    "nec_ref": "430.32",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-016",
+    "article": "430",
+    "question": "Conductors for a single continuous-duty motor are sized at 125% of:",
+    "choices": [
+      "Nameplate current",
+      "Table full-load current",
+      "The overload setting",
+      "The breaker rating"
+    ],
+    "answer_index": 1,
+    "explain_plain": "430.22 uses the Article 430 table FLC, times 1.25 — not the nameplate, which is reserved for overload sizing.",
+    "nec_ref": "430.22",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-017",
+    "article": "430",
+    "question": "A motor branch-circuit breaker is allowed to be larger than the conductor's plain ampacity because:",
+    "choices": [
+      "Motor circuits have no protection rules",
+      "The overload device provides the running protection and the breaker must ride through starting inrush",
+      "Breakers are sized by horsepower only",
+      "The conductor is oversized by 430.22 alone"
+    ],
+    "answer_index": 1,
+    "explain_plain": "430.52 sizes fault protection from Table 430.52 percentages so the device holds through inrush; the overload (430.32) protects against sustained overcurrent.",
+    "nec_ref": "430.52",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C4-Q-018",
+    "article": "430",
+    "question": "'Within sight' for a motor disconnect means visible and not more than:",
+    "choices": [
+      "10 ft away",
+      "25 ft away",
+      "50 ft away",
+      "Any distance if labelled"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Article 100's definition, applied by 430.102: visible and within 50 ft, unless a permitted lockable arrangement is used.",
+    "nec_ref": "430.102",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-019",
+    "article": "440",
+    "question": "A condenser nameplate shows MCA 17.9A and MOCP 30A. Which installation is correct?",
+    "choices": [
+      "12 AWG wire on a 30A breaker, because 12 AWG is '20A wire'",
+      "Wire with ampacity at least 17.9A and a breaker no larger than 30A",
+      "Wire at least 17.9A and a 40A breaker for starting",
+      "14 AWG wire on a 30A breaker"
+    ],
+    "answer_index": 1,
+    "explain_plain": "440.4(B) nameplate method: conductor ampacity must meet or exceed MCA; the overcurrent device must not exceed MOCP. A smaller breaker than MOCP would also be acceptable.",
+    "nec_ref": "440.4(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-020",
+    "article": "440",
+    "question": "The disconnect for a residential condenser must be:",
+    "choices": [
+      "Inside the house panel only",
+      "Within sight from and readily accessible to the equipment",
+      "On the roof",
+      "Inside the air handler"
+    ],
+    "answer_index": 1,
+    "explain_plain": "440.14: within sight (visible, within 50 ft) and readily accessible. The panel breaker alone does not satisfy it.",
+    "nec_ref": "440.14",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-021",
+    "article": "440",
+    "question": "On a change-out, the replacement unit's nameplate MCA is higher than the old unit's. The correct action is:",
+    "choices": [
+      "Reuse the circuit; tonnage is the same",
+      "Verify conductor ampacity meets the new MCA and breaker does not exceed the new MOCP; change the circuit if not",
+      "Raise the breaker until it stops tripping",
+      "Use the old nameplate, it is grandfathered"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The new unit is sized by its own nameplate under Article 440. A mismatch is a scope item for the office before start-up, never a breaker increase above MOCP.",
+    "nec_ref": "440.4(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-022",
+    "article": "445",
+    "question": "A generator at a one-family dwelling is installed outdoors. Under 445.18(D) it also needs:",
+    "choices": [
+      "A shutdown/disconnect device outside the dwelling, readily accessible",
+      "A second generator",
+      "A transfer switch in the attic",
+      "Nothing beyond the machine's own switch"
+    ],
+    "answer_index": 0,
+    "explain_plain": "445.18(D) adds an outdoor, readily accessible shutdown for dwelling generators installed outside, on top of the general 445.18 shutdown rules. Transfer sizing itself is Article 702.",
+    "nec_ref": "445.18(D)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-023",
+    "article": "445",
+    "question": "Conductors from a generator to its first distribution device are sized at not less than what percent of nameplate current?",
+    "choices": [
+      "100%",
+      "115%",
+      "125%",
+      "167%"
+    ],
+    "answer_index": 1,
+    "explain_plain": "445.13 sets 115% of the generator nameplate current rating, subject to the section's own provisions.",
+    "nec_ref": "445.13",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C4-Q-024",
+    "article": "450",
+    "question": "Transformer overcurrent protection is determined from:",
+    "choices": [
+      "The transformer's physical size",
+      "The tables in 450.3 for its voltage class and protection arrangement",
+      "A flat 125% for every transformer",
+      "The secondary panel rating only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "450.3's tables turn on voltage, impedance where called for, and primary-only vs. primary-and-secondary protection.",
+    "nec_ref": "450.3",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C4-Q-025",
+    "article": "400",
+    "question": "Which of these is a permitted flexible cord use?",
+    "choices": [
+      "Replacing conduit to a fixed panel",
+      "Running through a doorway to the next room",
+      "Connecting a portable appliance that must move for service",
+      "Stapling a cord along a wall as a permanent run"
+    ],
+    "answer_index": 2,
+    "explain_plain": "400.7 permits cords for portable and movable equipment; the prohibited-uses list (cited at 400.12 in 2020, flagged for Mike to confirm — it was 400.8 in 2017) prohibits substitution for fixed wiring, through-wall/doorway runs, and surface attachment as permanent wiring.",
+    "nec_ref": "400.7 / 400.12 (numbering flagged)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-026",
+    "article": "408",
+    "question": "A panelboard installed lying face-up in a custom enclosure is:",
+    "choices": [
+      "Permitted if indoors",
+      "Permitted under 200A",
+      "Prohibited by 408.43",
+      "Permitted if the directory is on the door"
+    ],
+    "answer_index": 2,
+    "explain_plain": "408.43, added in 2020, prohibits face-up panelboard installation. The fix is a layout change at rough-in, not a workaround.",
+    "nec_ref": "408.43",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-027",
+    "article": "408",
+    "question": "Two grounded (neutral) conductors under one panelboard terminal screw are:",
+    "choices": [
+      "Permitted if torqued together",
+      "Permitted for circuits under 20A",
+      "Prohibited unless the terminal is identified for more than one conductor",
+      "Required on multiwire circuits"
+    ],
+    "answer_index": 2,
+    "explain_plain": "408.41 gives each grounded conductor its own terminal unless the terminal is specifically identified for multiple conductors.",
+    "nec_ref": "408.41",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-028",
+    "article": "408",
+    "question": "A 200A panelboard may be installed on a service only if, in addition to volts and amps:",
+    "choices": [
+      "Its directory is typed",
+      "Its SCCR is at least the available fault current",
+      "It is Siemens",
+      "Its main breaker is 200A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "408.6 (2020) requires the short-circuit current rating to cover the available fault current where the gear is installed.",
+    "nec_ref": "408.6",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-029",
+    "article": "445",
+    "question": "A stationary standby generator rated 240V must, under the 2020 edition:",
+    "choices": [
+      "Be listed (445.6)",
+      "Be installed by the manufacturer",
+      "Have a 200A transfer switch",
+      "Be natural gas only"
+    ],
+    "answer_index": 0,
+    "explain_plain": "445.6 was added in NEC 2020: stationary generators at 600V or less must be listed. Transfer-switch sizing is Article 702, not 445.",
+    "nec_ref": "445.6",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-030",
+    "article": "480",
+    "question": "Battery interconnection requirements are found in the 2020 NEC at:",
+    "choices": [
+      "706.12 only",
+      "480.12, moved from Article 706 in 2020",
+      "430.12",
+      "445.12"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The 2020 edition relocated battery interconnection requirements into 480.12. Article 706 still governs energy storage systems as a whole.",
+    "nec_ref": "480.12",
+    "difficulty": 2,
+    "exam": "master"
+  }
+]

@@ -1,0 +1,861 @@
+[
+  {
+    "id": "C7-L-001",
+    "question": "Is this standby job Article 700, 701, or 702?",
+    "aliases": [
+      "which standby article",
+      "700 vs 701 vs 702",
+      "emergency or optional"
+    ],
+    "answer_plain": "Ask who required the system and what depends on it. If a governmental authority classes it as emergency and life safety rides on it, the job is in the emergency article; if the law requires standby power for loads that are not emergency loads, it is legally required standby; if nobody required it, it is optional standby.",
+    "nec_ref": "700.1 / 701.1 / 702.1",
+    "nec_edition": "2020",
+    "tags": [
+      "standby",
+      "classification"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": "standby-tiers"
+  },
+  {
+    "id": "C7-L-002",
+    "question": "How fast must emergency power arrive after the normal supply fails?",
+    "aliases": [
+      "10 seconds emergency",
+      "emergency transfer time"
+    ],
+    "answer_plain": "Emergency power has to be available within ten seconds of the normal supply failing. That clock drives the source choice, the automatic start, and the transfer design from the first sketch.",
+    "nec_ref": "700.12",
+    "nec_edition": "2020",
+    "tags": [
+      "emergency",
+      "sources"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-003",
+    "question": "Can emergency wiring share a raceway with normal wiring?",
+    "aliases": [
+      "emergency wiring separation",
+      "700 wiring independence"
+    ],
+    "answer_plain": "No, as a working rule emergency conductors stay out of enclosures, raceways and cables that carry nonemergency wiring. Only narrow exceptions apply, such as wiring inside transfer equipment, and emergency components and raceways have to be marked as emergency along the way.",
+    "nec_ref": "700.10",
+    "nec_edition": "2020",
+    "tags": [
+      "emergency",
+      "wiring"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-004",
+    "question": "What does selective coordination mean on an emergency system?",
+    "aliases": [
+      "selective coordination 700",
+      "coordination study emergency"
+    ],
+    "answer_plain": "It means a fault opens only the overcurrent device that should open, instead of taking out devices upstream and darkening healthy emergency circuits. On an emergency system the coordination has to cover every supply-side device, and the design has to be documented by a qualified person.",
+    "nec_ref": "700.32",
+    "nec_edition": "2020",
+    "tags": [
+      "emergency",
+      "overcurrent"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-005",
+    "question": "Do emergency panelboards need surge protection?",
+    "aliases": [
+      "SPD emergency panel",
+      "700 surge"
+    ],
+    "answer_plain": "Yes, every emergency system switchboard and panelboard gets a listed surge protective device. It is a requirement of the emergency article, not an optional extra to cut when the bid is tight.",
+    "nec_ref": "700.8",
+    "nec_edition": "2020",
+    "tags": [
+      "emergency",
+      "surge"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-006",
+    "question": "What sign belongs at the service on an emergency or legally required standby job?",
+    "aliases": [
+      "standby sign service",
+      "source sign 700 701"
+    ],
+    "answer_plain": "A sign at the service equipment states the type and location of each on-site standby power source. Responders and electricians should learn from the sign that a second source exists and exactly where its disconnect lives.",
+    "nec_ref": "700.7 / 701.7",
+    "nec_edition": "2020",
+    "tags": [
+      "standby",
+      "signs"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-007",
+    "question": "How fast must legally required standby power arrive?",
+    "aliases": [
+      "60 seconds standby",
+      "701 transfer time"
+    ],
+    "answer_plain": "Legally required standby power has to be available within sixty seconds of the normal supply failing. That is slower than the ten-second emergency duty and far faster than dragging out a portable generator by hand.",
+    "nec_ref": "701.12",
+    "nec_edition": "2020",
+    "tags": [
+      "legally required",
+      "sources"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-008",
+    "question": "Can legally required standby wiring share raceways with general wiring?",
+    "aliases": [
+      "701 wiring share raceway",
+      "standby wiring separation"
+    ],
+    "answer_plain": "Yes, legally required standby wiring is permitted in the same raceways, boxes and cabinets as general wiring. The strict separation rule belongs to emergency systems, and mixing the two articles up causes mistakes in both directions.",
+    "nec_ref": "701.10",
+    "nec_edition": "2020",
+    "tags": [
+      "legally required",
+      "wiring"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-009",
+    "question": "How is a generator sized when the transfer is manual?",
+    "aliases": [
+      "manual transfer sizing",
+      "user selects load generator"
+    ],
+    "answer_plain": "With manual transfer the source only has to carry the equipment intended to run at one time, and the user is permitted to select which loads those are. Write the intended load list down with the owner, because that list is what the generator size honestly stands on.",
+    "nec_ref": "702.4(B)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "sizing"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-010",
+    "question": "What is the full-load duty for automatic transfer?",
+    "aliases": [
+      "full load automatic transfer",
+      "whole house generator sizing"
+    ],
+    "answer_plain": "With automatic transfer and no load management, the standby source has to carry the full load that the automatic equipment transfers. Nobody is standing at the panel choosing loads, so the code does not let the design pretend somebody is.",
+    "nec_ref": "702.4(B)(2)(a)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "sizing"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-011",
+    "question": "How does load management change generator sizing on automatic transfer?",
+    "aliases": [
+      "load management generator",
+      "load shed sizing"
+    ],
+    "answer_plain": "Where an automatic system manages the connected load, the source only has to carry the maximum load that the management system will actually connect. The management equipment has to be real, automatic and part of the installed system, not a promise that the owner will turn things off.",
+    "nec_ref": "702.4(B)(2)(b)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "sizing",
+      "load management"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-012",
+    "question": "How is the load for an automatic standby system figured?",
+    "aliases": [
+      "generator load calculation",
+      "article 220 generator"
+    ],
+    "answer_plain": "The sizing load is figured under the standard load-calculation article or by another approved method. For an existing installation, recorded maximum demand over time is one approved route, so measured demand can replace a worst-case paper total when the authority accepts it.",
+    "nec_ref": "702.4(B)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "sizing"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-013",
+    "question": "Does optional standby transfer equipment have to be listed?",
+    "aliases": [
+      "transfer equipment listed",
+      "interlock listed 2020"
+    ],
+    "answer_plain": "Yes, in the 2020 code transfer equipment for an optional standby connection has to be listed as well as suitable for the use. An interlock product that cannot show a listing does not become acceptable because its literature says it was tested on a listed panel.",
+    "nec_ref": "702.5",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "transfer"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-014",
+    "question": "What are the rules for a meter-mounted transfer switch on a standby job?",
+    "aliases": [
+      "meter mounted transfer switch",
+      "meter socket generator switch"
+    ],
+    "answer_plain": "The switch has to be a listed meter-mounted transfer switch, and it stays manual unless it is rated under the automatic-transfer sizing duty. Meter-mounted switches are never an option on emergency or legally required standby work, and the utility has its own say about anything mounted at its meter.",
+    "nec_ref": "702.5(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "transfer"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-015",
+    "question": "When must the transfer equipment short-circuit rating be marked on the gear?",
+    "aliases": [
+      "SCCR marking transfer",
+      "documentation transfer switch"
+    ],
+    "answer_plain": "On work other than dwelling units, the short-circuit current rating of the transfer equipment is field marked on the exterior of the equipment. The marking lets anyone maintaining the gear later see its fault duty without hunting for the original submittal.",
+    "nec_ref": "702.5(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "transfer"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-016",
+    "question": "What is the inadvertent interconnection rule?",
+    "aliases": [
+      "backfeed rule",
+      "inadvertent interconnection generator"
+    ],
+    "answer_plain": "Transfer equipment must be designed and installed so that all sources of supply can never be connected together by accident in any operation of the equipment. That is the rule that makes backfeeding a panel without transfer equipment a violation, because a generator can energize a utility line that a crew believes is dead.",
+    "nec_ref": "702.5(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "transfer",
+      "safety"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-017",
+    "question": "When does a generator job also become an Article 705 job?",
+    "aliases": [
+      "parallel generator 705",
+      "generator parallel operation"
+    ],
+    "answer_plain": "When transfer equipment and a power production source are installed to operate in parallel with the normal source, the interconnection article applies on top of the standby rules. A source that only replaces the utility is a standby job; a source that runs alongside it is also an interconnection.",
+    "nec_ref": "702.5(E)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "interconnection"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-018",
+    "question": "What sign belongs at the service for a house with a standby generator?",
+    "aliases": [
+      "dwelling generator sign",
+      "standby source location sign"
+    ],
+    "answer_plain": "For a one- or two-family dwelling, the sign sits at the outdoor emergency disconnect and tells where the permanently installed standby source disconnect or the prime mover shutdown is located. Commercial and industrial services instead get a sign at the service equipment giving the type and location of each on-site optional source.",
+    "nec_ref": "702.7(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "signs"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-019",
+    "question": "What must the sign at a generator power inlet say?",
+    "aliases": [
+      "power inlet sign",
+      "bonded neutral sign",
+      "floating neutral sign"
+    ],
+    "answer_plain": "The sign at the inlet states which kind of generator system may be connected there, separately derived with a bonded neutral or nonseparately derived with a floating neutral. The correct sign depends on how the generator neutral is bonded, so check the generator before the sign is lettered.",
+    "nec_ref": "702.7(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "signs"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-020",
+    "question": "When is no extra building disconnect required for an outdoor generator?",
+    "aliases": [
+      "outdoor generator disconnect",
+      "within sight generator"
+    ],
+    "answer_plain": "Where an outdoor generator set has a readily accessible disconnect within sight of the building it supplies, no additional disconnect is required at the building. The rule covers permanently installed sets and larger portable sets, and it never removes the transfer equipment duty.",
+    "nec_ref": "702.12(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "disconnect"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-021",
+    "question": "Does a small portable generator on a flanged inlet need a disconnect?",
+    "aliases": [
+      "15 kW portable inlet",
+      "flanged inlet disconnect"
+    ],
+    "answer_plain": "A portable generator rated fifteen kilowatts or less and connected through a flanged inlet does not require a disconnecting means under this rule. Transfer equipment is still what keeps the generator and the utility apart, and that duty is unchanged.",
+    "nec_ref": "702.12(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "disconnect"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-022",
+    "question": "Can optional standby wiring share raceways with other wiring?",
+    "aliases": [
+      "702 wiring share",
+      "standby circuits same raceway"
+    ],
+    "answer_plain": "Yes, optional standby wiring may occupy the same raceways, cables, boxes and cabinets as other wiring. That permission is the opposite of the emergency wiring rule, which is one more reason the classification question comes before the wiring method.",
+    "nec_ref": "702.10",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "wiring"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-023",
+    "question": "What is the difference between the service emergency disconnect and the generator shutdown?",
+    "aliases": [
+      "230.85 vs 445.18",
+      "emergency disconnect confusion"
+    ],
+    "answer_plain": "They are two different devices doing two different jobs on the same house. The service emergency disconnect outside the dwelling shuts off the utility service for responders, while the generator emergency shutdown outside the dwelling stops the generator prime mover, and a standby sign at the first device points to the second one.",
+    "nec_ref": "702.7(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "service",
+      "signs"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Florida houses built under the current code carry both devices; labelling them as if they were one switch is a common plan and field error."
+  },
+  {
+    "id": "C7-L-024",
+    "question": "What is the difference between a supply-side and a load-side interconnection?",
+    "aliases": [
+      "supply side vs load side solar",
+      "705 connection types"
+    ],
+    "answer_plain": "A supply-side connection lands ahead of the service disconnect and never touches the panelboard busbar limits, while a load-side connection lands at distribution equipment and has to satisfy the busbar rules. Choosing between them is the first design decision on any interconnected source.",
+    "nec_ref": "705.11 / 705.12",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection",
+      "solar"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-025",
+    "question": "What directory is required where a building has more than one power source?",
+    "aliases": [
+      "multiple sources plaque",
+      "705 directory"
+    ],
+    "answer_plain": "A permanent plaque or directory at the service equipment, or another approved and readily visible place, shows the location of every parallel power source disconnect and carries the multiple-sources caution. Any diagram on the plaque has to be oriented the way the building actually sits.",
+    "nec_ref": "705.10",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection",
+      "signs"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-026",
+    "question": "Does each interconnected source need its own breaker?",
+    "aliases": [
+      "dedicated breaker solar",
+      "one breaker two inverters"
+    ],
+    "answer_plain": "Yes, each source interconnection is made at a dedicated circuit breaker or fusible disconnecting means. A source never shares its breaker with a load, and two source systems do not share one breaker because their combined rating happens to fit.",
+    "nec_ref": "705.12(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-027",
+    "question": "Worked example: what does the 100 percent busbar method allow on a 225A bus with a 200A main?",
+    "aliases": [
+      "100 percent method example",
+      "busbar method math"
+    ],
+    "answer_plain": "The method leaves only the difference between the busbar rating and the main rating for the source, divided by the continuous factor. On a 225 amp bus with a 200 amp main that is 25 amps of room, which supports a 20 amp inverter output, so most jobs this size move to the 120 percent method or another route.",
+    "nec_ref": "705.12(B)(3)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection",
+      "math"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-028",
+    "question": "Worked example: what does the 120 percent rule allow on a 225A bus with a 200A main?",
+    "aliases": [
+      "120 percent example 225",
+      "225 bus solar size"
+    ],
+    "answer_plain": "One hundred twenty percent of a 225 amp bus is 270 amps, and subtracting the 200 amp main leaves 70 amps for the source device. Dividing by the continuous factor gives a maximum inverter output of 56 amps, with the source breaker at the opposite end of the bus and the warning label in place.",
+    "nec_ref": "705.12(B)(3)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection",
+      "math",
+      "solar"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-029",
+    "question": "Worked example: how can derating the main breaker make a solar job fit?",
+    "aliases": [
+      "derate main breaker solar",
+      "main breaker derate 120"
+    ],
+    "answer_plain": "Lowering the main breaker rating lowers the number that is added to the source current in the busbar check, which frees room for the source. On a 200 amp bus, dropping the main from 200 amps to 175 amps raises the allowed source device capacity from 40 amps to 65 amps, as long as the derated main still carries the calculated load of the house.",
+    "nec_ref": "705.12(B)(3)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection",
+      "math",
+      "solar"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-030",
+    "question": "What is the sum-of-breakers method for a load-side connection?",
+    "aliases": [
+      "sum of breakers method",
+      "705 breaker sum"
+    ],
+    "answer_plain": "This method adds the ratings of all overcurrent devices on the panelboard, load and supply devices together and excluding the device protecting the busbar, and the total must not exceed the busbar ampacity. Panels using it carry permanent warning labels identifying that all sources are present.",
+    "nec_ref": "705.12(B)(3)(3)",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection",
+      "math"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-031",
+    "question": "What label goes next to a backfed breaker under the 120 percent method?",
+    "aliases": [
+      "do not relocate label",
+      "backfeed breaker warning"
+    ],
+    "answer_plain": "A permanent warning label on the distribution equipment, next to the backfed breaker, warns that the device is a power source output connection and must not be relocated. The position is part of the method, so moving the breaker on a later service call breaks the compliance the label was protecting.",
+    "nec_ref": "705.12(B)(3)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection",
+      "signs",
+      "solar"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-032",
+    "question": "What else does a backfed source breaker have to be besides correctly sized?",
+    "aliases": [
+      "backfed breaker fastening",
+      "breaker suitable for backfeed"
+    ],
+    "answer_plain": "It has to be suitable for backfeeding, and a plug-on backfed breaker has to be secured so it cannot work loose the way a load breaker never tries to. Equipment fed from more than one source also has to be marked so the next person opening the panel knows both sources are in there.",
+    "nec_ref": "705.12",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-033",
+    "question": "What does a power control system do for an interconnection?",
+    "aliases": [
+      "power control system 705",
+      "PCS solar limit"
+    ],
+    "answer_plain": "A listed power control system monitors and limits how much current a source puts onto conductors and busbars, and its controller setting is used as the source output current in the interconnection calculations. A system set below the inverter full rating can therefore fit a panel that the raw rating could not, and the setting has to be recorded because the method stands on it.",
+    "nec_ref": "705.13",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection",
+      "load management"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-034",
+    "question": "Why does an interconnected source need its own disconnect if it has a breaker?",
+    "aliases": [
+      "source disconnect 705",
+      "inverter disconnect"
+    ],
+    "answer_plain": "The panel breaker is only one of the places the source has to be separable from the rest of the system, and the disconnect rules gather the source disconnect duties in one section. A disconnect that unqualified people can reach must not expose live parts when it is open, so locking or a tool requirement applies in that case.",
+    "nec_ref": "705.20",
+    "nec_edition": "2020",
+    "tags": [
+      "interconnection",
+      "disconnect"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-035",
+    "question": "What size energy storage system does the storage article cover?",
+    "aliases": [
+      "ESS scope 1 kWh",
+      "battery article scope"
+    ],
+    "answer_plain": "The storage article applies to systems with a capacity greater than one kilowatt-hour that can provide energy to a premises wiring system. Smaller listed equipment still follows its own instructions, but a whole-house battery bank is squarely inside this article.",
+    "nec_ref": "706.1",
+    "nec_edition": "2020",
+    "tags": [
+      "storage",
+      "ESS"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-036",
+    "question": "Does an energy storage system have to be listed, and who may work on it?",
+    "aliases": [
+      "ESS listed qualified",
+      "battery listing"
+    ],
+    "answer_plain": "Yes, each energy storage system has to be listed, its ratings live on its nameplate, and only qualified persons may install or maintain it. Away from houses, the system is also commissioned at installation and then kept maintained to the manufacturer instructions.",
+    "nec_ref": "706.5",
+    "nec_edition": "2020",
+    "tags": [
+      "storage",
+      "ESS"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-037",
+    "question": "How must an energy storage disconnect be marked?",
+    "aliases": [
+      "ESS disconnect marking",
+      "energy storage disconnect label"
+    ],
+    "answer_plain": "The disconnect has to show plainly whether it is open or closed and be permanently marked as the energy storage system disconnect. Where the section requires them, the marking also carries the nominal ac voltage, the maximum dc voltage and the available fault current from the storage system.",
+    "nec_ref": "706.15(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "storage",
+      "ESS",
+      "signs"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-038",
+    "question": "Is there a dc voltage limit for a battery system inside a house?",
+    "aliases": [
+      "ESS dwelling voltage limit",
+      "100 volt battery house"
+    ],
+    "answer_plain": "Yes, a dwelling energy storage system is limited to 100 volts dc between conductors or to ground, with an exception allowing up to 600 volts where live parts are not accessible during routine maintenance. The limit is about who lives with the equipment, not about what the batteries can technically do.",
+    "nec_ref": "706",
+    "nec_edition": "2020",
+    "tags": [
+      "storage",
+      "ESS"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Confirm the subsection number in the printed 2020 text before citing it on a plan; the voltage values were checked in 2020 conference material for this article."
+  },
+  {
+    "id": "C7-L-039",
+    "question": "Can a stand-alone system be smaller than the calculated load?",
+    "aliases": [
+      "off grid sizing largest load",
+      "stand alone capacity"
+    ],
+    "answer_plain": "Yes, a stand-alone supply may be smaller than the full calculated load, which is what makes off-grid design possible at all. The combined capacity of all its sources still has to at least equal the load of the largest single piece of utilization equipment connected, and general lighting does not count as that single load.",
+    "nec_ref": "710.15(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "stand-alone",
+      "off-grid"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-040",
+    "question": "How are the sources of a stand-alone system identified?",
+    "aliases": [
+      "stand alone identification",
+      "off grid directory"
+    ],
+    "answer_plain": "The 2020 code added an identification duty for stand-alone systems, so every source and its disconnect can be found by the people who work on or respond to the building. On a property with solar, batteries and a generator in three places, that list is a safety device in its own right.",
+    "nec_ref": "710.10",
+    "nec_edition": "2020",
+    "tags": [
+      "stand-alone",
+      "signs"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-041",
+    "question": "What really separates a Class 2 circuit from a Class 3 circuit?",
+    "aliases": [
+      "class 2 vs class 3",
+      "low voltage classes"
+    ],
+    "answer_plain": "Both classes are limited against starting a fire, and they are separated by how much voltage and power the source may deliver and by shock. A Class 2 circuit is limited tightly enough to be treated as safe from shock as well as fire, while a Class 3 circuit may run at levels that can shock and needs added protection for that reason.",
+    "nec_ref": "725.2",
+    "nec_edition": "2020",
+    "tags": [
+      "low-voltage",
+      "class 2",
+      "class 3"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-042",
+    "question": "Can any small transformer create a Class 2 circuit?",
+    "aliases": [
+      "class 2 transformer listed",
+      "wall wart class 2"
+    ],
+    "answer_plain": "No, the source has to be one the code recognizes, such as a listed Class 2 transformer, a listed Class 2 power supply, or listed equipment marked as the Class 2 source. An unmarked plug-in supply creates an unclassified circuit, and the relaxed Class 2 wiring methods go with the listing, not with the small output.",
+    "nec_ref": "725.121",
+    "nec_edition": "2020",
+    "tags": [
+      "low-voltage",
+      "class 2"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-043",
+    "question": "Can a thermostat cable share a box with power conductors?",
+    "aliases": [
+      "thermostat same box power",
+      "class 2 box separation"
+    ],
+    "answer_plain": "Only under the conditions for conductors serving the same equipment, with the low-voltage conductors kept at least a quarter inch away from the power conductors inside the equipment or enclosure. Outside that narrow case, Class 2 and Class 3 conductors stay out of boxes and raceways that carry power and Class 1 conductors unless a barrier separates them.",
+    "nec_ref": "725.136(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "low-voltage",
+      "class 2",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-044",
+    "question": "Where does the 2-inch separation rule for Class 2 wiring actually apply?",
+    "aliases": [
+      "2 inch class 2",
+      "725 separation inches"
+    ],
+    "answer_plain": "It applies to other applications, meaning open runs outside enclosures and equipment, where the Class 2 or Class 3 conductors run near power and similar conductors. The spacing is not required when either side is in a raceway or in a sheathed cable of the kinds the section names, and it never by itself licenses sharing a box or raceway.",
+    "nec_ref": "725.136(I)",
+    "nec_edition": "2020",
+    "tags": [
+      "low-voltage",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-045",
+    "question": "What separation do communications cables need from power conductors?",
+    "aliases": [
+      "800 separation data cable",
+      "cat cable power distance"
+    ],
+    "answer_plain": "Communications conductors are kept at least two inches from electric light, power and Class 1 conductors under the communications article, with exceptions where a raceway or a sheathed cable protects one side. That rule belongs to Chapter 8 and covers telephone and data cables, while the parallel thermostat and controls rule lives in the Class 2 and 3 article.",
+    "nec_ref": "800.133(A)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "communications",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-046",
+    "question": "Can Class 2 conductors share a raceway with power conductors if both are insulated for 600 volts?",
+    "aliases": [
+      "class 2 same conduit power",
+      "insulation voltage trick"
+    ],
+    "answer_plain": "No, insulation rating alone does not create the permission. Sharing a raceway or enclosure takes one of the section permissions, such as a barrier or the same-equipment conditions, and simply reclassifying the run is a different design decision with its own wiring method duties.",
+    "nec_ref": "725.136(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "low-voltage",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-047",
+    "question": "What decides whether a fire alarm circuit is NPLFA or PLFA?",
+    "aliases": [
+      "NPLFA vs PLFA",
+      "fire alarm circuit types"
+    ],
+    "answer_plain": "The power source decides, in the same way a source decides a Class 2 circuit. A circuit fed from a source that follows the normal wiring chapters at up to 600 volts is non-power-limited, while a circuit fed from a listed power-limited source is power-limited, and each family then follows its own part of the fire alarm article.",
+    "nec_ref": "760.35",
+    "nec_edition": "2020",
+    "tags": [
+      "fire alarm"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-048",
+    "question": "What is special about the branch circuit feeding a fire alarm panel?",
+    "aliases": [
+      "fire alarm breaker red",
+      "dedicated fire alarm circuit"
+    ],
+    "answer_plain": "It feeds no other loads, and on a power-limited system its overcurrent device is identified in red, is accessible only to qualified personnel, and is marked as the fire alarm circuit and identified at the control unit. The red device is a message to everyone after you that this breaker is never borrowed and never casually switched.",
+    "nec_ref": "760.121(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "fire alarm"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-049",
+    "question": "What overcurrent limits apply to small NPLFA conductors?",
+    "aliases": [
+      "fire alarm 18 AWG breaker",
+      "760 small conductor protection"
+    ],
+    "answer_plain": "Conductors of 18 AWG are protected at not more than seven amps and conductors of 16 AWG at not more than ten amps, while larger conductors follow their ampacity. Alarm work uses small conductors constantly, so the breaker is checked against the smallest conductor on the run.",
+    "nec_ref": "760.43",
+    "nec_edition": "2020",
+    "tags": [
+      "fire alarm",
+      "overcurrent"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-050",
+    "question": "What may power a PLFA circuit?",
+    "aliases": [
+      "PLFA power source",
+      "fire alarm power limited source"
+    ],
+    "answer_plain": "The source has to be a listed power-limited transformer, a listed power-limited power supply, or listed equipment marked to identify its power-limited source. A fire alarm control panel with an integral listed source is the everyday example, and an unmarked supply does not create a power-limited circuit.",
+    "nec_ref": "760.121(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "fire alarm"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  }
+]

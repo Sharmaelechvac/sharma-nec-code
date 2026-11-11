@@ -1,0 +1,140 @@
+[
+  {
+    "room": "Device / Appliance / HVAC Hookup",
+    "items": [
+      {
+        "id": "C4-D-01",
+        "text": "Neutral conductor present and capped in every switch box (404.2(C)), including boxes with plain snap switches.",
+        "nec_ref": "404.2(C)",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-02",
+        "text": "Switches at 48 in. to center of box where the plan is silent.",
+        "nec_ref": "404.8(A)",
+        "severity": "sharma",
+        "sharma_rule_id": "S-05"
+      },
+      {
+        "id": "C4-D-03",
+        "text": "3-way/4-way runs tested from every location; load fully controlled at each switch.",
+        "severity": "tip"
+      },
+      {
+        "id": "C4-D-04",
+        "text": "No receptacle inside the tub/shower zone: 3 ft horizontal x 8 ft vertical from rim/threshold.",
+        "nec_ref": "406.9(C)",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-05",
+        "text": "Exterior receptacles: WR device + in-use cover, gasket seated, cord exits the bottom notch.",
+        "nec_ref": "406.9(B)",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-06",
+        "text": "Dwelling receptacles are TR type; GFI plan points are standard TR devices on the DFN breaker — no GFCI receptacles.",
+        "nec_ref": "406.12",
+        "severity": "sharma",
+        "sharma_rule_id": "S-07"
+      },
+      {
+        "id": "C4-D-07",
+        "text": "Replaced receptacles meet today's GFCI/AFCI/TR/WR rules for the location; no-equipment-ground installs carry the required marking.",
+        "nec_ref": "406.4(D)",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-08",
+        "text": "Panel directory filled in specifically from the as-built circuits and verified by switching; spares marked as spares.",
+        "nec_ref": "408.4(A)",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-09",
+        "text": "Unused panel openings closed with the panel manufacturer's listed fillers; breakers listed for the panel (Siemens new / Square D in Square D).",
+        "nec_ref": "408.7",
+        "severity": "sharma",
+        "sharma_rule_id": "S-03"
+      },
+      {
+        "id": "C4-D-10",
+        "text": "Sub-panels labelled with their source of supply; source panel feeder breaker labelled to match.",
+        "nec_ref": "408.4(B)",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-11",
+        "text": "Bath fixtures inside the tub/shower zone are damp-listed (wet-listed if spray reaches them); no pendants in the zone.",
+        "nec_ref": "410.10(D)",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-12",
+        "text": "Closet fixtures enclosed and clear of the storage space; no pendant or exposed-lamp fixtures.",
+        "nec_ref": "410.16",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-13",
+        "text": "Water heater circuit verified by arithmetic: nameplate amps x 1.25, breaker and conductor recorded on the panel schedule.",
+        "nec_ref": "422.13",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-14",
+        "text": "Microwave on its own 20A circuit, 12 AWG copper; not shared with the hood or any other appliance.",
+        "severity": "sharma",
+        "sharma_rule_id": "S-06"
+      },
+      {
+        "id": "C4-D-15",
+        "text": "Every hard-wired appliance has its disconnect decided and reachable (water heater, cooktop, air handler).",
+        "nec_ref": "422.31",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-16",
+        "text": "Condenser wired from its own nameplate: conductor >= MCA, breaker <= MOCP; nameplate photographed to the job file.",
+        "nec_ref": "440.4(B)",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-17",
+        "text": "HVAC disconnect within sight and readily accessible at the equipment, working space clear.",
+        "nec_ref": "440.14",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-18",
+        "text": "Heat strip size actually installed reported to the office for the load calc.",
+        "severity": "tip"
+      },
+      {
+        "id": "C4-D-19",
+        "text": "Motor jobs: worksheet shows table FLC and nameplate FLA separately; overload set from the nameplate.",
+        "nec_ref": "430.6",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-20",
+        "text": "Dwelling generator: outdoor shutdown device located, identified, and tested at start-up.",
+        "nec_ref": "445.18(D)",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-21",
+        "text": "Neutrals landed one per terminal in every panelboard; doubled neutrals separated on change-outs.",
+        "nec_ref": "408.41",
+        "severity": "code"
+      },
+      {
+        "id": "C4-D-22",
+        "text": "Panel and HVAC equipment SCCR checked against available fault current on commercial work; both numbers in the job file.",
+        "nec_ref": "408.6",
+        "severity": "code"
+      }
+    ]
+  }
+]

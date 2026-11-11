@@ -1,0 +1,2039 @@
+{
+  "schema_version": "book-v1",
+  "nec_edition": "2020",
+  "jurisdiction": "Florida Building Code 8th Edition (2023)",
+  "chapter": 1,
+  "chapter_title": "General",
+  "id_prefix": "C1",
+  "label": "Reference aid; the AHJ and the printed NEC govern.",
+  "sections": [
+    {
+      "id": "C1-ART-90",
+      "chapter": 1,
+      "article": "90",
+      "section": "90",
+      "title": "Article 90 — Introduction: how this Code is set up",
+      "plain_explanation": "Article 90 is the front door of the Code. It explains why the Code exists, what kinds of installations it covers, what it leaves out, and how its chapters fit together. It also explains the difference between a rule you must follow and background material that only helps you understand a rule.",
+      "on_the_job": "Start here when a question is really about whether the Code applies at all, who enforces it, or whether a note in the book is a requirement. Most day-to-day wiring questions are answered in Chapters 1 through 7, not in Article 90 itself.",
+      "sharma_note": "",
+      "figure_idea": "A simple map of the NEC: Chapters 1-4 general, 5 special occupancies, 6 special equipment, 7 special conditions, 8 communications standing apart, 9 tables.",
+      "related_ids": [
+        "C1-L-001",
+        "C1-L-002"
+      ],
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not yet adopted in Florida.",
+      "verified": true,
+      "prev_id": null,
+      "next_id": "C1-90.1",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-90.1",
+      "chapter": 1,
+      "article": "90",
+      "section": "90.1",
+      "title": "Purpose of the Code",
+      "plain_explanation": "The point of the Code is to protect people and property from the hazards that come with using electricity. Following it, together with proper maintenance, produces an installation that is largely free from hazard. The Code is not a design manual for beginners, and meeting the Code does not promise the most efficient or most convenient system — it sets the safety floor.",
+      "on_the_job": "When a plan meets the Code but works poorly, that is a design problem, not proof the Code failed. When a shortcut works but is hazardous, the Code still controls. Build to the safety floor first, then to good design above it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-ART-90",
+      "next_id": "C1-90.2",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-90.2",
+      "chapter": 1,
+      "article": "90",
+      "section": "90.2",
+      "title": "Scope — what is covered and what is not",
+      "plain_explanation": "This section lists the kinds of installations the Code covers, such as premises wiring in buildings, yards, parking areas, and similar locations, and the kinds it does not cover, such as most utility-owned generation and distribution installations, ships, railway rolling stock, and mining equipment. It also covers installations where the Code applies only with special permission from the authority having jurisdiction. Smoke and carbon monoxide alarms in a house are handled by the building code, not by this article.",
+      "on_the_job": "The line that matters most in the field is the utility line: work on the customer side of the service point is generally Code work; the utility's own system generally is not. If a job sits in the not-covered or special-permission area, stop and get the AHJ's position before wiring it.",
+      "sharma_note": "",
+      "figure_idea": "A one-line sketch of a house service showing the service point, with customer-side wiring shaded as NEC work and utility-side wiring shaded differently.",
+      "related_ids": [
+        "C1-L-004",
+        "C1-L-005",
+        "L-094",
+        "L-095",
+        "L-096"
+      ],
+      "florida_note": "House smoke alarms are FBC-Residential R314 and CO alarms are R315 / F.S. 553.885 — building code, not NEC. Existing items L-094, L-095 and L-096 carry those citations; their subsection details carry UNVERIFIED flags in v1 and are not restated here.",
+      "verified": true,
+      "prev_id": "C1-90.1",
+      "next_id": "C1-90.3",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-90.3",
+      "chapter": 1,
+      "article": "90",
+      "section": "90.3",
+      "title": "How the chapters are arranged",
+      "plain_explanation": "Chapters 1 through 4 apply broadly to electrical installations. Chapters 5, 6 and 7 cover special places, special equipment and special conditions, and they add to or modify the general chapters. Chapter 8 covers communications systems and stands apart — the general chapters only apply to it where a Chapter 8 rule points back to them. Chapter 9 holds tables used by the rest of the book, and the annexes at the back are explanatory, not requirements.",
+      "on_the_job": "For a normal house or light-commercial job you live in Chapters 1 to 4. Open Chapter 5, 6 or 7 only when the occupancy or equipment is special, and when you do, read that rule together with the general rule it modifies.",
+      "sharma_note": "",
+      "figure_idea": "Stacked-blocks diagram: Chapters 1-4 as the base, 5-7 as modifying layers, Chapter 8 as a separate tower, Chapter 9 and annexes as reference shelves.",
+      "related_ids": [
+        "C1-L-006"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-90.2",
+      "next_id": "C1-90.4",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-90.4",
+      "chapter": 1,
+      "article": "90",
+      "section": "90.4",
+      "title": "Enforcement and the AHJ",
+      "plain_explanation": "The authority having jurisdiction — the AHJ, usually the local building department and its inspectors — enforces the Code and approves equipment and installations. The AHJ can grant special permission where the Code allows it, and can interpret how a rule applies to a local situation. An inspector's reading on your job carries weight that a handbook, an app or a study guide does not.",
+      "on_the_job": "If a rule could be read two ways on a real job, ask the AHJ before rough-in, not at inspection. Write down who said what and when. This book is a reference aid; the AHJ and the printed NEC govern.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-007"
+      ],
+      "florida_note": "Local amendments and AHJ positions always win over a statewide summary, especially on items where enforcement has varied, such as GFCI protection for outdoor HVAC outlets under 210.8(F).",
+      "verified": true,
+      "prev_id": "C1-90.3",
+      "next_id": "C1-90.5",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-90.5",
+      "chapter": 1,
+      "article": "90",
+      "section": "90.5",
+      "title": "Mandatory rules, permissive rules, and explanatory material",
+      "plain_explanation": "Mandatory rules use shall or shall not language — they must be followed. Permissive rules use shall be permitted language — they allow an option, they do not require it. Explanatory material, including Informational Notes, is there to explain or point to other material; a note by itself does not create a requirement you can be failed for, and you cannot use a note to override a rule.",
+      "on_the_job": "When someone cites a note as the reason for a red tag or a change, ask for the rule section behind it. Notes are where good explanations live, but the enforceable requirement is always in the rule text or in another standard the rule points to.",
+      "sharma_note": "",
+      "figure_idea": "Three traffic signs side by side: a red shall/shall not sign, a green shall be permitted sign, and a blue information sign labelled Informational Note — not a requirement.",
+      "related_ids": [
+        "C1-L-008",
+        "C1-Q-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-90.4",
+      "next_id": "C1-90.6",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-90.6",
+      "chapter": 1,
+      "article": "90",
+      "section": "90.6",
+      "title": "Formal interpretations",
+      "plain_explanation": "Where there is a genuine dispute about what a Code rule means, there is a formal process for getting an official interpretation from NFPA. That process is slow and is meant for real disagreements about the text, not for settling a question on one job. One job's question goes to its AHJ.",
+      "on_the_job": "You will almost never use this section in the field. Know that it exists so you do not treat a magazine article or a forum post as an official interpretation.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-90.5",
+      "next_id": "C1-90.7",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-90.7",
+      "chapter": 1,
+      "article": "90",
+      "section": "90.7",
+      "title": "Examination of equipment for safety",
+      "plain_explanation": "This section explains how equipment gets examined for safety, normally by being tested and listed or labeled by a qualified testing laboratory. It is the background for the approval, listing and labeling language used all through Article 110. Equipment the AHJ accepts has normally been through that kind of third-party check.",
+      "on_the_job": "Look for the listing mark and the label when gear arrives. If a piece of equipment has no mark and no paperwork, raise it before it is installed, not after it is wired.",
+      "sharma_note": "Sharma standard gear is Siemens (S-02). A listing problem is not solved by a familiar brand name — the specific equipment still has to be listed and used within its listing.",
+      "figure_idea": "Close-up style drawing of a panel label area with the listing mark, ratings and manufacturer instructions called out.",
+      "related_ids": [
+        "C1-L-009",
+        "S-02"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-90.6",
+      "next_id": "C1-90.8",
+      "sharma_rule_ids": [
+        "S-02"
+      ]
+    },
+    {
+      "id": "C1-90.8",
+      "chapter": 1,
+      "article": "90",
+      "section": "90.8",
+      "title": "Planning for future expansion",
+      "plain_explanation": "This section encourages planning an installation so later growth in load does not require tearing the system apart. Allowing room for future circuits and capacity is presented as good practice for convenience and for the life of the installation, not as a hard sizing rule by itself.",
+      "on_the_job": "Spare panel spaces, an accessible junction point, and a raceway path that can be reused are cheap on rough-in day and expensive later. Where the plan allows, leave the next electrician — often us — a workable path.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-010"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-90.7",
+      "next_id": "C1-90.9",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-90.9",
+      "chapter": 1,
+      "article": "90",
+      "section": "90.9",
+      "title": "Units of measurement",
+      "plain_explanation": "Measurements in the Code are shown with metric values and inch-pound values. Where the two do not match exactly because of rounding or a soft conversion, the section explains which value is treated as the requirement. In United States field work the inch-pound value is the one crews measure with.",
+      "on_the_job": "Measure in inches and feet as printed in the rule you are using. Do not convert a Code dimension yourself and then argue from your conversion at inspection.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-90.8",
+      "next_id": "C1-ART-100",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-ART-100",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Article 100 — Definitions: the words the Code uses",
+      "plain_explanation": "Article 100 defines the terms that carry a special meaning inside the Code. When a defined word appears in a rule, it means what Article 100 says it means, even if the everyday meaning is broader or narrower. In the 2020 edition the definitions sit in three parts — general definitions, definitions for installations over 1000 volts, and definitions for hazardous (classified) locations — arranged alphabetically inside each part rather than as numbered sections. This chapter covers the job-critical general terms a Sharma helper meets first; it does not attempt every definition in the article.",
+      "on_the_job": "When an argument turns on a single word — accessible, listed, outlet, service — come back to this article before arguing from everyday speech. A surprising number of inspection fights are really definition fights.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-011"
+      ],
+      "florida_note": "NEC 2023 — not yet adopted in FL: the 2023 edition reorganized Article 100 into a single consolidated alphabetical list. Do not use a 2023 study book's arrangement to locate a definition under Florida's 2020 edition.",
+      "verified": true,
+      "prev_id": "C1-90.9",
+      "next_id": "C1-100-ACCESSIBLE",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-ACCESSIBLE",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Accessible and readily accessible",
+      "plain_explanation": "Accessible, said of equipment, means a person can get close to it to operate, inspect or maintain it, without being blocked by the building's permanent structure. Accessible, said of a wiring method, means it can be removed or reached without tearing out finished construction. Readily accessible is stricter: a person can get to it quickly, without tools other than a key, without climbing over obstacles, and without a portable ladder.",
+      "on_the_job": "A breaker behind a locked door the occupant can open is different from a junction box buried behind drywall. Buried boxes are the classic failure: a wiring method that cannot be reached without demolition is not accessible, and splices belong in accessible boxes.",
+      "sharma_note": "",
+      "figure_idea": "Two panels: one reached by a clear path marked readily accessible, one behind stored shelving and a ladder marked not readily accessible.",
+      "related_ids": [
+        "C1-L-012",
+        "C1-L-013",
+        "C1-Q-005"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-ART-100",
+      "next_id": "C1-100-AMPACITY",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-AMPACITY",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Ampacity",
+      "plain_explanation": "Ampacity is the most current, in amperes, a conductor can carry continuously in its actual conditions of use without getting hotter than its temperature rating allows. It is not a single number printed on the wire; it depends on the conductor material, insulation rating, ambient temperature, and how many current-carrying conductors share a raceway or cable.",
+      "on_the_job": "Start from Table 310.16, then adjust for the job's real conditions. A conductor that is fine alone in a cool space can be over its limit bundled in a hot Florida attic.",
+      "sharma_note": "S-10: CCA is rated from the aluminum column of Table 310.16, which is why Sharma goes one AWG size larger when CCA is used.",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-014",
+        "S-10"
+      ],
+      "florida_note": "Florida attic temperatures make ambient correction a real design step, not a paperwork exercise.",
+      "verified": true,
+      "prev_id": "C1-100-ACCESSIBLE",
+      "next_id": "C1-100-APPLIANCE",
+      "sharma_rule_ids": [
+        "S-10"
+      ]
+    },
+    {
+      "id": "C1-100-APPLIANCE",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Appliance",
+      "plain_explanation": "An appliance is utilization equipment, usually built as a unit, that does a household or similar job — cooking, washing, drying, comfort heating or cooling, and the like — other than a basic luminaire or motor by itself. The word matters because several branch-circuit and disconnect rules turn on whether the load is an appliance.",
+      "on_the_job": "Dishwashers, disposals, ranges, dryers and built-in microwaves are appliances. When a rule says appliance, check whether the equipment in front of you fits that idea before applying a general receptacle rule to it.",
+      "sharma_note": "S-06: the microwave gets its own 20A circuit on 12 AWG copper unless the plan or nameplate says otherwise.",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-015",
+        "S-06"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-AMPACITY",
+      "next_id": "C1-100-APPROVAL-FAMILY",
+      "sharma_rule_ids": [
+        "S-06"
+      ]
+    },
+    {
+      "id": "C1-100-APPROVAL-FAMILY",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Approved, identified, labeled, and listed",
+      "plain_explanation": "These four words form one family. Approved means acceptable to the AHJ. Identified means recognizable as suitable for the specific use in question. Labeled means a testing organization has attached its label after checking samples of the product. Listed means the product appears in that organization's published list of items it has evaluated. A product can be well made and still not be listed, and an unlisted product used where listing is required is a Code problem.",
+      "on_the_job": "Read the box and the device. Breakers must be listed and identified for the panel they go in; a breaker that physically fits a foreign panel is not thereby identified for it.",
+      "sharma_note": "S-02: all new gear is Siemens. S-03: in an existing Square D panel, use Square D breakers listed for that panel — never mix brands to fill a space.",
+      "figure_idea": "Four stacked badges showing the chain: tested by a lab, listed in its directory, labeled on the product, approved by the AHJ for the job.",
+      "related_ids": [
+        "C1-L-016",
+        "C1-L-017",
+        "S-02",
+        "S-03",
+        "C1-Q-006"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-APPLIANCE",
+      "next_id": "C1-100-BONDING",
+      "sharma_rule_ids": [
+        "S-02",
+        "S-03"
+      ]
+    },
+    {
+      "id": "C1-100-BONDING",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Bonding — bonded, bonding conductor, bonding jumper",
+      "plain_explanation": "Bonding means joining metal parts together so they stay at the same electrical potential and have a reliable, low-impedance path that can carry fault current. A bonding jumper is the conductor or fitting that makes that connection. Bonding is not the same job as grounding to the earth; its main safety job is to make fault current flow hard enough to trip the breaker fast.",
+      "on_the_job": "Metal boxes, raceways, enclosures and equipment frames that can become energized need a bonding path back to the source. A loose locknut or paint under a fitting can quietly break that path.",
+      "sharma_note": "",
+      "figure_idea": "A metal box and raceway with the fault-current path highlighted returning to the panel, separate from the ground rod path to earth.",
+      "related_ids": [
+        "C1-L-018"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-APPROVAL-FAMILY",
+      "next_id": "C1-100-GROUNDED-GROUNDING",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-GROUNDED-GROUNDING",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Grounded and grounding — telling the conductors apart",
+      "plain_explanation": "Grounded means connected to the earth, or to a body that serves in place of the earth. The grounded conductor is the system conductor that is intentionally grounded — in a house, the neutral. The grounding conductor, including the equipment grounding conductor, is the path that ties equipment and enclosures to the grounding system for fault protection. The two words differ by one syllable and do completely different jobs, which is why the Code defines them separately.",
+      "on_the_job": "White is the grounded conductor; green or bare is the grounding conductor. They are bonded together only where the Code permits — at the service — and kept separate downstream in the panels Sharma sets.",
+      "sharma_note": "",
+      "figure_idea": "Panel detail with the neutral bar and ground bar labelled grounded vs grounding, and the single bonding point at the service marked.",
+      "related_ids": [
+        "C1-L-019",
+        "C1-L-020",
+        "C1-Q-007"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-BONDING",
+      "next_id": "C1-100-BRANCH-CIRCUIT",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-BRANCH-CIRCUIT",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Branch circuit",
+      "plain_explanation": "A branch circuit is the part of the wiring system between the final overcurrent device protecting it — the breaker in the panel — and the outlets it feeds. Everything upstream of that breaker is a feeder or service conductor; everything downstream to the receptacles, lights and equipment is the branch circuit. Article 210 builds its rules on this definition.",
+      "on_the_job": "When you size, protect or troubleshoot a circuit, find its breaker first. The conductor size, the breaker rating and the outlets all have to agree as one branch circuit.",
+      "sharma_note": "S-01: on commercial work every branch circuit is 20A minimum on 12 AWG copper minimum — no 15A branch circuits on commercial jobs. That is Sharma practice, stricter than the Code floor.",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-021",
+        "S-01"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-GROUNDED-GROUNDING",
+      "next_id": "C1-100-FEEDER",
+      "sharma_rule_ids": [
+        "S-01"
+      ]
+    },
+    {
+      "id": "C1-100-FEEDER",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Feeder",
+      "plain_explanation": "A feeder is the set of circuit conductors between the service equipment, or another power supply source such as a separately derived system, and the final branch-circuit overcurrent devices. It is the middle layer of the system: service conductors feed the service equipment, feeders carry power onward to panels, and branch circuits run from those panels' breakers to the outlets. Rules for sizing, protection and grounding change depending on which layer a conductor belongs to.",
+      "on_the_job": "The house-to-detached-garage panel run is the everyday feeder: it starts at an overcurrent device in the house panel and ends at the breakers in the garage panel. Call a run by its right layer before applying any sizing or grounding rule to it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-021"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-BRANCH-CIRCUIT",
+      "next_id": "C1-100-CONTINUOUS-LOAD",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-CONTINUOUS-LOAD",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Continuous load",
+      "plain_explanation": "A continuous load is a load where the maximum current is expected to keep flowing for three hours or more at a stretch. The three-hour line is the whole definition. Continuous loads drive the familiar 125 percent sizing treatment for conductors and overcurrent devices in the articles that use the term.",
+      "on_the_job": "Lighting in a store that stays on all day, an EV charger, and long-running HVAC loads are the usual suspects. Ask how long the load actually runs before deciding whether the continuous-load treatment applies.",
+      "sharma_note": "",
+      "figure_idea": "A timeline graphic: a load running 2 hours marked noncontinuous, the same load running 3 hours and beyond marked continuous.",
+      "related_ids": [
+        "C1-L-022",
+        "C1-Q-008"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-FEEDER",
+      "next_id": "C1-100-DWELLING-UNIT",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-DWELLING-UNIT",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Dwelling unit",
+      "plain_explanation": "A dwelling unit is a single unit that provides complete and independent living facilities for one or more people, including permanent provisions for living, sleeping, eating, cooking and sanitation. All four functions matter. A space with beds but no cooking or sanitation is not a dwelling unit, and many house rules in the Code switch on or off based on this definition.",
+      "on_the_job": "One-family houses and each apartment in a multifamily building are dwelling units. A hotel room without permanent cooking provisions generally is not, which changes which receptacle and protection rules apply to it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-023"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-CONTINUOUS-LOAD",
+      "next_id": "C1-100-EXPOSED",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-EXPOSED",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Exposed — live parts and wiring methods",
+      "plain_explanation": "Exposed has two uses. For live parts, it means a part can be accidentally touched or approached nearer than a safe distance — it is not properly guarded, isolated or insulated. For a wiring method, it means the wiring is on or against a surface, or behind panels meant to allow access, rather than permanently hidden inside the building structure.",
+      "on_the_job": "A cable run on the surface of a garage wall is exposed wiring and needs the protection its article requires. A live bus that a finger can reach is exposed live parts and is a guarding problem under Article 110.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-024"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-DWELLING-UNIT",
+      "next_id": "C1-100-LOCATIONS",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-LOCATIONS",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Locations — dry, damp, and wet",
+      "plain_explanation": "A dry location is one not normally damp or wet, though it can be temporarily damp during construction. A damp location is partly protected from weather or subject to moderate moisture — under a canopy, in some basements and barns, and similar places. A wet location is where water or other liquid can contact the equipment directly, or the installation is underground or in concrete or masonry in contact with the earth. The location decides what equipment and wiring methods are suitable.",
+      "on_the_job": "In Florida, treat exterior work as wet unless it is genuinely sheltered, and slabs and below-grade runs as wet by definition. Use equipment identified for the location you actually have, not the one you wish you had.",
+      "sharma_note": "",
+      "figure_idea": "Three house vignettes: an interior bedroom marked dry, a covered porch marked damp, an open exterior wall and a slab run marked wet.",
+      "related_ids": [
+        "C1-L-025",
+        "C1-L-026",
+        "C1-Q-009"
+      ],
+      "florida_note": "Florida humidity and wind-driven rain push many borderline porch and carport locations toward damp or wet in the AHJ's judgment. Confirm borderline locations with the inspector rather than assuming dry.",
+      "verified": true,
+      "prev_id": "C1-100-EXPOSED",
+      "next_id": "C1-100-OUTLET-RECEPTACLE",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-OUTLET-RECEPTACLE",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Outlet and receptacle",
+      "plain_explanation": "An outlet is any point on the wiring system where current is taken to feed utilization equipment — a receptacle point, a lighting point, a smoke-alarm point and a hardwired equipment connection are all outlets. A receptacle is the contact device installed at an outlet for plugging in a cord-connected load, and a receptacle outlet is an outlet where one or more receptacles are installed. Every receptacle is at an outlet, but not every outlet is a receptacle.",
+      "on_the_job": "Spacing and circuit rules that say outlet usually count lighting and hardwired points too, while rules that say receptacle outlet count only plug points. Mixing the two up is a common cause of a missed required receptacle or a wrong box-fill count.",
+      "sharma_note": "S-04: receptacle boxes sit 18 in to the bottom of the box when the plan is silent; when the plan states a height, the plan governs.",
+      "figure_idea": "A wall elevation with four outlets circled — receptacle, ceiling light, smoke alarm, hardwired dishwasher — and only the first labelled receptacle outlet.",
+      "related_ids": [
+        "C1-L-027",
+        "C1-L-028",
+        "S-04",
+        "C1-Q-010"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-LOCATIONS",
+      "next_id": "C1-100-SERVICE",
+      "sharma_rule_ids": [
+        "S-04"
+      ]
+    },
+    {
+      "id": "C1-100-SERVICE",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Service — the family of service terms",
+      "plain_explanation": "The service is the conductors and equipment that deliver power from the serving utility to the premises wiring. Service conductors run from the service point to the service disconnect. Service equipment is the gear — normally the disconnect and overcurrent devices — that controls and cuts off the supply. The service point is the handoff line between the utility's system and the premises wiring, and most service rules in Article 230 are built from these definitions.",
+      "on_the_job": "Find the service point first on any service change. It decides whose rules govern each run of conductor and where the grounded and grounding conductors are bonded together.",
+      "sharma_note": "S-09: meter outside and panel inside, back to back, where the house allows. The working-space rules of 110.26 still apply in full to that panel.",
+      "figure_idea": "One-line from utility pole through drop, meter and main disconnect into the panel, with service point, service conductors and service equipment labelled.",
+      "related_ids": [
+        "C1-L-029",
+        "S-09"
+      ],
+      "florida_note": "The utility serving the job (for example FPL or a municipal utility) sets its own service-point and meter requirements alongside the NEC. Confirm the utility's current requirements on service work.",
+      "verified": true,
+      "prev_id": "C1-100-OUTLET-RECEPTACLE",
+      "next_id": "C1-100-IN-SIGHT",
+      "sharma_rule_ids": [
+        "S-09"
+      ]
+    },
+    {
+      "id": "C1-100-IN-SIGHT",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "In sight from — and disconnecting means",
+      "plain_explanation": "Two linked terms. A disconnecting means is the device, or group of devices, that disconnects a circuit's conductors from their supply — a breaker or a disconnect switch are the everyday examples. Equipment is in sight from other equipment when it is visible from it and not more than 50 ft away; both halves matter, so a disconnect 20 ft away but hidden behind a wall is not in sight. Many equipment articles require a disconnect to be in sight from the equipment it serves, or to be lockable where they allow it to be out of sight.",
+      "on_the_job": "When you set a condenser or air-handler disconnect, stand at the equipment and look: if you cannot see the disconnect, or it is beyond 50 ft, the in-sight option is not met and the lockable route or a relocation is the conversation to have before trim-out.",
+      "sharma_note": "",
+      "figure_idea": "A condenser with a sight line drawn to its disconnect on the wall 15 ft away marked in sight, and a second disconnect drawn behind a fence marked not in sight.",
+      "related_ids": [
+        "C1-L-013",
+        "C1-L-051"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-SERVICE",
+      "next_id": "C1-100-SPECIAL-PERMISSION",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-SPECIAL-PERMISSION",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Special permission",
+      "plain_explanation": "Special permission is the written consent of the AHJ, given where the Code says the AHJ may allow an alternative. It is not a verbal okay from a plans examiner, a builder or a homeowner, and it is not something an electrician grants himself. Where the Code requires it, get it in writing before the work is done.",
+      "on_the_job": "If a job depends on special permission, paper it: keep the AHJ's written consent with the permit documents so the next inspector sees the same record.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-030"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-IN-SIGHT",
+      "next_id": "C1-100-AREAS-IN-USE",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-AREAS-IN-USE",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Garage, kitchen, and laundry area — how the Code uses area names",
+      "plain_explanation": "Rules throughout the Code name areas of a house — the garage, the kitchen, the laundry area — and attach protection and circuit requirements to receptacles in those areas. This page collects how Sharma crews meet those area names in practice: the garage is the vehicle space and its attached unfinished areas, the kitchen is the room with permanent cooking provisions, and the laundry area is where laundry equipment is installed or intended. Treat this page as a usage guide that points to the rule articles, not as a substitute for a definition in the printed Article 100.",
+      "on_the_job": "When a plan is vague about a room's use, settle it before rough-in — a laundry area moved after wiring changes GFCI protection and circuit requirements. The detailed area rules live in Article 210 and are covered in Chapter 2 of this book.",
+      "sharma_note": "S-08: the dryer circuit uses a Siemens Q230GF 30A 2-pole GFCI breaker, because NEC 2020 requires GFCI protection for receptacles in laundry areas, including 250V receptacles.",
+      "figure_idea": "House plan with garage, kitchen and laundry shaded in three colors, each tagged with the chapter that carries its main rules.",
+      "related_ids": [
+        "C1-L-031",
+        "C1-L-032",
+        "S-08"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "The ch1 brief lists garage, kitchen and laundry area as job-critical terms to cover, but whether each carries a standalone formal definition in printed NEC 2020 Article 100 was not confirmed against the printed table of contents for this pass. Page is written as a usage guide only; Mike Holt to confirm before any term here is presented as an Article 100 definition.",
+      "prev_id": "C1-100-SPECIAL-PERMISSION",
+      "next_id": "C1-ART-110",
+      "sharma_rule_ids": [
+        "S-08"
+      ]
+    },
+    {
+      "id": "C1-ART-110",
+      "chapter": 1,
+      "article": "110",
+      "section": "110",
+      "title": "Article 110 — Requirements for electrical installations",
+      "plain_explanation": "Article 110 sets the general rules that apply to almost every installation: use approved and listed equipment the way its listing intends, terminate conductors correctly, do neat and workmanlike work, mark what needs marking, and leave safe working space around equipment. If a habit is wrong on every job, the rule against it is probably in this article.",
+      "on_the_job": "Most Article 110 failures are visible without a meter: wrong-brand breakers, sloppy terminations, unmarked disconnects, blocked panels. A slow walk with this article in mind catches them before the inspector does.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-033"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-100-AREAS-IN-USE",
+      "next_id": "C1-110.1",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.1",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.1",
+      "title": "Scope of Article 110",
+      "plain_explanation": "This short section states that Article 110 covers the general requirements for electrical installations — the approval, installation, ratings, connections, marking and working space of equipment wherever the Code applies. It is not limited to services or to panels; it follows equipment into every occupancy the later articles cover, and the specific articles then add their own rules on top.",
+      "on_the_job": "When a question is about equipment in general rather than one wiring method — a rating, a marking, a clearance — start in Article 110 before hunting through the equipment's own article.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-033"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-ART-110",
+      "next_id": "C1-110.2",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.2",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.2",
+      "title": "Approval of equipment and conductors",
+      "plain_explanation": "Conductors and equipment required or permitted by the Code must be approved, which in practice means acceptable to the AHJ. Approval is normally shown through listing and labeling by a qualified testing laboratory. Equipment with no path to approval does not become acceptable because it was cheap, available, or already on the truck.",
+      "on_the_job": "Check approvals at order and delivery time. A non-listed substitute discovered at trim-out costs a return trip and can hold up the whole job.",
+      "sharma_note": "S-02 and S-03 keep Sharma inside this rule: Siemens gear for new work, and only breakers listed for the panel in existing panels.",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-034",
+        "S-02",
+        "S-03"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.1",
+      "next_id": "C1-110.3",
+      "sharma_rule_ids": [
+        "S-02",
+        "S-03"
+      ]
+    },
+    {
+      "id": "C1-110.3",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.3",
+      "title": "Examination, identification, installation, and use of equipment",
+      "plain_explanation": "When equipment is examined for approval, the things considered include its suitability for the installation, its mechanical strength, wire-bending space, electrical insulation, heating effects, arcing behavior, and how it is classified by type, size, voltage, current capacity and specific use. In plain terms: the right equipment, of the right rating, in the right place, with room for its conductors to land properly.",
+      "on_the_job": "Suitability is decided before installation. A device rated for a dry interior wall does not become suitable on an exterior wet wall because it was the one in the box.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-035"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.2",
+      "next_id": "C1-110.3(B)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.3(B)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.3(B)",
+      "title": "Install and use listed equipment per its instructions",
+      "plain_explanation": "Listed and labeled equipment has to be installed and used following the instructions that come with its listing and labeling. The manufacturer's instructions are not suggestions where the listing depends on them — a torque value, a conductor material, a temperature rating or a mounting requirement in those instructions has Code force through this section.",
+      "on_the_job": "This is the daily rule behind half of field quality: read the label inside the panel door, the sheet in the device box, and the nameplate on the equipment. If the instructions and a habit disagree, the instructions win.",
+      "sharma_note": "",
+      "figure_idea": "Panel door label enlarged, with torque table, conductor material and temperature rating highlighted as instructions that carry Code force.",
+      "related_ids": [
+        "C1-L-036",
+        "C1-L-037",
+        "L-040",
+        "C1-Q-011"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.3",
+      "next_id": "C1-110.4",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.4",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.4",
+      "title": "Voltages",
+      "plain_explanation": "Equipment is used at the voltage it is rated for, and where the Code states a voltage it means the nominal system voltage the circuit actually operates at, unless a rule says otherwise. A device rated for a lower voltage does not become suitable on a higher-voltage circuit because its terminals fit, and the nominal voltage is what load, protection and clearance rules are keyed to.",
+      "on_the_job": "Check the nameplate voltage against the system in front of you — 120/240 single-phase, 208Y/120 and 480Y/277 three-phase are different worlds for device ratings even when the hardware looks similar.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.3(B)",
+      "next_id": "C1-110.5",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.5",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.5",
+      "title": "Conductors — general",
+      "plain_explanation": "Conductors in the Code are copper unless a rule or an equipment marking provides for another metal. Where other materials such as aluminum or copper-clad aluminum are used, the sizes in the Code's tables and rules are read in the column and on the terms for that material. The metal of the conductor is part of the design, not an afterthought at the supply house.",
+      "on_the_job": "Know which metal is on the spool before you size anything. Ampacity, terminations and the small-conductor limits all change with the metal.",
+      "sharma_note": "S-10: copper is Sharma's default. When CCA is used, size one AWG larger, use the aluminum column of Table 310.16, land it only on terminations listed for it, and never backstab.",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-038",
+        "S-10"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.4",
+      "next_id": "C1-110.6",
+      "sharma_rule_ids": [
+        "S-10"
+      ]
+    },
+    {
+      "id": "C1-110.6",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.6",
+      "title": "Conductor sizes — AWG and circular mils",
+      "plain_explanation": "Conductor sizes are expressed in American Wire Gauge for the smaller sizes and in circular mil area for the larger ones. The size designation is a standard language: the same AWG number means the same conductor size whoever made the cable. Size by itself is not ampacity — the rating still comes from the ampacity tables, the termination limits and the conditions of use.",
+      "on_the_job": "Speak sizes in AWG up through 4/0 and in kcmil above that, and never let a breaker handle rating substitute for the ampacity check behind it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-014"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.5",
+      "next_id": "C1-110.7",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.7",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.7",
+      "title": "Integrity of equipment and connections",
+      "plain_explanation": "Electrical equipment and its connections have to be assembled so they keep their electrical and mechanical integrity — internal parts and connections secured the way the equipment was made and listed, with no damaged or improvised components carrying current. Equipment that has been opened, modified or repaired back together with the wrong parts no longer matches what was evaluated.",
+      "on_the_job": "If a panel's bus, breaker stabs or internal wiring are damaged or have been field-modified, that is a replace-or-escalate finding, not a bend-it-back repair.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.6",
+      "next_id": "C1-110.8",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.8",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.8",
+      "title": "Wiring methods — use only recognized methods",
+      "plain_explanation": "Only wiring methods the Code recognizes for the application may be used. A cable or raceway that conducts electricity is not thereby a permitted wiring method for a given location: each method has its own article, its permitted uses and its prohibited uses, and those govern. Improvised assemblies and products used outside their article's limits fail here before any other rule is reached.",
+      "on_the_job": "Before running anything, name the method and its article — NM cable, EMT, PVC, MC and the rest each carry their own use lists. A method allowed indoors is not automatically allowed outdoors or in a wet location.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.7",
+      "next_id": "C1-110.9",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.9",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.9",
+      "title": "Interrupting rating",
+      "plain_explanation": "Equipment meant to interrupt current during a fault has to be able to interrupt the fault current that can actually be delivered at its terminals. A breaker asked to open a fault beyond its interrupting rating can fail violently instead of clearing the fault. The rating is printed on the device and must equal or exceed the available fault current at that point.",
+      "on_the_job": "Check the kAIC marking on breakers against the job's available fault current, especially close to large services and transformers. Series-rated combinations are only valid as tested and documented combinations, not as a field guess.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-039"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.8",
+      "next_id": "C1-110.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.10",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.10",
+      "title": "Circuit impedance and fault-current performance",
+      "plain_explanation": "The overcurrent devices, the total impedance of the circuit, and the other components have to work together so that, under a short circuit or ground fault, the fault is cleared without extensive damage to the equipment in the circuit. In practice this means a low-impedance fault path, correctly rated devices, and components whose short-circuit current ratings suit the system they are part of.",
+      "on_the_job": "This is the engineering reason behind tight bonding, correct conductor sizing and not mixing untested device combinations. A fault should be a breaker trip, not an equipment failure.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-040"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.9",
+      "next_id": "C1-110.11",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.11",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.11",
+      "title": "Deteriorating agents",
+      "plain_explanation": "Equipment must not sit in conditions that will destroy it — dampness, corrosive gases or liquids, heat, mechanical damage and similar agents — unless it is identified for that environment. Ordinary equipment in a corrosive or wet environment fails early and can fail dangerously.",
+      "on_the_job": "Coastal Florida air, pool equipment rooms, fertilizer storage and car washes are the usual traps. Identify the environment first, then pick equipment identified for it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-041"
+      ],
+      "florida_note": "Salt air along Florida coasts is a deteriorating agent. Exterior and coastal gear needs to be identified for the exposure, and corrosion found at service calls should be reported, not just wiped off.",
+      "verified": true,
+      "prev_id": "C1-110.10",
+      "next_id": "C1-110.12",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.12",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.12",
+      "title": "Mechanical execution of work — workmanship and unused openings",
+      "plain_explanation": "Electrical work has to be done in a neat and workmanlike manner. Unused openings in enclosures, boxes and equipment have to be closed with closures that give protection much like the wall of the equipment itself — a missing knockout blank is an open door for fingers, pests and arc products. Conductors must also be protected where insulation can be damaged, and enclosures in wet locations must keep water from entering and accumulating.",
+      "on_the_job": "Close every unused opening with a listed blank or plug, not tape or a folded piece of can. Neat work is not cosmetic here — it is the section the inspector cites when a panel looks like a hazard even before testing anything.",
+      "sharma_note": "",
+      "figure_idea": "Before/after panel photos in drawing form: open knockouts and stray conductors on one side, blanks fitted and conductors dressed on the other.",
+      "related_ids": [
+        "C1-L-042",
+        "C1-L-043",
+        "C1-Q-012"
+      ],
+      "florida_note": "Open knockouts in exterior Florida enclosures are also a pest and water entry. Close them the same day the gear is set.",
+      "verified": true,
+      "prev_id": "C1-110.11",
+      "next_id": "C1-110.13",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.13",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.13",
+      "title": "Mounting and cooling of equipment",
+      "plain_explanation": "Equipment has to be firmly secured to its mounting surface, and it must not be mounted in a way that blocks the cooling it was designed for. Equipment that depends on air circulation cannot be buried in insulation or boxed in tight. Wooden plugs in masonry are not an acceptable way to secure equipment.",
+      "on_the_job": "Anchor gear with real fasteners into structure or masonry anchors, keep vents and fins clear, and check that a recessed installation still lets the equipment breathe as its instructions require.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-044"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.12",
+      "next_id": "C1-110.14",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.14",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.14",
+      "title": "Electrical connections — terminations in general",
+      "plain_explanation": "Most electrical failures start at a connection, and this section is the Code's main defense. Conductors must land on terminals suited to their metal and size, with the connection made by an approved method. Dissimilar metals in contact must be handled only where the device is identified for that combination, because corrosion between unlike metals loosens and overheats a joint over time. Solder, where used, cannot be the thing that holds a joint against pulling apart.",
+      "on_the_job": "Read the lug and device markings before landing wire. CU-only means copper only. A connector for aluminum, copper and CCA together must carry the AL-CU or CU-AL marking, or the intermixed marking where the metals actually touch, and breaker and equipment lugs get the same check.",
+      "sharma_note": "S-10 CCA practice: 15A and 20A device screw terminals take copper and CCA unless marked otherwise; devices 30A and up are copper-only unless marked AL/CU. Copper and CCA are not dissimilar metals; aluminum with copper, or aluminum with CCA, is. Backstab (push-in) terminals are 14 AWG solid copper only — never backstab CCA, stranded wire, or 12 AWG. UNVERIFIED FLAG (v1 README item 9): the UL guide wording behind the CCA terminal markings (RTRT / WJQR / ZMVV / AALZ) was taken from NEMA and UL/IAEI quotations, not read first-hand in UL Product iQ, and no CC or CC/CU marking was found in the ZMVV table. Do not invent a marking. A NEMA citation to 404.15(C) for switch terminals was not checked against the code text and is not relied on here.",
+      "figure_idea": "Three lugs side by side marked CU, AL-CU and CU-AL, with a chart of which conductor metals each may take, and a crossed-out backstab terminal on CCA wire.",
+      "related_ids": [
+        "C1-L-045",
+        "C1-L-046",
+        "L-039",
+        "S-10",
+        "C1-Q-013",
+        "C1-Q-014"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.13",
+      "next_id": "C1-110.14(C)",
+      "sharma_rule_ids": [
+        "S-10"
+      ]
+    },
+    {
+      "id": "C1-110.14(C)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.14(C)",
+      "title": "Temperature limits at terminations",
+      "plain_explanation": "A conductor's ampacity may be read from a higher temperature column only if the terminations at both ends are rated for that temperature. For circuits of 100A or less, or using 14 through 1 AWG conductors, the default is the 60 degree C column unless the equipment is marked otherwise. For larger circuits the default is the 75 degree C column. The temperature rating of a conductor cannot be used above the lowest temperature rating of any termination it lands on.",
+      "on_the_job": "This is why 90 degree wire still gets sized from the 60 or 75 degree column at the breaker. Read the breaker and equipment markings; existing v1 item L-033 works the 110.14(C)(1) case in detail.",
+      "sharma_note": "",
+      "figure_idea": "A conductor run drawn as a chain — wire rated 90, breaker lug rated 75, equipment lug rated 60 — with the whole chain sized at the weakest link, 60.",
+      "related_ids": [
+        "L-033",
+        "Q-050",
+        "C1-L-047"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.14",
+      "next_id": "C1-110.14(D)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.14(D)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.14(D)",
+      "title": "Torque — tighten to the specified value",
+      "plain_explanation": "Where a manufacturer gives a torque value for a terminal, the connection has to be tightened to that value using a proper torque tool, unless the equipment has been tested and marked so another method is known to give the same result. Hand-tight by feel is not a value. The specified torque is normally printed on the equipment label or in its instructions.",
+      "on_the_job": "Keep a torque screwdriver and wrench on the truck, use the label value for every lug at trim and service work, and re-check after landing all conductors. Existing checklist item SP-15 covers the field routine.",
+      "sharma_note": "",
+      "figure_idea": "Torque screwdriver on a breaker lug with the panel label's torque table beside it.",
+      "related_ids": [
+        "L-040",
+        "SP-15",
+        "C1-L-048",
+        "C1-Q-015"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.14(C)",
+      "next_id": "C1-110.15",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.15",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.15",
+      "title": "High-leg marking on 4-wire delta systems",
+      "plain_explanation": "On a 4-wire, 3-phase delta system, one phase conductor — the high leg — has a higher voltage to ground than the other two. That conductor has to be durably and permanently marked with an orange finish, or identified by other effective means, at the points the section specifies, such as where connections are made and where the grounded conductor is present. The marking is what keeps a 120V load from being landed on the leg that sits at 208V to ground.",
+      "on_the_job": "Sharma meets high legs on older light-commercial services. Before landing any 120V circuit in a delta panel, identify which leg is the high leg, confirm it is orange-marked, and keep 120V loads off it.",
+      "sharma_note": "",
+      "figure_idea": "A delta panel schedule with the B phase column shaded orange and the voltage-to-ground values 120 / 208 / 120 written under the three legs.",
+      "related_ids": [
+        "C1-L-051"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.14(D)",
+      "next_id": "C1-110.16",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.16",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.16",
+      "title": "Arc-flash hazard warning marking",
+      "plain_explanation": "Certain equipment that is likely to be examined, adjusted or worked on while energized — such as switchboards, panelboards and motor control centers in other than dwelling settings — must carry a durable field-applied warning marking telling people about the arc-flash hazard. The marking warns; it does not replace safe work practice, and it belongs where a person approaching the gear will see it.",
+      "on_the_job": "On commercial work, confirm the arc-flash warning label is present and legible before final. Houses are not the target of this section, but the hazard it names is real on any energized panel.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-049"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.15",
+      "next_id": "C1-110.17",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.17",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.17",
+      "title": "Servicing and maintenance of equipment",
+      "plain_explanation": "This section, new in the 2020 edition, addresses the servicing and maintenance of electrical equipment: servicing is to be done by qualified persons, and replacement parts and components are to be suitable for the equipment — identified for it or the manufacturer's specified replacements. Experience alone is not the standard; the person doing the work needs the training and knowledge the task and its hazards require.",
+      "on_the_job": "On service calls, replace failed components with parts identified for that equipment, and treat unfamiliar gear — especially commercial switchgear — as a qualified-persons-only job until the right person is on it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.16",
+      "next_id": "C1-110.18",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.18",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.18",
+      "title": "Arcing parts",
+      "plain_explanation": "Parts of electrical equipment that can produce arcs in normal operation — switch and breaker contacts, motor brushes and similar devices — have to be enclosed or kept separated and isolated from combustible material. An arc is expected inside properly enclosed equipment; it becomes a fire problem when arcing parts sit open near material that can ignite.",
+      "on_the_job": "Keep enclosures intact around switching equipment, and flag arcing or sparking equipment found open or mounted tight against combustible storage for correction.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.17",
+      "next_id": "C1-110.19",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.19",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.19",
+      "title": "Light and power from railway conductors (orientation)",
+      "plain_explanation": "This section covers the special conditions for taking light and power from railway conductors. It is a legacy, specialized provision that ordinary premises wiring never uses: railway power systems are outside the installations Sharma designs or installs. It is included so the numbering of Article 110 reads complete, not as a working rule.",
+      "on_the_job": "If a job ever genuinely touches railway power conductors, stop and escalate — that is engineered, specialized work, not a field improvisation.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.18",
+      "next_id": "C1-110.20",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.20",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.20",
+      "title": "Reconditioned equipment",
+      "plain_explanation": "This section, new in the 2020 edition, governs equipment that has been reconditioned — rebuilt or restored — as distinct from equipment that has merely been serviced or had a failed part replaced with an approved equal. Reconditioned equipment has to be evaluated and accepted under the section's terms, the party that reconditioned it has to be identifiable, and some categories of equipment are restricted or not permitted to be reconditioned at all. A previous listing does not automatically survive an extensive rebuild.",
+      "on_the_job": "On commercial renovations, treat refurbished switchboards, panelboards and breakers as a question, not a bargain: who reconditioned it, under what evaluation, and is that category of equipment permitted to be reconditioned? Get the answer before it is set, not at inspection.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-034"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.19",
+      "next_id": "C1-110.21",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.21",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.21",
+      "title": "Marking — manufacturer marks and field-applied hazard marks",
+      "plain_explanation": "Equipment carries the manufacturer's name and its ratings so the user can tell what it is and what it is rated for. Where the Code requires a field-applied hazard marking, it has to be durable enough for its environment, use signal wording everyone recognizes, and not be handwritten where the Code requires a proper marking. A faded or missing rating plate makes equipment hard to approve and harder to service safely.",
+      "on_the_job": "Do not paint over, cover or discard rating labels. When you add a required field marking, use a proper printed label suited to the location, not a marker scrawl.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-050"
+      ],
+      "florida_note": "Exterior Florida labels fade fast. Use UV- and moisture-durable labels outside so required markings survive to the next inspection.",
+      "verified": true,
+      "prev_id": "C1-110.20",
+      "next_id": "C1-110.22",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.22",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.22",
+      "title": "Identification of disconnecting means",
+      "plain_explanation": "Every disconnecting means has to be legibly marked to show what it shuts off, unless the purpose is already obvious from where it sits and what it feeds. The marking must be durable for its environment. On a multi-unit or multi-tenant job, each service disconnect and fault-protection device also has to show where its supply side comes from, so no one opens the wrong gear.",
+      "on_the_job": "Label every breaker and disconnect with its actual load — 'condenser', 'air handler 2', 'water heater' — not 'spare' labels on live circuits or a directory copied from another house. Update the directory whenever a circuit changes.",
+      "sharma_note": "",
+      "figure_idea": "Panel directory card filled in legibly, one line per breaker, with a crossed-out example directory that just repeats 'lights / receptacles'.",
+      "related_ids": [
+        "C1-L-051",
+        "C1-Q-016"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.21",
+      "next_id": "C1-110.23",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.23",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.23",
+      "title": "Current transformers",
+      "plain_explanation": "This section covers current transformers used with electrical equipment, including how unused current transformers mounted in place are to be treated so their secondary circuits are not left in a hazardous state. Current-transformer secondaries behave unlike ordinary branch-circuit conductors: an open-circuited secondary under load can produce dangerous voltage, which is why the section and the equipment instructions govern their handling.",
+      "on_the_job": "On metered commercial services, never open a CT secondary casually and never leave a mounted spare CT with its secondary open — follow the equipment instructions and this section, or hand it to the person who does this work regularly.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.22",
+      "next_id": "C1-110.24",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.24",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.24",
+      "title": "Available fault current — field marking and documentation",
+      "plain_explanation": "At a service, the equipment has to be field-marked with the available fault current and the date the calculation was made. The calculation has to be documented and available to the people who design, install, inspect and maintain the system. When the utility changes something that raises the available fault current, the marking and the equipment ratings have to be revisited — a service can become under-rated without anyone touching it on site.",
+      "on_the_job": "On service changes, ask for the fault-current figure, mark it with its date, and check it against the interrupting ratings of the gear you are setting under 110.9. Keep the calculation with the job documents.",
+      "sharma_note": "",
+      "figure_idea": "Service disconnect with a field marking plate reading available fault current and calculation date, and an arrow to the job folder holding the calculation.",
+      "related_ids": [
+        "C1-L-052",
+        "C1-Q-017"
+      ],
+      "florida_note": "Utility transformer upgrades in growing Florida subdivisions are a common reason available fault current rises. Recheck on service upgrades in developed neighborhoods.",
+      "verified": true,
+      "prev_id": "C1-110.23",
+      "next_id": "C1-110.25",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.25",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.25",
+      "title": "Lockable disconnecting means",
+      "plain_explanation": "Where another rule requires a disconnecting means to be capable of being locked in the open position, this section sets how that capability is provided: the locking means is part of the disconnect installation, stays in place whether or not a padlock is actually applied, and allows the device to be locked open by the person doing the work. An improvised wrap of wire or tape around a handle is not a lockable disconnect.",
+      "on_the_job": "Where a disconnect must be out of sight of its equipment and the rule allows the lockable route instead, confirm the disconnect has a real, permanent lock-off provision before relying on it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-051"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.24",
+      "next_id": "C1-110.26",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.26",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26",
+      "title": "Spaces about electrical equipment — the section as a whole",
+      "plain_explanation": "Sufficient access and working space must be provided and kept clear around electrical equipment so people can work on it safely and maintain it. The section breaks into the working space itself, clear space, entrance and egress, illumination, dedicated equipment space, and special rules indoors and outdoors. Space that exists on rough-in day and is filled by the plumber's water heater later is not working space.",
+      "on_the_job": "Defend the space from rough-in to final. Coordinate with the other trades early — once a water heater or shelving unit is set inside the panel's space, somebody is moving something, and it is cheaper if it is not us at final.",
+      "sharma_note": "S-09 back-to-back meter and panel is Sharma's preferred layout, and it still owes this section its full working space in front of the panel.",
+      "figure_idea": "",
+      "related_ids": [
+        "L-041",
+        "L-042",
+        "G-06",
+        "SP-12",
+        "S-09"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.25",
+      "next_id": "C1-110.26(A)",
+      "sharma_rule_ids": [
+        "S-09"
+      ]
+    },
+    {
+      "id": "C1-110.26(A)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(A)",
+      "title": "Working space about equipment",
+      "plain_explanation": "Live electrical equipment that may need examination or work while energized has to have a clear working space in front of it. For a typical 120/240V house panel with no live parts on the other side of the aisle (Condition 1), that space is 3 ft deep, at least 30 in wide or the width of the equipment, whichever is greater, and at least 6-1/2 ft high. The depth can be greater under other conditions or at higher voltage; use the table in 110.26(A)(1) rather than memorizing one number for every job.",
+      "on_the_job": "Measure from the face of the panel, not from the wall behind it. Keep the width centered on the equipment so a person can stand in front of the breakers. Do not park water heaters, shelving, or stored material in that space.",
+      "sharma_note": "S-09 prefers the meter outside and the panel inside, back to back, where the house allows. That layout still has to leave the 110.26 working space in front of the panel.",
+      "figure_idea": "A plan view of a 200A panel on a garage wall with a 30 in-wide by 3 ft-deep rectangle in front, height marked 6 ft 6 in, and a 'do not store here' callout.",
+      "related_ids": [
+        "L-041",
+        "L-042",
+        "Q-048",
+        "Q-049",
+        "G-06",
+        "SP-12",
+        "S-09",
+        "C1-L-053"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.26",
+      "next_id": "C1-110.26(A)(1)",
+      "sharma_rule_ids": [
+        "S-09"
+      ]
+    },
+    {
+      "id": "C1-110.26(A)(1)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(A)(1)",
+      "title": "Depth of working space and the three conditions",
+      "plain_explanation": "Depth is read from the table in this section, which sets the distance by the voltage to ground and by what faces the worker. Condition 1 is exposed live parts on one side of the space with no live or grounded parts on the other side. Condition 2 puts a grounded surface, such as a concrete or masonry wall, on the far side. Condition 3 puts exposed live parts on both sides. The worse the exposure across the aisle, the deeper the space must be, because a worker stepping back from a fault has less safe room.",
+      "on_the_job": "For a house panel on a wood-framed wall with nothing live across the aisle, Condition 1 and its 3 ft depth for up to 150V to ground is the everyday case. The moment a second panel or live equipment faces the first, recheck the table instead of assuming 3 ft still passes.",
+      "sharma_note": "",
+      "figure_idea": "Three aisle cross-sections labelled Condition 1, 2 and 3, showing what is on the far wall in each and an arrow pointing to the table for the depth.",
+      "related_ids": [
+        "Q-048",
+        "C1-L-054",
+        "C1-L-055",
+        "C1-Q-018",
+        "C1-Q-019"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.26(A)",
+      "next_id": "C1-110.26(B-D)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.26(B-D)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(B)",
+      "title": "Clear space, entrance and egress, and illumination",
+      "plain_explanation": "Working space cannot be used for storage, and where foreign systems such as plumbing or ducts pass over equipment they need protection against leaks and condensation dripping onto the gear. Personnel doors serving electrical rooms have their own hardware and direction rules on larger equipment, and entrances must let a worker get in and out without squeezing past live parts. Working spaces also have to be illuminated so the work is not done by flashlight, and the lighting cannot depend only on a manual switch where that would leave a worker in the dark.",
+      "on_the_job": "If the panel room doubles as storage, clear it before calling inspection. Check the light over the panel works, and flag any plumbing run directly above electrical gear — that conversation is much easier at rough-in than after a leak.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-056",
+        "C1-L-057"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.26(A)(1)",
+      "next_id": "C1-110.26(E)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.26(E)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(E)",
+      "title": "Dedicated equipment space",
+      "plain_explanation": "The floor space equal to the footprint of indoor electrical equipment, from the floor up to 6 ft above the equipment or the ceiling if lower, is dedicated to the electrical installation. Foreign pipes, ducts and other systems cannot pass through that zone except where the section allows, and suspended ceilings with removable panels do not count as the structural ceiling for this purpose. Outdoor equipment has a matching dedicated zone with its own clearances.",
+      "on_the_job": "This is the rule behind 'the plumber cannot run that line over the panel.' The dedicated zone is the panel's width and depth projected upward. Existing v1 item L-042 covers this space in detail.",
+      "sharma_note": "",
+      "figure_idea": "A panel with a transparent box drawn above it to the ceiling marked dedicated space — no foreign piping, with a duct rerouted around it.",
+      "related_ids": [
+        "L-042",
+        "C1-L-058",
+        "C1-Q-020"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.26(B-D)",
+      "next_id": "C1-110.27",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.27",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.27",
+      "title": "Guarding of live parts",
+      "plain_explanation": "Live parts that a person might contact have to be guarded — by covers, enclosures, elevation, location in a room only qualified people can enter, or partitions that keep unqualified people from reaching them. The method depends on the voltage and the setting, but the idea is constant: nobody unqualified should be able to reach out and touch an energized part.",
+      "on_the_job": "Replace every cover you remove, the same day. An open panel with live bus exposed in an occupied building is a guarding failure even if it was only meant to be open for an hour.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-059"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.26(E)",
+      "next_id": "C1-110.28",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.28",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.28",
+      "title": "Enclosure types",
+      "plain_explanation": "Enclosures are selected by type for the environment they will live in, and this section's table matches enclosure types to the exposures they are built to withstand — indoor dust and dripping liquid, outdoor rain and sleet, hose-directed water, corrosion, and the like. The common field types run from a general indoor enclosure, through the outdoor rain-tight type crews see on house disconnects, to the corrosion-resistant types used in washdown and coastal work. The type marked on the enclosure, not its appearance, is what it is rated for.",
+      "on_the_job": "Match the type to the real exposure: indoor-type equipment does not go on an exterior Florida wall, and a corroded or wrong-type enclosure found on a service call is a replacement item, not a paint job.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-041"
+      ],
+      "florida_note": "Salt air makes enclosure type a live issue on Florida coastal work; corrosion-resistant types earn their cost outdoors near the coast.",
+      "verified": true,
+      "prev_id": "C1-110.27",
+      "next_id": "C1-110.31",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.31",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.31",
+      "title": "Equipment over 1000 volts — enclosure and access (overview)",
+      "plain_explanation": "Part III of Article 110 adds stricter rules for installations over 1000 volts, nominal, starting with how electrical equipment in such installations is enclosed and how access to it is controlled. Metal-enclosed gear and vault-type installations have to keep unqualified people away from high-voltage parts with real physical barriers, locks and warning signs. Sharma rarely installs this class of work, so this page is an orientation marker rather than a working guide.",
+      "on_the_job": "If a commercial job crosses into over-1000V equipment, stop and escalate — design, guarding and access rules change materially, and this work is engineered and permitted differently from ordinary premises wiring.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-060"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C1-110.28",
+      "next_id": null,
+      "sharma_rule_ids": []
+    }
+  ],
+  "toc": [
+    {
+      "id": "C1-ART-90",
+      "article": "90",
+      "title": "Introduction",
+      "children": [
+        {
+          "id": "C1-90.1",
+          "section": "90.1",
+          "title": "Purpose of the Code"
+        },
+        {
+          "id": "C1-90.2",
+          "section": "90.2",
+          "title": "Scope — what is covered and what is not"
+        },
+        {
+          "id": "C1-90.3",
+          "section": "90.3",
+          "title": "How the chapters are arranged"
+        },
+        {
+          "id": "C1-90.4",
+          "section": "90.4",
+          "title": "Enforcement and the AHJ"
+        },
+        {
+          "id": "C1-90.5",
+          "section": "90.5",
+          "title": "Mandatory rules, permissive rules, and explanatory material"
+        },
+        {
+          "id": "C1-90.6",
+          "section": "90.6",
+          "title": "Formal interpretations"
+        },
+        {
+          "id": "C1-90.7",
+          "section": "90.7",
+          "title": "Examination of equipment for safety"
+        },
+        {
+          "id": "C1-90.8",
+          "section": "90.8",
+          "title": "Planning for future expansion"
+        },
+        {
+          "id": "C1-90.9",
+          "section": "90.9",
+          "title": "Units of measurement"
+        }
+      ]
+    },
+    {
+      "id": "C1-ART-100",
+      "article": "100",
+      "title": "Definitions",
+      "children": [
+        {
+          "id": "C1-100-ACCESSIBLE",
+          "section": "100",
+          "title": "Accessible and readily accessible"
+        },
+        {
+          "id": "C1-100-AMPACITY",
+          "section": "100",
+          "title": "Ampacity"
+        },
+        {
+          "id": "C1-100-APPLIANCE",
+          "section": "100",
+          "title": "Appliance"
+        },
+        {
+          "id": "C1-100-APPROVAL-FAMILY",
+          "section": "100",
+          "title": "Approved, identified, labeled, and listed"
+        },
+        {
+          "id": "C1-100-BONDING",
+          "section": "100",
+          "title": "Bonding — bonded, bonding conductor, bonding jumper"
+        },
+        {
+          "id": "C1-100-GROUNDED-GROUNDING",
+          "section": "100",
+          "title": "Grounded and grounding — telling the conductors apart"
+        },
+        {
+          "id": "C1-100-BRANCH-CIRCUIT",
+          "section": "100",
+          "title": "Branch circuit"
+        },
+        {
+          "id": "C1-100-FEEDER",
+          "section": "100",
+          "title": "Feeder"
+        },
+        {
+          "id": "C1-100-CONTINUOUS-LOAD",
+          "section": "100",
+          "title": "Continuous load"
+        },
+        {
+          "id": "C1-100-DWELLING-UNIT",
+          "section": "100",
+          "title": "Dwelling unit"
+        },
+        {
+          "id": "C1-100-EXPOSED",
+          "section": "100",
+          "title": "Exposed — live parts and wiring methods"
+        },
+        {
+          "id": "C1-100-LOCATIONS",
+          "section": "100",
+          "title": "Locations — dry, damp, and wet"
+        },
+        {
+          "id": "C1-100-OUTLET-RECEPTACLE",
+          "section": "100",
+          "title": "Outlet and receptacle"
+        },
+        {
+          "id": "C1-100-SERVICE",
+          "section": "100",
+          "title": "Service — the family of service terms"
+        },
+        {
+          "id": "C1-100-IN-SIGHT",
+          "section": "100",
+          "title": "In sight from — and disconnecting means"
+        },
+        {
+          "id": "C1-100-SPECIAL-PERMISSION",
+          "section": "100",
+          "title": "Special permission"
+        },
+        {
+          "id": "C1-100-AREAS-IN-USE",
+          "section": "100",
+          "title": "Garage, kitchen, and laundry area — how the Code uses area names"
+        }
+      ]
+    },
+    {
+      "id": "C1-ART-110",
+      "article": "110",
+      "title": "Requirements for Electrical Installations",
+      "children": [
+        {
+          "id": "C1-110.1",
+          "section": "110.1",
+          "title": "Scope of Article 110"
+        },
+        {
+          "id": "C1-110.2",
+          "section": "110.2",
+          "title": "Approval of equipment and conductors"
+        },
+        {
+          "id": "C1-110.3",
+          "section": "110.3",
+          "title": "Examination, identification, installation, and use of equipment"
+        },
+        {
+          "id": "C1-110.3(B)",
+          "section": "110.3(B)",
+          "title": "Install and use listed equipment per its instructions"
+        },
+        {
+          "id": "C1-110.4",
+          "section": "110.4",
+          "title": "Voltages"
+        },
+        {
+          "id": "C1-110.5",
+          "section": "110.5",
+          "title": "Conductors — general"
+        },
+        {
+          "id": "C1-110.6",
+          "section": "110.6",
+          "title": "Conductor sizes — AWG and circular mils"
+        },
+        {
+          "id": "C1-110.7",
+          "section": "110.7",
+          "title": "Integrity of equipment and connections"
+        },
+        {
+          "id": "C1-110.8",
+          "section": "110.8",
+          "title": "Wiring methods — use only recognized methods"
+        },
+        {
+          "id": "C1-110.9",
+          "section": "110.9",
+          "title": "Interrupting rating"
+        },
+        {
+          "id": "C1-110.10",
+          "section": "110.10",
+          "title": "Circuit impedance and fault-current performance"
+        },
+        {
+          "id": "C1-110.11",
+          "section": "110.11",
+          "title": "Deteriorating agents"
+        },
+        {
+          "id": "C1-110.12",
+          "section": "110.12",
+          "title": "Mechanical execution of work — workmanship and unused openings"
+        },
+        {
+          "id": "C1-110.13",
+          "section": "110.13",
+          "title": "Mounting and cooling of equipment"
+        },
+        {
+          "id": "C1-110.14",
+          "section": "110.14",
+          "title": "Electrical connections — terminations in general"
+        },
+        {
+          "id": "C1-110.14(C)",
+          "section": "110.14(C)",
+          "title": "Temperature limits at terminations"
+        },
+        {
+          "id": "C1-110.14(D)",
+          "section": "110.14(D)",
+          "title": "Torque — tighten to the specified value"
+        },
+        {
+          "id": "C1-110.15",
+          "section": "110.15",
+          "title": "High-leg marking on 4-wire delta systems"
+        },
+        {
+          "id": "C1-110.16",
+          "section": "110.16",
+          "title": "Arc-flash hazard warning marking"
+        },
+        {
+          "id": "C1-110.17",
+          "section": "110.17",
+          "title": "Servicing and maintenance of equipment"
+        },
+        {
+          "id": "C1-110.18",
+          "section": "110.18",
+          "title": "Arcing parts"
+        },
+        {
+          "id": "C1-110.19",
+          "section": "110.19",
+          "title": "Light and power from railway conductors (orientation)"
+        },
+        {
+          "id": "C1-110.20",
+          "section": "110.20",
+          "title": "Reconditioned equipment"
+        },
+        {
+          "id": "C1-110.21",
+          "section": "110.21",
+          "title": "Marking — manufacturer marks and field-applied hazard marks"
+        },
+        {
+          "id": "C1-110.22",
+          "section": "110.22",
+          "title": "Identification of disconnecting means"
+        },
+        {
+          "id": "C1-110.23",
+          "section": "110.23",
+          "title": "Current transformers"
+        },
+        {
+          "id": "C1-110.24",
+          "section": "110.24",
+          "title": "Available fault current — field marking and documentation"
+        },
+        {
+          "id": "C1-110.25",
+          "section": "110.25",
+          "title": "Lockable disconnecting means"
+        },
+        {
+          "id": "C1-110.26",
+          "section": "110.26",
+          "title": "Spaces about electrical equipment — the section as a whole"
+        },
+        {
+          "id": "C1-110.26(A)",
+          "section": "110.26(A)",
+          "title": "Working space about equipment"
+        },
+        {
+          "id": "C1-110.26(A)(1)",
+          "section": "110.26(A)(1)",
+          "title": "Depth of working space and the three conditions"
+        },
+        {
+          "id": "C1-110.26(B-D)",
+          "section": "110.26(B)",
+          "title": "Clear space, entrance and egress, and illumination"
+        },
+        {
+          "id": "C1-110.26(E)",
+          "section": "110.26(E)",
+          "title": "Dedicated equipment space"
+        },
+        {
+          "id": "C1-110.27",
+          "section": "110.27",
+          "title": "Guarding of live parts"
+        },
+        {
+          "id": "C1-110.28",
+          "section": "110.28",
+          "title": "Enclosure types"
+        },
+        {
+          "id": "C1-110.31",
+          "section": "110.31",
+          "title": "Equipment over 1000 volts — enclosure and access (overview)"
+        }
+      ]
+    }
+  ],
+  "index": [
+    {
+      "term": "Accessible",
+      "ids": [
+        "C1-100-ACCESSIBLE"
+      ]
+    },
+    {
+      "term": "AHJ (authority having jurisdiction)",
+      "ids": [
+        "C1-90.4",
+        "C1-100-APPROVAL-FAMILY",
+        "C1-100-SPECIAL-PERMISSION"
+      ]
+    },
+    {
+      "term": "Ampacity",
+      "ids": [
+        "C1-100-AMPACITY",
+        "C1-110.14(C)"
+      ]
+    },
+    {
+      "term": "Appliance",
+      "ids": [
+        "C1-100-APPLIANCE"
+      ]
+    },
+    {
+      "term": "Approved",
+      "ids": [
+        "C1-100-APPROVAL-FAMILY",
+        "C1-110.2"
+      ]
+    },
+    {
+      "term": "Arc-flash warning",
+      "ids": [
+        "C1-110.16"
+      ]
+    },
+    {
+      "term": "Available fault current, marking",
+      "ids": [
+        "C1-110.24",
+        "C1-110.9"
+      ]
+    },
+    {
+      "term": "Backstab terminals",
+      "ids": [
+        "C1-110.14"
+      ]
+    },
+    {
+      "term": "Bonding",
+      "ids": [
+        "C1-100-BONDING"
+      ]
+    },
+    {
+      "term": "Branch circuit",
+      "ids": [
+        "C1-100-BRANCH-CIRCUIT"
+      ]
+    },
+    {
+      "term": "CCA (copper-clad aluminum)",
+      "ids": [
+        "C1-100-AMPACITY",
+        "C1-110.5",
+        "C1-110.14"
+      ]
+    },
+    {
+      "term": "Conductor sizes (AWG / kcmil)",
+      "ids": [
+        "C1-110.6"
+      ]
+    },
+    {
+      "term": "Continuous load",
+      "ids": [
+        "C1-100-CONTINUOUS-LOAD"
+      ]
+    },
+    {
+      "term": "Current transformers",
+      "ids": [
+        "C1-110.23"
+      ]
+    },
+    {
+      "term": "Damp location",
+      "ids": [
+        "C1-100-LOCATIONS"
+      ]
+    },
+    {
+      "term": "Dedicated equipment space",
+      "ids": [
+        "C1-110.26(E)",
+        "C1-110.26"
+      ]
+    },
+    {
+      "term": "Disconnect, identification of",
+      "ids": [
+        "C1-110.22"
+      ]
+    },
+    {
+      "term": "Disconnecting means",
+      "ids": [
+        "C1-100-IN-SIGHT",
+        "C1-110.22",
+        "C1-110.25"
+      ]
+    },
+    {
+      "term": "Dissimilar metals",
+      "ids": [
+        "C1-110.14"
+      ]
+    },
+    {
+      "term": "Dry location",
+      "ids": [
+        "C1-100-LOCATIONS"
+      ]
+    },
+    {
+      "term": "Dwelling unit",
+      "ids": [
+        "C1-100-DWELLING-UNIT"
+      ]
+    },
+    {
+      "term": "Enclosure types",
+      "ids": [
+        "C1-110.28",
+        "C1-110.11"
+      ]
+    },
+    {
+      "term": "Exposed live parts",
+      "ids": [
+        "C1-100-EXPOSED",
+        "C1-110.27"
+      ]
+    },
+    {
+      "term": "Fault current, available",
+      "ids": [
+        "C1-110.24",
+        "C1-110.10"
+      ]
+    },
+    {
+      "term": "Feeder",
+      "ids": [
+        "C1-100-FEEDER",
+        "C1-100-BRANCH-CIRCUIT"
+      ]
+    },
+    {
+      "term": "Garage",
+      "ids": [
+        "C1-100-AREAS-IN-USE"
+      ]
+    },
+    {
+      "term": "Grounded conductor (neutral)",
+      "ids": [
+        "C1-100-GROUNDED-GROUNDING"
+      ]
+    },
+    {
+      "term": "Grounding conductor",
+      "ids": [
+        "C1-100-GROUNDED-GROUNDING"
+      ]
+    },
+    {
+      "term": "Guarding of live parts",
+      "ids": [
+        "C1-110.27"
+      ]
+    },
+    {
+      "term": "High-leg marking",
+      "ids": [
+        "C1-110.15"
+      ]
+    },
+    {
+      "term": "Identified",
+      "ids": [
+        "C1-100-APPROVAL-FAMILY"
+      ]
+    },
+    {
+      "term": "In sight from (50 ft)",
+      "ids": [
+        "C1-100-IN-SIGHT"
+      ]
+    },
+    {
+      "term": "Informational Note (not a requirement)",
+      "ids": [
+        "C1-90.5"
+      ]
+    },
+    {
+      "term": "Instructions, manufacturer (110.3(B))",
+      "ids": [
+        "C1-110.3(B)",
+        "C1-110.14(D)"
+      ]
+    },
+    {
+      "term": "Interrupting rating",
+      "ids": [
+        "C1-110.9",
+        "C1-110.24"
+      ]
+    },
+    {
+      "term": "Kitchen",
+      "ids": [
+        "C1-100-AREAS-IN-USE"
+      ]
+    },
+    {
+      "term": "Labeled",
+      "ids": [
+        "C1-100-APPROVAL-FAMILY"
+      ]
+    },
+    {
+      "term": "Laundry area, dryer GFCI",
+      "ids": [
+        "C1-100-AREAS-IN-USE"
+      ]
+    },
+    {
+      "term": "Listed",
+      "ids": [
+        "C1-100-APPROVAL-FAMILY",
+        "C1-110.3(B)"
+      ]
+    },
+    {
+      "term": "Lockable disconnect",
+      "ids": [
+        "C1-110.25",
+        "C1-100-IN-SIGHT"
+      ]
+    },
+    {
+      "term": "Marking, equipment",
+      "ids": [
+        "C1-110.21",
+        "C1-110.22",
+        "C1-110.24"
+      ]
+    },
+    {
+      "term": "Outlet",
+      "ids": [
+        "C1-100-OUTLET-RECEPTACLE"
+      ]
+    },
+    {
+      "term": "Readily accessible",
+      "ids": [
+        "C1-100-ACCESSIBLE"
+      ]
+    },
+    {
+      "term": "Receptacle",
+      "ids": [
+        "C1-100-OUTLET-RECEPTACLE"
+      ]
+    },
+    {
+      "term": "Reconditioned equipment",
+      "ids": [
+        "C1-110.20"
+      ]
+    },
+    {
+      "term": "Scope of the Code",
+      "ids": [
+        "C1-90.2"
+      ]
+    },
+    {
+      "term": "Service, service point, service equipment",
+      "ids": [
+        "C1-100-SERVICE",
+        "C1-90.2"
+      ]
+    },
+    {
+      "term": "Servicing and maintenance",
+      "ids": [
+        "C1-110.17"
+      ]
+    },
+    {
+      "term": "Smoke alarms (not NEC)",
+      "ids": [
+        "C1-90.2"
+      ]
+    },
+    {
+      "term": "Special permission",
+      "ids": [
+        "C1-100-SPECIAL-PERMISSION",
+        "C1-90.2",
+        "C1-90.4"
+      ]
+    },
+    {
+      "term": "Temperature column, 60C / 75C",
+      "ids": [
+        "C1-110.14(C)"
+      ]
+    },
+    {
+      "term": "Torque",
+      "ids": [
+        "C1-110.14(D)",
+        "C1-110.3(B)"
+      ]
+    },
+    {
+      "term": "Unused openings",
+      "ids": [
+        "C1-110.12"
+      ]
+    },
+    {
+      "term": "Voltages, nominal",
+      "ids": [
+        "C1-110.4"
+      ]
+    },
+    {
+      "term": "Wet location",
+      "ids": [
+        "C1-100-LOCATIONS",
+        "C1-110.11"
+      ]
+    },
+    {
+      "term": "Wiring methods, recognized",
+      "ids": [
+        "C1-110.8"
+      ]
+    },
+    {
+      "term": "Working space, depth / width / height",
+      "ids": [
+        "C1-110.26(A)",
+        "C1-110.26(A)(1)"
+      ]
+    },
+    {
+      "term": "Working space, storage prohibited",
+      "ids": [
+        "C1-110.26(B-D)",
+        "C1-110.26"
+      ]
+    },
+    {
+      "term": "Workmanship",
+      "ids": [
+        "C1-110.12"
+      ]
+    }
+  ]
+}

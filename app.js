@@ -4,7 +4,7 @@
 "use strict";
 const $ = (s, el=document) => el.querySelector(s);
 const view = $("#view");
-let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null };
+let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null, book:null, bookLookup:null, bookQuiz:null, bookChecklists:null };
 const FALLBACK_TABLES = {"boxFillVolumePerConductor":{"18":2,"16":2.25,"14":2.25,"12":2.5,"10":2.5,"8":3,"6":5},"ampacity75C":{"copper":{"14":20,"12":25,"10":35,"8":50,"6":65,"4":85,"3":100,"2":115,"1":130,"1/0":150,"2/0":175,"3/0":200,"4/0":230},"aluminum":{"12":20,"10":30,"8":40,"6":50,"4":65,"3":75,"2":90,"1":100,"1/0":120,"2/0":135,"3/0":155,"4/0":180}},"smallConductorCaps":{"copper":{"14":15,"12":20,"10":30},"aluminum":{"12":15,"10":25}},"circularMils":{"14":4110,"12":6530,"10":10380,"8":16510,"6":26240,"4":41740,"3":52620,"2":66360,"1":83690,"1/0":105600,"2/0":133100,"3/0":167800,"4/0":211600},"conduitAreas40pct":{"EMT":{"1/2":0.122,"3/4":0.213,"1":0.346,"1-1/4":0.598,"1-1/2":0.814,"2":1.342}},"conductorAreasTHHN":{"14":0.0097,"12":0.0133,"10":0.0211,"8":0.0366,"6":0.0507,"4":0.0824,"3":0.0973,"2":0.1158}};
 const favs = new Set(JSON.parse(localStorage.getItem("nec-favs")||"[]"));
 function saveFavs(){ localStorage.setItem("nec-favs", JSON.stringify([...favs])); }
@@ -57,6 +57,7 @@ document.addEventListener("click",e=>{
 function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
 
 function render(){
+  if(tab==="book") return renderBook();
   if(tab==="lookup") return renderLookup();
   if(tab==="calc") return renderCalc();
   if(tab==="rooms") return renderRooms();
@@ -189,6 +190,64 @@ function renderCalc(){
     const svc=[100,125,150,175,200,225,300,400].find(s=>s>=amps)||">400";
     $("#lc-out").innerHTML=`<div class="result">General + appliances after 220.82 demand: <b>${Math.round(demand).toLocaleString()} VA</b><br>Heating/cooling (larger): <b>${Math.round(hvac).toLocaleString()} VA</b><br>Total: <b>${Math.round(total).toLocaleString()} VA = ${amps.toFixed(1)}A at 240V</b><br>Minimum standard service size: <b>${svc}A</b><br><span class="flag">Simplified v1 — Mike to verify against 220.82 before field use</span></div>`; };
 }
+/* ---------- Field Book (draft chapters; book-v1 schema from 00-COMMON) ---------- */
+let bookState = { page:null, view:"toc" };
+function bookSection(id){ return ((DATA.book&&DATA.book.sections)||[]).find(s=>s.id===id); }
+function relatedLabel(id){
+  if(id.startsWith("C1-L-")){ const e=(DATA.bookLookup||[]).find(x=>x.id===id); return e? e.question : id; }
+  if(id.startsWith("C1-Q-")){ const e=(DATA.bookQuiz||[]).find(x=>x.id===id); return e? ("Quiz: "+e.question) : id; }
+  if(id.startsWith("C1-SP-")){ for(const r of (DATA.bookChecklists||[])) for(const it of r.items) if(it.id===id) return ("Checklist: "+it.text); return id; }
+  if(/^S-\d+$/.test(id)) return "Sharma rule "+id+" (Field Book rules file)";
+  if(/^L-\d+$/.test(id)) return "Field Book v1 lookup "+id;
+  if(/^Q-\d+$/.test(id)) return "Field Book v1 quiz "+id;
+  return id;
+}
+document.addEventListener("click",e=>{
+  const p=e.target.closest("[data-bookpage]"); if(p){ bookState={page:p.dataset.bookpage, view:"page"}; if(tab!=="book"){ tab="book"; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="book")); } render(); window.scrollTo(0,0); return; }
+  const v=e.target.closest("[data-bookview]"); if(v){ bookState.view=v.dataset.bookview; if(v.dataset.bookview!=="page") bookState.page=null; render(); window.scrollTo(0,0); }
+});
+function renderBook(){
+  const B=DATA.book;
+  if(!B){ view.innerHTML=`<h2 class="sec">Sharma NEC Field Book</h2><div class="empty">Field Book chapter file not loaded yet.</div>`; return; }
+  const pages=B.sections.length;
+  const unverified=B.sections.filter(s=>!s.verified).length;
+  const head=`<h2 class="sec">Sharma NEC Field Book — Chapter ${B.chapter}: ${esc(B.chapter_title)}</h2>`+
+    `<p class="flag">DRAFT — under Mike Holt review. Goes live only on Sanjay's OK. NEC ${esc(B.nec_edition)} · ${esc(B.jurisdiction)}. ${esc(B.label||"")}</p>`+
+    `<p class="bkmeta">${B.toc.length} articles · ${pages} pages · ${unverified} unverified item${unverified===1?"":"s"} · plus ${(DATA.bookLookup||[]).length} lookup, ${(DATA.bookQuiz||[]).length} quiz, ${((DATA.bookChecklists||[])[0]||{items:[]}).items.length} checklist items</p>`+
+    `<div class="rowbtns"><button class="quizbtn" data-bookview="toc">Contents</button><button class="quizbtn" data-bookview="index">Index</button></div>`;
+  if(bookState.view==="index"){
+    view.innerHTML = head + `<div class="card"><h3>Index</h3><ul class="bkindex">${B.index.map(en=>
+      `<li><b>${esc(en.term)}</b><br>${en.ids.map(id=>{ const s=bookSection(id); return `<button class="bkchip" data-bookpage="${id}">${esc(id.replace(/^C1-/,""))}${s? " — "+esc(s.title):""}</button>`; }).join(" ")}</li>`).join("")}</ul></div>`;
+    return;
+  }
+  if(bookState.view==="page" && bookState.page){
+    const s=bookSection(bookState.page);
+    if(!s){ bookState={page:null,view:"toc"}; return renderBook(); }
+    const prev=s.prev_id? bookSection(s.prev_id):null, next=s.next_id? bookSection(s.next_id):null;
+    view.innerHTML = head + `<div class="card bkpage">
+      <div class="cite">Article ${esc(s.article)} · Section ${esc(s.section)}</div>
+      <h3>${esc(s.title)}</h3>
+      ${s.verified? `<span class="tag">VERIFIED</span>` : `<span class="flag">⚠ UNVERIFIED${s.unverified_reason? " — "+esc(s.unverified_reason):""}</span>`}
+      <p>${esc(s.plain_explanation)}</p>
+      ${s.on_the_job? `<h4>What it means on the job</h4><p>${esc(s.on_the_job)}</p>`:""}
+      ${s.sharma_note? `<h4>Sharma note</h4><p>${esc(s.sharma_note)}</p>`:""}
+      ${s.florida_note? `<h4>Florida note</h4><p>${esc(s.florida_note)}</p>`:""}
+      ${s.figure_idea? `<h4>Figure idea</h4><p class="bkfig">${esc(s.figure_idea)}</p>`:""}
+      ${(s.related_ids&&s.related_ids.length)? `<h4>Related</h4><div>${s.related_ids.map(id=>`<span class="bkchip static">${esc(id)} — ${esc(relatedLabel(id))}</span>`).join(" ")}</div>`:""}
+      <div class="bknav">
+        ${prev? `<button class="go" data-bookpage="${prev.id}">← Previous: ${esc(prev.section)} ${esc(prev.title)}</button>` : `<span class="bkmeta">Start of chapter</span>`}
+        ${next? `<button class="go" data-bookpage="${next.id}">Next: ${esc(next.section)} ${esc(next.title)} →</button>` : `<span class="bkmeta">End of chapter</span>`}
+      </div>
+      <div class="rowbtns"><button class="quizbtn" data-bookview="toc">Back to contents</button><button class="quizbtn" data-bookview="index">Index</button></div>
+    </div>`;
+    return;
+  }
+  view.innerHTML = head + B.toc.map(a=>
+    `<div class="card"><h3>Article ${esc(a.article)} — ${esc(a.title)}</h3><ul class="bktoc">
+      <li><button class="bkchip" data-bookpage="${a.id}">Intro — Article ${esc(a.article)}</button></li>
+      ${a.children.map(c=>`<li><button class="bkchip" data-bookpage="${c.id}">${esc(c.section)} — ${esc(c.title)}</button></li>`).join("")}
+    </ul></div>`).join("");
+}
 /* ---------- boot ---------- */
-(async()=>{ const [l,c,q,s,t]=await Promise.all([loadJSON("lookup"),loadJSON("checklists"),loadJSON("quiz"),loadJSON("sharma-rules"),loadJSON("calc-tables")]);
-  DATA={lookup:l,checklists:c,quiz:q,sharma:s,tables:t||FALLBACK_TABLES}; render(); })();
+(async()=>{ const [l,c,q,s,t,bk,bl,bq,bc]=await Promise.all([loadJSON("lookup"),loadJSON("checklists"),loadJSON("quiz"),loadJSON("sharma-rules"),loadJSON("calc-tables"),loadJSON("book/c1"),loadJSON("book/c1-lookup"),loadJSON("book/c1-quiz"),loadJSON("book/c1-checklists")]);
+  DATA={lookup:l,checklists:c,quiz:q,sharma:s,tables:t||FALLBACK_TABLES,book:bk,bookLookup:bl,bookQuiz:bq,bookChecklists:bc}; render(); })();

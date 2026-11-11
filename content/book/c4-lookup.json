@@ -1,0 +1,896 @@
+[
+  {
+    "id": "C4-L-001",
+    "question": "How does a 3-way switch circuit work, in plain words?",
+    "aliases": [
+      "3-way switches",
+      "two switches one light",
+      "travelers"
+    ],
+    "answer_plain": "Two 3-way switches control one load. Power and the switched leg land on the common terminals of the two switches, and a pair of traveler conductors connects the switches to each other, so either switch can complete or break the path. The neutral does not switch; it runs straight to the load.",
+    "nec_ref": "404.2(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "switches",
+      "residential"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": "Original line drawing: common/travelers/switched-leg labelled; no textbook diagram."
+  },
+  {
+    "id": "C4-L-002",
+    "question": "When do I need a 4-way switch as well?",
+    "aliases": [
+      "4-way switch",
+      "three switches one light",
+      "switch from three places"
+    ],
+    "answer_plain": "Add a 4-way switch between the two 3-ways whenever a load must be controlled from three or more places. The 4-way simply swaps the traveler pair, so any number of 4-ways can sit between the same two 3-ways. Each end of the run is always a 3-way; only the middle devices are 4-ways.",
+    "nec_ref": "404.2(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "switches",
+      "residential"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-003",
+    "question": "Can I use a snap switch to control a motor directly?",
+    "aliases": [
+      "switch on motor",
+      "snap switch motor load",
+      "switch rating motor"
+    ],
+    "answer_plain": "Only if the switch is rated for that motor load. Section 404.14 ties a general-use snap switch to the type of load it controls, and motor duty is harder on contacts than the plain amp rating suggests. For anything beyond a small motor the switch is marked for, use a horsepower-rated switch or control the motor through a rated contactor.",
+    "nec_ref": "404.14",
+    "nec_edition": "2020",
+    "tags": [
+      "switches",
+      "motors"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-004",
+    "question": "Does every switch box need a neutral?",
+    "aliases": [
+      "neutral in switch box",
+      "smart switch neutral",
+      "404.2(C) exceptions"
+    ],
+    "answer_plain": "At most switch locations, yes — 404.2(C) requires a grounded (neutral) conductor in the box so electronic controls can be powered. Listed exceptions exist, including raceway systems where a neutral can be added later and certain retrofit situations. Sharma rough-in practice is to pull the neutral through every switch box regardless.",
+    "nec_ref": "404.2(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "switches",
+      "residential"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-005",
+    "question": "How high can a switch be mounted?",
+    "aliases": [
+      "switch height max",
+      "6 ft 7 in switch",
+      "404.8"
+    ],
+    "answer_plain": "Article 404 caps accessibility: the center of the switch handle in its highest position may not exceed 6 ft 7 in. above the floor or platform, and that is a maximum, not a mounting height. Sharma's default working height is 48 in. to the center of the box when the plan is silent (S-05).",
+    "nec_ref": "404.8(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "switches"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-05"
+  },
+  {
+    "id": "C4-L-006",
+    "question": "Do switch terminals accept copper-clad aluminum (CCA)?",
+    "aliases": [
+      "CCA on switch",
+      "switch terminals CCA",
+      "CO/ALR"
+    ],
+    "answer_plain": "Per the NEMA/UL guide information cited in the v1 notes, 15A and 20A snap switch screw terminals accept copper and CCA unless marked otherwise, and CO/ALR marking is what adds plain aluminum. The section number NEMA cited for this was not checked against the printed code text, so verify the marking on the actual device. Never use push-in (backstab) terminals with CCA.",
+    "nec_ref": "404.15(C) — UNVERIFIED citation",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "switches",
+      "UNVERIFIED"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-007",
+    "question": "What changes when I replace a receptacle in an old house?",
+    "aliases": [
+      "receptacle replacement",
+      "swap old receptacle",
+      "406.4(D)"
+    ],
+    "answer_plain": "The replacement must meet today's protection rules for that location: GFCI, AFCI, tamper-resistant, or weather-resistant where current code requires them there. If the box has no equipment ground, the permitted paths are a non-grounding replacement, a GFCI replacement marked 'no equipment ground,' or a grounding receptacle protected by a GFCI device and marked to match. A standard grounding receptacle on an ungrounded circuit, left unmarked, is not one of the options.",
+    "nec_ref": "406.4(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "service"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-008",
+    "question": "Can I install a grounding receptacle where there is no ground wire?",
+    "aliases": [
+      "no ground receptacle",
+      "two-prong replacement",
+      "GFCI no equipment ground"
+    ],
+    "answer_plain": "Yes, through a GFCI device, with the required marking that there is no equipment ground. The GFCI protects people against shock; it does not create an equipment ground for surge protectors or testers that need one. The marking is part of the installation, not an optional sticker.",
+    "nec_ref": "406.4(D)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "service"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-009",
+    "question": "TR vs WR — what is the difference?",
+    "aliases": [
+      "tamper resistant vs weather resistant",
+      "TR WR receptacle"
+    ],
+    "answer_plain": "They solve different problems and a receptacle can need to be both. TR (tamper-resistant) has internal shutters that keep objects out of the slots, required by 406.12 in dwellings and similar occupancies. WR (weather-resistant) is built to survive damp and wet locations and is required with the right cover in those locations under 406.9.",
+    "nec_ref": "406.9 / 406.12",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-010",
+    "question": "What cover does an outdoor receptacle need in Florida?",
+    "aliases": [
+      "outside receptacle cover",
+      "bubble cover",
+      "in-use cover"
+    ],
+    "answer_plain": "A wet-location receptacle needs an enclosure that stays weatherproof while a plug is in use — the in-use or bubble cover — and a WR receptacle behind it. A flat flip lid only protects the device while nothing is plugged in. Florida rain and irrigation make most exterior receptacles wet locations in practice.",
+    "nec_ref": "406.9(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "outdoor"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Florida enforces NEC 2020 through FBC 8th Ed. (2023); local AHJ amendments govern."
+  },
+  {
+    "id": "C4-L-011",
+    "question": "How close to a bathtub can a receptacle be?",
+    "aliases": [
+      "receptacle near tub",
+      "406.9(C) zone",
+      "shower receptacle distance"
+    ],
+    "answer_plain": "No receptacle may be installed within the zone measured 3 ft horizontally and 8 ft vertically from the top of the tub rim or the shower stall threshold. Vanity receptacles must be laid out outside that zone, which has to be checked on the plan at rough-in. The same 3 ft by 8 ft zone also controls luminaires under 410.10(D).",
+    "nec_ref": "406.9(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "bathroom"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-012",
+    "question": "Are GFCI receptacles required, or can the breaker provide GFCI?",
+    "aliases": [
+      "GFCI breaker vs receptacle",
+      "DFN breaker GFI points"
+    ],
+    "answer_plain": "The code requires GFCI protection at the location; it does not require that the protection live in the receptacle itself. A listed breaker providing GFCI protection satisfies it. Sharma's standard (S-07) is a dual-function AFCI/GFCI breaker at the panel with a standard TR receptacle at a point marked GFI on the plan.",
+    "nec_ref": "406 / 210.8",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "GFCI"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-07"
+  },
+  {
+    "id": "C4-L-013",
+    "question": "What must the panel directory actually say?",
+    "aliases": [
+      "panel directory",
+      "circuit directory wording",
+      "408.4(A)"
+    ],
+    "answer_plain": "Each circuit must be identified specifically enough to distinguish it from the others and describe its actual purpose or use in that building. 'Lights' and 'plugs' copied from another house do not do that. Spare breakers are marked as spares, and the directory is updated whenever circuits change.",
+    "nec_ref": "408.4(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "panelboard"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-014",
+    "question": "Does a sub-panel need to say where it is fed from?",
+    "aliases": [
+      "subpanel source label",
+      "408.4(B)",
+      "fed from marking"
+    ],
+    "answer_plain": "Yes, where the source is not obvious — a feeder-supplied panelboard must be marked to identify its source of supply so a person at the panel can find the disconnect that feeds it. Label the feeder breaker at the source panel to match. The two labels should agree word for word on the location.",
+    "nec_ref": "408.4(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "panelboard"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-015",
+    "question": "Can I cover an unused breaker space with tape?",
+    "aliases": [
+      "unused opening panel",
+      "filler plate",
+      "408.7"
+    ],
+    "answer_plain": "No. Unused openings must be closed with listed closures that protect about as well as the enclosure wall itself — for a panelboard, the manufacturer's filler plate for that panel. Tape, cardboard, and near-fit plates from another brand are all corrections waiting to happen.",
+    "nec_ref": "408.7",
+    "nec_edition": "2020",
+    "tags": [
+      "panelboard"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-016",
+    "question": "Can a 100A panel sit behind a 200A breaker?",
+    "aliases": [
+      "panel protection",
+      "408.36",
+      "bus rating breaker"
+    ],
+    "answer_plain": "No. The panelboard itself must be protected at not more than its own rating, by a device in or ahead of the board, apart from listed exceptions. Check bus rating, feeder ampacity, and the feeding breaker together; the smallest applicable limit governs.",
+    "nec_ref": "408.36",
+    "nec_edition": "2020",
+    "tags": [
+      "panelboard"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-017",
+    "question": "Which breakers may go in an existing panel?",
+    "aliases": [
+      "breaker brand mixing",
+      "listed breakers panel",
+      "classified breakers"
+    ],
+    "answer_plain": "Only breakers listed (or classified, where genuinely applicable and documented) for that panel, following the panel's own labelling under 110.3(B). Sharma rule S-03: in an existing Square D panel, use Square D breakers listed for it; S-02: all new Sharma gear is Siemens. A breaker that physically fits is not the same as a breaker that is listed for the panel.",
+    "nec_ref": "408 / 110.3(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "panelboard"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-03"
+  },
+  {
+    "id": "C4-L-018",
+    "question": "What fixtures are allowed over a tub or inside a shower zone?",
+    "aliases": [
+      "light over tub",
+      "410.10(D)",
+      "shower light rating"
+    ],
+    "answer_plain": "Inside the zone 3 ft horizontally and 8 ft vertically from the tub rim or shower threshold, a luminaire must be listed for damp locations, and for wet locations where shower spray reaches it. Hanging fixtures, pendants, and ceiling-suspended fans are not permitted in the zone at all. Check the rating on the fixture label against where it actually sits.",
+    "nec_ref": "410.10(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "luminaires",
+      "bathroom"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-019",
+    "question": "Can I hang a pendant light in a clothes closet?",
+    "aliases": [
+      "closet light rules",
+      "410.16 pendant"
+    ],
+    "answer_plain": "Pendant fixtures and exposed lamps are the problem types in closets because they sit inside the storage space and can be broken or buried in stored material. Use an enclosed, closet-suitable fixture placed clear of the storage space. The exact clearance distances in 410.16 are flagged UNVERIFIED in the v1 notes, so confirm them in the printed book or with the AHJ rather than working from memory.",
+    "nec_ref": "410.16 — UNVERIFIED clearances",
+    "nec_edition": "2020",
+    "tags": [
+      "luminaires",
+      "closet",
+      "UNVERIFIED"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-020",
+    "question": "How is a storage water heater circuit sized?",
+    "aliases": [
+      "water heater breaker size",
+      "4500 watt heater amps",
+      "422.13"
+    ],
+    "answer_plain": "Treat it as a continuous-type sizing: the branch circuit must be at least 125 percent of the nameplate rating. A 4500W, 240V heater draws 18.75A, so the minimum calculation is about 23.4A and the conventional result is a 30A circuit on 10 AWG copper. Run the arithmetic for the nameplate on the actual job, not from the last house.",
+    "nec_ref": "422.13",
+    "nec_edition": "2020",
+    "tags": [
+      "appliances",
+      "water heater"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-021",
+    "question": "Does a water heater need a disconnect?",
+    "aliases": [
+      "water heater disconnect",
+      "422.31 appliance disconnect"
+    ],
+    "answer_plain": "A permanently connected appliance needs a disconnecting means that meets 422.31 for its size, so the servicer can cut power and keep it cut. Depending on the appliance and rating, that can be a dedicated switch or a breaker arrangement the section permits. Decide its location at rough-in, not at final.",
+    "nec_ref": "422.31",
+    "nec_edition": "2020",
+    "tags": [
+      "appliances",
+      "water heater"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-022",
+    "question": "Can a range hood be cord-and-plug connected?",
+    "aliases": [
+      "range hood cord",
+      "422.16(B)(4)",
+      "hood receptacle"
+    ],
+    "answer_plain": "Yes, where the hood is listed and marked for cord connection and the installation meets the conditions of 422.16(B)(4), including the receptacle arrangement. If the hood's instructions say hard-wire only, the listing governs and it gets hard-wired. Sharma practice (not a code rule) often places the hood on the dishwasher/disposal circuit; the microwave still keeps its own 20A copper circuit under S-06.",
+    "nec_ref": "422.16(B)(4)",
+    "nec_edition": "2020",
+    "tags": [
+      "appliances",
+      "kitchen"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-06"
+  },
+  {
+    "id": "C4-L-023",
+    "question": "Which appliances need GFCI protection under 422.5?",
+    "aliases": [
+      "422.5 appliances GFCI",
+      "dishwasher GFCI nec"
+    ],
+    "answer_plain": "Section 422.5 names specific appliances for GFCI protection for personnel, including the dwelling dishwasher, and it sits on top of the room rules in 210.8 — both must be checked. The protection may be provided at the breaker, which is how a Sharma DFN breaker (S-07) covers a 120V appliance circuit. Confirm the breaker actually provides GFCI and not AFCI only.",
+    "nec_ref": "422.5",
+    "nec_edition": "2020",
+    "tags": [
+      "appliances",
+      "GFCI"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-07"
+  },
+  {
+    "id": "C4-L-024",
+    "question": "How are electric heat strips sized electrically?",
+    "aliases": [
+      "heat strip circuit 125%",
+      "424 sizing",
+      "duct heater amps"
+    ],
+    "answer_plain": "Fixed electric space heat is treated as a continuous load, so conductors and overcurrent protection are sized at not less than 125 percent of the total connected load, including the blower motor in the same equipment. The 2020 section number for this rule is flagged UNVERIFIED in the v1 notes (it was 424.3(B) in 2017); the 125 percent substance is not in doubt. The strip size installed is also a load-calculation input for the office.",
+    "nec_ref": "424.4(B) — UNVERIFIED section number",
+    "nec_edition": "2020",
+    "tags": [
+      "heating",
+      "HVAC",
+      "UNVERIFIED"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-025",
+    "question": "What is the difference between table FLC and nameplate FLA for a motor?",
+    "aliases": [
+      "FLC vs FLA",
+      "430.6 motor current",
+      "motor table values"
+    ],
+    "answer_plain": "They are used for different jobs. Table full-load current (from the Article 430 tables, by horsepower and voltage) sizes the conductors, disconnect, controller, and short-circuit protection, because a replacement motor may differ. Nameplate full-load amps size the overload protection, because the overload protects the specific motor installed. Label both numbers on every motor worksheet.",
+    "nec_ref": "430.6",
+    "nec_edition": "2020",
+    "tags": [
+      "motors"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-026",
+    "question": "How do I size conductors for one motor?",
+    "aliases": [
+      "motor wire size 125%",
+      "430.22"
+    ],
+    "answer_plain": "Take the table full-load current for the motor's horsepower and voltage and multiply by 1.25, then pick the conductor from the ampacity tables using the termination temperature column that applies. Do not size from the nameplate amps. Intermittent-duty motors follow their own parts of 430.22, so check the duty on the nameplate first.",
+    "nec_ref": "430.22",
+    "nec_edition": "2020",
+    "tags": [
+      "motors"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-027",
+    "question": "Why is the breaker on a motor circuit bigger than the wire seems to allow?",
+    "aliases": [
+      "motor breaker oversized",
+      "430.52 explanation"
+    ],
+    "answer_plain": "Because on a motor circuit the breaker is the fault-clearing device, sized from Table 430.52 so it rides through starting inrush, while the overload device sized from the nameplate does the running protection. That split is Article 430's system and it only applies inside that system. Never borrow the idea for a general-purpose circuit.",
+    "nec_ref": "430.52",
+    "nec_edition": "2020",
+    "tags": [
+      "motors"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-028",
+    "question": "How close must a motor disconnect be?",
+    "aliases": [
+      "motor disconnect within sight",
+      "430.102 50 ft"
+    ],
+    "answer_plain": "Within sight from the motor and its controller: visible and not more than 50 ft away, unless the disconnect arrangement meets the article's lockable provisions. Stand at the motor and point at the disconnect. If you cannot see it, the installation needs a local disconnect or a documented lockable arrangement.",
+    "nec_ref": "430.102",
+    "nec_edition": "2020",
+    "tags": [
+      "motors"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-029",
+    "question": "What do MCA and MOCP on a condenser nameplate mean?",
+    "aliases": [
+      "MCA MOCP meaning",
+      "condenser nameplate",
+      "440.4(B)"
+    ],
+    "answer_plain": "MCA (minimum circuit ampacity) is the smallest conductor ampacity the circuit may have. MOCP (maximum overcurrent protection) is the largest fuse or breaker allowed. Wire at or above MCA, protect at or below MOCP — a smaller breaker than MOCP is fine, a smaller wire than MCA is not.",
+    "nec_ref": "440.4(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "HVAC",
+      "nameplate"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-030",
+    "question": "The new condenser has a higher MCA than the old one. Can I reuse the wire?",
+    "aliases": [
+      "changeout MCA higher",
+      "reuse wire condenser"
+    ],
+    "answer_plain": "Not until the numbers are checked: the existing conductor ampacity must be at least the new unit's MCA and the existing breaker no larger than its MOCP. If either fails, the circuit changes with the unit, which is a scope conversation with the office before start-up. Never solve it by raising the breaker above MOCP.",
+    "nec_ref": "440.4(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "HVAC",
+      "change-out"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-031",
+    "question": "Where must the HVAC disconnect be?",
+    "aliases": [
+      "AC disconnect location",
+      "440.14 within sight"
+    ],
+    "answer_plain": "Within sight from the equipment and readily accessible: visible, within 50 ft, and reachable where the service tech stands, with working space in front of it. The breaker in the house panel alone does not meet it. On a change-out with no compliant disconnect, adding or relocating it is part of the job.",
+    "nec_ref": "440.14",
+    "nec_edition": "2020",
+    "tags": [
+      "HVAC"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-032",
+    "question": "Does a condenser need a GFCI breaker?",
+    "aliases": [
+      "condenser GFCI 210.8(F)",
+      "AC GFCI breaker florida"
+    ],
+    "answer_plain": "This is the unsettled one: 210.8(F) GFCI requirements for outdoor outlets and equipment have been affected by a TIA and by local amendments, and enforcement varies by AHJ. Sharma practice is a standard 2-pole breaker sized to the nameplate MOCP, shown as a tip rather than a rule. Confirm the AHJ position on the specific job; the full discussion lives on the Chapter 2 pages.",
+    "nec_ref": "440 / 210.8(F)",
+    "nec_edition": "2020",
+    "tags": [
+      "HVAC",
+      "GFCI"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Local AHJ position governs; do not assume a statewide answer."
+  },
+  {
+    "id": "C4-L-033",
+    "question": "How are generator feed conductors sized?",
+    "aliases": [
+      "generator wire size 115%",
+      "445.13"
+    ],
+    "answer_plain": "Conductors from the generator to its first distribution device are sized at not less than 115 percent of the generator's nameplate current, subject to the section's own provisions where the design prevents overloading. Neutral sizing has its own paragraphs in the section. Whether the system is separately derived changes the neutral and grounding, and that decision is made with the transfer equipment, not at the generator alone.",
+    "nec_ref": "445.13",
+    "nec_edition": "2020",
+    "tags": [
+      "generators"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-034",
+    "question": "Does a house generator need an outside shutdown?",
+    "aliases": [
+      "generator emergency shutdown outside",
+      "445.18(D)"
+    ],
+    "answer_plain": "Under the 2020 provision in 445.18(D), a generator installed outdoors at a one- or two-family dwelling needs a readily accessible shutdown/disconnect device located outside the dwelling, in addition to the general generator shutdown rules in 445.18. Place it where occupants or first responders would look, identify it, and test it at start-up. Transfer-switch sizing itself lives in Article 702 (Chapter 7).",
+    "nec_ref": "445.18(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "generators"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-035",
+    "question": "How is a small dry-type transformer protected?",
+    "aliases": [
+      "transformer protection 450.3",
+      "dry type transformer breaker"
+    ],
+    "answer_plain": "Through the tables in 450.3, using the table for 1000V and below, with the answer depending on voltage, transformer impedance where the table calls for it, and whether protection is primary-only or on both sides. Primary-only is allowed only within the table's limits. Do not reuse a remembered percentage from a different voltage or impedance.",
+    "nec_ref": "450.3",
+    "nec_edition": "2020",
+    "tags": [
+      "transformers",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-036",
+    "question": "What is SCCR on an industrial control panel?",
+    "aliases": [
+      "SCCR meaning",
+      "409 panel fault current"
+    ],
+    "answer_plain": "SCCR is the panel's short-circuit current rating: the most fault current the panel may be subjected to. Article 409 requires the marking, and a panel may not be installed where the available fault current exceeds it. If the available fault current is unknown, that is an engineering check before the panel is set, not a field guess.",
+    "nec_ref": "409 — SCCR marking; exact subsection UNVERIFIED",
+    "nec_edition": "2020",
+    "tags": [
+      "industrial control panels",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-037",
+    "question": "Can flexible cord be used instead of running conduit to a fixed machine?",
+    "aliases": [
+      "cord instead of conduit",
+      "400.8 fixed equipment"
+    ],
+    "answer_plain": "No. Section 400.8 prohibits using a flexible cord as a substitute for the fixed wiring of a structure, running it through walls or ceilings, or hiding it. A cord is for equipment that moves or must be removed for service, under the permitted uses in 400.7. A fixed machine gets a Chapter 3 wiring method.",
+    "nec_ref": "400.12 — numbering flagged (was 400.8 in 2017)",
+    "nec_edition": "2020",
+    "tags": [
+      "flexible cords"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-038",
+    "question": "Is a battery system only an Article 480 job?",
+    "aliases": [
+      "battery article 480 vs 706",
+      "storage battery rules"
+    ],
+    "answer_plain": "No. Article 480 covers the battery installation itself — disconnects, overcurrent protection, wiring, and chemistry-dependent room concerns. An energy storage system as a whole is also governed by Article 706 in Chapter 7. Identify the chemistry and the system listing before wiring, and label the disconnect as the system rules require.",
+    "nec_ref": "480",
+    "nec_edition": "2020",
+    "tags": [
+      "batteries"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-039",
+    "question": "What should I do when a job involves equipment over 1000 volts?",
+    "aliases": [
+      "medium voltage sharma",
+      "490 equipment"
+    ],
+    "answer_plain": "Recognize it and stop. Article 490 equipment is outside Sharma's residential and light commercial installation scope under this book. Keep clear of it, never open or test it, and take the job to Sanjay and Mike the same day so it can be referred to a qualified medium-voltage contractor.",
+    "nec_ref": "490",
+    "nec_edition": "2020",
+    "tags": [
+      "safety",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-040",
+    "question": "What disconnect does a motor need besides the panel breaker?",
+    "aliases": [
+      "motor local disconnect",
+      "430.109 disconnect type"
+    ],
+    "answer_plain": "The disconnecting means itself must be a type Article 430 permits for motor duty — for example a horsepower-rated switch or a listed circuit breaker suited to the motor — and it must separately satisfy the within-sight rule in 430.102. An ordinary lighting switch is not automatically a motor disconnect. Check the horsepower rating on the device, not only its amp rating.",
+    "nec_ref": "430.109",
+    "nec_edition": "2020",
+    "tags": [
+      "motors",
+      "disconnects"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-041",
+    "question": "Can I assemble a low-voltage lighting system from loose parts?",
+    "aliases": [
+      "411 low voltage lighting parts",
+      "30 volt lighting system"
+    ],
+    "answer_plain": "No — a system under Article 411 is installed as a listed assembly: listed power supply, listed fixtures, and the secondary wiring the manufacturer specifies. Field-assembling one from unrelated parts takes it outside the listing the article is built on. Do not extend a 30V secondary with branch-circuit wiring methods the listing does not allow.",
+    "nec_ref": "411",
+    "nec_edition": "2020",
+    "tags": [
+      "low-voltage lighting"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-042",
+    "question": "Does a panel's SCCR matter if the volts and amps match?",
+    "aliases": [
+      "panel SCCR fault current",
+      "408.6 short circuit rating"
+    ],
+    "answer_plain": "Yes. Section 408.6 requires the short-circuit current rating of the panelboard, switchboard, or switchgear to be at least the available fault current at its location. A 200A panel with a low SCCR can be the wrong panel on a service that can deliver more fault current than it is rated to withstand. Get the available fault current from the utility or the design and record both numbers.",
+    "nec_ref": "408.6",
+    "nec_edition": "2020",
+    "tags": [
+      "panelboard",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-043",
+    "question": "Can two neutrals share one terminal in a panel?",
+    "aliases": [
+      "doubled neutrals",
+      "408.41 neutral terminal",
+      "two neutrals one screw"
+    ],
+    "answer_plain": "No, unless the terminal is specifically identified for more than one conductor. Section 408.41 gives each grounded conductor its own terminal in a panelboard. Sharing a terminal means servicing one circuit can open the neutral of another live circuit, which is why inspectors look for it on every panel change-out.",
+    "nec_ref": "408.41",
+    "nec_edition": "2020",
+    "tags": [
+      "panelboard"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-044",
+    "question": "What does Type IC mean on a recessed light?",
+    "aliases": [
+      "IC rated can light",
+      "410.116 recessed insulation"
+    ],
+    "answer_plain": "Type IC means the recessed luminaire is listed for direct contact with insulation. A non-IC fixture must keep the clearance from insulation and combustibles that its marking and 410.116 require, and recessed fixtures carry thermal protection against overheating. The rating belongs to the specific housing — check its label before the ceiling is insulated.",
+    "nec_ref": "410.116",
+    "nec_edition": "2020",
+    "tags": [
+      "luminaires"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-045",
+    "question": "How do I size a feeder feeding three motors?",
+    "aliases": [
+      "several motors feeder",
+      "430.24 calculation"
+    ],
+    "answer_plain": "Take 125 percent of the table full-load current of the largest motor, then add the other motors at 100 percent of their table full-load currents, plus any other loads under their own rules. Only the largest motor gets the 125 percent margin. Lay the sum out in a labelled column so it can be checked.",
+    "nec_ref": "430.24",
+    "nec_edition": "2020",
+    "tags": [
+      "motors"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-046",
+    "question": "How big must a motor disconnect be?",
+    "aliases": [
+      "motor disconnect rating 115%",
+      "430.110 disconnect size"
+    ],
+    "answer_plain": "A general-use switch serving as a motor disconnect must be rated at least 115 percent of the motor's full-load current from the Article 430 tables. A horsepower-rated disconnect is instead matched by its horsepower rating to the motor served. The disconnect must also be a permitted type (430.109) and within sight (430.102).",
+    "nec_ref": "430.110",
+    "nec_edition": "2020",
+    "tags": [
+      "motors",
+      "disconnects"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-047",
+    "question": "Does HVAC equipment have an SCCR too?",
+    "aliases": [
+      "440.10 SCCR air conditioning",
+      "condenser fault current rating"
+    ],
+    "answer_plain": "Yes — 440.10 requires the short-circuit current rating of motor controllers and control equipment used with air-conditioning and refrigerating equipment to suit the available fault current, with the rating marked. On commercial work, photograph SCCR with the MCA and MOCP. A mismatch is an engineering question before the unit is set.",
+    "nec_ref": "440.10",
+    "nec_edition": "2020",
+    "tags": [
+      "HVAC",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-048",
+    "question": "Does a stationary generator have to be listed?",
+    "aliases": [
+      "generator listing 445.6",
+      "standby generator listed"
+    ],
+    "answer_plain": "Under 445.6, added in the 2020 edition, a stationary generator operating at 600 volts or less must be listed. Confirm the exact model is listed and pull its installation manual into the job file at quote stage. An unlisted unit is a stop, not a discount.",
+    "nec_ref": "445.6",
+    "nec_edition": "2020",
+    "tags": [
+      "generators"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-049",
+    "question": "Can I store material on top of a dry-type transformer?",
+    "aliases": [
+      "storage on transformer",
+      "450.9 ventilation"
+    ],
+    "answer_plain": "No. Section 450.9 requires ventilation so the transformer can shed heat, and its marking provisions prohibit using the top surfaces of covered dry-type transformers for storage. Treat the top of the transformer as equipment space. Report stored material rather than quietly moving it.",
+    "nec_ref": "450.9",
+    "nec_edition": "2020",
+    "tags": [
+      "transformers",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-050",
+    "question": "Does a transformer need its own disconnect?",
+    "aliases": [
+      "transformer disconnect 450.14",
+      "lockable transformer disconnect"
+    ],
+    "answer_plain": "Yes, 450.14 requires a disconnecting means for a transformer, apart from the section's exceptions for small limited types. It may be within sight of the transformer or remote; a remote disconnect must be lockable in the open position and the transformer marked with the disconnect's location. Decide its location when the transformer location is decided.",
+    "nec_ref": "450.14",
+    "nec_edition": "2020",
+    "tags": [
+      "transformers",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-051",
+    "question": "Can I use an AC-rated breaker on a battery circuit?",
+    "aliases": [
+      "DC breaker battery",
+      "480.7 dc disconnect"
+    ],
+    "answer_plain": "Not on its amp rating alone. DC interruption is harder than AC because there is no natural current zero, so 480.7 requires disconnecting methods rated for the DC service. Read the device's DC voltage and current rating and its polarity markings; if the plate never mentions DC, it does not go on a battery circuit.",
+    "nec_ref": "480.7",
+    "nec_edition": "2020",
+    "tags": [
+      "batteries"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C4-L-052",
+    "question": "What changed for battery interconnections in 2020?",
+    "aliases": [
+      "battery interconnections 480.12",
+      "intercell connectors nec"
+    ],
+    "answer_plain": "The 2020 edition moved the battery interconnection requirements from Article 706 into 480.12. Interconnection conductors are sized for the maximum current the bank can deliver, with terminals and methods suited to the system. Torque the hardware to the battery manufacturer's specification and record it.",
+    "nec_ref": "480.12",
+    "nec_edition": "2020",
+    "tags": [
+      "batteries"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  }
+]

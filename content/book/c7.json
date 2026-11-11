@@ -1,0 +1,2003 @@
+{
+  "schema_version": "book-v1",
+  "nec_edition": "2020",
+  "jurisdiction": "Florida Building Code 8th Edition (2023)",
+  "chapter": 7,
+  "chapter_title": "Special Conditions",
+  "id_prefix": "C7",
+  "sections": [
+    {
+      "id": "C7-ART-700",
+      "chapter": 7,
+      "article": "700",
+      "section": "700",
+      "title": "Emergency systems — the life-safety tier",
+      "plain_explanation": "Article 700 covers backup power that the law classes as emergency: power for getting people out and keeping them alive, such as egress lighting, exit signs, fire alarm and similar life-safety loads. A governmental agency having jurisdiction decides that a system is emergency; the owner does not get to choose the label. Emergency power has to be there fast, the wiring is kept apart from normal wiring, and the system is tested and documented. If life safety does not depend on it, you are probably in Article 701 or 702 instead.",
+      "on_the_job": "First question on any standby job: who required this system, and for what loads? The answer picks the article before you pick any gear.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: three stacked tiers labelled Emergency (700), Legally Required (701) and Optional (702), fastest/most protected at the top, with example loads under each tier.",
+      "related_ids": [
+        "C7-L-001",
+        "C7-L-002",
+        "C7-L-003",
+        "C7-Q-001",
+        "C7-Q-026"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": null,
+      "next_id": "C7-700.3",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.3",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.3",
+      "title": "Tests and maintenance — emergency systems",
+      "plain_explanation": "An emergency system is not finished when it is wired. The AHJ conducts or witnesses an acceptance test when the installation is complete, the system is tested periodically on a schedule the AHJ approves, and the equipment is maintained following the manufacturer instructions and industry standards. A written record of tests and maintenance has to be kept.",
+      "on_the_job": "Leave the owner a test log, not just a working generator. If there is no record, treat the system as unproven at inspection and at every service visit after it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-002"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-700",
+      "next_id": "C7-700.4",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.4",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.4",
+      "title": "Capacity and rating — emergency systems",
+      "plain_explanation": "Emergency equipment has to be suitable for the fault current available where it connects. The system also has to have enough capacity for its emergency load, figured under Article 220 or by another method the AHJ approves. There is no user-selects-the-load shortcut here the way there is for a manual optional standby system.",
+      "on_the_job": "Check the fault-current rating on the transfer gear against the service, and do the load calculation before the generator size is promised to anyone.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-001"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.3",
+      "next_id": "C7-700.5",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.5",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.5",
+      "title": "Transfer equipment — emergency systems",
+      "plain_explanation": "Emergency transfer equipment has to be automatic, listed and marked for emergency use, and approved by the AHJ. It is built and installed so the emergency source and the other sources cannot be connected together by accident. An automatic transfer switch has to be electrically operated and mechanically held, reconditioned transfer switches are not allowed, the gear may feed only emergency loads, and meter-mounted transfer switches are not permitted for emergency use. Away from dwellings the same documentation idea you see in 702 shows up here: the transfer equipment short-circuit rating is field marked on the outside of the gear.",
+      "on_the_job": "Read the listing and the marking, not the sales sheet. If the switch is not marked for emergency use, it does not go on a 700 job, however big it is.",
+      "sharma_note": "S-02 applies to gear Sharma furnishes: new transfer equipment is Siemens. Listing and emergency marking still govern — brand never replaces either one.",
+      "figure_idea": "Original diagram: a utility feed and a generator feed entering one automatic transfer switch, with a mechanical interlock symbol showing the two can never be closed together.",
+      "related_ids": [
+        "S-02",
+        "C7-L-002"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.4",
+      "next_id": "C7-700.7",
+      "sharma_rule_ids": [
+        "S-02"
+      ]
+    },
+    {
+      "id": "C7-700.7",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.7",
+      "title": "Signs — emergency sources",
+      "plain_explanation": "A sign at the service equipment tells responders and electricians what kind of on-site emergency source the building has and where it is. Nobody should have to hunt through a building during an outage to learn that a second source exists.",
+      "on_the_job": "Put the source type and location on the sign and check it against the actual disconnect location before you call the job done.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-006"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.5",
+      "next_id": "C7-700.8",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.8",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.8",
+      "title": "Surge protection — emergency systems",
+      "plain_explanation": "Every emergency system switchboard and panelboard has to have a listed surge protective device. This is a flat requirement of the article, not an upsell and not something to value-engineer out.",
+      "on_the_job": "Count an SPD for every emergency panelboard and switchboard on the material list, and confirm it is listed.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-Q-026",
+        "C7-L-005"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.7",
+      "next_id": "C7-700.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.10",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.10",
+      "title": "Wiring — emergency systems stay identified and apart",
+      "plain_explanation": "Emergency wiring is identified as emergency all the way through: boxes, enclosures, transfer switches, generators and panels are permanently marked, and emergency raceways and cables are marked as emergency at short, regular intervals. Emergency conductors also stay out of enclosures, raceways and cables that carry nonemergency wiring, with only narrow exceptions such as inside transfer equipment. Emergency receptacles are identified by a distinctive color or marking.",
+      "on_the_job": "Mark it as you install it, not at trim-out from memory. If a normal circuit and an emergency circuit want the same raceway, stop — that is the exact mix this section exists to prevent.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: two parallel raceway runs, one marked EMERGENCY at intervals and one unmarked, with a red X over a shared junction box.",
+      "related_ids": [
+        "C7-L-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.8",
+      "next_id": "C7-700.12",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.12",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.12",
+      "title": "Sources of power — available in 10 seconds",
+      "plain_explanation": "When the normal supply fails, emergency power has to be available within 10 seconds. The article lists the permitted kinds of sources, from storage batteries and generator sets to a separate service and unit equipment, and it sets conditions for each one. Engine-driven sources carry on-site fuel rules, battery sources carry a minimum run-time duty at close to full voltage, and the equipment has to be located and designed so one fire, flood or act of vandalism is less likely to kill both supplies at once.",
+      "on_the_job": "The 10-second clock is the design test. Ask how the source starts, how fast load lands on it, and where its fuel or charge comes from before you argue about brands.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-002",
+        "C7-Q-001"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.10",
+      "next_id": "C7-700.15",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.15",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.15",
+      "title": "Loads on emergency branch circuits",
+      "plain_explanation": "Emergency circuits feed emergency loads only. A circuit that exists to keep egress lighting and life-safety equipment alive does not pick up convenience loads because there was spare capacity on paper.",
+      "on_the_job": "Walk the emergency panel schedule load by load. Anything that is not an emergency load comes off, even if the generator is big enough.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-002"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.12",
+      "next_id": "C7-700.32",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.32",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.32",
+      "title": "Selective coordination — emergency systems",
+      "plain_explanation": "Emergency system overcurrent devices have to selectively coordinate with every supply-side overcurrent device, so a fault on one emergency branch opens only the device that should open instead of darkening the whole system. The coordination is designed by a qualified person and the documentation has to be available to the people who design, install, inspect, maintain and operate the system.",
+      "on_the_job": "This is an engineering deliverable, not a field guess. Get the coordination study and keep it with the job record before the gear is released.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-004"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.15",
+      "next_id": "C7-ART-701",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-701",
+      "chapter": 7,
+      "article": "701",
+      "section": "701",
+      "title": "Legally required standby systems — the middle tier",
+      "plain_explanation": "Article 701 covers standby power that a law, code or AHJ requires, but that is not classed as emergency. These systems back up loads that aid firefighting and rescue, control health hazards, or keep ventilation, smoke removal, sewage, communications and similar loads running so an emergency does not get worse. They sit below Article 700 in priority: a 700 load always outranks a 701 load on a shared source. If nobody with authority required the system, it is not 701 — it is optional standby under 702.",
+      "on_the_job": "The tell is paperwork: a code citation, a permit condition or an AHJ direction requiring standby power for named loads. No requirement, no 701.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-001",
+        "C7-L-007",
+        "C7-Q-002"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.32",
+      "next_id": "C7-701.5",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-701.5",
+      "chapter": 7,
+      "article": "701",
+      "section": "701.5",
+      "title": "Transfer equipment — legally required standby",
+      "plain_explanation": "Transfer equipment for a legally required standby system has to be automatic, listed and marked for that use, and approved by the AHJ, and it has to keep the standby source from being interconnected with the other sources by accident. Automatic transfer switches are electrically operated and mechanically held, reconditioned switches are not allowed, and meter-mounted transfer switches are not permitted here either. The transfer equipment short-circuit rating is field marked on the outside of the gear.",
+      "on_the_job": "Same discipline as 700: check the marking for legally required standby use before the gear is ordered, not after it is hung.",
+      "sharma_note": "S-02 applies to gear Sharma furnishes: new transfer equipment is Siemens, subject to its listing and marking for this use.",
+      "figure_idea": "Original diagram: the 700 transfer-switch diagram redrawn with a 60-second clock and a note that meter-mounted switches are off the table here.",
+      "related_ids": [
+        "S-02",
+        "C7-L-007"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-701",
+      "next_id": "C7-701.10",
+      "sharma_rule_ids": [
+        "S-02"
+      ]
+    },
+    {
+      "id": "C7-701.10",
+      "chapter": 7,
+      "article": "701",
+      "section": "701.10",
+      "title": "Wiring — legally required standby may share raceways",
+      "plain_explanation": "Unlike emergency wiring, legally required standby wiring is allowed to run in the same raceways, boxes and cabinets as general wiring. The strict separation duty belongs to Article 700, and importing it into a 701 job — or forgetting it on a 700 job — are both mistakes.",
+      "on_the_job": "Know which article the job is under before you decide how to run the raceways. The wiring method follows the classification, not habit.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-008"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-701.5",
+      "next_id": "C7-701.12",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-701.12",
+      "chapter": 7,
+      "article": "701",
+      "section": "701.12",
+      "title": "Sources of power — available in 60 seconds",
+      "plain_explanation": "Legally required standby power has to be available within 60 seconds of the normal supply failing — slower than the 10 seconds of Article 700, far faster than a portable generator someone drags out of a garage. The article lists the permitted source types and their conditions, including on-site fuel for engine-driven sources and battery duty where batteries are the source. One source may also carry optional loads only where capacity is truly there, or where automatic pickup and shedding protect the legally required loads first.",
+      "on_the_job": "Design to the 60-second clock and to load priority. If optional loads can starve a 701 load, the design is wrong even if the generator starts on time.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-007",
+        "C7-Q-002"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-701.10",
+      "next_id": "C7-ART-702",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-702",
+      "chapter": 7,
+      "article": "702",
+      "section": "702",
+      "title": "Optional standby systems — home and business generators",
+      "plain_explanation": "Article 702 covers standby systems nobody required: the homeowner who wants the fridge, well pump and a few lights through a Florida outage, or the business protecting product and comfort. Life safety does not depend on these systems, and that single fact is what keeps them out of Articles 700 and 701. The article still regulates them hard where it counts: capacity, transfer equipment that can never tie the generator to the utility by accident, signs, wiring and outdoor generator sets. Portable generators that are never connected to the premises wiring are outside this article; the moment one is connected through an inlet and transfer equipment, 702 is in play.",
+      "on_the_job": "Most Sharma generator work lives here. Start every quote by sorting the loads into what runs automatically, what the owner will switch by hand, and what never runs on the generator.",
+      "sharma_note": "S-02: transfer equipment Sharma furnishes is Siemens. S-09 only enters if the standby work changes the meter/panel layout.",
+      "figure_idea": "Original diagram: a house panel, a transfer switch and a generator, with the utility and generator feeds shown as two doors that can never both be open.",
+      "related_ids": [
+        "L-089",
+        "L-090",
+        "Q-061",
+        "S-02",
+        "O-09",
+        "C7-L-009",
+        "C7-L-013"
+      ],
+      "florida_note": "Florida hurricane season is why this article earns its keep here — but no Florida amendment relaxes the transfer or sizing rules in this chapter. The AHJ and the printed NEC 2020 govern.",
+      "verified": true,
+      "prev_id": "C7-701.12",
+      "next_id": "C7-702.4(A)",
+      "sharma_rule_ids": [
+        "S-02"
+      ]
+    },
+    {
+      "id": "C7-702.4(A)",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.4(A)",
+      "title": "Available fault current — optional standby equipment",
+      "plain_explanation": "Optional standby equipment has to be suitable for the fault current available at its terminals. A transfer switch with a short-circuit rating below what the service can deliver is the wrong switch, even if its amp rating matches the load.",
+      "on_the_job": "Pull the available fault current from the service gear or the utility information and match the transfer equipment rating to it before ordering.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-015"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-702",
+      "next_id": "C7-702.4(B)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.4(B)",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.4(B)",
+      "title": "System capacity — the sizing fork in Article 702",
+      "plain_explanation": "How big the standby source must be depends on how the load gets onto it. With manual transfer, the user chooses the load, so the source only has to carry what is intended to run at one time. With automatic transfer, nobody is standing there choosing, so the source is sized to the calculated load — figured under Article 220 or by another approved method — and it must either carry the full transferred load or be paired with automatic load management. This page and the two that follow were re-checked against 2020 sources for this edition, because the v1 wording on this section was flagged unverified.",
+      "on_the_job": "Write down which side of the fork the job is on before you size anything. 'Automatic transfer, partial load, no load management' is not a third option.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: a fork in a road — left branch MANUAL with a hand picking load switches, right branch AUTOMATIC splitting again into FULL LOAD and LOAD MANAGEMENT.",
+      "related_ids": [
+        "L-090",
+        "Q-061",
+        "C7-L-009",
+        "C7-L-010",
+        "C7-L-011",
+        "C7-L-012"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.4(A)",
+      "next_id": "C7-702.4(B)(1)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.4(B)(1)",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.4(B)(1)",
+      "title": "Manual transfer — the user selects the load",
+      "plain_explanation": "Where manual transfer equipment is used, the optional standby system has to be able to supply all the equipment intended to be operated at one time, and the user is permitted to select which loads are connected. That selection is what sets the practical size of the source: a homeowner who will run the fridge, a few lights and the well pump — and leave the range and dryer off — does not need a generator sized for the whole house.",
+      "on_the_job": "Build the intended-load list with the owner and put it in the job record. If a load is not on the list, it does not get counted, and it does not get promised.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-090",
+        "C7-L-009",
+        "C7-Q-004"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.4(B)",
+      "next_id": "C7-702.4(B)(2)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.4(B)(2)",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.4(B)(2)",
+      "title": "Automatic transfer — full load, or load management",
+      "plain_explanation": "Where automatic transfer equipment is used, the standby source is sized to the calculated load, figured under Article 220 or by another approved method — for an existing installation, recorded maximum demand is one of the approved routes the code recognizes through 220.87. The system then has to satisfy one of two duties. Under the full-load duty, the source carries the entire load the automatic equipment transfers. Under the load-management duty, an automatic system manages the connected load and the source only has to carry the maximum load that management system will actually connect.",
+      "on_the_job": "Do the Article 220 calculation or pull the demand data first, then check which duty the design claims. A load-management claim needs the actual listed management equipment on the job, not a promise that the owner will turn things off.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-090",
+        "Q-061",
+        "C7-L-010",
+        "C7-L-011",
+        "C7-L-012",
+        "C7-Q-005",
+        "C7-Q-006"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.4(B)(1)",
+      "next_id": "C7-702.5",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.5",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.5",
+      "title": "Transfer equipment — required, listed, and built to keep sources apart",
+      "plain_explanation": "Transfer equipment is required to connect an optional standby source to the premises wiring, and in the 2020 code it has to be listed — a tightening over earlier editions that catches unlisted interlock hardware. One narrow exception exists: a temporary portable generator connection without transfer equipment, only where maintenance and supervision ensure qualified persons service it and the normal supply is physically isolated by a lockable disconnect or by disconnecting the normal conductors. The four duties that follow it in the section — meter-mounted switches, documentation, inadvertent interconnection, and parallel operation — get their own pages next, in the section's own order.",
+      "on_the_job": "Default answer on a house: a listed transfer switch or a listed interlock arrangement, installed so utility and generator can never meet. If a product cannot show its listing, it does not go in, whatever its paperwork claims about being tested on someone else's panel.",
+      "sharma_note": "S-02: transfer equipment Sharma furnishes is Siemens, and it still has to carry the listing this section requires.",
+      "figure_idea": "Original diagram: three connection sketches side by side — transfer switch, listed interlock, and a crossed-out cord backfeeding a dryer receptacle.",
+      "related_ids": [
+        "L-089",
+        "S-02",
+        "C7-L-013",
+        "C7-Q-007"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.4(B)(2)",
+      "next_id": "C7-702.5(B)",
+      "sharma_rule_ids": [
+        "S-02"
+      ]
+    },
+    {
+      "id": "C7-702.5(B)",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.5(B)",
+      "title": "Meter-mounted transfer switches",
+      "plain_explanation": "A transfer switch mounted between the utility meter and its enclosure has to be a listed meter-mounted transfer switch. A meter-mounted switch is manual unless it is rated in accordance with the automatic-transfer sizing duty in 702.4(B)(2) — the meter socket is not a loophole around generator sizing. Remember the contrast with Articles 700 and 701, where meter-mounted transfer switches are not permitted at all.",
+      "on_the_job": "Check with the utility as well as the code: the meter is the utility's territory, and approval there is separate from the electrical inspection.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-014",
+        "C7-Q-008"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.5",
+      "next_id": "C7-702.5(C)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.5(C)",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.5(C)",
+      "title": "Documentation — short-circuit rating marked on the gear",
+      "plain_explanation": "On jobs other than dwelling units, the short-circuit current rating of the transfer equipment has to be field marked on the outside of the equipment. The person maintaining or replacing that gear years later should not need the original submittal to learn what fault duty it was built for.",
+      "on_the_job": "Carry a marker and the rating from the equipment data to every non-dwelling transfer install, and photograph the finished marking for the job record.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-015",
+        "C7-Q-009"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.5(B)",
+      "next_id": "C7-702.5(D)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.5(D)",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.5(D)",
+      "title": "Inadvertent interconnection — the heart of 702.5",
+      "plain_explanation": "Transfer equipment has to be suitable for the job, listed, and designed and installed so that all sources of supply can never be inadvertently interconnected in any operation of the equipment. This is the rule that kills backfeeding: a generator pushing power out through the service can energize a line a utility crew believes is dead. The listing requirement in this paragraph is the 2020 change that unlisted interlock hardware runs into.",
+      "on_the_job": "Test the finished install through every switch position, not just the normal one. The duty covers any operation of the equipment, including the sloppy one nobody planned.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-089",
+        "C7-L-016",
+        "C7-Q-007"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.5(C)",
+      "next_id": "C7-702.5(E)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.5(E)",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.5(E)",
+      "title": "Parallel installation — Article 705 takes over",
+      "plain_explanation": "Transfer equipment and power production systems that are installed to run in parallel with the normal source also have to meet Article 705. A standby source that only ever replaces the utility is a 702 job; the moment a source is meant to operate alongside the utility, the interconnection rules join the transfer rules.",
+      "on_the_job": "Ask one question on every generator quote: will this source ever run in parallel with the utility? If yes, price and wire it as a 705 interconnection too.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-017"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.5(D)",
+      "next_id": "C7-702.7",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.7",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.7",
+      "title": "Signs — standby sources, and the power inlet sign",
+      "plain_explanation": "Signs close the loop that transfer equipment starts. At service equipment, a sign identifies the type and location of each on-site optional standby source — for a house, the sign sits at the 230.85 emergency disconnect and points to the permanently installed standby source disconnect or the means to shut down the prime mover. Where a power inlet is used for a portable generator, a sign at the inlet states which kind of generator system may be connected there: a separately derived (bonded neutral) system only, or a nonseparately derived (floating neutral) system only.",
+      "on_the_job": "Two different signs, two different jobs: the service sign says where the source is; the inlet sign says what kind of neutral arrangement the inlet accepts. Check the generator's neutral bonding before you letter the inlet sign.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "O-09",
+        "C7-L-018",
+        "C7-L-019",
+        "C7-L-023",
+        "C7-Q-010"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.5(E)",
+      "next_id": "C7-702.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.10",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.10",
+      "title": "Wiring — optional standby wiring may share raceways",
+      "plain_explanation": "Optional standby wiring is allowed to occupy the same raceways, cables, boxes and cabinets as other wiring. That permission is the opposite of the Article 700 rule, and it is one more reason the classification question comes first: the same physical run can be legal under 702 and a violation under 700.",
+      "on_the_job": "Use the permission, but keep the standby circuits identified in the panel directory so the next electrician knows what the generator feeds.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-022"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.7",
+      "next_id": "C7-702.12",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.12",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.12",
+      "title": "Outdoor generator sets — when a building disconnect is not required",
+      "plain_explanation": "For permanently installed generators and portable generators over 15 kW used outdoors, if the generator has a readily accessible disconnect within sight of the building it supplies, no extra disconnect is required at the building. For a portable generator of 15 kW or less connected through a flanged inlet, no disconnecting means is required at all. Both rules are about not duplicating a disconnect that already does the job — neither one removes the transfer-equipment duty in 702.5.",
+      "on_the_job": "Confirm the generator's own disconnect is readily accessible and within sight before you rely on the first rule, and confirm the rating and the flanged inlet before you rely on the second.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-020",
+        "C7-L-021",
+        "C7-Q-011"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.10",
+      "next_id": "C7-ART-705",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-705",
+      "chapter": 7,
+      "article": "705",
+      "section": "705",
+      "title": "Interconnected electric power production sources",
+      "plain_explanation": "Article 705 governs sources that operate in parallel with another source — most often a solar inverter, storage system or generator tied to a live utility service. It answers three practical questions: where may the source connect, how much current may the connection and the busbar carry, and how does everyone after you know the extra source exists. Connections land on the supply side under 705.11 or the load side under 705.12, and a power control system under 705.13 can change the math. Article 690 in Chapter 6 governs the solar array itself; this article governs its handshake with the premises wiring.",
+      "on_the_job": "Decide supply side or load side on paper first. The choice drives the overcurrent protection, the busbar math and the labels, in that order.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: a service panel in the middle, utility entering from the top, a solar inverter entering through a breaker at the far end of the bus, and a second sketch showing a supply-side tap ahead of the main.",
+      "related_ids": [
+        "L-092",
+        "Q-063",
+        "SP-16",
+        "C7-L-024",
+        "C7-L-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-702.12",
+      "next_id": "C7-705.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.10",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.10",
+      "title": "Identification of power sources — the directory",
+      "plain_explanation": "Where sources are interconnected, a permanent plaque or directory at the service equipment — or another approved, readily visible location — shows where every parallel power source disconnect is. The plaque carries the caution that multiple sources of power are present, and any diagram on it has to be oriented the way the building actually sits. This is the page a firefighter or a utility worker reads; it has to be right, not approximate.",
+      "on_the_job": "Walk the building and verify every disconnect location before the plaque is made. A directory that points to where the disconnect was planned, instead of where it is, fails its only job.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-025",
+        "C7-Q-016"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-705",
+      "next_id": "C7-705.11",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.11",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.11",
+      "title": "Supply-side source connections",
+      "plain_explanation": "A source may connect on the supply side of the service disconnect, at the points the service rules allow, under its own set of conditions for conductor sizing, overcurrent protection and grounding. A supply-side connection steps around the panelboard busbar limits entirely, which is why it is the escape route when the 120 percent math in 705.12 will not close. It trades that freedom for service-level work: the connection is ahead of the main, so its protection and its disconnecting means have to be planned like service equipment.",
+      "on_the_job": "Price a supply-side tap as service work, with utility coordination, not as 'one more breaker.' If the busbar math fails, compare this route honestly against derating the main.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-024"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.10",
+      "next_id": "C7-705.12",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.12",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.12",
+      "title": "Load-side source connections — the shape of the rule",
+      "plain_explanation": "A source output may connect on the load side of the other source's service disconnect, at any distribution equipment on the premises. Where that equipment is fed by two sources at once and feeds branch circuits or feeders, the connection has to satisfy the sub-rules that follow: a dedicated breaker or fusible disconnect for each source, the busbar and conductor ampere-rating methods, marking of equipment that contains more than one source, breakers suitable for backfeed, and fastening where a backfed breaker could work loose. Where a power control system is installed under 705.13, the controller setting stands in for the source output current in these calculations.",
+      "on_the_job": "Work the sub-rules in order on the plan, not at the panel with the cover off. By trim-out, the breaker position and size are already decided by this section.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: a panel bus drawn vertically, main at the top, loads in the middle, source breaker at the bottom, with callouts for dedicated breaker, marking and hold-down.",
+      "related_ids": [
+        "L-092",
+        "Q-063",
+        "SP-16",
+        "C7-L-026",
+        "C7-L-032"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.11",
+      "next_id": "C7-705.12(A)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.12(A)",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.12(A)",
+      "title": "Dedicated overcurrent and disconnect — each source gets its own",
+      "plain_explanation": "Each source interconnection is made at its own dedicated circuit breaker or fusible disconnecting means. Two inverters do not share one breaker because the math happened to fit, and a source does not land on a breaker that also feeds a load. The dedicated device is both the overcurrent protection point and the place the source is disconnected.",
+      "on_the_job": "Count breakers on the takeoff the way the section counts sources: one source system, one dedicated device, every time.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-026",
+        "C7-Q-014"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.12",
+      "next_id": "C7-705.12(B)(3)(1)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.12(B)(3)(1)",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.12(B)(3)(1)",
+      "title": "The 100 percent busbar method — breaker anywhere",
+      "plain_explanation": "The plainest load-side method: 125 percent of the source output current, plus the rating of the overcurrent device protecting the busbar, must not exceed the busbar ampacity itself. Meet that sum and the source breaker may sit anywhere on the bus. Fail it and you do not argue with the arithmetic — you move to one of the other methods in 705.12(B)(3), derate something, or go to the supply side.",
+      "on_the_job": "Run this method first because it is the one with no position condition. Example in the lookup entries: on a 225A bus with a 200A main, this method leaves room for only a 20A inverter output, while the 120 percent method on the next page leaves much more.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-027",
+        "C7-Q-013"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.12(A)",
+      "next_id": "C7-705.12(B)(3)(2)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.12(B)(3)(2)",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.12(B)(3)(2)",
+      "title": "The 120 percent rule — sources at opposite ends",
+      "plain_explanation": "Where two sources sit at opposite ends of a busbar that carries loads, the same sum — 125 percent of the source output current plus the rating of the device protecting the busbar — may go up to 120 percent of the busbar ampacity. The busbar still has to be sized for the connected loads under Article 220. Because the allowance depends on position, a permanent warning label goes on the distribution equipment next to the backfed breaker, warning that it is a power source output connection and must not be relocated. On the common 200A bus with a 200A main, this method allows 40A of backfeed device capacity, which is a 32A inverter output — the worked example already in v1 as L-092 and Q-063.",
+      "on_the_job": "Three field checks, every time: sources truly at opposite ends, the math done with 125 percent of output (not the breaker size), and the do-not-relocate label on before inspection. Moving that breaker 'a couple of spaces' on a later service call quietly breaks the method.",
+      "sharma_note": "S-03 matters here on existing work: in an existing Square D panel, the backfed breaker is a Square D breaker listed for that panel — the 120 percent math never licenses a mixed-brand breaker.",
+      "figure_idea": "Original diagram: a horizontal busbar, utility breaker at the left end, solar breaker at the right end, loads tapped between them, and the warning label drawn beside the solar breaker.",
+      "related_ids": [
+        "L-092",
+        "Q-063",
+        "SP-16",
+        "S-03",
+        "C7-L-028",
+        "C7-L-029",
+        "C7-L-031",
+        "C7-Q-012"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.12(B)(3)(1)",
+      "next_id": "C7-705.12(B)(3)(3)",
+      "sharma_rule_ids": [
+        "S-03"
+      ]
+    },
+    {
+      "id": "C7-705.12(B)(3)(3)",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.12(B)(3)(3)",
+      "title": "The sum-of-breakers method",
+      "plain_explanation": "A third load-side method ignores the main breaker rating and adds up the ampere ratings of all the overcurrent devices on the panelboard — load and supply devices together, excluding the device protecting the busbar — and that total must not exceed the busbar ampacity. Equipment using this method carries permanent warning labels at the distribution equipment identifying that all sources are present. It fits panels where the breaker population, not the main, is the honest limit.",
+      "on_the_job": "Count every breaker that is actually in the panel, including the source breaker, and write the sum in the job record. A panel that passes today can fail this method after one added circuit.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-030"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.12(B)(3)(2)",
+      "next_id": "C7-705.13",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.13",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.13",
+      "title": "Power control systems — a listed controller can limit the current",
+      "plain_explanation": "New in the 2020 code, this section recognizes a power control system: listed equipment that monitors and limits how much current a source puts onto conductors and busbars. Where one is installed, its controller setting is treated as the source output current for the 705.11 and 705.12 calculations, so a system set to a lower limit can fit a panel the raw inverter rating could not. The section also guards the settings themselves, because the whole method stands on the setting staying where it was set.",
+      "on_the_job": "Record the controller setting in the job file and on the labels the design calls for. If nobody wrote the setting down, nobody can prove the method later.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-033",
+        "C7-Q-015"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.12(B)(3)(3)",
+      "next_id": "C7-705.20",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.20",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.20",
+      "title": "Disconnecting means for sources",
+      "plain_explanation": "Every interconnected source needs a disconnecting means that meets this section, which in 2020 gathered the source disconnect rules into one place. The disconnect has to separate the source from the conductors of the other systems, and where a disconnect that unqualified people can reach would expose live parts when open, it has to be locked or need a tool to open. A source that can energize a panel from the far end is exactly the surprise this section exists to remove.",
+      "on_the_job": "Land the disconnect where the 705.10 directory says it is, and check the open-position condition: terminals that stay live get the warning the equipment rules call for.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-034"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.13",
+      "next_id": "C7-705.30",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.30",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.30",
+      "title": "Overcurrent protection — interconnected sources",
+      "plain_explanation": "Conductors and equipment on an interconnected system get overcurrent protection under this section, working with the circuit-current sizing earlier in the article and with Article 240. A conductor fed from both ends can be overcurrented from either direction, so protection is planned for the source output the same way it is planned for a utility feed. Device ratings follow the calculated source currents, with the continuous-output factor built in.",
+      "on_the_job": "Size the source output conductors and their protection from the inverter's rated output on the nameplate, not from what the array produced on a cloudy site visit.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-034"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.20",
+      "next_id": "C7-ART-706",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-706",
+      "chapter": 7,
+      "article": "706",
+      "section": "706",
+      "title": "Energy storage systems — batteries under the code",
+      "plain_explanation": "Article 706 covers energy storage systems over 1 kWh that can feed a premises wiring system, on their own or alongside other sources. Only qualified persons install and maintain these systems, each system is listed, and its nameplate carries the ratings the installer and the inspector both work from. The two hazards that shape the article are stored energy that is still live when everything looks off, and fault current a battery bank can deliver without any utility behind it. Dwellings get extra attention: the disconnect a first responder can reach, and limits on the dc voltage inside the home, both appear in this article's rules.",
+      "on_the_job": "Treat every ESS terminal as live until you have proved otherwise with a meter. 'The inverter is off' is not a test result.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: a battery cabinet, an inverter and a panel, with a bold disconnect symbol between the batteries and everything else, and a 'stored energy stays live' callout on the battery side.",
+      "related_ids": [
+        "C7-L-035",
+        "C7-L-036",
+        "C7-L-038",
+        "C7-Q-017",
+        "C7-Q-018"
+      ],
+      "florida_note": "Florida note: hurricane-driven battery work is arriving in houses that were never designed for it. The ESS rules in this article, plus the fire-code siting the AHJ enforces, both apply — ask the AHJ about location limits before the batteries are set.",
+      "verified": true,
+      "prev_id": "C7-705.30",
+      "next_id": "C7-706.7",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-706.7",
+      "chapter": 7,
+      "article": "706",
+      "section": "706.7",
+      "title": "Commissioning and maintenance — energy storage",
+      "plain_explanation": "Away from one- and two-family dwellings, an energy storage system is commissioned when it is installed, and every system is kept maintained in proper and safe operating condition following the manufacturer instructions and industry standards. Storage is not fit-and-forget equipment: connections, ventilation, controls and firmware all age.",
+      "on_the_job": "Hand over the commissioning record and the maintenance instructions with the job. If the owner cannot say who maintains the system, that conversation happens at sale, not at the first fault.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-036"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-706",
+      "next_id": "C7-706.15",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-706.15",
+      "chapter": 7,
+      "article": "706",
+      "section": "706.15",
+      "title": "Disconnecting means — energy storage systems",
+      "plain_explanation": "A disconnecting means has to separate the storage system from the other power sources, the utilization equipment and the premises wiring, and integral disconnects in listed equipment can do that job. The disconnect is readily accessible, at the system or within sight of it, it plainly shows whether it is open or closed, and it is permanently marked as the energy storage system disconnect, with the system's nominal ac voltage, maximum dc voltage and available fault current marked where the section requires them. For a house, the disconnect or its remote control sits at a readily accessible spot outside the building, where responders can reach it.",
+      "on_the_job": "Mark it, then stand at the service and ask: could a responder who has never seen this house find and open this disconnect? If not, the install is not finished.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-037",
+        "C7-Q-017"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-706.7",
+      "next_id": "C7-706.30",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-706.30",
+      "chapter": 7,
+      "article": "706",
+      "section": "706.30",
+      "title": "Circuit sizing and overcurrent protection — storage circuits",
+      "plain_explanation": "Storage circuit currents come from the nameplate ratings, and the overcurrent protection that follows in 706.31 has to be rated for the duty it will actually see — on the dc side, devices listed for dc with the right voltage, current and interrupting ratings. Battery circuits punish borrowed ac-only habits: a device that cannot interrupt dc fault current is not protection, whatever its amp number says.",
+      "on_the_job": "Read the dc rating on every fuse and breaker in a battery circuit out loud during rough-in inspection of your own work. If it does not say dc, it comes out.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-036"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-706.15",
+      "next_id": "C7-ART-708",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-708",
+      "chapter": 7,
+      "article": "708",
+      "section": "708",
+      "title": "Critical operations power systems (COPS)",
+      "plain_explanation": "Article 708 covers power systems for facilities an AHJ or governmental authority has designated as critical operations areas — places like certain 911 and emergency operations centers, critical infrastructure and national-security functions, where losing power is a public-safety event, not an inconvenience. The article layers extra reliability, testing, documentation and risk-assessment duties on top of the standby ideas in Articles 700 to 702. Sharma's residential and light-commercial work will rarely be designated COPS, and the practical skill is recognizing the designation on the rare job that carries it.",
+      "on_the_job": "If the drawings or the owner say 'critical operations,' stop and confirm the designation and who designated it. A big generator alone does not make a job a 708 job.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-001"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-706.30",
+      "next_id": "C7-ART-710",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-710",
+      "chapter": 7,
+      "article": "710",
+      "section": "710",
+      "title": "Stand-Alone systems — power with no utility to lean on",
+      "plain_explanation": "Article 710 covers systems that operate in island mode, not connected to a power production and distribution network: the off-grid house, the remote pump, the microgrid that runs alone. Because there is no utility behind the source, the article lets the supply be smaller than a normal calculated load — but never smaller than the realities on its own pages. Sources combine freely here (solar, storage, generator), and the same equipment often also appears under Articles 702, 705 and 706 when it works alongside a utility, so the first job is deciding which mode the system is actually in.",
+      "on_the_job": "Ask whether the utility exists on this job at all. 'No utility, ever' is 710; 'utility plus backup' is 702 or 705, and the sizing rules differ.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-039",
+        "C7-L-040"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-708",
+      "next_id": "C7-710.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-710.10",
+      "chapter": 7,
+      "article": "710",
+      "section": "710.10",
+      "title": "Identification of power sources — stand-alone systems",
+      "plain_explanation": "New in the 2020 code, this section requires the power sources of a stand-alone system to be identified, the same instinct as the 705.10 directory: anyone working on or responding to the building can find every source and its disconnect. On a system with solar, batteries and a generator scattered around a property, the identification is the difference between a safe shutdown and a scavenger hunt.",
+      "on_the_job": "List every source on the identification, including the small generator in the shed that 'only feeds the barn.' If it can energize the wiring, it belongs on the list.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-040"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-710",
+      "next_id": "C7-710.15",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-710.15",
+      "chapter": 7,
+      "article": "710",
+      "section": "710.15",
+      "title": "General rules — sizing a stand-alone supply",
+      "plain_explanation": "Premises wiring fed by a stand-alone system still has to meet the code the way a feeder- or service-fed installation does, with the modifications on this page. The supply may be smaller than the Article 220 calculated load, but the combined capacity of all the stand-alone sources must at least equal the load of the largest single piece of utilization equipment connected — general lighting load does not count as that single load. The 2020 code also expressly permits these systems to supply three-phase, three-wire or four-wire loads.",
+      "on_the_job": "Build the load list around the largest motor or appliance first, including its starting demand in the real-world conversation with the inverter maker. A system that cannot start its own well pump is undersized by this section's own test.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-039",
+        "C7-Q-019"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-710.10",
+      "next_id": "C7-ART-712",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-712",
+      "chapter": 7,
+      "article": "712",
+      "section": "712",
+      "title": "Direct-current microgrids",
+      "plain_explanation": "Article 712, confirmed in the printed 2020 table of contents, covers dc microgrids: systems that distribute dc power from dc sources to dc loads, with converters tying them to ac systems where needed. It is a young article for a young technology, and Sharma's Florida work has not hit one yet. It earns its place in this book so the reader recognizes the article number and does not mistake a dc microgrid for an Article 710 stand-alone system or a 705 interconnection, which it can sit alongside.",
+      "on_the_job": "If a plan set shows a dc bus feeding loads, find this article before you assume the familiar ac rules answer everything.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-040"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-710.15",
+      "next_id": "C7-712.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-712.10",
+      "chapter": 7,
+      "article": "712",
+      "section": "712.10",
+      "title": "Directory — dc microgrid sources",
+      "plain_explanation": "A directory provision for dc microgrids appears in the 2020 code-changes material under this number, pointing the reader to where the microgrid's source disconnects are, in the same spirit as 705.10 and 710.10. The exact wording was not re-checked against the printed 2020 text for this pass, so this page is carried as unverified and the substance should be confirmed before it is relied on.",
+      "on_the_job": "Treat this page as a signpost, not a citation: confirm the directory wording in the printed book before putting it on a plan or a quiz.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C7-ART-712",
+      "next_id": "C7-ART-720",
+      "sharma_rule_ids": [],
+      "unverified_reason": "Section number and existence seen in a 2020 NEC code-changes course outline (712.2 definitions, 712.10 directory listed as changed sections); wording not re-checked against the printed NEC 2020 text or a handbook excerpt in this pass."
+    },
+    {
+      "id": "C7-ART-720",
+      "chapter": 7,
+      "article": "720",
+      "section": "720",
+      "title": "Circuits and equipment operating at less than 50 volts",
+      "plain_explanation": "Article 720 is the small general article for circuits and equipment running under 50 volts, ac or dc, that are not claimed by a more specific article. Most low-voltage work Sharma does is claimed: thermostats and controls by Article 725, fire alarm by 760, communications by Chapter 8. Article 720 is what remains — and its existence is the reminder to check which article actually owns a low-voltage circuit before wiring it like a bell circuit from habit.",
+      "on_the_job": "Name the owning article for every low-voltage run on the plan. 'Low voltage' is a description, not a wiring method.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-041"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-712.10",
+      "next_id": "C7-ART-725",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-725",
+      "chapter": 7,
+      "article": "725",
+      "section": "725",
+      "title": "Class 1, Class 2 and Class 3 circuits — controls and signaling",
+      "plain_explanation": "Article 725 sorts remote-control, signaling and power-limited circuits into three classes, and the class comes from the power source, not from the wire in your hand. Class 1 circuits can carry serious energy and are wired much like power circuits. Class 2 circuits are limited so strictly that they are treated as safe from both shock and fire initiation — the thermostat, the doorbell, most controls. Class 3 circuits allow more voltage and power than Class 2, stay limited against fire, and need added protection against shock. The relaxed wiring methods in this article are earned by the listed power source; change the source and you may have changed the class.",
+      "on_the_job": "On every controls job, find the power source and read its label before you choose a cable. No listed Class 2 source, no Class 2 wiring methods.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: three source boxes labelled Class 1, Class 2 and Class 3 feeding the same thermostat sketch, with the Class 2 box highlighted and the words 'the source makes the class' underneath.",
+      "related_ids": [
+        "C7-L-041",
+        "C7-L-042",
+        "C7-L-046",
+        "C7-Q-020",
+        "C7-Q-021"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-720",
+      "next_id": "C7-725.2",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-725.2",
+      "chapter": 7,
+      "article": "725",
+      "section": "725.2",
+      "title": "Definitions — what makes a circuit Class 2 or Class 3",
+      "plain_explanation": "The definitions draw the line this whole article stands on. A Class 2 circuit is the wiring between a Class 2 power source and its equipment, with power limited tightly enough that the circuit is considered safe against both electric shock and starting a fire. A Class 3 circuit is limited against fire initiation, but its voltage and power can still present a shock hazard, so added protection is part of the deal. A Class 1 circuit is everything in this family that is not power-limited that way, including remote-control and signaling circuits that can run up to 600 volts.",
+      "on_the_job": "When a helper asks why two identical-looking cables get treated differently, the answer is on the source label, and this definition is why.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-041",
+        "C7-Q-020"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-725",
+      "next_id": "C7-725.121",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-725.121",
+      "chapter": 7,
+      "article": "725",
+      "section": "725.121",
+      "title": "Power sources for Class 2 and Class 3 circuits",
+      "plain_explanation": "A Class 2 or Class 3 circuit has to be fed from a source this section recognizes: a listed Class 2 or Class 3 transformer, a listed Class 2 or Class 3 power supply, other listed equipment marked to identify it as the Class 2 or Class 3 source, or one of the other sources the section names, such as certain dry-cell battery supplies. A random wall-wart or an unmarked transformer does not create a Class 2 circuit, however small its output looks. The listing and the marking are the circuit's papers.",
+      "on_the_job": "Photograph the source label for the job record on controls work. At final inspection, that label is the fastest proof of what class the circuit is.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-042",
+        "C7-Q-020"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-725.2",
+      "next_id": "C7-725.130",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-725.130",
+      "chapter": 7,
+      "article": "725",
+      "section": "725.130",
+      "title": "Wiring methods on the load side of the source",
+      "plain_explanation": "On the load side of a Class 2 or Class 3 source, the wiring methods relax: the listed cable types for these circuits — the CL2 and CL3 families, power-limited tray cable and their permitted substitutions — may be installed without the raceways and boxes ordinary power wiring needs, following the application rules for the cable chosen. The supply side of the source is wired under the normal chapters; only the limited-energy side earns the relaxed methods. Cable choice still follows the building space it runs through, the way plenum and riser choices do elsewhere in the book.",
+      "on_the_job": "Keep the line straight in the field: full wiring methods up to the source, Class 2 or 3 cable methods after it. Blurring that line at the source is the most common controls rough-in mistake.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-042"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-725.121",
+      "next_id": "C7-725.136",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-725.136",
+      "chapter": 7,
+      "article": "725",
+      "section": "725.136",
+      "title": "Separation from power conductors — the general rule",
+      "plain_explanation": "Class 2 and Class 3 cables and conductors are not placed in the same cable, raceway, enclosure, box or similar fitting as electric light, power, Class 1, non-power-limited fire alarm or medium-power broadband conductors, unless one of the permissions in this section applies. The standing permissions are separation by a barrier, the tight rules for conductors that enter the same equipment, and the spacing rule for other applications on the next page. This section, and the 2-inch figure inside it, were re-checked against 2020 sources for this pass; the figure is real, but it belongs to one paragraph of this section, not to every low-voltage run.",
+      "on_the_job": "Default field rule: give Class 2 and 3 runs their own path. Then use the permissions on purpose, by name, when a shared box or a tight route is unavoidable.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: a device box split by a barrier, power conductors on one side and a thermostat cable on the other, with a second sketch showing the two cable families in separate raceways.",
+      "related_ids": [
+        "C7-L-043",
+        "C7-L-044",
+        "C7-L-046",
+        "C7-Q-021",
+        "C7-Q-022"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-725.130",
+      "next_id": "C7-725.136(I)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-725.136(I)",
+      "chapter": 7,
+      "article": "725",
+      "section": "725.136(I)",
+      "title": "Other applications — the 2-inch spacing rule",
+      "plain_explanation": "For applications outside enclosures and equipment, Class 2 and Class 3 conductors are separated by at least 2 inches from conductors of electric light, power, Class 1, non-power-limited fire alarm and medium-power broadband circuits — unless one side or the other is in a raceway or in a metal-sheathed, metal-clad, nonmetallic-sheathed or Type UF cable, or the two are permanently separated by a suitable insulating barrier or tubing. The parallel rule for communications circuits lives in Chapter 8 at 800.133(A)(2), and it is also 2 inches, with its own raceway and cable exceptions. Two inches is a spacing for open runs, not a license to share a box, and not a number to apply where a barrier rule already governs.",
+      "on_the_job": "Carry the exceptions with the number: NM cable on the power side, or a raceway on either side, satisfies the condition without the open-air spacing. When neither side has that protection, hold the 2 inches along the run.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-044",
+        "C7-L-045",
+        "C7-Q-021",
+        "C7-Q-023"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-725.136",
+      "next_id": "C7-ART-727",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-727",
+      "chapter": 7,
+      "article": "727",
+      "section": "727",
+      "title": "Instrumentation tray cable — Type ITC",
+      "plain_explanation": "Article 727 covers instrumentation tray cable, the factory assembly of insulated conductors in a flame-retardant jacket used for instrumentation and control circuits in tray, largely in industrial work. Sharma's residential and light-commercial crews will meet it rarely, if ever, but the article sits between 725 and 728 in the printed book and the reader should know what the cable is when a commercial plan calls it out. It is not a substitute for a Class 2 cable job, and its permitted uses follow its own article.",
+      "on_the_job": "If a plan specifies ITC, price and order it as its own wiring method. Do not value-engineer it into thermostat wire.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-725.136(I)",
+      "next_id": "C7-ART-728",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-728",
+      "chapter": 7,
+      "article": "728",
+      "section": "728",
+      "title": "Fire-resistive cable systems",
+      "plain_explanation": "Article 728 covers fire-resistive cable systems: listed systems, cable included, that are built and installed to keep critical circuits working through a rated period of fire exposure. These are the systems behind circuit-integrity cable on life-safety feeders, installed exactly as the system listing describes, supports and all. The listing is a system, not just a cable, so field substitutions break the rating even when the cable itself looks identical.",
+      "on_the_job": "On a fire-resistive job, the listing instructions are part of the spec. Photograph supports and terminations as you go; the rating lives in those details.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-727",
+      "next_id": "C7-ART-750",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-750",
+      "chapter": 7,
+      "article": "750",
+      "section": "750",
+      "title": "Energy management systems",
+      "plain_explanation": "Article 750 covers energy management systems: equipment that monitors and controls how a building uses energy, including the load-management systems that Articles 702 and 705 lean on when a generator or a panel is deliberately run below its unmanaged peak. The article's guardrail is that managing energy never means defeating safety: controls may shed, schedule and limit loads within their listings, and the overcurrent and disconnect rules of the rest of the book still stand behind them.",
+      "on_the_job": "When you install load management for a generator job, you are installing a 750 system doing a 702 job. Set it, record the settings, and leave them where only the right people can change them.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-011",
+        "C7-L-033"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-728",
+      "next_id": "C7-ART-760",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-760",
+      "chapter": 7,
+      "article": "760",
+      "section": "760",
+      "title": "Fire alarm systems — wiring and power",
+      "plain_explanation": "Article 760 covers the installation of wiring and equipment for fire alarm systems, including the circuits the fire alarm system controls and powers: detection, notification, sprinkler waterflow and supervisory signals, and functions like door release and elevator control that the alarm commands. System design, device placement and testing live in NFPA 72; this article governs how the wiring and power are installed. Every fire alarm circuit is one of two kinds — non-power-limited or power-limited — and the kind comes from its power source, exactly the way Article 725 classes come from theirs.",
+      "on_the_job": "First question on alarm work: which circuits are NPLFA and which are PLFA? The answer picks the cable, the wiring method and the separation rules for every run.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: a fire alarm control panel in the center, a riser going up with initiating circuits on one side and notification circuits on the other, each labelled with its circuit class. Describe only; do not copy a manufacturer's riser.",
+      "related_ids": [
+        "C7-L-047",
+        "C7-L-048",
+        "C7-L-050",
+        "C7-Q-024",
+        "C7-Q-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-750",
+      "next_id": "C7-760.30",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-760.30",
+      "chapter": 7,
+      "article": "760",
+      "section": "760.30",
+      "title": "Fire alarm circuit identification",
+      "plain_explanation": "Fire alarm circuits are identified at terminal and junction locations, in a way that helps keep testing and work on other systems from putting false signals onto the alarm circuits. Alarm wiring that nobody can tell apart from everything else in a ceiling is an invitation to the next trade to disturb it.",
+      "on_the_job": "Identify as you terminate, at every junction a later electrician might open. The identification is part of the install, not paperwork for the end of the job.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-047"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-ART-760",
+      "next_id": "C7-760.35",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-760.35",
+      "chapter": 7,
+      "article": "760",
+      "section": "760.35",
+      "title": "Circuit requirements — NPLFA follows Parts I and II, PLFA follows Parts I and III",
+      "plain_explanation": "This short section is the article's traffic cop. Non-power-limited fire alarm circuits comply with the general part and the NPLFA part of the article; power-limited circuits comply with the general part and the PLFA part. Reading a rule from the wrong part is the classic Article 760 error, because the two families allow different cables, different protection and different installation methods.",
+      "on_the_job": "Before you cite any 760 rule on a job, say out loud which family the circuit is in. Half the article only applies to the other family.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-047",
+        "C7-Q-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-760.30",
+      "next_id": "C7-760.41",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-760.41",
+      "chapter": 7,
+      "article": "760",
+      "section": "760.41",
+      "title": "NPLFA circuit power source requirements",
+      "plain_explanation": "A non-power-limited fire alarm circuit is powered from a source that follows the normal wiring chapters, with output voltage not over 600 volts nominal. The branch circuit feeding the fire alarm equipment feeds nothing else, and the fire alarm circuit disconnect is allowed to be secured in the on position so a casual hand cannot silence the system's power. NPLFA circuits carry real energy, which is why their conductors and protection are handled on the next pages like power wiring, not like bell wire.",
+      "on_the_job": "Dedicate the branch circuit and label it. If another load wants that circuit later, the answer is no, and this section is the reason you give.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-047",
+        "C7-Q-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-760.35",
+      "next_id": "C7-760.43",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-760.43",
+      "chapter": 7,
+      "article": "760",
+      "section": "760.43",
+      "title": "NPLFA overcurrent protection — small conductors, small limits",
+      "plain_explanation": "Overcurrent protection for non-power-limited fire alarm circuits follows conductor ampacity for conductors 14 AWG and larger, and it is capped tighter for the small conductors alarm work loves: not over 7 amps for 18 AWG and not over 10 amps for 16 AWG. The device sits where the conductor gets its supply, the way overcurrent protection normally does.",
+      "on_the_job": "Check the breaker against the smallest conductor on the run, not the largest. An 18 AWG alarm leg on a 20A breaker is the exact failure this section names.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-049"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-760.41",
+      "next_id": "C7-760.121",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-760.121",
+      "chapter": 7,
+      "article": "760",
+      "section": "760.121",
+      "title": "Power sources for PLFA circuits — and the red breaker",
+      "plain_explanation": "A power-limited fire alarm circuit is fed from a listed PLFA transformer, a listed PLFA power supply, or listed equipment marked to identify its PLFA source — a fire alarm control panel with an integral source is the everyday example. The branch circuit behind that source feeds no other loads, its overcurrent device is identified in red, is accessible only to qualified personnel, and is marked as the fire alarm circuit, with the device identified at the fire alarm control unit. The red breaker is how the next electrician, and the building's own staff, learn in one glance which breaker must never be casually borrowed or switched.",
+      "on_the_job": "Use the red identification and the panel marking on every alarm job, and verify the branch circuit truly serves nothing else before you sign the panel schedule.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-048",
+        "C7-L-050",
+        "C7-Q-024"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-760.43",
+      "next_id": "C7-760.135",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-760.135",
+      "chapter": 7,
+      "article": "760",
+      "section": "760.135",
+      "title": "Installation of PLFA cables in buildings",
+      "plain_explanation": "Power-limited fire alarm cables are installed by application: this section, working with the cable application and substitution tables later in the article, matches each listed cable type to where it may run — plenums, risers, trays, raceways and general building spaces. The method is table-driven on purpose: the cable's fire listing, not its color or its price, decides where it belongs. Circuit-integrity cable appears in this family where a design calls for circuits that must survive fire exposure, and it is installed as its listing directs.",
+      "on_the_job": "Read the cable jacket legend, find its row in the application table, then run it. Never decide a plenum or riser question from the cable's color.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-047"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-760.121",
+      "next_id": "C7-ART-770",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-770",
+      "chapter": 7,
+      "article": "770",
+      "section": "770",
+      "title": "Optical fiber cables",
+      "plain_explanation": "Article 770, the last article of Chapter 7, covers the installation of optical fiber cables — glass or plastic fibers carrying light instead of current. Fiber cannot shock anyone or start a fire with its signal, so the article's real subjects are the cable's fire and smoke listing for the space it runs through, and what happens when fiber shares raceways and enclosures with conductors that do carry energy, especially conductive fiber cables with metallic strength members. Communications fiber also appears in Chapter 8's world; this article is fiber's home for installation rules.",
+      "on_the_job": "Treat a conductive fiber cable's metal member with the same respect as a conductor until you have confirmed how it is terminated and bonded. The light in the fiber is harmless; the metal around it is not automatically so.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-045"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-760.135",
+      "next_id": null,
+      "sharma_rule_ids": []
+    }
+  ],
+  "toc": [
+    {
+      "id": "C7-ART-700",
+      "article": "700",
+      "title": "Emergency systems — the life-safety tier",
+      "children": [
+        {
+          "id": "C7-700.3",
+          "section": "700.3",
+          "title": "Tests and maintenance — emergency systems"
+        },
+        {
+          "id": "C7-700.4",
+          "section": "700.4",
+          "title": "Capacity and rating — emergency systems"
+        },
+        {
+          "id": "C7-700.5",
+          "section": "700.5",
+          "title": "Transfer equipment — emergency systems"
+        },
+        {
+          "id": "C7-700.7",
+          "section": "700.7",
+          "title": "Signs — emergency sources"
+        },
+        {
+          "id": "C7-700.8",
+          "section": "700.8",
+          "title": "Surge protection — emergency systems"
+        },
+        {
+          "id": "C7-700.10",
+          "section": "700.10",
+          "title": "Wiring — emergency systems stay identified and apart"
+        },
+        {
+          "id": "C7-700.12",
+          "section": "700.12",
+          "title": "Sources of power — available in 10 seconds"
+        },
+        {
+          "id": "C7-700.15",
+          "section": "700.15",
+          "title": "Loads on emergency branch circuits"
+        },
+        {
+          "id": "C7-700.32",
+          "section": "700.32",
+          "title": "Selective coordination — emergency systems"
+        }
+      ]
+    },
+    {
+      "id": "C7-ART-701",
+      "article": "701",
+      "title": "Legally required standby systems — the middle tier",
+      "children": [
+        {
+          "id": "C7-701.5",
+          "section": "701.5",
+          "title": "Transfer equipment — legally required standby"
+        },
+        {
+          "id": "C7-701.10",
+          "section": "701.10",
+          "title": "Wiring — legally required standby may share raceways"
+        },
+        {
+          "id": "C7-701.12",
+          "section": "701.12",
+          "title": "Sources of power — available in 60 seconds"
+        }
+      ]
+    },
+    {
+      "id": "C7-ART-702",
+      "article": "702",
+      "title": "Optional standby systems — home and business generators",
+      "children": [
+        {
+          "id": "C7-702.4(A)",
+          "section": "702.4(A)",
+          "title": "Available fault current — optional standby equipment"
+        },
+        {
+          "id": "C7-702.4(B)",
+          "section": "702.4(B)",
+          "title": "System capacity — the sizing fork in Article 702"
+        },
+        {
+          "id": "C7-702.4(B)(1)",
+          "section": "702.4(B)(1)",
+          "title": "Manual transfer — the user selects the load"
+        },
+        {
+          "id": "C7-702.4(B)(2)",
+          "section": "702.4(B)(2)",
+          "title": "Automatic transfer — full load, or load management"
+        },
+        {
+          "id": "C7-702.5",
+          "section": "702.5",
+          "title": "Transfer equipment — required, listed, and built to keep sources apart"
+        },
+        {
+          "id": "C7-702.5(B)",
+          "section": "702.5(B)",
+          "title": "Meter-mounted transfer switches"
+        },
+        {
+          "id": "C7-702.5(C)",
+          "section": "702.5(C)",
+          "title": "Documentation — short-circuit rating marked on the gear"
+        },
+        {
+          "id": "C7-702.5(D)",
+          "section": "702.5(D)",
+          "title": "Inadvertent interconnection — the heart of 702.5"
+        },
+        {
+          "id": "C7-702.5(E)",
+          "section": "702.5(E)",
+          "title": "Parallel installation — Article 705 takes over"
+        },
+        {
+          "id": "C7-702.7",
+          "section": "702.7",
+          "title": "Signs — standby sources, and the power inlet sign"
+        },
+        {
+          "id": "C7-702.10",
+          "section": "702.10",
+          "title": "Wiring — optional standby wiring may share raceways"
+        },
+        {
+          "id": "C7-702.12",
+          "section": "702.12",
+          "title": "Outdoor generator sets — when a building disconnect is not required"
+        }
+      ]
+    },
+    {
+      "id": "C7-ART-705",
+      "article": "705",
+      "title": "Interconnected electric power production sources",
+      "children": [
+        {
+          "id": "C7-705.10",
+          "section": "705.10",
+          "title": "Identification of power sources — the directory"
+        },
+        {
+          "id": "C7-705.11",
+          "section": "705.11",
+          "title": "Supply-side source connections"
+        },
+        {
+          "id": "C7-705.12",
+          "section": "705.12",
+          "title": "Load-side source connections — the shape of the rule"
+        },
+        {
+          "id": "C7-705.12(A)",
+          "section": "705.12(A)",
+          "title": "Dedicated overcurrent and disconnect — each source gets its own"
+        },
+        {
+          "id": "C7-705.12(B)(3)(1)",
+          "section": "705.12(B)(3)(1)",
+          "title": "The 100 percent busbar method — breaker anywhere"
+        },
+        {
+          "id": "C7-705.12(B)(3)(2)",
+          "section": "705.12(B)(3)(2)",
+          "title": "The 120 percent rule — sources at opposite ends"
+        },
+        {
+          "id": "C7-705.12(B)(3)(3)",
+          "section": "705.12(B)(3)(3)",
+          "title": "The sum-of-breakers method"
+        },
+        {
+          "id": "C7-705.13",
+          "section": "705.13",
+          "title": "Power control systems — a listed controller can limit the current"
+        },
+        {
+          "id": "C7-705.20",
+          "section": "705.20",
+          "title": "Disconnecting means for sources"
+        },
+        {
+          "id": "C7-705.30",
+          "section": "705.30",
+          "title": "Overcurrent protection — interconnected sources"
+        }
+      ]
+    },
+    {
+      "id": "C7-ART-706",
+      "article": "706",
+      "title": "Energy storage systems — batteries under the code",
+      "children": [
+        {
+          "id": "C7-706.7",
+          "section": "706.7",
+          "title": "Commissioning and maintenance — energy storage"
+        },
+        {
+          "id": "C7-706.15",
+          "section": "706.15",
+          "title": "Disconnecting means — energy storage systems"
+        },
+        {
+          "id": "C7-706.30",
+          "section": "706.30",
+          "title": "Circuit sizing and overcurrent protection — storage circuits"
+        }
+      ]
+    },
+    {
+      "id": "C7-ART-708",
+      "article": "708",
+      "title": "Critical operations power systems (COPS)",
+      "children": []
+    },
+    {
+      "id": "C7-ART-710",
+      "article": "710",
+      "title": "Stand-Alone systems — power with no utility to lean on",
+      "children": [
+        {
+          "id": "C7-710.10",
+          "section": "710.10",
+          "title": "Identification of power sources — stand-alone systems"
+        },
+        {
+          "id": "C7-710.15",
+          "section": "710.15",
+          "title": "General rules — sizing a stand-alone supply"
+        }
+      ]
+    },
+    {
+      "id": "C7-ART-712",
+      "article": "712",
+      "title": "Direct-current microgrids",
+      "children": [
+        {
+          "id": "C7-712.10",
+          "section": "712.10",
+          "title": "Directory — dc microgrid sources"
+        }
+      ]
+    },
+    {
+      "id": "C7-ART-720",
+      "article": "720",
+      "title": "Circuits and equipment operating at less than 50 volts",
+      "children": []
+    },
+    {
+      "id": "C7-ART-725",
+      "article": "725",
+      "title": "Class 1, Class 2 and Class 3 circuits — controls and signaling",
+      "children": [
+        {
+          "id": "C7-725.2",
+          "section": "725.2",
+          "title": "Definitions — what makes a circuit Class 2 or Class 3"
+        },
+        {
+          "id": "C7-725.121",
+          "section": "725.121",
+          "title": "Power sources for Class 2 and Class 3 circuits"
+        },
+        {
+          "id": "C7-725.130",
+          "section": "725.130",
+          "title": "Wiring methods on the load side of the source"
+        },
+        {
+          "id": "C7-725.136",
+          "section": "725.136",
+          "title": "Separation from power conductors — the general rule"
+        },
+        {
+          "id": "C7-725.136(I)",
+          "section": "725.136(I)",
+          "title": "Other applications — the 2-inch spacing rule"
+        }
+      ]
+    },
+    {
+      "id": "C7-ART-727",
+      "article": "727",
+      "title": "Instrumentation tray cable — Type ITC",
+      "children": []
+    },
+    {
+      "id": "C7-ART-728",
+      "article": "728",
+      "title": "Fire-resistive cable systems",
+      "children": []
+    },
+    {
+      "id": "C7-ART-750",
+      "article": "750",
+      "title": "Energy management systems",
+      "children": []
+    },
+    {
+      "id": "C7-ART-760",
+      "article": "760",
+      "title": "Fire alarm systems — wiring and power",
+      "children": [
+        {
+          "id": "C7-760.30",
+          "section": "760.30",
+          "title": "Fire alarm circuit identification"
+        },
+        {
+          "id": "C7-760.35",
+          "section": "760.35",
+          "title": "Circuit requirements — NPLFA follows Parts I and II, PLFA follows Parts I and III"
+        },
+        {
+          "id": "C7-760.41",
+          "section": "760.41",
+          "title": "NPLFA circuit power source requirements"
+        },
+        {
+          "id": "C7-760.43",
+          "section": "760.43",
+          "title": "NPLFA overcurrent protection — small conductors, small limits"
+        },
+        {
+          "id": "C7-760.121",
+          "section": "760.121",
+          "title": "Power sources for PLFA circuits — and the red breaker"
+        },
+        {
+          "id": "C7-760.135",
+          "section": "760.135",
+          "title": "Installation of PLFA cables in buildings"
+        }
+      ]
+    },
+    {
+      "id": "C7-ART-770",
+      "article": "770",
+      "title": "Optical fiber cables",
+      "children": []
+    }
+  ],
+  "index": [
+    {
+      "term": "120 percent rule",
+      "ids": [
+        "C7-705.12(B)(3)(2)",
+        "C7-705.12"
+      ]
+    },
+    {
+      "term": "Backfed breaker, do not relocate",
+      "ids": [
+        "C7-705.12(B)(3)(2)"
+      ]
+    },
+    {
+      "term": "Busbar, 100 percent method",
+      "ids": [
+        "C7-705.12(B)(3)(1)"
+      ]
+    },
+    {
+      "term": "Busbar, sum of breakers method",
+      "ids": [
+        "C7-705.12(B)(3)(3)"
+      ]
+    },
+    {
+      "term": "Class 2 circuit, definition",
+      "ids": [
+        "C7-725.2",
+        "C7-ART-725"
+      ]
+    },
+    {
+      "term": "Class 2 power source, listed",
+      "ids": [
+        "C7-725.121"
+      ]
+    },
+    {
+      "term": "Class 3 circuit, definition",
+      "ids": [
+        "C7-725.2",
+        "C7-ART-725"
+      ]
+    },
+    {
+      "term": "Communications circuits, separation",
+      "ids": [
+        "C7-725.136(I)"
+      ]
+    },
+    {
+      "term": "Critical operations power systems (COPS)",
+      "ids": [
+        "C7-ART-708"
+      ]
+    },
+    {
+      "term": "DC microgrids",
+      "ids": [
+        "C7-ART-712",
+        "C7-712.10"
+      ]
+    },
+    {
+      "term": "Emergency disconnect, 230.85, vs generator shutdown",
+      "ids": [
+        "C7-702.7"
+      ]
+    },
+    {
+      "term": "Emergency systems",
+      "ids": [
+        "C7-ART-700",
+        "C7-700.12"
+      ]
+    },
+    {
+      "term": "Energy management systems",
+      "ids": [
+        "C7-ART-750"
+      ]
+    },
+    {
+      "term": "Energy storage systems (ESS)",
+      "ids": [
+        "C7-ART-706",
+        "C7-706.15"
+      ]
+    },
+    {
+      "term": "ESS disconnect",
+      "ids": [
+        "C7-706.15"
+      ]
+    },
+    {
+      "term": "Fire alarm, NPLFA",
+      "ids": [
+        "C7-760.35",
+        "C7-760.41",
+        "C7-760.43"
+      ]
+    },
+    {
+      "term": "Fire alarm, PLFA",
+      "ids": [
+        "C7-760.35",
+        "C7-760.121",
+        "C7-760.135"
+      ]
+    },
+    {
+      "term": "Fire alarm, red breaker",
+      "ids": [
+        "C7-760.121"
+      ]
+    },
+    {
+      "term": "Fire-resistive cable systems",
+      "ids": [
+        "C7-ART-728"
+      ]
+    },
+    {
+      "term": "Generator shutdown, 445.18(D)",
+      "ids": [
+        "C7-702.7"
+      ]
+    },
+    {
+      "term": "Generator, automatic transfer sizing",
+      "ids": [
+        "C7-702.4(B)(2)",
+        "C7-702.4(B)"
+      ]
+    },
+    {
+      "term": "Generator, manual transfer sizing",
+      "ids": [
+        "C7-702.4(B)(1)",
+        "C7-702.4(B)"
+      ]
+    },
+    {
+      "term": "Generator, outdoor set disconnect",
+      "ids": [
+        "C7-702.12"
+      ]
+    },
+    {
+      "term": "Inadvertent interconnection",
+      "ids": [
+        "C7-702.5(D)",
+        "C7-702.5"
+      ]
+    },
+    {
+      "term": "Instrumentation tray cable (ITC)",
+      "ids": [
+        "C7-ART-727"
+      ]
+    },
+    {
+      "term": "Interconnection, load-side",
+      "ids": [
+        "C7-705.12",
+        "C7-705.12(A)"
+      ]
+    },
+    {
+      "term": "Interconnection, supply-side",
+      "ids": [
+        "C7-705.11"
+      ]
+    },
+    {
+      "term": "Legally required standby systems",
+      "ids": [
+        "C7-ART-701",
+        "C7-701.12"
+      ]
+    },
+    {
+      "term": "Load management, generator",
+      "ids": [
+        "C7-702.4(B)(2)",
+        "C7-ART-750"
+      ]
+    },
+    {
+      "term": "Meter-mounted transfer switch",
+      "ids": [
+        "C7-702.5(B)"
+      ]
+    },
+    {
+      "term": "Optical fiber cables",
+      "ids": [
+        "C7-ART-770"
+      ]
+    },
+    {
+      "term": "Optional standby systems",
+      "ids": [
+        "C7-ART-702"
+      ]
+    },
+    {
+      "term": "Power control systems (PCS)",
+      "ids": [
+        "C7-705.13"
+      ]
+    },
+    {
+      "term": "Power inlet, generator",
+      "ids": [
+        "C7-702.7",
+        "C7-702.12"
+      ]
+    },
+    {
+      "term": "Selective coordination, emergency",
+      "ids": [
+        "C7-700.32"
+      ]
+    },
+    {
+      "term": "Separation, Class 2 and 3 from power",
+      "ids": [
+        "C7-725.136",
+        "C7-725.136(I)"
+      ]
+    },
+    {
+      "term": "Stand-alone systems",
+      "ids": [
+        "C7-ART-710",
+        "C7-710.15"
+      ]
+    },
+    {
+      "term": "Surge protection, emergency panels",
+      "ids": [
+        "C7-700.8"
+      ]
+    },
+    {
+      "term": "Thermostat wiring",
+      "ids": [
+        "C7-ART-725",
+        "C7-725.136(I)"
+      ]
+    },
+    {
+      "term": "Transfer equipment, emergency",
+      "ids": [
+        "C7-700.5"
+      ]
+    },
+    {
+      "term": "Transfer equipment, legally required standby",
+      "ids": [
+        "C7-701.5"
+      ]
+    },
+    {
+      "term": "Transfer equipment, optional standby",
+      "ids": [
+        "C7-702.5",
+        "C7-702.5(D)"
+      ]
+    },
+    {
+      "term": "Two-inch separation, low-voltage",
+      "ids": [
+        "C7-725.136(I)"
+      ]
+    },
+    {
+      "term": "Under 50 volts, circuits",
+      "ids": [
+        "C7-ART-720"
+      ]
+    }
+  ]
+}

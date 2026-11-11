@@ -1,0 +1,136 @@
+[
+  {
+    "room": "Standby Generator / Transfer",
+    "items": [
+      {
+        "id": "C7-G-01",
+        "text": "Classification written on the job record before gear is ordered: emergency (700), legally required (701), or optional (702), with who required it.",
+        "severity": "tip"
+      },
+      {
+        "id": "C7-G-02",
+        "text": "Transfer equipment is listed for the use, and its marking matches the classification — emergency and legally required gear is marked for that use, and meter-mounted switches are not used there.",
+        "severity": "code",
+        "nec_ref": "702.5"
+      },
+      {
+        "id": "C7-G-03",
+        "text": "Manual transfer job: the intended-load list the owner selected is signed off in the job record, and the generator is sized to that list.",
+        "severity": "code",
+        "nec_ref": "702.4(B)(1)"
+      },
+      {
+        "id": "C7-G-04",
+        "text": "Automatic transfer job: load calculation (Article 220) or approved demand data is in the job record, and the design states full-load or load-management duty.",
+        "severity": "code",
+        "nec_ref": "702.4(B)(2)"
+      },
+      {
+        "id": "C7-G-05",
+        "text": "Load management, where claimed, is installed automatic equipment with its settings recorded — not an owner's promise to switch loads off.",
+        "severity": "code",
+        "nec_ref": "702.4(B)(2)(b)"
+      },
+      {
+        "id": "C7-G-06",
+        "text": "Transfer equipment short-circuit rating meets the available fault current; on non-dwelling work the rating is field marked on the exterior of the gear.",
+        "severity": "code",
+        "nec_ref": "702.5(C)"
+      },
+      {
+        "id": "C7-G-07",
+        "text": "No backfeed path exists in any switch position: utility and generator can never be interconnected, tested through every operation of the equipment.",
+        "severity": "code",
+        "nec_ref": "702.5(D)"
+      },
+      {
+        "id": "C7-G-08",
+        "text": "Sign at the service (or at the dwelling emergency disconnect) gives the type and location of the standby source and its shutdown.",
+        "severity": "code",
+        "nec_ref": "702.7(A)"
+      },
+      {
+        "id": "C7-G-09",
+        "text": "Power inlet sign matches the generator neutral: bonded (separately derived) only, or floating (nonseparately derived) only — verified against the actual generator.",
+        "severity": "code",
+        "nec_ref": "702.7(C)"
+      },
+      {
+        "id": "C7-G-10",
+        "text": "Outdoor generator shutdown for the dwelling is in place outside at a readily accessible location, and nobody has confused it with the service emergency disconnect.",
+        "severity": "code",
+        "nec_ref": "445.18(D)"
+      },
+      {
+        "id": "C7-G-11",
+        "text": "Outdoor set disconnect check: readily accessible and within sight of the building, or the portable set is 15 kW or less on a flanged inlet.",
+        "severity": "code",
+        "nec_ref": "702.12"
+      },
+      {
+        "id": "C7-G-12",
+        "text": "New transfer gear furnished by Sharma is Siemens, per company standard.",
+        "severity": "sharma",
+        "sharma_rule_id": "S-02"
+      },
+      {
+        "id": "C7-G-13",
+        "text": "If the standby work moved the meter or panel, the back-to-back layout and its working space were rechecked.",
+        "severity": "sharma",
+        "sharma_rule_id": "S-09"
+      }
+    ]
+  },
+  {
+    "room": "Interconnection / Storage",
+    "items": [
+      {
+        "id": "C7-I-01",
+        "text": "Connection type decided and drawn: supply-side (705.11) or load-side (705.12), before any busbar math is quoted.",
+        "severity": "tip"
+      },
+      {
+        "id": "C7-I-02",
+        "text": "Each source lands on its own dedicated breaker or fusible disconnect; no source shares a breaker with a load or another source.",
+        "severity": "code",
+        "nec_ref": "705.12(A)"
+      },
+      {
+        "id": "C7-I-03",
+        "text": "Busbar method named in the job record (100 percent, 120 percent, or sum-of-breakers) with the arithmetic shown, using 125 percent of source output current.",
+        "severity": "code",
+        "nec_ref": "705.12(B)(3)"
+      },
+      {
+        "id": "C7-I-04",
+        "text": "Under the 120 percent method the source breaker is at the opposite end of the bus from the main, and the do-not-relocate warning label is on the equipment beside it.",
+        "severity": "code",
+        "nec_ref": "705.12(B)(3)(2)"
+      },
+      {
+        "id": "C7-I-05",
+        "text": "Multiple-source plaque or directory is installed at the service equipment showing every source disconnect location.",
+        "severity": "code",
+        "nec_ref": "705.10"
+      },
+      {
+        "id": "C7-I-06",
+        "text": "Power control system, where used, is listed, its controller setting is recorded in the job file, and access to the setting is controlled.",
+        "severity": "code",
+        "nec_ref": "705.13"
+      },
+      {
+        "id": "C7-I-07",
+        "text": "ESS disconnect is readily accessible (outside the dwelling or its remote control is), shows open/closed, and is marked as the energy storage system disconnect with its voltage and fault-current data.",
+        "severity": "code",
+        "nec_ref": "706.15"
+      },
+      {
+        "id": "C7-I-08",
+        "text": "Existing panel on an interconnection job keeps breakers listed for that panel — no mixed brands to satisfy the math.",
+        "severity": "sharma",
+        "sharma_rule_id": "S-03"
+      }
+    ]
+  }
+]
