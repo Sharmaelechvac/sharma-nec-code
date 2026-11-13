@@ -645,7 +645,7 @@
       "100 volt battery house"
     ],
     "answer_plain": "Yes, a dwelling energy storage system is limited to 100 volts dc between conductors or to ground, with an exception allowing up to 600 volts where live parts are not accessible during routine maintenance. The limit is about who lives with the equipment, not about what the batteries can technically do.",
-    "nec_ref": "706",
+    "nec_ref": "706.20(B)",
     "nec_edition": "2020",
     "tags": [
       "storage",
@@ -653,7 +653,7 @@
     ],
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11",
-    "fl_note": "Confirm the subsection number in the printed 2020 text before citing it on a plan; the voltage values were checked in 2020 conference material for this article."
+    "fl_note": "Subsection confirmed as 706.20(B) from NEC 2020-based sources during the master audit of 2026-11-12; Mike Holt's printed-text sighting remains the final word."
   },
   {
     "id": "C7-L-039",
@@ -916,8 +916,6 @@
       "voltage drop",
       "Chapter 9"
     ],
-    "verified_by": "Jarvis",
-    "verified_date": "2026-11-11",
     "verified": false,
     "unverified_reason": "Chapter 9 Table 8 has no CCA column; no manufacturer or UL resistance value for a specific CCA cable was cited and checked for this entry. Do not use a copper or plain-aluminum value as if it were CCA data."
   },

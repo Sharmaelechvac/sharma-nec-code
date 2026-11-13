@@ -1,498 +1,498 @@
 [
- {
-  "id": "C2-Q-001",
-  "article": "210",
-  "question": "On a multiwire branch circuit in a 120/240V panel, the two hots must be:",
-  "choices": [
-   "On the same leg so the neutral cancels",
-   "On opposite legs, with a means to disconnect them together",
-   "On any two breakers, neutral size does not matter",
-   "Separated by at least four panel spaces"
-  ],
-  "answer_index": 1,
-  "explain_plain": "Opposite legs keep the shared neutral carrying only unbalanced current, and the hots must be disconnectable together.",
-  "nec_ref": "210.4",
-  "difficulty": 2,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-002",
-  "article": "210",
-  "question": "A 240V dryer receptacle in a dwelling laundry area needs GFCI protection in NEC 2020 because:",
-  "choices": [
-   "Dryers are listed in 210.8(D)",
-   "210.8(A) covers 125V through 250V receptacles, and laundry areas are item (10)",
-   "All 240V circuits everywhere need GFCI",
-   "Only the washer receptacle needs it"
-  ],
-  "answer_index": 1,
-  "explain_plain": "The 2020 voltage range plus the laundry-area item is the whole point; the dryer is not exempt for being 240V.",
-  "nec_ref": "210.8(A)(10)",
-  "difficulty": 2,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-003",
-  "article": "210",
-  "question": "Which of these is on the NEC 2020 non-dwelling GFCI list in 210.8(B)?",
-  "choices": [
-   "A bedroom in a house",
-   "A hotel lobby sofa outlet",
-   "A rooftop receptacle on an office building",
-   "A living-room receptacle"
-  ],
-  "answer_index": 2,
-  "explain_plain": "Rooftops are a named non-dwelling location. The dwelling list in 210.8(A) does not govern an office roof.",
-  "nec_ref": "210.8(B)",
-  "difficulty": 2,
-  "exam": "journeyman"
- },
- {
-  "id": "C2-Q-004",
-  "article": "210",
-  "question": "AFCI protection under 210.12(A) applies in dwellings to branch circuits that are:",
-  "choices": [
-   "120V, single-phase, 15A or 20A, supplying outlets or devices in listed rooms",
-   "All circuits of any voltage",
-   "Only bedroom circuits",
-   "Only circuits over 20A"
-  ],
-  "answer_index": 0,
-  "explain_plain": "Those rating limits, plus the room list, define the subsection. A 240V appliance circuit is outside its stated range.",
-  "nec_ref": "210.12(A)",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-005",
-  "article": "210",
-  "question": "A continuous load of 48A requires a circuit sized at no less than:",
-  "choices": [
-   "48A",
-   "55A",
-   "60A",
-   "70A"
-  ],
-  "answer_index": 2,
-  "explain_plain": "48 x 1.25 = 60A for conductor and overcurrent sizing, absent a listed continuous-rated assembly.",
-  "nec_ref": "210.19(A)(1)",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-006",
-  "article": "210",
-  "question": "A single receptacle on an individual 20A branch circuit must be rated at least:",
-  "choices": [
-   "15A",
-   "20A",
-   "25A",
-   "30A"
-  ],
-  "answer_index": 1,
-  "explain_plain": "A single receptacle on an individual circuit must have a rating not less than the circuit rating. 15A duplex devices are permitted on a multi-outlet 20A circuit, which is a different case.",
-  "nec_ref": "210.21(B)(1)",
-  "difficulty": 2,
-  "exam": "journeyman"
- },
- {
-  "id": "C2-Q-007",
-  "article": "210",
-  "question": "An island countertop measures 27 sq ft. Under the NEC 2020 area method in the v1 checklist, it needs at least:",
-  "choices": [
-   "1 receptacle",
-   "2 receptacles",
-   "3 receptacles",
-   "4 receptacles"
-  ],
-  "answer_index": 1,
-  "explain_plain": "One receptacle for the first 9 sq ft and one more for each additional 18 sq ft or part: 27 sq ft is the first block plus one additional block. See K-03.",
-  "nec_ref": "210.52(C)(2)",
-  "difficulty": 2,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-008",
-  "article": "210",
-  "question": "A new four-bay dwelling garage needs at least how many receptacles under 210.52(G)(1)?",
-  "choices": [
-   "1",
-   "2",
-   "3",
-   "4"
-  ],
-  "answer_index": 3,
-  "explain_plain": "NEC 2020 requires at least one receptacle in each vehicle bay.",
-  "nec_ref": "210.52(G)(1)",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-009",
-  "article": "210",
-  "question": "The HVAC service receptacle required by 210.63 must be:",
-  "choices": [
-   "Within 25 ft of the equipment, on the same level, and not fed from the load side of the equipment disconnect",
-   "Within 50 ft, any level",
-   "On the equipment circuit so it dies with the unit",
-   "GFCI protected only if outdoors"
-  ],
-  "answer_index": 0,
-  "explain_plain": "Distance, level, and the line-side connection are the three field checks in 210.63.",
-  "nec_ref": "210.63",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-010",
-  "article": "215",
-  "question": "A feeder carries 80A of noncontinuous load and 40A of continuous load. Its conductors need ampacity of at least:",
-  "choices": [
-   "120A",
-   "130A",
-   "140A",
-   "160A"
-  ],
-  "answer_index": 1,
-  "explain_plain": "80 + (40 x 1.25) = 80 + 50 = 130A before correction and derating.",
-  "nec_ref": "215.2(A)(1)",
-  "difficulty": 2,
-  "exam": "master"
- },
- {
-  "id": "C2-Q-011",
-  "article": "220",
-  "question": "A dwelling is 40 ft by 50 ft outside dimensions. Its general lighting load at 3 VA per sq ft is:",
-  "choices": [
-   "4,500 VA",
-   "6,000 VA",
-   "7,500 VA",
-   "9,000 VA"
-  ],
-  "answer_index": 1,
-  "explain_plain": "40 x 50 = 2,000 sq ft; 2,000 x 3 VA = 6,000 VA.",
-  "nec_ref": "220.12",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-012",
-  "article": "220",
-  "question": "Under 220.82, a dwelling feeder may use the optional method only when:",
-  "choices": [
-   "The house is over 2,000 sq ft",
-   "The feeder carries the entire load of the dwelling and the other conditions of the section are met",
-   "The owner asks for it",
-   "The service is underground"
-  ],
-  "answer_index": 1,
-  "explain_plain": "The entire-load condition is what makes the demand factors legitimate; a partial feeder is calculated by the standard method.",
-  "nec_ref": "220.82(A)",
-  "difficulty": 2,
-  "exam": "master"
- },
- {
-  "id": "C2-Q-013",
-  "article": "220",
-  "question": "An optional-method general-load total, before heating and cooling, is 22 kVA. The demand-factored general load is:",
-  "choices": [
-   "22 kVA",
-   "14.8 kVA",
-   "18 kVA",
-   "10 kVA"
-  ],
-  "answer_index": 1,
-  "explain_plain": "First 10 kVA at 100% = 10 kVA; remaining 12 kVA at 40% = 4.8 kVA; total 14.8 kVA. This uses only the 220.82(B) demand step already carried in checked table 220.82.",
-  "nec_ref": "220.82(B)",
-  "difficulty": 2,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-014",
-  "article": "225",
-  "question": "A detached barn already has one feeder. Running a second ordinary feeder to it is:",
-  "choices": [
-   "Fine if each has its own breaker",
-   "Generally not permitted; one supply, apart from the exceptions 225.30 lists",
-   "Fine if the conductors are larger",
-   "Permitted for barns only"
-  ],
-  "answer_index": 1,
-  "explain_plain": "One supply is the general rule. Convenience is not one of the listed exceptions, and any exception used needs a directory plaque.",
-  "nec_ref": "225.30",
-  "difficulty": 2,
-  "exam": "journeyman"
- },
- {
-  "id": "C2-Q-015",
-  "article": "225",
-  "question": "Power fed to a separate building must have, at that building:",
-  "choices": [
-   "Only a subpanel",
-   "A disconnecting means as Article 225 requires",
-   "A second utility meter",
-   "Nothing, the main building breaker is enough"
-  ],
-  "answer_index": 1,
-  "explain_plain": "The building being supplied gets its own disconnect, grouped and rated as the article's following sections require.",
-  "nec_ref": "225.31",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-016",
-  "article": "230",
-  "question": "NEC 2020 requires a dwelling service to have:",
-  "choices": [
-   "A Type 1 or Type 2 surge protective device in or next to the service equipment",
-   "A surge strip at the TV",
-   "No surge protection",
-   "A Type 3 device at every receptacle"
-  ],
-  "answer_index": 0,
-  "explain_plain": "230.67, new in 2020, puts a Type 1 or Type 2 SPD at the service equipment. Point-of-use strips do not satisfy it.",
-  "nec_ref": "230.67",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-017",
-  "article": "230",
-  "question": "Under the NEC 2020 arrangement in 230.71, each service disconnect must be:",
-  "choices": [
-   "In the same enclosure as all the others",
-   "In its own enclosure, grouped as the section requires",
-   "Scattered wherever each load is",
-   "Limited to one per building in all cases"
-  ],
-  "answer_index": 1,
-  "explain_plain": "The 2020 reorganization requires separate enclosures for separate service disconnects, up to the stated maximum, grouped as required.",
-  "nec_ref": "230.71",
-  "difficulty": 2,
-  "exam": "master"
- },
- {
-  "id": "C2-Q-018",
-  "article": "230",
-  "question": "A house has a calculated load of 132A. The minimum service disconnect rating is governed by:",
-  "choices": [
-   "The 100A floor in 230.79(C), so 100A is plenty",
-   "The Article 220 calculation, so the service must cover 132A",
-   "The size of the old service",
-   "The utility transformer size"
-  ],
-  "answer_index": 1,
-  "explain_plain": "100A is only a floor. A calculation above it controls, and the service is sized to the calculated load.",
-  "nec_ref": "230.79(C) / 220",
-  "difficulty": 2,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-019",
-  "article": "240",
-  "question": "A feeder conductor has 90A ampacity and is not part of a receptacle branch circuit. Using 240.4(B), its protection may be:",
-  "choices": [
-   "90A exactly only",
-   "The next higher standard rating, 100A, if every condition in 240.4(B) is met",
-   "125A",
-   "No protection is needed"
-  ],
-  "answer_index": 1,
-  "explain_plain": "Next-higher is an allowance with conditions, including the ceiling stated in the subsection, which 90A ampacity and a 100A device are within.",
-  "nec_ref": "240.4(B)",
-  "difficulty": 2,
-  "exam": "master"
- },
- {
-  "id": "C2-Q-020",
-  "article": "240",
-  "question": "The maximum overcurrent protection for 10 AWG copper-clad aluminum on a general branch circuit is:",
-  "choices": [
-   "15A",
-   "20A",
-   "25A",
-   "30A"
-  ],
-  "answer_index": 2,
-  "explain_plain": "240.4(D) caps 10 AWG aluminum and CCA at 25A — tighter than 10 AWG copper at 30A, and the reason CCA goes one size up under S-10.",
-  "nec_ref": "240.4(D)",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-021",
-  "article": "240",
-  "question": "Which of these is NOT a standard rating listed in 240.6(A)?",
-  "choices": [
-   "45A",
-   "60A",
-   "175A",
-   "52A"
-  ],
-  "answer_index": 3,
-  "explain_plain": "45A, 60A, and 175A are standard steps; 52A is a calculated value, not a standard device rating.",
-  "nec_ref": "240.6(A)",
-  "difficulty": 2,
-  "exam": "journeyman"
- },
- {
-  "id": "C2-Q-022",
-  "article": "250",
-  "question": "A ground rod alone will clear a 20A ground fault by:",
-  "choices": [
-   "Carrying fault current through the earth back to the source",
-   "It will not; earth is not an effective fault-current path, and the bonded equipment grounding path does that job",
-   "Tripping the GFCI only",
-   "Raising the voltage until the breaker opens"
-  ],
-  "answer_index": 1,
-  "explain_plain": "250.4 is explicit that earth is not the fault-clearing path. Bonding back to the source is.",
-  "nec_ref": "250.4(A)(5)",
-  "difficulty": 2,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-023",
-  "article": "250",
-  "question": "In a subpanel fed from a house service, the correct arrangement is:",
-  "choices": [
-   "Bond neutral to the can so faults clear",
-   "Neutral isolated from the can; equipment grounds bonded to the can",
-   "Neutral and grounds landed together on one bar",
-   "No equipment ground is needed"
-  ],
-  "answer_index": 1,
-  "explain_plain": "The bond lives at the service only. Downstream, neutrals float and grounds bond to the enclosure.",
-  "nec_ref": "250.24(A)(5)",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-024",
-  "article": "250",
-  "question": "A new feeder to a detached garage is run. At the garage you must provide:",
-  "choices": [
-   "A re-bonded neutral and no rods",
-   "Its own grounding electrode system, an equipment ground run with the feeder, and an isolated neutral",
-   "Only two rods, no equipment ground",
-   "A separate utility service"
-  ],
-  "answer_index": 1,
-  "explain_plain": "250.32 gives the separate building electrodes plus a feeder equipment ground, with the bond left at the service.",
-  "nec_ref": "250.32",
-  "difficulty": 2,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-025",
-  "article": "250",
-  "question": "One ground rod measures 30 ohms to earth and no test record supports anything better. The installation needs:",
-  "choices": [
-   "Nothing more",
-   "A supplemental electrode, typically a second rod at least 6 ft away",
-   "A larger grounding electrode conductor",
-   "A GFCI main breaker"
-  ],
-  "answer_index": 1,
-  "explain_plain": "A single rod must show 25 ohms or less or be supplemented. 30 ohms does not meet it.",
-  "nec_ref": "250.53(A)(2)",
-  "difficulty": 1,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-026",
-  "article": "250",
-  "question": "Service conductors are 4/0 copper. Table 250.66 gives a copper grounding electrode conductor of:",
-  "choices": [
-   "8 AWG",
-   "6 AWG",
-   "4 AWG",
-   "2 AWG"
-  ],
-  "answer_index": 3,
-  "explain_plain": "4/0 is larger than 3/0, so it falls in the next row up from the 2/0-or-3/0 row: over 3/0 through 350 kcmil copper service conductors take a 2 AWG copper GEC. The trap is stopping one row early at 4 AWG, which is the answer for 2/0 or 3/0.",
-  "nec_ref": "250.66",
-  "difficulty": 3,
-  "exam": "master"
- },
- {
-  "id": "C2-Q-027",
-  "article": "250",
-  "question": "A circuit's conductors are upsized from 12 AWG to 8 AWG for voltage drop. The equipment grounding conductor must be:",
-  "choices": [
-   "Left at the Table 250.122 size",
-   "Increased in proportion to the circular-mil increase of the circuit conductors",
-   "Removed, because larger wire runs cooler",
-   "Changed to the neutral size"
-  ],
-  "answer_index": 1,
-  "explain_plain": "250.122(B) ties the ground's increase to the conductors' increase, by circular-mil proportion.",
-  "nec_ref": "250.122(B)",
-  "difficulty": 2,
-  "exam": "master"
- },
- {
-  "id": "C2-Q-028",
-  "article": "240",
-  "question": "Copper-clad aluminum (CCA) branch-circuit wire gets its ampacity from which column of Table 310.16?",
-  "choices": [
-   "The copper column",
-   "The aluminum column",
-   "Its own CCA column printed in the table",
-   "The 90°C column, whatever the cable type"
-  ],
-  "answer_index": 1,
-  "explain_plain": "CCA sizes like aluminum — rate it in the aluminum column at the cable's temperature limit, then apply the 240.4(D) caps.",
-  "nec_ref": "310.16 / 240.4(D)",
-  "difficulty": 2,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-029",
-  "article": "240",
-  "question": "A 20A kitchen small-appliance circuit is wired in CCA NM cable. The smallest permitted conductor is:",
-  "choices": [
-   "12 AWG CCA",
-   "10 AWG CCA",
-   "14 AWG CCA",
-   "16 AWG CCA"
-  ],
-  "answer_index": 1,
-  "explain_plain": "240.4(D) caps 12 AWG CCA at 15A, so a 20A circuit takes 10 AWG CCA — one size up from copper.",
-  "nec_ref": "240.4(D)",
-  "difficulty": 2,
-  "exam": "both"
- },
- {
-  "id": "C2-Q-030",
-  "article": "314",
-  "question": "Two identical boxes hold the same count of 12 AWG THHN conductors, one run in copper and one in CCA. The required box volume is:",
-  "choices": [
-   "Larger for the CCA box",
-   "Larger for the copper box",
-   "The same — 314.16(B) is figured by conductor size and insulation, not by the metal",
-   "Zero, because fill only counts copper"
-  ],
-  "answer_index": 2,
-  "explain_plain": "Box fill goes by AWG size and insulation type; the conductor metal never enters the calculation.",
-  "nec_ref": "314.16(B)",
-  "difficulty": 1,
-  "exam": "journeyman"
- },
- {
-  "id": "C2-Q-031",
-  "article": "110",
-  "question": "Which termination is permitted for a CCA conductor?",
-  "choices": [
-   "A push-in (backstab) terminal on a receptacle",
-   "A copper-only wire nut",
-   "A 15A receptacle's screw terminal",
-   "An unmarked lug, torqued extra tight to compensate"
-  ],
-  "answer_index": 2,
-  "explain_plain": "Standard 15/20A device screw terminals accept CCA; splice connectors must be marked for the conductor (AL/CU), and backstab terminals are listed for 14 AWG solid copper only.",
-  "nec_ref": "110.14",
-  "difficulty": 2,
-  "exam": "both"
- }
+  {
+    "id": "C2-Q-001",
+    "article": "210",
+    "question": "On a multiwire branch circuit in a 120/240V panel, the two hots must be:",
+    "choices": [
+      "On the same leg so the neutral cancels",
+      "On opposite legs, with a means to disconnect them together",
+      "On any two breakers, neutral size does not matter",
+      "Separated by at least four panel spaces"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Opposite legs keep the shared neutral carrying only unbalanced current, and the hots must be disconnectable together.",
+    "nec_ref": "210.4",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-002",
+    "article": "210",
+    "question": "A 240V dryer receptacle in a dwelling laundry area needs GFCI protection in NEC 2020 because:",
+    "choices": [
+      "Dryers are listed in 210.8(D)",
+      "210.8(A) covers 125V through 250V receptacles, and laundry areas are item (10)",
+      "All 240V circuits everywhere need GFCI",
+      "Only the washer receptacle needs it"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The 2020 voltage range plus the laundry-area item is the whole point; the dryer is not exempt for being 240V.",
+    "nec_ref": "210.8(A)(10)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-003",
+    "article": "210",
+    "question": "Which of these is on the NEC 2020 non-dwelling GFCI list in 210.8(B)?",
+    "choices": [
+      "A bedroom in a house",
+      "A hotel lobby sofa outlet",
+      "A rooftop receptacle on an office building",
+      "A living-room receptacle"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Rooftops are a named non-dwelling location. The dwelling list in 210.8(A) does not govern an office roof.",
+    "nec_ref": "210.8(B)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C2-Q-004",
+    "article": "210",
+    "question": "AFCI protection under 210.12(A) applies in dwellings to branch circuits that are:",
+    "choices": [
+      "120V, single-phase, 15A or 20A, supplying outlets or devices in listed rooms",
+      "All circuits of any voltage",
+      "Only bedroom circuits",
+      "Only circuits over 20A"
+    ],
+    "answer_index": 0,
+    "explain_plain": "Those rating limits, plus the room list, define the subsection. A 240V appliance circuit is outside its stated range.",
+    "nec_ref": "210.12(A)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-005",
+    "article": "210",
+    "question": "A continuous load of 48A requires a circuit sized at no less than:",
+    "choices": [
+      "48A",
+      "55A",
+      "60A",
+      "70A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "48 x 1.25 = 60A for conductor and overcurrent sizing, absent a listed continuous-rated assembly.",
+    "nec_ref": "210.19(A)(1)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-006",
+    "article": "210",
+    "question": "A single receptacle on an individual 20A branch circuit must be rated at least:",
+    "choices": [
+      "15A",
+      "20A",
+      "25A",
+      "30A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "A single receptacle on an individual circuit must have a rating not less than the circuit rating. 15A duplex devices are permitted on a multi-outlet 20A circuit, which is a different case.",
+    "nec_ref": "210.21(B)(1)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C2-Q-007",
+    "article": "210",
+    "question": "An island countertop measures 27 sq ft. Under the NEC 2020 area method in the v1 checklist, it needs at least:",
+    "choices": [
+      "1 receptacle",
+      "2 receptacles",
+      "3 receptacles",
+      "4 receptacles"
+    ],
+    "answer_index": 1,
+    "explain_plain": "One receptacle for the first 9 sq ft and one more for each additional 18 sq ft or part: 27 sq ft is the first block plus one additional block. See K-03.",
+    "nec_ref": "210.52(C)(2)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-008",
+    "article": "210",
+    "question": "A new four-bay dwelling garage needs at least how many receptacles under 210.52(G)(1)?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer_index": 3,
+    "explain_plain": "NEC 2020 requires at least one receptacle in each vehicle bay.",
+    "nec_ref": "210.52(G)(1)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-009",
+    "article": "210",
+    "question": "The HVAC service receptacle required by 210.63 must be:",
+    "choices": [
+      "Within 25 ft of the equipment, on the same level, and not fed from the load side of the equipment disconnect",
+      "Within 50 ft, any level",
+      "On the equipment circuit so it dies with the unit",
+      "GFCI protected only if outdoors"
+    ],
+    "answer_index": 0,
+    "explain_plain": "Distance, level, and the line-side connection are the three field checks in 210.63.",
+    "nec_ref": "210.63",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-010",
+    "article": "215",
+    "question": "A feeder carries 80A of noncontinuous load and 40A of continuous load. Its conductors need ampacity of at least:",
+    "choices": [
+      "120A",
+      "130A",
+      "140A",
+      "160A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "80 + (40 x 1.25) = 80 + 50 = 130A before correction and derating.",
+    "nec_ref": "215.2(A)(1)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C2-Q-011",
+    "article": "220",
+    "question": "A dwelling is 40 ft by 50 ft outside dimensions. Its general lighting load at 3 VA per sq ft is:",
+    "choices": [
+      "4,500 VA",
+      "6,000 VA",
+      "7,500 VA",
+      "9,000 VA"
+    ],
+    "answer_index": 1,
+    "explain_plain": "40 x 50 = 2,000 sq ft; 2,000 x 3 VA = 6,000 VA.",
+    "nec_ref": "220.12",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-012",
+    "article": "220",
+    "question": "Under 220.82, a dwelling feeder may use the optional method only when:",
+    "choices": [
+      "The house is over 2,000 sq ft",
+      "The feeder carries the entire load of the dwelling and the other conditions of the section are met",
+      "The owner asks for it",
+      "The service is underground"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The entire-load condition is what makes the demand factors legitimate; a partial feeder is calculated by the standard method.",
+    "nec_ref": "220.82(A)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C2-Q-013",
+    "article": "220",
+    "question": "An optional-method general-load total, before heating and cooling, is 22 kVA. The demand-factored general load is:",
+    "choices": [
+      "22 kVA",
+      "14.8 kVA",
+      "18 kVA",
+      "10 kVA"
+    ],
+    "answer_index": 1,
+    "explain_plain": "First 10 kVA at 100% = 10 kVA; remaining 12 kVA at 40% = 4.8 kVA; total 14.8 kVA. This uses only the 220.82(B) demand step already carried in checked table 220.82.",
+    "nec_ref": "220.82(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-014",
+    "article": "225",
+    "question": "A detached barn already has one feeder. Running a second ordinary feeder to it is:",
+    "choices": [
+      "Fine if each has its own breaker",
+      "Generally not permitted; one supply, apart from the exceptions 225.30 lists",
+      "Fine if the conductors are larger",
+      "Permitted for barns only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "One supply is the general rule. Convenience is not one of the listed exceptions, and any exception used needs a directory plaque.",
+    "nec_ref": "225.30",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C2-Q-015",
+    "article": "225",
+    "question": "Power fed to a separate building must have, at that building:",
+    "choices": [
+      "Only a subpanel",
+      "A disconnecting means as Article 225 requires",
+      "A second utility meter",
+      "Nothing, the main building breaker is enough"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The building being supplied gets its own disconnect, grouped and rated as the article's following sections require.",
+    "nec_ref": "225.31",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-016",
+    "article": "230",
+    "question": "NEC 2020 requires a dwelling service to have:",
+    "choices": [
+      "A Type 1 or Type 2 surge protective device in or next to the service equipment",
+      "A surge strip at the TV",
+      "No surge protection",
+      "A Type 3 device at every receptacle"
+    ],
+    "answer_index": 0,
+    "explain_plain": "230.67, new in 2020, puts a Type 1 or Type 2 SPD at the service equipment. Point-of-use strips do not satisfy it.",
+    "nec_ref": "230.67",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-017",
+    "article": "230",
+    "question": "Under the NEC 2020 arrangement in 230.71, two to six service disconnects are permitted as:",
+    "choices": [
+      "Only scattered single switches, one per load",
+      "Separate enclosures, panelboards each with a main, barriered switchboard sections, or compartmented switchgear",
+      "Any single multi-switch enclosure with no barriers",
+      "One disconnect per building in all cases"
+    ],
+    "answer_index": 1,
+    "explain_plain": "230.71(B) lists four permitted arrangements: separate enclosures; panelboards each with a main disconnect; switchboards with a disconnect in each barrier-separated vertical section; and switchgear or metering centers with separate compartments — all grouped per 230.71(A).",
+    "nec_ref": "230.71",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C2-Q-018",
+    "article": "230",
+    "question": "A house has a calculated load of 132A. The minimum service disconnect rating is governed by:",
+    "choices": [
+      "The 100A floor in 230.79(C), so 100A is plenty",
+      "The Article 220 calculation, so the service must cover 132A",
+      "The size of the old service",
+      "The utility transformer size"
+    ],
+    "answer_index": 1,
+    "explain_plain": "100A is only a floor. A calculation above it controls, and the service is sized to the calculated load.",
+    "nec_ref": "230.79(C) / 220",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-019",
+    "article": "240",
+    "question": "A feeder conductor has 90A ampacity and is not part of a receptacle branch circuit. Using 240.4(B), its protection may be:",
+    "choices": [
+      "90A exactly only",
+      "The next higher standard rating, 100A, if every condition in 240.4(B) is met",
+      "125A",
+      "No protection is needed"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Next-higher is an allowance with conditions, including the ceiling stated in the subsection, which 90A ampacity and a 100A device are within.",
+    "nec_ref": "240.4(B)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C2-Q-020",
+    "article": "240",
+    "question": "The maximum overcurrent protection for 10 AWG copper-clad aluminum on a general branch circuit is:",
+    "choices": [
+      "15A",
+      "20A",
+      "25A",
+      "30A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "240.4(D) caps 10 AWG aluminum and CCA at 25A — tighter than 10 AWG copper at 30A, and the reason CCA goes one size up under S-10.",
+    "nec_ref": "240.4(D)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-021",
+    "article": "240",
+    "question": "Which of these is NOT a standard rating listed in 240.6(A)?",
+    "choices": [
+      "45A",
+      "60A",
+      "175A",
+      "52A"
+    ],
+    "answer_index": 3,
+    "explain_plain": "45A, 60A, and 175A are standard steps; 52A is a calculated value, not a standard device rating.",
+    "nec_ref": "240.6(A)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C2-Q-022",
+    "article": "250",
+    "question": "A ground rod alone will clear a 20A ground fault by:",
+    "choices": [
+      "Carrying fault current through the earth back to the source",
+      "It will not; earth is not an effective fault-current path, and the bonded equipment grounding path does that job",
+      "Tripping the GFCI only",
+      "Raising the voltage until the breaker opens"
+    ],
+    "answer_index": 1,
+    "explain_plain": "250.4 is explicit that earth is not the fault-clearing path. Bonding back to the source is.",
+    "nec_ref": "250.4(A)(5)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-023",
+    "article": "250",
+    "question": "In a subpanel fed from a house service, the correct arrangement is:",
+    "choices": [
+      "Bond neutral to the can so faults clear",
+      "Neutral isolated from the can; equipment grounds bonded to the can",
+      "Neutral and grounds landed together on one bar",
+      "No equipment ground is needed"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The bond lives at the service only. Downstream, neutrals float and grounds bond to the enclosure.",
+    "nec_ref": "250.24(A)(5)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-024",
+    "article": "250",
+    "question": "A new feeder to a detached garage is run. At the garage you must provide:",
+    "choices": [
+      "A re-bonded neutral and no rods",
+      "Its own grounding electrode system, an equipment ground run with the feeder, and an isolated neutral",
+      "Only two rods, no equipment ground",
+      "A separate utility service"
+    ],
+    "answer_index": 1,
+    "explain_plain": "250.32 gives the separate building electrodes plus a feeder equipment ground, with the bond left at the service.",
+    "nec_ref": "250.32",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-025",
+    "article": "250",
+    "question": "One ground rod measures 30 ohms to earth and no test record supports anything better. The installation needs:",
+    "choices": [
+      "Nothing more",
+      "A supplemental electrode, typically a second rod at least 6 ft away",
+      "A larger grounding electrode conductor",
+      "A GFCI main breaker"
+    ],
+    "answer_index": 1,
+    "explain_plain": "A single rod must show 25 ohms or less or be supplemented. 30 ohms does not meet it.",
+    "nec_ref": "250.53(A)(2)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-026",
+    "article": "250",
+    "question": "Service conductors are 4/0 copper. Table 250.66 gives a copper grounding electrode conductor of:",
+    "choices": [
+      "8 AWG",
+      "6 AWG",
+      "4 AWG",
+      "2 AWG"
+    ],
+    "answer_index": 3,
+    "explain_plain": "4/0 is larger than 3/0, so it falls in the next row up from the 2/0-or-3/0 row: over 3/0 through 350 kcmil copper service conductors take a 2 AWG copper GEC. The trap is stopping one row early at 4 AWG, which is the answer for 2/0 or 3/0.",
+    "nec_ref": "250.66",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C2-Q-027",
+    "article": "250",
+    "question": "A circuit's conductors are upsized from 12 AWG to 8 AWG for voltage drop. The equipment grounding conductor must be:",
+    "choices": [
+      "Left at the Table 250.122 size",
+      "Increased in proportion to the circular-mil increase of the circuit conductors",
+      "Removed, because larger wire runs cooler",
+      "Changed to the neutral size"
+    ],
+    "answer_index": 1,
+    "explain_plain": "250.122(B) ties the ground's increase to the conductors' increase, by circular-mil proportion.",
+    "nec_ref": "250.122(B)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C2-Q-028",
+    "article": "240",
+    "question": "Copper-clad aluminum (CCA) branch-circuit wire gets its ampacity from which column of Table 310.16?",
+    "choices": [
+      "The copper column",
+      "The aluminum column",
+      "Its own CCA column printed in the table",
+      "The 90°C column, whatever the cable type"
+    ],
+    "answer_index": 1,
+    "explain_plain": "CCA sizes like aluminum — rate it in the aluminum column at the cable's temperature limit, then apply the 240.4(D) caps.",
+    "nec_ref": "310.16 / 240.4(D)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-029",
+    "article": "240",
+    "question": "A 20A kitchen small-appliance circuit is wired in CCA NM cable. The smallest permitted conductor is:",
+    "choices": [
+      "12 AWG CCA",
+      "10 AWG CCA",
+      "14 AWG CCA",
+      "16 AWG CCA"
+    ],
+    "answer_index": 1,
+    "explain_plain": "240.4(D) caps 12 AWG CCA at 15A, so a 20A circuit takes 10 AWG CCA — one size up from copper.",
+    "nec_ref": "240.4(D)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C2-Q-030",
+    "article": "314",
+    "question": "Two identical boxes hold the same count of 12 AWG THHN conductors, one run in copper and one in CCA. The required box volume is:",
+    "choices": [
+      "Larger for the CCA box",
+      "Larger for the copper box",
+      "The same — 314.16(B) is figured by conductor size and insulation, not by the metal",
+      "Zero, because fill only counts copper"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Box fill goes by AWG size and insulation type; the conductor metal never enters the calculation.",
+    "nec_ref": "314.16(B)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C2-Q-031",
+    "article": "110",
+    "question": "Which termination is permitted for a CCA conductor?",
+    "choices": [
+      "A push-in (backstab) terminal on a receptacle",
+      "A copper-only wire nut",
+      "A 15A receptacle's screw terminal",
+      "An unmarked lug, torqued extra tight to compensate"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Standard 15/20A device screw terminals accept CCA; splice connectors must be marked for the conductor (AL/CU), and backstab terminals are listed for 14 AWG solid copper only.",
+    "nec_ref": "110.14",
+    "difficulty": 2,
+    "exam": "both"
+  }
 ]

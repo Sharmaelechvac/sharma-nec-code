@@ -575,7 +575,7 @@
       "810.21(H) size",
       "antenna bond minimum"
     ],
-    "answer_plain": "Not smaller than 10 AWG copper, or 17 AWG copper-clad steel or bronze. The thin copper-clad option is the messenger wire often molded into satellite coax jackets. Ten AWG copper is heavier than the 14 AWG floor used at a communications protector, because the antenna sits exposed to lightning.",
+    "answer_plain": "Not smaller than 10 AWG copper, 8 AWG aluminum, or 17 AWG copper-clad steel or bronze. The thin copper-clad option is the messenger wire often molded into satellite coax jackets. Ten AWG copper is heavier than the 14 AWG floor used at a communications protector, because the antenna sits exposed to lightning.",
     "nec_ref": "810.21(H)",
     "nec_edition": "2020",
     "tags": [

@@ -394,7 +394,7 @@
       "8 AWG"
     ],
     "answer_index": 2,
-    "explain_plain": "Ten AWG copper, or 17 AWG copper-clad steel or bronze, per 810.21(H).",
+    "explain_plain": "Ten AWG copper, 8 AWG aluminum, or 17 AWG copper-clad steel or bronze, per 810.21(H).",
     "nec_ref": "810.21(H)",
     "difficulty": 1,
     "exam": "journeyman"

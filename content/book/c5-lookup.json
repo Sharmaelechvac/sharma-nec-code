@@ -1230,8 +1230,8 @@
       "copper clad aluminum column",
       "310.16 CCA"
     ],
-    "answer_plain": "Copper-clad aluminum takes its ampacity from the aluminum column of Table 310.16 — the table's aluminum column covers CCA — and minimum conductor sizes follow 310.3. That is why Sharma sizes CCA one AWG up from copper for the same breaker: 12 AWG CCA on 15 amps, 10 AWG CCA on 20 amps. In Chapter 5 work the material choice is made first, then the size comes from that material's column.",
-    "nec_ref": "310.16 / 310.3",
+    "answer_plain": "Copper-clad aluminum takes its ampacity from the aluminum column of Table 310.16 — the table's aluminum column covers CCA. That is why Sharma sizes CCA one AWG up from copper for the same breaker: 12 AWG CCA on 15 amps, 10 AWG CCA on 20 amps. In Chapter 5 work the material choice is made first, then the size comes from that material's column.",
+    "nec_ref": "310.16",
     "nec_edition": "2020",
     "tags": [
       "CCA",

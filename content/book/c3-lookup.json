@@ -594,7 +594,7 @@
       "342 fill",
       "IMC sizes"
     ],
-    "answer_plain": "IMC and rigid metal conduit share the same outside dimensions by trade size, so their conductor fill is figured from the same Chapter 9 raceway family. Always confirm the raceway type column in Chapter 9 Table 4 before using a number, because EMT and PVC areas are different.",
+    "answer_plain": "IMC and rigid metal conduit share the same outside dimensions by trade size, so they use the same fittings family — but Chapter 9 Table 4 gives them separate columns with different internal areas, because IMC's thinner wall leaves more room inside. Fill is figured from the Table 4 column for the raceway actually installed. Always confirm the raceway type column before using a number, because EMT and PVC areas are different again.",
     "nec_ref": "342",
     "nec_edition": "2020",
     "tags": [
@@ -612,7 +612,7 @@
       "344 burial 6 inch",
       "rigid shallow cover"
     ],
-    "answer_plain": "Rigid metal conduit needs only 6 inches of cover in the general Table 300.5 case, where PVC needs 18 and direct-burial cable needs 24. That shallow cover is the payoff when a driveway, rock or an existing slab leaves no room for a deep trench.",
+    "answer_plain": "Rigid metal conduit needs only 6 inches of cover in the general Table 300.5 case and under one- and two-family dwelling driveways, where nonmetallic raceway needs 18 inches in the general case and 12 in the dwelling-driveway case, and direct-burial cable needs 24. Under streets, roads, alleys, and other driveways and parking lots, every method needs 24 inches of cover — there is no shallow RMC shortcut there.",
     "nec_ref": "344",
     "nec_edition": "2020",
     "tags": [
@@ -989,7 +989,7 @@
       "310.12 CCA column",
       "feeder CCA sizing"
     ],
-    "answer_plain": "The load calculation does not change with the metal — only the conductor pick does. A whole-load dwelling service or feeder in CCA reads the aluminum column of the 310.12 table, so a 200 amp service is 4/0 CCA, and any feeder that does not carry the whole dwelling load is sized from the aluminum column of Table 310.16 at full value.",
+    "answer_plain": "The load calculation does not change with the metal — only the conductor pick does. A whole-load dwelling service or feeder in CCA reads the aluminum column under the 310.12 rule (310.12 states the 83 percent rule in text — there is no Table 310.12 in the 2020 edition), so a 200 amp service is 4/0 CCA, and any feeder that does not carry the whole dwelling load is sized from the aluminum column of Table 310.16 at full value.",
     "nec_ref": "310.12",
     "nec_edition": "2020",
     "tags": [

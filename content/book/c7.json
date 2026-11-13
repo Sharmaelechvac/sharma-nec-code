@@ -73,7 +73,7 @@
       "article": "700",
       "section": "700.5",
       "title": "Transfer equipment — emergency systems",
-      "plain_explanation": "Emergency transfer equipment has to be automatic, listed and marked for emergency use, and approved by the AHJ. It is built and installed so the emergency source and the other sources cannot be connected together by accident. An automatic transfer switch has to be electrically operated and mechanically held, reconditioned transfer switches are not allowed, the gear may feed only emergency loads, and meter-mounted transfer switches are not permitted for emergency use. Away from dwellings the same documentation idea you see in 702 shows up here: the transfer equipment short-circuit rating is field marked on the outside of the gear.",
+      "plain_explanation": "Emergency transfer equipment has to be automatic, listed and marked for emergency use, and approved by the AHJ. It is built and installed so the emergency source and the other sources cannot be connected together by accident. An automatic transfer switch has to be electrically operated and mechanically held, reconditioned transfer switches are not allowed, the gear may feed only emergency loads, and meter-mounted transfer switches are not permitted for emergency use. The documentation rule of 700.5(E) carries no dwelling exception — unlike 702.5(C) — so the transfer equipment short-circuit rating is field marked on the outside of the gear in dwellings too.",
       "on_the_job": "Read the listing and the marking, not the sales sheet. If the switch is not marked for emergency use, it does not go on a 700 job, however big it is.",
       "sharma_note": "S-02 applies to gear Sharma furnishes: new transfer equipment is Siemens. Listing and emergency marking still govern — brand never replaces either one.",
       "figure_idea": "Original diagram: a utility feed and a generator feed entering one automatic transfer switch, with a mechanical interlock symbol showing the two can never be closed together.",
@@ -560,7 +560,7 @@
       "article": "702",
       "section": "702.12",
       "title": "Outdoor generator sets — when a building disconnect is not required",
-      "plain_explanation": "For permanently installed generators and portable generators over 15 kW used outdoors, if the generator has a readily accessible disconnect within sight of the building it supplies, no extra disconnect is required at the building. For a portable generator of 15 kW or less connected through a flanged inlet, no disconnecting means is required at all. Both rules are about not duplicating a disconnect that already does the job — neither one removes the transfer-equipment duty in 702.5.",
+      "plain_explanation": "For permanently installed generators and portable generators over 15 kW used outdoors, if the generator has a readily accessible disconnect within sight of the building it supplies, no extra disconnect is required at the building — provided that generator disconnect is in accordance with 445.18, and where the generator supply conductors terminate at a disconnecting means in or on the building, that disconnect meets 225.36. For a portable generator of 15 kW or less connected through a flanged inlet or another cord-and-plug connection, no disconnecting means is required at the building for the ungrounded conductors serving or passing through it. Both rules are about not duplicating a disconnect that already does the job — neither one removes the transfer-equipment duty in 702.5.",
       "on_the_job": "Confirm the generator's own disconnect is readily accessible and within sight before you rely on the first rule, and confirm the rating and the flanged inlet before you rely on the second.",
       "sharma_note": "",
       "figure_idea": "",
@@ -572,6 +572,27 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-702.10",
+      "next_id": "C7-702.12(C)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.12(C)",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.12(C)",
+      "title": "Power inlets 100 A and up — listed, with an interlocked disconnect",
+      "plain_explanation": "Where a portable generator connects through an inlet rated 100 amps or more, the 2020 code adds two requirements on the inlet equipment. The equipment must be listed for the intended use, and it must be provided with an interlocked disconnecting means, so the inlet arrangement cannot leave the building connected the wrong way. Two exceptions soften it: the inlet device itself may serve as the disconnecting means where it is rated for that duty, and supervised industrial installations with a permanent generator space within line of sight follow their own conditions. Below 100 amps this paragraph does not apply — the 702.12(A) and (B) rules on the previous page govern instead.",
+      "on_the_job": "On a big portable hookup, read the inlet's listing and find the interlock before you land conductors. If the inlet is 100 A or more and there is no interlocked disconnect, that is a stop-and-call, not a field fix.",
+      "sharma_note": null,
+      "figure_idea": "Dock-side inlet box: listed 100 A inlet, interlocked disconnect beside it, generator cordset staged and capped.",
+      "related_ids": [
+        "C7-702.12",
+        "C7-702.7",
+        "C7-702.5"
+      ],
+      "florida_note": null,
+      "verified": true,
+      "prev_id": "C7-702.12",
       "next_id": "C7-ART-705",
       "sharma_rule_ids": []
     },
@@ -594,7 +615,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C7-702.12",
+      "prev_id": "C7-702.12(C)",
       "next_id": "C7-705.10",
       "sharma_rule_ids": []
     },
@@ -813,7 +834,7 @@
       "article": "706",
       "section": "706",
       "title": "Energy storage systems — batteries under the code",
-      "plain_explanation": "Article 706 covers energy storage systems over 1 kWh that can feed a premises wiring system, on their own or alongside other sources. Only qualified persons install and maintain these systems, each system is listed, and its nameplate carries the ratings the installer and the inspector both work from. The two hazards that shape the article are stored energy that is still live when everything looks off, and fault current a battery bank can deliver without any utility behind it. Dwellings get extra attention: the disconnect a first responder can reach, and limits on the dc voltage inside the home, both appear in this article's rules.",
+      "plain_explanation": "Article 706 covers energy storage systems over 1 kWh that can feed a premises wiring system, on their own or alongside other sources. Only qualified persons install and maintain these systems, each system is listed, and its nameplate carries the ratings the installer and the inspector both work from. The two hazards that shape the article are stored energy that is still live when everything looks off, and fault current a battery bank can deliver without any utility behind it. Dwellings get extra attention: the disconnect a first responder can reach, and a dc voltage limit inside the home — 100 volts between conductors or to ground, with up to 600 volts allowed where live parts are not accessible during routine maintenance (706.20(B)).",
       "on_the_job": "Treat every ESS terminal as live until you have proved otherwise with a meter. 'The inverter is off' is not a test result.",
       "sharma_note": "",
       "figure_idea": "Original diagram: a battery cabinet, an inverter and a panel, with a bold disconnect symbol between the batteries and everything else, and a 'stored energy stays live' callout on the battery side.",
@@ -1271,7 +1292,7 @@
       "article": "760",
       "section": "760.41",
       "title": "NPLFA circuit power source requirements",
-      "plain_explanation": "A non-power-limited fire alarm circuit is powered from a source that follows the normal wiring chapters, with output voltage not over 600 volts nominal. The branch circuit feeding the fire alarm equipment feeds nothing else, and the fire alarm circuit disconnect is allowed to be secured in the on position so a casual hand cannot silence the system's power. NPLFA circuits carry real energy, which is why their conductors and protection are handled on the next pages like power wiring, not like bell wire.",
+      "plain_explanation": "A non-power-limited fire alarm circuit is powered from a source that follows the normal wiring chapters, with output voltage not over 600 volts nominal. The branch circuit feeding the fire alarm equipment feeds nothing else, and the fire alarm circuit disconnect is allowed to be secured in the on position so a casual hand cannot silence the system's power. Section 760.41(B) adds the identification package: the overcurrent device is identified at the fire alarm control unit, the disconnecting means carries red identification marked FIRE ALARM CIRCUIT and is accessible only to qualified personnel, and the branch circuit is not supplied through ground-fault or arc-fault circuit-interrupter protection. NPLFA circuits carry real energy, which is why their conductors and protection are handled on the next pages like power wiring, not like bell wire.",
       "on_the_job": "Dedicate the branch circuit and label it. If another load wants that circuit later, the answer is no, and this section is the reason you give.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1503,6 +1524,11 @@
           "id": "C7-702.12",
           "section": "702.12",
           "title": "Outdoor generator sets — when a building disconnect is not required"
+        },
+        {
+          "id": "C7-702.12(C)",
+          "section": "702.12(C)",
+          "title": "Power inlets 100 A and up — listed, with an interlocked disconnect"
         }
       ]
     },
@@ -1946,7 +1972,8 @@
       "term": "Power inlet, generator",
       "ids": [
         "C7-702.7",
-        "C7-702.12"
+        "C7-702.12",
+        "C7-702.12(C)"
       ]
     },
     {

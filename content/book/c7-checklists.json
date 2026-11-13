@@ -63,7 +63,7 @@
       },
       {
         "id": "C7-G-11",
-        "text": "Outdoor set disconnect check: readily accessible and within sight of the building, or the portable set is 15 kW or less on a flanged inlet.",
+        "text": "Outdoor set disconnect check: readily accessible and within sight of the building, or the portable set is 15 kW or less on a flanged inlet. Generator disconnect per 445.18; a disconnect where the supply conductors terminate in or on the building per 225.36.",
         "severity": "code",
         "nec_ref": "702.12"
       },
@@ -78,6 +78,12 @@
         "text": "If the standby work moved the meter or panel, the back-to-back layout and its working space were rechecked.",
         "severity": "sharma",
         "sharma_rule_id": "S-09"
+      },
+      {
+        "id": "C7-G-14",
+        "text": "Portable-generator inlet rated 100 A or more: inlet equipment listed for the use and provided with an interlocked disconnecting means (702.12(C)), unless an exception applies.",
+        "severity": "code",
+        "nec_ref": "702.12(C)"
       }
     ]
   },

@@ -170,7 +170,7 @@
       "250 kcmil"
     ],
     "answer_index": 2,
-    "explain_plain": "310.12 / Table 310.12: a 200 A dwelling service is 2/0 copper or 4/0 aluminum when the rule applies and no correction or adjustment is needed.",
+    "explain_plain": "310.12 (the 83 percent rule is stated in text — 2020 has no Table 310.12): a 200 A dwelling service is 2/0 copper or 4/0 aluminum when the rule applies and no correction or adjustment is needed.",
     "nec_ref": "310.12",
     "difficulty": 1,
     "exam": "both"
@@ -474,7 +474,7 @@
       "250 kcmil CCA"
     ],
     "answer_index": 2,
-    "explain_plain": "CCA reads the aluminum column everywhere, including Table 310.12: a 200 A whole-load dwelling service is 2/0 copper or 4/0 aluminum/CCA.",
+    "explain_plain": "CCA reads the aluminum column everywhere, including the 310.12 sizing rule: a 200 A whole-load dwelling service is 2/0 copper or 4/0 aluminum/CCA.",
     "nec_ref": "310.12",
     "difficulty": 2,
     "exam": "both"

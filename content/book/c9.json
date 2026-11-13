@@ -443,7 +443,8 @@
         "S-10"
       ],
       "title": "CCA in Table 8 — an approximation, labeled as one",
-      "verified": true
+      "verified": false,
+      "unverified_reason": "CCA treatment carried, not resolved: Table 8 has no CCA column and no cited manufacturer/UL CCA resistance value is on file; the aluminum column is a labeled approximation until Mike Holt's printed check or a cited value lands."
     },
     {
       "article": "9",
@@ -479,7 +480,7 @@
       "id": "C9-VD-WORKED",
       "next_id": "C9-VD-3PH",
       "on_the_job": "A second v1 check at higher voltage: 40A at 150 ft on 240V with 6 AWG copper at 0.491 ohm/kft gives 2 x 150 x 0.491 x 40 / 1000 = 5.89V, only 2.46 percent — the same current travels better at 240V because the percentage is figured against twice the voltage. Long 120V runs are where Sharma jobs most often need an upsize.",
-      "plain_explanation": "Example from the v1 test cases: a 120V load drawing 16A, 100 ft one-way, on 12 AWG stranded copper at 1.98 ohm/kft. VD = 2 x 100 x 1.98 x 16 / 1000 = 6.34V, which is 5.28 percent of 120V — well past the 3 percent recommendation for a branch circuit. Trying 10 AWG at 1.24 ohm/kft gives 3.97V, 3.31 percent, still over. At 8 AWG, 0.778 ohm/kft, the drop is 2.49V, 2.08 percent, and the circuit meets the recommendation. Notice the method: change one thing — the resistance — and rerun the same formula; do not guess how many sizes to jump.",
+      "plain_explanation": "Example from the v1 test cases: a 120V load drawing 16A, 100 ft one-way, on 12 AWG stranded copper at 1.98 ohm/kft. VD = 2 x 100 x 1.98 x 16 / 1000 = 6.34V, which is 5.28 percent of 120V — well past the 3 percent recommendation for a branch circuit. Trying 10 AWG at 1.24 ohm/kft gives 3.97V, 3.31 percent, still over. At 8 AWG, 0.778 ohm/kft, the drop is 2.49V, 2.07 percent, and the circuit meets the recommendation. Notice the method: change one thing — the resistance — and rerun the same formula; do not guess how many sizes to jump.",
       "prev_id": "C9-VD-METHOD",
       "related_ids": [
         "Ch9-T8",

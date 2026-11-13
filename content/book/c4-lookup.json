@@ -106,8 +106,8 @@
       "switches",
       "UNVERIFIED"
     ],
-    "verified_by": "Jarvis",
-    "verified_date": "2026-11-11"
+    "verified": false,
+    "unverified_reason": "NEMA-cited section number (404.15(C)) not checked against the printed 2020 text."
   },
   {
     "id": "C4-L-007",
@@ -335,8 +335,8 @@
       "closet",
       "UNVERIFIED"
     ],
-    "verified_by": "Jarvis",
-    "verified_date": "2026-11-11"
+    "verified": false,
+    "unverified_reason": "410.16 clearance distances not checked against the printed 2020 text."
   },
   {
     "id": "C4-L-020",
@@ -426,8 +426,8 @@
       "HVAC",
       "UNVERIFIED"
     ],
-    "verified_by": "Jarvis",
-    "verified_date": "2026-11-11"
+    "verified": false,
+    "unverified_reason": "2020 section number (424.4(B)) not checked against the printed text; the 125 percent substance is confirmed."
   },
   {
     "id": "C4-L-025",
@@ -626,8 +626,8 @@
       "industrial control panels",
       "commercial"
     ],
-    "verified_by": "Jarvis",
-    "verified_date": "2026-11-11"
+    "verified": false,
+    "unverified_reason": "Exact Article 409 subsection for the SCCR marking not confirmed against the printed text."
   },
   {
     "id": "C4-L-037",
@@ -636,14 +636,14 @@
       "cord instead of conduit",
       "400.8 fixed equipment"
     ],
-    "answer_plain": "No. Section 400.8 prohibits using a flexible cord as a substitute for the fixed wiring of a structure, running it through walls or ceilings, or hiding it. A cord is for equipment that moves or must be removed for service, under the permitted uses in 400.7. A fixed machine gets a Chapter 3 wiring method.",
+    "answer_plain": "No. Section 400.12 prohibits using a flexible cord (the 2020 number, flagged for a printed-text check — it was 400.8 in the 2017 code) as a substitute for the fixed wiring of a structure, running it through walls or ceilings, or hiding it. A cord is for equipment that moves or must be removed for service, under the permitted uses in 400.7. A fixed machine gets a Chapter 3 wiring method.",
     "nec_ref": "400.12 — numbering flagged (was 400.8 in 2017)",
     "nec_edition": "2020",
     "tags": [
       "flexible cords"
     ],
-    "verified_by": "Jarvis",
-    "verified_date": "2026-11-11"
+    "verified": false,
+    "unverified_reason": "400.12 numbering (400.8 in the 2017 code) flagged pending printed-text confirmation."
   },
   {
     "id": "C4-L-038",

@@ -292,7 +292,7 @@
     "article": "440",
     "question": "A condenser nameplate shows MCA 17.9A and MOCP 30A. Which installation is correct?",
     "choices": [
-      "12 AWG wire on a 30A breaker, because 12 AWG is '20A wire'",
+      "12 AWG wire on a 40A breaker, because the MCA only governs the wire",
       "Wire with ampacity at least 17.9A and a breaker no larger than 30A",
       "Wire at least 17.9A and a 40A breaker for starting",
       "14 AWG wire on a 30A breaker"

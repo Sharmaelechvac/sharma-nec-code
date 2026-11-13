@@ -10,7 +10,7 @@
       },
       {
         "id": "C2-SP-02",
-        "text": "Service disconnect(s): each in its own enclosure and grouped as 230.71 requires; count checked against the 2020 rule, not an old multi-switch habit.",
+        "text": "Service disconnects (two to six): arranged per 230.71(B) — separate enclosures, panelboards with mains, barriered switchboard sections, or compartmented switchgear — and grouped as 230.71(A) requires.",
         "severity": "code",
         "nec_ref": "230.71"
       },

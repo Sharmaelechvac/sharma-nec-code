@@ -1,1 +1,103 @@
-[{"items":[{"id":"C1-SP-01","nec_ref":"110.22","severity":"code","text":"Every breaker and disconnect is legibly marked with the load it actually serves; directory matches the house as wired, no live circuit labelled spare."},{"id":"C1-SP-02","nec_ref":"110.24","severity":"code","text":"Service equipment carries the available fault current field marking with the calculation date; calculation is in the job folder."},{"id":"C1-SP-03","nec_ref":"110.9","severity":"code","text":"Breaker interrupting ratings (kAIC) equal or exceed the available fault current at the service."},{"id":"C1-SP-04","nec_ref":"110.26(A)","severity":"code","text":"Working space in front of the panel is at least 3 ft deep (Condition 1), 30 in wide or equipment width if greater, and 6-1/2 ft high, measured from the face of the equipment."},{"id":"C1-SP-05","nec_ref":"110.26(B)","severity":"code","text":"Working space is completely clear — no storage, no water heater, no shelving — and stays clear at final."},{"id":"C1-SP-06","nec_ref":"110.26(E)","severity":"code","text":"Dedicated space above the panel (footprint, up to 6 ft or ceiling) has no foreign piping, ducts or other trades' systems passing through."},{"id":"C1-SP-07","nec_ref":"110.26(D)","severity":"code","text":"Illumination at the panel works and lights the working space."},{"id":"C1-SP-08","nec_ref":"110.12","severity":"code","text":"Every unused opening in panel, boxes and enclosures is closed with a listed blank or plug — no tape, no open knockouts."},{"id":"C1-SP-09","nec_ref":"110.14(D)","severity":"code","text":"All terminations torqued to the panel/equipment label value with a torque tool; values checked after all conductors are landed."},{"id":"C1-SP-10","nec_ref":"110.14","severity":"code","text":"Every lug and connector marking matches the conductor metal landed on it (CU, AL-CU or CU-AL as applicable); no CCA or aluminum on a CU-only terminal."},{"id":"C1-SP-11","nec_ref":"110.14","severity":"code","text":"No backstabbed connections except 14 AWG solid copper; no CCA, stranded or 12 AWG on push-in terminals."},{"id":"C1-SP-12","nec_ref":"110.3(B)","severity":"code","text":"Panel and equipment labels and instruction sheets were read and followed; any conflict between habit and instructions was resolved in favor of the instructions."},{"id":"C1-SP-13","severity":"sharma","sharma_rule_id":"S-02","text":"All new gear — panel, meter-main, breakers, disconnects — is Siemens."},{"id":"C1-SP-14","severity":"sharma","sharma_rule_id":"S-03","text":"In any existing panel, breakers are the brand listed for that panel only; no mixed brands to fill spaces."},{"id":"C1-SP-15","severity":"sharma","sharma_rule_id":"S-09","text":"Where the layout is back-to-back (meter outside, panel inside), full 110.26 working space is still clear in front of the panel."},{"id":"C1-SP-16","severity":"sharma","sharma_rule_id":"S-10","text":"Wire metal confirmed for the job (copper default; CCA one AWG up, aluminum column, AL-CU/CU-AL terminations) before sizing or landing anything."}],"room":"Service / Panel — Chapter 1 Punch List"}]
+[
+  {
+    "items": [
+      {
+        "id": "C1-SP-01",
+        "nec_ref": "110.22",
+        "severity": "code",
+        "text": "Every breaker and disconnect is legibly marked with the load it actually serves; directory matches the house as wired, no live circuit labelled spare."
+      },
+      {
+        "id": "C1-SP-02",
+        "nec_ref": "110.24",
+        "severity": "code",
+        "text": "Non-dwelling service equipment carries the available fault current field marking (110.24 does not mandate it at dwelling services) with the calculation date; calculation is in the job folder."
+      },
+      {
+        "id": "C1-SP-03",
+        "nec_ref": "110.9",
+        "severity": "code",
+        "text": "Breaker interrupting ratings (kAIC) equal or exceed the available fault current at the service."
+      },
+      {
+        "id": "C1-SP-04",
+        "nec_ref": "110.26(A)",
+        "severity": "code",
+        "text": "Working space in front of the panel is at least 3 ft deep (Condition 1), 30 in wide or equipment width if greater, and 6-1/2 ft high, measured from the face of the equipment."
+      },
+      {
+        "id": "C1-SP-05",
+        "nec_ref": "110.26(B)",
+        "severity": "code",
+        "text": "Working space is completely clear — no storage, no water heater, no shelving — and stays clear at final."
+      },
+      {
+        "id": "C1-SP-06",
+        "nec_ref": "110.26(E)",
+        "severity": "code",
+        "text": "Dedicated space above the panel (footprint, up to 6 ft or ceiling) has no foreign piping, ducts or other trades' systems passing through."
+      },
+      {
+        "id": "C1-SP-07",
+        "nec_ref": "110.26(D)",
+        "severity": "code",
+        "text": "Illumination at the panel works and lights the working space."
+      },
+      {
+        "id": "C1-SP-08",
+        "nec_ref": "110.12",
+        "severity": "code",
+        "text": "Every unused opening in panel, boxes and enclosures is closed with a listed blank or plug — no tape, no open knockouts."
+      },
+      {
+        "id": "C1-SP-09",
+        "nec_ref": "110.14(D)",
+        "severity": "code",
+        "text": "All terminations torqued to the panel/equipment label value with a torque tool; values checked after all conductors are landed."
+      },
+      {
+        "id": "C1-SP-10",
+        "nec_ref": "110.14",
+        "severity": "code",
+        "text": "Every lug and connector marking matches the conductor metal landed on it (CU, AL-CU or CU-AL as applicable); no CCA or aluminum on a CU-only terminal."
+      },
+      {
+        "id": "C1-SP-11",
+        "nec_ref": "110.14",
+        "severity": "code",
+        "text": "No backstabbed connections except 14 AWG solid copper; no CCA, stranded or 12 AWG on push-in terminals."
+      },
+      {
+        "id": "C1-SP-12",
+        "nec_ref": "110.3(B)",
+        "severity": "code",
+        "text": "Panel and equipment labels and instruction sheets were read and followed; any conflict between habit and instructions was resolved in favor of the instructions."
+      },
+      {
+        "id": "C1-SP-13",
+        "severity": "sharma",
+        "sharma_rule_id": "S-02",
+        "text": "All new gear — panel, meter-main, breakers, disconnects — is Siemens."
+      },
+      {
+        "id": "C1-SP-14",
+        "severity": "sharma",
+        "sharma_rule_id": "S-03",
+        "text": "In any existing panel, breakers are the brand listed for that panel only; no mixed brands to fill spaces."
+      },
+      {
+        "id": "C1-SP-15",
+        "severity": "sharma",
+        "sharma_rule_id": "S-09",
+        "text": "Where the layout is back-to-back (meter outside, panel inside), full 110.26 working space is still clear in front of the panel."
+      },
+      {
+        "id": "C1-SP-16",
+        "severity": "sharma",
+        "sharma_rule_id": "S-10",
+        "text": "Wire metal confirmed for the job (copper default; CCA one AWG up, aluminum column, AL-CU/CU-AL terminations) before sizing or landing anything."
+      }
+    ],
+    "room": "Service / Panel — Chapter 1 Punch List"
+  }
+]

@@ -450,10 +450,11 @@
         "C5-Q-042"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C5-ART-514",
       "next_id": "C5-ART-515",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "unverified_reason": "Subsection wording to be confirmed by Mike Holt against the printed 2020 text (the page's own note). Substance — the emergency disconnect opens all circuit conductors — is not in doubt."
     },
     {
       "id": "C5-ART-515",

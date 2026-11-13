@@ -1,1 +1,354 @@
-[{"answer_index":1,"article":"90","choices":["To teach electrical design","To protect people and property from electrical hazards","To guarantee the lowest-cost installation","To set utility rates"],"difficulty":1,"exam":"both","explain_plain":"90.1 frames the Code as a safety document. Design quality and cost sit above that floor, not in place of it.","id":"C1-Q-001","nec_ref":"90.1","question":"The primary purpose of the NEC, in plain terms, is:"},{"answer_index":2,"article":"90","choices":["A single-family house","A strip-mall tenant space","Utility-owned generation and distribution under the utility's exclusive control","A houseboat's shore-power receptacle on premises wiring"],"difficulty":1,"exam":"both","explain_plain":"90.2 excludes most utility-controlled generation, transmission and distribution installations. Premises wiring on the customer side is covered.","id":"C1-Q-002","nec_ref":"90.2","question":"Which installation is generally NOT covered by the NEC?"},{"answer_index":2,"article":"90","choices":["A mandatory requirement","A permissive requirement","Explanatory material, not enforceable as a requirement","A local amendment"],"difficulty":1,"exam":"both","explain_plain":"90.5 separates mandatory rules (shall/shall not), permissive rules (shall be permitted), and explanatory material. Notes explain; they do not create requirements.","id":"C1-Q-003","nec_ref":"90.5","question":"An Informational Note in the NEC is:"},{"answer_index":1,"article":"90","choices":["Replace Chapters 1-4 entirely","Supplement or modify the general Chapters 1-4 for special occupancies, equipment and conditions","Apply only to communications systems","Are annexes and not enforceable"],"difficulty":2,"exam":"both","explain_plain":"Under 90.3, Chapters 1-4 apply generally and Chapters 5-7 add to or modify them. Chapter 8 is the one that stands apart.","id":"C1-Q-004","nec_ref":"90.3","question":"Chapters 5, 6 and 7 of the NEC:"},{"answer_index":2,"article":"100","choices":["Readily accessible","Accessible","Not accessible","Guarded"],"difficulty":1,"exam":"journeyman","explain_plain":"Accessible for a wiring method means reachable without damaging finished construction. Buried splices fail that test, which is why splices belong in accessible boxes.","id":"C1-Q-005","nec_ref":"100","question":"A junction box buried behind finished drywall, with no access panel, is best described as:"},{"answer_index":2,"article":"100","choices":["It fits without forcing","It is the same amperage","It is listed and identified for that panel","The homeowner approves"],"difficulty":1,"exam":"both","explain_plain":"Fit is not identification. The breaker must be listed/identified for the specific panel — the basis for Sharma rules S-02 and S-03.","id":"C1-Q-006","nec_ref":"100","question":"A breaker that physically fits a panel of another brand may be installed if:"},{"answer_index":1,"article":"100","choices":["The bare equipment grounding conductor","The neutral, intentionally grounded and carrying load current","The ground rod conductor only","Any green conductor"],"difficulty":1,"exam":"journeyman","explain_plain":"Grounded = the intentionally grounded system conductor (neutral, white). Grounding = the fault-protection path (green/bare) that normally carries no load current.","id":"C1-Q-007","nec_ref":"100","question":"The grounded conductor in a house is normally:"},{"answer_index":1,"article":"100","choices":["Demand load","Continuous load","Calculated load","Dwelling load"],"difficulty":1,"exam":"both","explain_plain":"Three hours is the Article 100 line for a continuous load, which then drives 125% sizing treatment where the using article requires it.","id":"C1-Q-008","nec_ref":"100","question":"A load expected to run at maximum current for 3 hours or more is a:"},{"answer_index":2,"article":"100","choices":["Dry","Damp","Wet","Hazardous"],"difficulty":1,"exam":"journeyman","explain_plain":"Installations in concrete or masonry in direct contact with the earth are wet locations, so wet-rated conductors and fittings are required.","id":"C1-Q-009","nec_ref":"100","question":"A raceway run inside a concrete slab on grade is in which location?"},{"answer_index":1,"article":"100","choices":["A duplex receptacle in a bedroom","A ceiling lighting outlet for a luminaire","A GFCI receptacle at a counter","A floor receptacle"],"difficulty":2,"exam":"both","explain_plain":"An outlet is any point where current is taken for utilization equipment. A lighting outlet is an outlet, but no receptacle is installed there.","id":"C1-Q-010","nec_ref":"100","question":"Which of these is an outlet but NOT a receptacle outlet?"},{"answer_index":1,"article":"110","choices":["A suggestion for experienced electricians only","Part of the listing instructions and enforceable through 110.3(B)","Only for commercial work","Void if the lug feels tight"],"difficulty":1,"exam":"both","explain_plain":"Listed equipment must be installed and used per the instructions in its listing and labeling. Instructions are not optional where the listing depends on them.","id":"C1-Q-011","nec_ref":"110.3(B)","question":"Under 110.3(B), a torque value printed in a panel's instructions is:"},{"answer_index":2,"article":"110","choices":["Covered with electrical tape","Left open for ventilation","Closed with a closure providing protection substantially equal to the enclosure wall","Filled with foam sealant"],"difficulty":1,"exam":"journeyman","explain_plain":"110.12 requires unused openings to be closed with proper closures, such as listed knockout blanks — not tape or improvised covers.","id":"C1-Q-012","nec_ref":"110.12","question":"An unused knockout in a panel enclosure must be:"},{"answer_index":1,"article":"110","choices":["Any connector, if taped well","Marked for the combination, e.g. AL-CU / CU-AL (or intermixed where applicable)","Copper-only (CU)","Soldered first"],"difficulty":2,"exam":"both","explain_plain":"110.14: dissimilar-metal combinations require devices identified/marked for them. CU-only connectors are not suitable for aluminum or CCA combinations.","id":"C1-Q-013","nec_ref":"110.14","question":"A wire connector joining aluminum to copper must be:"},{"answer_index":2,"article":"110","choices":["12 AWG solid CCA","14 AWG stranded copper","14 AWG solid copper only","10 AWG solid copper"],"difficulty":2,"exam":"journeyman","explain_plain":"Backstab terminals are 14 AWG solid copper only. Never backstab CCA, stranded wire, or 12 AWG — a Sharma S-10 point as well as a listing limit.","id":"C1-Q-014","nec_ref":"110.14","question":"Push-in (backstab) terminals may be used with:"},{"answer_index":1,"article":"110","choices":["Tighten by feel","Use the specified value with a proper torque tool, unless a tested alternative method is marked","Add a quarter turn past snug","Use an impact driver"],"difficulty":1,"exam":"both","explain_plain":"110.14(D) makes the specified torque the requirement, applied with a torque tool. Feel is not a value.","id":"C1-Q-015","nec_ref":"110.14(D)","question":"Under 110.14(D), where a manufacturer specifies a terminal torque, the installer must:"},{"answer_index":1,"article":"110","choices":["Painted red","Legibly marked to indicate its purpose, unless evident from location","Locked at all times","Marked only if over 60A"],"difficulty":1,"exam":"journeyman","explain_plain":"Disconnects must be identified by what they control, with durable markings. 'Spare' labels on live circuits fail this rule.","id":"C1-Q-016","nec_ref":"110.22","question":"Under 110.22, each disconnecting means must be:"},{"answer_index":1,"article":"110","choices":["The electrician's license number","The available fault current and the date the calculation was performed","The utility account number","The panel's manufacture date"],"difficulty":2,"exam":"master","explain_plain":"110.24 requires the available fault current and calculation date to be field-marked at the service, with the calculation documented and available.","id":"C1-Q-017","nec_ref":"110.24","question":"The field marking required at service equipment under 110.24 must include:"},{"answer_index":1,"article":"110","choices":["30 in","36 in (3 ft)","42 in","48 in"],"difficulty":1,"exam":"both","explain_plain":"Table 110.26(A)(1) gives 3 ft for 0-150V to ground, Condition 1. Higher voltages and Conditions 2 and 3 require reading the table, not habit.","id":"C1-Q-018","nec_ref":"110.26(A)(1)","question":"For a 120/240V house panel, Condition 1, the minimum working-space depth is:"},{"answer_index":1,"article":"110","choices":["Live parts on one side, grounded wall on the other","Exposed live parts on both sides of the working space","No live parts in the room","Equipment over 600V"],"difficulty":2,"exam":"master","explain_plain":"Condition 1: live one side, nothing live/grounded opposite. Condition 2: grounded surface opposite. Condition 3: live parts on both sides — the deepest space.","id":"C1-Q-019","nec_ref":"110.26(A)(1)","question":"Condition 3 for working-space depth means:"},{"answer_index":1,"article":"110","choices":["Only the height of the panel","From the floor to 6 ft above the equipment or the structural ceiling, whichever is lower, over the equipment footprint","12 in above the panel","To the nearest plumbing line"],"difficulty":2,"exam":"both","explain_plain":"110.26(E) reserves that zone for the electrical installation; foreign piping and ducts do not belong in it.","id":"C1-Q-020","nec_ref":"110.26(E)","question":"The dedicated equipment space for an indoor panel extends:"},{"answer_index":1,"article":"110","choices":["Fine, breakers trip before fault current peaks","A violation of the interrupting-rating rule","Fine if the panel is Siemens","Permitted for dwellings without limit"],"difficulty":2,"exam":"master","explain_plain":"110.9: equipment intended to interrupt fault current must have an interrupting rating at least equal to the available fault current at its terminals.","id":"C1-Q-021","nec_ref":"110.9","question":"A breaker with a 10kA interrupting rating is installed where the available fault current is 22kA. This is:"},{"answer_index":2,"article":"90","choices":["A verbal okay from the inspector on a prior job","The builder's written approval","The AHJ's written consent, where the Code provides for it","A note in the permit comments by the homeowner"],"difficulty":2,"exam":"master","explain_plain":"Article 100 defines special permission as the written consent of the AHJ. Verbal and third-party approvals do not meet the definition.","id":"C1-Q-022","nec_ref":"100","question":"Special permission from the AHJ means:"}]
+[
+  {
+    "answer_index": 1,
+    "article": "90",
+    "choices": [
+      "To teach electrical design",
+      "To protect people and property from electrical hazards",
+      "To guarantee the lowest-cost installation",
+      "To set utility rates"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "90.1 frames the Code as a safety document. Design quality and cost sit above that floor, not in place of it.",
+    "id": "C1-Q-001",
+    "nec_ref": "90.1",
+    "question": "The primary purpose of the NEC, in plain terms, is:"
+  },
+  {
+    "answer_index": 2,
+    "article": "90",
+    "choices": [
+      "A single-family house",
+      "A strip-mall tenant space",
+      "Utility-owned generation and distribution under the utility's exclusive control",
+      "A houseboat's shore-power receptacle on premises wiring"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "90.2 excludes most utility-controlled generation, transmission and distribution installations. Premises wiring on the customer side is covered.",
+    "id": "C1-Q-002",
+    "nec_ref": "90.2",
+    "question": "Which installation is generally NOT covered by the NEC?"
+  },
+  {
+    "answer_index": 2,
+    "article": "90",
+    "choices": [
+      "A mandatory requirement",
+      "A permissive requirement",
+      "Explanatory material, not enforceable as a requirement",
+      "A local amendment"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "90.5 separates mandatory rules (shall/shall not), permissive rules (shall be permitted), and explanatory material. Notes explain; they do not create requirements.",
+    "id": "C1-Q-003",
+    "nec_ref": "90.5",
+    "question": "An Informational Note in the NEC is:"
+  },
+  {
+    "answer_index": 1,
+    "article": "90",
+    "choices": [
+      "Replace Chapters 1-4 entirely",
+      "Supplement or modify the general Chapters 1-4 for special occupancies, equipment and conditions",
+      "Apply only to communications systems",
+      "Are annexes and not enforceable"
+    ],
+    "difficulty": 2,
+    "exam": "both",
+    "explain_plain": "Under 90.3, Chapters 1-4 apply generally and Chapters 5-7 add to or modify them. Chapter 8 is the one that stands apart.",
+    "id": "C1-Q-004",
+    "nec_ref": "90.3",
+    "question": "Chapters 5, 6 and 7 of the NEC:"
+  },
+  {
+    "answer_index": 2,
+    "article": "100",
+    "choices": [
+      "Readily accessible",
+      "Accessible",
+      "Not accessible",
+      "Guarded"
+    ],
+    "difficulty": 1,
+    "exam": "journeyman",
+    "explain_plain": "Accessible for a wiring method means reachable without damaging finished construction. Buried splices fail that test, which is why splices belong in accessible boxes.",
+    "id": "C1-Q-005",
+    "nec_ref": "100",
+    "question": "A junction box buried behind finished drywall, with no access panel, is best described as:"
+  },
+  {
+    "answer_index": 2,
+    "article": "100",
+    "choices": [
+      "It fits without forcing",
+      "It is the same amperage",
+      "It is listed and identified for that panel",
+      "The homeowner approves"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "Fit is not identification. The breaker must be listed/identified for the specific panel — the basis for Sharma rules S-02 and S-03.",
+    "id": "C1-Q-006",
+    "nec_ref": "100",
+    "question": "A breaker that physically fits a panel of another brand may be installed if:"
+  },
+  {
+    "answer_index": 1,
+    "article": "100",
+    "choices": [
+      "The bare equipment grounding conductor",
+      "The neutral, intentionally grounded and carrying load current",
+      "The ground rod conductor only",
+      "Any green conductor"
+    ],
+    "difficulty": 1,
+    "exam": "journeyman",
+    "explain_plain": "Grounded = the intentionally grounded system conductor (neutral, white). Grounding = the fault-protection path (green/bare) that normally carries no load current.",
+    "id": "C1-Q-007",
+    "nec_ref": "100",
+    "question": "The grounded conductor in a house is normally:"
+  },
+  {
+    "answer_index": 1,
+    "article": "100",
+    "choices": [
+      "Demand load",
+      "Continuous load",
+      "Calculated load",
+      "Dwelling load"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "Three hours is the Article 100 line for a continuous load, which then drives 125% sizing treatment where the using article requires it.",
+    "id": "C1-Q-008",
+    "nec_ref": "100",
+    "question": "A load expected to run at maximum current for 3 hours or more is a:"
+  },
+  {
+    "answer_index": 2,
+    "article": "100",
+    "choices": [
+      "Dry",
+      "Damp",
+      "Wet",
+      "Hazardous"
+    ],
+    "difficulty": 1,
+    "exam": "journeyman",
+    "explain_plain": "Installations in concrete or masonry in direct contact with the earth are wet locations, so wet-rated conductors and fittings are required.",
+    "id": "C1-Q-009",
+    "nec_ref": "100",
+    "question": "A raceway run inside a concrete slab on grade is in which location?"
+  },
+  {
+    "answer_index": 1,
+    "article": "100",
+    "choices": [
+      "A duplex receptacle in a bedroom",
+      "A ceiling lighting outlet for a luminaire",
+      "A GFCI receptacle at a counter",
+      "A floor receptacle"
+    ],
+    "difficulty": 2,
+    "exam": "both",
+    "explain_plain": "An outlet is any point where current is taken for utilization equipment. A lighting outlet is an outlet, but no receptacle is installed there.",
+    "id": "C1-Q-010",
+    "nec_ref": "100",
+    "question": "Which of these is an outlet but NOT a receptacle outlet?"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "A suggestion for experienced electricians only",
+      "Part of the listing instructions and enforceable through 110.3(B)",
+      "Only for commercial work",
+      "Void if the lug feels tight"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "Listed equipment must be installed and used per the instructions in its listing and labeling. Instructions are not optional where the listing depends on them.",
+    "id": "C1-Q-011",
+    "nec_ref": "110.3(B)",
+    "question": "Under 110.3(B), a torque value printed in a panel's instructions is:"
+  },
+  {
+    "answer_index": 2,
+    "article": "110",
+    "choices": [
+      "Covered with electrical tape",
+      "Left open for ventilation",
+      "Closed with a closure providing protection substantially equal to the enclosure wall",
+      "Filled with foam sealant"
+    ],
+    "difficulty": 1,
+    "exam": "journeyman",
+    "explain_plain": "110.12 requires unused openings to be closed with proper closures, such as listed knockout blanks — not tape or improvised covers.",
+    "id": "C1-Q-012",
+    "nec_ref": "110.12",
+    "question": "An unused knockout in a panel enclosure must be:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "Any connector, if taped well",
+      "Marked for the combination, e.g. AL-CU / CU-AL (or intermixed where applicable)",
+      "Copper-only (CU)",
+      "Soldered first"
+    ],
+    "difficulty": 2,
+    "exam": "both",
+    "explain_plain": "110.14: dissimilar-metal combinations require devices identified/marked for them. CU-only connectors are not suitable for aluminum or CCA combinations.",
+    "id": "C1-Q-013",
+    "nec_ref": "110.14",
+    "question": "A wire connector joining aluminum to copper must be:"
+  },
+  {
+    "answer_index": 2,
+    "article": "110",
+    "choices": [
+      "12 AWG solid CCA",
+      "14 AWG stranded copper",
+      "14 AWG solid copper only",
+      "10 AWG solid copper"
+    ],
+    "difficulty": 2,
+    "exam": "journeyman",
+    "explain_plain": "Backstab terminals are 14 AWG solid copper only. Never backstab CCA, stranded wire, or 12 AWG — a Sharma S-10 point as well as a listing limit.",
+    "id": "C1-Q-014",
+    "nec_ref": "110.14",
+    "question": "Push-in (backstab) terminals may be used with:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "Tighten by feel",
+      "Use the specified value with a proper torque tool, unless a tested alternative method is marked",
+      "Add a quarter turn past snug",
+      "Use an impact driver"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "110.14(D) makes the specified torque the requirement, applied with a torque tool. Feel is not a value.",
+    "id": "C1-Q-015",
+    "nec_ref": "110.14(D)",
+    "question": "Under 110.14(D), where a manufacturer specifies a terminal torque, the installer must:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "Painted red",
+      "Legibly marked to indicate its purpose, unless evident from location",
+      "Locked at all times",
+      "Marked only if over 60A"
+    ],
+    "difficulty": 1,
+    "exam": "journeyman",
+    "explain_plain": "Disconnects must be identified by what they control, with durable markings. 'Spare' labels on live circuits fail this rule.",
+    "id": "C1-Q-016",
+    "nec_ref": "110.22",
+    "question": "Under 110.22, each disconnecting means must be:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "The electrician's license number",
+      "The available fault current and the date the calculation was performed",
+      "The utility account number",
+      "The panel's manufacture date"
+    ],
+    "difficulty": 2,
+    "exam": "master",
+    "explain_plain": "110.24 requires the available fault current and calculation date to be field-marked on service equipment in other than dwelling units, with the calculation documented and available.",
+    "id": "C1-Q-017",
+    "nec_ref": "110.24",
+    "question": "The field marking required at service equipment under 110.24 must include:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "30 in",
+      "36 in (3 ft)",
+      "42 in",
+      "48 in"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "Table 110.26(A)(1) gives 3 ft for 0-150V to ground, Condition 1. Higher voltages and Conditions 2 and 3 require reading the table, not habit.",
+    "id": "C1-Q-018",
+    "nec_ref": "110.26(A)(1)",
+    "question": "For a 120/240V house panel, Condition 1, the minimum working-space depth is:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "Live parts on one side, grounded wall on the other",
+      "Exposed live parts on both sides of the working space",
+      "No live parts in the room",
+      "Equipment over 600V"
+    ],
+    "difficulty": 2,
+    "exam": "master",
+    "explain_plain": "Condition 1: live one side, nothing live/grounded opposite. Condition 2: grounded surface opposite. Condition 3: live parts on both sides. It is the deepest space at higher voltages; at 150V or less to ground all three conditions take 3 ft.",
+    "id": "C1-Q-019",
+    "nec_ref": "110.26(A)(1)",
+    "question": "Condition 3 for working-space depth means:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "Only the height of the panel",
+      "From the floor to 6 ft above the equipment or the structural ceiling, whichever is lower, over the equipment footprint",
+      "12 in above the panel",
+      "To the nearest plumbing line"
+    ],
+    "difficulty": 2,
+    "exam": "both",
+    "explain_plain": "110.26(E) reserves that zone for the electrical installation; foreign piping and ducts do not belong in it.",
+    "id": "C1-Q-020",
+    "nec_ref": "110.26(E)",
+    "question": "The dedicated equipment space for an indoor panel extends:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "Fine, breakers trip before fault current peaks",
+      "A violation of the interrupting-rating rule",
+      "Fine if the panel is Siemens",
+      "Permitted for dwellings without limit"
+    ],
+    "difficulty": 2,
+    "exam": "master",
+    "explain_plain": "110.9: equipment intended to interrupt fault current must have an interrupting rating at least equal to the available fault current at its terminals.",
+    "id": "C1-Q-021",
+    "nec_ref": "110.9",
+    "question": "A breaker with a 10kA interrupting rating is installed where the available fault current is 22kA. This is:"
+  },
+  {
+    "answer_index": 2,
+    "article": "90",
+    "choices": [
+      "A verbal okay from the inspector on a prior job",
+      "The builder's written approval",
+      "The AHJ's written consent, where the Code provides for it",
+      "A note in the permit comments by the homeowner"
+    ],
+    "difficulty": 2,
+    "exam": "master",
+    "explain_plain": "Article 100 defines special permission as the written consent of the AHJ. Verbal and third-party approvals do not meet the definition.",
+    "id": "C1-Q-022",
+    "nec_ref": "100",
+    "question": "Special permission from the AHJ means:"
+  }
+]

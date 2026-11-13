@@ -506,8 +506,8 @@
       "300 milliamperes"
     ],
     "answer_index": 2,
-    "explain_plain": "One hundred milliamperes is the feeder and branch level in 555.35(A)(3). The shore receptacle level below it is 30 milliamperes.",
-    "nec_ref": "555.35(A)(3)",
+    "explain_plain": "One hundred milliamperes is the feeder and branch level in 555.35(B). The shore receptacle level below it is 30 milliamperes.",
+    "nec_ref": "555.35(B)",
     "difficulty": 3,
     "exam": "master"
   },
@@ -682,7 +682,7 @@
       "The 90°C copper column only"
     ],
     "answer_index": 1,
-    "explain_plain": "Table 310.16's aluminum column covers aluminum and copper-clad aluminum, and minimum sizes follow 310.3. That is why CCA runs one AWG size up from copper for the same breaker.",
+    "explain_plain": "Table 310.16's aluminum column covers aluminum and copper-clad aluminum,. That is why CCA runs one AWG size up from copper for the same breaker.",
     "nec_ref": "310.16",
     "difficulty": 2,
     "exam": "both"
