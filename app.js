@@ -8,8 +8,9 @@ let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null, 
 const FALLBACK_TABLES = {"boxFillVolumePerConductor":{"18":1.5,"16":1.75,"14":2,"12":2.25,"10":2.5,"8":3,"6":5},"ampacity75C":{"copper":{"14":20,"12":25,"10":35,"8":50,"6":65,"4":85,"3":100,"2":115,"1":130,"1/0":150,"2/0":175,"3/0":200,"4/0":230},"aluminum":{"12":20,"10":30,"8":40,"6":50,"4":65,"3":75,"2":90,"1":100,"1/0":120,"2/0":135,"3/0":155,"4/0":180}},"smallConductorCaps":{"copper":{"14":15,"12":20,"10":30},"aluminum":{"12":15,"10":25}},"circularMils":{"14":4110,"12":6530,"10":10380,"8":16510,"6":26240,"4":41740,"3":52620,"2":66360,"1":83690,"1/0":105600,"2/0":133100,"3/0":167800,"4/0":211600},"conduitAreas40pct":{"EMT":{"1/2":0.122,"3/4":0.213,"1":0.346,"1-1/4":0.598,"1-1/2":0.814,"2":1.342}},"conductorAreasTHHN":{"14":0.0097,"12":0.0133,"10":0.0211,"8":0.0366,"6":0.0507,"4":0.0824,"3":0.0973,"2":0.1158},"table8Resistance":{"copper":{"14":3.14,"12":1.98,"10":1.24,"8":0.778,"6":0.491,"4":0.308,"3":0.245,"2":0.194,"1":0.154,"1/0":0.122,"2/0":0.0967,"3/0":0.0766,"4/0":0.0608},"aluminum":{"12":3.25,"10":2.04,"8":1.28,"6":0.808,"4":0.508,"3":0.403,"2":0.319,"1":0.253,"1/0":0.201,"2/0":0.159,"3/0":0.126,"4/0":0.100}}};
 const favs = new Set(JSON.parse(localStorage.getItem("nec-favs")||"[]"));
 function saveFavs(){ localStorage.setItem("nec-favs", JSON.stringify([...favs])); }
+const CONTENT_V = "7";
 async function loadJSON(name){
-  try{ const r = await fetch("content/"+name+".json"); if(r.ok) return await r.json(); }catch(e){}
+  try{ const r = await fetch("content/"+name+".json?v="+CONTENT_V); if(r.ok) return await r.json(); }catch(e){}
   return null;
 }
 let tab = "lookup";
@@ -224,7 +225,8 @@ function renderCalc(){
     const dropFor=a=>{ const R=R8[a]; if(R) return f*L*I*R/1000; const K=mat==="copper"?12.9:21.2; return f*K*I*L/T.circularMils[a]; };
     const vd=dropFor(start); const pct=100*vd/V;
     let size=start;
-    for(const a of awgs){ if(100*dropFor(a)/V<=3){ size=a; break; } }
+    const bySize=[...awgs].sort((x,y)=>T.circularMils[x]-T.circularMils[y]);
+    for(const a of bySize){ if(100*dropFor(a)/V<=3){ size=a; break; } }
     const basis= R8[start]? `Chapter 9, Table 8 resistance (${R8[start]} Ω per 1,000 ft)` : "K-constant approximation (no Table 8 value loaded for this size)";
     $("#vd-out").innerHTML=`<div class="result">Voltage drop: <b>${vd.toFixed(2)} V (${pct.toFixed(1)}%)</b> — ${basis}<br>${pct<=3?"✅ Within the 3% recommendation":`❌ Over 3% — smallest size that gets you there: <b>${size} AWG</b>`}<br><span class="flag">Florida commercial work: FBC Energy Conservation C405.5.3 caps feeders + branch circuits COMBINED at 5% total voltage drop.</span></div>`; };
   $("#am-go").onclick=()=>{ const mat=sel("#am-mat"), a=sel("#am-awg");
