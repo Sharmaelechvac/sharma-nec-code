@@ -4,8 +4,8 @@
 "use strict";
 const $ = (s, el=document) => el.querySelector(s);
 const view = $("#view");
-let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null, book:null, bookLookup:null, bookQuiz:null, bookChecklists:null, bookSet:{} };
-const FALLBACK_TABLES = {"boxFillVolumePerConductor":{"18":2,"16":2.25,"14":2.25,"12":2.5,"10":2.5,"8":3,"6":5},"ampacity75C":{"copper":{"14":20,"12":25,"10":35,"8":50,"6":65,"4":85,"3":100,"2":115,"1":130,"1/0":150,"2/0":175,"3/0":200,"4/0":230},"aluminum":{"12":20,"10":30,"8":40,"6":50,"4":65,"3":75,"2":90,"1":100,"1/0":120,"2/0":135,"3/0":155,"4/0":180}},"smallConductorCaps":{"copper":{"14":15,"12":20,"10":30},"aluminum":{"12":15,"10":25}},"circularMils":{"14":4110,"12":6530,"10":10380,"8":16510,"6":26240,"4":41740,"3":52620,"2":66360,"1":83690,"1/0":105600,"2/0":133100,"3/0":167800,"4/0":211600},"conduitAreas40pct":{"EMT":{"1/2":0.122,"3/4":0.213,"1":0.346,"1-1/4":0.598,"1-1/2":0.814,"2":1.342}},"conductorAreasTHHN":{"14":0.0097,"12":0.0133,"10":0.0211,"8":0.0366,"6":0.0507,"4":0.0824,"3":0.0973,"2":0.1158}};
+let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null, book:null, bookLookup:null, bookQuiz:null, bookChecklists:null, bookSet:{}, v1lookup:[], v1quiz:[], v1checklists:[], v1sharma:[], books:[] };
+const FALLBACK_TABLES = {"boxFillVolumePerConductor":{"18":1.5,"16":1.75,"14":2,"12":2.25,"10":2.5,"8":3,"6":5},"ampacity75C":{"copper":{"14":20,"12":25,"10":35,"8":50,"6":65,"4":85,"3":100,"2":115,"1":130,"1/0":150,"2/0":175,"3/0":200,"4/0":230},"aluminum":{"12":20,"10":30,"8":40,"6":50,"4":65,"3":75,"2":90,"1":100,"1/0":120,"2/0":135,"3/0":155,"4/0":180}},"smallConductorCaps":{"copper":{"14":15,"12":20,"10":30},"aluminum":{"12":15,"10":25}},"circularMils":{"14":4110,"12":6530,"10":10380,"8":16510,"6":26240,"4":41740,"3":52620,"2":66360,"1":83690,"1/0":105600,"2/0":133100,"3/0":167800,"4/0":211600},"conduitAreas40pct":{"EMT":{"1/2":0.122,"3/4":0.213,"1":0.346,"1-1/4":0.598,"1-1/2":0.814,"2":1.342}},"conductorAreasTHHN":{"14":0.0097,"12":0.0133,"10":0.0211,"8":0.0366,"6":0.0507,"4":0.0824,"3":0.0973,"2":0.1158},"table8Resistance":{"copper":{"14":3.14,"12":1.98,"10":1.24,"8":0.778,"6":0.491,"4":0.308,"3":0.245,"2":0.194,"1":0.154,"1/0":0.122,"2/0":0.0967,"3/0":0.0766,"4/0":0.0608},"aluminum":{"12":3.25,"10":2.04,"8":1.28,"6":0.808,"4":0.508,"3":0.403,"2":0.319,"1":0.253,"1/0":0.201,"2/0":0.159,"3/0":0.126,"4/0":0.100}}};
 const favs = new Set(JSON.parse(localStorage.getItem("nec-favs")||"[]"));
 function saveFavs(){ localStorage.setItem("nec-favs", JSON.stringify([...favs])); }
 async function loadJSON(name){
@@ -26,7 +26,7 @@ const learned = new Set(JSON.parse(localStorage.getItem("nec-learned")||"[]"));
 function saveLearned(){ localStorage.setItem("nec-learned", JSON.stringify([...learned])); }
 document.addEventListener("click",e=>{
   const l=e.target.closest("[data-learn]"); if(l){ const id=l.dataset.learn; learned.has(id)?learned.delete(id):learned.add(id); saveLearned(); render(); return; }
-  const qz=e.target.closest("[data-quizjump]"); if(qz){ tab="quiz"; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="quiz")); render(); }
+  const qz=e.target.closest("[data-quizjump]"); if(qz){ setTab("quiz"); startQuiz("all",0); render(); }
 });
 const DG = {
 "box-fill":`<rect x="100" y="18" width="120" height="84" rx="8" fill="none" stroke="#004585" stroke-width="3"/><circle cx="128" cy="45" r="11" fill="#0058a3"/><circle cx="160" cy="45" r="11" fill="#0058a3"/><circle cx="192" cy="45" r="11" fill="#0058a3"/><circle cx="144" cy="76" r="11" fill="#7fb3dd"/><circle cx="176" cy="76" r="11" fill="#7fb3dd"/><text x="160" y="116" text-anchor="middle" font-size="13" font-weight="800" fill="#004585">COUNT EVERY CONDUCTOR</text>`,
@@ -72,15 +72,34 @@ function topicCard(t, ix){
   const done = learned.has(t.id);
   return `<div class="card">${favBtn("t:"+t.id)}<div class="cite">${typeof ix==="number"?`<span class="num-badge">${ix+1}</span>`:""}${esc(t.cite)}</div><h3>${esc(t.title)}</h3>${diagram(t.id)}${kn.length?`<div class="keynums">${kn.map(k=>`<span class="keynum">${esc(k)}</span>`).join("")}</div>`:""}<ul class="steps">${st.map((x,i)=>`<li><b>Step ${i+1}.</b> ${esc(x)}</li>`).join("")}</ul>${t.flag?`<span class="flag">${esc(t.flag)}</span>`:""}<div class="rowbtns"><button class="learnbtn ${done?"done":""}" data-learn="${t.id}">${done?"✓ Learned":"Mark as learned"}</button><button class="quizbtn" data-quizjump="1">Quiz me →</button></div></div>`;
 }
+function lookupCard(ch, x){
+  return `<div class="card" id="lk-${esc(x.id)}"${lookupState.highlight===x.id?` style="outline:3px solid #0058a3"`:``}><div class="cite">Ch. ${ch} · ${esc(x.nec_ref||"")} · ${esc(x.id)}</div><h3>${esc(x.question)}</h3><p>${esc(x.answer_plain)}</p>${x.verified===false?`<span class="flag">⚠ UNVERIFIED${x.unverified_reason? " — "+esc(x.unverified_reason):""}</span>`:""}${x.sharma_rule_id?`<span class="tag">SHARMA ${esc(x.sharma_rule_id)}</span>`:""}</div>`;
+}
 function renderLookup(){
   const q=($("#search").value||"").toLowerCase().trim();
   const topics=(DATA.lookup&&DATA.lookup.topics)||[];
-  const list=q? topics.filter(t=>(t.title+" "+t.cite+" "+t.summary).toLowerCase().includes(q)) : topics;
-  const total=(DATA.lookup&&DATA.lookup.topics||[]).length;
-  view.innerHTML = `<h2 class="sec">${q?"Code lookup":"Learn the code — one rule at a time"}</h2>` +
-    (!q&&total? `<div class="progresswrap"><div class="plabel">Your progress: ${[...learned].filter(id=>(DATA.lookup.topics||[]).some(t=>t.id===id)).length} of ${total} rules learned</div><div class="pbar"><div style="width:${Math.round(100*[...learned].filter(id=>(DATA.lookup.topics||[]).some(t=>t.id===id)).length/Math.max(total,1))}%"></div></div></div>`:"") +
+  if(q){
+    const tlist=topics.filter(t=>(t.title+" "+t.cite+" "+t.summary).toLowerCase().includes(q));
+    const bank=chapterLookupAll().filter(({item:x})=>(x.id+" "+x.question+" "+x.answer_plain+" "+(x.nec_ref||"")+" "+(x.aliases||[]).join(" ")).toLowerCase().includes(q));
+    const v1=(DATA.v1lookup||[]).filter(x=>(x.id+" "+x.question+" "+x.answer_plain+" "+(x.nec_ref||"")+" "+(x.aliases||[]).join(" ")).toLowerCase().includes(q));
+    const pages=[]; for(const e of bookEntries()) for(const s of e.book.sections) if((s.id+" "+s.section+" "+s.title+" "+s.plain_explanation).toLowerCase().includes(q)) pages.push(s);
+    view.innerHTML = `<h2 class="sec">Search results</h2>` +
+      (tlist.length? `<h2 class="sec">Learn-the-code topics</h2>`+tlist.map(t=>topicCard(t)).join(""):"") +
+      (bank.length? `<h2 class="sec">Field Book lookup (${bank.length})</h2>`+bank.slice(0,120).map(({ch,item})=>lookupCard(ch,item)).join("")+(bank.length>120?`<p class="flag">Showing the first 120 matches — narrow the search to see more.</p>`:""):"") +
+      (v1.length? `<h2 class="sec">Field Book v1 lookup (${v1.length})</h2>`+v1.slice(0,60).map(x=>`<div class="card"><div class="cite">${esc(x.id)} · ${esc(x.nec_ref||"")}</div><h3>${esc(x.question)}</h3><p>${esc(x.answer_plain)}</p></div>`).join(""):"") +
+      (pages.length? `<h2 class="sec">Field Book pages (${pages.length})</h2><div class="card">${pages.slice(0,60).map(s=>`<button class="bkchip" data-bookpage="${s.id}">${esc(s.id.replace(/^C\d+-/,""))} — ${esc(s.title)}</button>`).join(" ")}</div>`:"") +
+      (!tlist.length&&!bank.length&&!v1.length&&!pages.length? `<div class="empty">No matches. Try a topic name or an article number.</div>`:"");
+    return;
+  }
+  const total=topics.length;
+  let html = `<h2 class="sec">Learn the code — one rule at a time</h2>` +
+    (total? `<div class="progresswrap"><div class="plabel">Your progress: ${[...learned].filter(id=>topics.some(t=>t.id===id)).length} of ${total} rules learned</div><div class="pbar"><div style="width:${Math.round(100*[...learned].filter(id=>topics.some(t=>t.id===id)).length/Math.max(total,1))}%"></div></div></div>`:"") +
     (DATA.lookup? `<p class="flag">${esc(DATA.lookup.meta.status)}</p>`:"") +
-    (list.length? list.map((t,i)=>topicCard(t, q?undefined:topics.indexOf(t))).join("") : `<div class="empty">No matches. Try a topic name or an article number.</div>`);
+    (topics.length? topics.map((t,i)=>topicCard(t,i)).join("") : `<div class="empty">Lookup file not loaded yet.</div>`);
+  html += `<h2 class="sec">Field Book lookup</h2><p class="bkmeta">The nine chapters carry ${chapterLookupAll().length} lookup cards of their own. Pick a chapter to browse them, or use the search box above — it searches the topics, every chapter bank, the v1 pack, and the book pages at once.</p>`;
+  html += `<div class="rowbtns">${bookEntries().map(e=>`<button class="quizbtn" data-lookupch="${e.book.chapter}"${lookupState.chapter===e.book.chapter?` style="background:#0058a3;color:#fff"`:``}>Ch. ${e.book.chapter} (${(e.lookup||[]).length})</button>`).join("")}</div>`;
+  if(lookupState.chapter){ const ent=bookEntries().find(e=>e.book.chapter===lookupState.chapter); if(ent) html += (ent.lookup||[]).map(x=>lookupCard(ent.book.chapter,x)).join(""); }
+  view.innerHTML = html;
 }
 /* ---------- Sharma rules ---------- */
 function renderSharma(){
@@ -102,19 +121,39 @@ function renderFavs(){
 /* ---------- Checklists ---------- */
 function renderRooms(){
   const rooms=(DATA.checklists&&DATA.checklists.rooms)||[];
-  view.innerHTML=`<h2 class="sec">Room checklists</h2>`+(rooms.length? rooms.map(r=>
+  let html=`<h2 class="sec">Room checklists</h2>`+(rooms.length? rooms.map(r=>
     `<div class="card"><h3>${esc(r.room)}</h3><ul class="ck">${r.items.map(i=>`<li><input type="checkbox"><span>${esc(i)}</span></li>`).join("")}</ul></div>`).join("")
     : `<div class="empty">Checklists file not loaded yet.</div>`);
+  html+=`<h2 class="sec">Field Book checklists</h2>`;
+  for(const e of bookEntries()) for(const r of (e.checklists||[])){
+    html+=`<div class="card"><h3>Ch. ${e.book.chapter} — ${esc(r.room)}</h3><ul class="ck">${r.items.map(i=>`<li id="ck-${esc(i.id)}"${roomsHighlight===i.id?` style="outline:3px solid #0058a3"`:``}><input type="checkbox"><span>${esc(i.text)}${i.nec_ref?` <span class="cite">${esc(i.nec_ref)}</span>`:""}${i.severity==="sharma"?` <span class="tag">SHARMA</span>`:""}</span></li>`).join("")}</ul></div>`;
+  }
+  view.innerHTML=html;
 }
 /* ---------- Quiz ---------- */
 let quizState=null;
+function quizBank(name){
+  const norm=x=>({q:x.question, choices:x.choices, answer:x.answer_index, why:x.explain_plain, cite:x.nec_ref});
+  if(name==="starter") return ((DATA.quiz&&DATA.quiz.questions)||[]).map(q=>({q:q.q, choices:q.choices, answer:q.answer, why:q.why, cite:q.cite}));
+  if(name==="all") return chapterQuizAll().map(({item})=>norm(item));
+  const ent=bookEntries().find(e=>e.book.chapter===parseInt(String(name).slice(2),10));
+  return ent? (ent.quiz||[]).map(norm) : [];
+}
+function startQuiz(bank, idx){ quizState={bank:bank, qs:quizBank(bank), i:idx||0, score:0, answered:false}; }
 function renderQuiz(){
-  const qs=(DATA.quiz&&DATA.quiz.questions)||[];
-  if(!qs.length){ view.innerHTML=`<div class="empty">Quiz file not loaded yet.</div>`; return; }
-  if(!quizState) quizState={i:0,score:0,answered:false};
-  const s=quizState;
-  if(s.i>=qs.length){ view.innerHTML=`<div class="card"><div class="score">Score: ${s.score} / ${qs.length} (${Math.round(100*s.score/qs.length)}%)<br>${100*s.score/qs.length>=(DATA.quiz.pass||80)?"✅ Pass":"❌ Below the 80% pass mark — run it again"}</div><button class="go" id="qrestart">Restart quiz</button></div>`;
-    $("#qrestart").onclick=()=>{quizState=null;renderQuiz();}; return; }
+  if(!quizState){
+    view.innerHTML=`<h2 class="sec">Quiz — pick a bank</h2><div class="card"><div class="rowbtns">
+      <button class="quizbtn" data-quizbank="starter">Starter bank (${((DATA.quiz&&DATA.quiz.questions)||[]).length})</button>
+      <button class="quizbtn" data-quizbank="all">All chapters (${chapterQuizAll().length})</button>
+      ${bookEntries().map(e=>`<button class="quizbtn" data-quizbank="ch${e.book.chapter}">Ch. ${e.book.chapter} (${(e.quiz||[]).length})</button>`).join("")}
+      </div><p class="bkmeta">The chapter banks are the Field Book's own exam questions. Pass mark is 80%.</p></div>`;
+    return;
+  }
+  const s=quizState, qs=s.qs;
+  if(!qs.length){ view.innerHTML=`<div class="empty">That quiz bank is empty.</div>`; quizState=null; return; }
+  if(s.i>=qs.length){ view.innerHTML=`<div class="card"><div class="score">Score: ${s.score} / ${qs.length} (${Math.round(100*s.score/qs.length)}%)<br>${100*s.score/qs.length>=80?"✅ Pass":"❌ Below the 80% pass mark — run it again"}</div><div class="rowbtns"><button class="go" id="qrestart">Restart this bank</button><button class="quizbtn" id="qbank">Change bank</button></div></div>`;
+    $("#qrestart").onclick=()=>{ startQuiz(s.bank,0); renderQuiz(); };
+    $("#qbank").onclick=()=>{ quizState=null; renderQuiz(); }; return; }
   const q=qs[s.i];
   view.innerHTML=`<h2 class="sec">Quiz — question ${s.i+1} of ${qs.length}</h2><div class="card"><h3>${esc(q.q)}</h3>`+
     q.choices.map((c,ix)=>`<button class="qopt" data-q="${ix}">${esc(c)}</button>`).join("")+
@@ -140,10 +179,10 @@ function renderCalc(){
   <h2 class="sec">Calculators</h2>
   <div class="card"><h3>📦 Box fill <span class="cite">314.16</span></h3>
     <label class="f">Wire size (AWG)</label><select class="n" id="bf-awg">${opts(["14","12","10","8","6"],"12")}</select>
-    <label class="f">Conductors entering the box (count each insulated conductor; grounds count once together)</label><input class="n" id="bf-cond" type="number" value="6" min="0">
+    <label class="f">Conductors entering the box (count each insulated conductor; do NOT count grounds here — use the grounds field)</label><input class="n" id="bf-cond" type="number" value="6" min="0">
     <label class="f">Devices (switches / receptacles)</label><input class="n" id="bf-dev" type="number" value="1" min="0">
     <label class="f">Internal cable clamps?</label><select class="n" id="bf-clamp"><option value="0">No / external</option><option value="1">Yes (counts as 1)</option></select>
-    <label class="f">Equipment grounds present?</label><select class="n" id="bf-gnd"><option value="1">Yes (counts as 1 total)</option><option value="0">No</option></select>
+    <label class="f">Equipment grounding conductors entering the box (count) — 2020 rule 314.16(B)(5): the first four together take ONE allowance; each ground past four adds a QUARTER allowance</label><input class="n" id="bf-egc" type="number" value="2" min="0">
     <label class="f">Box volume (cu in — printed inside the box)</label><input class="n" id="bf-box" type="number" value="22.5" step="0.5">
     <button class="go" id="bf-go">Calculate box fill</button><div id="bf-out"></div></div>
   <div class="card"><h3>🔌 Conduit fill <span class="cite">Ch. 9</span></h3>
@@ -157,6 +196,7 @@ function renderCalc(){
     <label class="f">Load (amps)</label><input class="n" id="vd-i" type="number" value="16" step="0.5">
     <label class="f">One-way length (ft)</label><input class="n" id="vd-l" type="number" value="75">
     <label class="f">Circuit voltage</label><input class="n" id="vd-v" type="number" value="120">
+    <label class="f">System</label><select class="n" id="vd-ph"><option value="1">Single-phase</option><option value="3">Three-phase</option></select>
     <button class="go" id="vd-go">Calculate voltage drop</button><div id="vd-out"></div></div>
   <div class="card"><h3>🔋 Wire ampacity <span class="cite">Table 310.16 · 240.4(D)</span></h3>
     <label class="f">Material</label><select class="n" id="am-mat"><option value="copper">Copper</option><option value="aluminum">Aluminum</option></select>
@@ -169,17 +209,24 @@ function renderCalc(){
     <label class="f">AC / heat pump (VA) — the larger of heat vs AC is used</label><input class="n" id="lc-ac" type="number" value="7200">
     <button class="go" id="lc-go">Calculate service load</button><div id="lc-out"></div></div>`;
   $("#bf-go").onclick=()=>{ const per=T.boxFillVolumePerConductor[sel("#bf-awg")];
-    const total=per*(num("#bf-cond")+2*num("#bf-dev")+num("#bf-clamp")+num("#bf-gnd"));
+    const egcN=num("#bf-egc"); const egcF= egcN===0?0 : egcN<=4?1 : 1+0.25*(egcN-4);
+    const total=per*(num("#bf-cond")+2*num("#bf-dev")+num("#bf-clamp")+egcF);
     const box=num("#bf-box");
-    $("#bf-out").innerHTML=`<div class="result">Required volume: <b>${total.toFixed(2)} cu in</b><br>Box volume: <b>${box} cu in</b> → ${total<=box?"✅ <b>FITS</b>":"❌ <b>TOO SMALL</b> — use a bigger box or a box extension"}</div>`; };
-  $("#cf-go").onclick=()=>{ const allow=T.conduitAreas40pct.EMT[sel("#cf-size")]; const each=T.conductorAreasTHHN[sel("#cf-awg")]; const n=num("#cf-n");
+    $("#bf-out").innerHTML=`<div class="result">Required volume: <b>${total.toFixed(2)} cu in</b> (grounds allowance: ${egcF} × ${per} cu in)<br>Box volume: <b>${box} cu in</b> → ${total<=box?"✅ <b>FITS</b>":"❌ <b>TOO SMALL</b> — use a bigger box or a box extension"}</div>`; };
+  $("#cf-go").onclick=()=>{ const a40=T.conduitAreas40pct.EMT[sel("#cf-size")]; const each=T.conductorAreasTHHN[sel("#cf-awg")]; const n=num("#cf-n");
+    const totalArea=a40/0.40; const pct= n===1?0.53 : n===2?0.31 : 0.40; const allow=totalArea*pct;
     const used=each*n;
-    $("#cf-out").innerHTML=`<div class="result">Conductors take <b>${used.toFixed(3)} sq in</b> of the <b>${allow} sq in</b> allowed (40% fill) → ${used<=allow?"✅ <b>FITS</b>":"❌ <b>OVERFILLED</b> — upsize the conduit"}<br>Max of this size in that conduit: <b>${Math.floor(allow/each)}</b></div>`; };
-  $("#vd-go").onclick=()=>{ const K=sel("#vd-mat")==="copper"?12.9:21.2; const cm=T.circularMils[sel("#vd-awg")];
-    const vd=2*K*num("#vd-i")*num("#vd-l")/cm; const pct=100*vd/num("#vd-v");
-    let size=sel("#vd-awg");
-    for(const a of awgs){ const v2=2*K*num("#vd-i")*num("#vd-l")/T.circularMils[a]; if(100*v2/num("#vd-v")<=3){ size=a; break; } }
-    $("#vd-out").innerHTML=`<div class="result">Voltage drop: <b>${vd.toFixed(2)} V (${pct.toFixed(1)}%)</b> → ${pct<=3?"✅ Within the 3% recommendation":`❌ Over 3% — smallest size that gets you there: <b>${size} AWG</b>`}</div>`; };
+    const raw=a40/each; const maxN= (raw-Math.floor(raw)>=0.8)? Math.ceil(raw) : Math.floor(raw);
+    $("#cf-out").innerHTML=`<div class="result">Conductors take <b>${used.toFixed(3)} sq in</b> of the <b>${allow.toFixed(3)} sq in</b> allowed (${Math.round(pct*100)}% fill for ${n} conductor${n===1?"":"s"}, Ch. 9 Table 1) → ${used<=allow?"✅ <b>FITS</b>":"❌ <b>OVERFILLED</b> — upsize the conduit"}<br>Max of this size in that conduit at 40%: <b>${maxN}</b> (Note 7: a remainder of 0.8 or more rounds up)<br><span class="flag">Nipples 24 in or shorter may use 60% fill (Table 1, Note 4) — and Note 4 also waives the 310.15(C)(1) ampacity adjustment on those nipples.</span></div>`; };
+  $("#vd-go").onclick=()=>{ const mat=sel("#vd-mat"), start=sel("#vd-awg"), I=num("#vd-i"), L=num("#vd-l"), V=num("#vd-v");
+    const f= sel("#vd-ph")==="3"? 1.732 : 2;
+    const R8=(T.table8Resistance||{})[mat]||{};
+    const dropFor=a=>{ const R=R8[a]; if(R) return f*L*I*R/1000; const K=mat==="copper"?12.9:21.2; return f*K*I*L/T.circularMils[a]; };
+    const vd=dropFor(start); const pct=100*vd/V;
+    let size=start;
+    for(const a of awgs){ if(100*dropFor(a)/V<=3){ size=a; break; } }
+    const basis= R8[start]? `Chapter 9, Table 8 resistance (${R8[start]} Ω per 1,000 ft)` : "K-constant approximation (no Table 8 value loaded for this size)";
+    $("#vd-out").innerHTML=`<div class="result">Voltage drop: <b>${vd.toFixed(2)} V (${pct.toFixed(1)}%)</b> — ${basis}<br>${pct<=3?"✅ Within the 3% recommendation":`❌ Over 3% — smallest size that gets you there: <b>${size} AWG</b>`}<br><span class="flag">Florida commercial work: FBC Energy Conservation C405.5.3 caps feeders + branch circuits COMBINED at 5% total voltage drop.</span></div>`; };
   $("#am-go").onclick=()=>{ const mat=sel("#am-mat"), a=sel("#am-awg");
     const amp=T.ampacity75C[mat][a]; const cap=T.smallConductorCaps[mat][a];
     $("#am-out").innerHTML= amp? `<div class="result"><b>${a} AWG ${mat}</b> — Table 310.16 (75°C): <b>${amp}A</b>${cap?`<br>240.4(D) small-conductor cap: max breaker <b>${cap}A</b>`:""}</div>` : `<div class="result">No 75°C value listed for that combination in v1 — flag for Mike.</div>`; };
@@ -201,23 +248,63 @@ function bookSection(id){
   for(const e of bookEntries()){ const s=(e.book.sections||[]).find(x=>x.id===id); if(s) return s; }
   return null;
 }
+function setTab(t){ tab=t; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab===t)); }
+function chapterLookupAll(){ const out=[]; for(const e of bookEntries()) for(const x of (e.lookup||[])) out.push({ch:e.book.chapter, item:x}); return out; }
+function chapterQuizAll(){ const out=[]; for(const e of bookEntries()) for(const x of (e.quiz||[])) out.push({ch:e.book.chapter, item:x}); return out; }
+function chapterLookupItem(id){ for(const e of bookEntries()){ const x=(e.lookup||[]).find(y=>y.id===id); if(x) return {ch:e.book.chapter, item:x}; } return null; }
+function chapterQuizItem(id){ for(const e of bookEntries()){ const ix=(e.quiz||[]).findIndex(y=>y.id===id); if(ix>=0) return {ch:e.book.chapter, item:e.quiz[ix], index:ix}; } return null; }
+function chapterChecklistItem(id){ for(const e of bookEntries()) for(const r of (e.checklists||[])) for(const it of r.items) if(it.id===id) return {ch:e.book.chapter, room:r.room, item:it}; return null; }
+function v1Lookup(id){ return (DATA.v1lookup||[]).find(x=>x.id===id)||null; }
+function v1Quiz(id){ return (DATA.v1quiz||[]).find(x=>x.id===id)||null; }
+function v1Checklist(id){ for(const r of (DATA.v1checklists||[])) for(const it of r.items) if(it.id===id) return {room:r.room, item:it}; return null; }
+function v1Sharma(id){ return (DATA.v1sharma||[]).find(x=>x.id===id)||null; }
+let v1Overlay=null, lookupState={chapter:null, highlight:null}, roomsHighlight=null;
+function relChip(id){
+  const label = relatedLabel(id);
+  if(bookSection(id)) return `<button class="bkchip" data-bookpage="${id}">${esc(id)} — ${esc(label)}</button>`;
+  if(chapterLookupItem(id)) return `<button class="bkchip" data-reljump="lookup:${id}">${esc(id)} — ${esc(label)}</button>`;
+  if(chapterQuizItem(id)) return `<button class="bkchip" data-reljump="quiz:${id}">${esc(id)} — ${esc(label)}</button>`;
+  if(chapterChecklistItem(id)) return `<button class="bkchip" data-reljump="rooms:${id}">${esc(id)} — ${esc(label)}</button>`;
+  if(v1Lookup(id)||v1Quiz(id)||v1Checklist(id)||v1Sharma(id)) return `<button class="bkchip" data-reljump="v1:${id}">${esc(id)} — ${esc(label)}</button>`;
+  return `<span class="bkchip static">${esc(id)} — ${esc(label)}</span>`;
+}
 function relatedLabel(id){
   if(/^C\d+-L-/.test(id)){ for(const e of bookEntries()){ const x=(e.lookup||[]).find(y=>y.id===id); if(x) return x.question; } return id; }
   if(/^C\d+-Q-/.test(id)){ for(const e of bookEntries()){ const x=(e.quiz||[]).find(y=>y.id===id); if(x) return "Quiz: "+x.question; } return id; }
   for(const e of bookEntries()) for(const r of (e.checklists||[])) for(const it of r.items) if(it.id===id) return "Checklist: "+it.text;
-  if(/^S-\d+$/.test(id)) return "Sharma rule "+id+" (Field Book rules file)";
-  if(/^L-\d+$/.test(id)) return "Field Book v1 lookup "+id;
-  if(/^Q-\d+$/.test(id)) return "Field Book v1 quiz "+id;
-  if(/^K-/.test(id)) return "Field Book v1 checklist "+id;
+  if(/^S-\d+$/.test(id)){ const x=v1Sharma(id); return x? "Sharma rule "+id+": "+x.text : "Sharma rule "+id; }
+  if(/^L-\d+$/.test(id)){ const x=v1Lookup(id); return x? x.question : "Field Book v1 lookup "+id; }
+  if(/^Q-\d+$/.test(id)){ const x=v1Quiz(id); return x? "Quiz: "+x.question : "Field Book v1 quiz "+id; }
+  { const c=v1Checklist(id); if(c) return "Checklist ("+c.room+"): "+c.item.text; }
   if(/^(Ch9-T|\d{3}\.\d)/.test(id)) return "Calc table "+id;
   return id;
 }
 document.addEventListener("click",e=>{
   const ch=e.target.closest("[data-bookchapter]"); if(ch){ bookState={chapter:parseInt(ch.dataset.bookchapter,10), page:null, view:"toc"}; if(tab!=="book"){ tab="book"; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="book")); } render(); window.scrollTo(0,0); return; }
   const p=e.target.closest("[data-bookpage]"); if(p){ const s=bookSection(p.dataset.bookpage); if(s) bookState.chapter=s.chapter; bookState={chapter:bookState.chapter, page:p.dataset.bookpage, view:"page"}; if(tab!=="book"){ tab="book"; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="book")); } render(); window.scrollTo(0,0); return; }
-  const v=e.target.closest("[data-bookview]"); if(v){ bookState.view=v.dataset.bookview; if(v.dataset.bookview!=="page") bookState.page=null; render(); window.scrollTo(0,0); }
+  const v=e.target.closest("[data-bookview]"); if(v){ bookState.view=v.dataset.bookview; if(v.dataset.bookview!=="page") bookState.page=null; render(); window.scrollTo(0,0); return; }
+  const rj=e.target.closest("[data-reljump]"); if(rj){ const [kind,id]=rj.dataset.reljump.split(":");
+    if(kind==="lookup"){ const hit=chapterLookupItem(id); lookupState={chapter:hit?hit.ch:null, highlight:id}; $("#search").value=""; setTab("lookup"); render(); setTimeout(()=>{ const el=document.getElementById("lk-"+id); if(el) el.scrollIntoView({block:"center"}); },60); return; }
+    if(kind==="quiz"){ const hit=chapterQuizItem(id); if(hit){ setTab("quiz"); startQuiz("ch"+hit.ch, hit.index); render(); } return; }
+    if(kind==="rooms"){ roomsHighlight=id; setTab("rooms"); render(); setTimeout(()=>{ const el=document.getElementById("ck-"+id); if(el) el.scrollIntoView({block:"center"}); },60); return; }
+    if(kind==="v1"){ v1Overlay=id; if(tab!=="book") setTab("book"); render(); window.scrollTo(0,0); return; }
+  }
+  const lc=e.target.closest("[data-lookupch]"); if(lc){ const n=parseInt(lc.dataset.lookupch,10); lookupState={chapter:lookupState.chapter===n?null:n, highlight:null}; render(); return; }
+  const qb=e.target.closest("[data-quizbank]"); if(qb){ startQuiz(qb.dataset.quizbank,0); render(); return; }
+  const vb=e.target.closest("[data-v1back]"); if(vb){ v1Overlay=null; render(); window.scrollTo(0,0); return; }
 });
 function renderBook(){
+  if(v1Overlay){
+    const id=v1Overlay; let body="";
+    const lk=v1Lookup(id), qz=v1Quiz(id), ck=v1Checklist(id), sh=v1Sharma(id);
+    if(lk) body=`<div class="cite">${esc(id)} · Field Book v1 lookup · ${esc(lk.nec_ref||"")}</div><h3>${esc(lk.question)}</h3><p>${esc(lk.answer_plain)}</p>${lk.verified_by?`<span class="flag">Verified by ${esc(lk.verified_by)}${lk.verified_date? " · "+esc(lk.verified_date):""}</span>`:""}`;
+    else if(qz) body=`<div class="cite">${esc(id)} · Field Book v1 quiz · ${esc(qz.nec_ref||"")}</div><h3>${esc(qz.question)}</h3><ul class="steps">${qz.choices.map((c,ix)=>`<li>${ix===qz.answer_index? "<b>✓ "+esc(c)+"</b>" : esc(c)}</li>`).join("")}</ul><p>${esc(qz.explain_plain)}</p>`;
+    else if(ck) body=`<div class="cite">${esc(id)} · Field Book v1 checklist · ${esc(ck.room)} · ${esc(ck.item.nec_ref||"")}</div><h3>${esc(ck.item.text)}</h3>`;
+    else if(sh) body=`<div class="cite">${esc(id)} · Sharma rule (v1 file)</div><h3>${esc(sh.text)}</h3><p>Applies: ${esc(sh.applies_when||"")} · ${esc(sh.overrides_or_adds||"")} · Source: ${esc(sh.source||"")}</p>`;
+    else body=`<div class="empty">Item ${esc(id)} not found in the v1 pack.</div>`;
+    view.innerHTML=`<h2 class="sec">Sharma NEC Field Book — linked item</h2><div class="card bkpage">${body}<div class="rowbtns"><button class="quizbtn" data-v1back="1">← Back to the book page</button></div></div>`;
+    return;
+  }
   const ent = currentEntry();
   if(!ent || !ent.book){ view.innerHTML=`<h2 class="sec">Sharma NEC Field Book</h2><div class="empty">Field Book chapter files not loaded yet.</div>`; return; }
   const B = ent.book;
@@ -226,13 +313,13 @@ function renderBook(){
   const ckItems = (ent.checklists||[]).reduce((n,r)=>n+((r.items||[]).length),0);
   const picker = bookEntries().length>1 ? `<div class="rowbtns">${bookEntries().map(e=>`<button class="quizbtn" data-bookchapter="${e.book.chapter}"${e.book.chapter===B.chapter?` style="background:#0058a3;color:#fff"`:``}>Ch. ${e.book.chapter} — ${esc(e.book.chapter_title)}</button>`).join("")}</div>` : "";
   const head=`<h2 class="sec">Sharma NEC Field Book — Chapter ${B.chapter}: ${esc(B.chapter_title)}</h2>`+
-    `<p class="flag">DRAFT — under Mike Holt review. Goes live only on Sanjay's OK. NEC ${esc(B.nec_edition)} · ${esc(B.jurisdiction)}. ${esc(B.label||"")}</p>`+
+    `<p class="flag">Live — master-audited Nov 2026. NEC ${esc(B.nec_edition)} · ${esc(B.jurisdiction)}. ${esc(B.label||"")}</p>`+
     picker+
     `<p class="bkmeta">${B.toc.length} articles · ${pages} pages · ${unverified} unverified item${unverified===1?"":"s"} · plus ${(ent.lookup||[]).length} lookup, ${(ent.quiz||[]).length} quiz, ${ckItems} checklist items</p>`+
     `<div class="rowbtns"><button class="quizbtn" data-bookview="toc">Contents</button><button class="quizbtn" data-bookview="index">Index</button></div>`;
   if(bookState.view==="index"){
     view.innerHTML = head + `<div class="card"><h3>Index</h3><ul class="bkindex">${B.index.map(en=>
-      `<li><b>${esc(en.term)}</b><br>${en.ids.map(id=>{ const s=bookSection(id); return `<button class="bkchip" data-bookpage="${id}">${esc(id.replace(/^C\d+-/,""))}${s? " — "+esc(s.title):""}</button>`; }).join(" ")}</li>`).join("")}</ul></div>`;
+      `<li><b>${esc(en.term)}</b><br>${en.ids.map(id=>{ const s=bookSection(id); return s? `<button class="bkchip" data-bookpage="${id}">${esc(id.replace(/^C\d+-/,""))} — ${esc(s.title)}</button>` : relChip(id); }).join(" ")}</li>`).join("")}</ul></div>`;
     return;
   }
   if(bookState.view==="page" && bookState.page){
@@ -248,7 +335,7 @@ function renderBook(){
       ${s.sharma_note? `<h4>Sharma note</h4><p>${esc(s.sharma_note)}</p>`:""}
       ${s.florida_note? `<h4>Florida note</h4><p>${esc(s.florida_note)}</p>`:""}
       ${s.figure_idea? `<h4>Figure idea</h4><p class="bkfig">${esc(s.figure_idea)}</p>`:""}
-      ${(s.related_ids&&s.related_ids.length)? `<h4>Related</h4><div>${s.related_ids.map(id=>`<span class="bkchip static">${esc(id)} — ${esc(relatedLabel(id))}</span>`).join(" ")}</div>`:""}
+      ${(s.related_ids&&s.related_ids.length)? `<h4>Related</h4><div>${s.related_ids.map(id=>relChip(id)).join(" ")}</div>`:""}
       <div class="bknav">
         ${prev? `<button class="go" data-bookpage="${prev.id}">\u2190 Previous: ${esc(prev.section)} ${esc(prev.title)}</button>` : `<span class="bkmeta">Start of chapter</span>`}
         ${next? `<button class="go" data-bookpage="${next.id}">Next: ${esc(next.section)} ${esc(next.title)} \u2192</button>` : `<span class="bkmeta">End of chapter</span>`}
@@ -266,7 +353,7 @@ function renderBook(){
 }
 /* ---------- boot ---------- */
 (async()=>{
-  const [l,c,q,s,t] = await Promise.all([loadJSON("lookup"),loadJSON("checklists"),loadJSON("quiz"),loadJSON("sharma-rules"),loadJSON("calc-tables")]);
+  const [l,c,q,s,t,vl,vq,vc,vs] = await Promise.all([loadJSON("lookup"),loadJSON("checklists"),loadJSON("quiz"),loadJSON("sharma-rules"),loadJSON("calc-tables"),loadJSON("v1/lookup"),loadJSON("v1/quiz"),loadJSON("v1/checklists"),loadJSON("v1/sharma-rules")]);
   const chapDefs = [
     { book:"book/c1", lookup:"book/c1-lookup", quiz:"book/c1-quiz", checklists:"book/c1-checklists" },
     { book:"book-c2", lookup:"book/c2-lookup", quiz:"book/c2-quiz", checklists:"book/c2-checklists" },
@@ -285,6 +372,6 @@ function renderBook(){
   }
   books.sort((a,b)=>a.book.chapter-b.book.chapter);
   const first = books[0]||null;
-  DATA={lookup:l,checklists:c,quiz:q,sharma:s,tables:t||FALLBACK_TABLES,books:books,
+  DATA={lookup:l,checklists:c,quiz:q,sharma:s,tables:t||FALLBACK_TABLES,books:books,v1lookup:vl||[],v1quiz:vq||[],v1checklists:vc||[],v1sharma:vs||[],
         book:first?first.book:null, bookLookup:first?first.lookup:[], bookQuiz:first?first.quiz:[], bookChecklists:first?first.checklists:[]};
   render(); })();

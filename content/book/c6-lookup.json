@@ -497,7 +497,7 @@
       "double insulated pump bonding",
       "680.26(B)(6)"
     ],
-    "answer_plain": "Under the 680.26(B)(6)(a) path, a double-insulated replacement pump connects to the equipotential grid with an 8 AWG bonding tail as the section directs — the grid connection is not skipped just because the motor is double-insulated. The tail lands on the same equipotential bonding grid as the pool's other bonded parts.",
+    "answer_plain": "No — and this is the point 680.26(B)(6)(a) actually makes. A double-insulated pool pump motor is NOT bonded to the equipotential grid. What the section requires is that an 8 AWG solid copper bonding conductor be provided at the grid so that a FUTURE replacement motor that is not double-insulated can be bonded when it goes in. Bonding the double-insulated motor itself is not the rule; leaving the conductor for the next motor is.",
     "nec_ref": "680.26(B)(6)(a)",
     "nec_edition": "2020",
     "tags": [
@@ -510,12 +510,12 @@
   },
   {
     "id": "C6-L-030",
-    "question": "Does a storable (above-ground) pool need equipotential bonding?",
+    "question": "Does a storable pool need equipotential bonding?",
     "aliases": [
       "storable pool bonding",
       "680.30"
     ],
-    "answer_plain": "No. Storable pools follow Parts I and III of Article 680, and 680.26 does not apply to them (680.30).",
+    "answer_plain": "No. A storable pool follows Parts I and III of Article 680, and 680.26 equipotential bonding does not apply to it (680.30). But 'storable' is a defined term — maximum 42 in. of water, nonmetallic molded-polymeric or inflatable fabric walls — not a synonym for any above-ground pool. A permanently installed above-ground pool is Part II work and does need the grid.",
     "nec_ref": "680.30",
     "nec_edition": "2020",
     "tags": [
@@ -741,7 +741,7 @@
       "600.5",
       "sign circuit 20 amp"
     ],
-    "answer_plain": "A branch circuit rated at least 20A serving no other loads besides signs/outline lighting tied to the same work (600.5). A general convenience receptacle circuit does not satisfy this rule.",
+    "answer_plain": "600.5(A): at least one receptacle outlet in an accessible location at each entrance of a commercial building or occupancy accessible to pedestrians, on a branch circuit rated at least 20A serving no other loads besides signs/outline lighting tied to the same work. A general convenience receptacle circuit does not satisfy this rule.",
     "nec_ref": "600.5",
     "nec_edition": "2020",
     "tags": [
@@ -1041,5 +1041,18 @@
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11",
     "sharma_rule_id": "S-10"
+  },
+  {
+    "id": "C6-L-060",
+    "question": "What disconnecting means do pool and spa equipment need?",
+    "aliases": [
+      "680.12",
+      "pool disconnect"
+    ],
+    "answer_plain": "680.12 requires one or more disconnecting means for pool, spa and hot tub equipment — readily accessible, within sight of the equipment it serves, so the equipment can be serviced de-energized. Flagged unverified: the requirement is as stated, but the section's exact wording awaits Mike's printed check.",
+    "nec_ref": "680.12",
+    "sharma_rule_id": null,
+    "verified": false,
+    "unverified_reason": "Added 2026-11-12 in the second-audit fix pass to close a confirmed gap; wording not yet checked against the printed 2020 book."
   }
 ]

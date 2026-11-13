@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "Q-001",
+    "article": "210",
+    "question": "How many 20A small-appliance branch circuits are required at minimum for a dwelling kitchen?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer_index": 1,
+    "explain_plain": "At least two 20A small-appliance circuits are required.",
+    "nec_ref": "210.11(C)(1)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-002",
+    "article": "210",
+    "question": "The laundry branch circuit must be rated at least:",
+    "choices": [
+      "15A",
+      "20A",
+      "30A",
+      "40A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "At least one 20A circuit for laundry receptacles, with no other outlets.",
+    "nec_ref": "210.11(C)(2)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-003",
+    "article": "210",
+    "question": "NEC 2020 added a required dedicated circuit for which dwelling area?",
+    "choices": [
+      "Bathrooms",
+      "Garage vehicle-bay receptacles",
+      "Laundry",
+      "Hallways"
+    ],
+    "answer_index": 1,
+    "explain_plain": "210.11(C)(4) requires a 20A circuit for the garage receptacles required by 210.52(G)(1).",
+    "nec_ref": "210.11(C)(4)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-004",
+    "article": "210",
+    "question": "In NEC 2020, dwelling GFCI requirements in 210.8(A) apply to receptacles rated:",
+    "choices": [
+      "125V only",
+      "125V through 250V",
+      "250V only",
+      "Up to 600V"
+    ],
+    "answer_index": 1,
+    "explain_plain": "NEC 2020 expanded 210.8(A) to 125V through 250V receptacles.",
+    "nec_ref": "210.8(A)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-005",
+    "article": "210",
+    "question": "Receptacles within what distance of the top inside edge of a sink bowl need GFCI in a dwelling?",
+    "choices": [
+      "3 ft",
+      "4 ft",
+      "6 ft",
+      "10 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "6 ft from the top inside edge of the bowl of the sink.",
+    "nec_ref": "210.8(A)(7)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-006",
+    "article": "210",
+    "question": "Which dwelling location is NOT on the 210.12(A) AFCI list?",
+    "choices": [
+      "Bedroom",
+      "Kitchen",
+      "Laundry area",
+      "Bathroom"
+    ],
+    "answer_index": 3,
+    "explain_plain": "Bathrooms are not listed for AFCI; they need GFCI.",
+    "nec_ref": "210.12(A)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-007",
+    "article": "210",
+    "question": "The maximum distance along the floor line from any point on a habitable-room wall to a receptacle is:",
+    "choices": [
+      "4 ft",
+      "6 ft",
+      "8 ft",
+      "12 ft"
+    ],
+    "answer_index": 1,
+    "explain_plain": "No point more than 6 ft from a receptacle, so 12 ft spacing in practice.",
+    "nec_ref": "210.52(A)(1)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-008",
+    "article": "210",
+    "question": "Wall space for receptacle spacing includes any space at least ___ wide.",
+    "choices": [
+      "12 in",
+      "18 in",
+      "2 ft",
+      "3 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Any wall space 2 ft or wider.",
+    "nec_ref": "210.52(A)(2)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-009",
+    "article": "210",
+    "question": "Countertop receptacles must be placed so no point along the wall line is more than ___ from a receptacle.",
+    "choices": [
+      "12 in",
+      "18 in",
+      "24 in",
+      "36 in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "24 in, so receptacles no more than 4 ft apart.",
+    "nec_ref": "210.52(C)(1)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-010",
+    "article": "210",
+    "question": "Under NEC 2020, an island with 30 sq ft of countertop needs at least how many receptacles?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer_index": 2,
+    "explain_plain": "One for the first 9 sq ft. The remaining 21 sq ft is one 18 sq ft block plus a fraction, so 2 more. Total 3.",
+    "nec_ref": "210.52(C)(2)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "Q-011",
+    "article": "210",
+    "question": "The required bathroom receptacle must be within ___ of the outside edge of each basin.",
+    "choices": [
+      "2 ft",
+      "3 ft",
+      "4 ft",
+      "6 ft"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Within 3 ft of the outside edge of each basin.",
+    "nec_ref": "210.52(D)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-012",
+    "article": "210",
+    "question": "Outdoor receptacles required at the front and back of a one-family dwelling can be no higher than:",
+    "choices": [
+      "5 ft",
+      "5.5 ft",
+      "6.5 ft",
+      "8 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Not more than 6.5 ft above grade.",
+    "nec_ref": "210.52(E)(1)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-013",
+    "article": "210",
+    "question": "A dwelling hallway needs a receptacle when it is at least how long?",
+    "choices": [
+      "6 ft",
+      "8 ft",
+      "10 ft",
+      "12 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Hallways 10 ft or longer.",
+    "nec_ref": "210.52(H)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-014",
+    "article": "210",
+    "question": "The HVAC service receptacle must be within ___ of the equipment, on the same level.",
+    "choices": [
+      "10 ft",
+      "15 ft",
+      "25 ft",
+      "50 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Within 25 ft.",
+    "nec_ref": "210.63",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-015",
+    "article": "210",
+    "question": "A stairway needs switches at each level with an entry when it has at least how many risers?",
+    "choices": [
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer_index": 2,
+    "explain_plain": "6 risers or more.",
+    "nec_ref": "210.70(A)(2)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "Q-016",
+    "article": "210",
+    "question": "A single cord-and-plug appliance on a 20A branch circuit can't exceed:",
+    "choices": [
+      "10A",
+      "12A",
+      "16A",
+      "20A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "80% of the circuit rating: 16A.",
+    "nec_ref": "210.23(A)(1)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-017",
+    "article": "240",
+    "question": "The maximum overcurrent protection for 12 AWG copper (general rule) is:",
+    "choices": [
+      "15A",
+      "20A",
+      "25A",
+      "30A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "240.4(D): 20A for 12 AWG copper.",
+    "nec_ref": "240.4(D)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-018",
+    "article": "240",
+    "question": "The maximum overcurrent protection for 10 AWG aluminum or copper-clad aluminum (general rule) is:",
+    "choices": [
+      "20A",
+      "25A",
+      "30A",
+      "35A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "240.4(D): 25A for 10 AWG Al/CCA.",
+    "nec_ref": "240.4(D)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-019",
+    "article": "240",
+    "question": "Overcurrent devices in a dwelling may NOT be located in:",
+    "choices": [
+      "Garages",
+      "Bathrooms",
+      "Laundry rooms",
+      "Basements"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Not in bathrooms of dwelling units.",
+    "nec_ref": "240.24(E)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-020",
+    "article": "240",
+    "question": "The highest breaker handle in the on position can be no higher than:",
+    "choices": [
+      "6 ft",
+      "6 ft 7 in",
+      "7 ft",
+      "7 ft 6 in"
+    ],
+    "answer_index": 1,
+    "explain_plain": "6 ft 7 in.",
+    "nec_ref": "240.24(A)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-021",
+    "article": "310",
+    "question": "Using the 83% rule, the minimum copper conductor for a 200A dwelling service is:",
+    "choices": [
+      "1/0",
+      "2/0",
+      "3/0",
+      "4/0"
+    ],
+    "answer_index": 1,
+    "explain_plain": "200 x 0.83 = 166A; 2/0 Cu is 175A at 75°C (Table 310.12).",
+    "nec_ref": "310.12(A)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-022",
+    "article": "310",
+    "question": "The minimum aluminum conductor for a 200A dwelling service using 310.12 is:",
+    "choices": [
+      "2/0",
+      "3/0",
+      "4/0",
+      "250 kcmil"
+    ],
+    "answer_index": 2,
+    "explain_plain": "4/0 Al (180A at 75°C).",
+    "nec_ref": "310.12(A)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-023",
+    "article": "310",
+    "question": "Six current-carrying conductors in a raceway require an adjustment factor of:",
+    "choices": [
+      "100%",
+      "80%",
+      "70%",
+      "50%"
+    ],
+    "answer_index": 1,
+    "explain_plain": "4-6 conductors: 80%.",
+    "nec_ref": "310.15(C)(1)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-024",
+    "article": "310",
+    "question": "The 75°C ampacity of 6 AWG copper is:",
+    "choices": [
+      "55A",
+      "65A",
+      "75A",
+      "85A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 310.16: 65A.",
+    "nec_ref": "310.16",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-025",
+    "article": "310",
+    "question": "The 90°C ampacity of 4/0 aluminum is:",
+    "choices": [
+      "180A",
+      "195A",
+      "205A",
+      "230A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Table 310.16: 205A.",
+    "nec_ref": "310.16",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "Q-026",
+    "article": "334",
+    "question": "NM cable ampacity is limited to the conductor ampacity at:",
+    "choices": [
+      "60°C",
+      "75°C",
+      "90°C",
+      "105°C"
+    ],
+    "answer_index": 0,
+    "explain_plain": "334.80: 60°C column.",
+    "nec_ref": "334.80",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-027",
+    "article": "334",
+    "question": "NM cable must be secured within ___ of every box.",
+    "choices": [
+      "8 in",
+      "12 in",
+      "18 in",
+      "24 in"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Within 12 in, and every 4.5 ft.",
+    "nec_ref": "334.30",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "Q-028",
+    "article": "334",
+    "question": "NM cable must be supported at intervals not exceeding:",
+    "choices": [
+      "3 ft",
+      "4 ft",
+      "4.5 ft",
+      "6 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "4.5 ft.",
+    "nec_ref": "334.30",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "Q-029",
+    "article": "300",
+    "question": "Holes in wood studs must be at least ___ from the edge, or protected by a steel plate.",
+    "choices": [
+      "1 in",
+      "1-1/4 in",
+      "1-1/2 in",
+      "2 in"
+    ],
+    "answer_index": 1,
+    "explain_plain": "1-1/4 in.",
+    "nec_ref": "300.4(A)(1)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "Q-030",
+    "article": "300",
+    "question": "Minimum cover for direct-burial UF cable (general, Table 300.5 column 1) is:",
+    "choices": [
+      "6 in",
+      "12 in",
+      "18 in",
+      "24 in"
+    ],
+    "answer_index": 3,
+    "explain_plain": "24 in.",
+    "nec_ref": "300.5",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-031",
+    "article": "300",
+    "question": "Minimum cover for rigid PVC conduit (general, column 3) is:",
+    "choices": [
+      "6 in",
+      "12 in",
+      "18 in",
+      "24 in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "18 in.",
+    "nec_ref": "300.5",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-032",
+    "article": "300",
+    "question": "Minimum free conductor length at each box is:",
+    "choices": [
+      "3 in",
+      "4 in",
+      "6 in",
+      "8 in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "6 in, with 3 in outside the opening for small boxes.",
+    "nec_ref": "300.14",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "Q-033",
+    "article": "314",
+    "question": "The volume allowance for a 12 AWG conductor is:",
+    "choices": [
+      "2.00 cu in",
+      "2.25 cu in",
+      "2.50 cu in",
+      "3.00 cu in"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 314.16(B): 2.25 cu in.",
+    "nec_ref": "314.16(B)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-034",
+    "article": "314",
+    "question": "A receptacle on a yoke counts as how many conductors for box fill?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Two, based on the largest conductor connected to it.",
+    "nec_ref": "314.16(B)(4)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-035",
+    "article": "314",
+    "question": "A 4 in x 1-1/2 in square box has a volume of:",
+    "choices": [
+      "18.0 cu in",
+      "21.0 cu in",
+      "30.3 cu in",
+      "15.5 cu in"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 314.16(A): 21.0 cu in.",
+    "nec_ref": "314.16(A)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-036",
+    "article": "314",
+    "question": "How many 14 AWG conductors fit in a 4 x 2-1/8 square box with nothing else?",
+    "choices": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "answer_index": 2,
+    "explain_plain": "30.3 / 2.0 = 15.",
+    "nec_ref": "314.16(A)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-037",
+    "article": "314",
+    "question": "The NM cable sheath must extend at least ___ into a box.",
+    "choices": [
+      "1/8 in",
+      "1/4 in",
+      "1/2 in",
+      "1 in"
+    ],
+    "answer_index": 1,
+    "explain_plain": "1/4 in.",
+    "nec_ref": "314.17",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "Q-038",
+    "article": "250",
+    "question": "For a 2/0 copper service, the copper GEC from Table 250.66 is:",
+    "choices": [
+      "8 AWG",
+      "6 AWG",
+      "4 AWG",
+      "2 AWG"
+    ],
+    "answer_index": 2,
+    "explain_plain": "2/0 or 3/0 Cu service: 4 AWG Cu GEC.",
+    "nec_ref": "250.66",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-039",
+    "article": "250",
+    "question": "The GEC run only to ground rods never needs to be larger than:",
+    "choices": [
+      "8 AWG Cu",
+      "6 AWG Cu",
+      "4 AWG Cu",
+      "2 AWG Cu"
+    ],
+    "answer_index": 1,
+    "explain_plain": "250.66(A): 6 AWG copper.",
+    "nec_ref": "250.66(A)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-040",
+    "article": "250",
+    "question": "A single ground rod is acceptable without a supplemental electrode if its resistance is:",
+    "choices": [
+      "10 ohms or less",
+      "25 ohms or less",
+      "50 ohms or less",
+      "100 ohms or less"
+    ],
+    "answer_index": 1,
+    "explain_plain": "25 ohms or less.",
+    "nec_ref": "250.53(A)(2)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-041",
+    "article": "250",
+    "question": "Two ground rods must be spaced at least:",
+    "choices": [
+      "4 ft",
+      "6 ft",
+      "8 ft",
+      "10 ft"
+    ],
+    "answer_index": 1,
+    "explain_plain": "6 ft apart.",
+    "nec_ref": "250.53(A)(3)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-042",
+    "article": "250",
+    "question": "A concrete-encased electrode requires at least ___ of 1/2 in rebar.",
+    "choices": [
+      "8 ft",
+      "10 ft",
+      "20 ft",
+      "25 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "20 ft.",
+    "nec_ref": "250.52(A)(3)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-043",
+    "article": "250",
+    "question": "The minimum copper EGC for a 60A circuit is:",
+    "choices": [
+      "12 AWG",
+      "10 AWG",
+      "8 AWG",
+      "6 AWG"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 250.122: 10 AWG Cu up to 60A.",
+    "nec_ref": "250.122",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-044",
+    "article": "250",
+    "question": "The minimum copper EGC for a 200A feeder is:",
+    "choices": [
+      "8 AWG",
+      "6 AWG",
+      "4 AWG",
+      "2 AWG"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 250.122: 6 AWG Cu.",
+    "nec_ref": "250.122",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "Q-045",
+    "article": "230",
+    "question": "NEC 2020 requires what on every dwelling service?",
+    "choices": [
+      "Whole-house AFCI",
+      "Type 1 or Type 2 SPD",
+      "GFCI main breaker",
+      "Arc energy reduction"
+    ],
+    "answer_index": 1,
+    "explain_plain": "230.67 surge protection.",
+    "nec_ref": "230.67",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-046",
+    "article": "230",
+    "question": "NEC 2020 230.85 requires one- and two-family dwellings to have:",
+    "choices": [
+      "An indoor main",
+      "An outdoor emergency disconnect",
+      "Two service disconnects",
+      "A meter bypass"
+    ],
+    "answer_index": 1,
+    "explain_plain": "An emergency disconnect at a readily accessible outdoor location.",
+    "nec_ref": "230.85",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-047",
+    "article": "230",
+    "question": "Minimum service disconnect rating for a one-family dwelling:",
+    "choices": [
+      "60A",
+      "100A",
+      "150A",
+      "200A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "100A, 3-wire.",
+    "nec_ref": "230.79(C)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-048",
+    "article": "110",
+    "question": "Minimum working-space depth in front of a 120/240V panel (Condition 1) is:",
+    "choices": [
+      "30 in",
+      "36 in",
+      "42 in",
+      "48 in"
+    ],
+    "answer_index": 1,
+    "explain_plain": "3 ft.",
+    "nec_ref": "110.26(A)(1)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-049",
+    "article": "110",
+    "question": "Minimum working-space width in front of a panel is:",
+    "choices": [
+      "24 in",
+      "30 in",
+      "36 in",
+      "Panel width only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "30 in or the width of the equipment, whichever is greater.",
+    "nec_ref": "110.26(A)(2)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-050",
+    "article": "110",
+    "question": "Unless equipment is marked otherwise, circuits of 100A or less use which termination temperature column?",
+    "choices": [
+      "60°C",
+      "75°C",
+      "90°C",
+      "Any"
+    ],
+    "answer_index": 0,
+    "explain_plain": "110.14(C)(1)(a): 60°C.",
+    "nec_ref": "110.14(C)(1)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-051",
+    "article": "404",
+    "question": "404.2(C) generally requires what at switch locations controlling lighting?",
+    "choices": [
+      "A ground only",
+      "A grounded (neutral) conductor",
+      "A GFCI",
+      "A pilot light"
+    ],
+    "answer_index": 1,
+    "explain_plain": "A neutral at the switch location.",
+    "nec_ref": "404.2(C)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-052",
+    "article": "406",
+    "question": "In dwellings, 15A and 20A, 125V and 250V nonlocking receptacles generally must be:",
+    "choices": [
+      "Weather-resistant",
+      "Tamper-resistant",
+      "GFCI",
+      "Isolated-ground"
+    ],
+    "answer_index": 1,
+    "explain_plain": "406.12 tamper-resistant.",
+    "nec_ref": "406.12",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-053",
+    "article": "406",
+    "question": "Under NEC 2020, receptacles are prohibited within a zone ___ horizontally and 8 ft vertically from a tub rim.",
+    "choices": [
+      "2 ft",
+      "3 ft",
+      "4 ft",
+      "6 ft"
+    ],
+    "answer_index": 1,
+    "explain_plain": "3 ft horizontally, 8 ft vertically.",
+    "nec_ref": "406.9(C)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-054",
+    "article": "422",
+    "question": "A 4500W, 240V storage water heater needs a branch circuit rated at least:",
+    "choices": [
+      "18.75A",
+      "20A",
+      "23.4A",
+      "30A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "4500 / 240 = 18.75A, and 125% of that is 23.4A. A 25A or 30A breaker works; 12 AWG Cu is capped at 20A, so the wire is 10 AWG Cu.",
+    "nec_ref": "422.13",
+    "difficulty": 3,
+    "exam": "both"
+  },
+  {
+    "id": "Q-055",
+    "article": "440",
+    "question": "AC conductors are sized from which nameplate value?",
+    "choices": [
+      "RLA",
+      "MOCP",
+      "MCA",
+      "LRA"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Minimum Circuit Ampacity.",
+    "nec_ref": "440.4(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-056",
+    "article": "440",
+    "question": "The AC disconnect must be:",
+    "choices": [
+      "In the panel",
+      "Within sight of the equipment",
+      "Within 50 ft",
+      "Inside the house"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Within sight and readily accessible.",
+    "nec_ref": "440.14",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-057",
+    "article": "625",
+    "question": "A 40A continuous EV charger needs a circuit rated at least:",
+    "choices": [
+      "40A",
+      "45A",
+      "50A",
+      "60A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "125% x 40A = 50A.",
+    "nec_ref": "625.41",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-058",
+    "article": "625",
+    "question": "In NEC 2020, receptacles installed for EV charging must have:",
+    "choices": [
+      "AFCI",
+      "GFCI for personnel",
+      "SPD",
+      "Isolated ground"
+    ],
+    "answer_index": 1,
+    "explain_plain": "625.54 GFCI.",
+    "nec_ref": "625.54",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-059",
+    "article": "680",
+    "question": "The required pool receptacle at a dwelling must be between:",
+    "choices": [
+      "3 and 10 ft",
+      "6 and 20 ft",
+      "10 and 25 ft",
+      "5 and 15 ft"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Not less than 6 ft and not more than 20 ft from the pool's inside wall.",
+    "nec_ref": "680.22(A)(1)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-060",
+    "article": "680",
+    "question": "Pool equipotential bonding conductors must be at least:",
+    "choices": [
+      "10 AWG solid Cu",
+      "8 AWG solid Cu",
+      "6 AWG stranded Cu",
+      "4 AWG Al"
+    ],
+    "answer_index": 1,
+    "explain_plain": "8 AWG solid copper.",
+    "nec_ref": "680.26(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "Q-061",
+    "article": "702",
+    "question": "For an optional standby system with automatic transfer, the generator must:",
+    "choices": [
+      "Carry only critical loads",
+      "Carry the full load transferred, or use load management",
+      "Be at least 22 kW",
+      "Feed the service directly"
+    ],
+    "answer_index": 1,
+    "explain_plain": "702.4(B)(2): full load or load management.",
+    "nec_ref": "702.4(B)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "Q-062",
+    "article": "445",
+    "question": "NEC 2020 requires a permanently installed generator at a one-family dwelling to have:",
+    "choices": [
+      "An indoor stop switch",
+      "An outdoor emergency shutdown device",
+      "A GFCI on its output",
+      "Two transfer switches"
+    ],
+    "answer_index": 1,
+    "explain_plain": "445.18(D) outdoor, readily accessible emergency shutdown.",
+    "nec_ref": "445.18(D)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "Q-063",
+    "article": "705",
+    "question": "With a 200A busbar and 200A main, the largest PV inverter output current allowed by the 120% rule is:",
+    "choices": [
+      "24A",
+      "32A",
+      "40A",
+      "48A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "240A - 200A = 40A; 40 / 1.25 = 32A inverter output.",
+    "nec_ref": "705.12(B)(3)(2)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "Q-064",
+    "article": "220",
+    "question": "Under the optional method of 220.82, general loads above the first 10 kVA are taken at:",
+    "choices": [
+      "25%",
+      "35%",
+      "40%",
+      "50%"
+    ],
+    "answer_index": 2,
+    "explain_plain": "40%.",
+    "nec_ref": "220.82(B)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "Q-065",
+    "article": "220",
+    "question": "Each small-appliance and laundry circuit is counted at ___ in dwelling load calcs.",
+    "choices": [
+      "1000 VA",
+      "1200 VA",
+      "1500 VA",
+      "2000 VA"
+    ],
+    "answer_index": 2,
+    "explain_plain": "1500 VA each.",
+    "nec_ref": "220.82(B)(2)",
+    "difficulty": 1,
+    "exam": "master"
+  },
+  {
+    "id": "Q-066",
+    "article": "220",
+    "question": "General lighting load for dwellings in load calcs is:",
+    "choices": [
+      "2 VA/sq ft",
+      "3 VA/sq ft",
+      "3.5 VA/sq ft",
+      "5 VA/sq ft"
+    ],
+    "answer_index": 1,
+    "explain_plain": "3 VA per sq ft.",
+    "nec_ref": "220.82(B)(1)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-067",
+    "article": "Ch9",
+    "question": "Maximum fill for three or more conductors in a raceway is:",
+    "choices": [
+      "31%",
+      "40%",
+      "53%",
+      "60%"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Chapter 9 Table 1: 40%.",
+    "nec_ref": "Chapter 9, Table 1",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "Q-068",
+    "article": "Ch9",
+    "question": "How many 12 AWG THHN fit in 1/2 in EMT?",
+    "choices": [
+      "7",
+      "9",
+      "12",
+      "16"
+    ],
+    "answer_index": 1,
+    "explain_plain": "0.122 / 0.0133 = 9.17, so 9.",
+    "nec_ref": "Chapter 9, Table 4",
+    "difficulty": 2,
+    "exam": "both"
+  }
+]

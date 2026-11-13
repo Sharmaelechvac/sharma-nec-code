@@ -1,50 +1,71 @@
 {
-  "meta": { "status": "PLACEHOLDER — Mike Holt's files replace these", "version": "placeholder-v1" },
+  "meta": {
+    "status": "PLACEHOLDER — Mike Holt's files replace these",
+    "version": "placeholder-v1"
+  },
   "rooms": [
-    { "room": "Kitchen", "items": [
-      "Two 20A small-appliance circuits minimum (210.11(C)(1))",
-      "Countertop receptacles: no point more than 24 in from one; spacing 4 ft max (210.52(C))",
-      "Countertop receptacles GFCI protected — Sharma: dual-function breaker (210.8(A)(6))",
-      "Refrigerator may ride a small-appliance circuit or its own 15A+ circuit (210.52(B))",
-      "Dishwasher + disposal: GFCI protection required (422.5 / 210.8(D))",
-      "Microwave: dedicated 20A circuit on 12 AWG copper — SHARMA RULE",
-      "Island/peninsula countertop receptacles per 210.52(C)(2)-(3) as amended by Florida",
-      "AFCI protection for kitchen 120V circuits (210.12)"
-    ]},
-    { "room": "Bathroom", "items": [
-      "One 20A circuit for bathroom receptacles (210.11(C)(3))",
-      "Receptacle within 3 ft of each basin's outside edge (210.52(D))",
-      "All bathroom receptacles GFCI protected — Sharma: dual-function breaker (210.8(A)(1))",
-      "No receptacles inside the tub/shower zone (406.9(C))",
-      "Exhaust fan on its own switch; fan over tub/shower rated + GFCI if manufacturer requires"
-    ]},
-    { "room": "Laundry", "items": [
-      "One 20A laundry circuit, receptacles only for the laundry area (210.11(C)(2))",
-      "Receptacle within 6 ft of the washer (210.52(F))",
-      "GFCI protection — Sharma: dual-function breaker (210.8(A)(10))",
-      "Dryer: 240V circuit per nameplate, 4-wire receptacle (250.140)"
-    ]},
-    { "room": "Garage", "items": [
-      "At least one 20A circuit for garage receptacles (210.11(C)(4))",
-      "One receptacle per vehicle bay (210.52(G))",
-      "Garage outlets at 48 in to center — SHARMA RULE",
-      "GFCI protection — Sharma: dual-function breaker (210.8(A)(2))",
-      "EV receptacle if planned: 125% continuous sizing (625)"
-    ]},
-    { "room": "Outdoor", "items": [
-      "Outlets at 24 in above grade — SHARMA RULE",
-      "Receptacles front and back of house, not more than 6.5 ft above grade (210.52(E))",
-      "GFCI protection — Sharma: dual-function breaker (210.8(A)(3))",
-      "In-use (bubble) covers on all outdoor receptacles (406.9(B))",
-      "WR-rated receptacles outdoors (406.9)"
-    ]},
-    { "room": "Service & Panel", "items": [
-      "Working space: 3 ft deep, 30 in wide, 6.5 ft headroom — kept clear (110.26)",
-      "Panel directory: every circuit labeled, specific — no 'lights/plugs' (408.4)",
-      "Grounding electrode system connected + main bonding jumper at the service only (250)",
-      "Intersystem bonding termination for other systems (250.94)",
-      "Surge protection device at the service for dwellings (230.67)",
-      "AFCI/GFCI: every 120V breaker dual-function — SHARMA RULE"
-    ]}
+    {
+      "room": "Kitchen",
+      "items": [
+        "Two 20A small-appliance circuits minimum (210.11(C)(1))",
+        "Countertop receptacles: no point more than 24 in from one; spacing 4 ft max (210.52(C))",
+        "Countertop receptacles GFCI protected — Sharma: dual-function breaker (210.8(A)(6))",
+        "Refrigerator may ride a small-appliance circuit or its own 15A+ circuit (210.52(B))",
+        "Dishwasher + disposal: GFCI protection required (422.5 / 210.8(D))",
+        "Microwave: dedicated 20A circuit on 12 AWG copper — SHARMA RULE",
+        "Island/peninsula countertop receptacles per NEC 210.52(C)(2)-(3): one receptacle for the first 9 sq ft of island/peninsula counter, one more for every added 18 sq ft",
+        "AFCI protection for kitchen 120V circuits (210.12)"
+      ]
+    },
+    {
+      "room": "Bathroom",
+      "items": [
+        "One 20A circuit for bathroom receptacles (210.11(C)(3))",
+        "Receptacle within 3 ft of each basin's outside edge (210.52(D))",
+        "All bathroom receptacles GFCI protected — Sharma: dual-function breaker (210.8(A)(1))",
+        "No receptacles inside the tub/shower zone (406.9(C))",
+        "Exhaust fan on its own switch; fan over tub/shower rated + GFCI if manufacturer requires"
+      ]
+    },
+    {
+      "room": "Laundry",
+      "items": [
+        "One 20A laundry circuit, receptacles only for the laundry area (210.11(C)(2))",
+        "Receptacle within 6 ft of the washer (210.52(F))",
+        "GFCI protection — Sharma: dual-function breaker (210.8(A)(10))",
+        "Dryer: 240V circuit per nameplate, 4-wire receptacle (250.140)"
+      ]
+    },
+    {
+      "room": "Garage",
+      "items": [
+        "At least one 20A circuit for garage receptacles (210.11(C)(4))",
+        "One receptacle per vehicle bay (210.52(G))",
+        "Garage outlets at 48 in to center — SHARMA RULE",
+        "GFCI protection — Sharma: dual-function breaker (210.8(A)(2))",
+        "EV receptacle if planned: 125% continuous sizing (625)"
+      ]
+    },
+    {
+      "room": "Outdoor",
+      "items": [
+        "Outlets at 24 in above grade — SHARMA RULE",
+        "Receptacles front and back of house, not more than 6.5 ft above grade (210.52(E))",
+        "GFCI protection — Sharma: dual-function breaker (210.8(A)(3))",
+        "In-use (bubble) covers on all outdoor receptacles (406.9(B))",
+        "WR-rated receptacles outdoors (406.9)"
+      ]
+    },
+    {
+      "room": "Service & Panel",
+      "items": [
+        "Working space: 3 ft deep, 30 in wide, 6.5 ft headroom — kept clear (110.26)",
+        "Panel directory: every circuit labeled, specific — no 'lights/plugs' (408.4)",
+        "Grounding electrode system connected + main bonding jumper at the service only (250)",
+        "Intersystem bonding termination for other systems (250.94)",
+        "Surge protection device at the service for dwellings (230.67)",
+        "AFCI/GFCI: every 120V breaker dual-function — SHARMA RULE"
+      ]
+    }
   ]
 }

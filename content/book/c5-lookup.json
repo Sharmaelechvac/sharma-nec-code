@@ -1141,7 +1141,7 @@
       "construction GFCI 590.6",
       "spider box GFCI"
     ],
-    "answer_plain": "Receptacles supplying temporary power for construction style work need ground fault protection for personnel. The listed sizes include one hundred twenty five volt and one hundred twenty five over two hundred fifty volt receptacles at fifteen, twenty, and thirty amperes, including permanent building receptacles being used for the temporary work. Other receptacles are covered by ground fault protection or by a written assured grounding program.",
+    "answer_plain": "Receptacles supplying temporary power for construction style work need ground fault protection for personnel. The listed sizes include one hundred twenty five volt and one hundred twenty five over two hundred fifty volt receptacles at fifteen, twenty, and thirty amperes, including permanent building receptacles being used for the temporary work. Other receptacles are covered by ground fault protection or by a written assured grounding program. Scope note: the 125/250-volt rating appears only in 590.6(A)(3), and only for receptacles on portable generators rated not greater than 15 kW — (A)(1) and (A)(2) are 125-volt only.",
     "nec_ref": "590.6(A)",
     "nec_edition": "2020",
     "tags": [

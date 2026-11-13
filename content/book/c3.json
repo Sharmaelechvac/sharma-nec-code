@@ -91,7 +91,7 @@
       "section": "300.5",
       "title": "Underground wiring — cover, protection and sealing",
       "plain_explanation": "Underground runs have to be in a wiring method approved for burial and buried deep enough that digging, traffic and frost do not reach them. Cover is measured from the top of the cable or raceway to finished grade, and the required depth depends on the method and what is above it — a yard, a driveway and a slab are not the same row of the table. Risers coming out of the ground need protection from damage, raceway seals are needed where moisture or temperature change will drive condensation, and splices underground must be listed for the job.",
-      "on_the_job": "Use the v1 numbers Sharma already teaches, and check the table row for the actual location before you trench: direct-burial UF 24 in, rigid PVC 18 in, rigid metal conduit 6 in, and a residential branch circuit of 120V, 20A or less with GFCI protection 12 in. Do not carry one depth to every location — driveways and streets are different rows, and those rows are not restated here.",
+      "on_the_job": "The rows Sharma digs to most (Table 300.5, cover over the top of the cable or raceway): in open ground — direct-burial cable 24 in, nonmetallic raceway (PVC) 18 in, rigid metal conduit 6 in. Under a one- or two-family dwelling driveway — RMC 6 in, nonmetallic raceway 12 in, direct-burial cable 18 in. Under streets, roads, alleys, driveways and parking lots (the commercial row) — 24 in for EVERY method. A residential branch circuit 120V, 20A or less with GFCI protection gets the 12 in column in its own row. Slabs and building interiors have their own rows — check the table row for the actual location before you trench, and never carry one depth to every location.",
       "sharma_note": "",
       "figure_idea": "Trench cross-section with four parallel runs at 24, 18, 12 and 6 in, each labeled with its method, and a tape measure to finished grade.",
       "related_ids": [
@@ -967,8 +967,28 @@
         "S-09"
       ],
       "prev_id": "C3-ART-337",
-      "next_id": "C3-ART-340",
+      "next_id": "C3-338.10(B)(4)",
       "chapter": 3
+    },
+    {
+      "id": "C3-338.10(B)(4)",
+      "chapter": 3,
+      "article": "338",
+      "section": "338.10(B)(4)",
+      "title": "SE cable used as interior wiring",
+      "plain_explanation": "Type SE cable is a service-entrance cable first, but 338.10(B)(4) also lets it be used as interior wiring for branch circuits and feeders inside a building. When it is used that way, the installation has to follow the Article 334 rules for NM cable — the routing, support, protection and ampacity discipline of NM work applies to the SE run indoors, not the looser service-entrance habits.",
+      "on_the_job": "An SE cable feeding a subpanel inside the house is roughed and protected like Romex once it is indoors: bored-hole and notch protection, support intervals, and the 334.80 ampacity cap all travel with it.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-ART-338",
+        "C3-334.80"
+      ],
+      "verified": false,
+      "unverified_reason": "Added 2026-11-12 in the second-audit fix pass: the subsection and its Article 334 tie are as stated, but the wording has not had Mike Holt's printed-2020 check.",
+      "prev_id": "C3-ART-338",
+      "next_id": "C3-ART-340"
     },
     {
       "id": "C3-ART-340",
@@ -987,7 +1007,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-ART-338",
+      "prev_id": "C3-338.10(B)(4)",
       "next_id": "C3-ART-342",
       "chapter": 3
     },
@@ -1888,7 +1908,13 @@
       "id": "C3-ART-338",
       "article": "338",
       "title": "Service-entrance cable — Types SE and USE",
-      "children": []
+      "children": [
+        {
+          "id": "C3-338.10(B)(4)",
+          "section": "338.10(B)(4)",
+          "title": "SE cable used as interior wiring"
+        }
+      ]
     },
     {
       "id": "C3-ART-340",
@@ -2423,7 +2449,8 @@
     {
       "term": "SE cable",
       "ids": [
-        "C3-ART-338"
+        "C3-ART-338",
+        "C3-338.10(B)(4)"
       ]
     },
     {

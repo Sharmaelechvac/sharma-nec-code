@@ -1,0 +1,511 @@
+[
+  {
+    "room": "Kitchen",
+    "items": [
+      {
+        "id": "K-01",
+        "text": "At least two 20A small-appliance circuits serve the countertop receptacles; no lighting or other outlets on them.",
+        "nec_ref": "210.11(C)(1)",
+        "severity": "code"
+      },
+      {
+        "id": "K-02",
+        "text": "Countertop receptacle for every counter space 12 in or wider; no point on the wall line more than 24 in from a receptacle.",
+        "nec_ref": "210.52(C)(1)",
+        "severity": "code"
+      },
+      {
+        "id": "K-03",
+        "text": "Island/peninsula: one receptacle for the first 9 sq ft of counter, plus one per additional 18 sq ft (NEC 2020).",
+        "nec_ref": "210.52(C)(2)",
+        "severity": "code"
+      },
+      {
+        "id": "K-04",
+        "text": "Countertop receptacles no more than 20 in above the counter; none face-up in the counter unless a listed assembly.",
+        "nec_ref": "210.52(C)",
+        "severity": "code"
+      },
+      {
+        "id": "K-05",
+        "text": "GFCI on receptacles serving the countertop and any within 6 ft of the sink edge; GFCI on the dishwasher outlet.",
+        "nec_ref": "210.8(A)",
+        "severity": "code"
+      },
+      {
+        "id": "K-06",
+        "text": "Kitchen 120V circuits AFCI protected.",
+        "nec_ref": "210.12(A)",
+        "severity": "code"
+      },
+      {
+        "id": "K-07",
+        "text": "DFN breaker on every 120V circuit; GFI points are standard TR receptacles, no GFCI receptacles.",
+        "sharma_rule_id": "S-07",
+        "severity": "sharma"
+      },
+      {
+        "id": "K-08",
+        "text": "Microwave on its own 20A circuit, 12 AWG copper, unless the plan or nameplate says otherwise.",
+        "sharma_rule_id": "S-06",
+        "severity": "sharma"
+      },
+      {
+        "id": "K-09",
+        "text": "Range hood cord 18-36 in, to a receptacle on an individual circuit, or hardwired.",
+        "nec_ref": "422.16(B)(4)",
+        "severity": "code"
+      },
+      {
+        "id": "K-10",
+        "text": "All receptacles tamper-resistant.",
+        "nec_ref": "406.12",
+        "severity": "code"
+      },
+      {
+        "id": "K-11",
+        "text": "Receptacles 18 in to bottom of box where the plan is silent; countertop heights per plan.",
+        "sharma_rule_id": "S-04",
+        "severity": "sharma"
+      }
+    ]
+  },
+  {
+    "room": "Bathroom",
+    "items": [
+      {
+        "id": "B-01",
+        "text": "At least one 20A circuit for bathroom receptacles (or one circuit serving everything in a single bathroom).",
+        "nec_ref": "210.11(C)(3)",
+        "severity": "code"
+      },
+      {
+        "id": "B-02",
+        "text": "Receptacle within 3 ft of the outside edge of each basin.",
+        "nec_ref": "210.52(D)",
+        "severity": "code"
+      },
+      {
+        "id": "B-03",
+        "text": "No receptacle within 3 ft horizontally / 8 ft vertically of the tub rim or shower threshold (NEC 2020).",
+        "nec_ref": "406.9(C)",
+        "severity": "code"
+      },
+      {
+        "id": "B-04",
+        "text": "All bathroom receptacles GFCI protected (DFN breaker per Sharma standard).",
+        "nec_ref": "210.8(A)(1)",
+        "sharma_rule_id": "S-07",
+        "severity": "code"
+      },
+      {
+        "id": "B-05",
+        "text": "No hanging or cord-connected fixtures or fans within the 3 ft / 8 ft tub/shower zone; wet-location listed fixtures where exposed to spray.",
+        "nec_ref": "410.10(D)",
+        "severity": "code"
+      },
+      {
+        "id": "B-06",
+        "text": "Wall-switched lighting outlet in every bathroom.",
+        "nec_ref": "210.70(A)(1)",
+        "severity": "code"
+      },
+      {
+        "id": "B-07",
+        "text": "No panelboards or breakers in a bathroom.",
+        "nec_ref": "240.24(E)",
+        "severity": "code"
+      },
+      {
+        "id": "B-08",
+        "text": "Exhaust fan: check whether it's on the bath circuit (single bath only) or the lighting circuit.",
+        "nec_ref": "210.11(C)(3)",
+        "severity": "tip"
+      }
+    ]
+  },
+  {
+    "room": "Laundry",
+    "items": [
+      {
+        "id": "LA-01",
+        "text": "Dedicated 20A laundry circuit with no other outlets.",
+        "nec_ref": "210.11(C)(2)",
+        "severity": "code"
+      },
+      {
+        "id": "LA-02",
+        "text": "At least one receptacle in the laundry area.",
+        "nec_ref": "210.52(F)",
+        "severity": "code"
+      },
+      {
+        "id": "LA-03",
+        "text": "GFCI on all 125-250V receptacles in the laundry area, including the dryer receptacle (NEC 2020).",
+        "nec_ref": "210.8(A)(10)",
+        "severity": "code"
+      },
+      {
+        "id": "LA-04",
+        "text": "Laundry 120V circuits AFCI protected.",
+        "nec_ref": "210.12(A)",
+        "severity": "code"
+      },
+      {
+        "id": "LA-05",
+        "text": "Siemens Q230GF, 30A 2-pole GFCI breaker, dryer circuit. GFCI required per NEC 2020 210.8(A)(10) (all 125–250V receptacles in laundry areas).",
+        "nec_ref": "210.8(A)(10)",
+        "sharma_rule_id": "S-08",
+        "severity": "sharma"
+      },
+      {
+        "id": "LA-06",
+        "text": "Dryer circuit 30A, 4-wire (two hots, neutral, ground) for new installs.",
+        "nec_ref": "250.140",
+        "severity": "tip"
+      }
+    ]
+  },
+  {
+    "room": "Garage",
+    "items": [
+      {
+        "id": "G-01",
+        "text": "At least one receptacle in each vehicle bay, no more than 5.5 ft above the floor.",
+        "nec_ref": "210.52(G)(1)",
+        "severity": "code"
+      },
+      {
+        "id": "G-02",
+        "text": "At least one 20A 120V circuit for the required garage receptacles; may also serve readily accessible outdoor receptacles only.",
+        "nec_ref": "210.11(C)(4)",
+        "severity": "code"
+      },
+      {
+        "id": "G-03",
+        "text": "GFCI on all 125-250V garage receptacles.",
+        "nec_ref": "210.8(A)(2)",
+        "severity": "code"
+      },
+      {
+        "id": "G-04",
+        "text": "Wall-switched lighting outlet; switch at the entry.",
+        "nec_ref": "210.70(A)(2)",
+        "severity": "code"
+      },
+      {
+        "id": "G-05",
+        "text": "EV receptacle on an individual circuit sized at 125% of the charger load, GFCI protected.",
+        "nec_ref": "625.54",
+        "severity": "code"
+      },
+      {
+        "id": "G-06",
+        "text": "Panel in garage: 3 ft deep, 30 in wide, 6.5 ft high working space; no pipes or ducts in the dedicated space above.",
+        "nec_ref": "110.26(A)",
+        "severity": "code"
+      },
+      {
+        "id": "G-07",
+        "text": "Ask the AHJ whether a heat alarm is required in a new attached garage (building code, not NEC; IRC 2021 R314.2.3 has this rule, FBC-R 8th Ed. adoption not confirmed).",
+        "severity": "tip"
+      }
+    ]
+  },
+  {
+    "room": "Outdoor",
+    "items": [
+      {
+        "id": "O-01",
+        "text": "Receptacles at front and back, readily accessible from grade, no more than 6.5 ft above grade; one on each balcony/deck/porch reachable from inside.",
+        "nec_ref": "210.52(E)",
+        "severity": "code"
+      },
+      {
+        "id": "O-02",
+        "text": "GFCI on all outdoor receptacles; GFCI on other outdoor outlets 50A or less per 210.8(F) (confirm AHJ position on condensers).",
+        "nec_ref": "210.8(A)(3)",
+        "severity": "code"
+      },
+      {
+        "id": "O-03",
+        "text": "Weather-resistant receptacles; extra-duty in-use covers in wet locations.",
+        "nec_ref": "406.9(B)(1)",
+        "severity": "code"
+      },
+      {
+        "id": "O-04",
+        "text": "Burial depths: UF 24 in, PVC 18 in, RMC 6 in, residential 120V 20A GFCI circuits 12 in.",
+        "nec_ref": "300.5",
+        "severity": "code"
+      },
+      {
+        "id": "O-05",
+        "text": "AC disconnect within sight of the condenser, readily accessible, not blocking the nameplate.",
+        "nec_ref": "440.14",
+        "severity": "code"
+      },
+      {
+        "id": "O-06",
+        "text": "Service receptacle within 25 ft of HVAC equipment, same level.",
+        "nec_ref": "210.63",
+        "severity": "code"
+      },
+      {
+        "id": "O-07",
+        "text": "Outdoor emergency disconnect for the dwelling, marked per 230.85 (NEC 2020).",
+        "nec_ref": "230.85",
+        "severity": "code"
+      },
+      {
+        "id": "O-08",
+        "text": "Pool: receptacle 6-20 ft from the water; GFCI within 20 ft; 8 AWG solid copper equipotential bonding.",
+        "nec_ref": "680.22(A)",
+        "severity": "code"
+      },
+      {
+        "id": "O-09",
+        "text": "Standby generator: emergency shutdown device outside the dwelling, readily accessible (NEC 2020).",
+        "nec_ref": "445.18(D)",
+        "severity": "code"
+      }
+    ]
+  },
+  {
+    "room": "Bedroom / Living",
+    "items": [
+      {
+        "id": "BL-01",
+        "text": "Receptacles so no point along the floor line is more than 6 ft from one (12 ft max between); count wall spaces 2 ft and wider.",
+        "nec_ref": "210.52(A)(1)",
+        "severity": "code"
+      },
+      {
+        "id": "BL-02",
+        "text": "AFCI on all 120V 15/20A circuits.",
+        "nec_ref": "210.12(A)",
+        "severity": "code"
+      },
+      {
+        "id": "BL-03",
+        "text": "DFN breaker on every 120V circuit.",
+        "sharma_rule_id": "S-07",
+        "severity": "sharma"
+      },
+      {
+        "id": "BL-04",
+        "text": "All receptacles tamper-resistant.",
+        "nec_ref": "406.12",
+        "severity": "code"
+      },
+      {
+        "id": "BL-05",
+        "text": "Wall-switched lighting outlet (switched receptacle allowed in these rooms).",
+        "nec_ref": "210.70(A)(1)",
+        "severity": "code"
+      },
+      {
+        "id": "BL-06",
+        "text": "Neutral at switch boxes controlling lighting.",
+        "nec_ref": "404.2(C)",
+        "severity": "code"
+      },
+      {
+        "id": "BL-07",
+        "text": "Receptacles 18 in to the bottom of the box when the plan is silent; the plan governs when it states a height.",
+        "sharma_rule_id": "S-04",
+        "severity": "sharma"
+      },
+      {
+        "id": "BL-08",
+        "text": "Switch heights: 48 in to center when plan is silent.",
+        "sharma_rule_id": "S-05",
+        "severity": "sharma"
+      },
+      {
+        "id": "BL-09",
+        "text": "Fan-rated box wherever a ceiling fan could go.",
+        "nec_ref": "314.27(C)",
+        "severity": "code"
+      },
+      {
+        "id": "BL-10",
+        "text": "Smoke alarm in each bedroom and outside sleeping areas, hardwired, battery backup, interconnected (FBC-R R314; building code, not NEC).",
+        "severity": "tip"
+      },
+      {
+        "id": "BL-11",
+        "text": "Closet lights: enclosed lamps and required clearances.",
+        "nec_ref": "410.16",
+        "severity": "code"
+      },
+      {
+        "id": "BL-12",
+        "text": "Hallways 10 ft or longer get a receptacle.",
+        "nec_ref": "210.52(H)",
+        "severity": "code"
+      },
+      {
+        "id": "BL-13",
+        "text": "Branch wiring copper by default (14 AWG/15A, 12 AWG/20A). If the lead picks CCA: 12 AWG on 15A, 10 AWG on 20A; device screw terminals only (never backstab); wire nuts and lugs marked AL-CU/CU-AL, not CU-only; check breaker lug marking.",
+        "nec_ref": "240.4(D)",
+        "sharma_rule_id": "S-10",
+        "severity": "sharma"
+      }
+    ]
+  },
+  {
+    "room": "Service / Panel",
+    "items": [
+      {
+        "id": "SP-01",
+        "text": "Meter and panel back to back where the house allows, panel inside directly behind the meter.",
+        "sharma_rule_id": "S-09",
+        "severity": "sharma"
+      },
+      {
+        "id": "SP-02",
+        "text": "New gear is Siemens; Square D breakers only in existing Square D panels.",
+        "sharma_rule_id": "S-02",
+        "severity": "sharma"
+      },
+      {
+        "id": "SP-03",
+        "text": "Existing Square D panel: Square D breakers only.",
+        "sharma_rule_id": "S-03",
+        "severity": "sharma"
+      },
+      {
+        "id": "SP-04",
+        "text": "Service conductors: 200A dwelling = 2/0 Cu or 4/0 Al (83% rule, no derating).",
+        "nec_ref": "310.12(A)",
+        "severity": "code"
+      },
+      {
+        "id": "SP-05",
+        "text": "Type 1 or Type 2 SPD in or next to the service equipment (NEC 2020).",
+        "nec_ref": "230.67",
+        "severity": "code"
+      },
+      {
+        "id": "SP-06",
+        "text": "Outdoor emergency disconnect, labeled (NEC 2020).",
+        "nec_ref": "230.85",
+        "severity": "code"
+      },
+      {
+        "id": "SP-07",
+        "text": "GEC sized per Table 250.66; 6 AWG Cu max needed to rods, 4 AWG Cu max to a concrete-encased electrode.",
+        "nec_ref": "250.66",
+        "severity": "code"
+      },
+      {
+        "id": "SP-08",
+        "text": "Two ground rods at least 6 ft apart unless one is tested at 25 ohms or less.",
+        "nec_ref": "250.53(A)(2)",
+        "severity": "code"
+      },
+      {
+        "id": "SP-09",
+        "text": "Bond the concrete-encased electrode if present; bond all electrodes together.",
+        "nec_ref": "250.50",
+        "severity": "code"
+      },
+      {
+        "id": "SP-10",
+        "text": "Main bonding jumper only at the service; isolate neutrals in subpanels.",
+        "nec_ref": "250.24(A)(5)",
+        "severity": "code"
+      },
+      {
+        "id": "SP-11",
+        "text": "Intersystem bonding termination installed.",
+        "nec_ref": "250.94",
+        "severity": "code"
+      },
+      {
+        "id": "SP-12",
+        "text": "Working space 3 ft deep x 30 in wide x 6.5 ft high; not in a closet or bathroom.",
+        "nec_ref": "110.26(A)",
+        "severity": "code"
+      },
+      {
+        "id": "SP-13",
+        "text": "Highest breaker handle no more than 6 ft 7 in above the floor.",
+        "nec_ref": "240.24(A)",
+        "severity": "code"
+      },
+      {
+        "id": "SP-14",
+        "text": "Directory lists each circuit's specific purpose; spares marked.",
+        "nec_ref": "408.4(A)",
+        "severity": "code"
+      },
+      {
+        "id": "SP-15",
+        "text": "Torque all lugs and breaker terminals to the marked values with a calibrated tool.",
+        "nec_ref": "110.14(D)",
+        "severity": "code"
+      },
+      {
+        "id": "SP-16",
+        "text": "Solar backfeed: 125% of inverter output + main breaker no more than 120% of bus, breaker at the opposite end, warning label.",
+        "nec_ref": "705.12(B)(3)(2)",
+        "severity": "code"
+      }
+    ]
+  },
+  {
+    "room": "Attic / HVAC",
+    "items": [
+      {
+        "id": "AH-01",
+        "text": "Light with a switch at the attic entry, and at or near equipment that needs servicing.",
+        "nec_ref": "210.70(A)(3)",
+        "severity": "code"
+      },
+      {
+        "id": "AH-02",
+        "text": "Service receptacle within 25 ft of the air handler, same level.",
+        "nec_ref": "210.63",
+        "severity": "code"
+      },
+      {
+        "id": "AH-03",
+        "text": "Size conductors from the nameplate MCA; breaker no larger than the nameplate MOCP.",
+        "nec_ref": "440.4(B)",
+        "severity": "code"
+      },
+      {
+        "id": "AH-04",
+        "text": "Disconnect within sight of the air handler and condenser.",
+        "nec_ref": "440.14",
+        "severity": "code"
+      },
+      {
+        "id": "AH-05",
+        "text": "Sharma practice (Sanjay 2026-10-28): condenser on a standard 2-pole breaker sized to the MOCP, no GFCI breaker. Confirm the AHJ position on 210.8(F) for the job.",
+        "nec_ref": "210.8(F)",
+        "severity": "tip"
+      },
+      {
+        "id": "AH-06",
+        "text": "NM cable in accessible attics (334.23 applies 320.23): protect within 6 ft of the scuttle where the attic isn't reached by permanent stairs or ladder (guard strips).",
+        "nec_ref": "334.23",
+        "severity": "code"
+      },
+      {
+        "id": "AH-07",
+        "text": "Derate for hot-attic ambient if conductors run through high heat; use the 90°C column only as a starting point.",
+        "nec_ref": "310.15(B)(1)",
+        "severity": "tip"
+      },
+      {
+        "id": "AH-08",
+        "text": "Electric strip heat circuits sized at 125% of the heating load including the blower.",
+        "nec_ref": "424.4(B)",
+        "severity": "code"
+      }
+    ]
+  }
+]

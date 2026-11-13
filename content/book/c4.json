@@ -22,16 +22,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": null,
-      "next_id": "C4-400.7"
+      "next_id": "C4-400.10"
     },
     {
-      "id": "C4-400.7",
+      "id": "C4-400.10",
       "chapter": 4,
       "article": "400",
-      "section": "400.7",
+      "section": "400.10",
       "title": "What flexible cords may be used for",
-      "plain_explanation": "Section 400.7 lists the jobs a flexible cord is allowed to do: hanging fixtures, connecting portable equipment, appliances that need to be moved for cleaning or service, and similar uses where flexibility is the point. The common thread is that the equipment, not the building, is what moves. A cord feeding a fixed outlet box or a permanent load is outside this list.",
-      "on_the_job": "Before you plug or hard-wire a cord to anything, name the 400.7 use out loud. If you cannot name one, stop and run conduit or cable. Watch especially for cords run through walls, ceilings, or doorways, which this article does not allow.",
+      "plain_explanation": "Section 400.10 lists the jobs a flexible cord is allowed to do: hanging fixtures, connecting portable equipment, appliances that need to be moved for cleaning or service, and similar uses where flexibility is the point. The common thread is that the equipment, not the building, is what moves. A cord feeding a fixed outlet box or a permanent load is outside this list.",
+      "on_the_job": "Before you plug or hard-wire a cord to anything, name the 400.10 use out loud. If you cannot name one, stop and run conduit or cable. Watch especially for cords run through walls, ceilings, or doorways, which this article does not allow.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
@@ -55,7 +55,7 @@
       "florida_note": "",
       "verified": false,
       "sharma_rule_ids": [],
-      "prev_id": "C4-400.7",
+      "prev_id": "C4-400.10",
       "next_id": "C4-ART-402",
       "unverified_reason": "In NEC 2017 this list was numbered 400.8. The ChatGPT research supplied for this chapter cites the prohibited-uses list at 400.12 for NEC 2020, which matches the 2020 reorganization of Article 400, but neither number was checked against the printed NEC 2020 text in this pass. Mike to confirm 400.12 before this page is marked verified."
     },
@@ -283,7 +283,7 @@
       "article": "406",
       "section": "406.5(E)",
       "title": "Face-up receptacles in countertops — UNVERIFIED wording",
-      "plain_explanation": "This page is flagged. The v1 README lists the wording of 406.5(E) as unverified. The working understanding from the brief is that this subsection addresses receptacles installed face-up in work surfaces and countertops, a position that collects spills, crumbs, and liquids directly into the device, and that such installations are restricted and must use assemblies listed for that use. Do not quote dimensions or a flat prohibition from this page until Mike confirms the 2020 wording.",
+      "plain_explanation": "This page is flagged. The v1 README lists the wording of 406.5(E) as unverified. The working understanding from the brief is that this subsection addresses receptacles installed face-up in work surfaces and countertops, a position that collects spills, crumbs, and liquids directly into the device, and that such installations are restricted and must use assemblies listed for that use. Do not quote dimensions or a flat prohibition from this page until Mike confirms the 2020 wording. A second audit located the face-up prohibition at 406.5(G)(1) instead, with (G)(2) covering receptacles in the space under a sink and (E) covering listed countertop assemblies — while the chapter's first audit read (E) itself as the face-up rule. The prohibition on face-up receptacles in work surfaces is not in doubt under either reading; the subsection letter is Mike's printed-text call.",
       "on_the_job": "Field habit that is safe either way: do not cut a standard duplex into a countertop face-up. Put the receptacle on the side of the cabinet, on the wall at the backsplash, or use a listed pop-up assembly made for countertop use, and confirm the current wording with the AHJ on a kitchen island job.",
       "sharma_note": "",
       "figure_idea": "",
@@ -293,7 +293,7 @@
       "florida_note": "",
       "verified": false,
       "sharma_rule_ids": [],
-      "unverified_reason": "Wording of 406.5(E) flagged UNVERIFIED in content/v1/README.md; substance paraphrased from the brief only.",
+      "unverified_reason": "Subsection letter in dispute between two audits (406.5(E) vs 406.5(G)(1)/(G)(2)) — Mike Holt to settle against the printed 2020 book. The face-up prohibition itself is not in dispute.",
       "prev_id": "C4-406.4(D)",
       "next_id": "C4-406.9(A)"
     },
@@ -659,7 +659,7 @@
       "article": "411",
       "section": "411",
       "title": "Lighting systems operating at 30 volts or less — article intro",
-      "plain_explanation": "Article 411 covers low-voltage lighting systems that operate at 30V or less: the listed system, its power supply, and the secondary wiring that feeds the fixtures. These systems are installed as a listed assembly, not assembled from loose parts in the field, and the secondary conductors have their own rules distinct from ordinary branch wiring. Sharma meets this article mainly in landscape-style and specialty accent lighting inside a project.",
+      "plain_explanation": "Article 411 covers low-voltage lighting systems operating at 30 volts AC or 60 volts DC or less — and only 15 volts AC or 30 volts DC where contact with water is likely: the listed system, its power supply, and the secondary wiring that feeds the fixtures. These systems are installed as a listed assembly, not assembled from loose parts in the field, and the secondary conductors have their own rules distinct from ordinary branch wiring. Sharma meets this article mainly in landscape-style and specialty accent lighting inside a project.",
       "on_the_job": "Install the system as the listed package: listed power supply, listed fixtures, and the manufacturer's wiring instructions. Do not extend a 30V secondary with branch-circuit wire methods or bury connections the listing does not allow.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1078,7 +1078,7 @@
       "article": "440",
       "section": "440",
       "title": "Air-conditioning and refrigerating equipment — article intro",
-      "plain_explanation": "Article 440 takes hermetic refrigerant motor-compressors and air-conditioning equipment out of the general motor rules and gives them a nameplate-driven system. The equipment nameplate states the minimum circuit ampacity (MCA) and the maximum overcurrent protection (MOCP, sometimes marked MOP or 'max fuse/breaker'), and those two printed numbers — not a horsepower table — size the circuit. Article 440 also sets the disconnect rule Sharma's crews use daily: within sight, readily accessible, at the equipment. Where 430 and 440 disagree for a compressor, 440 governs.",
+      "plain_explanation": "Article 440 takes hermetic refrigerant motor-compressors and air-conditioning equipment out of the general motor rules and gives them a nameplate-driven system. The equipment nameplate states the minimum circuit ampacity (MCA) and the maximum overcurrent protection (MOCP, sometimes marked MOP or 'max fuse/breaker'), and those two printed numbers — not a horsepower table — size the circuit. Article 440 also sets the disconnect rule Sharma's crews use daily: within sight, readily accessible, at the equipment. Where 430 and 440 disagree for a compressor, 440 governs. Florida settles the common condenser question for houses: FBC-Residential §E3408.1 amends 210.8(F) with Exception No. 2 — GFCI protection is not required for listed and labeled HVAC equipment on one- and two-family dwellings.",
       "on_the_job": "Read the nameplate before you run the wire, every unit, every change-out. A replacement condenser with a higher MCA than the old one is a new circuit calculation, not a like-for-like swap. Photograph the nameplate for the job file at rough-in and again at start-up.",
       "sharma_note": "Sharma practice (tip, not an S-rule): the condenser is wired to the nameplate MOCP with a standard 2-pole breaker. The 210.8(F) GFCI question for outdoor outlets/equipment has varied by TIA and local amendment — confirm the AHJ position on the job rather than assuming; see the Chapter 2 cross-link on the 440.4(B) page.",
       "figure_idea": "",
@@ -1147,7 +1147,7 @@
       "article": "440",
       "section": "440.14",
       "title": "The HVAC disconnect — within sight and readily accessible",
-      "plain_explanation": "Section 440.14 requires the disconnecting means for air-conditioning and refrigerating equipment to be within sight from the equipment and readily accessible to it, with an exception for certain industrial/process installations where conditions are met. 'Within sight' carries the Article 100 meaning: visible and within 50 ft. The disconnect may be on the equipment or separate from it, but a person servicing the unit must be able to reach it and see the unit from it. A breaker inside the house panel does not satisfy this by itself.",
+      "plain_explanation": "Section 440.14 requires the disconnecting means for air-conditioning and refrigerating equipment to be within sight from the equipment and readily accessible to it, with an exception for certain industrial/process installations where conditions are met. 'Within sight' carries the Article 100 meaning: visible and within 50 ft. The disconnect may be on the equipment or separate from it, but a person servicing the unit must be able to reach it and see the unit from it. A breaker inside the house panel does not satisfy this by itself. The disconnect also may not be mounted on a panel that is designed to allow access to the equipment itself, and it may not be placed where it obscures the equipment nameplate.",
       "on_the_job": "Set the disconnect where the service tech stands: at the condenser pad, in sight, with working space in front of it, not behind a fence line or above reach. On a change-out, if the old disconnect is inside the old unit's shadow or was never installed, relocate or add it as part of the job and note it on the invoice record.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1156,7 +1156,8 @@
         "Q-056",
         "O-05",
         "AH-04",
-        "C4-L-031"
+        "C4-L-031",
+        "C2-210.63"
       ],
       "florida_note": "Florida note: exterior disconnects live in weather — use listed outdoor equipment and keep the working space clear of the condensate line and landscaping at final.",
       "verified": true,
@@ -1497,8 +1498,8 @@
       "title": "Flexible Cords and Cables",
       "children": [
         {
-          "id": "C4-400.7",
-          "section": "400.7",
+          "id": "C4-400.10",
+          "section": "400.10",
           "title": "What flexible cords may be used for"
         },
         {
@@ -2026,7 +2027,7 @@
     {
       "term": "Flexible cords, permitted uses",
       "ids": [
-        "C4-400.7"
+        "C4-400.10"
       ]
     },
     {

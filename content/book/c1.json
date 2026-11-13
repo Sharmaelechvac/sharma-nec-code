@@ -172,7 +172,7 @@
       "article": "90",
       "section": "90.8",
       "title": "Planning for future expansion",
-      "plain_explanation": "This section encourages planning an installation so later growth in load does not require tearing the system apart. Allowing room for future circuits and capacity is presented as good practice for convenience and for the life of the installation, not as a hard sizing rule by itself.",
+      "plain_explanation": "This section encourages planning an installation so later growth in load does not require tearing the system apart. Allowing room for future circuits and capacity is presented as good practice for convenience and for the life of the installation, not as a hard sizing rule by itself. 90.8(B) covers the number of circuits in enclosures: an enclosure may not be filled beyond the number of circuits it was designed and listed to hold.",
       "on_the_job": "Spare panel spaces, an accessible junction point, and a raceway path that can be reused are cheap on rough-in day and expensive later. Where the plan allows, leave the next electrician — often us — a workable path.",
       "sharma_note": "",
       "figure_idea": "",
@@ -563,7 +563,7 @@
       "article": "100",
       "section": "100",
       "title": "Garage, kitchen, and laundry area — how the Code uses area names",
-      "plain_explanation": "Rules throughout the Code name areas of a house — the garage, the kitchen, the laundry area — and attach protection and circuit requirements to receptacles in those areas. This page collects how Sharma crews meet those area names in practice: the garage is the vehicle space and its attached unfinished areas, the kitchen is the room with permanent cooking provisions, and the laundry area is where laundry equipment is installed or intended. Treat this page as a usage guide that points to the rule articles, not as a substitute for a definition in the printed Article 100.",
+      "plain_explanation": "Rules throughout the Code name areas of a house — the garage, the kitchen, the laundry area — and attach protection and circuit requirements to receptacles in those areas. This page collects how Sharma crews meet those area names in practice: the garage is the vehicle space and its attached unfinished areas, the kitchen is the room with a sink and permanent provisions for cooking (the Article 100 definition turns on the sink as well as the cooking provisions), and the laundry area is where laundry equipment is installed or intended. Treat this page as a usage guide that points to the rule articles, not as a substitute for a definition in the printed Article 100.",
       "on_the_job": "When a plan is vague about a room's use, settle it before rough-in — a laundry area moved after wiring changes GFCI protection and circuit requirements. The detailed area rules live in Article 210 and are covered in Chapter 2 of this book.",
       "sharma_note": "S-08: the dryer circuit uses a Siemens Q230GF 30A 2-pole GFCI breaker, because NEC 2020 requires GFCI protection for receptacles in laundry areas, including 250V receptacles.",
       "figure_idea": "House plan with garage, kitchen and laundry shaded in three colors, each tagged with the chapter that carries its main rules.",
@@ -839,7 +839,7 @@
       "article": "110",
       "section": "110.12",
       "title": "Mechanical execution of work — workmanship and unused openings",
-      "plain_explanation": "Electrical work has to be done in a neat and workmanlike manner. Unused openings in enclosures, boxes and equipment have to be closed with closures that give protection much like the wall of the equipment itself — a missing knockout blank is an open door for fingers, pests and arc products. Conductors must also be protected where insulation can be damaged, and enclosures in wet locations must keep water from entering and accumulating. Part (B) covers integrity of equipment and connections: internal parts, busbars, wiring terminals, and other components must not be damaged or contaminated by foreign materials, and there must be no damaged, broken, bent, cut, or deteriorated parts.",
+      "plain_explanation": "Electrical work has to be done in a neat and workmanlike manner. Unused openings in enclosures, boxes and equipment have to be closed with closures that give protection much like the wall of the equipment itself — a missing knockout blank is an open door for fingers, pests and arc products. Conductors must also be protected where insulation can be damaged. (Keeping water out of enclosures in wet locations is a different rule — see 312.2 and 314.15 — not part of 110.12.) Part (B) covers integrity of equipment and connections: internal parts, busbars, wiring terminals, and other components must not be damaged or contaminated by foreign materials, and there must be no damaged, broken, bent, cut, or deteriorated parts.",
       "on_the_job": "Close every unused opening with a listed blank or plug, not tape or a folded piece of can. Neat work is not cosmetic here — it is the section the inspector cites when a panel looks like a hazard even before testing anything.",
       "sharma_note": "",
       "figure_idea": "Before/after panel photos in drawing form: open knockouts and stray conductors on one side, blanks fitted and conductors dressed on the other.",
@@ -967,7 +967,7 @@
       "article": "110",
       "section": "110.16",
       "title": "Arc-flash hazard warning marking",
-      "plain_explanation": "Certain equipment that is likely to be examined, adjusted or worked on while energized — such as switchboards, panelboards and motor control centers in other than dwelling settings — must carry a durable field-applied warning marking telling people about the arc-flash hazard. The marking warns; it does not replace safe work practice, and it belongs where a person approaching the gear will see it.",
+      "plain_explanation": "Certain equipment that is likely to be examined, adjusted or worked on while energized — such as switchboards, panelboards and motor control centers in other than dwelling settings — must carry a durable field-applied warning marking telling people about the arc-flash hazard. The marking warns; it does not replace safe work practice, and it belongs where a person approaching the gear will see it. On service equipment, 110.16(B) makes the label specific: it must show the nominal system voltage, the arc-flash boundary, and at least one of the available incident energy with its working distance, the arc rating of required clothing, or the site-specific level of PPE.",
       "on_the_job": "On commercial work, confirm the arc-flash warning label is present and legible before final. Houses are not the target of this section, but the hazard it names is real on any energized panel.",
       "sharma_note": "",
       "figure_idea": "",
@@ -977,26 +977,8 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C1-110.15",
-      "next_id": "C1-110.17",
-      "sharma_rule_ids": []
-    },
-    {
-      "id": "C1-110.17",
-      "chapter": 1,
-      "article": "110",
-      "section": "110.17",
-      "title": "Servicing and maintenance of equipment",
-      "plain_explanation": "This section is a 2023 NEC addition and is NOT part of the NEC 2020 that Florida follows — it is kept here flagged so nobody cites it as Florida law. As written for 2023, it addresses the servicing and maintenance of electrical equipment: servicing is to be done by qualified persons, and replacement parts and components are to be suitable for the equipment — identified for it or the manufacturer's specified replacements. Experience alone is not the standard; the person doing the work needs the training and knowledge the task and its hazards require.",
-      "on_the_job": "On service calls, replace failed components with parts identified for that equipment, and treat unfamiliar gear — especially commercial switchgear — as a qualified-persons-only job until the right person is on it.",
-      "sharma_note": "",
-      "figure_idea": "",
-      "related_ids": [],
-      "florida_note": "",
-      "verified": false,
-      "prev_id": "C1-110.16",
       "next_id": "C1-110.18",
-      "sharma_rule_ids": [],
-      "unverified_reason": "Section 110.17 does not exist in NEC 2020; it was added in the 2023 NEC, which Florida has not adopted (FBC 8th Edition is NEC 2020). Held flagged pending removal or a 2023-preview relabel."
+      "sharma_rule_ids": []
     },
     {
       "id": "C1-110.18",
@@ -1011,7 +993,7 @@
       "related_ids": [],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-110.17",
+      "prev_id": "C1-110.16",
       "next_id": "C1-110.19",
       "sharma_rule_ids": []
     },
@@ -1029,28 +1011,8 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C1-110.18",
-      "next_id": "C1-110.20",
-      "sharma_rule_ids": []
-    },
-    {
-      "id": "C1-110.20",
-      "chapter": 1,
-      "article": "110",
-      "section": "110.20",
-      "title": "Reconditioned equipment",
-      "plain_explanation": "This section is a 2023 NEC addition and is NOT part of the NEC 2020 that Florida follows — in 2020 the topic lives in the Article 100 definition and article-specific sections. As written for 2023, it governs equipment that has been reconditioned — rebuilt or restored — as distinct from equipment that has merely been serviced or had a failed part replaced with an approved equal. Reconditioned equipment has to be evaluated and accepted under the section's terms, the party that reconditioned it has to be identifiable, and some categories of equipment are restricted or not permitted to be reconditioned at all. A previous listing does not automatically survive an extensive rebuild.",
-      "on_the_job": "On commercial renovations, treat refurbished switchboards, panelboards and breakers as a question, not a bargain: who reconditioned it, under what evaluation, and is that category of equipment permitted to be reconditioned? Get the answer before it is set, not at inspection.",
-      "sharma_note": "",
-      "figure_idea": "",
-      "related_ids": [
-        "C1-L-034"
-      ],
-      "florida_note": "",
-      "verified": false,
-      "prev_id": "C1-110.19",
       "next_id": "C1-110.21",
-      "sharma_rule_ids": [],
-      "unverified_reason": "Section 110.20 does not exist in NEC 2020; it was added in the 2023 NEC, which Florida has not adopted. Held flagged pending removal or a 2023-preview relabel."
+      "sharma_rule_ids": []
     },
     {
       "id": "C1-110.21",
@@ -1058,7 +1020,7 @@
       "article": "110",
       "section": "110.21",
       "title": "Marking — manufacturer marks and field-applied hazard marks",
-      "plain_explanation": "Equipment carries the manufacturer's name and its ratings so the user can tell what it is and what it is rated for. Where the Code requires a field-applied hazard marking, it has to be durable enough for its environment, use signal wording everyone recognizes, and not be handwritten where the Code requires a proper marking. A faded or missing rating plate makes equipment hard to approve and harder to service safely.",
+      "plain_explanation": "Equipment carries the manufacturer's name and its ratings so the user can tell what it is and what it is rated for. Where the Code requires a field-applied hazard marking, it has to be durable enough for its environment, use signal wording everyone recognizes, and not be handwritten where the Code requires a proper marking. A faded or missing rating plate makes equipment hard to approve and harder to service safely. Reconditioned equipment has its own marking rule at 110.21(A)(2): it must be marked with the name or trademark of the business that reconditioned it and the date of reconditioning, identified as reconditioned, and the original listing mark must be removed or voided — reconditioned gear is never passed off as new.",
       "on_the_job": "Do not paint over, cover or discard rating labels. When you add a required field marking, use a proper printed label suited to the location, not a marker scrawl.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1067,7 +1029,7 @@
       ],
       "florida_note": "Exterior Florida labels fade fast. Use UV- and moisture-durable labels outside so required markings survive to the next inspection.",
       "verified": true,
-      "prev_id": "C1-110.20",
+      "prev_id": "C1-110.19",
       "next_id": "C1-110.22",
       "sharma_rule_ids": []
     },
@@ -1178,7 +1140,7 @@
       "article": "110",
       "section": "110.26(A)",
       "title": "Working space about equipment",
-      "plain_explanation": "Live electrical equipment that may need examination or work while energized has to have a clear working space in front of it. For a typical 120/240V house panel with no live parts on the other side of the aisle (Condition 1), that space is 3 ft deep, at least 30 in wide or the width of the equipment, whichever is greater, and at least 6-1/2 ft high. The depth can be greater under other conditions or at higher voltage; use the table in 110.26(A)(1) rather than memorizing one number for every job.",
+      "plain_explanation": "Live electrical equipment that may need examination or work while energized has to have a clear working space in front of it. For a typical 120/240V house panel with no live parts on the other side of the aisle (Condition 1), that space is 3 ft deep, at least 30 in wide or the width of the equipment, whichever is greater, and at least 6-1/2 ft high. The depth can be greater under other conditions or at higher voltage; use the table in 110.26(A)(1) rather than memorizing one number for every job. The work space also has to be arranged so equipment doors and hinged panels can open at least 90°.",
       "on_the_job": "Measure from the face of the panel, not from the wall behind it. Keep the width centered on the equipment so a person can stand in front of the breakers. Do not park water heaters, shelving, or stored material in that space.",
       "sharma_note": "S-09 prefers the meter outside and the panel inside, back to back, where the house allows. That layout still has to leave the 110.26 working space in front of the panel.",
       "figure_idea": "A plan view of a 200A panel on a garage wall with a 30 in-wide by 3 ft-deep rectangle in front, height marked 6 ft 6 in, and a 'do not store here' callout.",
@@ -1229,7 +1191,7 @@
       "article": "110",
       "section": "110.26(B)",
       "title": "Clear space, entrance and egress, and illumination",
-      "plain_explanation": "Working space cannot be used for storage, and where foreign systems such as plumbing or ducts pass over equipment they need protection against leaks and condensation dripping onto the gear. Personnel doors serving electrical rooms have their own hardware and direction rules on larger equipment, and entrances must let a worker get in and out without squeezing past live parts. Working spaces also have to be illuminated so the work is not done by flashlight, and the lighting must not be controlled by automatic means only (110.26(D)) — automatic control may supplement a switch, but it cannot be the only control.",
+      "plain_explanation": "Working space cannot be used for storage. Entrances must let a worker get in and out without squeezing past live parts, and on large equipment (110.26(C)(2)) a second entrance/exit path is required once the service disconnects total 1,200A or more. Personnel doors within 25 ft of the working space have their own rule at 110.26(C)(3): the door must open in the direction of egress and carry listed panic hardware or fire-exit hardware. Working spaces also have to be illuminated so the work is not done by flashlight, and the lighting must not be controlled by automatic means only (110.26(D)) — automatic control may supplement a switch, but it cannot be the only control.",
       "on_the_job": "If the panel room doubles as storage, clear it before calling inspection. Check the light over the panel works, and flag any plumbing run directly above electrical gear — that conversation is much easier at rough-in than after a leak.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1249,7 +1211,7 @@
       "article": "110",
       "section": "110.26(E)",
       "title": "Dedicated equipment space",
-      "plain_explanation": "The floor space equal to the footprint of indoor electrical equipment, from the floor up to 6 ft above the equipment or the ceiling if lower, is dedicated to the electrical installation. Foreign pipes, ducts and other systems cannot pass through that zone except where the section allows, and suspended ceilings with removable panels do not count as the structural ceiling for this purpose. Outdoor equipment has a matching dedicated zone with its own clearances.",
+      "plain_explanation": "The floor space equal to the footprint of indoor electrical equipment, from the floor up to 6 ft above the equipment or the ceiling if lower, is dedicated to the electrical installation. Foreign pipes, ducts and other systems cannot pass through that zone except where the section allows, and suspended ceilings with removable panels do not count as the structural ceiling for this purpose. Outdoor equipment has a matching dedicated zone with its own clearances. Foreign systems installed ABOVE that dedicated zone are handled at 110.26(E)(1)(b): they need protection against leaks and condensation so nothing drips onto the electrical equipment below.",
       "on_the_job": "This is the rule behind 'the plumber cannot run that line over the panel.' The dedicated zone is the panel's width and depth projected upward. Existing v1 item L-042 covers this space in detail.",
       "sharma_note": "",
       "figure_idea": "A panel with a transparent box drawn above it to the ceiling marked dedicated space — no foreign piping, with a duct rerouted around it.",
@@ -1568,11 +1530,6 @@
           "title": "Arc-flash hazard warning marking"
         },
         {
-          "id": "C1-110.17",
-          "section": "110.17",
-          "title": "Servicing and maintenance of equipment"
-        },
-        {
           "id": "C1-110.18",
           "section": "110.18",
           "title": "Arcing parts"
@@ -1581,11 +1538,6 @@
           "id": "C1-110.19",
           "section": "110.19",
           "title": "Light and power from railway conductors (orientation)"
-        },
-        {
-          "id": "C1-110.20",
-          "section": "110.20",
-          "title": "Reconditioned equipment"
         },
         {
           "id": "C1-110.21",
@@ -1706,7 +1658,7 @@
     {
       "term": "Backstab terminals",
       "ids": [
-        "C1-110.14"
+        "C1-L-046"
       ]
     },
     {
@@ -1941,12 +1893,6 @@
       ]
     },
     {
-      "term": "Reconditioned equipment",
-      "ids": [
-        "C1-110.20"
-      ]
-    },
-    {
       "term": "Scope of the Code",
       "ids": [
         "C1-90.2"
@@ -1957,12 +1903,6 @@
       "ids": [
         "C1-100-SERVICE",
         "C1-90.2"
-      ]
-    },
-    {
-      "term": "Servicing and maintenance",
-      "ids": [
-        "C1-110.17"
       ]
     },
     {

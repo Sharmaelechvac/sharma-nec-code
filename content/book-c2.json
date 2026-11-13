@@ -201,7 +201,7 @@
       "article": "210",
       "section": "210.8(B)",
       "title": "GFCI locations outside dwellings",
-      "plain_explanation": "Non-dwelling occupancies have their own GFCI list, covering places such as bathrooms, kitchens, rooftops, outdoors, near sinks, indoor damp or wet locations, locker rooms with showers, and garages and service bays. The voltage and size limits in this subsection are not identical to the dwelling list, so a commercial job cannot be roughed from house habits alone. Kitchens in commercial work are judged by the article's own definition and equipment, not by whether food is sold there.",
+      "plain_explanation": "Non-dwelling occupancies have their own GFCI list, covering bathrooms, kitchens, rooftops, outdoors, areas near sinks, indoor damp or wet locations, locker rooms with showers, garages, accessory buildings and service bays (other than vehicle exhibition halls and showrooms), crawl spaces at or below grade level, unfinished areas of basements, laundry areas, and bathtub and shower stall areas where receptacles sit within 6 ft of the outside edge of the tub or stall. The voltage and size limits in this subsection are not identical to the dwelling list, so a commercial job cannot be roughed from house habits alone. Kitchens in commercial work are judged by the article's own definition and equipment, not by whether food is sold there.",
       "on_the_job": "On a commercial walk, list the wet and outdoor locations from the plans and the equipment schedule, then match each one to this subsection. Flag rooftop and service-bay receptacles early — they are the ones most often added late.",
       "sharma_note": "S-01 applies on commercial work: 20A minimum branch circuits.",
       "figure_idea": "",
@@ -248,7 +248,7 @@
       "article": "210",
       "section": "210.8(F)",
       "title": "Outdoor outlets other than receptacles",
-      "plain_explanation": "This subsection reaches outdoor outlets that are not receptacles — the hardwired outdoor equipment case, within the rating limits it states. The condenser is the example Sharma runs into: a hardwired outdoor unit can be an outlet for this rule even though there is no plug and no receptacle at the unit. Enforcement of this requirement for HVAC equipment has not been uniform, which is flagged below rather than smoothed over.",
+      "plain_explanation": "This subsection reaches outdoor outlets that are not receptacles — the hardwired outdoor equipment case, within the rating limits it states. The condenser is the example Sharma runs into: a hardwired outdoor unit can be an outlet for this rule even though there is no plug and no receptacle at the unit. For a one- or two-family dwelling, Florida resolves the condenser question directly: FBC-Residential §E3408.1 amends 210.8(F) with Exception No. 2 — GFCI protection is not required for listed and labeled HVAC equipment.",
       "on_the_job": "Ask the AHJ's current position before finalizing a condenser circuit on a job where this has not already been settled. Do not promise a homeowner or a builder either answer until that check is made.",
       "sharma_note": "Sharma practice (tip, not an S-rule): condensers are normally on a standard 2-pole breaker sized to the nameplate maximum overcurrent protection. Confirm the AHJ — do not present that practice as a code exemption.",
       "figure_idea": "A condenser pad with a hardwired whip to a disconnect, labeled 'outlet, not a receptacle,' and a callout to confirm the local position.",
@@ -258,12 +258,12 @@
         "AH-05",
         "C2-L-008"
       ],
-      "florida_note": "Local amendments and AHJ positions on this subsection have varied in Florida, including after a TIA on this topic. The AHJ for the job governs.",
+      "florida_note": "FBC-Residential, 8th Edition, §E3408.1 amends NEC 210.8(F): Exception No. 2 — GFCI protection shall not be required for listed and labeled HVAC equipment (one- and two-family dwellings). Outside that case — commercial work, unlisted equipment, other outdoor outlets — the AHJ for the job still governs.",
       "verified": false,
       "prev_id": "C2-210.8(D)",
       "next_id": "C2-210.11",
       "sharma_rule_ids": [],
-      "unverified_reason": "UNVERIFIED as to local enforcement for AC condensers, per v1 README item 2 and the Ch.2 brief. The existence of 210.8(F) and its subject are as stated in the brief; how a given Florida AHJ enforces it for condensers was not re-checked for this pass."
+      "unverified_reason": "Partially resolved 2026-11-12: the Florida residential HVAC exception is now stated from FBC-R §E3408.1. The flag remains for the rest of 210.8(F)'s scope (non-HVAC outdoor outlets and non-dwelling work), whose local enforcement was not re-checked for this pass."
     },
     {
       "id": "C2-210.11",
@@ -299,7 +299,7 @@
       "plain_explanation": "This subsection names four things. At least two 20A small-appliance circuits serve kitchen, pantry, breakfast, and dining receptacles, with tight limits on other outlets. At least one 20A laundry circuit serves the laundry receptacle and nothing else outside that area. At least one 20A bathroom circuit serves bathroom receptacles, or — for a single bathroom only — may carry that bathroom's other outlets. And the 2020 edition adds a dedicated 20A garage circuit for the required garage receptacles, with a limited allowance for readily accessible outdoor receptacles.",
       "on_the_job": "Label these four on the panel schedule by their code job, not by a room nickname, and check the 'no other outlets' limits before adding a convenience receptacle to any of them. The single-bathroom exception is the trap: it does not let one circuit carry two bathrooms' receptacles plus lights.",
       "sharma_note": "S-06 sits on top of this list: the microwave gets its own 20A circuit in 12 AWG copper, separate from the small-appliance circuits.",
-      "figure_idea": "Four labeled home runs leaving a panel: two to the kitchen counters, one to the laundry, one to the bathroom, one to the garage, each with a 'no other outlets' tag where it applies.",
+      "figure_idea": "Five labeled home runs leaving a panel: two to the kitchen counters, one to the laundry, one to the bathroom, one to the garage, each with a 'no other outlets' tag where it applies.",
       "related_ids": [
         "L-001",
         "L-002",
@@ -354,7 +354,7 @@
       "article": "210",
       "section": "210.12(A)",
       "title": "Rooms where dwelling circuits need AFCI protection",
-      "plain_explanation": "For dwellings, this subsection applies to 120V, single-phase, 15A and 20A branch circuits supplying outlets or devices in the listed rooms and areas — kitchens, family and living areas, bedrooms, and the other habitable and utility areas it names, including laundry areas and hallways. A bathroom, garage, or unfinished basement is not judged by this list the same way a bedroom is; use the existing lookup item for the full room list rather than a memory shortcut. The rating limits matter too: a 240V appliance circuit is outside this subsection's stated range.",
+      "plain_explanation": "For dwellings, this subsection applies to 120V, single-phase, 15A and 20A branch circuits supplying outlets or devices in the listed rooms and areas — kitchens, family rooms, dining rooms, living rooms, parlors, libraries, dens, bedrooms, sunrooms, recreation rooms, closets, hallways, laundry areas, and similar rooms or areas. A bathroom, garage, or unfinished basement is not on this list. The rating limits matter too: a 240V appliance circuit is outside this subsection's stated range.",
       "on_the_job": "On the panel schedule, mark every 15A and 20A 120V circuit with the rooms it serves, then test that list against this subsection. Mixed circuits that touch a listed room need the protection for the circuit.",
       "sharma_note": "S-07 already puts a dual-function breaker on every 120V circuit, which is stricter and simpler than sorting rooms at trim. Keep it that way unless Sanjay directs otherwise on a specific job.",
       "figure_idea": "",
@@ -1215,7 +1215,7 @@
         "C2-L-043",
         "C2-Q-028",
         "C2-Q-029",
-        "C2-Q-031"
+        "C1-Q-023"
       ],
       "florida_note": "",
       "verified": true,
@@ -1455,7 +1455,7 @@
       "article": "250",
       "section": "250.66",
       "title": "Sizing the grounding electrode conductor",
-      "plain_explanation": "The grounding electrode conductor is sized from Table 250.66 by the size of the largest service-entrance conductor, not by the amperage of the service disconnect alone. The section then caps what is actually required for particular electrodes: a run that goes only to rods needs no larger than the stated maximum, and a run to a concrete-encased electrode has its own larger cap — the existing checklist and quiz items carry those numbers. Aluminum and copper-clad conductors used for this purpose have material and installation limits in the surrounding sections.",
+      "plain_explanation": "The grounding electrode conductor is sized from Table 250.66 by the size of the largest service-entrance conductor, not by the amperage of the service disconnect alone. The section then caps what is actually required for particular electrodes: a run that goes only to rods needs no larger than the stated maximum, and a run to a concrete-encased electrode has its own larger cap — the existing checklist and quiz items carry those numbers. Aluminum and copper-clad conductors used for this purpose have material and installation limits in the surrounding sections. The caps, stated plainly: the portion of the GEC that is the sole connection to a rod, pipe, or plate electrode never has to be larger than 6 AWG copper, and the portion that is the sole connection to a concrete-encased electrode never has to be larger than 4 AWG copper.",
       "on_the_job": "Read the service conductor size off the actual conductors, then open the table — a 200A service on compact conductors is not automatically the row you expect. Where one conductor serves several electrodes, size and cap it electrode by electrode as the section directs.",
       "sharma_note": "",
       "figure_idea": "",
@@ -2068,8 +2068,8 @@
         "C2-L-045",
         "C2-Q-028",
         "C2-Q-029",
-        "C2-Q-030",
-        "C2-Q-031"
+        "C3-Q-031",
+        "C1-Q-023"
       ]
     },
     {

@@ -218,7 +218,7 @@
       "The voltage is under 50V on both sides"
     ],
     "answer_index": 1,
-    "explain_plain": "A barrier or listed divider is the designed exception in 800.133(A)(1); power for the equipment itself is the other narrow case, at 1/2 in separation.",
+    "explain_plain": "A barrier or listed divider is the designed exception in 800.133(A)(1); power for the equipment itself is the other narrow case, at 1/4 in (6 mm) separation (800.133(A)(1), Exception No. 2).",
     "nec_ref": "800.133(A)(1)",
     "difficulty": 2,
     "exam": "both"

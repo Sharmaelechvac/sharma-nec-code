@@ -552,7 +552,7 @@
       "condenser GFCI 210.8(F)",
       "AC GFCI breaker florida"
     ],
-    "answer_plain": "This is the unsettled one: 210.8(F) GFCI requirements for outdoor outlets and equipment have been affected by a TIA and by local amendments, and enforcement varies by AHJ. Sharma practice is a standard 2-pole breaker sized to the nameplate MOCP, shown as a tip rather than a rule. Confirm the AHJ position on the specific job; the full discussion lives on the Chapter 2 pages.",
+    "answer_plain": "This is the unsettled one: 210.8(F) GFCI requirements for outdoor outlets and equipment have been affected by a TIA and by local amendments, and enforcement varies by AHJ. Sharma practice is a standard 2-pole breaker sized to the nameplate MOCP, shown as a tip rather than a rule. Confirm the AHJ position on the specific job; the full discussion lives on the Chapter 2 pages. Florida update (2026-11-12): for one- and two-family dwellings, FBC-R §E3408.1 Exception No. 2 to 210.8(F) settles the common case — GFCI protection is not required for listed and labeled HVAC equipment.",
     "nec_ref": "440 / 210.8(F)",
     "nec_edition": "2020",
     "tags": [
@@ -636,7 +636,7 @@
       "cord instead of conduit",
       "400.8 fixed equipment"
     ],
-    "answer_plain": "No. Section 400.12 prohibits using a flexible cord (the 2020 number, flagged for a printed-text check — it was 400.8 in the 2017 code) as a substitute for the fixed wiring of a structure, running it through walls or ceilings, or hiding it. A cord is for equipment that moves or must be removed for service, under the permitted uses in 400.7. A fixed machine gets a Chapter 3 wiring method.",
+    "answer_plain": "No. Section 400.12 prohibits using a flexible cord (the 2020 number, flagged for a printed-text check — it was 400.8 in the 2017 code) as a substitute for the fixed wiring of a structure, running it through walls or ceilings, or hiding it. A cord is for equipment that moves or must be removed for service, under the permitted uses in 400.10. A fixed machine gets a Chapter 3 wiring method.",
     "nec_ref": "400.12 — numbering flagged (was 400.8 in 2017)",
     "nec_edition": "2020",
     "tags": [
@@ -971,5 +971,18 @@
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11",
     "diagram_hint": null
+  },
+  {
+    "id": "C4-L-057",
+    "question": "How is air-conditioning equipment grounded and bonded?",
+    "aliases": [
+      "440.9",
+      "hvac grounding"
+    ],
+    "answer_plain": "440.9 is Article 440's grounding and bonding section: the equipment grounding path for air-conditioning and refrigerating equipment is sized and run under the Article 250 rules (the equipment grounding conductor sized from Table 250.122 against the circuit's overcurrent device). Flagged unverified — the section's placement is confirmed, its exact wording awaits Mike's printed check.",
+    "nec_ref": "440.9",
+    "sharma_rule_id": null,
+    "verified": false,
+    "unverified_reason": "Added 2026-11-12 in the second-audit fix pass to close a confirmed gap; wording not yet checked against the printed 2020 book."
   }
 ]

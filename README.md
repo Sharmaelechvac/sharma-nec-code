@@ -34,17 +34,15 @@ inspection checklists, Florida-specific rules, FL journeyman/master exam prep.
 Sharma rule SR-6 (microwave circuit) wire material/size is PENDING Mike Holt's
 ruling: 12 AWG copper vs the Sharma CCA standard (10 AWG CCA for 20A).
 
-## Field Book (DRAFT branch `field-book-draft` — NOT merged, NOT live)
-- Chapter 1 (General, Arts. 90/100/110) built into the app as book pages in the
-  00-COMMON `book-v1` format: `content/book/c1.json` (+ `c1-lookup.json`,
-  `c1-quiz.json`, `c1-checklists.json` companions), rendered by the 📕 Field Book
-  tab with TOC, index and prev/next. 65 pages, 1 unverified page flagged in-file.
-- Chapter 9 (Tables and Informative Annexes — Tables 1/4/5/8, conduit fill and
-  voltage drop, Annex C/D/I) added the same way: `content/book/c9.json`
-  (+ `c9-lookup.json` 50 entries, `c9-quiz.json` 24 questions, `c9-checklists.json`
-  10 items). 20 pages; 3 pages flagged UNVERIFIED in-file (Table 9, Annex D,
-  Annex I — no values published for those). The Field Book tab now carries a
-  chapter picker and renders every chapter staged on this branch
-  (1, 2, 4, 7, 9) with its own TOC, index and prev/next chain.
-- Status: DRAFT for Mike Holt review. Merging this branch to `main` is the
-  go-live step and happens only on Sanjay's OK in his own words.
+## Field Book (LIVE on `main`)
+
+All nine chapters of the Sharma NEC Field Book are published in this app (the 📕 Field Book
+tab): 558 section pages with TOC, index and prev/next navigation, plus each chapter's own
+lookup, quiz and checklist banks. The Lookup, Quiz and Checklists tabs also draw on the
+chapter banks, the top search covers the whole book, and Related chips inside book pages
+jump to the linked page, lookup card, quiz question, checklist item, or v1-pack item
+(`content/v1/` holds the original v1 lookup/quiz/checklist/Sharma-rule pack the chapter
+cross-references point at). Content basis: NEC 2020 as adopted by the Florida Building
+Code, 8th Edition (2023). Pages carry VERIFIED / UNVERIFIED badges from the book build;
+the book was master-audited on 2026-11-12. Chapter sources live in the companion repo
+`Sharmaelechvac/nec-app-content` under `book/ch1`–`book/ch9`.

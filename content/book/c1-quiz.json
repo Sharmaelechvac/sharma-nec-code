@@ -220,7 +220,7 @@
     "exam": "journeyman",
     "explain_plain": "Backstab terminals are 14 AWG solid copper only. Never backstab CCA, stranded wire, or 12 AWG — a Sharma S-10 point as well as a listing limit.",
     "id": "C1-Q-014",
-    "nec_ref": "110.14",
+    "nec_ref": "110.3(B)",
     "question": "Push-in (backstab) terminals may be used with:"
   },
   {
@@ -350,5 +350,21 @@
     "id": "C1-Q-022",
     "nec_ref": "100",
     "question": "Special permission from the AHJ means:"
+  },
+  {
+    "id": "C1-Q-023",
+    "article": "110",
+    "question": "Which termination is permitted for a CCA conductor?",
+    "choices": [
+      "A push-in (backstab) terminal on a receptacle",
+      "A copper-only wire nut",
+      "A 15A receptacle's screw terminal",
+      "An unmarked lug, torqued extra tight to compensate"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Standard 15/20A device screw terminals accept CCA; splice connectors must be marked for the conductor (AL/CU), and backstab terminals are listed for 14 AWG solid copper only.",
+    "nec_ref": "110.14",
+    "difficulty": 2,
+    "exam": "both"
   }
 ]

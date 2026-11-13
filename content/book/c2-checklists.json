@@ -68,7 +68,7 @@
       },
       {
         "id": "C2-O-02",
-        "text": "Condenser GFCI position under 210.8(F) confirmed with the AHJ for this jurisdiction and noted in the job file before final.",
+        "text": "Condenser on a 1- or 2-family dwelling: no GFCI required for listed and labeled HVAC equipment (FBC-R E3408.1 Exception No. 2 to 210.8(F)). Commercial or other outdoor outlets: confirm the 210.8(F) position with the AHJ and note it in the job file.",
         "severity": "tip",
         "nec_ref": "210.8(F)"
       }

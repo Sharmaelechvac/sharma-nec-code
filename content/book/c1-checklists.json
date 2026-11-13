@@ -63,7 +63,7 @@
       },
       {
         "id": "C1-SP-11",
-        "nec_ref": "110.14",
+        "nec_ref": "110.3(B)",
         "severity": "code",
         "text": "No backstabbed connections except 14 AWG solid copper; no CCA, stranded or 12 AWG on push-in terminals."
       },

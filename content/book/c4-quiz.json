@@ -394,8 +394,8 @@
       "Stapling a cord along a wall as a permanent run"
     ],
     "answer_index": 2,
-    "explain_plain": "400.7 permits cords for portable and movable equipment; the prohibited-uses list (cited at 400.12 in 2020, flagged for Mike to confirm — it was 400.8 in 2017) prohibits substitution for fixed wiring, through-wall/doorway runs, and surface attachment as permanent wiring.",
-    "nec_ref": "400.7 / 400.12 (numbering flagged)",
+    "explain_plain": "400.10 permits cords for portable and movable equipment; the prohibited-uses list (cited at 400.12 in 2020, flagged for Mike to confirm — it was 400.8 in 2017) prohibits substitution for fixed wiring, through-wall/doorway runs, and surface attachment as permanent wiring.",
+    "nec_ref": "400.10 / 400.12 (numbering flagged)",
     "difficulty": 1,
     "exam": "both"
   },
@@ -422,11 +422,11 @@
     "choices": [
       "Permitted if torqued together",
       "Permitted for circuits under 20A",
-      "Prohibited unless the terminal is identified for more than one conductor",
+      "Prohibited — the only exception is for parallel-conductor circuits, on a terminal identified for more than one conductor",
       "Required on multiwire circuits"
     ],
     "answer_index": 2,
-    "explain_plain": "408.41 gives each grounded conductor its own terminal unless the terminal is specifically identified for multiple conductors.",
+    "explain_plain": "408.41 gives each grounded (neutral) conductor its own terminal. The exception is narrow: grounded conductors of circuits with parallel conductors may share a terminal only where that terminal is identified for more than one conductor. Ordinary doubled-up neutrals under one screw fail either way.",
     "nec_ref": "408.41",
     "difficulty": 2,
     "exam": "both"

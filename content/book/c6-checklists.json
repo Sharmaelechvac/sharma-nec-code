@@ -146,5 +146,63 @@
         "text": "System rapid-shutdown label on or within 3 ft of the service disconnect, with the 690.56(C) diagram; reflective RAPID SHUTDOWN SWITCH FOR SOLAR PV SYSTEM label on or within 3 ft of the initiation device, capitals at least 3/8 in., white on red; source directory/plaque in place."
       }
     ]
+  },
+  {
+    "room": "EV Charging — Rough / Final (Art. 625)",
+    "items": [
+      {
+        "id": "C6-EV-01",
+        "text": "EV charging load treated as continuous: branch circuit and feeder sized at 125% of the charging load (625.41/625.42).",
+        "nec_ref": "625.41",
+        "severity": "code"
+      },
+      {
+        "id": "C6-EV-02",
+        "text": "Receptacle outlets installed for EV charging have GFCI protection for personnel (625.54).",
+        "nec_ref": "625.54",
+        "severity": "code"
+      },
+      {
+        "id": "C6-EV-03",
+        "text": "Where a disconnecting means is required or provided for the EVSE, it is readily accessible and within sight of the equipment (625.42/625.43 family — confirm the job's configuration).",
+        "nec_ref": "625.43",
+        "severity": "tip"
+      },
+      {
+        "id": "C6-EV-04",
+        "text": "Charge coupler is the listed type, interlocked so the vehicle connector cannot be uncoupled under load where the system requires it (625.18/625.19 family).",
+        "nec_ref": "625.18",
+        "severity": "tip"
+      }
+    ]
+  },
+  {
+    "room": "Spa / Hot Tub — Rough / Final (Art. 680)",
+    "items": [
+      {
+        "id": "C6-SP-01",
+        "text": "Spa/hot tub receptacles and the unit itself have GFCI protection as 680.44 requires — no exceptions for a listed package unit's own protection requirements.",
+        "nec_ref": "680.44",
+        "severity": "code"
+      },
+      {
+        "id": "C6-SP-02",
+        "text": "Emergency shutoff for a spa in other than a one-family dwelling: clearly marked, readily accessible, within sight and at least 5 ft from the water (680.41).",
+        "nec_ref": "680.41",
+        "severity": "code"
+      },
+      {
+        "id": "C6-SP-03",
+        "text": "Equipotential bonding grid installed per 680.26 for a permanently installed spa — a storable spa is the only kind outside the grid rules.",
+        "nec_ref": "680.26",
+        "severity": "code"
+      },
+      {
+        "id": "C6-SP-04",
+        "text": "Disconnecting means for the spa equipment provided per 680.12 — readily accessible for service.",
+        "nec_ref": "680.12",
+        "severity": "tip"
+      }
+    ]
   }
 ]

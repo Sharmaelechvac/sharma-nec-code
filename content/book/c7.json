@@ -134,7 +134,7 @@
       "article": "700",
       "section": "700.10",
       "title": "Wiring — emergency systems stay identified and apart",
-      "plain_explanation": "Emergency wiring is identified as emergency all the way through: boxes, enclosures, transfer switches, generators and panels are permanently marked, and emergency raceways and cables are marked as emergency at short, regular intervals. Emergency conductors also stay out of enclosures, raceways and cables that carry nonemergency wiring, with only narrow exceptions such as inside transfer equipment. Emergency receptacles are identified by a distinctive color or marking.",
+      "plain_explanation": "Emergency wiring is identified as emergency all the way through: boxes, enclosures, transfer switches, generators and panels are permanently marked, and emergency raceways and cables are marked as emergency at short, regular intervals. Emergency conductors also stay out of enclosures, raceways and cables that carry nonemergency wiring, with only narrow exceptions such as inside transfer equipment. Emergency receptacles are identified by a distinctive color or marking. The identification interval is concrete, not a judgment call: 700.10(A)(2) requires emergency wiring to be marked as emergency at intervals not exceeding 25 ft. And 700.10(D) adds fire protection for emergency feeders in the larger installations it covers — the feeder is protected by a listed electrical circuit protective system, mineral-insulated cable, concrete encasement, or an approved sprinkler-protected space, as the subsection conditions state.",
       "on_the_job": "Mark it as you install it, not at trim-out from memory. If a normal circuit and an emergency circuit want the same raceway, stop — that is the exact mix this section exists to prevent.",
       "sharma_note": "",
       "figure_idea": "Original diagram: two parallel raceway runs, one marked EMERGENCY at intervals and one unmarked, with a red X over a shared junction box.",
@@ -527,7 +527,8 @@
         "C7-L-018",
         "C7-L-019",
         "C7-L-023",
-        "C7-Q-010"
+        "C7-Q-010",
+        "C7-L-056"
       ],
       "florida_note": "",
       "verified": true,
@@ -876,7 +877,7 @@
       "article": "706",
       "section": "706.15",
       "title": "Disconnecting means — energy storage systems",
-      "plain_explanation": "A disconnecting means has to separate the storage system from the other power sources, the utilization equipment and the premises wiring, and integral disconnects in listed equipment can do that job. The disconnect is readily accessible, at the system or within sight of it, it plainly shows whether it is open or closed, and it is permanently marked as the energy storage system disconnect, with the system's nominal ac voltage, maximum dc voltage and available fault current marked where the section requires them. For a house, the disconnect or its remote control sits at a readily accessible spot outside the building, where responders can reach it.",
+      "plain_explanation": "A disconnecting means has to separate the storage system from the other power sources, the utilization equipment and the premises wiring, and integral disconnects in listed equipment can do that job. The disconnect is readily accessible, at the system or within sight of it, it plainly shows whether it is open or closed, and it is permanently marked as the energy storage system disconnect, with the system's nominal ac voltage, maximum dc voltage and available fault current marked where the section requires them. For a house, the disconnect or its remote control sits at a readily accessible spot outside the building, where responders can reach it. The marking package in 706.15 also calls for an arc-flash warning label, and where the label is based on an arc-flash hazard analysis it carries the date that analysis was performed. Items (2), (3) and (4) of that marking list are waived for energy storage systems in one- and two-family dwellings.",
       "on_the_job": "Mark it, then stand at the service and ask: could a responder who has never seen this house find and open this disconnect? If not, the install is not finished.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1331,7 +1332,7 @@
       "article": "760",
       "section": "760.121",
       "title": "Power sources for PLFA circuits — and the red breaker",
-      "plain_explanation": "A power-limited fire alarm circuit is fed from a listed PLFA transformer, a listed PLFA power supply, or listed equipment marked to identify its PLFA source — a fire alarm control panel with an integral source is the everyday example. The branch circuit behind that source feeds no other loads, its overcurrent device is identified in red, is accessible only to qualified personnel, and is marked as the fire alarm circuit, with the device identified at the fire alarm control unit. The red breaker is how the next electrician, and the building's own staff, learn in one glance which breaker must never be casually borrowed or switched.",
+      "plain_explanation": "A power-limited fire alarm circuit is fed from a listed PLFA transformer, a listed PLFA power supply, or listed equipment marked to identify its PLFA source — a fire alarm control panel with an integral source is the everyday example. The branch circuit behind that source feeds no other loads, its overcurrent device is identified in red, is accessible only to qualified personnel, and is marked as the fire alarm circuit, with the device identified at the fire alarm control unit. The red breaker is how the next electrician, and the building's own staff, learn in one glance which breaker must never be casually borrowed or switched. 760.121(B) imposes the same supply package as the non-power-limited rule in 760.41(B): the branch-circuit disconnecting means is identified in red and marked “FIRE ALARM CIRCUIT,” its location is identified at the fire alarm control unit, access is limited to qualified personnel — and the branch circuit must not be supplied through a ground-fault circuit-interrupter or arc-fault circuit-interrupter protective device.",
       "on_the_job": "Use the red identification and the panel marking on every alarm job, and verify the branch circuit truly serves nothing else before you sign the panel schedule.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1869,6 +1870,7 @@
     {
       "term": "Fire alarm, red breaker",
       "ids": [
+        "C7-760.41",
         "C7-760.121"
       ]
     },

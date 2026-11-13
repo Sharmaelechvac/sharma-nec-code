@@ -36,7 +36,7 @@
       "article": "600",
       "section": "600.5",
       "title": "Sign branch circuits — 20A, signs only",
-      "plain_explanation": "A sign or outline lighting system is supplied by a branch circuit rated at least 20A that serves no other loads, other than signs and outline lighting tied to the same work.",
+      "plain_explanation": "600.5(A) requires at least one receptacle outlet in an accessible location at EACH ENTRANCE of each commercial building or occupancy that is accessible to pedestrians, supplied by a branch circuit rated at least 20A that serves no other load. The sign circuit itself is the same family of rule: a sign or outline lighting system is supplied by a branch circuit rated at least 20A that serves no other loads, other than signs and outline lighting tied to the same work.",
       "on_the_job": "Don't hang storefront lighting or receptacles on the sign circuit.",
       "sharma_note": "S-01 already sets a 20A minimum on commercial branch circuits — the code and company practice land in the same place here.",
       "figure_idea": "Storefront sign on its own labeled 20A circuit.",
@@ -689,7 +689,7 @@
       "article": "680",
       "section": "680.9",
       "title": "Overhead conductor clearances",
-      "plain_explanation": "In the 2020 edition the overhead rules live at 680.9(A) with Table 680.9(A) — older sources that cite 680.8 are working from a previous edition. The clearance in any direction from the water level, the edge of a diving structure, or the base of a diving platform is 22.5 ft for the conductors the table covers. Measured from maximum water level, the clearance to an observation stand, tower, or diving platform is 14.5 ft. All clearances are measured from maximum water level, not from the deck.",
+      "plain_explanation": "In the 2020 edition the overhead rules live at 680.9(A) with Table 680.9(A) — older sources that cite 680.8 are working from a previous edition. The clearance in any direction from the water level, the edge of a diving structure, or the base of a diving platform is 22.5 ft for the conductors the table covers. Measured from maximum water level, the clearance to an observation stand, tower, or diving platform is 14.5 ft. All clearances are measured from maximum water level, not from the deck. Read Table 680.9(A) by its rows: the figures apply to the conductor types and voltages the table lists, measured as the table directs — they are not a blanket clearance for every wire over water. Overhead communications conductors and cables have their own rule at 680.9(B): a horizontal clearance of at least 10 ft from the pool and its associated structures.",
       "on_the_job": "Survey the overhead lines before the pool layout is final — moving a pool shell is cheaper than relocating a service drop, and 22.5 ft in ANY direction includes diagonals.",
       "sharma_note": "",
       "figure_idea": "Elevation sketch: pool, diving board, and an overhead line with the 22.5 ft diagonal arrow.",
@@ -892,7 +892,7 @@
       "article": "680",
       "section": "680.26(B)",
       "title": "Equipotential bonding — what gets bonded, and how",
-      "plain_explanation": "The parts in 680.26(B)(1) through (B)(7) are bonded together with a solid copper conductor not smaller than 8 AWG, connected with a listed pressure connector, a terminal bar, or another listed means per 250.8(A): (B)(1) conductive pool shells (reinforcing steel, or the listed alternate grid for nonconductive shells); (B)(2) perimeter surfaces (next page); (B)(3) metallic components; (B)(4) underwater lighting forming shells and mounting brackets; (B)(5) metal fittings larger than 4 in. that penetrate the shell; (B)(6) electrical equipment — with the (B)(6)(a) exception path that lets a double-insulated replacement pump connect by an 8 AWG tail to the grid; and (B)(7) fixed metal parts within 5 ft horizontally of the inside walls (with the vertical-separation exception at 12 ft).",
+      "plain_explanation": "The parts in 680.26(B)(1) through (B)(7) are bonded together with a solid copper conductor not smaller than 8 AWG, connected with a listed pressure connector, a terminal bar, or another listed means per 250.8(A): (B)(1) conductive pool shells — the structural reinforcing steel, or the copper conductor grid that serves as the alternate where a conductive shell's steel is encapsulated in a nonconductive compound or is not available. A nonconductive shell (vinyl, fiberglass) is not a conductive shell at all and needs no shell bonding grid; (B)(2) perimeter surfaces (next page); (B)(3) metallic components; (B)(4) underwater lighting forming shells and mounting brackets; (B)(5) metal fittings larger than 4 in. that penetrate the shell; (B)(6) electrical equipment — with the (B)(6)(a) rule for double-insulated pump motors: the double-insulated motor itself is NOT bonded; instead an 8 AWG solid copper bonding conductor is provided at the grid so a future replacement motor that is not double-insulated can be bonded; and (B)(7) fixed metal parts within 5 ft horizontally of the inside walls (with the vertical-separation exception at 12 ft).",
       "on_the_job": "Walk the (B) list physically at rough-in — shell, steel, fittings, equipment, nearby metal — before anything is buried or shot.",
       "sharma_note": "",
       "figure_idea": "Bonding grid plan with the seven (B) categories called out.",
@@ -953,7 +953,7 @@
       "article": "680",
       "section": "680.30",
       "title": "Storable pools — Parts I and III only",
-      "plain_explanation": "A storable pool (and a storable spa or hot tub) is governed by Parts I and III of Article 680 — and 680.26 equipotential bonding does not apply to it. The pump and equipment rules of Part III substitute for the Part II regime. Classification is the whole game: the same backyard water is a different code job depending on whether the pool is storable or permanently installed.",
+      "plain_explanation": "A storable pool (and a storable spa or hot tub) is governed by Parts I and III of Article 680 — and 680.26 equipotential bonding does not apply to it. The pump and equipment rules of Part III substitute for the Part II regime. Classification is the whole game: the same backyard water is a different code job depending on whether the pool is storable or permanently installed. 'Storable' is a defined term, not a synonym for above-ground: under 680.2 a storable pool is one built to be stored away, with a maximum water depth of 42 in. and walls of nonmetallic molded polymeric construction or inflatable fabric. A permanently installed above-ground pool does not meet that definition and is Part II work, bonding included.",
       "on_the_job": "Don't bond a storable pool like a gunite pool, and don't wire a permanent pool like a storable one — confirm which it is before the quote.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1153,14 +1153,14 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-685",
-      "next_id": "C6-690.5"
+      "next_id": "C6-690.41(B)"
     },
     {
-      "id": "C6-690.5",
+      "id": "C6-690.41(B)",
       "chapter": 6,
       "article": "690",
-      "section": "690.5",
-      "title": "Ground-fault protection",
+      "section": "690.41(B)",
+      "title": "Ground-fault protection (690.41(B) in 2020; the old 690.5 was deleted)",
       "plain_explanation": "PV systems must be provided with ground-fault protection meeting this section: the system detects a ground fault in the DC circuits, interrupts the faulted circuit, and indicates the fault, using equipment listed for PV ground-fault protection. It is the DC-side companion to 690.11's arc-fault protection — ground faults and series arcs are different failures and one device does not cover both.",
       "on_the_job": "On a service call, a tripped ground-fault indication inside the inverter is a find-the-fault call, not a reset-and-leave call.",
       "sharma_note": "",
@@ -1190,7 +1190,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C6-690.5",
+      "prev_id": "C6-690.41(B)",
       "next_id": "C6-690.8"
     },
     {
@@ -1244,7 +1244,7 @@
       "figure_idea": "Series arc at a failed connection, AFCI device interrupting the string.",
       "related_ids": [
         "C6-L-052",
-        "C6-690.5"
+        "C6-690.41(B)"
       ],
       "florida_note": "",
       "verified": true,
@@ -1826,9 +1826,9 @@
       "title": "Solar Photovoltaic (PV) Systems",
       "children": [
         {
-          "id": "C6-690.5",
-          "section": "690.5",
-          "title": "Ground-fault protection"
+          "id": "C6-690.41(B)",
+          "section": "690.41(B)",
+          "title": "Ground-fault protection (690.41(B) in 2020; the old 690.5 was deleted)"
         },
         {
           "id": "C6-690.7",
@@ -2083,7 +2083,7 @@
     {
       "term": "Ground-fault protection (PV)",
       "ids": [
-        "C6-690.5"
+        "C6-690.41(B)"
       ]
     },
     {

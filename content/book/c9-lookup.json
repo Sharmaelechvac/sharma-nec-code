@@ -298,7 +298,7 @@
     "answer_plain": "When every conductor in the raceway is the same size and type and the division leaves a decimal of 0.8 or more — for example 8 AWG THHN in 3/4 in EMT divides to 5.82, so 6 are permitted. Mixed sizes never use this round-up; their areas are added instead.",
     "id": "C9-L-018",
     "nec_edition": "2020",
-    "nec_ref": "Chapter 9, Table 4 note",
+    "nec_ref": "Chapter 9, Note 7 to Table 1",
     "question": "When may a same-size fill result be rounded up?",
     "tags": [
       "fill",
@@ -987,6 +987,28 @@
     "nec_edition": "2020",
     "verified": true,
     "verified_by": "Jarvis (master audit)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C9-L-059",
+    "question": "How is a multiconductor cable counted for conduit fill?",
+    "aliases": [],
+    "answer_plain": "A multiconductor cable counts as ONE conductor for fill, however many conductors are inside it (Note 9 to Table 1). If the cable is elliptical rather than round, Note 2 says to use the cable's MAJOR diameter as its diameter when you work its area for the fill calculation — an oval cable is treated as a circle of its widest dimension.",
+    "nec_ref": "Chapter 9, Table 1 Notes 2 and 9",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C9-L-060",
+    "question": "Worked example: fill with a bare equipment grounding conductor",
+    "aliases": [],
+    "answer_plain": "Bare conductors take their area from Table 8 dimensions (diameter), not from Table 5. Example: four 12 AWG THHN (4 × 0.0133 = 0.0532 sq in) plus one bare 12 AWG ground. A solid 12 AWG conductor is 0.081 in in diameter per Table 8, so its area is π/4 × 0.081² ≈ 0.0052 sq in. Total fill = 0.0532 + 0.0052 = 0.0584 sq in — comfortably inside a 1/2 in EMT at 40% (0.122 sq in). The bare ground is small, but it is never zero: write it on the fill list as its own line.",
+    "nec_ref": "Chapter 9, Tables 5 and 8",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
     "verified_date": "2026-11-12"
   }
 ]

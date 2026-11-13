@@ -1,0 +1,1785 @@
+[
+  {
+    "id": "L-001",
+    "question": "How many small-appliance circuits does a kitchen need?",
+    "aliases": [
+      "kitchen counter circuits",
+      "SABC",
+      "two 20 amp kitchen"
+    ],
+    "answer_plain": "A dwelling needs at least two 20A small-appliance branch circuits for the kitchen, pantry, breakfast and dining receptacles. Countertop receptacles in the kitchen must be served by at least two of these circuits. They can't feed other outlets except the few the code allows, such as a clock outlet or the gas range igniter.",
+    "nec_ref": "210.11(C)(1)",
+    "nec_edition": "2020",
+    "diagram_hint": "kitchen-sabc",
+    "tags": [
+      "kitchen",
+      "branch circuits",
+      "residential"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-002",
+    "question": "Does the laundry need its own circuit?",
+    "aliases": [
+      "laundry circuit",
+      "washer circuit 20 amp"
+    ],
+    "answer_plain": "Yes. At least one 20A branch circuit is required for the laundry receptacle outlets, and it can't serve any other outlets. The dryer is a separate 240V circuit.",
+    "nec_ref": "210.11(C)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "laundry",
+      "branch circuits",
+      "residential"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-003",
+    "question": "What's required for bathroom circuits?",
+    "aliases": [
+      "bath circuit",
+      "bathroom 20 amp"
+    ],
+    "answer_plain": "At least one 20A circuit must supply the bathroom receptacles. That circuit can feed receptacles in several bathrooms, or it can feed everything in a single bathroom (lights, fan) as long as it serves only that one bathroom.",
+    "nec_ref": "210.11(C)(3)",
+    "nec_edition": "2020",
+    "tags": [
+      "bathroom",
+      "branch circuits",
+      "residential"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-004",
+    "question": "Does the garage need a dedicated 20A circuit?",
+    "aliases": [
+      "garage circuit",
+      "garage 20 amp",
+      "vehicle bay circuit"
+    ],
+    "answer_plain": "Yes, new in NEC 2020. At least one 120V 20A circuit must supply the receptacles required in each vehicle bay of an attached garage, or a detached garage with power. That circuit can't serve outlets outside the garage, except readily accessible outdoor receptacles.",
+    "nec_ref": "210.11(C)(4)",
+    "nec_edition": "2020",
+    "fl_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). Check the local AHJ for any amendments.",
+    "tags": [
+      "garage",
+      "branch circuits",
+      "residential",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-005",
+    "question": "Where are GFCI receptacles required in a house?",
+    "aliases": [
+      "GFCI locations",
+      "GFI dwelling",
+      "210.8 list"
+    ],
+    "answer_plain": "In NEC 2020, all 125V through 250V receptacles (single-phase, 150V to ground or less) need GFCI protection in: bathrooms, garages and unfinished accessory buildings, outdoors, crawl spaces, basements, kitchen countertop receptacles, within 6 ft of a sink, boathouses, within 6 ft of a tub or shower, laundry areas, and indoor damp or wet locations. The 2020 expansion to 250V means a 240V receptacle in a garage or laundry needs GFCI too.",
+    "nec_ref": "210.8(A)",
+    "nec_edition": "2020",
+    "fl_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). Check the local AHJ for any amendments.",
+    "sharma_rule_id": "S-07",
+    "tags": [
+      "GFCI",
+      "residential",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-006",
+    "question": "Do 240V receptacles need GFCI in a dwelling?",
+    "aliases": [
+      "dryer receptacle GFCI",
+      "250V GFCI",
+      "range receptacle GFCI"
+    ],
+    "answer_plain": "Yes, if they are in a 210.8(A) location. NEC 2020 raised the dwelling GFCI rule from 125V only to receptacles rated 125V through 250V, so a dryer or range receptacle in a laundry area, garage, or within 6 ft of a sink needs GFCI protection. A 2-pole GFCI breaker is the usual way to provide it.",
+    "nec_ref": "210.8(A)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-08",
+    "tags": [
+      "GFCI",
+      "laundry",
+      "kitchen",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-007",
+    "question": "Do kitchen receptacles that don't serve the counter need GFCI?",
+    "aliases": [
+      "fridge receptacle GFCI",
+      "kitchen GFCI 2020"
+    ],
+    "answer_plain": "Under NEC 2020 the kitchen rule covers receptacles installed to serve the countertop. A receptacle behind a refrigerator that doesn't serve the counter is not caught by the kitchen item, but it still needs GFCI if it's within 6 ft of the sink edge. (NEC 2023 expanded this to all kitchen receptacles, but Florida is on 2020.)",
+    "nec_ref": "210.8(A)(6)",
+    "nec_edition": "2020",
+    "fl_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). Check the local AHJ for any amendments.",
+    "tags": [
+      "GFCI",
+      "kitchen"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-008",
+    "question": "Does the dishwasher need GFCI?",
+    "aliases": [
+      "dishwasher GFCI",
+      "DW GFCI"
+    ],
+    "answer_plain": "Yes. NEC 2020 requires GFCI protection for outlets that supply dwelling-unit dishwashers, whether hardwired or cord-and-plug.",
+    "nec_ref": "210.8(D)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-07",
+    "tags": [
+      "GFCI",
+      "kitchen",
+      "appliances"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-009",
+    "question": "Do outdoor outlets other than receptacles need GFCI?",
+    "aliases": [
+      "210.8(F)",
+      "outdoor outlet GFCI",
+      "AC condenser GFCI"
+    ],
+    "answer_plain": "NEC 2020 added 210.8(F): outdoor outlets at dwellings on single-phase circuits of 150V to ground or less, rated 50A or less, need GFCI protection, with an exception for lighting outlets. This caught hardwired outdoor equipment such as AC condensers and pool equipment. Check with the AHJ on condensers, because amendments and enforcement varied for this rule.",
+    "nec_ref": "210.8(F)",
+    "nec_edition": "2020",
+    "fl_note": "Confirm 210.8(F) enforcement on HVAC condensers with the local AHJ before rough-in. Sharma practice (Sanjay 2026-10-28) is a standard 2-pole breaker sized to MOCP on condensers.",
+    "tags": [
+      "GFCI",
+      "outdoor",
+      "HVAC",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-010",
+    "question": "Which rooms need AFCI protection?",
+    "aliases": [
+      "AFCI rooms",
+      "arc fault where"
+    ],
+    "answer_plain": "All 120V 15A and 20A circuits feeding outlets or devices in dwelling kitchens, family rooms, dining rooms, living rooms, parlors, libraries, dens, bedrooms, sunrooms, recreation rooms, closets, hallways, laundry areas and similar rooms need AFCI protection. Bathrooms, garages and outdoors are not on the list. Sharma puts a dual-function AFCI/GFCI breaker on every 120V circuit anyway.",
+    "nec_ref": "210.12(A)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-07",
+    "tags": [
+      "AFCI",
+      "residential"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-011",
+    "question": "Do I need AFCI when I extend or modify an existing circuit?",
+    "aliases": [
+      "AFCI remodel",
+      "AFCI extension"
+    ],
+    "answer_plain": "Yes. When branch-circuit wiring in an area that needs AFCI is modified, replaced or extended, you must add AFCI protection, either a listed combination AFCI at the origin or an outlet branch-circuit AFCI at the first receptacle of the existing circuit. Extensions of 6 ft or less with no added outlets are excepted.",
+    "nec_ref": "210.12(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "AFCI",
+      "remodel"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-012",
+    "question": "What is the 6 ft / 12 ft receptacle spacing rule?",
+    "aliases": [
+      "receptacle spacing",
+      "12 foot rule",
+      "6 foot rule"
+    ],
+    "answer_plain": "In habitable rooms, receptacles must be placed so no point along the floor line of any wall is more than 6 ft from a receptacle. In practice that means a receptacle within 6 ft of each door edge and no more than 12 ft apart along the wall.",
+    "nec_ref": "210.52(A)(1)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-04",
+    "diagram_hint": "wall-spacing-6-12",
+    "tags": [
+      "receptacles",
+      "spacing",
+      "residential"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-013",
+    "question": "What counts as wall space for receptacle spacing?",
+    "aliases": [
+      "wall space 2 ft",
+      "what counts as wall"
+    ],
+    "answer_plain": "Any wall space 2 ft or wider counts, measured along the floor line around corners but broken by doorways, fireplaces and similar openings. Fixed glass panels count as wall space; sliding panels in exterior walls don't. Fixed room dividers and railings count as wall too.",
+    "nec_ref": "210.52(A)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "spacing"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-014",
+    "question": "Do floor receptacles count toward wall spacing?",
+    "aliases": [
+      "floor box receptacle",
+      "floor outlet counts"
+    ],
+    "answer_plain": "Only if the floor receptacle is within 18 in of the wall. Receptacles that are part of a luminaire or appliance, inside cabinets, or more than 5.5 ft above the floor don't count either.",
+    "nec_ref": "210.52(A)(3)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "spacing"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-015",
+    "question": "How far apart do countertop receptacles go?",
+    "aliases": [
+      "counter receptacle spacing",
+      "24 inch rule",
+      "4 foot counter"
+    ],
+    "answer_plain": "Every countertop space 12 in or wider needs a receptacle, and they must be placed so no point along the wall line is more than 24 in from one. That works out to receptacles no more than 4 ft apart, and within 2 ft of each counter end. Space behind a sink or range is handled by the code's corner and behind-sink rules.",
+    "nec_ref": "210.52(C)(1)",
+    "nec_edition": "2020",
+    "diagram_hint": "countertop-24in",
+    "tags": [
+      "kitchen",
+      "receptacles",
+      "countertop"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-016",
+    "question": "How many receptacles does a kitchen island need?",
+    "aliases": [
+      "island receptacle",
+      "island outlet 2020"
+    ],
+    "answer_plain": "Under NEC 2020 an island needs at least one receptacle for the first 9 sq ft of countertop or fraction, plus one more for each additional 18 sq ft or fraction. NEC 2023 changed this rule, but Florida is on 2020.",
+    "nec_ref": "210.52(C)(2)",
+    "nec_edition": "2020",
+    "fl_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). Check the local AHJ for any amendments.",
+    "tags": [
+      "kitchen",
+      "island",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-017",
+    "question": "How high can a countertop receptacle be?",
+    "aliases": [
+      "counter receptacle height",
+      "20 inches above counter"
+    ],
+    "answer_plain": "Countertop receptacles must sit on or above the counter, no more than 20 in above it, or be a listed countertop receptacle assembly. Receptacles hidden behind appliances or in appliance garages don't count as countertop receptacles.",
+    "nec_ref": "210.52(C)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-04",
+    "tags": [
+      "kitchen",
+      "receptacles",
+      "height"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-018",
+    "question": "Where does the bathroom receptacle go?",
+    "aliases": [
+      "bath receptacle location",
+      "within 3 ft of sink"
+    ],
+    "answer_plain": "At least one receptacle must be within 3 ft of the outside edge of each basin, on a wall or partition next to the basin, on the countertop, or on the side or face of the basin cabinet no more than 12 in below the counter top. One receptacle between two basins can serve both.",
+    "nec_ref": "210.52(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "bathroom",
+      "receptacles"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-019",
+    "question": "How many outdoor receptacles does a house need?",
+    "aliases": [
+      "outdoor receptacle front back",
+      "exterior outlet"
+    ],
+    "answer_plain": "A one-family dwelling needs at least one receptacle at the front and one at the back, readily accessible from grade and no more than 6.5 ft above grade. Each balcony, deck or porch reachable from inside also needs one, no more than 6.5 ft above its walking surface.",
+    "nec_ref": "210.52(E)",
+    "nec_edition": "2020",
+    "tags": [
+      "outdoor",
+      "receptacles"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-020",
+    "question": "Does the laundry need a receptacle?",
+    "aliases": [
+      "laundry receptacle",
+      "washer outlet"
+    ],
+    "answer_plain": "Yes. At least one receptacle outlet is required in each area designated for laundry equipment. It goes on the 20A laundry circuit and needs GFCI protection under 210.8(A)(10).",
+    "nec_ref": "210.52(F)",
+    "nec_edition": "2020",
+    "tags": [
+      "laundry",
+      "receptacles"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-021",
+    "question": "How many garage receptacles are required?",
+    "aliases": [
+      "garage receptacle each bay",
+      "vehicle bay receptacle"
+    ],
+    "answer_plain": "NEC 2020 requires at least one receptacle in each vehicle bay of a garage, no more than 5.5 ft above the floor. Basements and accessory buildings with power need receptacles too.",
+    "nec_ref": "210.52(G)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "garage",
+      "receptacles",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-022",
+    "question": "Does a hallway need a receptacle?",
+    "aliases": [
+      "hallway receptacle",
+      "hall outlet 10 ft"
+    ],
+    "answer_plain": "Yes, if the hallway is 10 ft or longer, measured along the centerline without passing through a doorway. Then at least one receptacle is required.",
+    "nec_ref": "210.52(H)",
+    "nec_edition": "2020",
+    "tags": [
+      "hallway",
+      "receptacles"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-023",
+    "question": "Does a foyer need receptacles?",
+    "aliases": [
+      "foyer receptacle",
+      "entry outlet 60 sq ft"
+    ],
+    "answer_plain": "Foyers that aren't part of a hallway and are larger than 60 sq ft need a receptacle on each wall space 3 ft or wider. Doorways and similar openings break up the wall space.",
+    "nec_ref": "210.52(I)",
+    "nec_edition": "2020",
+    "tags": [
+      "foyer",
+      "receptacles"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-024",
+    "question": "Do I need a receptacle near the AC or air handler?",
+    "aliases": [
+      "HVAC service receptacle",
+      "25 ft receptacle",
+      "condenser receptacle"
+    ],
+    "answer_plain": "Yes. A 125V 15A or 20A receptacle must be installed at an accessible location for servicing HVAC equipment, on the same level and within 25 ft of the equipment. It can't be on the load side of the equipment disconnect.",
+    "nec_ref": "210.63",
+    "nec_edition": "2020",
+    "tags": [
+      "HVAC",
+      "receptacles",
+      "outdoor",
+      "attic"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-025",
+    "question": "Which rooms need a switched lighting outlet?",
+    "aliases": [
+      "switched light required",
+      "lighting outlet rule"
+    ],
+    "answer_plain": "Every habitable room and bathroom needs at least one wall-switch-controlled lighting outlet. In habitable rooms other than kitchens and bathrooms, a switched receptacle can stand in for the light. Hallways, stairways, attached garages and outdoor entrances need switched lighting too.",
+    "nec_ref": "210.70(A)(1)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-05",
+    "tags": [
+      "lighting",
+      "switches",
+      "residential"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-026",
+    "question": "Do stairs need switches at both ends?",
+    "aliases": [
+      "stair 3-way",
+      "stairway switch"
+    ],
+    "answer_plain": "Yes. Where a stairway between levels has 6 or more risers, a wall switch is required at each floor level and landing level that includes an entryway, unless the lights are controlled automatically.",
+    "nec_ref": "210.70(A)(2)",
+    "nec_edition": "2020",
+    "diagram_hint": "three-way",
+    "tags": [
+      "lighting",
+      "switches",
+      "stairs"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-027",
+    "question": "Does the attic need a light?",
+    "aliases": [
+      "attic light",
+      "storage light switch"
+    ],
+    "answer_plain": "Yes, when the attic, crawl space, utility room or basement is used for storage or holds equipment that needs servicing. At least one lighting outlet with a switch at the point of entry is required, and in attics with equipment the light must be at or near the equipment.",
+    "nec_ref": "210.70(A)(3)",
+    "nec_edition": "2020",
+    "tags": [
+      "attic",
+      "lighting",
+      "HVAC"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-028",
+    "question": "How do continuous loads affect breaker and wire size?",
+    "aliases": [
+      "125 percent continuous",
+      "3 hour load"
+    ],
+    "answer_plain": "A continuous load runs 3 hours or more. The branch-circuit conductors and the overcurrent device must be sized at no less than the noncontinuous load plus 125% of the continuous load, unless the breaker assembly is listed for 100% operation.",
+    "nec_ref": "210.19(A)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "sizing",
+      "continuous load"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-029",
+    "question": "What size receptacle can go on a 20A circuit?",
+    "aliases": [
+      "15A receptacle on 20A",
+      "receptacle rating"
+    ],
+    "answer_plain": "On a 20A circuit with more than one receptacle, either 15A or 20A receptacles are allowed. A single receptacle on an individual circuit must be rated at least the circuit rating, so a lone receptacle on a 20A circuit must be a 20A receptacle.",
+    "nec_ref": "210.21(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "sizing"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-030",
+    "question": "How much cord-and-plug load can a circuit carry?",
+    "aliases": [
+      "80 percent cord load",
+      "fastened equipment 50 percent"
+    ],
+    "answer_plain": "On a 15A or 20A circuit, one cord-and-plug appliance can't exceed 80% of the circuit rating. Fastened-in-place equipment can't exceed 50% of the circuit rating when the same circuit also feeds lighting or other cord-and-plug loads.",
+    "nec_ref": "210.23(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "sizing",
+      "appliances"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-031",
+    "question": "What is the small-conductor rule?",
+    "aliases": [
+      "240.4(D)",
+      "14 on 15 12 on 20",
+      "max breaker for wire"
+    ],
+    "answer_plain": "Unless a specific code section allows otherwise (like motors or AC), the breaker can't exceed 15A on 14 AWG copper, 20A on 12 AWG copper, or 30A on 10 AWG copper. For aluminum or copper-clad aluminum it's 15A on 12 AWG and 25A on 10 AWG. These caps apply after any ampacity derating.",
+    "nec_ref": "240.4(D)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "overcurrent",
+      "conductors"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-032",
+    "question": "When can I round up to the next breaker size?",
+    "aliases": [
+      "next size up",
+      "240.4(B)"
+    ],
+    "answer_plain": "For circuits of 800A or less, when the conductor ampacity doesn't match a standard breaker size, you may use the next standard size up, as long as the conductors don't feed multiple receptacles for cord-and-plug loads. The small-conductor limits of 240.4(D) still apply.",
+    "nec_ref": "240.4(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "overcurrent",
+      "conductors"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-033",
+    "question": "Which temperature column do I use for terminations?",
+    "aliases": [
+      "60 or 75 degree",
+      "110.14(C)",
+      "termination temperature"
+    ],
+    "answer_plain": "For circuits rated 100A or less or for 14 through 1 AWG conductors, use the 60°C column unless the equipment is listed and marked for 75°C. Above 100A or larger than 1 AWG, use 75°C. You can start a derating calc from the 90°C column, but the final result can't exceed the termination rating.",
+    "nec_ref": "110.14(C)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "conductors",
+      "ampacity",
+      "terminations"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-034",
+    "question": "What size wire for a 200A house service?",
+    "aliases": [
+      "service wire size",
+      "83 percent rule",
+      "310.12",
+      "2/0 copper 200 amp"
+    ],
+    "answer_plain": "For a 120/240V single-phase dwelling service of 100 to 400A that carries the whole house load, the conductors can be sized at 83% of the service rating. For 200A that's 2/0 copper or 4/0 aluminum. It only applies when no temperature correction or bundling adjustment is needed.",
+    "nec_ref": "310.12(A)",
+    "nec_edition": "2020",
+    "fl_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). Check the local AHJ for any amendments.",
+    "sharma_rule_id": "S-09",
+    "tags": [
+      "service",
+      "conductors",
+      "residential"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-035",
+    "question": "Can I use the 83% rule for a subpanel feeder?",
+    "aliases": [
+      "subpanel 83 percent",
+      "feeder 310.12"
+    ],
+    "answer_plain": "Only if the feeder carries the entire load of the dwelling unit, such as a feeder from an outdoor meter-main to the indoor main panel. A feeder to a garage or partial-load subpanel must be sized from Table 310.16 at full rating.",
+    "nec_ref": "310.12(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "feeders",
+      "conductors"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-036",
+    "question": "How do I derate for more than three wires in a raceway?",
+    "aliases": [
+      "bundling derate",
+      "adjustment factors",
+      "4-6 wires 80 percent"
+    ],
+    "answer_plain": "When more than three current-carrying conductors share a raceway or cable for more than 24 in, multiply the ampacity by 80% for 4-6 conductors, 70% for 7-9, and 50% for 10-20. Equipment grounds don't count, and a neutral carrying only unbalanced current usually doesn't count either.",
+    "nec_ref": "310.15(C)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "conductors",
+      "ampacity",
+      "derating"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-037",
+    "question": "What's the ampacity of NM cable?",
+    "aliases": [
+      "romex ampacity",
+      "NM 60 degree"
+    ],
+    "answer_plain": "NM cable conductors are rated 90°C, but the cable's ampacity is limited to the 60°C column. You may use the 90°C rating as the starting point for derating, as long as the final ampacity doesn't exceed the 60°C value.",
+    "nec_ref": "334.80",
+    "nec_edition": "2020",
+    "tags": [
+      "NM cable",
+      "ampacity"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-038",
+    "question": "Can I use copper-clad aluminum (CCA) branch-circuit wire?",
+    "aliases": [
+      "CCA",
+      "copper clad aluminum",
+      "aluminum branch circuit"
+    ],
+    "answer_plain": "Yes, the NEC allows CCA, but it's rated in the aluminum/copper-clad aluminum column of Table 310.16 and capped at 15A on 12 AWG and 25A on 10 AWG. So it goes one size up from copper: 12 AWG on 15A and 10 AWG on 20A. Per UL guide info cited by NEMA, 15/20A receptacle and switch screw terminals are for copper or CCA (CO/ALR adds plain aluminum), but wire connectors and equipment lugs must be marked AL-CU/CU-AL; CU-only connectors aren't rated for CCA. Push-in (backstab) terminals are 14 AWG solid copper only.",
+    "nec_ref": "310.16",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "conductors",
+      "CCA",
+      "terminations"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-039",
+    "question": "Can I mix copper and aluminum under one terminal?",
+    "aliases": [
+      "dissimilar metals",
+      "AL CU connector"
+    ],
+    "answer_plain": "Not unless the terminal or connector is identified for that intermix. Copper and copper-clad aluminum aren't treated as dissimilar in 2020, but aluminum with copper or with CCA is. CCA still needs connectors and lugs marked AL-CU/CU-AL (UL ZMVV), and aluminum touching Cu/CCA in one connector needs the 'AL-CU (intermixed - dry locations)' marking. Follow the torque values on the device.",
+    "nec_ref": "110.14",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "terminations",
+      "CCA"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-040",
+    "question": "Do I need a torque screwdriver?",
+    "aliases": [
+      "torque",
+      "110.14(D)"
+    ],
+    "answer_plain": "Yes. NEC 2020 requires an approved means, such as a calibrated torque tool, to tighten terminals where the manufacturer gives a torque value. Guessing tightness doesn't meet code.",
+    "nec_ref": "110.14(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "terminations",
+      "tools"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-041",
+    "question": "How much working space in front of a panel?",
+    "aliases": [
+      "panel clearance",
+      "36 inch clearance",
+      "110.26 working space"
+    ],
+    "answer_plain": "For 120/240V residential panels (150V or less to ground), keep at least 3 ft deep of clear space in front, 30 in wide or the width of the panel (whichever is more), and 6.5 ft high or the height of the equipment. The door must be able to open at least 90 degrees.",
+    "nec_ref": "110.26(A)",
+    "nec_edition": "2020",
+    "diagram_hint": "working-space",
+    "tags": [
+      "panel",
+      "clearance",
+      "service"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-042",
+    "question": "Can anything be installed above or below the panel?",
+    "aliases": [
+      "dedicated space",
+      "pipes above panel"
+    ],
+    "answer_plain": "The space equal to the panel's width and depth, from the floor to 6 ft above the panel or to the structural ceiling, is dedicated to electrical equipment. Pipes, ducts and other foreign systems can't be in that zone. Sprinkler protection is allowed.",
+    "nec_ref": "110.26(E)",
+    "nec_edition": "2020",
+    "tags": [
+      "panel",
+      "clearance"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-043",
+    "question": "Can a panel go in a closet or bathroom?",
+    "aliases": [
+      "panel in closet",
+      "panel in bathroom"
+    ],
+    "answer_plain": "No. Overcurrent devices can't be in clothes closets or near easily ignitible material, and in dwellings they can't be in bathrooms. Garages, laundry rooms and utility rooms are common locations.",
+    "nec_ref": "240.24(D), 240.24(E)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-09",
+    "tags": [
+      "panel",
+      "location"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-044",
+    "question": "How high can the top breaker be?",
+    "aliases": [
+      "breaker height 6 ft 7 in",
+      "max handle height"
+    ],
+    "answer_plain": "The center of the grip of the highest breaker handle in its on position can't be more than 6 ft 7 in above the floor or working platform. Equipment next to the motor it serves and similar cases have exceptions.",
+    "nec_ref": "240.24(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "panel",
+      "height"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-045",
+    "question": "What does the panel directory need?",
+    "aliases": [
+      "circuit directory",
+      "panel labeling"
+    ],
+    "answer_plain": "Every circuit and every circuit modification must be clearly identified by its specific purpose or use on the directory at the panel. Labels can't depend on things that will change, like 'Bob's room', and spare positions must be marked as spares.",
+    "nec_ref": "408.4(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "panel",
+      "labeling"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-046",
+    "question": "Is surge protection required on a house service?",
+    "aliases": [
+      "SPD",
+      "surge protective device",
+      "230.67"
+    ],
+    "answer_plain": "Yes, new in NEC 2020. Every service supplying a dwelling unit needs a Type 1 or Type 2 surge-protective device, either built into the service equipment or right next to it. It's also required when the service equipment is replaced.",
+    "nec_ref": "230.67",
+    "nec_edition": "2020",
+    "fl_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). Check the local AHJ for any amendments.",
+    "tags": [
+      "service",
+      "SPD",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-047",
+    "question": "Do I need an outdoor emergency disconnect?",
+    "aliases": [
+      "emergency disconnect",
+      "230.85",
+      "first responder disconnect"
+    ],
+    "answer_plain": "Yes, new in NEC 2020. One- and two-family dwellings need an emergency disconnect at a readily accessible outdoor location. It can be the service disconnect (meter-main), a separate disconnect, or another listed option, and it must be marked 'EMERGENCY DISCONNECT' along with whether it's the service disconnect.",
+    "nec_ref": "230.85",
+    "nec_edition": "2020",
+    "fl_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). Check the local AHJ for any amendments.",
+    "sharma_rule_id": "S-09",
+    "tags": [
+      "service",
+      "disconnect",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-048",
+    "question": "What is the minimum service size for a house?",
+    "aliases": [
+      "minimum service 100 amp"
+    ],
+    "answer_plain": "The service disconnect for a one-family dwelling must be rated at least 100A, 3-wire. Size the actual service from the load calculation in Article 220.",
+    "nec_ref": "230.79(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "service",
+      "residential"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-049",
+    "question": "Where does the service disconnect go?",
+    "aliases": [
+      "service disconnect location",
+      "nearest point of entrance"
+    ],
+    "answer_plain": "The service disconnect must be at a readily accessible location, either outside or inside nearest the point where the service conductors enter the building. Keep service conductors inside the house as short as possible.",
+    "nec_ref": "230.70(A)(1)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-09",
+    "diagram_hint": "meter-panel-back-to-back",
+    "tags": [
+      "service",
+      "disconnect"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-050",
+    "question": "How many service disconnects are allowed?",
+    "aliases": [
+      "six disconnect rule",
+      "230.71"
+    ],
+    "answer_plain": "Each service may have up to six disconnects, but in NEC 2020 they must be in separate enclosures or separate sections, not six main breakers inside one panel. Most houses use a single main.",
+    "nec_ref": "230.71",
+    "nec_edition": "2020",
+    "tags": [
+      "service",
+      "disconnect",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-051",
+    "question": "How close can a service drop be to a window?",
+    "aliases": [
+      "service drop clearance window",
+      "3 ft from window"
+    ],
+    "answer_plain": "Overhead service conductors need at least 3 ft of clearance from windows that open, doors, porches, balconies, ladders, stairs and fire escapes. Conductors run above the top of a window are exempt.",
+    "nec_ref": "230.9(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "service",
+      "clearance",
+      "overhead"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-052",
+    "question": "What size grounding electrode conductor?",
+    "aliases": [
+      "GEC size",
+      "250.66",
+      "ground wire size service"
+    ],
+    "answer_plain": "Size the GEC from Table 250.66 by the largest service conductor. For example, 2/0 copper or 4/0 aluminum service conductors need a 4 AWG copper GEC. But a GEC that only goes to ground rods doesn't need to be larger than 6 AWG copper, and one that only goes to a concrete-encased electrode doesn't need to be larger than 4 AWG copper.",
+    "nec_ref": "250.66",
+    "nec_edition": "2020",
+    "diagram_hint": "gec-table",
+    "tags": [
+      "grounding",
+      "service"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-053",
+    "question": "Is one ground rod enough?",
+    "aliases": [
+      "two ground rods",
+      "25 ohm",
+      "supplemental rod"
+    ],
+    "answer_plain": "A single rod is only enough if you prove it's 25 ohms or less to earth. Otherwise you need a supplemental electrode, usually a second rod at least 6 ft away. Most contractors just drive two rods instead of testing.",
+    "nec_ref": "250.53(A)(2)",
+    "nec_edition": "2020",
+    "diagram_hint": "ground-rods",
+    "tags": [
+      "grounding",
+      "ground rod"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-054",
+    "question": "How do I install a ground rod?",
+    "aliases": [
+      "ground rod depth",
+      "8 ft rod",
+      "rod angle"
+    ],
+    "answer_plain": "The rod must be at least 8 ft long and have at least 8 ft in contact with soil. Drive it vertically; if you hit rock, drive it at an angle up to 45 degrees, or bury it in a trench at least 30 in deep. The top must be flush or below grade unless the clamp is protected.",
+    "nec_ref": "250.53(A)(4)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "ground rod"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-055",
+    "question": "What is a Ufer / concrete-encased electrode?",
+    "aliases": [
+      "ufer",
+      "CEE",
+      "footing rebar"
+    ],
+    "answer_plain": "It's at least 20 ft of 1/2 in or larger rebar, or 20 ft of bare 4 AWG or larger copper, encased in at least 2 in of concrete in a footing in contact with earth. If one exists in the footing, it must be used as part of the grounding electrode system.",
+    "nec_ref": "250.52(A)(3)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "Ufer"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-056",
+    "question": "Which electrodes have to be bonded together?",
+    "aliases": [
+      "electrode system",
+      "250.50"
+    ],
+    "answer_plain": "Every electrode that's present at the building, such as metal water pipe in contact with earth, concrete-encased electrode, ground ring and building steel, must be bonded together into one grounding electrode system. Rods are added when needed.",
+    "nec_ref": "250.50",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-057",
+    "question": "Where are neutral and ground bonded?",
+    "aliases": [
+      "neutral ground bond",
+      "main bonding jumper",
+      "subpanel neutral"
+    ],
+    "answer_plain": "Neutral and ground are bonded only at the service disconnect with the main bonding jumper. Downstream subpanels keep neutral and ground separated, with the neutral bar isolated and the bonding screw removed.",
+    "nec_ref": "250.24(A)(5)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "panel",
+      "subpanel"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-058",
+    "question": "What size equipment ground for a circuit?",
+    "aliases": [
+      "EGC size",
+      "250.122",
+      "ground wire for 60 amp"
+    ],
+    "answer_plain": "Size the equipment grounding conductor from Table 250.122 by the breaker rating: 14 Cu for 15A, 12 Cu for 20A, 10 Cu for 30-60A, 8 Cu for 100A, 6 Cu for 200A. If you upsize the hot conductors for voltage drop, the EGC must be upsized proportionally.",
+    "nec_ref": "250.122",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "conductors"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-059",
+    "question": "Does the water pipe need bonding?",
+    "aliases": [
+      "water pipe bond",
+      "250.104"
+    ],
+    "answer_plain": "Yes. Interior metal water piping must be bonded to the service enclosure, grounded conductor at the service, GEC, or electrode, sized from Table 250.102(C)(1). Other metal piping like gas, which could become energized, is bonded by the circuit EGC of the equipment likely to energize it.",
+    "nec_ref": "250.104",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "bonding"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-060",
+    "question": "What is the intersystem bonding termination?",
+    "aliases": [
+      "IBT",
+      "cable TV bond",
+      "phone bond"
+    ],
+    "answer_plain": "An intersystem bonding termination is a device at the service that gives communications, CATV and satellite installers a place to bond. It must be accessible, outside the panel, and have room for at least three conductors.",
+    "nec_ref": "250.94",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "bonding",
+      "service"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-061",
+    "question": "How deep do I bury wiring?",
+    "aliases": [
+      "burial depth",
+      "300.5",
+      "trench depth"
+    ],
+    "answer_plain": "Typical minimums: direct-burial UF cable 24 in, PVC conduit 18 in, rigid metal conduit 6 in, and residential 120V 20A or less GFCI-protected branch circuits 12 in. Depth is measured to the top of the cable or raceway; driveways and other locations have their own values in Table 300.5.",
+    "nec_ref": "300.5",
+    "nec_edition": "2020",
+    "diagram_hint": "burial-depth",
+    "tags": [
+      "underground",
+      "outdoor"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-062",
+    "question": "How far from the stud edge must a hole be?",
+    "aliases": [
+      "bored holes",
+      "nail plate",
+      "1-1/4 inch"
+    ],
+    "answer_plain": "Holes bored in wood framing for cable must be at least 1-1/4 in from the nearest edge of the stud. If you can't keep that distance, protect the cable with a steel plate at least 1/16 in thick.",
+    "nec_ref": "300.4(A)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "framing",
+      "protection"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-063",
+    "question": "How much wire do I leave in a box?",
+    "aliases": [
+      "free conductor length",
+      "6 inch wire box"
+    ],
+    "answer_plain": "Leave at least 6 in of free conductor at each box, and in boxes with an opening smaller than 8 in, at least 3 in must extend outside the opening. Conductors that pass through a box without a splice are exempt.",
+    "nec_ref": "300.14",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes",
+      "rough-in"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-064",
+    "question": "How do I calculate box fill?",
+    "aliases": [
+      "box fill",
+      "314.16"
+    ],
+    "answer_plain": "Add up volume allowances from Table 314.16(B): each insulated conductor counts once, all equipment grounds together count as one (the largest), internal clamps count as one, and each device yoke counts as two, based on the largest conductor on that device. The total can't exceed the box volume.",
+    "nec_ref": "314.16(B)",
+    "nec_edition": "2020",
+    "diagram_hint": "box-fill",
+    "tags": [
+      "boxes",
+      "box fill"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-065",
+    "question": "How far into the box does the NM sheath go?",
+    "aliases": [
+      "sheath quarter inch",
+      "NM in box"
+    ],
+    "answer_plain": "The cable sheath has to extend at least 1/4 in inside the box past any cable clamp. With single-gang nonmetallic boxes, the cable must be fastened within 8 in of the box and the sheath still goes 1/4 in in.",
+    "nec_ref": "314.17",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes",
+      "NM cable"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-066",
+    "question": "What box do I need for a ceiling fan?",
+    "aliases": [
+      "fan box",
+      "fan rated box",
+      "70 lb"
+    ],
+    "answer_plain": "Where wiring is installed in a habitable room ceiling at a spot that could support a ceiling fan, the box must be listed for fan support. Fan boxes are marked for the weight they can carry, and fans heavier than 70 lb need the box marked for that weight.",
+    "nec_ref": "314.27(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes",
+      "ceiling fan"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-067",
+    "question": "How often do I staple NM cable?",
+    "aliases": [
+      "NM support",
+      "romex staples 4.5 ft"
+    ],
+    "answer_plain": "Secure NM cable at least every 4.5 ft and within 12 in of each box, cabinet or fitting. Cables run through bored holes in framing count as supported.",
+    "nec_ref": "334.30",
+    "nec_edition": "2020",
+    "tags": [
+      "NM cable",
+      "rough-in"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-068",
+    "question": "Where can't NM cable be used?",
+    "aliases": [
+      "NM not permitted",
+      "romex in conduit outside"
+    ],
+    "answer_plain": "NM cable can't be used in wet or damp locations (including raceways underground or outdoors), in exposed areas subject to damage, as service-entrance cable, or embedded in concrete. It's normally used in one- and two-family dwellings and in other buildings of construction types allowed by 334.10.",
+    "nec_ref": "334.12",
+    "nec_edition": "2020",
+    "tags": [
+      "NM cable",
+      "outdoor"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-069",
+    "question": "Do I need a neutral at a switch box?",
+    "aliases": [
+      "neutral at switch",
+      "404.2(C)"
+    ],
+    "answer_plain": "Yes, in most cases. A neutral must be provided at switch locations that control lighting loads, so smart switches and occupancy sensors can be installed later. Exceptions apply when a raceway allows adding one later or the box is accessible from an unfinished space above or below.",
+    "nec_ref": "404.2(C)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-05",
+    "tags": [
+      "switches",
+      "rough-in"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-070",
+    "question": "How high can a switch be?",
+    "aliases": [
+      "switch height",
+      "max switch 6 ft 7 in"
+    ],
+    "answer_plain": "The center of the switch handle in its highest position can't be more than 6 ft 7 in above the floor or working platform. Sharma's standard height is 48 in to center when the plan doesn't say.",
+    "nec_ref": "404.8(A)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-05",
+    "tags": [
+      "switches",
+      "height"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-071",
+    "question": "Where are tamper-resistant receptacles required?",
+    "aliases": [
+      "TR receptacle",
+      "tamper resistant"
+    ],
+    "answer_plain": "In dwelling units, all 125V and 250V nonlocking 15A and 20A receptacles must be listed tamper-resistant. Exceptions include receptacles more than 5.5 ft above the floor, part of a luminaire or appliance, or a single/duplex receptacle for appliances not easily moved in dedicated space.",
+    "nec_ref": "406.12",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-07",
+    "tags": [
+      "receptacles",
+      "TR"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-072",
+    "question": "Which receptacles must be weather-resistant?",
+    "aliases": [
+      "WR receptacle",
+      "weather resistant",
+      "in-use cover"
+    ],
+    "answer_plain": "All nonlocking 15A and 20A, 125V and 250V receptacles in damp or wet locations must be listed weather-resistant. In wet locations they also need an extra-duty, weatherproof in-use cover that seals whether or not a plug is in.",
+    "nec_ref": "406.9(B)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "outdoor",
+      "WR"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-073",
+    "question": "How close can a receptacle be to a tub or shower?",
+    "aliases": [
+      "receptacle near tub",
+      "3 ft 8 ft zone"
+    ],
+    "answer_plain": "New in NEC 2020, receptacles can't be inside a zone 3 ft horizontally and 8 ft vertically from the top of the bathtub rim or shower threshold, including directly over the tub. In bathrooms too small for that, the receptacle may go on the farthest wall opposite the tub.",
+    "nec_ref": "406.9(C)",
+    "nec_edition": "2020",
+    "fl_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). Check the local AHJ for any amendments.",
+    "tags": [
+      "bathroom",
+      "receptacles",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-074",
+    "question": "What do I do when replacing an old receptacle?",
+    "aliases": [
+      "receptacle replacement",
+      "two prong replacement"
+    ],
+    "answer_plain": "Replacements must meet current rules: GFCI where GFCI is now required, AFCI protection where the area now requires it, and TR or WR where required. A two-prong ungrounded receptacle can be replaced with a GFCI-protected receptacle marked 'No Equipment Ground'.",
+    "nec_ref": "406.4(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "remodel"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-075",
+    "question": "Can a receptacle face up in a countertop?",
+    "aliases": [
+      "face up receptacle counter"
+    ],
+    "answer_plain": "No, not unless it's a listed receptacle assembly for countertop or work-surface use. A standard receptacle can't be installed face-up in a counter or work surface.",
+    "nec_ref": "406.5(E)",
+    "nec_edition": "2020",
+    "tags": [
+      "kitchen",
+      "receptacles"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-076",
+    "question": "What light can go above a tub or shower?",
+    "aliases": [
+      "light over shower",
+      "410.10(D)"
+    ],
+    "answer_plain": "No cord-connected, chain-, cable- or cord-hung luminaires, track lighting, or ceiling fans are allowed within 3 ft horizontally and 8 ft vertically from the tub rim or shower threshold. Luminaires inside that zone that are subject to shower spray must be listed for wet locations.",
+    "nec_ref": "410.10(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "bathroom",
+      "lighting"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-077",
+    "question": "What lights are allowed in a clothes closet?",
+    "aliases": [
+      "closet light",
+      "410.16"
+    ],
+    "answer_plain": "Use LED or incandescent fixtures with a completely enclosed light source, or fluorescent fixtures; open or partly enclosed lamps aren't allowed. Surface-mounted enclosed incandescent/LED fixtures need 12 in of clearance from the storage space, while surface fluorescent and recessed fixtures need 6 in. LED or fluorescent fixtures identified for it may go inside the storage space.",
+    "nec_ref": "410.16",
+    "nec_edition": "2020",
+    "tags": [
+      "lighting",
+      "bedroom"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-078",
+    "question": "How do I size a water heater circuit?",
+    "aliases": [
+      "water heater breaker",
+      "4500 W water heater"
+    ],
+    "answer_plain": "A fixed storage water heater of 120 gallons or less is treated as a continuous load, so the branch circuit must be rated at least 125% of the nameplate. A 4500W heater at 240V is 18.75A, times 125% is 23.4A, so a 30A breaker on 10 AWG copper.",
+    "nec_ref": "422.13",
+    "nec_edition": "2020",
+    "tags": [
+      "appliances",
+      "water heater"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-079",
+    "question": "Does a disposal or dishwasher need a disconnect?",
+    "aliases": [
+      "dishwasher disconnect",
+      "disposal cord"
+    ],
+    "answer_plain": "Every appliance needs a disconnecting means. For cord-and-plug appliances, the plug and receptacle are the disconnect if accessible. Hardwired appliances need a breaker that's lockable or within sight. Cord lengths for disposals and dishwashers are set by 422.16(B).",
+    "nec_ref": "422.31",
+    "nec_edition": "2020",
+    "tags": [
+      "appliances",
+      "kitchen",
+      "disconnect"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-080",
+    "question": "Can a range hood be cord-and-plug connected?",
+    "aliases": [
+      "hood cord",
+      "range hood plug"
+    ],
+    "answer_plain": "Yes. A range hood can be cord-and-plug connected with a flexible cord identified for it, 18 to 36 in long, plugged into a receptacle supplied by an individual branch circuit, located to avoid damage.",
+    "nec_ref": "422.16(B)(4)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-06",
+    "tags": [
+      "appliances",
+      "kitchen"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-081",
+    "question": "How do I size the AC breaker and wire?",
+    "aliases": [
+      "condenser breaker",
+      "MCA MOCP",
+      "AC wire size"
+    ],
+    "answer_plain": "Read the nameplate. Size the conductors to at least the Minimum Circuit Ampacity (MCA), and use a breaker no larger than the Maximum Overcurrent Protection (MOCP or max fuse/breaker) marked. For AC equipment, 240.4(D) doesn't cap the breaker on small wire because Article 440 governs.",
+    "nec_ref": "440.4(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "HVAC",
+      "sizing"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-082",
+    "question": "Where does the AC disconnect go?",
+    "aliases": [
+      "condenser disconnect location",
+      "within sight AC"
+    ],
+    "answer_plain": "The AC disconnect must be readily accessible and within sight of the condenser or equipment. It can be mounted on the unit but not on panels designed to be removed for service, and it can't block the nameplate.",
+    "nec_ref": "440.14",
+    "nec_edition": "2020",
+    "tags": [
+      "HVAC",
+      "disconnect",
+      "outdoor"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-083",
+    "question": "How is electric strip heat sized?",
+    "aliases": [
+      "heat strip breaker",
+      "electric heat 125 percent"
+    ],
+    "answer_plain": "Fixed electric space heating is treated as a continuous load. Size the branch-circuit conductors and overcurrent device at no less than 125% of the total heating load including blower motors. Use the air handler nameplate MCA/MOCP when it's given.",
+    "nec_ref": "424.4(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "HVAC",
+      "heating"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-084",
+    "question": "Does an EV charger need its own circuit?",
+    "aliases": [
+      "EV circuit",
+      "EVSE dedicated",
+      "car charger circuit"
+    ],
+    "answer_plain": "Yes. Outlets for EV charging must be on an individual branch circuit with no other outlets. Under 625.41 the circuit and breaker are sized at 125% of the charger's maximum load because charging is continuous. For example, a 48A charger needs a 60A circuit.",
+    "nec_ref": "625.40",
+    "nec_edition": "2020",
+    "tags": [
+      "EV",
+      "branch circuits"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-085",
+    "question": "Does an EV receptacle need GFCI?",
+    "aliases": [
+      "EV receptacle GFCI",
+      "NEMA 14-50 GFCI"
+    ],
+    "answer_plain": "Yes. New in NEC 2020, every receptacle installed for EV charging needs GFCI protection, regardless of location or voltage. Hardwired EVSE has its own built-in protection.",
+    "nec_ref": "625.54",
+    "nec_edition": "2020",
+    "tags": [
+      "EV",
+      "GFCI",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-086",
+    "question": "Where must the pool receptacle be?",
+    "aliases": [
+      "pool receptacle 6 to 20 ft",
+      "pool convenience receptacle"
+    ],
+    "answer_plain": "At a dwelling with a permanent pool, at least one 125V 15A or 20A receptacle must be between 6 ft and 20 ft from the inside wall of the pool, and no more than 6.5 ft above the floor or grade. All 15/20A, 125V receptacles within 20 ft of the pool need GFCI.",
+    "nec_ref": "680.22(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "pool",
+      "receptacles",
+      "outdoor"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-087",
+    "question": "What is pool equipotential bonding?",
+    "aliases": [
+      "pool bonding",
+      "8 AWG bond grid",
+      "perimeter bonding"
+    ],
+    "answer_plain": "All metal parts of the pool structure, perimeter surfaces, metal fittings, pump motors and water must be bonded together with solid copper 8 AWG or larger. The perimeter bonding is 18 to 24 in from the inside walls of the pool, 4 to 6 in below subgrade. This bond is not a grounding path to the panel.",
+    "nec_ref": "680.26",
+    "nec_edition": "2020",
+    "tags": [
+      "pool",
+      "bonding"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-088",
+    "question": "Does the pool pump need GFCI?",
+    "aliases": [
+      "pool pump GFCI"
+    ],
+    "answer_plain": "Yes. Outlets supplying pool pump motors on branch circuits rated 150V or less to ground and 60A or less, single- or 3-phase, need GFCI protection, whether the pump is hardwired or cord-and-plug.",
+    "nec_ref": "680.21(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "pool",
+      "GFCI"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-089",
+    "question": "What is required for a standby generator transfer switch?",
+    "aliases": [
+      "transfer switch",
+      "interlock",
+      "backfeed generator"
+    ],
+    "answer_plain": "An optional standby generator connected to the house wiring must use transfer equipment that prevents the generator and the utility from being connected at the same time. That can be a transfer switch or a listed interlock kit. Never backfeed without one.",
+    "nec_ref": "702.5",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "transfer switch"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-090",
+    "question": "How big must the transfer switch and generator be?",
+    "aliases": [
+      "generator sizing",
+      "load shed",
+      "702.4"
+    ],
+    "answer_plain": "With manual transfer, the generator must handle the loads you expect to run at the same time. With automatic transfer, it must carry the full load connected to the transfer switch, or use load management to limit it.",
+    "nec_ref": "702.4(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "sizing"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-091",
+    "question": "Does a home generator need an outdoor shutdown?",
+    "aliases": [
+      "generator emergency shutdown",
+      "445.18(D)"
+    ],
+    "answer_plain": "Yes, new in NEC 2020. For permanently installed generators at one- and two-family dwellings, an emergency shutdown device must be outside the dwelling at a readily accessible location. Generators over 15 kW also need a remote emergency stop outside the enclosure.",
+    "nec_ref": "445.18(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "2020 change"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-092",
+    "question": "What is the 120% rule for solar?",
+    "aliases": [
+      "120 percent rule",
+      "backfeed breaker solar",
+      "busbar rule"
+    ],
+    "answer_plain": "When a solar inverter backfeeds a panel at the opposite end from the main breaker, 125% of the inverter output current plus the main breaker rating can't exceed 120% of the busbar rating. Example: a 200A bus with a 200A main allows up to 40A of backfeed (32A inverter output). The backfed breaker needs a 'do not relocate' warning label.",
+    "nec_ref": "705.12(B)(3)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "solar",
+      "panel"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-093",
+    "question": "Does rooftop solar need rapid shutdown?",
+    "aliases": [
+      "rapid shutdown",
+      "690.12"
+    ],
+    "answer_plain": "Yes. PV circuits on or in buildings need a rapid shutdown function to reduce shock hazard for firefighters. The initiation device is at a readily accessible location, typically next to the service disconnect.",
+    "nec_ref": "690.12",
+    "nec_edition": "2020",
+    "tags": [
+      "solar",
+      "safety"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-094",
+    "question": "Where do smoke alarms go?",
+    "aliases": [
+      "smoke detector location",
+      "smoke alarm bedrooms"
+    ],
+    "answer_plain": "Under the residential building code: in each sleeping room, outside each separate sleeping area near the bedrooms, and on every story including basements. Mount and space them per the manufacturer and NFPA 72.",
+    "nec_ref": "N/A (FBC-R R314.3; building code, not NEC)",
+    "nec_edition": "2020",
+    "fl_note": "Building code, not NEC: Florida Building Code-Residential 8th Ed., Section R314 (smoke alarms). The NEC does not set alarm locations.",
+    "tags": [
+      "smoke alarm",
+      "bedroom",
+      "building code"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-095",
+    "question": "Do smoke alarms need to be hardwired and interconnected?",
+    "aliases": [
+      "interconnect smoke alarms",
+      "hardwired smoke battery backup"
+    ],
+    "answer_plain": "In new construction, smoke alarms must get primary power from the building wiring with battery backup, and they must be interconnected so one sounding sets them all off. Interconnection can be wired or listed wireless. Note the circuit feeding them in a bedroom area still needs AFCI under NEC 210.12.",
+    "nec_ref": "N/A (FBC-R R314.4, R314.6; building code, not NEC)",
+    "nec_edition": "2020",
+    "fl_note": "Building code, not NEC: Florida Building Code-Residential 8th Ed., Section R314 (smoke alarms). The NEC does not set alarm locations.",
+    "diagram_hint": "smoke-interconnect",
+    "tags": [
+      "smoke alarm",
+      "building code",
+      "AFCI"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-096",
+    "question": "When are CO alarms required?",
+    "aliases": [
+      "carbon monoxide alarm",
+      "CO detector"
+    ],
+    "answer_plain": "In Florida, CO alarms are required in new homes with a fuel-burning appliance, fireplace or attached garage. Place them outside each sleeping area per the building code. Combination smoke/CO alarms are acceptable when listed.",
+    "nec_ref": "N/A (FBC-R R315; F.S. 553.885; building code, not NEC)",
+    "nec_edition": "2020",
+    "fl_note": "Building code, not NEC: FBC-Residential 8th Ed., Section R315 (carbon monoxide alarms) and Florida Statute 553.885. The NEC does not set alarm locations.",
+    "tags": [
+      "CO alarm",
+      "building code",
+      "garage"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-097",
+    "question": "What height do receptacles go at?",
+    "aliases": [
+      "receptacle height",
+      "outlet height 18 in"
+    ],
+    "answer_plain": "The NEC doesn't set a standard receptacle height for general receptacles. Sharma standard: when the plan is silent, 18 in to the BOTTOM of the box; when the plan states a height, the plan governs. Countertop receptacles are limited to 20 in above the counter by code.",
+    "nec_ref": "210.52(C)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-04",
+    "tags": [
+      "receptacles",
+      "height",
+      "Sharma"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "L-098",
+    "question": "Do we install GFCI receptacles?",
+    "aliases": [
+      "GFI point",
+      "GFCI receptacle vs breaker",
+      "DFN"
+    ],
+    "answer_plain": "No. Sharma practice is a dual-function AFCI/GFCI breaker (e.g., Siemens Q120DFN/Q115DFN) on every 120V circuit. Points marked GFI on the plan get a standard tamper-resistant receptacle protected by that DFN breaker. Code allows GFCI by breaker or receptacle; both satisfy 210.8.",
+    "nec_ref": "210.8(A)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-07",
+    "tags": [
+      "GFCI",
+      "AFCI",
+      "Sharma"
+    ],
+    "verified_by": "Mike",
+    "verified_date": "2026-11-11"
+  }
+]

@@ -462,37 +462,5 @@
     "nec_ref": "240.4(D)",
     "difficulty": 2,
     "exam": "both"
-  },
-  {
-    "id": "C2-Q-030",
-    "article": "314",
-    "question": "Two identical boxes hold the same count of 12 AWG THHN conductors, one run in copper and one in CCA. The required box volume is:",
-    "choices": [
-      "Larger for the CCA box",
-      "Larger for the copper box",
-      "The same — 314.16(B) is figured by conductor size and insulation, not by the metal",
-      "Zero, because fill only counts copper"
-    ],
-    "answer_index": 2,
-    "explain_plain": "Box fill goes by AWG size and insulation type; the conductor metal never enters the calculation.",
-    "nec_ref": "314.16(B)",
-    "difficulty": 1,
-    "exam": "journeyman"
-  },
-  {
-    "id": "C2-Q-031",
-    "article": "110",
-    "question": "Which termination is permitted for a CCA conductor?",
-    "choices": [
-      "A push-in (backstab) terminal on a receptacle",
-      "A copper-only wire nut",
-      "A 15A receptacle's screw terminal",
-      "An unmarked lug, torqued extra tight to compensate"
-    ],
-    "answer_index": 2,
-    "explain_plain": "Standard 15/20A device screw terminals accept CCA; splice connectors must be marked for the conductor (AL/CU), and backstab terminals are listed for 14 AWG solid copper only.",
-    "nec_ref": "110.14",
-    "difficulty": 2,
-    "exam": "both"
   }
 ]

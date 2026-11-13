@@ -29,7 +29,7 @@ main{padding:6px 14px 30px;max-width:860px;margin:0 auto}
 .steps li b{color:var(--navy)}
 .keynums{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
 .keynum{background:var(--navy);color:#fff;font-weight:900;font-size:19px;border-radius:10px;padding:7px 13px}
-.rowbtns{display:flex;gap:9px;margin-top:12px}
+.rowbtns{display:flex;gap:9px;margin-top:12px;flex-wrap:wrap}
 .learnbtn{flex:1;font-size:16.5px;font-weight:900;padding:13px;border-radius:12px;border:2.5px solid var(--blue);background:#fff;color:var(--blue);min-height:50px}
 .learnbtn.done{background:var(--green);border-color:var(--green);color:#fff}
 .quizbtn{flex:1;font-size:16.5px;font-weight:900;padding:13px;border-radius:12px;border:none;background:var(--blue);color:#fff;min-height:50px}

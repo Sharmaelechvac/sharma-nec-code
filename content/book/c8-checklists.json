@@ -46,7 +46,7 @@
       },
       {
         "id": "C8-C-08",
-        "text": "Communications and coax kept out of power raceways, boxes, and enclosures except a listed barrier/divider setup; 2 in separation kept in open runs.",
+        "text": "Communications and coax kept out of power raceways, boxes, and enclosures except a listed barrier/divider setup; 2 in separation kept in open runs (Sharma keeps the 2 in even where the code's sheathed-cable exception would allow closer).",
         "severity": "code",
         "nec_ref": "800.133 / 820.133"
       },

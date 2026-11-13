@@ -97,7 +97,7 @@
       "coax over roof 8 feet",
       "800.44 aerial clearance"
     ],
-    "answer_plain": "Communications and coax service drops need at least 8 feet of vertical clearance above a roof they pass over, with only limited exceptions. Where a low-voltage power drop runs parallel to the communications drop, the two also need at least 12 inches of separation in the span and at the building. Check both numbers before the ladder comes off the truck.",
+    "answer_plain": "Communications and coax service drops need at least 8 feet of vertical clearance above a roof they pass over, with only limited exceptions. Where a low-voltage power drop runs parallel to the communications drop, the two also need at least 12 inches of separation in the span and at the building. Check both numbers before the ladder comes off the truck. The parallel-drop rule carries its conditions (800.44(A)(4)): the power drop is 750 volts or less, its ungrounded conductors are insulated, and the two services keep at least 40 in of clearance between them at the pole.",
     "nec_ref": "800.44",
     "nec_edition": "2020",
     "tags": [
@@ -320,7 +320,7 @@
       "800.133 barrier divider",
       "mixed box low voltage"
     ],
-    "answer_plain": "Not as a general rule. Sharing a raceway, box, or enclosure is allowed only where a permanent barrier or listed divider separates the systems, or where power enters a communications enclosure only to feed that equipment and is kept at least half an inch from the communications wiring. A divider must be the listed part made for the box, not an improvised partition.",
+    "answer_plain": "Not as a general rule. Sharing a raceway, box, or enclosure is allowed only where a permanent barrier or listed divider separates the systems, or where power enters a communications enclosure only to feed that equipment and is kept at least 1/4 in (6 mm) from the communications wiring. A divider must be the listed part made for the box, not an improvised partition.",
     "nec_ref": "800.133(A)(1)",
     "nec_edition": "2020",
     "tags": [
@@ -871,7 +871,7 @@
       "800.100 conductor material",
       "copper clad aluminum communications bond"
     ],
-    "answer_plain": "No. The bonding and grounding conductor run under 800.100 is specified as copper or another corrosion-resistant conductive material, sized from 14 AWG up to (never required over) 6 AWG. CCA is Sharma's branch-circuit wire elsewhere in the building, sized on the aluminum column of Table 310.16, but it is not the material this chapter specifies for the intersystem bond. Keep the communications bond copper.",
+    "answer_plain": "This book's position: no. The bonding and grounding conductor run under 800.100 is specified as copper or another corrosion-resistant conductive material, sized from 14 AWG up to (never required over) 6 AWG. Read honestly, the section's text neither names copper-clad aluminum nor expressly excludes it the way 250.62 names it for grounding electrode conductors — so the flat answer is an interpretation, not the section's plain words. Sharma's position in this book is to keep the communications bond copper; where it would ever matter on a job, get the AHJ's reading in writing.",
     "nec_ref": "800.100(A)",
     "nec_edition": "2020",
     "tags": [
@@ -942,5 +942,39 @@
     ],
     "verified_by": "Jarvis — UNVERIFIED in part: CCA resistance values pending cited manufacturer/UL data",
     "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-052",
+    "question": "How far can unlisted outside communications cable run inside a building?",
+    "aliases": [],
+    "answer_plain": "50 ft. Unlisted cables and raceways entering a building from outside are limited by 805.48: the unlisted outside-plant cable may extend no more than 50 ft (15 m) into the building before it must terminate or transition to a listed cable. Article 820's version of the same rule for coax lives at 820.48.",
+    "nec_ref": "805.48",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C8-L-053",
+    "question": "Can a Cat 6 cable carry Power over Ethernet power?",
+    "aliases": [],
+    "answer_plain": "Yes — 840.160 (revised in the 2020 edition) is the section that lets listed communications cables carry powering circuits (PoE) alongside the data, and past 60 watts the installation ties into the ampacity rules for power-carrying cables in 725.144. Flagged unverified: the gateway is as stated, the fine structure awaits Mike's printed check.",
+    "nec_ref": "840.160",
+    "sharma_rule_id": null,
+    "verified": false,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12",
+    "unverified_reason": "Added 2026-11-12 in the second-audit fix pass; fine structure not yet checked against the printed 2020 book."
+  },
+  {
+    "id": "C8-L-054",
+    "question": "How must a communications grounding conductor connect to the grounding electrode?",
+    "aliases": [],
+    "answer_plain": "800.100(C): connections to grounding electrodes must be made by the 250.70 methods — exothermic welding, listed lugs, listed pressure connectors, or listed clamps — and a clamp may hold only one conductor unless it is listed for more. It is the subsection the book's 800.100 sequence previously skipped.",
+    "nec_ref": "800.100(C)",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
   }
 ]

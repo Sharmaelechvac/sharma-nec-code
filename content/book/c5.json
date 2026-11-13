@@ -441,7 +441,7 @@
       "article": "514",
       "section": "514.11",
       "title": "Emergency disconnect at fuel dispensing",
-      "plain_explanation": "Fuel dispensing areas need an emergency electrical disconnect that shuts down the dispensing equipment, and the 2020 clarification makes clear it must disconnect all circuit conductors of the circuits involved, not just one leg. It is the control a station attendant or firefighter reaches for when fuel is flowing where it should not. Its location, identification, and the circuits it actually kills are inspection items, not details to assume.",
+      "plain_explanation": "Fuel dispensing areas need an emergency electrical disconnect that shuts down the dispensing equipment, and the 2020 clarification makes clear it must disconnect all circuit conductors of the circuits involved, not just one leg. It is the control a station attendant or firefighter reaches for when fuel is flowing where it should not. Its location, identification, and the circuits it actually kills are inspection items, not details to assume. 514.11(A) also fixes where the disconnect sits: not less than 20 ft and not more than 100 ft from the fuel dispensing devices it serves.",
       "on_the_job": "During a dispensing walkdown, operate the emergency disconnect and prove every dispenser circuit it serves is dead, then reset per the equipment instructions. Put its location on the job record the crew and the owner both get.",
       "sharma_note": "Adopted after reconciliation with the ChatGPT research Sanjay supplied 2026-11-11, corroborated by a 2020 NEC change-list source that lists 514.11(A) for motor fuel dispensing facilities. Mike Holt to confirm the subsection wording against the printed 2020 book.",
       "figure_idea": "",
@@ -587,7 +587,7 @@
       "article": "517",
       "section": "517.18",
       "title": "General care (Category 2) patient bed locations",
-      "plain_explanation": "Each patient bed location in a general care, Category 2 space needs at least two branch circuits, with at least one from the normal system and one from the emergency system where an essential system exists, and the normal circuits coming from a single panelboard. The 2020 edition sets a minimum of eight receptacles at each such bed location. Receptacles at bed locations are hospital grade, identified by the green dot and triangle marking, and grounded with the insulated copper conductor of 517.13.",
+      "plain_explanation": "Each patient bed location in a general care, Category 2 space needs at least two branch circuits, with at least one from the normal system and one from the emergency system where an essential system exists, and the normal circuits coming from a single panelboard. The 2020 edition sets a minimum of eight receptacles at each such bed location. Receptacles at bed locations are hospital grade, identified by the green dot marking. (The green TRIANGLE is a different mark — it denotes an isolated-ground receptacle, not hospital grade, and 517.16 restricts isolated-ground receptacles within the patient care vicinity.)13.",
       "on_the_job": "Count receptacles and circuits per bed on the clinic takeoff, not per room — a four-bed room is four bed locations. Order hospital-grade devices early; they are not the standard tamper-resistant stock from house work.",
       "sharma_note": "Do not substitute standard receptacles from the Sharma house catalog in a patient care space. S-07's no-GFCI-receptacle pattern does not set the device grade here — hospital grade governs.",
       "figure_idea": "",
@@ -608,7 +608,7 @@
       "article": "517",
       "section": "517.30",
       "title": "Essential electrical systems — hospitals, at a high level",
-      "plain_explanation": "Hospitals and similar facilities with critical care spaces need an essential electrical system: a second source of power, usually a generator, feeding separated branches for life safety, critical care, and equipment loads. Wiring for the essential system is kept independent of normal wiring, mechanically protected, and transferred automatically on loss of normal power. Nursing homes and limited care facilities have a scaled version in the sections that follow. This page is orientation only — Sharma does not design these systems on a first pass.",
+      "plain_explanation": "Hospitals and similar facilities with critical care spaces need an essential electrical system: a second source of power, usually a generator, feeding separated branches — the life safety branch, the critical branch, and the equipment branch. Wiring for the essential system is kept independent of normal wiring, mechanically protected, and transferred automatically on loss of normal power. Nursing homes and limited care facilities have a scaled version in the sections that follow. This page is orientation only — Sharma does not design these systems on a first pass.",
       "on_the_job": "If a bid shows an essential electrical system, the generator, transfer equipment, and branch separation are engineered scope — price only what the plans fully detail. Keep essential and normal raceways separate in any rough-in Sharma does perform.",
       "sharma_note": "",
       "figure_idea": "Block diagram: normal source and generator feeding separate life safety, critical, and equipment branches (blocks only, no wiring detail).",
@@ -671,8 +671,8 @@
       "chapter": 5,
       "article": "518",
       "section": "518.6",
-      "title": "Illumination of working space — new in 2020",
-      "plain_explanation": "Added in the 2020 edition, this short section requires illumination for electrical equipment working spaces that serve assembly occupancies, including outdoor equipment. The lighting cannot be controlled by automatic means only, so a person servicing the gear is not left in the dark by a timer or sensor. Where nearby lighting already illuminates the working space adequately, no extra luminaire is required.",
+      "title": "Illumination of working space",
+      "plain_explanation": "Added in the 2020 edition, this short section requires illumination for the working spaces about electrical equipment installed outdoors that serves assembly occupancies. The lighting cannot be controlled by automatic means only, so a person servicing the gear is not left in the dark by a timer or sensor. Where nearby lighting already illuminates the working space adequately, no extra luminaire is required.",
       "on_the_job": "Add a switched luminaire at outdoor service and distribution gear on assembly jobs, and check it at trim rather than discovering it at final inspection. Put the control on a manual switch, not a photocell or timer alone.",
       "sharma_note": "Cross-link: working space itself is 110.26 in Chapter 1; this section only adds the light to see it by.",
       "figure_idea": "",
@@ -850,7 +850,7 @@
       "article": "547",
       "section": "547.9",
       "title": "Supply from a distribution point — livestock buildings",
-      "plain_explanation": "Livestock agricultural buildings on the same premises are supplied from a single distribution point using a four-wire grounded distribution arrangement. The point of the layout is to keep neutral current from returning through the earth and through building grounding systems, which is a classic source of the stray voltage that bothers livestock. Overcurrent protection is required for the underground branch circuits and feeders leaving the distribution point.",
+      "plain_explanation": "Livestock agricultural buildings on the same premises are supplied from a distribution point using a four-wire grounded distribution arrangement — and 547.9 expressly permits more than one distribution point on the same premises. The point of the layout is to keep neutral current from returning through the earth and through building grounding systems, which is a classic source of the stray voltage that bothers livestock. Overcurrent protection is required for the underground branch circuits and feeders leaving the distribution point.",
       "on_the_job": "On a multi-building farm service, draw the distribution point on the site sketch and price the four-wire runs and underground protection as shown. Do not serve each barn with its own improvised service drop and neutral bond.",
       "sharma_note": "",
       "figure_idea": "",
@@ -946,8 +946,8 @@
       "chapter": 5,
       "article": "553",
       "section": "553",
-      "title": "Floating buildings",
-      "plain_explanation": "Article 553 covers floating buildings — structures supported by water rather than by a foundation, other than boats. Its electrical focus is the shore-to-building supply, the disconnect located on land rather than on the floating structure, and ground-fault protection for the supply. In the 2020 edition its ground-fault rules sit alongside the marina rules in Article 555, which governs the dock and marina around it.",
+      "title": "Article 553 — deleted in 2020 (floating buildings now live in Article 555, Part III)",
+      "plain_explanation": "Article 553 no longer exists as its own article. In the 2020 NEC it was deleted and its subject — floating buildings, structures supported by water rather than by a foundation, other than boats — was folded into Article 555 as its Part III (555.50 and following). The substance carried over: the shore-to-building supply, service equipment and disconnecting means located on land rather than on the floating structure, and ground-fault protection for the supply. Work a floating building from Article 555, Part III — not from an old 553 printout.",
       "on_the_job": "Service equipment and the disconnect for a floating building go on adjacent land, not on the floating structure. Coordinate early with the marina scope in 555 so the two articles do not get priced twice or missed entirely.",
       "sharma_note": "",
       "figure_idea": "",
@@ -966,7 +966,7 @@
       "article": "555",
       "section": "555",
       "title": "Marinas, boatyards, floating buildings, and docking facilities",
-      "plain_explanation": "Article 555 covers wiring and equipment at fixed and floating piers, marinas, boatyards, boathouses, and residential and commercial docking facilities, plus floating buildings in their own part of the article. The driving hazard is electric shock drowning: stray current in the water around an energized boat or dock can paralyze a swimmer without any visible warning. That is why this article layers ground-fault protection, bonding, and strict height rules over ordinary outdoor wiring. It does not cover a single-family dwelling's own dock in the same way it covers shared and commercial facilities — confirm the scope on private docks with the AHJ.",
+      "plain_explanation": "Article 555 covers wiring and equipment at fixed and floating piers, marinas, boatyards, boathouses, and residential and commercial docking facilities, plus floating buildings in their own part of the article. The driving hazard is electric shock drowning: stray current in the water around an energized boat or dock can paralyze a swimmer without any visible warning. That is why this article layers ground-fault protection, bonding, and strict height rules over ordinary outdoor wiring. 555.1 expressly includes docking facilities associated with one-family dwellings, so a private residential dock is inside this article — not an AHJ judgment call.",
       "on_the_job": " Treat every marina circuit as life-safety work: test ground-fault devices, verify bonding, and never defeat a tripping device to keep a boat powered. If a pedestal keeps tripping, find the fault — the trip is the protection working.",
       "sharma_note": "",
       "figure_idea": "Dock plan sketch: shore service on land, feeder along the pier, pedestals at slips, datum plane line above the water.",
@@ -1156,7 +1156,7 @@
       "article": "590",
       "section": "590.6",
       "title": "GFCI protection and the assured grounding program",
-      "plain_explanation": "Receptacles that supply temporary power for construction style work need GFCI protection for personnel: the 125-volt and 125/250-volt, 15-, 20-, and 30-ampere receptacles are covered directly, including receptacles that are part of the building's permanent wiring when they are being used for the temporary work. For receptacles outside that list, the choice is GFCI protection or a written assured equipment grounding conductor program with documented testing of cords and equipment. All receptacles used for temporary power are of the grounding type.",
+      "plain_explanation": "Receptacles that supply temporary power for construction style work need GFCI protection for personnel: the 125-volt, 15-, 20-, and 30-ampere receptacles are covered directly by 590.6(A)(1) and (A)(2); 125/250-volt receptacles join the GFCI list only under (A)(3), and only where they are receptacle outlets on a portable generator rated not greater than 15 kW, including receptacles that are part of the building's permanent wiring when they are being used for the temporary work. For receptacles outside that list, the choice is GFCI protection or a written assured equipment grounding conductor program with documented testing of cords and equipment. All receptacles used for temporary power are of the grounding type.",
       "on_the_job": "Test temp GFCI devices on a schedule and keep the test log with the temp panel. If a site runs an assured grounding program instead for the larger receptacles, the paperwork and cord color coding have to exist before the inspector asks, not after.",
       "sharma_note": "S-07 caution: a DFN breaker feeding a receptacle can be the GFCI method on a house's permanent wiring used temporarily, but a spider box or temp panel on site needs its own GFCI protection verified device by device — do not assume the upstream house pattern covers a jobsite distribution box.",
       "figure_idea": "",
@@ -1379,7 +1379,7 @@
         {
           "id": "C5-518.6",
           "section": "518.6",
-          "title": "Illumination of working space — new in 2020"
+          "title": "Illumination of working space"
         }
       ]
     },
@@ -1462,7 +1462,7 @@
     {
       "id": "C5-ART-553",
       "article": "553",
-      "title": "Floating buildings",
+      "title": "Article 553 — deleted in 2020 (floating buildings now live in Article 555, Part III)",
       "children": []
     },
     {

@@ -96,7 +96,7 @@
       "commercial GFCI list",
       "210.8(B) locations"
     ],
-    "answer_plain": "Non-dwelling GFCI locations include bathrooms, kitchens, rooftops, outdoor areas, locations near sinks, indoor damp or wet locations, locker rooms with showers, and garages and service bays, within the voltage and rating limits that subsection states. The commercial list is not the dwelling list, so a shop or office is checked against 210.8(B) on its own terms. Rooftop and service-bay receptacles are the locations most often missed in a commercial layout.",
+    "answer_plain": "Non-dwelling GFCI locations include bathrooms, kitchens, rooftops, outdoor areas, locations near sinks, indoor damp or wet locations, locker rooms with showers, garages, accessory buildings and service bays, crawl spaces at or below grade, unfinished basement areas, laundry areas, and receptacles within 6 ft of a bathtub or shower stall — within the voltage and rating limits that subsection states. The commercial list is not the dwelling list, so a shop or office is checked against 210.8(B) on its own terms. Rooftop and service-bay receptacles are the locations most often missed in a commercial layout.",
     "nec_ref": "210.8(B)",
     "nec_edition": "2020",
     "tags": [
@@ -800,5 +800,82 @@
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11",
     "diagram_hint": "Load calc funnel: VA/amps unchanged, conductor pick changes at the end"
+  },
+  {
+    "id": "C2-L-046",
+    "question": "Do boat hoist receptacles need GFCI protection?",
+    "aliases": [],
+    "answer_plain": "Yes. 210.8(C) requires GFCI protection for receptacles installed for the supply of boat hoists, in any occupancy. It is a short subsection with no dwelling/commercial split — if the receptacle feeds a boat hoist, it gets GFCI protection.",
+    "nec_ref": "210.8(C)",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C2-L-047",
+    "question": "Does a crawl-space light need GFCI protection?",
+    "aliases": [],
+    "answer_plain": "Yes. 210.8(E) requires GFCI protection for lighting outlets in crawl spaces (the crawl-space lighting outlet is the case this subsection was written for). It sits alongside 210.8(C) as one of the 210.8 subsections aimed at a specific outlet rather than a room list.",
+    "nec_ref": "210.8(E)",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C2-L-048",
+    "question": "What limits apply to an aluminum grounding electrode conductor?",
+    "aliases": [],
+    "answer_plain": "250.64(A): an aluminum (or copper-clad aluminum) GEC must not be in direct contact with masonry or the earth, must not be used where subject to corrosive conditions, and where installed outdoors it must not terminate within 18 in of the earth. Sharma practice stays simpler: run the GEC in copper and the whole question goes away.",
+    "nec_ref": "250.64(A)",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C2-L-049",
+    "question": "Where do feeder tap rules live, and what do they judge?",
+    "aliases": [],
+    "answer_plain": "Feeder taps are judged under the tap rules in 240.21 — principally the 10 ft tap rule in 240.21(B)(1) and the 25 ft rule in 240.21(B)(2). Each rule ties the tap conductor's ampacity to the load it serves and to the overcurrent device at its supply end, and caps the tap length; a tap is never judged by the feeder's breaker size alone. This card is the pointer — work the actual tap from the subsection for the length involved.",
+    "nec_ref": "240.21",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C2-L-050",
+    "question": "Where are surge-protective devices (SPDs) covered besides 230.67?",
+    "aliases": [],
+    "answer_plain": "Article 242 is the NEC's overvoltage-protection article: it covers SPDs themselves — the Type 1, Type 2 and Type 3 classifications and where each type may be installed. 230.67 is the separate service rule that REQUIRES a surge-protective device on dwelling services; Article 242 is where the device's own rules live.",
+    "nec_ref": "Article 242",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C2-L-051",
+    "question": "What may the two small-appliance branch circuits serve?",
+    "aliases": [],
+    "answer_plain": "210.52(B): the two (or more) 20A small-appliance branch circuits serve the receptacles in the kitchen, pantry, breakfast room, dining room and similar areas — and no other outlets, with narrow exceptions (a clock receptacle, and ignition for a gas-fired range or oven). The refrigerator may ride a small-appliance circuit or sit on its own individual branch circuit rated 15A or more.",
+    "nec_ref": "210.52(B)",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C2-L-052",
+    "question": "What is the 'standard method' for a dwelling load calculation?",
+    "aliases": [],
+    "answer_plain": "Article 220 offers two dwelling paths. The standard method (Part III, the 220.40 series) counts loads item by item — general lighting at 3 VA per sq ft, the named appliance circuits, then demand factors applied load by load. The optional method (220.82, covered on its own page in this chapter) is the alternative most production houses qualify for. Either method is legal; the optional method is not a shortcut around the standard one, just a different set of demand rules.",
+    "nec_ref": "220 Part III",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
   }
 ]

@@ -626,7 +626,7 @@
       "ESS disconnect marking",
       "energy storage disconnect label"
     ],
-    "answer_plain": "The disconnect has to show plainly whether it is open or closed and be permanently marked as the energy storage system disconnect. Where the section requires them, the marking also carries the nominal ac voltage, the maximum dc voltage and the available fault current from the storage system.",
+    "answer_plain": "The disconnect has to show plainly whether it is open or closed and be permanently marked as the energy storage system disconnect. Where the section requires them, the marking also carries the nominal ac voltage, the maximum dc voltage and the available fault current from the storage system. The package also includes an arc-flash warning label — carrying the date of the arc-flash hazard analysis where one is used — and items (2)–(4) of the marking list are waived in one- and two-family dwellings (706.15).",
     "nec_ref": "706.15(C)",
     "nec_edition": "2020",
     "tags": [
@@ -816,7 +816,7 @@
       "fire alarm breaker red",
       "dedicated fire alarm circuit"
     ],
-    "answer_plain": "It feeds no other loads, and on a power-limited system its overcurrent device is identified in red, is accessible only to qualified personnel, and is marked as the fire alarm circuit and identified at the control unit. The red device is a message to everyone after you that this breaker is never borrowed and never casually switched.",
+    "answer_plain": "It feeds no other loads, and on both power-limited (760.121(B)) and non-power-limited (760.41(B)) systems its overcurrent device is identified in red, is accessible only to qualified personnel, and is marked as the fire alarm circuit and identified at the control unit. The red device is a message to everyone after you that this breaker is never borrowed and never casually switched. Both subsections also bar the supplying branch circuit from being fed through a GFCI- or AFCI-protective device.",
     "nec_ref": "760.121(B)",
     "nec_edition": "2020",
     "tags": [
@@ -957,5 +957,21 @@
     ],
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-056",
+    "question": "Is the generator a separately derived system — where does the neutral get bonded?",
+    "aliases": [
+      "neutral bonding",
+      "separately derived",
+      "3-pole vs 4-pole transfer switch",
+      "switched neutral"
+    ],
+    "answer_plain": "It turns on whether the transfer switch switches the neutral. With a 4-pole (switched-neutral) transfer switch, the generator IS a separately derived system: the neutral is bonded to ground at the generator, a grounding-electrode connection is made there under 250.30, and the service neutral bond stays undisturbed. With a 3-pole transfer switch the neutral runs solidly through, the generator is NOT separately derived, and the one and only neutral bond stays at the service under 250.35 — bonding the generator neutral as well would put two bonds on the system and drive neutral current onto the grounding path. Whichever arrangement is used, 702.7(B) requires a sign at the service saying so.",
+    "nec_ref": "250.30 / 250.35 / 702.7(B)",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
+    "verified_date": "2026-11-12"
   }
 ]

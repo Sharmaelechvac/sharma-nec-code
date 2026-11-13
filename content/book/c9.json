@@ -196,7 +196,7 @@
       "florida_note": "",
       "id": "C9-Table1-Nipples",
       "next_id": "C9-Table4",
-      "on_the_job": "Worked check: a 1/2 in EMT nipple has a 60 percent area of 0.182 sq in in Table 4. At 0.0133 sq in for one 12 AWG THHN, that is 0.182 / 0.0133 = 13.68, so 13 conductors by fill alone. Fill is not the only limit on a nipple — conductor ampacity adjustment in Chapter 3 still has to be checked separately.",
+      "on_the_job": "Worked check: a 1/2 in EMT nipple has a 60 percent area of 0.182 sq in in Table 4. At 0.0133 sq in for one 12 AWG THHN, that is 0.182 / 0.0133 = 13.68, so 13 conductors by fill alone. And Note 4 to Table 1 goes further than the 60%: the 310.15(C)(1) ampacity adjustment factors do NOT have to be applied to conductors in a nipple 24 in or shorter — the Code waives that check here expressly, so do not saddle the nipple with it.",
       "plain_explanation": "A short raceway nipple — 24 inches or less between boxes, cabinets, or similar enclosures — may be filled to 60 percent instead of the Table 1 percentages. The extra room is allowed because a short, straight stub is far easier to pull and far less likely to jam than a long run. The allowance belongs to the nipple only; the long runs on either side of it still use 53, 31, or 40 percent as their conductor count requires.",
       "prev_id": "C9-Table1",
       "related_ids": [
@@ -525,7 +525,7 @@
       "flags": [
         "Voltage-drop 3%/5% figures are Informational Note recommendations, not requirements. v1 README item 8 — label kept on every voltage-drop page and quiz item in this chapter."
       ],
-      "florida_note": "No Florida note turns these recommendations into a statewide mandate in the material checked for v1. A local amendment or a project specification can still impose a limit — check the job documents and the AHJ.",
+      "florida_note": "Florida DOES turn one of them into a mandate for commercial work — through the energy code, not the NEC: FBC Energy Conservation §C405.5.3 requires conductors for feeders and branch circuits in commercial buildings to be sized for a maximum of 5% voltage drop COMBINED. The NEC's own 3%/5% figures remain recommendations; on a Florida commercial job the 5% total is enforceable. Residential work and project specifications are separate questions — check the job documents and the AHJ.",
       "id": "C9-VD-LIMITS",
       "next_id": "C9-Table9",
       "on_the_job": "Never tell a customer, a builder, or an inspector that 'the Code requires 3 percent.' Say it the true way: the Code recommends it in an informational note, Sharma designs to it because it keeps equipment happy, and the AHJ and the printed NEC govern. Keep that label on every voltage-drop answer, quiz, and estimate note you write.",

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "S-01",
+    "text": "Commercial work: 20A minimum on every branch circuit (12 AWG copper minimum). No 15A branch circuits on commercial jobs.",
+    "overrides_or_adds": "stricter than code",
+    "applies_when": "always",
+    "source": "Sanjay 2026-10-28"
+  },
+  {
+    "id": "S-02",
+    "text": "All new gear (panels, meter-mains, breakers, disconnects) is Siemens.",
+    "overrides_or_adds": "company preference",
+    "applies_when": "always",
+    "source": "Sanjay 2026-10-28"
+  },
+  {
+    "id": "S-03",
+    "text": "In an existing Square D panel, use Square D breakers listed for that panel. Don't mix brands.",
+    "overrides_or_adds": "company preference",
+    "applies_when": "always",
+    "source": "Sanjay 2026-10-28"
+  },
+  {
+    "id": "S-04",
+    "text": "Receptacles: 18 in to the BOTTOM of the box when the plan is silent. When the plan states a height, the plan governs.",
+    "overrides_or_adds": "company preference",
+    "applies_when": "plan silent",
+    "source": "Sanjay 2026-11-10 (plan-governs nuance added 2026-11-11)"
+  },
+  {
+    "id": "S-05",
+    "text": "Switches: 48 in to the center of the box when the plan is silent.",
+    "overrides_or_adds": "company preference",
+    "applies_when": "plan silent",
+    "source": "Sanjay 2026-11-10"
+  },
+  {
+    "id": "S-06",
+    "text": "Microwave gets its own 20A circuit on 12 AWG copper unless the plan or the nameplate says otherwise.",
+    "overrides_or_adds": "stricter than code",
+    "applies_when": "plan silent",
+    "source": "Sanjay 2026-11-10"
+  },
+  {
+    "id": "S-07",
+    "text": "Every 120V breaker is a dual-function AFCI/GFCI (DFN), e.g. Siemens Q120DFN (20A) or Q115DFN (15A). Points marked GFI on the plan get a standard tamper-resistant receptacle protected by the DFN breaker. No GFCI receptacles.",
+    "overrides_or_adds": "stricter than code",
+    "applies_when": "always",
+    "source": "Sanjay 2026-11-11"
+  },
+  {
+    "id": "S-08",
+    "text": "Siemens Q230GF, 30A 2-pole GFCI breaker, dryer circuit. GFCI required per NEC 2020 210.8(A)(10) (all 125–250V receptacles in laundry areas).",
+    "overrides_or_adds": "company preference",
+    "applies_when": "always",
+    "source": "Sanjay 2026-11-11"
+  },
+  {
+    "id": "S-09",
+    "text": "Meter and panel go back to back where the house allows: meter outside, panel inside directly behind it.",
+    "overrides_or_adds": "company preference",
+    "applies_when": "plan silent",
+    "source": "Sanjay 2026-11-06"
+  },
+  {
+    "id": "S-10",
+    "text": "Branch circuits are copper by default: 14 AWG on 15A, 12 AWG on 20A. When copper-clad aluminum (CCA) is used, go one AWG size larger (12 AWG on 15A, 10 AWG on 20A), because NEC Table 310.16 rates CCA in the aluminum column. Every termination must be marked for the conductor (NEC 110.14): 15/20A receptacles and switches take copper or CCA on their screw terminals unless the device says otherwise (CO/ALR adds plain aluminum); 30A-and-up devices need AL/CU; wire connectors (wire nuts, lugs) need AL-CU / CU-AL, because CU-only connectors are not rated for CCA; check breaker and equipment lug markings for AL-CU. Push-in terminals are 14 AWG solid copper only. The lead picks the wire. The microwave circuit stays 12 AWG copper. Never backstab.",
+    "overrides_or_adds": "company preference",
+    "applies_when": "always",
+    "source": "Sanjay 2026-11-11 (relayed via Steve)"
+  }
+]

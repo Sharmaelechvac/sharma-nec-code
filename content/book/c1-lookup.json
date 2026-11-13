@@ -739,7 +739,7 @@
       "push in terminals"
     ],
     "answer_plain": "No. Push-in backstab terminals are for 14 AWG solid copper only. Never backstab CCA, stranded wire, or 12 AWG conductors. Use the screw terminals, which for 15A and 20A devices take copper and CCA unless marked otherwise.",
-    "nec_ref": "110.14",
+    "nec_ref": "110.3(B)",
     "nec_edition": "2020",
     "sharma_rule_id": "S-10",
     "tags": [
@@ -824,7 +824,7 @@
       "identify disconnect"
     ],
     "answer_plain": "Each disconnecting means must be legibly marked to indicate its purpose unless the purpose is evident from its location. Label actual loads, such as the condenser or water heater, and update the directory when circuits change. A directory copied from another house is a marking failure waiting for an inspection.",
-    "nec_ref": "110.22",
+    "nec_ref": "408.4(A)",
     "nec_edition": "2020",
     "tags": [
       "110",
@@ -975,5 +975,33 @@
     ],
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C1-L-061",
+    "question": "How does Article 100 define a bathroom?",
+    "aliases": [
+      "bathroom definition",
+      "what counts as a bathroom"
+    ],
+    "answer_plain": "Article 100: a bathroom is an area that includes a basin plus one or more of a toilet, a tub, or a shower. That definition is what switches on the bathroom rules elsewhere in the Code — the 20A bathroom circuit in 210.11(C)(3), GFCI protection for bathroom receptacles in 210.8(A)(1), and the ban on receptacles in tub and shower spaces.",
+    "nec_ref": "Article 100",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit claim verified against NEC 2020 Article 100)",
+    "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C1-L-062",
+    "question": "What makes someone a 'qualified person' under the NEC?",
+    "aliases": [
+      "qualified person definition",
+      "qualified person"
+    ],
+    "answer_plain": "Article 100: a qualified person is someone who has the skills and knowledge related to the construction and operation of the electrical equipment and installations, and has received safety training to recognize and avoid the hazards involved. Rules that say work may be done only by qualified persons — the fire-alarm disconnects in 760.41(B), for example — are pointing at this definition.",
+    "nec_ref": "Article 100",
+    "sharma_rule_id": null,
+    "verified": true,
+    "verified_by": "Master audit reconciliation 2026-11-12 (external audit claim verified against NEC 2020 Article 100)",
+    "verified_date": "2026-11-12"
   }
 ]

@@ -116,8 +116,8 @@
       },
       {
         "id": "C5-M-02",
-        "text": "Service equipment for floating buildings and docks located on adjacent land, not on the floating structure.",
-        "nec_ref": "555 / 553",
+        "text": "Service equipment for floating buildings located on adjacent land, not on the floating structure (Article 555, Part III — Article 553 was deleted in 2020).",
+        "nec_ref": "555 Part III",
         "severity": "code"
       },
       {
