@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "C3-L-001",
+    "question": "How thick does a nail plate have to be?",
+    "aliases": [
+      "nail plate thickness",
+      "kick plate steel",
+      "300.4 plate"
+    ],
+    "answer_plain": "A steel plate used to protect cable where the 1-1/4 inch setback cannot be kept must be at least 1/16 inch thick. It has to be wide and long enough to cover the area where a nail or screw could reach the cable.",
+    "nec_ref": "300.4(A)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "protection",
+      "framing"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-002",
+    "question": "What if I notch a stud instead of boring it?",
+    "aliases": [
+      "notched stud cable",
+      "300.4 notch",
+      "cable in notch"
+    ],
+    "answer_plain": "Where cable runs in a notch in wood framing, the cable has to be protected by a steel plate at least 1/16 inch thick, or kept back from the notch surface by an equivalent air or material gap the section allows. Treat a notched run as a plated run every time, because the drywall fastener goes exactly where the notch is.",
+    "nec_ref": "300.4(A)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "protection",
+      "framing"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-003",
+    "question": "How is burial cover measured?",
+    "aliases": [
+      "cover measured from",
+      "burial depth top of conduit",
+      "300.5 cover"
+    ],
+    "answer_plain": "Cover is measured from the top of the cable or raceway up to finished grade, not from the bottom of the trench. A trench dug 24 inches deep does not give 24 inches of cover once the raceway and bedding are in it.",
+    "nec_ref": "300.5",
+    "nec_edition": "2020",
+    "tags": [
+      "underground"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-004",
+    "question": "Does the 12 inch burial exception work under a driveway?",
+    "aliases": [
+      "12 inch exception driveway",
+      "residential GFCI burial",
+      "300.5 exception"
+    ],
+    "answer_plain": "No — the 12 inch cover case in the v1 field numbers is for a residential branch circuit of 120V, 20A or less, with GFCI protection, in the general yard case. Driveways and parking areas are a different row of Table 300.5 with deeper cover, so check the row for the actual location before trenching.",
+    "nec_ref": "300.5",
+    "nec_edition": "2020",
+    "tags": [
+      "underground"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-005",
+    "question": "Can cable rest on ceiling tiles or hang from another pipe?",
+    "aliases": [
+      "cable on ceiling grid",
+      "support independent",
+      "300.11"
+    ],
+    "answer_plain": "No — wiring has to be secured and supported by its own method, on structure, at the spacing its article requires. Laying cable on a suspended ceiling or tying it to another raceway or pipe is not support unless the rule for that method specifically allows it.",
+    "nec_ref": "300.11",
+    "nec_edition": "2020",
+    "tags": [
+      "support"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-006",
+    "question": "Do conductors that pass straight through a box count for the 6 inch rule?",
+    "aliases": [
+      "pass through box free conductor",
+      "300.14 pass through",
+      "unbroken through box"
+    ],
+    "answer_plain": "No — conductors that pass through a box without a splice or termination are outside the free-conductor rule in 300.14. Every conductor that does end or splice in the box needs at least 6 inches free, measured from where it leaves its sheath or raceway.",
+    "nec_ref": "300.14",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-007",
+    "question": "Can I splice inside a conduit run or a wall cavity?",
+    "aliases": [
+      "splice in wall",
+      "splice in conduit",
+      "300.15 splice box"
+    ],
+    "answer_plain": "No — every splice, tap and termination needs a box, conduit body or listed fitting made for it. The splice point also has to stay accessible without removing part of the building.",
+    "nec_ref": "300.15",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes",
+      "splices"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-008",
+    "question": "When does the 83 percent rule NOT apply to a house feeder?",
+    "aliases": [
+      "83 percent feeder limits",
+      "310.12 when not apply",
+      "whole load feeder"
+    ],
+    "answer_plain": "It does not apply when the feeder carries only part of the dwelling load, such as a garage or workshop subpanel feeder. It also does not apply when temperature correction or bundling adjustment has to be figured into the conductor size.",
+    "nec_ref": "310.12",
+    "nec_edition": "2020",
+    "tags": [
+      "services",
+      "feeders"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-009",
+    "question": "How many conductors before ampacity adjustment starts?",
+    "aliases": [
+      "derating starts at four",
+      "310.15 count",
+      "bundling count"
+    ],
+    "answer_plain": "Adjustment starts at four current-carrying conductors sharing a raceway or cable for more than 24 inches. Four to six conductors take an 80 percent factor, seven to nine take 70 percent, ten to twenty take 50 percent, twenty-one to thirty take 45 percent, thirty-one to forty take 40 percent, and forty-one or more take 35 percent.",
+    "nec_ref": "310.15(C)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "ampacity",
+      "derating"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-010",
+    "question": "Do grounds and neutrals count as current-carrying for derating?",
+    "aliases": [
+      "neutral counts derating",
+      "ground counts CCC",
+      "310.15 counting"
+    ],
+    "answer_plain": "Equipment grounding conductors never count as current-carrying. A neutral that carries only the unbalanced current from its own circuit usually does not count either, while a neutral carrying major harmonic load can count — when in doubt, show the count you used on the drawing.",
+    "nec_ref": "310.15",
+    "nec_edition": "2020",
+    "tags": [
+      "ampacity",
+      "derating"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-011",
+    "question": "Why is CCA read in the aluminum column?",
+    "aliases": [
+      "CCA aluminum column why",
+      "310.16 CCA",
+      "copper clad ampacity"
+    ],
+    "answer_plain": "Table 310.16 groups copper-clad aluminum with aluminum, so every CCA ampacity comes out of the aluminum columns. That is why 12 AWG CCA reads like 12 AWG aluminum — 15, 20 and 25 amps across the temperature columns — and why Sharma goes one size up with CCA.",
+    "nec_ref": "310.16",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "ampacity"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-10"
+  },
+  {
+    "id": "C3-L-012",
+    "question": "What caps a 10 AWG CCA circuit breaker?",
+    "aliases": [
+      "10 CCA breaker size",
+      "240.4(D) CCA cap",
+      "CCA 25 amp"
+    ],
+    "answer_plain": "The small-conductor rule caps aluminum and CCA at 25 amps for 10 AWG, even though the 75 degree table value is 30 amps. So a 10 AWG CCA run can serve a 20 amp circuit with room to spare, but it may not be put on a 30 amp breaker.",
+    "nec_ref": "310.16",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "ampacity"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-10"
+  },
+  {
+    "id": "C3-L-013",
+    "question": "What does Article 312 add on top of 110.26 working space?",
+    "aliases": [
+      "312 vs 110.26",
+      "cabinet bending space",
+      "meter enclosure rules"
+    ],
+    "answer_plain": "Article 312 covers the enclosure itself — conductor bending and deflection room inside it, clean entries, and covers and doors that close properly. The clear space in front of the enclosure is a separate Chapter 1 rule in 110.26, and both have to be satisfied on the same panel.",
+    "nec_ref": "312",
+    "nec_edition": "2020",
+    "tags": [
+      "enclosures",
+      "panels"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-014",
+    "question": "Work a box fill: two 12/2 NM, one receptacle, internal clamps, in an 18 cubic inch box — does it pass?",
+    "aliases": [
+      "box fill worked example 18",
+      "314.16 example receptacle",
+      "two 12/2 fill"
+    ],
+    "answer_plain": "Count it in allowances of 12 AWG at 2 and a quarter cubic inches each — four insulated conductors, one for all the grounds, two for the receptacle yoke, and one for all the internal clamps. That is eight allowances, which comes to 18 cubic inches exactly, so the box passes with nothing to spare and no room for one more cable.",
+    "nec_ref": "314.16(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "box fill",
+      "math"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-015",
+    "question": "When do I use the volume marked on the box instead of Table 314.16(A)?",
+    "aliases": [
+      "marked volume plastic box",
+      "314.16(A) nonmetallic",
+      "box volume stamp"
+    ],
+    "answer_plain": "Use the marked volume for nonmetallic boxes and for any box that carries a volume marking, because the table only lists standard metal box sizes. If a plastic box has no volume marking and is not a standard listed size, it cannot be used for a fill calculation until its volume is known.",
+    "nec_ref": "314.16(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "box fill"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-016",
+    "question": "How much NM sheath has to be inside the box?",
+    "aliases": [
+      "sheath into box quarter inch",
+      "314.17 sheath",
+      "Romex sheath box"
+    ],
+    "answer_plain": "The sheath has to extend at least 1/4 inch inside the box, past any cable clamp. With single-gang nonmetallic boxes the v1 field rule fastens the cable within 8 inches of the box — that 8 inch wording is flagged for Mike to re-check in the printed text.",
+    "nec_ref": "314.17",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes",
+      "NM"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-017",
+    "question": "Can a box be set back in a drywall wall?",
+    "aliases": [
+      "box setback drywall",
+      "314.20 flush",
+      "box behind wall surface"
+    ],
+    "answer_plain": "In a combustible surface such as a drywall wall the box has to sit flush with or project past the finished surface. A setback of up to 1/4 inch is allowed only in a noncombustible surface.",
+    "nec_ref": "314.20",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-018",
+    "question": "How big a gap can be left around a box in masonry or tile?",
+    "aliases": [
+      "gap around box eighth",
+      "314.21 repair",
+      "chipped surface box"
+    ],
+    "answer_plain": "Broken or incomplete surfaces around a box in a noncombustible wall or ceiling have to be repaired so no gap or open space is more than 1/8 inch wide. The device plate is not the repair — the wall surface itself has to come back to the box.",
+    "nec_ref": "314.21",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-019",
+    "question": "Can a box be supported only by its conduit?",
+    "aliases": [
+      "box supported by raceway",
+      "314.23 conduit support",
+      "hanging box"
+    ],
+    "answer_plain": "Only in the narrow cases 314.23 describes, with threaded entries or listed hubs and the box held rigidly. As a field rule, give the box its own support — a box that moves when a plug is pulled will fail inspection and fail in service.",
+    "nec_ref": "314.23",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes",
+      "support"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-020",
+    "question": "How heavy a fan can go on a fan-rated box?",
+    "aliases": [
+      "fan box weight limit",
+      "314.27 fan 70 lb",
+      "fan support marking"
+    ],
+    "answer_plain": "A fan-rated box is marked with the maximum fan weight it may carry, and a fan over 35 pounds needs a box marked for that weight. A fan heavier than 70 pounds has to be supported independently of the box altogether.",
+    "nec_ref": "314.27(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes",
+      "fans"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-021",
+    "question": "Can a junction box be buried behind drywall if I photograph it?",
+    "aliases": [
+      "buried junction box photo",
+      "314.29 accessible",
+      "hidden splice"
+    ],
+    "answer_plain": "No — a box has to remain accessible without removing any part of the building finish. A photograph helps the next electrician find an accessible box, but it does not make a buried box legal.",
+    "nec_ref": "314.29",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-022",
+    "question": "Is AC cable the same as MC cable?",
+    "aliases": [
+      "AC vs MC difference",
+      "320 vs 330",
+      "bonding strip"
+    ],
+    "answer_plain": "No — Type AC carries an internal bonding strip in contact with its armor, and the armor with that strip serves as the ground path, using fittings listed for AC. Type MC is a different article and usually carries a separate green equipment ground, with its own listed fittings.",
+    "nec_ref": "320",
+    "nec_edition": "2020",
+    "tags": [
+      "cable",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-023",
+    "question": "Where can MC cable be used that NM cannot?",
+    "aliases": [
+      "MC vs NM locations",
+      "330 uses",
+      "MC commercial"
+    ],
+    "answer_plain": "MC can be used exposed or concealed in dry locations, in many commercial walls and ceilings, and fished into existing construction where NM is limited by building type. It still may not be used where subject to physical damage or in wet locations unless the specific cable is listed for that use.",
+    "nec_ref": "330.10",
+    "nec_edition": "2020",
+    "tags": [
+      "cable",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-024",
+    "question": "How is MC secured and supported?",
+    "aliases": [
+      "MC support spacing",
+      "330.30 staple",
+      "MC within 12 inches"
+    ],
+    "answer_plain": "MC follows the same field pattern Sharma uses for NM — secured close to each box and supported at regular intervals along the run, with exceptions for fished work and short lengths to luminaires. The exact spacing and exceptions are in 330.30, and Mike should confirm them against the printed text before this card is treated as the spacing rule.",
+    "nec_ref": "330.30",
+    "nec_edition": "2020",
+    "tags": [
+      "cable",
+      "support"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-025",
+    "question": "Can NM be used in a detached garage or a damp basement corner?",
+    "aliases": [
+      "NM detached garage damp",
+      "334.10 locations",
+      "NM damp location"
+    ],
+    "answer_plain": "NM belongs in normally dry locations, and a detached garage wired as a dry interior is normal house work. A damp or wet area is not — NM may not be used there, so pick UF, MC listed for the location, or conductors in raceway instead.",
+    "nec_ref": "334.10",
+    "nec_edition": "2020",
+    "tags": [
+      "NM",
+      "locations"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-026",
+    "question": "Can I sleeve NM in PVC to go underground to a yard light?",
+    "aliases": [
+      "NM underground in PVC",
+      "334.12 wet raceway",
+      "Romex in conduit outside"
+    ],
+    "answer_plain": "No — the inside of an underground or outdoor raceway is a wet location, and NM is barred from wet locations even inside that raceway. Use UF cable for direct burial, or individual conductors rated for wet locations inside the raceway.",
+    "nec_ref": "334.12",
+    "nec_edition": "2020",
+    "tags": [
+      "NM",
+      "underground"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-027",
+    "question": "How do I run NM in an unfinished basement ceiling?",
+    "aliases": [
+      "NM basement joists",
+      "334.15 unfinished basement",
+      "running board NM"
+    ],
+    "answer_plain": "Under 334.15(C), a cable at least as large as two 6 AWG or three 8 AWG conductors may be secured directly to the lower edges of the joists where it runs at angles with them. Smaller cables have to run through bored holes in the joists or on running boards, and NM on an unfinished basement wall has to be protected in listed conduit or tubing or as 300.4 requires, with a bushing where it enters the raceway.",
+    "nec_ref": "334.15(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "NM",
+      "basement"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-028",
+    "question": "What is Sharma's attic rule for NM near the scuttle?",
+    "aliases": [
+      "attic scuttle Sharma rule",
+      "334.23 attic NM",
+      "6 ft scuttle rule"
+    ],
+    "answer_plain": "Within 6 feet of an attic scuttle with no permanent stairs, Sharma runs NM only along the sides of the joists or trusses, parallel to the framing, with no diagonals and nothing crossing the opening. Bends stay at least 1 and a half feet clear of the opening, no guard strips are used, and the attic light sits about 1 and a half feet beside the opening with its switch at the entry.",
+    "nec_ref": "334.23",
+    "nec_edition": "2020",
+    "tags": [
+      "NM",
+      "attic"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-029",
+    "question": "How tight can I bend NM cable?",
+    "aliases": [
+      "NM bend radius",
+      "334.24 bending",
+      "kinked Romex"
+    ],
+    "answer_plain": "Bends have to be gentle enough that neither the sheath nor the conductors are damaged, with the minimum radius expressed in the section as a multiple of the cable diameter. If you have to crease the sheath with your thumb to make the turn, the bend is too tight — move the hole or re-route.",
+    "nec_ref": "334.24",
+    "nec_edition": "2020",
+    "tags": [
+      "NM"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-030",
+    "question": "Does NM through bored holes need staples too?",
+    "aliases": [
+      "NM holes count as support",
+      "334.30 bored holes",
+      "staple through studs"
+    ],
+    "answer_plain": "Cable run through bored holes or notches in framing counts as secured and supported by that framing, so no staple is added at each stud. The 12 inch and 4 and a half foot pattern applies to the exposed runs between framing and boxes.",
+    "nec_ref": "334.30",
+    "nec_edition": "2020",
+    "tags": [
+      "NM",
+      "support"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-031",
+    "question": "Can derating ever push NM above its 60 degree ampacity?",
+    "aliases": [
+      "NM derating above 60",
+      "334.80 final ampacity",
+      "90 degree start NM"
+    ],
+    "answer_plain": "No — the 90 degree rating is only the starting point for correction and adjustment math. The final ampacity after that math may not exceed the 60 degree column value for the size, and the small-conductor breaker caps apply on top of that.",
+    "nec_ref": "334.80",
+    "nec_edition": "2020",
+    "tags": [
+      "NM",
+      "ampacity"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-032",
+    "question": "Can SE cable be used for an interior feeder?",
+    "aliases": [
+      "SE cable interior feeder",
+      "338 SE uses",
+      "SE as feeder"
+    ],
+    "answer_plain": "SE cable is built and listed first for service work, and where it is used inside for a feeder or branch circuit it has to follow the NM rules for that interior wiring. Its sizing still comes from 310.12 for a whole-load dwelling feeder or from Table 310.16 at full value for anything else.",
+    "nec_ref": "338.10",
+    "nec_edition": "2020",
+    "tags": [
+      "services",
+      "cable"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-033",
+    "question": "What makes UF different from NM?",
+    "aliases": [
+      "UF vs NM difference",
+      "340 UF construction",
+      "direct burial cable"
+    ],
+    "answer_plain": "UF conductors are embedded in a solid moisture-resistant covering instead of a loose sheath, which is what rates the cable for wet locations and direct burial. NM has a removable sheath over loose conductors and is a dry-location cable only.",
+    "nec_ref": "340",
+    "nec_edition": "2020",
+    "tags": [
+      "underground",
+      "cable"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-034",
+    "question": "Can IMC and RMC share the same fill table?",
+    "aliases": [
+      "IMC RMC same dimensions",
+      "342 fill",
+      "IMC sizes"
+    ],
+    "answer_plain": "IMC and rigid metal conduit share the same outside dimensions by trade size, so their conductor fill is figured from the same Chapter 9 raceway family. Always confirm the raceway type column in Chapter 9 Table 4 before using a number, because EMT and PVC areas are different.",
+    "nec_ref": "342",
+    "nec_edition": "2020",
+    "tags": [
+      "raceway",
+      "fill"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-035",
+    "question": "Why use rigid metal conduit underground if it costs more?",
+    "aliases": [
+      "RMC underground advantage",
+      "344 burial 6 inch",
+      "rigid shallow cover"
+    ],
+    "answer_plain": "Rigid metal conduit needs only 6 inches of cover in the general Table 300.5 case, where PVC needs 18 and direct-burial cable needs 24. That shallow cover is the payoff when a driveway, rock or an existing slab leaves no room for a deep trench.",
+    "nec_ref": "344",
+    "nec_edition": "2020",
+    "tags": [
+      "raceway",
+      "underground"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-036",
+    "question": "Can FMC be the ground path for a long run?",
+    "aliases": [
+      "FMC ground path limits",
+      "348 grounding",
+      "Greenfield ground"
+    ],
+    "answer_plain": "Do not count on it on Sharma work — the flexible spiral has length and overcurrent limits when it serves as the ground path. Pull a separate green equipment ground in every FMC run and the question never reaches the inspector.",
+    "nec_ref": "348",
+    "nec_edition": "2020",
+    "tags": [
+      "raceway",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-037",
+    "question": "What is the standard Sharma use for LFMC?",
+    "aliases": [
+      "LFMC condenser whip",
+      "350 liquidtight uses",
+      "AC whip"
+    ],
+    "answer_plain": "The condenser whip — a short LFMC run from the outdoor disconnect to the condensing unit, with listed liquidtight fittings and a separate equipment ground inside. Support it so it stays off the ground and out of the line trimmer's path.",
+    "nec_ref": "350",
+    "nec_edition": "2020",
+    "tags": [
+      "raceway",
+      "HVAC"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-038",
+    "question": "Schedule 40 or Schedule 80 PVC — which where?",
+    "aliases": [
+      "PVC schedule 40 vs 80",
+      "352 damage protection",
+      "PVC exposed riser"
+    ],
+    "answer_plain": "Schedule 40 is the standard wall for buried and concealed PVC work. Where the raceway is exposed and subject to physical damage — a riser a mower or a ladder can hit — Schedule 80's heavier wall is the one to use.",
+    "nec_ref": "352.10",
+    "nec_edition": "2020",
+    "tags": [
+      "PVC",
+      "raceway"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-039",
+    "question": "When does a PVC run need an expansion fitting?",
+    "aliases": [
+      "PVC expansion fitting trigger",
+      "352.44 expansion",
+      "PVC movement quarter inch"
+    ],
+    "answer_plain": "Where the expected change in length from temperature reaches 1/4 inch, an expansion fitting belongs in the run. Long exposed runs in Florida sun are the case Sharma checks first — the fitting and its setting are flagged for Mike to confirm against the printed 352.44 before this card sets a job.",
+    "nec_ref": "352.44",
+    "nec_edition": "2020",
+    "tags": [
+      "PVC",
+      "raceway"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Florida sun on south and west walls is the common expansion case in Sharma work."
+  },
+  {
+    "id": "C3-L-040",
+    "question": "How often is PVC conduit supported?",
+    "aliases": [
+      "PVC support spacing",
+      "352.30 supports",
+      "PVC strap distance"
+    ],
+    "answer_plain": "PVC support spacing comes from the support table in its own article and steps up with trade size, and the conduit also has to be secured within 3 feet of each box or termination. Do not carry EMT or NM spacing over to PVC — read the spacing off the 352.30 table for the size in your hand.",
+    "nec_ref": "352.30",
+    "nec_edition": "2020",
+    "tags": [
+      "PVC",
+      "support"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-041",
+    "question": "Is LFNC the same as LFMC with plastic fittings?",
+    "aliases": [
+      "LFNC vs LFMC",
+      "356 liquidtight nonmetallic",
+      "smurf liquidtight"
+    ],
+    "answer_plain": "No — LFNC has no metal core at all, and it comes in listed types with their own fittings, locations and limits. A job that needs the metal core's strength or ground path needs LFMC, not LFNC.",
+    "nec_ref": "356",
+    "nec_edition": "2020",
+    "tags": [
+      "raceway"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-042",
+    "question": "Can EMT be used outdoors and underground?",
+    "aliases": [
+      "EMT wet location underground",
+      "358 uses wet",
+      "EMT in concrete"
+    ],
+    "answer_plain": "EMT may be used in wet locations with fittings listed for wet use and corrosion protection where needed, and in concrete or earth only with the supplementary corrosion protection its article requires. A standard set-screw fitting is not a wet-location fitting.",
+    "nec_ref": "358.10",
+    "nec_edition": "2020",
+    "tags": [
+      "EMT",
+      "raceway"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-043",
+    "question": "Can EMT be threaded like rigid conduit?",
+    "aliases": [
+      "EMT threading",
+      "358 threaded",
+      "EMT couplings"
+    ],
+    "answer_plain": "No — EMT is an unthreaded method joined with set-screw or compression couplings and connectors. Threading the thin wall cuts the very material the fitting and the ground path depend on.",
+    "nec_ref": "358",
+    "nec_edition": "2020",
+    "tags": [
+      "EMT"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-044",
+    "question": "Do offsets and saddles count toward the 360 degree limit?",
+    "aliases": [
+      "offsets count bends",
+      "358.26 total bends",
+      "saddle degrees"
+    ],
+    "answer_plain": "Yes — every bend in the run counts, including offsets, saddles and kicks, not just the obvious 90s. Add the whole run between pull points, and if the total passes 360 degrees the run needs a pull point.",
+    "nec_ref": "358.26",
+    "nec_edition": "2020",
+    "tags": [
+      "EMT",
+      "bends"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-045",
+    "question": "What is the unsecured EMT length allowed at a box?",
+    "aliases": [
+      "EMT within 3 ft box",
+      "358.30 fastening",
+      "EMT strap box"
+    ],
+    "answer_plain": "EMT has to be fastened within 3 feet of each box, cabinet or termination, and supported at least every 10 feet. A longer unsecured length at a termination is allowed only in the limited cases the section describes, such as where structure does not permit the 3 foot fastening.",
+    "nec_ref": "358.30",
+    "nec_edition": "2020",
+    "tags": [
+      "EMT",
+      "support"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-046",
+    "question": "Set-screw or compression EMT fittings in a wet location?",
+    "aliases": [
+      "EMT fittings wet location",
+      "358.42 compression",
+      "concrete tight EMT"
+    ],
+    "answer_plain": "Wet locations and concrete or earth call for fittings listed for that use — compression type made up tight is the field standard, and concrete work needs concrete-tight fittings. Standard set-screw fittings stay in dry locations unless they are listed otherwise.",
+    "nec_ref": "358.42",
+    "nec_edition": "2020",
+    "tags": [
+      "EMT",
+      "fittings"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-047",
+    "question": "What is ENT most used for in a house?",
+    "aliases": [
+      "ENT smurf tube uses",
+      "362 island stub",
+      "ENT slab"
+    ],
+    "answer_plain": "Short concealed runs in walls and slabs — the kitchen island stub-up is the classic Sharma case. Stub it to an accurate measured location, cap it, and photograph it with tape measurements to two walls before concrete covers it.",
+    "nec_ref": "362",
+    "nec_edition": "2020",
+    "tags": [
+      "raceway",
+      "slab"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-048",
+    "question": "Can splices be made inside a metal wireway?",
+    "aliases": [
+      "wireway splices allowed",
+      "376 splice tap",
+      "wireway accessible"
+    ],
+    "answer_plain": "Yes, where the wireway stays accessible — splices and taps made inside an accessible wireway are one of the reasons the method exists. The cover has to go back on and stay removable, or the wireway stops being a wireway.",
+    "nec_ref": "376",
+    "nec_edition": "2020",
+    "tags": [
+      "wireway",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-049",
+    "question": "Does a multioutlet strip replace dwelling receptacle spacing?",
+    "aliases": [
+      "multioutlet assembly dwelling spacing",
+      "380 plug strip",
+      "bench strip"
+    ],
+    "answer_plain": "No — a multioutlet assembly is a surface method for benches, counters and similar work in dry locations. It distributes outlets along a run, but it does not create circuit capacity and it does not replace the dwelling receptacle layout rules.",
+    "nec_ref": "380",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-050",
+    "question": "Can I lay NM cable in a cable tray?",
+    "aliases": [
+      "NM in cable tray",
+      "392 tray cable types",
+      "tray rated cable"
+    ],
+    "answer_plain": "No — only cables listed for tray use may be installed in cable tray, such as tray-rated Type TC and the other types Article 392 names. Ordinary building wire and NM do not become tray cable by being laid neatly.",
+    "nec_ref": "392",
+    "nec_edition": "2020",
+    "tags": [
+      "cable tray",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-051",
+    "question": "How do I figure voltage drop on a CCA run when Table 8 has no CCA row?",
+    "aliases": [
+      "CCA voltage drop resistance",
+      "Table 8 no CCA",
+      "CCA ohms per 1000 ft"
+    ],
+    "answer_plain": "Chapter 9 Table 8 lists copper and aluminum only, so a CCA figure comes from the cable maker's data or the ASTM B566 resistivity for the CCA class, never from a guessed value. Worked from the 15 percent class resistivity, 12 AWG CCA is about 2.46 ohms per 1000 ft at 20 degrees against about 1.59 for copper, so same-size CCA drops roughly one and a half times the voltage.",
+    "nec_ref": "310.16",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "voltage drop"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-052",
+    "question": "Where is CCA allowed to terminate, and where is it not?",
+    "aliases": [
+      "CCA terminations allowed",
+      "CCA wire nut marking",
+      "CCA backstab"
+    ],
+    "answer_plain": "CCA is fine on the screw terminals of ordinary 15 and 20 amp devices, and on any connector or lug marked AL/CU or marked for CCA. It is never backstabbed, because push-in terminals are listed for 14 AWG solid copper only, and a wire nut marked CU only is not listed for a CCA splice.",
+    "nec_ref": "110.14",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "terminations"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-053",
+    "question": "Does box fill change when the conductors are CCA instead of copper?",
+    "aliases": [
+      "box fill CCA same",
+      "314.16 metal matter",
+      "CCA box volume"
+    ],
+    "answer_plain": "No — box fill goes by conductor size and insulation, not by the metal, so the allowance for a size is the same in copper, aluminum or CCA. What changes is the size itself: the CCA circuit was already upsized for ampacity, so a 20 amp CCA run fills at the 10 AWG allowance instead of the smaller 12 AWG copper allowance.",
+    "nec_ref": "314.16(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "box fill",
+      "CCA"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-054",
+    "question": "Does conduit fill change when the conductors are CCA?",
+    "aliases": [
+      "conduit fill CCA same",
+      "Table 5 CCA area",
+      "CCA raceway fill"
+    ],
+    "answer_plain": "No — raceway fill uses the insulated conductor's outside area from Chapter 9 Table 5 and the raceway area from Table 4, and neither table asks what metal is inside the insulation. The same size with the same insulation fills the same in copper, aluminum or CCA, so the count for a conduit is identical.",
+    "nec_ref": "358.22",
+    "nec_edition": "2020",
+    "tags": [
+      "conduit fill",
+      "CCA"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-055",
+    "question": "What is the smallest CCA conductor for branch-circuit work?",
+    "aliases": [
+      "minimum CCA size",
+      "14 AWG CCA Florida",
+      "310.3 CCA minimum"
+    ],
+    "answer_plain": "Under the 2020 rules the smallest CCA branch conductor in Sharma work is 12 AWG, which is the 15 amp size in the aluminum column. There is no 14 AWG CCA NM in 2020 work — the 14 AWG CCA provision belongs to a special 2023 system that Florida has not adopted.",
+    "nec_ref": "310.3",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "minimum size"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Florida is on the 2020 NEC; the 2023 14 AWG CCA / 10A breaker system does not apply."
+  },
+  {
+    "id": "C3-L-056",
+    "question": "How is a dwelling service or feeder sized when it is run in CCA?",
+    "aliases": [
+      "CCA service size 200A",
+      "310.12 CCA column",
+      "feeder CCA sizing"
+    ],
+    "answer_plain": "The load calculation does not change with the metal — only the conductor pick does. A whole-load dwelling service or feeder in CCA reads the aluminum column of the 310.12 table, so a 200 amp service is 4/0 CCA, and any feeder that does not carry the whole dwelling load is sized from the aluminum column of Table 310.16 at full value.",
+    "nec_ref": "310.12",
+    "nec_edition": "2020",
+    "tags": [
+      "services",
+      "CCA"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  }
+]

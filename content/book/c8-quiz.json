@@ -1,0 +1,562 @@
+[
+  {
+    "id": "C8-Q-001",
+    "article": "90",
+    "question": "Under 90.3, the requirements of Chapters 1 through 7 apply to a Chapter 8 communications installation:",
+    "choices": [
+      "Always, in full",
+      "Only where Chapter 8 specifically references them",
+      "Never, under any circumstance",
+      "Only on commercial jobs"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Chapter 8 stands apart. A general-chapter rule reaches a communications job only when Chapter 8 points back to it.",
+    "nec_ref": "90.3",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-002",
+    "article": "800",
+    "question": "In the 2020 NEC, Article 800 is:",
+    "choices": [
+      "The old communications circuits article, unchanged",
+      "A new general article whose rules apply across the communications articles, except that Article 810 stands alone",
+      "A Florida-only amendment",
+      "The optical fiber article"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The 2020 reorganization made 800 the general article, moved communications circuits to 805, and left 810 independent.",
+    "nec_ref": "800.1",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-003",
+    "article": "800",
+    "question": "Communications cables must be supported:",
+    "choices": [
+      "By tying them to any handy raceway",
+      "From the power service mast",
+      "On their own supports, not strapped to the exterior of a raceway",
+      "Only by the ceiling grid"
+    ],
+    "answer_index": 2,
+    "explain_plain": "A cable cannot use the outside of a raceway as its support, and work must be neat and properly supported.",
+    "nec_ref": "800.24 / 800.133",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-004",
+    "article": "800",
+    "question": "A communications cable that is not terminated and not tagged for future use is:",
+    "choices": [
+      "A spare, and may stay forever",
+      "Abandoned, and its accessible portion must be removed",
+      "Exempt if it is in a ceiling",
+      "Required to be energized monthly"
+    ],
+    "answer_index": 1,
+    "explain_plain": "That is the definition of abandoned cable in this chapter, and the accessible portion must be removed.",
+    "nec_ref": "800.25",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-005",
+    "article": "800",
+    "question": "A communications cable passes through a fire-resistance-rated floor. The opening must be:",
+    "choices": [
+      "Packed with insulation",
+      "Left open for access",
+      "Firestopped with an approved method that maintains the rating",
+      "Painted red"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Firestopping restores the rating of the assembly at the penetration.",
+    "nec_ref": "800.26",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-006",
+    "article": "800",
+    "question": "Minimum vertical clearance of a communications drop above a roof it passes over is:",
+    "choices": [
+      "4 ft",
+      "6 ft",
+      "8 ft",
+      "12 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "The aerial rule in this chapter sets 8 ft over roofs, with limited exceptions.",
+    "nec_ref": "800.44",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-007",
+    "article": "800",
+    "question": "Where practicable, communications cables on a building are kept at least how far from lightning protection conductors?",
+    "choices": [
+      "2 ft",
+      "4 ft",
+      "6 ft",
+      "10 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Six feet, per 800.53; otherwise the lightning standard's sideflash approach governs.",
+    "nec_ref": "800.53",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-008",
+    "article": "800",
+    "question": "The main purpose of bonding communications systems at the entrance under 800.100 is to:",
+    "choices": [
+      "Improve signal quality",
+      "Tie outside metallic parts to the building grounding system so surges share one earth reference",
+      "Replace the service ground",
+      "Power the network interface unit"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Entrance bonding keeps communications and power grounding at the same potential during a surge.",
+    "nec_ref": "800.100",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-009",
+    "article": "800",
+    "question": "The bonding conductor for a primary protector must not be smaller than:",
+    "choices": [
+      "18 AWG",
+      "14 AWG",
+      "10 AWG",
+      "6 AWG"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Fourteen AWG is the floor in 800.100(A), and the conductor never has to exceed 6 AWG.",
+    "nec_ref": "800.100(A)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C8-Q-010",
+    "article": "800",
+    "question": "In a one- or two-family dwelling, the protector bonding conductor must not exceed:",
+    "choices": [
+      "10 ft",
+      "15 ft",
+      "20 ft",
+      "25 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Twenty feet, as short as practicable, per 800.100(A).",
+    "nec_ref": "800.100(A)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C8-Q-011",
+    "article": "800",
+    "question": "Where a building has an intersystem bonding termination, the communications bonding conductor lands:",
+    "choices": [
+      "On a water pipe",
+      "On any receptacle ground",
+      "On the intersystem bonding termination",
+      "On a separate unbonded rod"
+    ],
+    "answer_index": 2,
+    "explain_plain": "The termination exists for these bonds, and 800.100(B) puts it first in line.",
+    "nec_ref": "800.100(B)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-012",
+    "article": "800",
+    "question": "A separate ground rod installed for a communications entrance must be bonded to the power grounding electrode system with at least:",
+    "choices": [
+      "14 AWG",
+      "10 AWG",
+      "8 AWG",
+      "6 AWG"
+    ],
+    "answer_index": 3,
+    "explain_plain": "Six AWG minimum, per 800.100(D). Separate electrodes are never left unbonded.",
+    "nec_ref": "800.100(D)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C8-Q-013",
+    "article": "800",
+    "question": "Cable installed in a space used for environmental air (a plenum) must be:",
+    "choices": [
+      "Type CMX",
+      "Type CMR",
+      "Type CMP",
+      "Any listed type"
+    ],
+    "answer_index": 2,
+    "explain_plain": "CMP is the plenum type under 800.113 and 800.179.",
+    "nec_ref": "800.113",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-014",
+    "article": "800",
+    "question": "Communications and power conductors may share an enclosure where:",
+    "choices": [
+      "They are taped together neatly",
+      "A permanent barrier or listed divider separates them",
+      "The box is oversized",
+      "The voltage is under 50V on both sides"
+    ],
+    "answer_index": 1,
+    "explain_plain": "A barrier or listed divider is the designed exception in 800.133(A)(1); power for the equipment itself is the other narrow case, at 1/2 in separation.",
+    "nec_ref": "800.133(A)(1)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-015",
+    "article": "800",
+    "question": "In open runs, the minimum separation between communications conductors and power conductors is:",
+    "choices": [
+      "1/2 in",
+      "1 in",
+      "2 in",
+      "6 in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Two inches under 800.133(A)(2), unless a raceway or sheathed cable assembly already provides the separation. This re-checks the 2 in figure in the older inspection-prep note against the 2020 text.",
+    "nec_ref": "800.133(A)(2)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C8-Q-016",
+    "article": "800",
+    "question": "Which substitution is permitted under the cable application tables in 800.154?",
+    "choices": [
+      "CMX in place of CMR",
+      "CMR in place of CMP",
+      "CMP in place of CMR",
+      "CM in place of CMP"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Substitution runs one way only, downward from the higher rating. CMP may serve where CMR is required; nothing substitutes upward into a plenum.",
+    "nec_ref": "800.154",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C8-Q-017",
+    "article": "800",
+    "question": "Type CMX communications cable is:",
+    "choices": [
+      "The plenum type",
+      "A limited-use type used mainly in one- and two-family dwellings",
+      "For vertical shafts",
+      "The same as CMP"
+    ],
+    "answer_index": 1,
+    "explain_plain": "CMX sits at the limited-use end of the ladder in 800.179.",
+    "nec_ref": "800.179",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-018",
+    "article": "805",
+    "question": "A communications circuit, for Article 805, extends:",
+    "choices": [
+      "Only inside the customer's equipment",
+      "From the service provider up to and including the customer's communications equipment",
+      "From the pole to the street only",
+      "Only through Article 725 raceways"
+    ],
+    "answer_index": 1,
+    "explain_plain": "That is the chapter's definition of a communications circuit, and 805.1 scopes the article to those circuits and their equipment.",
+    "nec_ref": "805.1",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-019",
+    "article": "805",
+    "question": "A primary protector must be located:",
+    "choices": [
+      "Anywhere on the lot",
+      "As close as practicable to the point of entrance, in, on, or immediately adjacent to the building",
+      "Only in the attic",
+      "Next to the panel, wherever that is"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Location follows the entrance, not the panel, per 805.90.",
+    "nec_ref": "805.90",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-020",
+    "article": "805",
+    "question": "The metallic sheath of an entering communications cable must be:",
+    "choices": [
+      "Left floating",
+      "Painted",
+      "Grounded per 800.100, or interrupted by an insulating joint, near the point of entrance",
+      "Connected to a hot conductor"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Ground it or break it at the entrance; a floating sheath carries surge energy inside.",
+    "nec_ref": "805.93",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-021",
+    "article": "805",
+    "question": "For new construction, 805.156 requires at least how many communications outlets in a dwelling unit?",
+    "choices": [
+      "None",
+      "One, in a readily accessible area, cabled to the demarcation point",
+      "One per bedroom",
+      "Two, in the kitchen"
+    ],
+    "answer_index": 1,
+    "explain_plain": "One cabled outlet is the Code minimum; this rule lived at 800.156 before 2020.",
+    "nec_ref": "805.156",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C8-Q-022",
+    "article": "810",
+    "question": "An antenna mast does NOT require grounding under 810.15 where:",
+    "choices": [
+      "The dish is small",
+      "It sits within a zone of protection of a lightning protection system",
+      "The house is one story",
+      "The coax is grounded"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The zone-of-protection exception is the only escape in 810.15, and ordinary houses do not have one.",
+    "nec_ref": "810.15",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C8-Q-023",
+    "article": "810",
+    "question": "An antenna lead-in attached to a building must not swing closer than how far to conductors of a 120/240V circuit?",
+    "choices": [
+      "6 in",
+      "1 ft",
+      "2 ft",
+      "6 ft"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Two feet to circuits of 250V or less; 10 ft to circuits over 250V, per 810.18.",
+    "nec_ref": "810.18",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-024",
+    "article": "810",
+    "question": "The antenna bonding conductor must be run:",
+    "choices": [
+      "With as many bends as needed to hide it",
+      "In as straight a line as practicable",
+      "Only inside the building",
+      "Without any fastening"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Straight, fastened, and protected where exposed to damage, per 810.21.",
+    "nec_ref": "810.21",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-025",
+    "article": "810",
+    "question": "Minimum size of an antenna bonding conductor in copper is:",
+    "choices": [
+      "14 AWG",
+      "12 AWG",
+      "10 AWG",
+      "8 AWG"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Ten AWG copper, or 17 AWG copper-clad steel or bronze, per 810.21(H).",
+    "nec_ref": "810.21(H)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C8-Q-026",
+    "article": "810",
+    "question": "A ground rod installed only for the antenna system must be bonded to the power grounding electrode system with at least:",
+    "choices": [
+      "14 AWG",
+      "10 AWG",
+      "6 AWG",
+      "3 AWG"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Six AWG minimum per 810.21(J), the same rule as 800.100(D).",
+    "nec_ref": "810.21(J)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-027",
+    "article": "820",
+    "question": "The outer shield of a coax cable supplied to a building must be grounded:",
+    "choices": [
+      "At the farthest TV outlet",
+      "As close as practicable to the point of entrance",
+      "Only on commercial jobs",
+      "Never"
+    ],
+    "answer_index": 1,
+    "explain_plain": "820.93 puts the shield ground at the entrance, using 820.100 conductors.",
+    "nec_ref": "820.93",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-028",
+    "article": "820",
+    "question": "The bonding conductor for a CATV shield must not be smaller than:",
+    "choices": [
+      "18 AWG",
+      "14 AWG",
+      "10 AWG",
+      "4 AWG"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Fourteen AWG floor and 6 AWG ceiling, per 820.100.",
+    "nec_ref": "820.100",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-029",
+    "article": "820",
+    "question": "Which is true for coaxial cable under 820.133?",
+    "choices": [
+      "It may share a box with power freely",
+      "It may be supported from a power raceway",
+      "It keeps 2 in from power conductors unless a raceway or sheathed assembly provides separation",
+      "No separation rules apply to coax"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Coax follows the same separation discipline as the rest of the chapter.",
+    "nec_ref": "820.133",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-030",
+    "article": "830",
+    "question": "At a network-powered broadband entrance, which parts must be grounded under 830.93?",
+    "choices": [
+      "Only the inside wiring",
+      "The cable shield, the primary protector, and the metallic network interface unit enclosure",
+      "Only the enclosure",
+      "Nothing, because it is low voltage"
+    ],
+    "answer_index": 1,
+    "explain_plain": "All three metallic parts arriving with the outside plant land on the building grounding reference.",
+    "nec_ref": "830.93",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C8-Q-031",
+    "article": "840",
+    "question": "At a premises-powered broadband entrance, grounding under 840.93 is required for:",
+    "choices": [
+      "Every fiber strand",
+      "Metallic members of the arriving cable, where present",
+      "The plastic ONT housing",
+      "Nothing in any case"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Dielectric fiber has nothing to bond; metallic shields or strength members get the entrance ground.",
+    "nec_ref": "840.93",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C8-Q-032",
+    "article": "805",
+    "question": "Under 805.50(B), specified unshielded communications wiring on the outside of a building must be separated from open power wiring (not in a raceway or cable assembly) by at least:",
+    "choices": [
+      "1 in",
+      "2 in",
+      "4 in",
+      "12 in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Four inches for that exterior, exposed-wiring condition. Do not confuse it with the 2 in indoor separation in 800.133(A)(2); they govern different situations.",
+    "nec_ref": "805.50(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-033",
+    "article": "800",
+    "question": "When a copper-clad aluminum (CCA) conductor is sized for ampacity, which column of Table 310.16 applies?",
+    "choices": [
+      "The copper column",
+      "The aluminum column",
+      "A separate CCA column in Table 310.16",
+      "CCA is never permitted"
+    ],
+    "answer_index": 1,
+    "explain_plain": "CCA takes the aluminum column of Table 310.16 (minimum sizes per 310.3), which works out to one AWG size up from copper at the same ampacity. Table 310.16 has no CCA column of its own.",
+    "nec_ref": "310.16",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-034",
+    "article": "800",
+    "question": "Which termination is permitted for a CCA conductor?",
+    "choices": [
+      "A backstab (push-in) hole on a receptacle",
+      "A 15 or 20 A device screw terminal",
+      "Any wire nut, marked or not",
+      "A lug with no material marking"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Device screw terminals are fine for CCA. Backstab holes are 14 AWG solid copper only, and wire nuts and lugs used with CCA must be marked AL/CU.",
+    "nec_ref": "110.14",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-035",
+    "article": "800",
+    "question": "A 12 AWG THHN conductor is changed from copper to CCA, same size and insulation. What happens to its box-fill and conduit-fill allowances?",
+    "choices": [
+      "They increase",
+      "They decrease",
+      "They stay the same",
+      "CCA is not counted in fill"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Fill under 314.16 and Chapter 9 Tables 4 and 5 is figured by conductor size and insulation, not by the metal. Same size and insulation means the same fill, whatever the conductor is made of.",
+    "nec_ref": "314.16",
+    "difficulty": 1,
+    "exam": "both"
+  }
+]

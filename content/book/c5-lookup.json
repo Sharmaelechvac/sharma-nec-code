@@ -1,0 +1,1326 @@
+[
+  {
+    "id": "C5-L-001",
+    "question": "What is a hazardous (classified) location?",
+    "aliases": [
+      "classified location",
+      "hazardous area"
+    ],
+    "answer_plain": "It is an area where enough flammable vapor, combustible dust, or ignitible fiber can be present for a spark or hot surface to start a fire or explosion. The area gets a class for the kind of material and a division for how often the hazard is present. Wiring and equipment inside that boundary follow the special rules of Chapter 5 instead of ordinary methods.",
+    "nec_ref": "500.5",
+    "nec_edition": "2020",
+    "tags": [
+      "hazardous locations",
+      "classification"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-002",
+    "question": "What is the difference between Class I, Class II, and Class III?",
+    "aliases": [
+      "class I II III",
+      "hazard classes"
+    ],
+    "answer_plain": "Class I is for flammable gases and the vapors given off by flammable or combustible liquids. Class II is for combustible dusts, and Class III is for easily ignitible fibers and flyings. The class names the material, while the division names how often an ignitible amount is expected.",
+    "nec_ref": "500.5(B)-(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "hazardous locations",
+      "classification"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-003",
+    "question": "What is the difference between Division 1 and Division 2?",
+    "aliases": [
+      "division 1 vs 2",
+      "div 1 div 2"
+    ],
+    "answer_plain": "Division 1 means an ignitible amount of the hazard can be there during normal operation. Division 2 means the hazard is normally contained and reaches an ignitible amount only when equipment fails or something abnormal happens. Equipment approved for Division 1 may also be used in Division 2 of the same class and group.",
+    "nec_ref": "500.5",
+    "nec_edition": "2020",
+    "tags": [
+      "hazardous locations",
+      "classification"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-004",
+    "question": "What are material groups in hazardous locations?",
+    "aliases": [
+      "group A B C D",
+      "group E F G"
+    ],
+    "answer_plain": "Materials in each class are sorted into groups by how easily they ignite and how violent an explosion can be. Class I groups run from A through D and Class II groups run from E through G. Equipment must be identified for the exact group in the location, not just for the class.",
+    "nec_ref": "500.6",
+    "nec_edition": "2020",
+    "tags": [
+      "hazardous locations",
+      "groups"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-005",
+    "question": "What are protection techniques for hazardous locations?",
+    "aliases": [
+      "explosionproof",
+      "purged pressurized",
+      "nonincendive"
+    ],
+    "answer_plain": "They are the accepted ways to keep electrical equipment from igniting the air around it. Common techniques include explosionproof enclosures, dust-ignitionproof enclosures, purging and pressurizing, oil immersion, nonincendive design, and intrinsic safety. A technique only counts where the code section and the equipment marking allow it.",
+    "nec_ref": "500.7",
+    "nec_edition": "2020",
+    "tags": [
+      "hazardous locations",
+      "protection techniques"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-006",
+    "question": "What does the temperature marking on hazardous location equipment mean?",
+    "aliases": [
+      "T code",
+      "temperature code",
+      "T4"
+    ],
+    "answer_plain": "It shows the hottest surface temperature the equipment can reach in service. That temperature must stay below the ignition temperature of the gas, vapor, or dust in the location. A fitting with the right class and group but the wrong temperature marking is still the wrong fitting.",
+    "nec_ref": "500.8(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "hazardous locations",
+      "marking"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-007",
+    "question": "Where do the Class I wiring rules live?",
+    "aliases": [
+      "class I wiring",
+      "501 rules"
+    ],
+    "answer_plain": "Article 501 carries the wiring, sealing, and equipment rules for Class I locations where gas or vapor is the hazard. Other occupancy articles such as commercial garages send their classified areas back to these rules. Sealed threaded metal raceway systems are the everyday picture of this article at work.",
+    "nec_ref": "501",
+    "nec_edition": "2020",
+    "tags": [
+      "class I",
+      "wiring methods"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-008",
+    "question": "Where do the Class II dust rules live?",
+    "aliases": [
+      "class II wiring",
+      "502 rules",
+      "grain dust"
+    ],
+    "answer_plain": "Article 502 carries the rules for Class II locations where combustible dust is the hazard. The work focuses on keeping dust out of enclosures and keeping surfaces cool enough not to ignite a settled dust layer. Grain and feed operations are the classic example an agricultural electrician will meet.",
+    "nec_ref": "502",
+    "nec_edition": "2020",
+    "tags": [
+      "class II",
+      "dust"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-009",
+    "question": "Where do the Class III fiber rules live?",
+    "aliases": [
+      "class III wiring",
+      "503 rules",
+      "lint fibers"
+    ],
+    "answer_plain": "Article 503 carries the rules for Class III locations where easily ignitible fibers or flyings are handled or stored. The fibers are not normally floating in the air in ignitible amounts, which is why this class is less severe than the other two. Keeping lint and fiber buildup away from hot and arcing parts is the daily discipline of the article.",
+    "nec_ref": "503",
+    "nec_edition": "2020",
+    "tags": [
+      "class III",
+      "fibers"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-010",
+    "question": "What is an intrinsically safe system?",
+    "aliases": [
+      "intrinsic safety",
+      "504",
+      "IS wiring"
+    ],
+    "answer_plain": "It is a circuit designed so its energy stays too low to ignite the surrounding atmosphere, even under fault conditions. Article 504 covers these systems, which are used mostly for instrumentation and controls in classified areas. Separation from ordinary power wiring and following the control drawing are what keep the system valid.",
+    "nec_ref": "504",
+    "nec_edition": "2020",
+    "tags": [
+      "intrinsic safety",
+      "controls"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-011",
+    "question": "What is the Zone system in Article 505?",
+    "aliases": [
+      "zone 0 1 2",
+      "505 zones"
+    ],
+    "answer_plain": "It is an alternative way to classify gas and vapor hazards, using Zone 0 for the most continuous exposure and Zone 2 for the least likely. Zone 1 sits between them, where an ignitible atmosphere is likely during normal operation. Equipment markings for the zone system do not read the same as class and division markings, so the two systems are not casually interchangeable.",
+    "nec_ref": "505",
+    "nec_edition": "2020",
+    "tags": [
+      "zones",
+      "classification"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-012",
+    "question": "What does Article 506 cover?",
+    "aliases": [
+      "zone 20 21 22",
+      "506 zones dust"
+    ],
+    "answer_plain": "It extends the zone system to combustible dusts and ignitible fibers or flyings. Zone 20 is the most severe, Zone 21 is likely in normal operation, and Zone 22 is unlikely or short in duration. It pairs with the gas and vapor zone article the way the dust and fiber division articles pair with Class I.",
+    "nec_ref": "506",
+    "nec_edition": "2020",
+    "tags": [
+      "zones",
+      "dust"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-013",
+    "question": "What does Article 510 do?",
+    "aliases": [
+      "510 specific occupancies"
+    ],
+    "answer_plain": "It is the short gateway from the general hazardous location rules to the occupancies that get their own articles. Garages, hangars, fuel dispensing, bulk storage, and spray operations each have pre-decided classifications in their own articles. Those articles then work together with the general class and division rules for wiring and equipment.",
+    "nec_ref": "510",
+    "nec_edition": "2020",
+    "tags": [
+      "hazardous locations",
+      "occupancies"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-014",
+    "question": "Does Article 511 cover a parking garage?",
+    "aliases": [
+      "parking garage 511",
+      "car storage garage"
+    ],
+    "answer_plain": "A garage used only for parking or storing vehicles is not required to be classified as a hazardous location. Article 511 is aimed at places that service and repair vehicles fueled by flammable liquids or gases. If fuel is dispensed in the building, the motor fuel dispensing article applies on top of the garage rules.",
+    "nec_ref": "511.1 / 511.3(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-015",
+    "question": "How are repair garage areas classified?",
+    "aliases": [
+      "garage classification",
+      "major minor repair",
+      "garage pit classification"
+    ],
+    "answer_plain": "The section works through three questions about major or minor repair, the part of the space involved, and whether ventilation is provided. Floor areas, pits, and ceiling areas each come out differently under that test. In a major repair garage the low floor band is commonly a Division 2 location and pits are more severe, while minor repair floors are generally unclassified apart from their pits.",
+    "nec_ref": "511.3",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages",
+      "classification"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-016",
+    "question": "How far above a major repair garage floor is the classified band?",
+    "aliases": [
+      "18 inches garage",
+      "garage floor band"
+    ],
+    "answer_plain": "In the common major repair case the classified area reaches eighteen inches above the floor. Gasoline vapor is heavier than air, so it collects low instead of rising through the whole room. Keeping arcing devices and ordinary fittings out of that low band is the cheapest classification strategy on the layout.",
+    "nec_ref": "511.3",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages",
+      "classification"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-017",
+    "question": "What classification is a garage pit?",
+    "aliases": [
+      "pit class I division 1",
+      "lubrication pit"
+    ],
+    "answer_plain": "A pit or depression below the floor is the most serious space in the garage because vapors fall into it and stay there. With the ventilation the code describes, a pit is generally treated as a Division 2 location, and without that ventilation it is treated as Division 1. Portable lights and tools taken into a pit must match that stricter answer.",
+    "nec_ref": "511.3",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages",
+      "pits"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-018",
+    "question": "How is wiring done inside a classified garage area?",
+    "aliases": [
+      "wiring in classified garage",
+      "511.4"
+    ],
+    "answer_plain": "Inside the classified parts of a garage, wiring and equipment follow the Class I rules. That means the methods, seals, and listed fittings of the Class I article rather than ordinary shop materials. Portable lighting used there must be identified for the location or arranged so it cannot be carried into the classified space.",
+    "nec_ref": "511.4",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages",
+      "wiring methods"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-019",
+    "question": "What wiring is allowed above a classified garage area?",
+    "aliases": [
+      "above classified location",
+      "511.7 wiring"
+    ],
+    "answer_plain": "Above the classified band, fixed wiring may use metal raceways, armored or metal-clad cable types the section lists, manufactured wiring systems, and certain listed cables. Ordinary residential cable methods are not on that list. Equipment above the area that can arc or drop hot particles still has guarding and height conditions to meet.",
+    "nec_ref": "511.7(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages",
+      "wiring methods"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-020",
+    "question": "How high must garage luminaires over a classified area be?",
+    "aliases": [
+      "12 feet garage lights",
+      "luminaire height garage"
+    ],
+    "answer_plain": "Fixed lighting over a classified area, over a traffic lane, or where a vehicle could strike it is tied to a twelve foot height in the common cases the section describes. Below that height the luminaire needs the enclosure or guarding the section requires. Vehicle lifts change the real clearance, so a raised vehicle counts in the field check.",
+    "nec_ref": "511.7(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages",
+      "lighting"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-021",
+    "question": "How is underground wiring handled in a commercial garage?",
+    "aliases": [
+      "underground garage wiring",
+      "511.8",
+      "under slab garage"
+    ],
+    "answer_plain": "Underground runs in a commercial garage follow the underground rules written for motor fuel dispensing facilities. Fuel spills and vapor travel make a buried raceway under a repair floor a fuel system problem, not ordinary site work. The raceway type, sealing, and where runs may emerge are settled before the slab is poured.",
+    "nec_ref": "511.8",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages",
+      "underground"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-022",
+    "question": "What does Article 511 say about vehicle battery charging?",
+    "aliases": [
+      "EV charging garage",
+      "battery charging 511",
+      "511.10"
+    ],
+    "answer_plain": "A short section collects the rules for special equipment in garages, including battery charging areas and vehicle charging equipment. Charging can create its own ventilation and classification concerns on top of the general garage classification. Charger scope should be identified and priced separately from general receptacle work.",
+    "nec_ref": "511.10",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages",
+      "charging"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-023",
+    "question": "Do all receptacles in a commercial garage need GFCI protection?",
+    "aliases": [
+      "garage GFCI 511.12",
+      "commercial garage GFI"
+    ],
+    "answer_plain": "Personnel ground fault protection is required in commercial garages through the non-dwelling receptacle rules. The 2020 edition broadened the wording beyond the older diagnostic equipment and hand tool list. Treat essentially every receptacle in the garage as protected unless a specific exception clearly applies.",
+    "nec_ref": "511.12",
+    "nec_edition": "2020",
+    "tags": [
+      "commercial garages",
+      "GFCI"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-07"
+  },
+  {
+    "id": "C5-L-024",
+    "question": "What is special about an aircraft hangar electrically?",
+    "aliases": [
+      "aircraft hangar 513"
+    ],
+    "answer_plain": "Fuel vapors gather near the floor and in pits of a hangar much as they do in a repair garage, but around aircraft. The article classifies those floor and pit areas and then applies wiring rules that match the classification. A hangar is never priced with ordinary commercial methods just because it looks like a big garage.",
+    "nec_ref": "513",
+    "nec_edition": "2020",
+    "tags": [
+      "aircraft hangars",
+      "classification"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-025",
+    "question": "What does Article 514 require at fuel dispensing sites?",
+    "aliases": [
+      "gas station rules",
+      "514 dispensing",
+      "emergency shutoff fuel"
+    ],
+    "answer_plain": "It classifies the areas around dispensers and tanks, requires sealing and specific underground wiring, and requires emergency disconnect controls for dispensing power. Those underground rules are also borrowed by garages and by fueling docks at marinas. Dispensing scope is specialty work that comes from engineered plans, not field improvisation.",
+    "nec_ref": "514",
+    "nec_edition": "2020",
+    "tags": [
+      "fuel dispensing"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-026",
+    "question": "What is a bulk storage plant under the NEC?",
+    "aliases": [
+      "bulk storage 515",
+      "tank farm"
+    ],
+    "answer_plain": "It is a plant where flammable liquids are held in large tanks and transferred into trucks or containers. Classifications follow the tanks, pumps, and loading points, and the wiring builds on the general Class I rules. Without an engineered classification drawing there is nothing safe to take off or price.",
+    "nec_ref": "515",
+    "nec_edition": "2020",
+    "tags": [
+      "bulk storage",
+      "classification"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-027",
+    "question": "When does the spray application article apply?",
+    "aliases": [
+      "spray booth 516",
+      "paint booth code",
+      "dip tank"
+    ],
+    "answer_plain": "It applies where flammable or combustible materials are sprayed, dipped, coated, or printed, including spray booths and rooms. Classifications depend on the booth construction and its ventilation, and lighting and equipment placement have their own rules. A body shop paint booth pulls this article in even when the rest of the building is ordinary commercial space.",
+    "nec_ref": "516",
+    "nec_edition": "2020",
+    "tags": [
+      "spray application"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-028",
+    "question": "What counts as a patient care space?",
+    "aliases": [
+      "patient care space",
+      "517 clinic dental"
+    ],
+    "answer_plain": "It is any part of a health care facility where patients are examined or treated. Offices, corridors, waiting rooms, and similar support areas are not patient care spaces. The facility sorts its spaces into care categories, and the category decides how strict the wiring and grounding rules become.",
+    "nec_ref": "517.10 / 517.2",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "patient care"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-029",
+    "question": "Which clinic rooms are outside the patient care wiring rules?",
+    "aliases": [
+      "517.10 exceptions",
+      "immunization room",
+      "dental office exempt"
+    ],
+    "answer_plain": "Business offices, corridors, and waiting areas sit outside the patient care part of the article. Areas used exclusively for immunizations, psychiatry or psychotherapy, alternative medicine, and optometry are also outside that part. Sleeping rooms in nursing and limited care facilities are treated differently from treatment spaces as well.",
+    "nec_ref": "517.10(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "health care"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-030",
+    "question": "Why does health care wiring need redundant grounding?",
+    "aliases": [
+      "redundant ground 517",
+      "two ground paths"
+    ],
+    "answer_plain": "A patient connected to medical equipment has far less tolerance for a failed ground path than a person touching an ordinary appliance. The metal raceway or armor provides one fault path and an insulated copper conductor provides a second, independent path. Either path alone can clear a fault if the other one is damaged or loose.",
+    "nec_ref": "517.13",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-031",
+    "question": "Can NM cable serve a patient care space?",
+    "aliases": [
+      "NM in clinic",
+      "Romex patient care"
+    ],
+    "answer_plain": "No, because the branch circuit needs a wiring method that itself qualifies as a metal grounding return path. A metal raceway or a cable with qualifying metal armor or sheath provides that path, and the insulated copper grounding conductor runs with the circuit as the second path. Ordinary nonmetallic sheathed cable provides neither the metal path nor the required construction.",
+    "nec_ref": "517.13(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "wiring methods"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-032",
+    "question": "How is the patient care grounding conductor sized?",
+    "aliases": [
+      "517.13 grounding size",
+      "green wire clinic"
+    ],
+    "answer_plain": "The insulated copper equipment grounding conductor is sized from the standard equipment grounding table based on the circuit breaker or fuse ahead of it. It runs with the branch circuit conductors inside the same raceway or cable. Receptacle ground terminals and exposed metal of fixed equipment in the space connect to this conductor.",
+    "nec_ref": "517.13(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-033",
+    "question": "Can an isolated ground receptacle go in a patient care vicinity?",
+    "aliases": [
+      "isolated ground receptacle clinic",
+      "IG receptacle 517"
+    ],
+    "answer_plain": "No isolated ground receptacle is permitted inside a patient care vicinity. Outside the vicinity one may be used only with its own insulated grounding conductor installed as the section directs, added to the normal grounding path. An isolated ground installed carelessly defeats the redundant grounding the article is built on.",
+    "nec_ref": "517.16",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "receptacles"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-034",
+    "question": "How many receptacles does a general care bed location need?",
+    "aliases": [
+      "bed location receptacles",
+      "eight receptacles",
+      "517.18"
+    ],
+    "answer_plain": "A general care, Category 2 patient bed location needs a minimum of eight receptacles under the 2020 edition. The bed location also needs at least two branch circuits, with normal and emergency sources represented where an essential system exists. The receptacles are hospital grade and grounded with the insulated copper conductor the article requires.",
+    "nec_ref": "517.18(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "receptacles"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-035",
+    "question": "What makes a receptacle hospital grade?",
+    "aliases": [
+      "hospital grade receptacle",
+      "green dot receptacle"
+    ],
+    "answer_plain": "It is a receptacle built and tested to a tougher standard for blade grip, durability, and grounding contact reliability. Hospital grade devices carry a green dot and triangle marking so they can be identified at a glance. Standard house receptacles, including tamper resistant types, are not a substitute in a patient bed location.",
+    "nec_ref": "517.18(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "receptacles"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-036",
+    "question": "What is an essential electrical system?",
+    "aliases": [
+      "essential electrical system",
+      "517.30 generator branches"
+    ],
+    "answer_plain": "It is the backup power system that keeps life safety, critical care, and key equipment loads running when normal power fails. A second source such as a generator feeds separated branches, and the wiring is kept independent and mechanically protected. Hospitals use the full version, while nursing and limited care facilities use a scaled version.",
+    "nec_ref": "517.30",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "emergency power"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-037",
+    "question": "When does Article 518 apply?",
+    "aliases": [
+      "place of assembly",
+      "100 persons",
+      "518 scope"
+    ],
+    "answer_plain": "It applies to a building or part of a building designed or intended for the gathering of one hundred or more people. Auditoriums, churches, restaurants, gyms, and exhibition halls are the everyday examples. Theaters and performance spaces are carved out to their own article instead of this one.",
+    "nec_ref": "518.1 / 518.2",
+    "nec_edition": "2020",
+    "tags": [
+      "assembly occupancies"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-038",
+    "question": "What wiring methods are allowed in an assembly occupancy?",
+    "aliases": [
+      "518.4 wiring",
+      "metal raceway assembly",
+      "no NM in assembly"
+    ],
+    "answer_plain": "Fixed wiring in the assembly area must be metal raceway, flexible metal raceway, nonmetallic raceway encased in at least two inches of concrete, or mineral insulated, metal clad, or armored cable types. The method must qualify as a grounding path or contain an insulated grounding conductor sized from the standard table. Nonmetallic sheathed cable is not a fixed wiring method for the fire rated assembly cases this section is built around.",
+    "nec_ref": "518.4(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "assembly occupancies",
+      "wiring methods"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-039",
+    "question": "Does Article 518 add its own GFCI rule?",
+    "aliases": [
+      "518 GFCI",
+      "assembly receptacle GFCI"
+    ],
+    "answer_plain": "The article does not add a blanket ground fault rule of its own for receptacles. Receptacles in an assembly occupancy follow the ordinary non-dwelling ground fault list from the branch circuit article. Kitchens, bathrooms, rooftops, and the other listed non-dwelling locations inside the building still need their protection.",
+    "nec_ref": "518 / 210.8(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "assembly occupancies",
+      "GFCI"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-040",
+    "question": "What changed for assembly occupancies in 2020 about lighting?",
+    "aliases": [
+      "518.6 illumination",
+      "working space light"
+    ],
+    "answer_plain": "A new section requires illumination at the working space of electrical equipment serving assembly occupancies, including outdoor equipment. That lighting may not be controlled by automatic means only, so a timer or sensor cannot leave a servicer in the dark. Where nearby lighting already lights the working space well enough, no added fixture is required.",
+    "nec_ref": "518.6",
+    "nec_edition": "2020",
+    "tags": [
+      "assembly occupancies",
+      "2020 change"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-041",
+    "question": "What is different about theater wiring?",
+    "aliases": [
+      "theater article 520",
+      "stage lighting code"
+    ],
+    "answer_plain": "Theaters, audience areas, and performance spaces leave the assembly article and follow their own article. Stage and house lighting, switchboards, and portable stage equipment drive rules that ordinary assembly work never meets. Portable equipment that looks temporary can actually be permanent theater equipment under this article.",
+    "nec_ref": "520",
+    "nec_edition": "2020",
+    "tags": [
+      "theaters"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-042",
+    "question": "What does Article 522 cover?",
+    "aliases": [
+      "amusement attraction controls",
+      "522"
+    ],
+    "answer_plain": "It covers the control systems for permanent amusement attractions that are built to stay in place. Control circuits, disconnects, and the interface with the attraction safety controls are its subject. Traveling shows are handled by the carnival article instead of this one.",
+    "nec_ref": "522",
+    "nec_edition": "2020",
+    "tags": [
+      "amusement attractions"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-043",
+    "question": "How is carnival power different from jobsite temp power?",
+    "aliases": [
+      "carnival 525 vs 590",
+      "fair power"
+    ],
+    "answer_plain": "Carnival and fair wiring has its own article on top of the temporary installation rules. It adds event specific requirements for rides, operator disconnects, grounding, and separation of ride wiring. Quoting a fair job from the temporary article alone will miss priced items the event article requires.",
+    "nec_ref": "525",
+    "nec_edition": "2020",
+    "tags": [
+      "carnivals",
+      "temporary"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-044",
+    "question": "What do Articles 530 and 540 cover?",
+    "aliases": [
+      "movie studio 530",
+      "projection room 540"
+    ],
+    "answer_plain": "One covers motion picture and television studios, including stage power and the portable distribution practices unique to production work. The other is a short article for motion picture projection rooms and the film handling hazards they were written for. Both are specialty scopes that Sharma would only work from a production or theater electrical package.",
+    "nec_ref": "530 / 540",
+    "nec_edition": "2020",
+    "tags": [
+      "studios",
+      "projection"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-045",
+    "question": "What does Article 545 cover?",
+    "aliases": [
+      "manufactured building 545",
+      "portable classroom",
+      "relocatable structure"
+    ],
+    "answer_plain": "It covers buildings manufactured in a factory in sections or panels and assembled on site, plus relocatable structures such as portable classrooms. The electrical work centers on how sections connect together and how the finished building connects to its service. Which parts were inspected at the factory and which are inspected on site decides the site electrician scope.",
+    "nec_ref": "545",
+    "nec_edition": "2020",
+    "tags": [
+      "manufactured buildings"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Florida runs its own modular building insignia program, so confirm with the AHJ who inspects the site connection on an insignia building."
+  },
+  {
+    "id": "C5-L-046",
+    "question": "When does Article 547 apply to a barn?",
+    "aliases": [
+      "agricultural building 547",
+      "barn code",
+      "livestock building"
+    ],
+    "answer_plain": "It applies where an agricultural building or area has excessive dust, dust with water, or a corrosive atmosphere. Livestock confinement, dairy, and poultry buildings are the core cases. A clean dry storage barn without those conditions is generally ordinary work instead.",
+    "nec_ref": "547.1",
+    "nec_edition": "2020",
+    "tags": [
+      "agricultural buildings"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Marion, Citrus, and Sumter county farm work is where Sharma is most likely to meet this article."
+  },
+  {
+    "id": "C5-L-047",
+    "question": "Which barn receptacles need GFCI protection?",
+    "aliases": [
+      "547 GFCI receptacles",
+      "barn GFI"
+    ],
+    "answer_plain": "Ground fault protection is required for receptacles rated one hundred twenty five volts, single phase, fifteen or twenty amperes, in the locations the section lists. Those locations are areas with an equipotential plane, outdoors, damp or wet locations, and dirt confinement areas for livestock. Larger and higher voltage receptacles are outside that ground fault list under the 2020 clarification.",
+    "nec_ref": "547.5(G)",
+    "nec_edition": "2020",
+    "tags": [
+      "agricultural buildings",
+      "GFCI"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-048",
+    "question": "What wiring survives an agricultural building?",
+    "aliases": [
+      "547.5 wiring methods",
+      "corrosive barn wiring"
+    ],
+    "answer_plain": "Methods must be listed for the damp, wet, dusty, and corrosive conditions the building actually has, with enclosures that match those conditions. A grounding conductor run underground outside a listed cable assembly must be insulated. Dry location house methods fail early in a confinement barn and fail inspection sooner.",
+    "nec_ref": "547.5",
+    "nec_edition": "2020",
+    "tags": [
+      "agricultural buildings",
+      "wiring methods"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-049",
+    "question": "Why do livestock buildings need a distribution point?",
+    "aliases": [
+      "distribution point livestock",
+      "stray voltage",
+      "547.9"
+    ],
+    "answer_plain": "Multiple livestock buildings on one premises are supplied from a single distribution point with a four wire grounded arrangement. Keeping neutral current out of earth return paths is what prevents the stray voltage that livestock feel long before people notice it. Underground feeders and branch circuits leaving the point need overcurrent protection.",
+    "nec_ref": "547.9",
+    "nec_edition": "2020",
+    "tags": [
+      "agricultural buildings",
+      "stray voltage"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-050",
+    "question": "What is an equipotential plane?",
+    "aliases": [
+      "equipotential plane",
+      "547.10",
+      "barn floor bonding"
+    ],
+    "answer_plain": "It is a bonded conductive plane built into a concrete confinement floor so an animal feet and the metal equipment it touches stay at the same voltage. The plane bonds to the building grounding system with a solid copper conductor of at least eight AWG. It is required in the indoor and outdoor livestock confinement areas the section describes.",
+    "nec_ref": "547.10",
+    "nec_edition": "2020",
+    "tags": [
+      "agricultural buildings",
+      "bonding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-051",
+    "question": "What part of a mobile home job is the site electrician's?",
+    "aliases": [
+      "mobile home 550",
+      "manufactured home service"
+    ],
+    "answer_plain": "The home interior wiring arrives inspected under the federal housing program or a state insignia program. Site work is the service equipment, the feeder to the home, the disconnecting means, and the connection itself. Identifying the home label first is what keeps a crew from repricing work that was never theirs.",
+    "nec_ref": "550",
+    "nec_edition": "2020",
+    "tags": [
+      "mobile homes"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Confirm whether the home carries a federal label or a Florida insignia, because that decides who inspected the interior wiring."
+  },
+  {
+    "id": "C5-L-052",
+    "question": "What does Article 551 cover at an RV park?",
+    "aliases": [
+      "RV park 551",
+      "RV pedestal"
+    ],
+    "answer_plain": "It covers recreational vehicles and the parks that serve them, including the site supply equipment at each lot. Park work is a feeder and pedestal job repeated site after site, with ground fault and polarity details at every pedestal. Park trailers are covered by a separate article and should not be priced from this one.",
+    "nec_ref": "551",
+    "nec_edition": "2020",
+    "tags": [
+      "recreational vehicles"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-053",
+    "question": "Is a park trailer an RV or a mobile home?",
+    "aliases": [
+      "park trailer 552",
+      "park model"
+    ],
+    "answer_plain": "A park trailer is its own category, built for park placement rather than highway travel, and it has its own article. Its size and construction separate it from both the recreational vehicle article and the mobile home article. Reading the unit label and paperwork before choosing an article is the whole ballgame on these jobs.",
+    "nec_ref": "552",
+    "nec_edition": "2020",
+    "tags": [
+      "park trailers"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-054",
+    "question": "What does Article 553 cover?",
+    "aliases": [
+      "floating building 553",
+      "houseboat building"
+    ],
+    "answer_plain": "It covers floating buildings, which are structures supported by water rather than by a foundation, other than boats. The electrical focus is the shore supply, a disconnect located on land rather than on the floating structure, and ground fault protection for that supply. The marina article governs the dock and marina around the building alongside it.",
+    "nec_ref": "553",
+    "nec_edition": "2020",
+    "tags": [
+      "floating buildings"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Coastal and lakefront AHJs in Florida review floating structures closely, so confirm shore disconnect placement before the takeoff is final."
+  },
+  {
+    "id": "C5-L-055",
+    "question": "Why is marina work treated as life safety work?",
+    "aliases": [
+      "electric shock drowning",
+      "ESD marina",
+      "555 hazard"
+    ],
+    "answer_plain": "Stray current in the water around an energized boat or dock can paralyze a swimmer with no visible warning, a hazard called electric shock drowning. That is why the marina article layers ground fault protection, bonding, and height rules over ordinary outdoor wiring. A tripping device at a pedestal is the protection working, not a nuisance to defeat.",
+    "nec_ref": "555.1",
+    "nec_edition": "2020",
+    "tags": [
+      "marinas",
+      "shock hazard"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Salt water corrosion and storm exposure make Florida marina gear age faster, so marine listed equipment matters more here than inland."
+  },
+  {
+    "id": "C5-L-056",
+    "question": "What is the electrical datum plane at a floating pier?",
+    "aliases": [
+      "datum plane 555",
+      "30 inches above water"
+    ],
+    "answer_plain": "It is the reference height below which certain equipment, connections, and receptacles may not be installed. At a floating pier it sits thirty inches above the water level and at least twelve inches above the deck level. The line is established on site before rough in, because floats and deck work can move it.",
+    "nec_ref": "555.3",
+    "nec_edition": "2020",
+    "tags": [
+      "marinas",
+      "datum plane"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-057",
+    "question": "What has to be bonded at a marina?",
+    "aliases": [
+      "marina bonding 555.13",
+      "8 AWG dock bonding"
+    ],
+    "answer_plain": "Metal parts in contact with the water, metal piping, and non current carrying metal parts that could become energized all bond back to the panelboard grounding bus. The bonding conductor is solid copper, insulated, covered, or bare, and at least eight AWG. Ladders, lifts, and metal framing are part of that one bonded system.",
+    "nec_ref": "555.13",
+    "nec_edition": "2020",
+    "tags": [
+      "marinas",
+      "bonding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-058",
+    "question": "How close must a shore power disconnect be to its receptacle?",
+    "aliases": [
+      "shore power disconnect 30 inches",
+      "555.17"
+    ],
+    "answer_plain": "The disconnect for each boat shore power connection must sit not more than thirty inches from the receptacle it controls. It must be readily accessible, identified for that receptacle, and placed ahead of the receptacle in the circuit. Breakers or switches inside a marine power outlet can serve when they meet those same conditions.",
+    "nec_ref": "555.17",
+    "nec_edition": "2020",
+    "tags": [
+      "marinas",
+      "disconnects"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-059",
+    "question": "How high are marina receptacles mounted?",
+    "aliases": [
+      "marina receptacle height",
+      "555.19 twelve inches"
+    ],
+    "answer_plain": "Receptacles at a docking facility mount at least twelve inches above the deck surface and never below the electrical datum plane. Shore power receptacles carry added requirements, including being part of listed marine power outlet equipment. A correct device set too low still fails, so heights are rechecked if decking changes.",
+    "nec_ref": "555.19",
+    "nec_edition": "2020",
+    "tags": [
+      "marinas",
+      "receptacles"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-060",
+    "question": "What ground fault layers does a marina need?",
+    "aliases": [
+      "marina GFPE 30 mA 100 mA",
+      "555.35"
+    ],
+    "answer_plain": "Shore power receptacles get individual equipment ground fault protection set at not more than thirty milliamperes. Feeders and branch circuits supplying a dock or slip get equipment ground fault protection set at not more than one hundred milliamperes. Small general receptacles other than shore power get Class A ground fault protection for people, which trips far lower than either equipment setting.",
+    "nec_ref": "555.35",
+    "nec_edition": "2020",
+    "tags": [
+      "marinas",
+      "GFPE",
+      "GFCI"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-061",
+    "question": "Is GFPE the same as GFCI?",
+    "aliases": [
+      "GFPE vs GFCI",
+      "ground fault equipment protection"
+    ],
+    "answer_plain": "No, because they protect different things at very different trip levels. Class A ground fault protection for people trips at four to six milliamperes, while equipment ground fault protection works at settings such as thirty or one hundred milliamperes. A device listed for one job is not automatically a substitute for the other.",
+    "nec_ref": "555.35",
+    "nec_edition": "2020",
+    "tags": [
+      "ground fault",
+      "GFPE",
+      "GFCI"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-07"
+  },
+  {
+    "id": "C5-L-062",
+    "question": "How long can temporary power stay in place?",
+    "aliases": [
+      "temporary power time limit",
+      "590.3 90 days",
+      "holiday lighting 90 days"
+    ],
+    "answer_plain": "Temporary power is permitted only while the work it serves is actually going on, and it comes out when that work ends. Holiday and decorative installations carry a ninety day limit. Temp wiring that quietly becomes permanent is a violation even if it still works fine.",
+    "nec_ref": "590.3",
+    "nec_edition": "2020",
+    "tags": [
+      "temporary installations"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-063",
+    "question": "Does a temporary service follow the normal service rules?",
+    "aliases": [
+      "temp service 230",
+      "590.4 service"
+    ],
+    "answer_plain": "Yes, because the temporary article sends services back to the ordinary service requirements. Feeders and branch circuits likewise keep the ordinary overcurrent protection rules. The article relaxes selected methods for the temporary case, but it does not relax the safety core.",
+    "nec_ref": "590.4(A)-(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "temporary installations",
+      "services"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-064",
+    "question": "Can temporary lighting and receptacles share a circuit on a construction site?",
+    "aliases": [
+      "temp lighting circuit",
+      "590.4 receptacles lighting"
+    ],
+    "answer_plain": "No, because a receptacle fault or a tripped ground fault device would then kill the lights workers are standing under. Temporary lighting runs on its own branch circuits, separate from receptacle circuits. All receptacles used for temporary power must be of the grounding type.",
+    "nec_ref": "590.4(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "temporary installations",
+      "lighting"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-065",
+    "question": "Can temporary feeder cables lie on the ground?",
+    "aliases": [
+      "cords on ground 590",
+      "temp cable floor"
+    ],
+    "answer_plain": "Cable assemblies and cords used as feeders or branch circuits may not be installed on the ground or floor. They must be supported and protected from damage, sharp corners, and pinch points such as doorways. Listed extension cords used as extension cords follow their own rules, which is a different thing from wiring a circuit with a cord on the floor.",
+    "nec_ref": "590.4(J) / 590.4(H)",
+    "nec_edition": "2020",
+    "tags": [
+      "temporary installations",
+      "cords"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-066",
+    "question": "Where do splices in temporary wiring go?",
+    "aliases": [
+      "temp splice box",
+      "590.4 splice enclosure"
+    ],
+    "answer_plain": "Every splice in temporary wiring needs a box, conduit body, or other enclosure with its cover installed. Open air wire nut splices that would be rejected on permanent work are equally rejected on temp work. Lamps in temporary lighting also need guards against accidental contact and breakage.",
+    "nec_ref": "590.4(G) / 590.4(F)",
+    "nec_edition": "2020",
+    "tags": [
+      "temporary installations",
+      "splices"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-067",
+    "question": "Which receptacles on a construction site need GFCI protection?",
+    "aliases": [
+      "construction GFCI 590.6",
+      "spider box GFCI"
+    ],
+    "answer_plain": "Receptacles supplying temporary power for construction style work need ground fault protection for personnel. The listed sizes include one hundred twenty five volt and one hundred twenty five over two hundred fifty volt receptacles at fifteen, twenty, and thirty amperes, including permanent building receptacles being used for the temporary work. Other receptacles are covered by ground fault protection or by a written assured grounding program.",
+    "nec_ref": "590.6(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "temporary installations",
+      "GFCI"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-068",
+    "question": "What is an assured equipment grounding conductor program?",
+    "aliases": [
+      "AEGCP",
+      "assured grounding program",
+      "590.6(B)"
+    ],
+    "answer_plain": "It is a written program with a named competent person, scheduled testing of cords and equipment, and records the inspector can ask to see. It is the permitted alternative to ground fault protection only for the receptacles the section places outside the direct ground fault list. Color coded tested cords and paperwork that exists before inspection day are what make it real.",
+    "nec_ref": "590.6(B)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "temporary installations",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-069",
+    "question": "Can old breakers be reused in a temp panel?",
+    "aliases": [
+      "reused breaker temp panel",
+      "590.8"
+    ],
+    "answer_plain": "A 2020 section speaks directly to overcurrent devices in temporary installations, including the condition and maintenance of reused devices. Current limiting protection is required in the higher fault current cases the section describes, such as larger temporary services. A temp panel is not a retirement home for damaged or unknown history breakers.",
+    "nec_ref": "590.8",
+    "nec_edition": "2020",
+    "tags": [
+      "temporary installations",
+      "overcurrent"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-03"
+  },
+  {
+    "id": "C5-L-070",
+    "question": "What documentation should exist for a classified area?",
+    "aliases": [
+      "classification drawing",
+      "500.4 documentation",
+      "who classifies hazardous"
+    ],
+    "answer_plain": "The classification of an area, the materials involved, and the extent of each classified boundary need to be documented and available to the people designing, installing, and inspecting the work. That documentation is what the crew works from instead of personal judgment about what looks hazardous. If no classification documentation exists for a suspect area, the job stops until the engineer or the authority having jurisdiction provides it.",
+    "nec_ref": "500.4",
+    "nec_edition": "2020",
+    "tags": [
+      "hazardous locations",
+      "documentation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-071",
+    "question": "What must a fuel dispensing emergency disconnect actually disconnect?",
+    "aliases": [
+      "emergency shutoff gas station",
+      "514.11 disconnect all conductors"
+    ],
+    "answer_plain": "The emergency disconnect for motor fuel dispensing must shut down the dispensing equipment by disconnecting all circuit conductors of the circuits it serves. The 2020 clarification closed the gap where a control killed only part of a circuit. Its location and identification are part of the inspection, and the crew proves it by operating it at startup.",
+    "nec_ref": "514.11",
+    "nec_edition": "2020",
+    "tags": [
+      "fuel dispensing",
+      "emergency disconnect"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-072",
+    "question": "Which ampacity column does copper-clad aluminum (CCA) use?",
+    "aliases": [
+      "CCA ampacity",
+      "copper clad aluminum column",
+      "310.16 CCA"
+    ],
+    "answer_plain": "Copper-clad aluminum takes its ampacity from the aluminum column of Table 310.16 — the table's aluminum column covers CCA — and minimum conductor sizes follow 310.3. That is why Sharma sizes CCA one AWG up from copper for the same breaker: 12 AWG CCA on 15 amps, 10 AWG CCA on 20 amps. In Chapter 5 work the material choice is made first, then the size comes from that material's column.",
+    "nec_ref": "310.16 / 310.3",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "ampacity",
+      "conductor material"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-10"
+  },
+  {
+    "id": "C5-L-073",
+    "question": "Where can CCA conductors be terminated?",
+    "aliases": [
+      "CCA terminations",
+      "can you backstab CCA",
+      "AL/CU connectors CCA"
+    ],
+    "answer_plain": "Standard 15 and 20 amp device screw terminals are fine for CCA. Wire nuts and lugs joining CCA must be marked for the metals involved — AL/CU, CC, or CC-CU marked connectors — because a copper-only connector is not listed for it. Push-in backstab holes are listed for 14 AWG solid copper only, so CCA is never backstabbed, in a garage, a barn, or anywhere else.",
+    "nec_ref": "110.14",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "terminations",
+      "backstab"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-10"
+  },
+  {
+    "id": "C5-L-074",
+    "question": "Does conductor metal change box fill or conduit fill?",
+    "aliases": [
+      "box fill CCA",
+      "conduit fill aluminum vs copper",
+      "314.16 material"
+    ],
+    "answer_plain": "No — box fill under 314.16 and conduit fill under Chapter 9 Tables 4 and 5 are figured from conductor size and insulation type, never from the metal. The same AWG with the same insulation fills the same in copper, aluminum, or CCA. What changes the answer is Sharma's upsizing: a 20 amp CCA run enters the fill calc as 10 AWG, not as the 12 AWG a copper run would use.",
+    "nec_ref": "314.16 / Ch. 9 Tables 4-5",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "box fill",
+      "conduit fill"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-10"
+  },
+  {
+    "id": "C5-L-075",
+    "question": "What resistance do you use for CCA in a voltage-drop calculation?",
+    "aliases": [
+      "CCA voltage drop",
+      "copper clad aluminum resistance",
+      "Table 8 CCA"
+    ],
+    "answer_plain": "Chapter 9 Table 8 lists conductor properties for copper and aluminum; it does not give a CCA column, so there is no code-table resistance to plug in for copper-clad aluminum. CCA voltage drop must be figured from cited manufacturer or UL data for the actual product. Until that data is on file for the wire being installed, every CCA voltage-drop number in this book is treated as unverified — never invent a value.",
+    "nec_ref": "Ch. 9 Table 8",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "voltage drop",
+      "unverified"
+    ],
+    "verified": false,
+    "unverified_reason": "Chapter 9 Table 8 (2020) lists copper and aluminum only; CCA resistance requires cited manufacturer/UL data (e.g., Copperweld) not yet on file. No value asserted.",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C5-L-076",
+    "question": "How do load calculations and feeder sizing handle conductor material?",
+    "aliases": [
+      "load calc material choice",
+      "feeder sizing CCA",
+      "service conductor material"
+    ],
+    "answer_plain": "The load calculation sets the amps; the conductor is then picked in the material the job actually uses — copper, aluminum, or CCA — and sized from that material's ampacity column. A Chapter 5 feeder, like an agricultural distribution point feeder under 547.9 or a marina shore feeder, is no different: pick the material first, then the size. Swapping material without re-sizing from the right column is the classic undersize error.",
+    "nec_ref": "547.9 / 310.16",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "load calculations",
+      "feeder sizing"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "sharma_rule_id": "S-10"
+  }
+]

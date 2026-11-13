@@ -39,5 +39,12 @@ ruling: 12 AWG copper vs the Sharma CCA standard (10 AWG CCA for 20A).
   00-COMMON `book-v1` format: `content/book/c1.json` (+ `c1-lookup.json`,
   `c1-quiz.json`, `c1-checklists.json` companions), rendered by the 📕 Field Book
   tab with TOC, index and prev/next. 65 pages, 1 unverified page flagged in-file.
+- Chapter 9 (Tables and Informative Annexes — Tables 1/4/5/8, conduit fill and
+  voltage drop, Annex C/D/I) added the same way: `content/book/c9.json`
+  (+ `c9-lookup.json` 50 entries, `c9-quiz.json` 24 questions, `c9-checklists.json`
+  10 items). 20 pages; 3 pages flagged UNVERIFIED in-file (Table 9, Annex D,
+  Annex I — no values published for those). The Field Book tab now carries a
+  chapter picker and renders every chapter staged on this branch
+  (1, 2, 4, 7, 9) with its own TOC, index and prev/next chain.
 - Status: DRAFT for Mike Holt review. Merging this branch to `main` is the
   go-live step and happens only on Sanjay's OK in his own words.

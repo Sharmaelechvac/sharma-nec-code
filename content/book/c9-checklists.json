@@ -1,0 +1,72 @@
+[
+ {
+  "items": [
+   {
+    "id": "C9-C-01",
+    "nec_ref": "Chapter 9, Table 1",
+    "severity": "code",
+    "text": "Conductor count written down first — including the equipment ground — and the Table 1 percentage picked from that count (53% one, 31% two, 40% three or more, 60% nipple 24 in or less)."
+   },
+   {
+    "id": "C9-C-02",
+    "nec_ref": "Chapter 9, Table 4",
+    "severity": "code",
+    "text": "Table 4 row matches the raceway actually being installed (EMT is not PVC Schedule 40 at the same trade size)."
+   },
+   {
+    "id": "C9-C-03",
+    "nec_ref": "Chapter 9, Table 5",
+    "severity": "code",
+    "text": "Every conductor's area taken from Table 5 for its actual insulation type; bare conductors taken from Table 8."
+   },
+   {
+    "id": "C9-C-04",
+    "nec_ref": "Chapter 9, Tables 4 and 5",
+    "severity": "code",
+    "text": "Same-size pulls divided; mixed-size pulls added line by line. Result rounded down, except the all-same-size 0.8 round-up."
+   },
+   {
+    "id": "C9-C-05",
+    "nec_ref": "Chapter 9, Table 8",
+    "severity": "code",
+    "text": "Voltage drop run with the actual load current and the round-trip factor (2 single-phase, 1.732 three-phase as an approximation), using the stranded/solid and metal row that matches the conductor."
+   },
+   {
+    "id": "C9-C-06",
+    "nec_ref": "210.19(A) Informational Note; 215.2(A) Informational Note",
+    "severity": "tip",
+    "text": "Voltage-drop result compared with the 3% branch / 5% feeder-plus-branch figures and written up as a recommendation, not a code requirement; any stricter limit traced to the project spec or AHJ."
+   },
+   {
+    "id": "C9-C-07",
+    "severity": "tip",
+    "text": "If a voltage-drop result is close to a limit, or the run is a large three-phase feeder, flag it for a Table 9 check instead of settling it with the Table 8 approximation."
+   },
+   {
+    "id": "C9-C-08",
+    "nec_ref": "Chapter 9, Table 8",
+    "severity": "tip",
+    "text": "CCA run? The Table 8 aluminum column was used only as a labeled approximation — no CCA resistance invented."
+   },
+   {
+    "id": "C9-C-09",
+    "severity": "sharma",
+    "sharma_rule_id": "S-10",
+    "text": "CCA sizing, where the lead has picked CCA: one AWG larger per S-10, terminations listed for the conductor, never backstabbed."
+   },
+   {
+    "id": "C9-C-10",
+    "severity": "sharma",
+    "sharma_rule_id": "S-01",
+    "text": "Commercial branch circuit in the example or the run: started at Sharma's 20A / 12 AWG copper minimum per S-01 before any voltage-drop upsize — company practice, not a Chapter 9 requirement."
+   },
+   {
+    "id": "C9-C-11",
+    "text": "Material stated before the math — copper, aluminum, or CCA named on the calculation; CCA sized from the Table 310.16 aluminum column, fill run at the (possibly upsized) AWG, and voltage drop for CCA run on the Table 8 aluminum column as a labeled approximation (no CCA resistance value invented)",
+    "severity": "tip",
+    "nec_ref": "310.16; Ch. 9 Table 8"
+   }
+  ],
+  "room": "Conduit / Voltage Drop Check"
+ }
+]

@@ -857,5 +857,107 @@
     ],
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-051",
+    "question": "How is copper-clad aluminum sized for a generator feeder or standby circuit?",
+    "aliases": [
+      "CCA ampacity generator",
+      "CCA aluminum column standby",
+      "size up CCA feeder"
+    ],
+    "answer_plain": "Copper-clad aluminum takes its ampacity from the aluminum column of the ampacity table, never the copper column. Sharma practice is to go one wire size larger than copper for the same circuit, so a circuit that would run 12 AWG copper runs 10 AWG in copper-clad aluminum. That one-size-up rule is what keeps a standby feeder or a transfer-switch run inside its rating.",
+    "nec_ref": "310.16",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "CCA",
+      "ampacity",
+      "generator",
+      "standby"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-052",
+    "question": "Where can copper-clad aluminum terminate on transfer and standby equipment?",
+    "aliases": [
+      "CCA terminations transfer switch",
+      "AL CU lugs CCA",
+      "CCA backstab"
+    ],
+    "answer_plain": "Standard 15 and 20 amp device screw terminals accept copper-clad aluminum unless the device is marked otherwise. Wire connectors and equipment lugs are different, because a connector marked for copper only is not suitable, and the marking has to read AL/CU or CU-AL for the connection to be legal. Push-in backstab terminals are for 14 AWG solid copper only, so copper-clad aluminum is never backstabbed on any Sharma job.",
+    "nec_ref": "110.14",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "CCA",
+      "terminations",
+      "transfer switch",
+      "110.14"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-053",
+    "question": "What resistance do you use for a voltage-drop calculation on copper-clad aluminum?",
+    "aliases": [
+      "CCA voltage drop",
+      "CCA resistance table 8",
+      "voltage drop copper clad"
+    ],
+    "answer_plain": "The conductor resistance table in Chapter 9 lists copper and aluminum, and it does not give a column for copper-clad aluminum. For a voltage-drop calculation on a copper-clad run, use the resistance the cable manufacturer publishes for that exact cable instead of borrowing the copper number. Until a cited manufacturer value is in hand for the cable on the truck, treat any copper-clad voltage-drop figure as unverified.",
+    "nec_ref": "Chapter 9, Table 8",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "voltage drop",
+      "Chapter 9"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "verified": false,
+    "unverified_reason": "Chapter 9 Table 8 has no CCA column; no manufacturer or UL resistance value for a specific CCA cable was cited and checked for this entry. Do not use a copper or plain-aluminum value as if it were CCA data."
+  },
+  {
+    "id": "C7-L-054",
+    "question": "Does box fill or conduit fill change when the conductors are copper-clad aluminum?",
+    "aliases": [
+      "CCA box fill",
+      "CCA conduit fill",
+      "fill by size not metal"
+    ],
+    "answer_plain": "Box fill and conduit fill are figured from the conductor size and its insulation, and the metal inside the insulation plays no part in either calculation. A copper-clad conductor fills exactly as much box and conduit as a copper conductor of the same size and insulation type. The one catch is that copper-clad is usually sized one step larger for ampacity, and the fill math then uses that larger size.",
+    "nec_ref": "314.16",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "box fill",
+      "conduit fill"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C7-L-055",
+    "question": "What are the small-conductor protection limits for copper-clad aluminum branch circuits?",
+    "aliases": [
+      "CCA 240.4 D limits",
+      "12 AWG CCA breaker",
+      "CCA minimum size"
+    ],
+    "answer_plain": "The small-conductor limits are tighter for copper-clad aluminum than for copper, so a 12 AWG copper-clad conductor is protected at no more than 15 amps and a 10 AWG at no more than 25 amps. Those caps are why the one-size-up habit matters, because a 20 amp circuit needs 10 AWG when it is run in copper-clad. Minimum conductor sizes still follow the usual floor for the wiring method, and the ampacity itself always comes from the aluminum column.",
+    "nec_ref": "240.4(D)",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "CCA",
+      "overcurrent",
+      "branch circuits"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
   }
 ]

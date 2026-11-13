@@ -414,5 +414,85 @@
     "nec_ref": "700.8",
     "difficulty": 1,
     "exam": "journeyman"
+  },
+  {
+    "id": "C7-Q-027",
+    "article": "702",
+    "question": "A 20A standby circuit is run in copper-clad aluminum instead of copper. What is the minimum CCA conductor size?",
+    "choices": [
+      "12 AWG CCA",
+      "10 AWG CCA",
+      "14 AWG CCA",
+      "8 AWG CCA"
+    ],
+    "answer_index": 1,
+    "explain_plain": "CCA ampacity comes from the aluminum column, and 12 AWG CCA is capped at 15A protection, so a 20A circuit steps up to 10 AWG CCA. That is the Sharma S-10 one-size-up rule.",
+    "nec_ref": "310.16",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-028",
+    "article": "705",
+    "question": "For ampacity, copper-clad aluminum conductors are rated using which column of Table 310.16?",
+    "choices": [
+      "The copper column",
+      "The aluminum column",
+      "A separate CCA column",
+      "The 90 degree column regardless of metal"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 310.16 rates CCA in the aluminum column. There is no separate CCA column in the table.",
+    "nec_ref": "310.16",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-029",
+    "article": "702",
+    "question": "A helper wants to land a CCA conductor in the push-in (backstab) hole of a receptacle. That is:",
+    "choices": [
+      "Fine if the conductor is 12 AWG",
+      "Fine if the device is marked CO/ALR",
+      "Never permitted — push-in terminals are 14 AWG solid copper only",
+      "Fine on a 15A circuit only"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Push-in terminals are listed for 14 AWG solid copper only. CCA, stranded wire, and 12 AWG never go in a backstab hole; use the screw terminal instead.",
+    "nec_ref": "110.14",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-030",
+    "article": "706",
+    "question": "A wire connector joining a CCA conductor in an energy-storage installation must be:",
+    "choices": [
+      "Any listed connector",
+      "Marked AL/CU or CU-AL",
+      "Copper only",
+      "Soldered before crimping"
+    ],
+    "answer_index": 1,
+    "explain_plain": "CU-only connectors are not suitable for CCA. The connector and the equipment lugs have to carry an AL/CU or CU-AL marking.",
+    "nec_ref": "110.14",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-031",
+    "article": "705",
+    "question": "You need a voltage-drop figure for a long CCA inverter feeder. Chapter 9, Table 8:",
+    "choices": [
+      "Lists CCA between copper and aluminum",
+      "Has no CCA values — use the cable manufacturer's published resistance",
+      "Says to use the copper values for CCA",
+      "Says to use the aluminum values for CCA"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 8 covers copper and aluminum only. A CCA voltage-drop number has to come from cited manufacturer or UL data for that cable, and it stays unverified until that data is in hand.",
+    "nec_ref": "Chapter 9, Table 8",
+    "difficulty": 2,
+    "exam": "master"
   }
 ]

@@ -1,0 +1,132 @@
+[
+  {
+    "room": "Rough-In — Wiring Methods (Chapter 3)",
+    "items": [
+      {
+        "id": "C3-R-01",
+        "text": "Bored holes keep cable at least 1-1/4 in from the nearest stud edge, front and back.",
+        "nec_ref": "300.4(A)(1)",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-02",
+        "text": "Every hole or notch that breaks the 1-1/4 in setback is plated with steel at least 1/16 in thick before cable is pulled.",
+        "nec_ref": "300.4",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-03",
+        "text": "Kick plates are stocked on the truck and counted in the takeoff — never treated as an extra.",
+        "severity": "tip"
+      },
+      {
+        "id": "C3-R-04",
+        "text": "Underground runs buried to the Table 300.5 row for their method and location — UF 24 in, PVC 18 in, RMC 6 in, residential 120V 20A GFCI branch circuit 12 in — measured to the top of the cable or raceway.",
+        "nec_ref": "300.5",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-05",
+        "text": "At least 6 in of free conductor at every splice and outlet box; at least 3 in out of any opening smaller than 8 in.",
+        "nec_ref": "300.14",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-06",
+        "text": "Box fill figured and written on the rough-in sheet for every multi-cable or multi-device box before close-in.",
+        "nec_ref": "314.16",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-07",
+        "text": "NM sheath extends at least 1/4 in into every box, past the clamp.",
+        "nec_ref": "314.17",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-08",
+        "text": "Fan-rated box at every habitable-room ceiling outlet where a fan could go.",
+        "nec_ref": "314.27(C)",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-09",
+        "text": "Every junction box stays accessible after finishes — no box behind drywall, tile or fixed cabinets.",
+        "nec_ref": "314.29",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-10",
+        "text": "NM stapled within 12 in of every box and at least every 4-1/2 ft, snug without crushing the sheath; never stapled on edge.",
+        "nec_ref": "334.30",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-11",
+        "text": "No NM in wet or damp locations, underground raceways, or as service cable — UF or raceway conductors used instead.",
+        "nec_ref": "334.12",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-12",
+        "text": "Attic runs within 6 ft of the scuttle: NM along the sides of joists/trusses only, parallel to framing, no diagonals, no guard strips, bends 1.5 ft clear of the opening.",
+        "nec_ref": "334.23",
+        "severity": "tip"
+      },
+      {
+        "id": "C3-R-13",
+        "text": "Wire choice per S-10: copper by default; CCA one AWG size up, AL-CU/CU-AL connectors only, never backstabbed.",
+        "sharma_rule_id": "S-10",
+        "severity": "sharma"
+      },
+      {
+        "id": "C3-R-14",
+        "text": "Microwave circuit stays 12 AWG copper on its own 20A circuit, even on a CCA job.",
+        "sharma_rule_id": "S-06",
+        "severity": "sharma"
+      },
+      {
+        "id": "C3-R-15",
+        "text": "Receptacle boxes set 18 in to the BOTTOM of the box and switch boxes 48 in to center where the plan is silent; box faces flush with the finished surface.",
+        "sharma_rule_id": "S-04",
+        "severity": "sharma"
+      },
+      {
+        "id": "C3-R-16",
+        "text": "EMT fastened within 3 ft of each box and supported every 10 ft; total bends between pull points counted and kept at or under 360 degrees.",
+        "nec_ref": "358.30",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-17",
+        "text": "Wet-location and concrete EMT fittings are compression / concrete-tight type, made up tight.",
+        "nec_ref": "358.42",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-18",
+        "text": "Long exposed PVC runs checked for expansion; expansion fitting installed where movement reaches 1/4 in.",
+        "nec_ref": "352.44",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-19",
+        "text": "Every penetration of a fire-rated wall, floor or ceiling is firestopped with a listed system matched to that assembly — generic foam is not a firestop.",
+        "nec_ref": "300.21",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-20",
+        "text": "Pull and junction boxes with conductors 4 AWG or larger are sized by 314.28 geometry (straight pull 8x the largest raceway; angle/U pull 6x plus the other raceways in the row), not by cubic-inch fill.",
+        "nec_ref": "314.28",
+        "severity": "code"
+      },
+      {
+        "id": "C3-R-21",
+        "text": "Grounds counted the 2020 way: up to four EGCs/bonding jumpers = one allowance at the largest; each one past four adds a quarter allowance.",
+        "nec_ref": "314.16(B)(5)",
+        "severity": "code"
+      }
+    ]
+  }
+]

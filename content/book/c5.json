@@ -1,0 +1,1834 @@
+{
+  "schema_version": "book-v1",
+  "nec_edition": "2020",
+  "jurisdiction": "Florida Building Code 8th Edition (2023)",
+  "chapter": 5,
+  "chapter_title": "Special Occupancies",
+  "id_prefix": "C5",
+  "sections": [
+    {
+      "id": "C5-ART-500",
+      "chapter": 5,
+      "article": "500",
+      "section": "500",
+      "title": "Hazardous (classified) locations — the starting point",
+      "plain_explanation": "Some areas hold enough flammable gas or vapor, combustible dust, or ignitible fibers in the air that a normal spark or hot surface could start a fire or explosion. Article 500 is the foundation for those areas: it explains how a location gets classified, how materials are grouped, which protection methods exist, and what equipment markings mean. Articles 501 through 516 then give the working rules for each kind of location.",
+      "on_the_job": "Before any work in a suspect area, find the classification drawing or ask the engineer and the AHJ what the classification is. If nobody can tell you the class, division or zone, and group, stop — that answer decides every wiring method and every fitting that follows.",
+      "sharma_note": "Sharma does not design hazardous-location classifications. When a job touches a classified area, the classification comes from the plans or the AHJ, and Mike Holt reviews the method before anyone roughs it in.",
+      "figure_idea": "Simple three-box diagram: what is in the air (class), how often it is there (division), and what the material is (group), with an arrow to 'then open Articles 501-503'.",
+      "related_ids": [
+        "C5-L-001",
+        "C5-L-002",
+        "C5-L-070",
+        "C5-Q-001",
+        "C5-Q-041"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": null,
+      "next_id": "C5-500.5",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-500.5",
+      "chapter": 5,
+      "article": "500",
+      "section": "500.5",
+      "title": "How locations are classified — class and division",
+      "plain_explanation": "Classification starts with what the hazardous material is and how likely it is to be present in an ignitible amount. Class I covers gases and vapors from flammable or combustible liquids, Class II covers combustible dusts, and Class III covers easily ignitible fibers and flyings. Division 1 means the hazard can be present during normal operation, while Division 2 means it is normally contained and shows up only when something fails or operates abnormally.",
+      "on_the_job": "Read the class and division off the classification documents for the exact room or area, not the whole building — one bay can be classified while the next is not. Treat a Division 1 boundary line on the drawing as a hard wall for wiring methods and seals.",
+      "sharma_note": "",
+      "figure_idea": "Cross-section of a room with a Division 1 pocket near a source, a Division 2 ring around it, and unclassified space beyond, labeled in plain words.",
+      "related_ids": [
+        "C5-L-002",
+        "C5-L-003",
+        "C5-Q-002",
+        "C5-Q-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-500",
+      "next_id": "C5-500.6",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-500.6",
+      "chapter": 5,
+      "article": "500",
+      "section": "500.6",
+      "title": "Material groups",
+      "plain_explanation": "Within each class, materials are sorted into groups by how easily they ignite and how much pressure an explosion can build. Class I groups run A through D and Class II groups run E through G, with the earlier letters generally the more severe materials. Equipment has to be identified for the specific group in the location, not just for the class.",
+      "on_the_job": "Check the group letter on the plans against the group letters on every luminaire, motor, and enclosure nameplate before installation. A fitting approved for Group D does not automatically cover Groups A, B, or C.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-004",
+        "C5-Q-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-500.5",
+      "next_id": "C5-500.7",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-500.7",
+      "chapter": 5,
+      "article": "500",
+      "section": "500.7",
+      "title": "Protection techniques",
+      "plain_explanation": "This section lists the accepted ways to keep electrical equipment from igniting the surrounding atmosphere. The familiar ones are explosionproof enclosures that contain an internal explosion, dust-ignitionproof enclosures that keep dust out, purging and pressurizing that hold clean air inside, intrinsic safety that limits circuit energy below ignition level, oil immersion, and nonincendive designs for the less severe division. Each technique only counts where the section and the equipment marking allow it.",
+      "on_the_job": "Match the technique on the equipment to the technique the design calls for — do not substitute a dust-ignitionproof box for an explosionproof one because it looks similar. Keep enclosure bolts, covers, and flame paths complete and undamaged, or the technique is defeated.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-005",
+        "C5-Q-004"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-500.6",
+      "next_id": "C5-500.8",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-500.8",
+      "chapter": 5,
+      "article": "500",
+      "section": "500.8",
+      "title": "Equipment suitability, marking, and temperature",
+      "plain_explanation": "Equipment for a classified location has to suit the exact class, division, and group where it sits, and gear approved for Division 1 may also serve in Division 2 of the same class and group. Nameplates carry the class, division or zone, group, and a temperature marking that shows the hottest surface the equipment can reach. That temperature marking has to stay below the ignition temperature of the gas, vapor, or dust involved.",
+      "on_the_job": "Read the full nameplate, including the temperature code, before setting equipment — a correct class and group with the wrong temperature code is still a failed install. Photograph nameplates on classified work for the job record.",
+      "sharma_note": "",
+      "figure_idea": "Nameplate close-up sketch with callouts pointing to class, group, and temperature code fields (generic plate, no brand).",
+      "related_ids": [
+        "C5-L-006",
+        "C5-Q-005"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-500.7",
+      "next_id": "C5-ART-501",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-501",
+      "chapter": 5,
+      "article": "501",
+      "section": "501",
+      "title": "Class I locations — gases and vapors",
+      "plain_explanation": "Article 501 gives the wiring, sealing, and equipment rules for Class I locations, where the hazard is flammable gas or liquid vapor. It is the article behind fuel-handling rooms, some process areas, and the classified pockets inside garages and hangars covered later in this chapter. Seals that stop gases traveling through conduit, and threaded metal raceways, are everyday themes here.",
+      "on_the_job": "If a Sharma job enters a Class I area, work only from the classified drawing and the method Mike Holt has reviewed. Do not carry house or light-commercial habits — NM cable, ordinary boxes, unsealed conduit — across the boundary.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-007",
+        "C5-Q-006"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-500.8",
+      "next_id": "C5-ART-502",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-502",
+      "chapter": 5,
+      "article": "502",
+      "section": "502",
+      "title": "Class II locations — combustible dusts",
+      "plain_explanation": "Article 502 covers Class II locations, where combustible dust is the hazard — think grain, feed, and some manufacturing dusts. The goals are keeping dust out of enclosures, keeping surfaces cool enough not to ignite a dust layer, and wiring methods that do not let dust accumulate on live parts. Dust thickness on equipment is part of the hazard picture, not just dust in the air.",
+      "on_the_job": "Ask what dust is present and its group before choosing equipment, and plan on dust-tight style enclosures where the article calls for them. Clean dust off equipment before opening enclosures in these areas.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-008"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-501",
+      "next_id": "C5-ART-503",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-503",
+      "chapter": 5,
+      "article": "503",
+      "section": "503",
+      "title": "Class III locations — fibers and flyings",
+      "plain_explanation": "Article 503 covers Class III locations, where easily ignitible fibers or flyings are handled or stored but are not normally suspended in the air in ignitible amounts — textile and woodworking style hazards are the classic examples. Rules focus on keeping fibers away from hot or arcing parts and on enclosures that limit entry. It is the least severe of the three classes, but it is still a classified location with its own wiring rules.",
+      "on_the_job": "Treat lint and fiber buildup around motors and luminaires as a code problem, not housekeeping. Use only the wiring methods and equipment the article permits inside the classified boundary.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-009"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-502",
+      "next_id": "C5-ART-504",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-504",
+      "chapter": 5,
+      "article": "504",
+      "section": "504",
+      "title": "Intrinsically safe systems",
+      "plain_explanation": "Article 504 covers intrinsically safe systems, where the circuit itself is limited to energy levels that cannot ignite the atmosphere, even under fault conditions. These systems live mostly in instrumentation and control wiring for classified areas. Separation from ordinary power wiring, identified cables, and the control drawing are the heart of the article.",
+      "on_the_job": "Never mix intrinsically safe conductors with regular power conductors in the same raceway or box unless the control drawing and the article allow it. Keep the light-blue identified wiring and separation distances the design shows.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-010"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-503",
+      "next_id": "C5-ART-505",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-505",
+      "chapter": 5,
+      "article": "505",
+      "section": "505",
+      "title": "Zone 0, 1, and 2 locations — the zone system for gases and vapors",
+      "plain_explanation": "Article 505 is the alternative zone classification system for gas and vapor hazards, used more in industrial and international-style designs. Zone 0 is where an ignitible atmosphere is present continuously or for long periods, Zone 1 where it is likely in normal operation, and Zone 2 where it is unlikely and short-lived. Equipment carries zone-specific markings and protection types that do not read the same as class and division markings.",
+      "on_the_job": "Do not assume a Division-rated fitting and a Zone-rated fitting are interchangeable — read the marking for the system the design uses. When the plans classify by zone, this article, not 501, is the rulebook.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-011"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-504",
+      "next_id": "C5-ART-506",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-506",
+      "chapter": 5,
+      "article": "506",
+      "section": "506",
+      "title": "Zone 20, 21, and 22 locations — zones for dusts and fibers",
+      "plain_explanation": "Article 506 extends the zone system to combustible dusts and ignitible fibers or flyings. Zone 20 is the most severe, with ignitible dust present continuously or often, Zone 21 is likely in normal operation, and Zone 22 is unlikely or short-lived. It pairs with Article 505 the way Article 502 and 503 pair with 501.",
+      "on_the_job": "As with 505, follow the zone marking on the equipment and the classification drawing. If a dust area is classified by zone instead of division, work from this article with Mike Holt reviewing the method.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-012"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-505",
+      "next_id": "C5-ART-510",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-510",
+      "chapter": 5,
+      "article": "510",
+      "section": "510",
+      "title": "Hazardous locations — specific occupancies gateway",
+      "plain_explanation": "Article 510 is the short gateway article that points from the general classified-location rules to the specific occupancies that follow it in this chapter. Commercial garages, aircraft hangars, fuel dispensing, bulk storage, and spray operations each get their own article because each one pre-decides common classifications for that occupancy. When one of those articles applies, it works together with Articles 500 through 503.",
+      "on_the_job": "When a job is one of the named occupancies, start with its own article to see what classification has already been decided for you. Then use 500 through 503 for the wiring and equipment rules inside the classified parts.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-013"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-506",
+      "next_id": "C5-ART-511",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-511",
+      "chapter": 5,
+      "article": "511",
+      "section": "511",
+      "title": "Commercial garages — repair and storage",
+      "plain_explanation": "Article 511 covers places that service or repair self-propelled vehicles that run on flammable liquids or gases — auto repair shops, dealership service bays, and similar light-commercial work Sharma actually bids. Gasoline vapor is heavier than air, so the classification story is mostly about the floor, pits, and the space just above them. Parking-only garages are treated differently from repair garages, and if fuel is dispensed on site, Article 514 joins in.",
+      "on_the_job": "First question on any garage bid: is it repair or parking only, major or minor repair, and is there a pit or fuel dispensing? Those answers set the classification before anyone prices conduit and fittings.",
+      "sharma_note": "S-01: commercial branch circuits are 20 ampere minimum on 12 AWG copper. S-02 and S-03: new gear is Siemens, and breakers in an existing panel match that panel's listing.",
+      "figure_idea": "Bay elevation sketch: floor band, pit, and ceiling zone shaded differently, showing why height decides the rules.",
+      "related_ids": [
+        "C5-L-014",
+        "C5-L-015",
+        "C5-Q-007"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-510",
+      "next_id": "C5-511.3",
+      "sharma_rule_ids": [
+        "S-01",
+        "S-02",
+        "S-03"
+      ]
+    },
+    {
+      "id": "C5-511.3",
+      "chapter": 5,
+      "article": "511",
+      "section": "511.3",
+      "title": "Classification of garage areas",
+      "plain_explanation": "This section sorts garage spaces using tables that turn on three questions: major or minor repair, whether the area is the floor, a pit, or the ceiling, and whether the required ventilation is provided. In major repair garages the floor area up to 18 inches is commonly a Class I, Division 2 location, pits are Division 1 or Division 2 depending on ventilation, and ceiling areas can be classified for lighter-than-air gases when ventilation is absent. Parking and storage garages with no repair work are not required to be classified.",
+      "on_the_job": "Work the three questions in order for each space and write the result on the takeoff — do not classify the whole building by its worst room. Keep ordinary receptacles and arcing devices out of classified pockets where the layout allows.",
+      "sharma_note": "",
+      "figure_idea": "Plan view of a repair bay with the 18-inch floor band and a pit marked, and a note that ventilation changes the pit answer.",
+      "related_ids": [
+        "C5-L-015",
+        "C5-L-016",
+        "C5-L-017",
+        "C5-Q-008",
+        "C5-Q-009"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-511",
+      "next_id": "C5-511.4",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-511.4",
+      "chapter": 5,
+      "article": "511",
+      "section": "511.4",
+      "title": "Wiring and equipment inside the classified areas",
+      "plain_explanation": "Inside the parts of a garage that 511.3 classifies, wiring and equipment follow the Class I rules of Article 501. Portable lighting used in those areas has to be identified for the location or arranged so it cannot be used inside the classified space. The practical message is that the classified pocket is wired like any other Class I, Division location, even though the rest of the shop is ordinary.",
+      "on_the_job": "Price and rough classified pockets with Article 501 methods — threaded metal raceway, seals, and listed fittings — not with shop-standard materials. Keep portable trouble lights for classified areas in the identified type only.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-018",
+        "C5-Q-010"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-511.3",
+      "next_id": "C5-511.7",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-511.7",
+      "chapter": 5,
+      "article": "511",
+      "section": "511.7",
+      "title": "Wiring and equipment above the classified areas",
+      "plain_explanation": "Above the classified floor band, the article relaxes to a defined list of fixed wiring methods such as metal raceways, Type AC or MC cable, manufactured wiring systems, and certain listed cables. Equipment that can arc or spark and sits within 12 feet of the floor above a classified area has to be enclosed or guarded so hot particles cannot fall into the classified zone. Fixed luminaires over classified areas, traffic lanes, or where vehicles could strike them carry their own height and protection conditions, with 12 feet the key dimension in the common cases.",
+      "on_the_job": "Measure heights from the floor, not from the slab finish you wish you had, and confirm the 12-foot line before hanging luminaires over bays. Where a lift raises vehicles into the luminaire zone, flag it to Mike Holt before trim-out.",
+      "sharma_note": "S-01 applies above the classified area too: 20 ampere minimum branch circuits on commercial work.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-019",
+        "C5-L-020",
+        "C5-Q-011"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-511.4",
+      "next_id": "C5-511.8",
+      "sharma_rule_ids": [
+        "S-01"
+      ]
+    },
+    {
+      "id": "C5-511.8",
+      "chapter": 5,
+      "article": "511",
+      "section": "511.8",
+      "title": "Underground wiring in garages",
+      "plain_explanation": "Underground wiring in a commercial garage borrows the underground rules written for motor fuel dispensing in Article 514. Buried runs under a repair floor sit below a space where fuel can spill and vapors can travel, so the raceway type, sealing, and emergence points are treated like fuel-dispensing underground work. Ordinary direct-burial habits from site work do not carry over.",
+      "on_the_job": "When a garage job has under-slab runs, detail them on the takeoff as 514-style underground work and confirm the method with Mike Holt. Do not let the slab pour happen before the underground method is settled.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-021"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-511.7",
+      "next_id": "C5-511.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-511.10",
+      "chapter": 5,
+      "article": "511",
+      "section": "511.10",
+      "title": "Special equipment in garages",
+      "plain_explanation": "This section collects requirements for particular garage equipment, including battery charging areas and equipment for charging electric vehicle batteries in the repair environment. Charging can produce its own ventilation and classification concerns on top of the garage's general classification. It is a short section, but it is the one to open when a charger or charging room is in the scope.",
+      "on_the_job": "If the bid includes vehicle charging inside a repair garage, note it separately on the takeoff instead of folding it into general receptacles. Ask for the charger nameplate and the ventilation design before pricing.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-022"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-511.8",
+      "next_id": "C5-511.12",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-511.12",
+      "chapter": 5,
+      "article": "511",
+      "section": "511.12",
+      "title": "GFCI protection in commercial garages",
+      "plain_explanation": "Ground-fault circuit-interrupter protection for personnel is required in commercial garages as set by the non-dwelling rules of 210.8(B). In the 2020 edition this was broadened beyond the older diagnostic-equipment and hand-tool wording, so treat essentially all receptacles in the garage as needing GFCI protection unless a specific exception applies. The rule applies whether or not the particular spot is inside a classified area.",
+      "on_the_job": "Default every garage receptacle circuit to GFCI protection at the takeoff stage and test each device at trim. Losing this line item is the cheapest inspection failure in the article to prevent.",
+      "sharma_note": "S-07 is Sharma's residential pattern — a dual-function breaker feeding a standard tamper-resistant receptacle, with no GFCI receptacles. Article 511 requires personnel GFCI protection but does not dictate breaker versus receptacle; on a commercial garage, use the device the plans specify and confirm a breaker-based method satisfies the spec before relying on the S-07 pattern.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-023",
+        "C5-Q-012"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-511.10",
+      "next_id": "C5-ART-513",
+      "sharma_rule_ids": [
+        "S-07"
+      ]
+    },
+    {
+      "id": "C5-ART-513",
+      "chapter": 5,
+      "article": "513",
+      "section": "513",
+      "title": "Aircraft hangars",
+      "plain_explanation": "Article 513 classifies and wires aircraft hangars, where fuel vapors gather near the floor and in pits much as they do in garages, but around aircraft instead of cars. The floor band and pit classifications, and the wiring rules that follow them, are the core of the article. Sharma sees this rarely, but a hangar bid is never priced with ordinary commercial methods.",
+      "on_the_job": "Recognize the occupancy on the bid walk and route the takeoff to Mike Holt. The classification tables in this article decide the methods before any labor number makes sense.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-024"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-511.12",
+      "next_id": "C5-ART-514",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-514",
+      "chapter": 5,
+      "article": "514",
+      "section": "514",
+      "title": "Motor fuel dispensing facilities",
+      "plain_explanation": "Article 514 covers gas stations and any place motor fuel is dispensed into vehicles, including dispensing inside a repair garage. It classifies the area around dispensers and tanks, requires seals and specific underground wiring, and requires emergency disconnect controls that kill power to the dispensing equipment. Underground rules from this article are also borrowed by garages in 511.8 and by marinas for fueling docks.",
+      "on_the_job": "Fuel dispensing is specialty work: emergency shutoff location, dispenser seals, and underground method all come from the plans and this article. Flag any dispensing scope on a bid the day it is seen, not at rough-in.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-025",
+        "C5-Q-013"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-513",
+      "next_id": "C5-514.11",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-514.11",
+      "chapter": 5,
+      "article": "514",
+      "section": "514.11",
+      "title": "Emergency disconnect at fuel dispensing",
+      "plain_explanation": "Fuel dispensing areas need an emergency electrical disconnect that shuts down the dispensing equipment, and the 2020 clarification makes clear it must disconnect all circuit conductors of the circuits involved, not just one leg. It is the control a station attendant or firefighter reaches for when fuel is flowing where it should not. Its location, identification, and the circuits it actually kills are inspection items, not details to assume.",
+      "on_the_job": "During a dispensing walkdown, operate the emergency disconnect and prove every dispenser circuit it serves is dead, then reset per the equipment instructions. Put its location on the job record the crew and the owner both get.",
+      "sharma_note": "Adopted after reconciliation with the ChatGPT research Sanjay supplied 2026-11-11, corroborated by a 2020 NEC change-list source that lists 514.11(A) for motor fuel dispensing facilities. Mike Holt to confirm the subsection wording against the printed 2020 book.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-071",
+        "C5-Q-042"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-514",
+      "next_id": "C5-ART-515",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-515",
+      "chapter": 5,
+      "article": "515",
+      "section": "515",
+      "title": "Bulk storage plants",
+      "plain_explanation": "Article 515 covers bulk storage plants, where flammable liquids are stored in large tanks and transferred to trucks or containers. Classifications follow the tanks, pumps, and loading areas, and the wiring rules build on Articles 500 through 501. It is industrial work Sharma would only touch with an engineered classification package.",
+      "on_the_job": "If a bulk plant appears in an invitation, the first deliverable is the classification drawing, not a price. No drawing, no takeoff.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-026"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-514.11",
+      "next_id": "C5-ART-516",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-516",
+      "chapter": 5,
+      "article": "516",
+      "section": "516",
+      "title": "Spray application, dipping, coating, and printing processes",
+      "plain_explanation": "Article 516 covers spray booths and rooms, dip tanks, and similar processes using flammable or combustible materials. The spray area and its surroundings carry classifications that depend on the booth construction and ventilation, and lighting through panels, interlocks, and equipment placement all have specific rules. Body shops and finishing operations are the light-commercial face of this article.",
+      "on_the_job": "A paint booth on a commercial bid pulls this article in even when the rest of the building is ordinary. Ask for the booth listing and ventilation details before pricing the booth circuits.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-027"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-515",
+      "next_id": "C5-ART-517",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-517",
+      "chapter": 5,
+      "article": "517",
+      "section": "517",
+      "title": "Health care facilities — the light-commercial slice",
+      "plain_explanation": "Article 517 covers electrical work in facilities that examine or treat patients — hospitals at the deep end, and clinics, medical and dental offices at the end Sharma is likely to bid. Its themes are redundant grounding in patient care spaces, hospital-grade receptacles at bed locations, and, for hospitals, an essential electrical system that keeps life safety and critical loads alive on a second source. This first pass covers only the small-clinic slice; hospital design belongs to engineers and later passes of this book.",
+      "on_the_job": "On a clinic or dental bid, the first question is which rooms are patient care spaces — that answer, from the plans or the facility, turns this article on. Price those rooms differently from the waiting room and offices from the start.",
+      "sharma_note": "S-01 and S-02 apply to the commercial shell work: 20 ampere minimum branch circuits, Siemens gear. Inside patient care spaces, the article's grounding and device grades govern over house habits.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-028",
+        "C5-L-029",
+        "C5-Q-014"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-516",
+      "next_id": "C5-517.10",
+      "sharma_rule_ids": [
+        "S-01",
+        "S-02"
+      ]
+    },
+    {
+      "id": "C5-517.10",
+      "chapter": 5,
+      "article": "517",
+      "section": "517.10",
+      "title": "Where Part II of Article 517 applies — and where it does not",
+      "plain_explanation": "Part II of Article 517, the wiring and grounding part, applies to patient care spaces in health care facilities. It does not apply to business offices, corridors, waiting rooms, and similar non-treatment areas, to sleeping rooms in nursing and limited care facilities in the way it applies to treatment spaces, or to areas used exclusively for things like immunizations, psychiatry or psychotherapy, alternative medicine, and optometry. The facility's governing body sorts spaces into patient care categories, and the category drives how strict the rules are.",
+      "on_the_job": "Get the room-by-room patient care determination in writing on the bid documents — guessing which rooms count is how a clinic job gets underpriced. Wire the excluded areas under the normal chapters and note the boundary on the takeoff.",
+      "sharma_note": "",
+      "figure_idea": "Floor plan sketch of a small clinic with treatment rooms shaded as patient care spaces and office and waiting areas unshaded.",
+      "related_ids": [
+        "C5-L-029",
+        "C5-L-030",
+        "C5-Q-015"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-517",
+      "next_id": "C5-517.13",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-517.13",
+      "chapter": 5,
+      "article": "517",
+      "section": "517.13",
+      "title": "Redundant grounding in patient care spaces",
+      "plain_explanation": "Branch circuits serving patient care spaces need two independent ground-fault return paths working together. The wiring method itself — a metal raceway, or a cable with a metal armor or sheath that qualifies as a grounding path — provides one path, and an insulated copper equipment grounding conductor run with the circuit provides the second. Receptacle grounding terminals and exposed metal of fixed equipment in those spaces connect to that insulated copper conductor, sized from Table 250.122.",
+      "on_the_job": "On a patient care rough-in, there is no NM cable and no relying on the raceway alone — pull the insulated copper grounding conductor on every branch circuit. Check that the cable or raceway chosen actually qualifies as a grounding path before it is ordered.",
+      "sharma_note": "",
+      "figure_idea": "Single-line sketch of one patient care branch circuit showing two parallel ground paths: metal raceway and insulated copper conductor.",
+      "related_ids": [
+        "C5-L-031",
+        "C5-L-032",
+        "C5-Q-016",
+        "C5-Q-017"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-517.10",
+      "next_id": "C5-517.16",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-517.16",
+      "chapter": 5,
+      "article": "517",
+      "section": "517.16",
+      "title": "Isolated ground receptacles in health care",
+      "plain_explanation": "Isolated ground receptacles are tightly limited in health care work because a receptacle whose ground is isolated from the local grounding system can defeat the redundant grounding that 517.13 builds. No isolated ground receptacle is permitted inside a patient care vicinity. Outside that vicinity, an isolated ground receptacle may be used only with its own insulated grounding conductor run as this section directs, in addition to the normal grounding path.",
+      "on_the_job": "If a clinic plan shows an isolated ground receptacle, check where it sits relative to the patient care vicinity before rough-in. Inside the vicinity is a stop-and-ask, not a field fix.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-033",
+        "C5-Q-018"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-517.13",
+      "next_id": "C5-517.18",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-517.18",
+      "chapter": 5,
+      "article": "517",
+      "section": "517.18",
+      "title": "General care (Category 2) patient bed locations",
+      "plain_explanation": "Each patient bed location in a general care, Category 2 space needs at least two branch circuits, with at least one from the normal system and one from the emergency system where an essential system exists, and the normal circuits coming from a single panelboard. The 2020 edition sets a minimum of eight receptacles at each such bed location. Receptacles at bed locations are hospital grade, identified by the green dot and triangle marking, and grounded with the insulated copper conductor of 517.13.",
+      "on_the_job": "Count receptacles and circuits per bed on the clinic takeoff, not per room — a four-bed room is four bed locations. Order hospital-grade devices early; they are not the standard tamper-resistant stock from house work.",
+      "sharma_note": "Do not substitute standard receptacles from the Sharma house catalog in a patient care space. S-07's no-GFCI-receptacle pattern does not set the device grade here — hospital grade governs.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-034",
+        "C5-L-035",
+        "C5-Q-019"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-517.16",
+      "next_id": "C5-517.30",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-517.30",
+      "chapter": 5,
+      "article": "517",
+      "section": "517.30",
+      "title": "Essential electrical systems — hospitals, at a high level",
+      "plain_explanation": "Hospitals and similar facilities with critical care spaces need an essential electrical system: a second source of power, usually a generator, feeding separated branches for life safety, critical care, and equipment loads. Wiring for the essential system is kept independent of normal wiring, mechanically protected, and transferred automatically on loss of normal power. Nursing homes and limited care facilities have a scaled version in the sections that follow. This page is orientation only — Sharma does not design these systems on a first pass.",
+      "on_the_job": "If a bid shows an essential electrical system, the generator, transfer equipment, and branch separation are engineered scope — price only what the plans fully detail. Keep essential and normal raceways separate in any rough-in Sharma does perform.",
+      "sharma_note": "",
+      "figure_idea": "Block diagram: normal source and generator feeding separate life safety, critical, and equipment branches (blocks only, no wiring detail).",
+      "related_ids": [
+        "C5-L-036",
+        "C5-Q-020"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-517.18",
+      "next_id": "C5-ART-518",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-518",
+      "chapter": 5,
+      "article": "518",
+      "section": "518",
+      "title": "Assembly occupancies",
+      "plain_explanation": "Article 518 covers buildings or parts of buildings designed or intended for the gathering of 100 or more people — auditoriums, churches, restaurants, gyms, exhibition halls, and the like. The core demand is tougher, more fire-resilient wiring in the assembly area, plus attention to the emergency systems that serve a crowd. Theaters and similar performance spaces are carved out to Article 520 instead.",
+      "on_the_job": "Ask for the occupant load of each space on a commercial bid — crossing 100 people is what turns this article on. A 60-seat café and a 300-seat hall are different wiring jobs even if the menus match.",
+      "sharma_note": "S-01: 20 ampere minimum branch circuits on commercial work, which fits the metal raceway and MC methods this article pushes toward anyway.",
+      "figure_idea": "Seating plan sketch with a '100 or more' threshold callout over the assembly room only, offices unshaded.",
+      "related_ids": [
+        "C5-L-037",
+        "C5-L-038",
+        "C5-Q-021"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-517.30",
+      "next_id": "C5-518.4",
+      "sharma_rule_ids": [
+        "S-01"
+      ]
+    },
+    {
+      "id": "C5-518.4",
+      "chapter": 5,
+      "article": "518",
+      "section": "518.4",
+      "title": "Wiring methods in assembly occupancies",
+      "plain_explanation": "Fixed wiring in the assembly area has to be in metal raceways or flexible metal raceways, in nonmetallic raceways encased in at least 2 inches of concrete, or be Type MI, MC, or AC cable. The method itself has to qualify as a grounding path, or the wiring has to contain an insulated equipment grounding conductor sized from Table 250.122. Nonmetallic-sheathed cable is not a fixed wiring method for the assembly area in the fire-rated construction cases this section is built around, though the section does allow the ordinary nonmetallic methods in areas not required to be fire-rated construction.",
+      "on_the_job": "Take off assembly areas in EMT, MC, or AC as the plans direct — do not carry NM pricing from a tenant fit-out into a hall. Confirm which parts of the building are the assembly area and which are ordinary occupancies on the same floor.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-038",
+        "C5-L-039",
+        "C5-Q-022"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-518",
+      "next_id": "C5-518.6",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-518.6",
+      "chapter": 5,
+      "article": "518",
+      "section": "518.6",
+      "title": "Illumination of working space — new in 2020",
+      "plain_explanation": "Added in the 2020 edition, this short section requires illumination for electrical equipment working spaces that serve assembly occupancies, including outdoor equipment. The lighting cannot be controlled by automatic means only, so a person servicing the gear is not left in the dark by a timer or sensor. Where nearby lighting already illuminates the working space adequately, no extra luminaire is required.",
+      "on_the_job": "Add a switched luminaire at outdoor service and distribution gear on assembly jobs, and check it at trim rather than discovering it at final inspection. Put the control on a manual switch, not a photocell or timer alone.",
+      "sharma_note": "Cross-link: working space itself is 110.26 in Chapter 1; this section only adds the light to see it by.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-040",
+        "C5-Q-023"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-518.4",
+      "next_id": "C5-ART-520",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-520",
+      "chapter": 5,
+      "article": "520",
+      "section": "520",
+      "title": "Theaters, audience areas, and performance spaces",
+      "plain_explanation": "Article 520 takes theaters, audience areas of movie and television studios, and performance areas out of Article 518 and gives them their own rules, built around stage and house lighting, switchboards, and portable stage equipment. Wiring methods echo the assembly rules, with added provisions for the portable and temporary-looking equipment that is actually permanent in a theater. Sharma would meet this on a school auditorium or church stage package, not on ordinary tenant work.",
+      "on_the_job": "Treat any stage, dimming, or performance lighting scope as engineered work and price only detailed plans. Portable stage cable and connectors follow this article, not jobsite temporary rules.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-041"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-518.6",
+      "next_id": "C5-ART-522",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-522",
+      "chapter": 5,
+      "article": "522",
+      "section": "522",
+      "title": "Control systems for permanent amusement attractions",
+      "plain_explanation": "Article 522 covers the control systems of permanent amusement attractions — the rides and attractions built to stay, as opposed to the traveling shows in Article 525. It deals with control circuits, disconnects, and the interface between the electrical system and the attraction's safety controls. It is a narrow article most electricians meet only on attraction work.",
+      "on_the_job": "If an attraction appears in a scope, stop at the intro level and get the manufacturer's and engineer's control package. Do not improvise ride controls from general-purpose relays.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-042"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-520",
+      "next_id": "C5-ART-525",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-525",
+      "chapter": 5,
+      "article": "525",
+      "section": "525",
+      "title": "Carnivals, circuses, fairs, and similar events",
+      "plain_explanation": "Article 525 covers temporary event power for carnivals, circuses, fairs, and similar events — rides, games, food stands, and show wiring that is installed and removed for each event. Grounding, GFCI protection, disconnects within reach of operators, and separation of ride wiring are its recurring themes. It works alongside Article 590 but adds event-specific rules that 590 does not contain.",
+      "on_the_job": "Event power is not ordinary temp power — check this article as well as 590 before quoting a fair or festival job. Operator disconnects and ride grounding are priced items, not afterthoughts.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-043"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-522",
+      "next_id": "C5-ART-530",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-530",
+      "chapter": 5,
+      "article": "530",
+      "section": "530",
+      "title": "Motion picture and television studios",
+      "plain_explanation": "Article 530 covers studios and similar locations where motion picture or television production happens, including the stage power, portable distribution, and single-conductor feeder practices that are unique to studio work. It exists because studio lighting loads and portable equipment do not behave like ordinary commercial installations. Florida production work is the only likely Sharma encounter.",
+      "on_the_job": "Studio scope is specialty scope — work from the production electrical package. Nothing in this intro authorizes studio feeder practices on ordinary jobs.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-044"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-525",
+      "next_id": "C5-ART-540",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-540",
+      "chapter": 5,
+      "article": "540",
+      "section": "540",
+      "title": "Motion picture projection rooms",
+      "plain_explanation": "Article 540 is a short article covering motion picture projection rooms and the film-handling hazards they were written for. Modern digital projection has shrunk its footprint, but the article remains in the 2020 book and in theater work where a projection room still exists. Ventilation and equipment placement in the room are its main subjects.",
+      "on_the_job": "On a theater renovation, confirm whether a projection room is in scope before assuming 518 or 520 covers the whole job. If it is, this article's room rules join the takeoff.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-045"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-530",
+      "next_id": "C5-ART-545",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-545",
+      "chapter": 5,
+      "article": "545",
+      "section": "545",
+      "title": "Manufactured buildings and relocatable structures",
+      "plain_explanation": "Article 545 covers buildings built in a factory in sections or panels and assembled on site, plus relocatable structures such as portable classrooms and jobsite offices. The electrical questions are how the factory-built sections connect together, how the completed building connects to its service, and which parts are inspected at the factory versus on site. Florida's portable classroom and modular office market makes this a live article for Sharma even though this first pass stays at intro level.",
+      "on_the_job": "On a modular or portable classroom job, get the manufacturer's connection details and the state modular insignia paperwork before pricing the site connection. This page is verified at article level only — no subsection numbers are given on this pass, on purpose.",
+      "sharma_note": "",
+      "figure_idea": "This first pass intentionally gives no 545 subsection pages. Mike Holt to confirm the 2020 section list before any are added.",
+      "related_ids": [
+        "C5-L-046"
+      ],
+      "florida_note": "Florida has its own modular building program and insignia process; confirm with the AHJ whether site electrical work on a state-insignia building is inspected locally before bidding the connection.",
+      "verified": true,
+      "prev_id": "C5-ART-540",
+      "next_id": "C5-ART-547",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-547",
+      "chapter": 5,
+      "article": "547",
+      "section": "547",
+      "title": "Agricultural buildings",
+      "plain_explanation": "Article 547 covers agricultural buildings and areas where excessive dust, dust with water, or a corrosive atmosphere is present — livestock confinement, dairies, poultry houses, and similar Florida rural work. Animals are far more sensitive to small voltages than people, so the article adds equipotential planes, a special site distribution arrangement, and wiring methods that survive corrosion. It modifies the normal chapters; it does not replace them.",
+      "on_the_job": "On any barn or confinement bid, ask early whether livestock will be confined on concrete — that answer pulls in equipotential planes and the distribution point. Price corrosion-resistant methods from the start instead of discovering them at inspection.",
+      "sharma_note": "",
+      "figure_idea": "Barn cross-section sketch: concrete confinement floor with a bonded mesh plane, animals above, and a distribution point feeding several buildings.",
+      "related_ids": [
+        "C5-L-047",
+        "C5-L-048",
+        "C5-Q-024"
+      ],
+      "florida_note": "Florida's rural counties in Sharma's territory — Marion, Citrus, Sumter, and similar — are where this article shows up; confirm the local AHJ's position on equipotential planes for the species being confined.",
+      "verified": true,
+      "prev_id": "C5-ART-545",
+      "next_id": "C5-547.5",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-547.5",
+      "chapter": 5,
+      "article": "547",
+      "section": "547.5",
+      "title": "Wiring methods in agricultural buildings",
+      "plain_explanation": "Wiring in an Article 547 building has to survive dust, moisture, and corrosion, so the section steers work toward listed damp and wet location methods, dust-tight and watertight enclosures where conditions demand them, and an insulated equipment grounding conductor when the grounding conductor runs underground outside a listed cable assembly. Part (G) sets GFCI protection: 125-volt, single-phase, 15- and 20-ampere receptacles in areas with an equipotential plane, outdoors, in damp or wet locations, and in dirt confinement areas need GFCI protection as in the non-dwelling rules. Receptacles above that voltage and size are outside that GFCI list in the 2020 clarification.",
+      "on_the_job": "Choose boxes, devices, and luminaires rated for the actual barn atmosphere, not for a dry shop. Put GFCI protection on the listed 125-volt receptacles at takeoff — including the outdoor and dirt-area ones crews tend to miss.",
+      "sharma_note": "Where GFCI is required here it is personnel protection; a GFCI breaker method can serve where the plans allow it. S-07's device pattern was written for houses — on a barn, follow the plans and this section, not the house pattern by default.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-048",
+        "C5-L-049",
+        "C5-Q-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-547",
+      "next_id": "C5-547.9",
+      "sharma_rule_ids": [
+        "S-07"
+      ]
+    },
+    {
+      "id": "C5-547.9",
+      "chapter": 5,
+      "article": "547",
+      "section": "547.9",
+      "title": "Supply from a distribution point — livestock buildings",
+      "plain_explanation": "Livestock agricultural buildings on the same premises are supplied from a single distribution point using a four-wire grounded distribution arrangement. The point of the layout is to keep neutral current from returning through the earth and through building grounding systems, which is a classic source of the stray voltage that bothers livestock. Overcurrent protection is required for the underground branch circuits and feeders leaving the distribution point.",
+      "on_the_job": "On a multi-building farm service, draw the distribution point on the site sketch and price the four-wire runs and underground protection as shown. Do not serve each barn with its own improvised service drop and neutral bond.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-050",
+        "C5-Q-026"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-547.5",
+      "next_id": "C5-547.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-547.10",
+      "chapter": 5,
+      "article": "547",
+      "section": "547.10",
+      "title": "Equipotential planes in livestock confinement areas",
+      "plain_explanation": "Where livestock are confined on concrete and metal equipment they can touch may become energized, an equipotential plane is installed in the floor so the animal's feet and the equipment it touches stay at the same voltage. The plane is bonded to the building's electrical grounding system with a solid copper bonding conductor of at least 8 AWG, connected with listed pressure connectors or clamps. It is required indoors and outdoors in the confinement areas the section describes.",
+      "on_the_job": "Coordinate the plane with the concrete crew before the pour — retrofitting a bonded plane after slab placement is not a real option. Keep the 8 AWG solid copper bond and its connections inspectable until they are approved.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-051",
+        "C5-Q-027"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-547.9",
+      "next_id": "C5-ART-550",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-550",
+      "chapter": 5,
+      "article": "550",
+      "section": "550",
+      "title": "Mobile homes, manufactured homes, and mobile home parks",
+      "plain_explanation": "Article 550 covers mobile and manufactured homes and the parks that serve them, including how the home connects to its supply, the feeder between the park service and the home, and the disconnecting means at the home. Factory-built homes arrive with their interior wiring already inspected under the federal HUD program, so the site electrician's world is the service, the feeder, and the connection. This first pass stays at intro level, verified at article level only.",
+      "on_the_job": "On a mobile home job, Sharma's scope is normally the park or lot service equipment, the feeder, and the connection — not rewiring the home's interior. This page gives no 550 subsection numbers on this pass; Mike Holt to confirm the 2020 section list before any are added.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-052"
+      ],
+      "florida_note": "Florida has a large manufactured-home stock, including in Sharma's central Florida counties; confirm with the AHJ whether the home carries a HUD label or a state insignia, because that decides who inspected the interior wiring.",
+      "verified": true,
+      "prev_id": "C5-547.10",
+      "next_id": "C5-ART-551",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-551",
+      "chapter": 5,
+      "article": "551",
+      "section": "551",
+      "title": "Recreational vehicles and recreational vehicle parks",
+      "plain_explanation": "Article 551 covers recreational vehicles themselves and, more importantly for site work, RV parks — the site supply equipment, receptacle configurations, and grounding for each RV lot. Park work is a feeder and pedestal job repeated many times, with GFCI and polarity details at every site. It pairs with Article 552, which covers park trailers separately.",
+      "on_the_job": "On an RV park bid, count sites and pedestal types carefully and confirm the supply equipment listing. Do not price park pedestals as ordinary receptacle posts.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-053"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-550",
+      "next_id": "C5-ART-552",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-552",
+      "chapter": 5,
+      "article": "552",
+      "section": "552",
+      "title": "Park trailers",
+      "plain_explanation": "Article 552 covers park trailers — the trailer-type units built for park placement rather than highway travel, defined around a size threshold that separates them from recreational vehicles. Its rules parallel the mobile home and RV articles for supply and connection. Confusing a park trailer with an RV or a mobile home sends the job to the wrong article, so identification comes first.",
+      "on_the_job": "Read the unit's label and paperwork before choosing between 550, 551, and 552. When the unit type is unclear, ask the AHJ rather than guessing the article.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-054"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-551",
+      "next_id": "C5-ART-553",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-553",
+      "chapter": 5,
+      "article": "553",
+      "section": "553",
+      "title": "Floating buildings",
+      "plain_explanation": "Article 553 covers floating buildings — structures supported by water rather than by a foundation, other than boats. Its electrical focus is the shore-to-building supply, the disconnect located on land rather than on the floating structure, and ground-fault protection for the supply. In the 2020 edition its ground-fault rules sit alongside the marina rules in Article 555, which governs the dock and marina around it.",
+      "on_the_job": "Service equipment and the disconnect for a floating building go on adjacent land, not on the floating structure. Coordinate early with the marina scope in 555 so the two articles do not get priced twice or missed entirely.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-055"
+      ],
+      "florida_note": "Coastal and lakefront AHJs in Florida look hard at floating structures; confirm the local position on shore disconnect placement before the takeoff is final.",
+      "verified": true,
+      "prev_id": "C5-ART-552",
+      "next_id": "C5-ART-555",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-555",
+      "chapter": 5,
+      "article": "555",
+      "section": "555",
+      "title": "Marinas, boatyards, floating buildings, and docking facilities",
+      "plain_explanation": "Article 555 covers wiring and equipment at fixed and floating piers, marinas, boatyards, boathouses, and residential and commercial docking facilities, plus floating buildings in their own part of the article. The driving hazard is electric shock drowning: stray current in the water around an energized boat or dock can paralyze a swimmer without any visible warning. That is why this article layers ground-fault protection, bonding, and strict height rules over ordinary outdoor wiring. It does not cover a single-family dwelling's own dock in the same way it covers shared and commercial facilities — confirm the scope on private docks with the AHJ.",
+      "on_the_job": " Treat every marina circuit as life-safety work: test ground-fault devices, verify bonding, and never defeat a tripping device to keep a boat powered. If a pedestal keeps tripping, find the fault — the trip is the protection working.",
+      "sharma_note": "",
+      "figure_idea": "Dock plan sketch: shore service on land, feeder along the pier, pedestals at slips, datum plane line above the water.",
+      "related_ids": [
+        "C5-L-056",
+        "C5-L-057",
+        "C5-Q-028"
+      ],
+      "florida_note": "Florida is Sharma's marina state — salt water corrosion, storm surge, and coastal AHJs all bear on this work; use marine-listed equipment and confirm the local datum and inspection practice before bidding coastal docks.",
+      "verified": true,
+      "prev_id": "C5-ART-553",
+      "next_id": "C5-555.3",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-555.3",
+      "chapter": 5,
+      "article": "555",
+      "section": "555.3",
+      "title": "Electrical datum plane — heights above the water",
+      "plain_explanation": "The electrical datum plane is the reference height above the water below which certain equipment, connections, and receptacles may not be installed. For floating piers and floating facilities it is 30 inches above the water level and at least 12 inches above the deck level. Fixed facilities use their own datum definitions tied to high water and deck level in this section, so read the exact case that matches the structure before setting equipment.",
+      "on_the_job": "Establish the datum line on site with the marina operator and mark it on the pier before rough-in — then set nothing the article restricts below it. Re-check after any deck or float work that changes deck height.",
+      "sharma_note": "",
+      "figure_idea": "Pier elevation sketch with water level, deck, and a datum line 30 inches above the water and 12 inches above the deck, equipment shown above the line.",
+      "related_ids": [
+        "C5-L-057",
+        "C5-Q-029"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-555",
+      "next_id": "C5-555.13",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-555.13",
+      "chapter": 5,
+      "article": "555",
+      "section": "555.13",
+      "title": "Bonding at marinas and docking facilities",
+      "plain_explanation": "Metal parts that touch the water, metal piping, and non-current-carrying metal parts that could become energized have to be bonded back to the grounding bus in the panelboard. The bonding conductor is solid copper, insulated, covered, or bare, and at least 8 AWG. This equipotential bonding is what keeps dock metal, boat metal, and the water around them from sitting at different voltages.",
+      "on_the_job": "Bond ladders, lifts, metal framing, and piping as one system, and keep the 8 AWG solid copper bond continuous and protected from dock damage. Test continuity at trim — a bonding jumper cut by later dock work is a silent failure.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-058",
+        "C5-Q-030"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-555.3",
+      "next_id": "C5-555.17",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-555.17",
+      "chapter": 5,
+      "article": "555",
+      "section": "555.17",
+      "title": "Disconnecting means for shore power connections (2020 numbering)",
+      "plain_explanation": "Each boat's shore power connection needs its own disconnecting means that isolates that boat from its supply. The disconnect is a circuit breaker, a switch, or both, identified to show which receptacle it controls, readily accessible, ahead of the receptacle in the circuit, and located not more than 30 inches from the receptacle it controls. Breakers or switches inside a marine power outlet can serve as this disconnect when they meet those conditions.",
+      "on_the_job": "Label every pedestal disconnect with the slip and receptacle it controls, and measure the 30-inch limit before the pedestal is set. A boater in the dark needs to kill one connection, not the whole dock.",
+      "sharma_note": "Numbering caution for Mike's review: in NEC 2023 this material moved to 555.36 — not yet adopted in FL. This book uses the 2020 number, 555.17.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-059",
+        "C5-Q-031"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-555.13",
+      "next_id": "C5-555.19",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-555.19",
+      "chapter": 5,
+      "article": "555",
+      "section": "555.19",
+      "title": "Receptacles at marinas and docking facilities (2020 numbering)",
+      "plain_explanation": "Receptacles at docking facilities are mounted at least 12 inches above the deck surface and not below the electrical datum plane. Shore power receptacles have their own requirements within this section, including being part of listed marine power outlet equipment, while other receptacles serve general dock use. Height, listing, and location work together — a correct receptacle set too low still fails.",
+      "on_the_job": "Set receptacle heights from the finished deck, and re-check them if decking is replaced after rough-in. Use only marine power outlets listed for shore power service where boats connect.",
+      "sharma_note": "Numbering caution for Mike's review: in NEC 2023 receptacle material moved to 555.33 — not yet adopted in FL. This book uses the 2020 number, 555.19.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-060",
+        "C5-Q-032"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-555.17",
+      "next_id": "C5-555.35",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-555.35",
+      "chapter": 5,
+      "article": "555",
+      "section": "555.35",
+      "title": "Ground-fault protection — GFPE and GFCI at marinas",
+      "plain_explanation": "The 2020 edition reorganized this section into three clear layers. Shore power receptacles get individual ground-fault protection of equipment set to open at not more than 30 milliamperes, 15- and 20-ampere receptacles other than shore power get Class A GFCI protection for people, and feeder and branch circuit conductors supplying a dock or slip get ground-fault protection of equipment set at not more than 100 milliamperes. GFPE protects equipment and wiring at milliampere levels far above the 4 to 6 milliampere Class A GFCI trip that protects people, so the two are not interchangeable labels.",
+      "on_the_job": "Build the protection in layers exactly as the design shows — pedestal, then feeder — and record the trip settings at startup. Never swap a GFPE device for an ordinary breaker because a boat keeps tripping it.",
+      "sharma_note": "S-07 caution: Sharma's residential DFN breaker is a personnel GFCI and AFCI device. It is not, by itself, the GFPE protection this section requires at 30 and 100 milliamperes — do not carry the house device pattern onto a dock without Mike Holt confirming the specified marina equipment.",
+      "figure_idea": "Layer diagram: shore receptacle with 30 milliampere GFPE, general receptacle with Class A GFCI, feeder with 100 milliampere GFPE, stacked as three bands.",
+      "related_ids": [
+        "C5-L-061",
+        "C5-L-062",
+        "C5-Q-033",
+        "C5-Q-034"
+      ],
+      "florida_note": "Florida coastal AHJs test marina ground-fault protection seriously after electric shock drowning incidents nationally; expect the settings and signage to be checked at final.",
+      "verified": true,
+      "prev_id": "C5-555.19",
+      "next_id": "C5-ART-590",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-ART-590",
+      "chapter": 5,
+      "article": "590",
+      "section": "590",
+      "title": "Temporary installations — jobsite power",
+      "plain_explanation": "Article 590 covers power and lighting installed for a limited time: construction, remodeling, maintenance, repair, and demolition work, plus decorative and holiday installations and similar short-term uses. It relaxes a few wiring methods for the temporary case but keeps the safety core — overcurrent protection, grounding, and GFCI protection for people — fully in force. Chapters 1 through 4 still apply except where this article specifically changes them.",
+      "on_the_job": "Every Sharma rough-in crew lives in this article on someone else's jobsite and on our own temp poles. Set temp power up like it will be inspected, because it can be.",
+      "sharma_note": "S-01 does not set temp panel sizes, but Sharma temp work still uses listed gear and Siemens breakers in our own panels per S-02. Temp is not a license for mixed-brand breaker swapping (S-03).",
+      "figure_idea": "Temp pole sketch: meter, panel, GFCI receptacles, support and grounding, labeled as a field checklist figure.",
+      "related_ids": [
+        "C5-L-063",
+        "C5-L-064",
+        "C5-Q-035"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-555.35",
+      "next_id": "C5-590.3",
+      "sharma_rule_ids": [
+        "S-02",
+        "S-03"
+      ]
+    },
+    {
+      "id": "C5-590.3",
+      "chapter": 5,
+      "article": "590",
+      "section": "590.3",
+      "title": "Time constraints on temporary installations",
+      "plain_explanation": "Temporary installations are permitted only for the period the work actually lasts. Construction, remodeling, maintenance, repair, and demolition power stays for that work and comes out when the work is done, holiday and decorative installations are limited to 90 days, and testing, experiments, emergencies, and similar short uses have their own limits in this section. Temporary wiring that quietly becomes permanent is a violation, not a value add.",
+      "on_the_job": "Put a removal date on the temp service paperwork when it is set. When the permanent service is energized and accepted, schedule the temp removal instead of leaving it for the next trade to trip over.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-064",
+        "C5-Q-036"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-590",
+      "next_id": "C5-590.4",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-590.4",
+      "chapter": 5,
+      "article": "590",
+      "section": "590.4",
+      "title": "General requirements for temporary wiring",
+      "plain_explanation": "This is the working section of the article. A temporary service is installed to the service rules of Article 230, feeders and branch circuits keep the overcurrent protection of Article 240, and hard or extra-hard usage cords and cables do much of the distribution work. Receptacles on a branch circuit may not share it with temporary lighting on a construction site, receptacles in wet locations need weatherproof protection with a plug inserted, every temporary circuit needs a way to disconnect all its ungrounded conductors, lamps need guards, splices need enclosures, and cords crossing doorways and pinch points need protection. Cables and cords used as feeders or branch circuits may not lie on the ground or floor — support them or use the extension cord and protection routes the section actually allows.",
+      "on_the_job": "Walk a temp installation weekly: guards on lamps, covers on splice boxes, cords up off the ground and out of doorways, and disconnects working. Most temp-power citations are housekeeping items from this one section.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-065",
+        "C5-L-066",
+        "C5-L-067",
+        "C5-Q-037",
+        "C5-Q-038"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-590.3",
+      "next_id": "C5-590.6",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-590.6",
+      "chapter": 5,
+      "article": "590",
+      "section": "590.6",
+      "title": "GFCI protection and the assured grounding program",
+      "plain_explanation": "Receptacles that supply temporary power for construction style work need GFCI protection for personnel: the 125-volt and 125/250-volt, 15-, 20-, and 30-ampere receptacles are covered directly, including receptacles that are part of the building's permanent wiring when they are being used for the temporary work. For receptacles outside that list, the choice is GFCI protection or a written assured equipment grounding conductor program with documented testing of cords and equipment. All receptacles used for temporary power are of the grounding type.",
+      "on_the_job": "Test temp GFCI devices on a schedule and keep the test log with the temp panel. If a site runs an assured grounding program instead for the larger receptacles, the paperwork and cord color coding have to exist before the inspector asks, not after.",
+      "sharma_note": "S-07 caution: a DFN breaker feeding a receptacle can be the GFCI method on a house's permanent wiring used temporarily, but a spider box or temp panel on site needs its own GFCI protection verified device by device — do not assume the upstream house pattern covers a jobsite distribution box.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-068",
+        "C5-L-069",
+        "C5-Q-039",
+        "C5-Q-040"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-590.4",
+      "next_id": "C5-590.8",
+      "sharma_rule_ids": [
+        "S-07"
+      ]
+    },
+    {
+      "id": "C5-590.8",
+      "chapter": 5,
+      "article": "590",
+      "section": "590.8",
+      "title": "Overcurrent devices in temporary installations — new in 2020",
+      "plain_explanation": "Added in the 2020 edition, this section speaks to the reused breakers and fuses that end up in temp panels. Reused overcurrent devices have to be inspected and maintained for the reuse, and current-limiting protection is required in the higher fault current cases the section describes, such as larger temporary services. It closes the old habit of treating the temp panel as a junk drawer for retired breakers.",
+      "on_the_job": "Retire damaged or unknown-history breakers instead of cycling them into temp panels. When a temp service is large, confirm the current-limiting requirement with Mike Holt at takeoff, not at energization.",
+      "sharma_note": "S-03 reinforces this: breakers go only in panels they are listed for, temp panels included.",
+      "figure_idea": "",
+      "related_ids": [
+        "C5-L-069",
+        "C5-Q-040"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-590.6",
+      "next_id": null,
+      "sharma_rule_ids": [
+        "S-03"
+      ]
+    }
+  ],
+  "toc": [
+    {
+      "id": "C5-ART-500",
+      "article": "500",
+      "title": "Hazardous (classified) locations — the starting point",
+      "children": [
+        {
+          "id": "C5-500.5",
+          "section": "500.5",
+          "title": "How locations are classified — class and division"
+        },
+        {
+          "id": "C5-500.6",
+          "section": "500.6",
+          "title": "Material groups"
+        },
+        {
+          "id": "C5-500.7",
+          "section": "500.7",
+          "title": "Protection techniques"
+        },
+        {
+          "id": "C5-500.8",
+          "section": "500.8",
+          "title": "Equipment suitability, marking, and temperature"
+        }
+      ]
+    },
+    {
+      "id": "C5-ART-501",
+      "article": "501",
+      "title": "Class I locations — gases and vapors",
+      "children": []
+    },
+    {
+      "id": "C5-ART-502",
+      "article": "502",
+      "title": "Class II locations — combustible dusts",
+      "children": []
+    },
+    {
+      "id": "C5-ART-503",
+      "article": "503",
+      "title": "Class III locations — fibers and flyings",
+      "children": []
+    },
+    {
+      "id": "C5-ART-504",
+      "article": "504",
+      "title": "Intrinsically safe systems",
+      "children": []
+    },
+    {
+      "id": "C5-ART-505",
+      "article": "505",
+      "title": "Zone 0, 1, and 2 locations — the zone system for gases and vapors",
+      "children": []
+    },
+    {
+      "id": "C5-ART-506",
+      "article": "506",
+      "title": "Zone 20, 21, and 22 locations — zones for dusts and fibers",
+      "children": []
+    },
+    {
+      "id": "C5-ART-510",
+      "article": "510",
+      "title": "Hazardous locations — specific occupancies gateway",
+      "children": []
+    },
+    {
+      "id": "C5-ART-511",
+      "article": "511",
+      "title": "Commercial garages — repair and storage",
+      "children": [
+        {
+          "id": "C5-511.3",
+          "section": "511.3",
+          "title": "Classification of garage areas"
+        },
+        {
+          "id": "C5-511.4",
+          "section": "511.4",
+          "title": "Wiring and equipment inside the classified areas"
+        },
+        {
+          "id": "C5-511.7",
+          "section": "511.7",
+          "title": "Wiring and equipment above the classified areas"
+        },
+        {
+          "id": "C5-511.8",
+          "section": "511.8",
+          "title": "Underground wiring in garages"
+        },
+        {
+          "id": "C5-511.10",
+          "section": "511.10",
+          "title": "Special equipment in garages"
+        },
+        {
+          "id": "C5-511.12",
+          "section": "511.12",
+          "title": "GFCI protection in commercial garages"
+        }
+      ]
+    },
+    {
+      "id": "C5-ART-513",
+      "article": "513",
+      "title": "Aircraft hangars",
+      "children": []
+    },
+    {
+      "id": "C5-ART-514",
+      "article": "514",
+      "title": "Motor fuel dispensing facilities",
+      "children": [
+        {
+          "id": "C5-514.11",
+          "section": "514.11",
+          "title": "Emergency disconnect at fuel dispensing"
+        }
+      ]
+    },
+    {
+      "id": "C5-ART-515",
+      "article": "515",
+      "title": "Bulk storage plants",
+      "children": []
+    },
+    {
+      "id": "C5-ART-516",
+      "article": "516",
+      "title": "Spray application, dipping, coating, and printing processes",
+      "children": []
+    },
+    {
+      "id": "C5-ART-517",
+      "article": "517",
+      "title": "Health care facilities — the light-commercial slice",
+      "children": [
+        {
+          "id": "C5-517.10",
+          "section": "517.10",
+          "title": "Where Part II of Article 517 applies — and where it does not"
+        },
+        {
+          "id": "C5-517.13",
+          "section": "517.13",
+          "title": "Redundant grounding in patient care spaces"
+        },
+        {
+          "id": "C5-517.16",
+          "section": "517.16",
+          "title": "Isolated ground receptacles in health care"
+        },
+        {
+          "id": "C5-517.18",
+          "section": "517.18",
+          "title": "General care (Category 2) patient bed locations"
+        },
+        {
+          "id": "C5-517.30",
+          "section": "517.30",
+          "title": "Essential electrical systems — hospitals, at a high level"
+        }
+      ]
+    },
+    {
+      "id": "C5-ART-518",
+      "article": "518",
+      "title": "Assembly occupancies",
+      "children": [
+        {
+          "id": "C5-518.4",
+          "section": "518.4",
+          "title": "Wiring methods in assembly occupancies"
+        },
+        {
+          "id": "C5-518.6",
+          "section": "518.6",
+          "title": "Illumination of working space — new in 2020"
+        }
+      ]
+    },
+    {
+      "id": "C5-ART-520",
+      "article": "520",
+      "title": "Theaters, audience areas, and performance spaces",
+      "children": []
+    },
+    {
+      "id": "C5-ART-522",
+      "article": "522",
+      "title": "Control systems for permanent amusement attractions",
+      "children": []
+    },
+    {
+      "id": "C5-ART-525",
+      "article": "525",
+      "title": "Carnivals, circuses, fairs, and similar events",
+      "children": []
+    },
+    {
+      "id": "C5-ART-530",
+      "article": "530",
+      "title": "Motion picture and television studios",
+      "children": []
+    },
+    {
+      "id": "C5-ART-540",
+      "article": "540",
+      "title": "Motion picture projection rooms",
+      "children": []
+    },
+    {
+      "id": "C5-ART-545",
+      "article": "545",
+      "title": "Manufactured buildings and relocatable structures",
+      "children": []
+    },
+    {
+      "id": "C5-ART-547",
+      "article": "547",
+      "title": "Agricultural buildings",
+      "children": [
+        {
+          "id": "C5-547.5",
+          "section": "547.5",
+          "title": "Wiring methods in agricultural buildings"
+        },
+        {
+          "id": "C5-547.9",
+          "section": "547.9",
+          "title": "Supply from a distribution point — livestock buildings"
+        },
+        {
+          "id": "C5-547.10",
+          "section": "547.10",
+          "title": "Equipotential planes in livestock confinement areas"
+        }
+      ]
+    },
+    {
+      "id": "C5-ART-550",
+      "article": "550",
+      "title": "Mobile homes, manufactured homes, and mobile home parks",
+      "children": []
+    },
+    {
+      "id": "C5-ART-551",
+      "article": "551",
+      "title": "Recreational vehicles and recreational vehicle parks",
+      "children": []
+    },
+    {
+      "id": "C5-ART-552",
+      "article": "552",
+      "title": "Park trailers",
+      "children": []
+    },
+    {
+      "id": "C5-ART-553",
+      "article": "553",
+      "title": "Floating buildings",
+      "children": []
+    },
+    {
+      "id": "C5-ART-555",
+      "article": "555",
+      "title": "Marinas, boatyards, floating buildings, and docking facilities",
+      "children": [
+        {
+          "id": "C5-555.3",
+          "section": "555.3",
+          "title": "Electrical datum plane — heights above the water"
+        },
+        {
+          "id": "C5-555.13",
+          "section": "555.13",
+          "title": "Bonding at marinas and docking facilities"
+        },
+        {
+          "id": "C5-555.17",
+          "section": "555.17",
+          "title": "Disconnecting means for shore power connections (2020 numbering)"
+        },
+        {
+          "id": "C5-555.19",
+          "section": "555.19",
+          "title": "Receptacles at marinas and docking facilities (2020 numbering)"
+        },
+        {
+          "id": "C5-555.35",
+          "section": "555.35",
+          "title": "Ground-fault protection — GFPE and GFCI at marinas"
+        }
+      ]
+    },
+    {
+      "id": "C5-ART-590",
+      "article": "590",
+      "title": "Temporary installations — jobsite power",
+      "children": [
+        {
+          "id": "C5-590.3",
+          "section": "590.3",
+          "title": "Time constraints on temporary installations"
+        },
+        {
+          "id": "C5-590.4",
+          "section": "590.4",
+          "title": "General requirements for temporary wiring"
+        },
+        {
+          "id": "C5-590.6",
+          "section": "590.6",
+          "title": "GFCI protection and the assured grounding program"
+        },
+        {
+          "id": "C5-590.8",
+          "section": "590.8",
+          "title": "Overcurrent devices in temporary installations — new in 2020"
+        }
+      ]
+    }
+  ],
+  "index": [
+    {
+      "term": "Agricultural buildings",
+      "ids": [
+        "C5-ART-547",
+        "C5-547.5",
+        "C5-547.9",
+        "C5-547.10"
+      ]
+    },
+    {
+      "term": "Aircraft hangars",
+      "ids": [
+        "C5-ART-513"
+      ]
+    },
+    {
+      "term": "Assembly occupancies",
+      "ids": [
+        "C5-ART-518",
+        "C5-518.4",
+        "C5-518.6"
+      ]
+    },
+    {
+      "term": "Assured equipment grounding conductor program",
+      "ids": [
+        "C5-590.6"
+      ]
+    },
+    {
+      "term": "Bonding, marina",
+      "ids": [
+        "C5-555.13"
+      ]
+    },
+    {
+      "term": "Bulk storage plants",
+      "ids": [
+        "C5-ART-515"
+      ]
+    },
+    {
+      "term": "Carnivals and fairs",
+      "ids": [
+        "C5-ART-525"
+      ]
+    },
+    {
+      "term": "Classification, hazardous locations",
+      "ids": [
+        "C5-ART-500",
+        "C5-500.5",
+        "C5-511.3"
+      ]
+    },
+    {
+      "term": "Commercial garages",
+      "ids": [
+        "C5-ART-511",
+        "C5-511.3",
+        "C5-511.12"
+      ]
+    },
+    {
+      "term": "Datum plane, electrical",
+      "ids": [
+        "C5-555.3"
+      ]
+    },
+    {
+      "term": "Disconnect, shore power",
+      "ids": [
+        "C5-555.17"
+      ]
+    },
+    {
+      "term": "Distribution point, agricultural",
+      "ids": [
+        "C5-547.9"
+      ]
+    },
+    {
+      "term": "Electric shock drowning",
+      "ids": [
+        "C5-ART-555",
+        "C5-555.35"
+      ]
+    },
+    {
+      "term": "Equipotential plane",
+      "ids": [
+        "C5-547.10"
+      ]
+    },
+    {
+      "term": "Essential electrical system",
+      "ids": [
+        "C5-517.30"
+      ]
+    },
+    {
+      "term": "Floating buildings",
+      "ids": [
+        "C5-ART-553",
+        "C5-ART-555"
+      ]
+    },
+    {
+      "term": "Copper-clad aluminum (CCA)",
+      "ids": [
+        "C5-547.5",
+        "C5-555.35"
+      ]
+    },
+    {
+      "term": "Emergency disconnect, fuel dispensing",
+      "ids": [
+        "C5-514.11"
+      ]
+    },
+    {
+      "term": "Fuel dispensing",
+      "ids": [
+        "C5-ART-514",
+        "C5-511.8",
+        "C5-514.11"
+      ]
+    },
+    {
+      "term": "GFCI, agricultural buildings",
+      "ids": [
+        "C5-547.5"
+      ]
+    },
+    {
+      "term": "GFCI, commercial garages",
+      "ids": [
+        "C5-511.12"
+      ]
+    },
+    {
+      "term": "GFCI, temporary installations",
+      "ids": [
+        "C5-590.6"
+      ]
+    },
+    {
+      "term": "GFPE, marinas",
+      "ids": [
+        "C5-555.35"
+      ]
+    },
+    {
+      "term": "Hazardous (classified) locations",
+      "ids": [
+        "C5-ART-500",
+        "C5-500.5",
+        "C5-500.7",
+        "C5-500.8"
+      ]
+    },
+    {
+      "term": "Health care facilities",
+      "ids": [
+        "C5-ART-517",
+        "C5-517.10",
+        "C5-517.13",
+        "C5-517.18"
+      ]
+    },
+    {
+      "term": "Hospital-grade receptacles",
+      "ids": [
+        "C5-517.18"
+      ]
+    },
+    {
+      "term": "Intrinsically safe systems",
+      "ids": [
+        "C5-ART-504"
+      ]
+    },
+    {
+      "term": "Isolated ground receptacles, health care",
+      "ids": [
+        "C5-517.16"
+      ]
+    },
+    {
+      "term": "Manufactured buildings",
+      "ids": [
+        "C5-ART-545"
+      ]
+    },
+    {
+      "term": "Marinas and docking facilities",
+      "ids": [
+        "C5-ART-555",
+        "C5-555.3",
+        "C5-555.35"
+      ]
+    },
+    {
+      "term": "Material groups",
+      "ids": [
+        "C5-500.6"
+      ]
+    },
+    {
+      "term": "Mobile and manufactured homes",
+      "ids": [
+        "C5-ART-550"
+      ]
+    },
+    {
+      "term": "Park trailers",
+      "ids": [
+        "C5-ART-552"
+      ]
+    },
+    {
+      "term": "Patient care spaces",
+      "ids": [
+        "C5-517.10",
+        "C5-517.13"
+      ]
+    },
+    {
+      "term": "Pits, garage classification",
+      "ids": [
+        "C5-511.3"
+      ]
+    },
+    {
+      "term": "Protection techniques",
+      "ids": [
+        "C5-500.7"
+      ]
+    },
+    {
+      "term": "Recreational vehicles and RV parks",
+      "ids": [
+        "C5-ART-551"
+      ]
+    },
+    {
+      "term": "Redundant grounding, patient care",
+      "ids": [
+        "C5-517.13"
+      ]
+    },
+    {
+      "term": "Shore power",
+      "ids": [
+        "C5-555.17",
+        "C5-555.19",
+        "C5-555.35"
+      ]
+    },
+    {
+      "term": "Spray application and booths",
+      "ids": [
+        "C5-ART-516"
+      ]
+    },
+    {
+      "term": "Temporary installations",
+      "ids": [
+        "C5-ART-590",
+        "C5-590.3",
+        "C5-590.4",
+        "C5-590.6",
+        "C5-590.8"
+      ]
+    },
+    {
+      "term": "Theaters and performance areas",
+      "ids": [
+        "C5-ART-520"
+      ]
+    },
+    {
+      "term": "Wiring methods, assembly occupancies",
+      "ids": [
+        "C5-518.4"
+      ]
+    },
+    {
+      "term": "Working space illumination, assembly",
+      "ids": [
+        "C5-518.6"
+      ]
+    },
+    {
+      "term": "Zone system, gases and vapors",
+      "ids": [
+        "C5-ART-505"
+      ]
+    },
+    {
+      "term": "Zone system, dusts and fibers",
+      "ids": [
+        "C5-ART-506"
+      ]
+    }
+  ]
+}

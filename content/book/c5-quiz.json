@@ -1,0 +1,738 @@
+[
+  {
+    "id": "C5-Q-001",
+    "article": "500",
+    "question": "A location where flammable vapors may be present in ignitible amounts during normal operation is:",
+    "choices": [
+      "Class II, Division 2",
+      "Class I, Division 1",
+      "Class III, Division 1",
+      "An ordinary location"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Class I is gas and vapor, and Division 1 is the hazard present in normal operation. Class II is dust and Class III is fibers.",
+    "nec_ref": "500.5(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-002",
+    "article": "500",
+    "question": "Class II locations are hazardous because of:",
+    "choices": [
+      "Flammable gases",
+      "Combustible dust",
+      "Ignitible fibers only",
+      "Static electricity only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Class II is the combustible dust class. Gases and vapors are Class I, and fibers and flyings are Class III.",
+    "nec_ref": "500.5(C)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-003",
+    "article": "500",
+    "question": "Class III, Division 1 covers areas where ignitible fibers or flyings are:",
+    "choices": [
+      "Stored only",
+      "Handled, manufactured, or used",
+      "Never present",
+      "Suspended like dust clouds"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Class III splits differently: Division 1 is where fibers are handled, manufactured, or used, and Division 2 is storage and other handling. That split is why the Division 1 wording for Class III does not match Class I and II exactly.",
+    "nec_ref": "500.5(D)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-004",
+    "article": "500",
+    "question": "Which of these is a protection technique listed for hazardous locations?",
+    "choices": [
+      "Open wiring on insulators",
+      "Explosionproof equipment",
+      "Ordinary dusttight boxes",
+      "Type NM cable"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Explosionproof equipment is a listed technique, along with dust-ignitionproof, purging and pressurizing, oil immersion, nonincendive design, and intrinsic safety. Ordinary methods and boxes are not techniques at all.",
+    "nec_ref": "500.7",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-005",
+    "article": "500",
+    "question": "Equipment approved for Division 1 of a class and group may be used in:",
+    "choices": [
+      "Any class, Division 1",
+      "Division 2 of the same class and group",
+      "Class II if it is Class I approved",
+      "Any group of the same class"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Division approval flows downward only, and only inside the same class and group. Class or group approval never transfers on its own.",
+    "nec_ref": "500.8",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-006",
+    "article": "501",
+    "question": "The wiring and equipment rules for Class I locations are in Article:",
+    "choices": [
+      "502",
+      "503",
+      "501",
+      "511"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Article 501 is Class I, 502 is Class II dust, and 503 is Class III fibers. Occupancy articles send their classified areas back to 501.",
+    "nec_ref": "501",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-007",
+    "article": "511",
+    "question": "In a major repair garage with no fuel dispensing, the floor area up to 18 inches is commonly classified as:",
+    "choices": [
+      "Unclassified",
+      "Class I, Division 1",
+      "Class I, Division 2",
+      "Class II, Division 2"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Gasoline vapor hugs the floor, so the low band in a major repair garage is Class I, Division 2 in the common table case. Pits are the more severe spaces, not the open floor band.",
+    "nec_ref": "511.3",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-008",
+    "article": "511",
+    "question": "A parking garage with no repair work is:",
+    "choices": [
+      "Class I, Division 1 throughout",
+      "Not required to be classified",
+      "Class I, Division 2 throughout",
+      "Covered by Article 514"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Parking and storage garages are not required to be classified. Classification begins when repair work with flammable fuels begins.",
+    "nec_ref": "511.3(A)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-009",
+    "article": "511",
+    "question": "A garage pit with the ventilation described in 511.3 is generally classified as:",
+    "choices": [
+      "Division 1",
+      "Division 2",
+      "Unclassified",
+      "Zone 0"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Ventilation is what buys the pit down to Division 2. Without that ventilation the pit answer is Division 1.",
+    "nec_ref": "511.3",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-010",
+    "article": "511",
+    "question": "Wiring inside a classified area of a commercial garage must comply with:",
+    "choices": [
+      "Article 334",
+      "Article 501",
+      "Article 518",
+      "Chapter 3 generally, no special rules"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section 511.4 sends classified garage areas to the Class I rules of Article 501. Ordinary cable articles do not govern inside the classified boundary.",
+    "nec_ref": "511.4",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-011",
+    "article": "511",
+    "question": "Fixed luminaires over a classified garage area are tied to which height in the common cases of 511.7?",
+    "choices": [
+      "8 feet",
+      "10 feet",
+      "12 feet",
+      "20 feet"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Twelve feet is the key dimension for fixed lighting over classified areas, traffic lanes, and vehicle strike zones. Below it, the enclosure and guarding conditions of the section apply.",
+    "nec_ref": "511.7(B)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C5-Q-012",
+    "article": "511",
+    "question": "GFCI protection in a commercial garage is required:",
+    "choices": [
+      "Only for diagnostic equipment receptacles",
+      "As required by 210.8(B) for non-dwellings",
+      "Only inside classified areas",
+      "Only in minor repair garages"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The 2020 wording of 511.12 points to 210.8(B), which broadened it past the old diagnostic and hand tool list. It applies whether or not the spot is classified.",
+    "nec_ref": "511.12",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-013",
+    "article": "514",
+    "question": "If fuel is dispensed inside a repair garage, which article applies in addition to 511?",
+    "choices": [
+      "513",
+      "514",
+      "515",
+      "516"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Motor fuel dispensing is Article 514 wherever it happens, including inside a garage. Hangars are 513, bulk storage is 515, and spray work is 516.",
+    "nec_ref": "511.3(B) / 514",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-014",
+    "article": "517",
+    "question": "Part II of Article 517 applies to:",
+    "choices": [
+      "Every room in a clinic",
+      "Patient care spaces",
+      "Only hospital operating rooms",
+      "Only waiting rooms"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The wiring and grounding part applies to patient care spaces. Offices, corridors, and waiting rooms are outside it.",
+    "nec_ref": "517.10(A)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-015",
+    "article": "517",
+    "question": "Which area is listed in 517.10(B) as outside Part II?",
+    "choices": [
+      "Operating rooms",
+      "Areas used exclusively for immunizations",
+      "Patient bed locations",
+      "Critical care spaces"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Immunization-only areas were added to the not-covered list, along with psychiatry, alternative medicine, and optometry areas. Treatment spaces stay covered.",
+    "nec_ref": "517.10(B)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-016",
+    "article": "517",
+    "question": "A patient care branch circuit needs how many ground-fault return paths under 517.13?",
+    "choices": [
+      "One, the green wire",
+      "One, the raceway",
+      "Two working together — the metal method plus an insulated copper conductor",
+      "None, health care is ungrounded"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Redundant grounding is the point of 517.13: the metal raceway or armor path plus an insulated copper equipment grounding conductor. Either path alone is only half the requirement.",
+    "nec_ref": "517.13",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-017",
+    "article": "517",
+    "question": "The insulated copper grounding conductor in a patient care space is sized from:",
+    "choices": [
+      "Table 310.16",
+      "Table 250.122",
+      "The load calculation",
+      "The receptacle rating only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Equipment grounding conductors are sized from Table 250.122 by the overcurrent device ahead of them. Ampacity tables do not size grounding conductors.",
+    "nec_ref": "517.13(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-018",
+    "article": "517",
+    "question": "An isolated ground receptacle inside a patient care vicinity is:",
+    "choices": [
+      "Required",
+      "Permitted with a separate conductor",
+      "Not permitted",
+      "Permitted if hospital grade"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Section 517.16 bars isolated ground receptacles in the patient care vicinity. Outside the vicinity they need their own insulated grounding conductor run as directed.",
+    "nec_ref": "517.16",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-019",
+    "article": "517",
+    "question": "A Category 2 (general care) patient bed location needs at least how many receptacles in NEC 2020?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "14"
+    ],
+    "answer_index": 2,
+    "explain_plain": "The 2020 edition sets eight receptacles minimum at each Category 2 bed location, on at least two branch circuits. Counting per room instead of per bed is the classic takeoff miss.",
+    "nec_ref": "517.18(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-020",
+    "article": "517",
+    "question": "The life safety branch of a hospital essential system follows the rules of:",
+    "choices": [
+      "Article 590",
+      "Article 700, with the exceptions in 517.26",
+      "Article 680",
+      "Article 240 only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section 517.26 applies Article 700 to the life safety branch except for the items it lists. That cross-reference is why Chapter 7 is linked from this chapter.",
+    "nec_ref": "517.26",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-021",
+    "article": "518",
+    "question": "Article 518 applies to an assembly space designed for at least how many persons?",
+    "choices": [
+      "25",
+      "50",
+      "100",
+      "300"
+    ],
+    "answer_index": 2,
+    "explain_plain": "One hundred or more persons is the threshold in 518.1. Smaller assembly rooms are wired under the general chapters.",
+    "nec_ref": "518.1",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-022",
+    "article": "518",
+    "question": "Which is a permitted fixed wiring method in an assembly occupancy under 518.4(A)?",
+    "choices": [
+      "Type NM cable",
+      "Type MC cable with an insulated grounding conductor",
+      "Open wiring",
+      "Type UF cable"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Metal raceways, concrete-encased nonmetallic raceways, and MI, MC, or AC cable are the listed family. NM cable is not a fixed method for the fire-rated assembly cases.",
+    "nec_ref": "518.4(A)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-023",
+    "article": "518",
+    "question": "New section 518.6 (2020) requires what at electrical equipment serving an assembly occupancy?",
+    "choices": [
+      "A red emergency light",
+      "Illumination of the working space, not controlled by automatic means only",
+      "A phone jack",
+      "Arc flash suits on site"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Working spaces serving assembly occupancies, including outdoors, need illumination that a timer or sensor alone cannot switch off. Existing nearby light that does the job can satisfy it.",
+    "nec_ref": "518.6",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C5-Q-024",
+    "article": "547",
+    "question": "GFCI protection under 547.5(G) is required for which receptacles?",
+    "choices": [
+      "All receptacles of any size",
+      "125V, single-phase, 15A and 20A receptacles in the listed areas",
+      "Only 240V receptacles",
+      "Only receptacles in the farmhouse"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The 2020 clarification limits the barn GFCI list to 125-volt, single-phase, 15- and 20-ampere receptacles in equipotential plane areas, outdoors, damp or wet locations, and dirt confinement areas. Bigger receptacles are outside that list.",
+    "nec_ref": "547.5(G)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-025",
+    "article": "547",
+    "question": "Livestock buildings on the same premises are supplied from:",
+    "choices": [
+      "Separate services at each barn",
+      "A single distribution point",
+      "The farmhouse panel only",
+      "A generator at each building"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section 547.9 requires supply from a distribution point with a four-wire grounded arrangement. The layout keeps neutral current out of the earth and reduces stray voltage.",
+    "nec_ref": "547.9",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-026",
+    "article": "547",
+    "question": "An equipotential plane is bonded to the building grounding system with solid copper of at least:",
+    "choices": [
+      "14 AWG",
+      "12 AWG",
+      "8 AWG",
+      "6 AWG"
+    ],
+    "answer_index": 2,
+    "explain_plain": "At least 8 AWG solid copper, with listed pressure connectors or clamps, bonds the plane in 547.10. The same 8 AWG figure appears for marina bonding in 555.13.",
+    "nec_ref": "547.10(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-027",
+    "article": "555",
+    "question": "For a floating pier, the electrical datum plane is:",
+    "choices": [
+      "At water level",
+      "12 inches above the water",
+      "30 inches above the water and at least 12 inches above the deck",
+      "6 feet above the deck"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Both dimensions must be met at a floating pier: 30 inches above the water and at least 12 inches above the deck. Fixed facilities use their own datum cases in the same section.",
+    "nec_ref": "555.3",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-028",
+    "article": "555",
+    "question": "Marina bonding of metal parts in contact with the water uses solid copper of at least:",
+    "choices": [
+      "12 AWG",
+      "10 AWG",
+      "8 AWG",
+      "4 AWG"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Section 555.13 sets 8 AWG solid copper minimum for bonding back to the panelboard grounding bus. Undersizing the bond is a failed layer of the shock protection system.",
+    "nec_ref": "555.13",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-029",
+    "article": "555",
+    "question": "A shore power disconnect (2020 numbering, 555.17) must be located within how far of its receptacle?",
+    "choices": [
+      "12 inches",
+      "30 inches",
+      "6 feet",
+      "Within sight only, no distance"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Not more than 30 inches, readily accessible, identified, and ahead of the receptacle. In NEC 2023 this moved to 555.36, which Florida has not adopted.",
+    "nec_ref": "555.17(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-030",
+    "article": "555",
+    "question": "Marina receptacles (2020 numbering, 555.19) mount at least how far above the deck?",
+    "choices": [
+      "6 inches",
+      "12 inches",
+      "18 inches",
+      "30 inches"
+    ],
+    "answer_index": 1,
+    "explain_plain": "At least 12 inches above the deck surface, and never below the electrical datum plane. Deck replacement can change the finished height and must be rechecked.",
+    "nec_ref": "555.19",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C5-Q-031",
+    "article": "555",
+    "question": "Shore power receptacles get individual GFPE set to open at not more than:",
+    "choices": [
+      "5 milliamperes",
+      "30 milliamperes",
+      "100 milliamperes",
+      "5 amperes"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Thirty milliamperes is the shore power GFPE ceiling in 555.35. Five milliamperes is personnel GFCI territory, and 100 milliamperes is the feeder level.",
+    "nec_ref": "555.35(A)(1)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-032",
+    "article": "555",
+    "question": "Feeder conductors supplying a dock or slip get GFPE set at not more than:",
+    "choices": [
+      "30 milliamperes",
+      "50 milliamperes",
+      "100 milliamperes",
+      "300 milliamperes"
+    ],
+    "answer_index": 2,
+    "explain_plain": "One hundred milliamperes is the feeder and branch level in 555.35(A)(3). The shore receptacle level below it is 30 milliamperes.",
+    "nec_ref": "555.35(A)(3)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-033",
+    "article": "590",
+    "question": "Holiday decorative temporary installations are limited to:",
+    "choices": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "One year"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Ninety days is the holiday and decorative limit in 590.3. Construction power instead lasts for the work itself and is removed when the work ends.",
+    "nec_ref": "590.3(B)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-034",
+    "article": "590",
+    "question": "A temporary service installation must comply with:",
+    "choices": [
+      "No rules, it is temporary",
+      "Article 230 service rules",
+      "Only the utility handbook",
+      "Article 680"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section 590.4(A) sends temporary services to Article 230. Temporary relaxes selected methods, not the service safety core.",
+    "nec_ref": "590.4(A)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-035",
+    "article": "590",
+    "question": "On a construction site, receptacles may be installed on a branch circuit that supplies:",
+    "choices": [
+      "Temporary lighting",
+      "Temporary lighting if GFCI protected",
+      "Nothing else — receptacle circuits stay separate from temporary lighting",
+      "Only heaters"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Section 590.4(D)(1) keeps receptacles off temporary lighting circuits so a receptacle fault cannot kill the lights. The separation is a worker safety rule, not a load rule.",
+    "nec_ref": "590.4(D)(1)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C5-Q-036",
+    "article": "590",
+    "question": "Splices in temporary wiring must be:",
+    "choices": [
+      "Taped in the open",
+      "In a box or enclosure with a cover installed",
+      "Buried if taped well",
+      "Soldered only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section 590.4(G) requires an enclosure with a cover for every splice. Open splices fail on temp work just as they do on permanent work.",
+    "nec_ref": "590.4(G)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C5-Q-037",
+    "article": "590",
+    "question": "Cable assemblies used as temporary feeders or branch circuits:",
+    "choices": [
+      "May lie on the floor if heavy duty",
+      "May not be installed on the ground or floor",
+      "Must be buried",
+      "May cross doorways unprotected"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section 590.4(J) bars feeder and branch circuit cables from the ground or floor, and 590.4(H) requires protection at doorways and pinch points. Extension cords used as cords are a different case.",
+    "nec_ref": "590.4(J)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-038",
+    "article": "590",
+    "question": "GFCI protection under 590.6(A) covers which receptacles used for construction work?",
+    "choices": [
+      "Only 15A receptacles",
+      "125V and 125/250V, 15A, 20A, and 30A receptacles",
+      "Only receptacles in the temp panel",
+      "Only outdoor receptacles"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The (A) list runs to 30-ampere receptacles and includes permanent building receptacles being used for the work. Everything else used for temporary power is covered by (B).",
+    "nec_ref": "590.6(A)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-039",
+    "article": "590",
+    "question": "For receptacles outside the 590.6(A) list, the alternative to GFCI protection is:",
+    "choices": [
+      "No protection needed",
+      "An assured equipment grounding conductor program",
+      "A warning sign",
+      "Testing once a year"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section 590.6(B) allows GFCI protection or a documented assured grounding program with scheduled testing. A sign is not a protection method.",
+    "nec_ref": "590.6(B)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-040",
+    "article": "590",
+    "question": "New section 590.8 (2020) addresses what in temporary installations?",
+    "choices": [
+      "Cord colors",
+      "Overcurrent protective devices, including reused devices",
+      "Ladder safety",
+      "Permit fees"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section 590.8 covers overcurrent devices in temp installations, including inspection and maintenance of reused devices and current-limiting cases. It targets the junk-drawer temp panel habit.",
+    "nec_ref": "590.8",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C5-Q-041",
+    "article": "500",
+    "question": "Before wiring a suspect area, the crew should work from:",
+    "choices": [
+      "Their own judgment of what looks safe",
+      "Classification documentation for the area",
+      "The last similar job",
+      "The equipment salesman"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section 500.4 expects the classification, materials, and boundaries to be documented and available to those designing, installing, and inspecting. Guessing a classification is how ordinary methods end up inside classified boundaries.",
+    "nec_ref": "500.4",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-042",
+    "article": "514",
+    "question": "The emergency disconnect at a motor fuel dispensing facility must:",
+    "choices": [
+      "Disconnect the ungrounded conductor only",
+      "Disconnect all circuit conductors of the circuits served",
+      "Only sound an alarm",
+      "Only stop the pump motor signal"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The 2020 clarification to 514.11 requires disconnection of all circuit conductors, not a single leg. A partial disconnect leaves the dispenser partly alive in an emergency.",
+    "nec_ref": "514.11",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-043",
+    "article": "310",
+    "question": "For ampacity, copper-clad aluminum (CCA) conductors are sized from:",
+    "choices": [
+      "The copper column of Table 310.16",
+      "The aluminum column of Table 310.16",
+      "A separate CCA column in Table 310.16",
+      "The 90°C copper column only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 310.16's aluminum column covers aluminum and copper-clad aluminum, and minimum sizes follow 310.3. That is why CCA runs one AWG size up from copper for the same breaker.",
+    "nec_ref": "310.16",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-044",
+    "article": "110",
+    "question": "Which termination is permitted for a CCA branch-circuit conductor?",
+    "choices": [
+      "A push-in backstab hole on a receptacle",
+      "A standard 15A device screw terminal",
+      "A copper-only (CU) wire nut",
+      "An unmarked lug"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Standard 15/20A device screw terminals accept CCA; splices and lugs must be marked AL/CU, CC, or CC-CU for the metals joined. Backstab holes are listed for 14 AWG solid copper only — never CCA.",
+    "nec_ref": "110.14",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-045",
+    "article": "314",
+    "question": "A 10 AWG THHN CCA conductor and a 10 AWG THHN copper conductor in the same conduit:",
+    "choices": [
+      "The CCA conductor counts double for fill",
+      "The copper conductor counts double for fill",
+      "They count exactly the same for conduit fill",
+      "CCA is not permitted in conduit"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Conduit fill (Chapter 9 Tables 4 and 5) and box fill (314.16) are figured by conductor size and insulation type, not by the metal. Same AWG and insulation, same fill — the difference is only that CCA is chosen one size up for ampacity.",
+    "nec_ref": "314.16",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-046",
+    "article": "590",
+    "question": "Chapter 9 Table 8 resistance values for voltage-drop calculations list:",
+    "choices": [
+      "Copper, aluminum, and CCA",
+      "Copper and aluminum only — CCA needs cited manufacturer or UL data",
+      "CCA only",
+      "No resistances at all"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 8 gives copper and aluminum properties; there is no CCA column. A CCA voltage-drop figure must come from cited manufacturer or UL data for the actual product, and stays flagged unverified until that data is on file.",
+    "nec_ref": "Ch. 9 Table 8",
+    "difficulty": 3,
+    "exam": "master"
+  }
+]

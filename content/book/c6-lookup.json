@@ -1,0 +1,1045 @@
+[
+ {
+  "id": "C6-L-001",
+  "question": "Can two EV chargers share one branch circuit?",
+  "aliases": [
+   "share ev circuit",
+   "two chargers one circuit",
+   "625.40"
+  ],
+  "answer_plain": "No. In the 2020 NEC each outlet installed for EV charging gets an individual branch circuit with no other outlets, whatever the charger size. Power sharing between chargers happens on the feeder/service side through load management (625.42), not by doubling up a branch circuit. (The sharing exception is a 2023 change, not adopted in Florida.)",
+  "nec_ref": "625.40",
+  "nec_edition": "2020",
+  "tags": [
+   "ev",
+   "branch-circuit"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-002",
+  "question": "How is EV charger breaker size figured?",
+  "aliases": [
+   "ev breaker size",
+   "625.41",
+   "charger ampacity"
+  ],
+  "answer_plain": "Overcurrent protection is at least 125% of the charger's maximum load, because charging is a continuous load. A 32A charger lands on a 40A device; a 48A charger lands on a 60A device.",
+  "nec_ref": "625.41",
+  "nec_edition": "2020",
+  "tags": [
+   "ev",
+   "ocp"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-003",
+  "question": "A charger is set to 40A output — what breaker?",
+  "aliases": [
+   "40 amp charger breaker",
+   "625.41 example"
+  ],
+  "answer_plain": "At least 50A: 40 x 1.25 = 50. Size from the charger's maximum setting under 625.41, not from the car plugged into it.",
+  "nec_ref": "625.41",
+  "nec_edition": "2020",
+  "tags": [
+   "ev",
+   "ocp"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-004",
+  "question": "Is EV charging a continuous load?",
+  "aliases": [
+   "ev continuous load",
+   "625.42"
+  ],
+  "answer_plain": "Yes. 625.42 treats EV charging loads as continuous for sizing equipment, services, and feeders — that is why the 125% factor in 625.41 exists.",
+  "nec_ref": "625.42",
+  "nec_edition": "2020",
+  "tags": [
+   "ev"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-005",
+  "question": "When does EV equipment need its own lockable disconnect?",
+  "aliases": [
+   "ev disconnect threshold",
+   "625.43"
+  ],
+  "answer_plain": "When it is rated more than 60A or more than 150V to ground. The disconnect is readily accessible and lockable in the open position, with the locking provision staying in place per 110.25.",
+  "nec_ref": "625.43",
+  "nec_edition": "2020",
+  "tags": [
+   "ev",
+   "disconnect"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-006",
+  "question": "How high does the EV connector have to be stored?",
+  "aliases": [
+   "ev coupler height",
+   "625.50",
+   "connector storage"
+  ],
+  "answer_plain": "Unless the equipment is listed and marked otherwise, the coupling means is stored at least 18 in. above the floor indoors and 24 in. above grade outdoors, and located so it can couple directly to the vehicle.",
+  "nec_ref": "625.50",
+  "nec_edition": "2020",
+  "tags": [
+   "ev"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-007",
+  "question": "Does a garage EV charger need mechanical ventilation?",
+  "aliases": [
+   "ev ventilation",
+   "625.52"
+  ],
+  "answer_plain": "Only if the equipment is listed as requiring ventilation for indoor charging. Equipment listed for indoor charging without ventilation needs none; where required, ventilation is a permanent supply-and-exhaust system vented directly outdoors.",
+  "nec_ref": "625.52",
+  "nec_edition": "2020",
+  "tags": [
+   "ev"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-008",
+  "question": "Does an indoor EV receptacle need GFCI?",
+  "aliases": [
+   "ev receptacle gfci",
+   "625.54"
+  ],
+  "answer_plain": "Yes. Every receptacle installed for the connection of EV charging must have GFCI protection for personnel, indoors or out, 120V or 240V — 625.54 applies in addition to 210.8.",
+  "nec_ref": "625.54",
+  "nec_edition": "2020",
+  "tags": [
+   "ev",
+   "gfci"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-009",
+  "question": "How does load management change an EV service calculation?",
+  "aliases": [
+   "ev load management",
+   "625.42 service"
+  ],
+  "answer_plain": "Where a listed automatic load management system is used, the maximum equipment load on a service or feeder is the maximum load the system permits — the managed cap, not the sum of the charger nameplates. It changes the service/feeder figure only; each outlet still gets its own branch circuit under 625.40.",
+  "nec_ref": "625.42",
+  "nec_edition": "2020",
+  "tags": [
+   "ev",
+   "load-calc"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-010",
+  "question": "What cover does an outdoor EV receptacle need?",
+  "aliases": [
+   "outdoor ev receptacle cover",
+   "625.56"
+  ],
+  "answer_plain": "A weatherproof-while-in-use enclosure — weatherproof with the plug inserted or removed. A standard flip cover does not meet in-use duty.",
+  "nec_ref": "625.56",
+  "nec_edition": "2020",
+  "tags": [
+   "ev"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-011",
+  "question": "Where does the required pool receptacle go?",
+  "aliases": [
+   "pool receptacle distance",
+   "680.22(A)(1)",
+   "6 to 20 feet pool"
+  ],
+  "answer_plain": "For a permanently installed pool: not less than 6 ft and not more than 20 ft from the inside wall of the pool, and not more than 6 ft 6 in. above the floor, platform, or grade serving the pool (680.22(A)(1), 2020 lettering).",
+  "nec_ref": "680.22(A)(1)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "receptacle"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-012",
+  "question": "Which pool receptacles need GFCI?",
+  "aliases": [
+   "pool receptacle gfci distance",
+   "680.22(A)(4)"
+  ],
+  "answer_plain": "All 125V, single-phase, 15A and 20A receptacles within 20 ft of the inside wall of the pool need GFCI protection (680.22(A)(4)). Circulation/sanitation receptacles also need it under (A)(2).",
+  "nec_ref": "680.22(A)(4)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "gfci"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-013",
+  "question": "How are pool receptacle distances measured?",
+  "aliases": [
+   "pool distance measurement",
+   "680.22(A)(5)",
+   "cord path"
+  ],
+  "answer_plain": "By the shortest path a supply cord would follow without passing through a floor, wall, ceiling, doorway, window, or other effective barrier (680.22(A)(5)) — around the screen wall, not through it.",
+  "nec_ref": "680.22(A)(5)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-014",
+  "question": "Does a hardwired pool pump need GFCI?",
+  "aliases": [
+   "pool motor gfci",
+   "680.21(C)",
+   "pump gfci"
+  ],
+  "answer_plain": "Yes. GFCI protection is required for outlets supplying pool motors rated 150V or less to ground and 60A or less, single- or three-phase, by receptacle or direct connection (680.21(C), re-checked for 2020).",
+  "nec_ref": "680.21(C)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "gfci",
+   "motor"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-015",
+  "question": "What equipment grounding conductor does a pool motor circuit need?",
+  "aliases": [
+   "pool egc size",
+   "680.21(A)",
+   "12 awg ground pool"
+  ],
+  "answer_plain": "An insulated copper EGC sized per 250.122 and never smaller than 12 AWG — even where the table would allow smaller (680.21(A)).",
+  "nec_ref": "680.21(A)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "grounding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-016",
+  "question": "We're replacing a pool pump motor — anything beyond the swap?",
+  "aliases": [
+   "replacement pump motor",
+   "680.21(D)"
+  ],
+  "answer_plain": "Yes: the replacement must be provided with the GFCI protection 680.21(C) requires for that outlet. An old unprotected circuit doesn't stay unprotected after a motor change (680.21(D)).",
+  "nec_ref": "680.21(D)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "gfci",
+   "service"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-017",
+  "question": "Can conduit run under the pool?",
+  "aliases": [
+   "underground wiring pool",
+   "680.11",
+   "conduit under pool"
+  ],
+  "answer_plain": "Only where necessary to supply pool equipment the article permits. Underground wiring is not permitted under a pool or within 5 ft horizontally of the inside wall except for that pool equipment, using the article's listed methods (680.11).",
+  "nec_ref": "680.11",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "underground"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-018",
+  "question": "How much clearance do overhead lines need over a pool?",
+  "aliases": [
+   "overhead clearance pool",
+   "680.9",
+   "22.5 feet"
+  ],
+  "answer_plain": "22.5 ft in any direction from the water level, the edge of a diving structure, or the base of a diving platform, for the conductors covered by Table 680.9(A) — in the 2020 edition the rule is at 680.9(A), not 680.8.",
+  "nec_ref": "680.9(A)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "clearance"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-019",
+  "question": "Clearance from an overhead line to a diving platform or tower?",
+  "aliases": [
+   "diving platform clearance",
+   "680.9(A) 14.5"
+  ],
+  "answer_plain": "14.5 ft, measured from maximum water level to the observation stand, tower, or diving platform under Table 680.9(A).",
+  "nec_ref": "680.9(A)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "clearance"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-020",
+  "question": "How high must a new light over a pool be?",
+  "aliases": [
+   "light over pool height",
+   "680.22(B)(1)",
+   "12 feet pool light"
+  ],
+  "answer_plain": "New luminaires, lighting outlets, and ceiling fans above a pool or within 5 ft horizontally of the inside wall must be at least 12 ft above maximum water level (680.22(B)(1)).",
+  "nec_ref": "680.22(B)(1)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "lighting"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-021",
+  "question": "An existing lanai light is 7 ft from the pool and 6 ft above the water — legal?",
+  "aliases": [
+   "existing pool light",
+   "680.22(B)(3)",
+   "pool light band"
+  ],
+  "answer_plain": "Existing luminaires/fans in the zone may remain where they are at least 5 ft above the water, rigidly attached, and GFCI protected (680.22(B)(3)). New work in the 5–10 ft horizontal band needs GFCI unless at least 5 ft above the water and rigidly attached (680.22(B)(4)).",
+  "nec_ref": "680.22(B)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "lighting",
+   "gfci"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-022",
+  "question": "How deep does an underwater pool light sit?",
+  "aliases": [
+   "underwater light depth",
+   "680.23",
+   "18 inches lens"
+  ],
+  "answer_plain": "Wall-mounted units: top of the lens at least 18 in. below the normal water level, unless the luminaire is listed and marked for use at a lesser depth (680.23).",
+  "nec_ref": "680.23",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "lighting"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-023",
+  "question": "Where does the pool light junction (deck) box go?",
+  "aliases": [
+   "deck box location",
+   "680.24(A)",
+   "pool junction box"
+  ],
+  "answer_plain": "Listed and identified as a swimming pool junction box; not less than 4 ft from the inside wall (unless a permanent barrier separates it); and at least 4 in. above ground/deck or 8 in. above maximum water level, whichever elevation is greater (680.24(A)).",
+  "nec_ref": "680.24(A)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "lighting"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-024",
+  "question": "Does the pool bonding wire run back to the panel?",
+  "aliases": [
+   "bonding to panel",
+   "680.26",
+   "equipotential bonding"
+  ],
+  "answer_plain": "No. The 680.26 equipotential bonding system is not required to extend to a panelboard, service disconnect, or grounding electrode. Bonding equalizes potential around the pool; the branch-circuit EGC is the separate fault path.",
+  "nec_ref": "680.26",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "bonding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-025",
+  "question": "What size is the pool bonding conductor?",
+  "aliases": [
+   "bonding conductor size",
+   "680.26 8 awg",
+   "pool bonding wire"
+  ],
+  "answer_plain": "Solid copper, not smaller than 8 AWG, connected with a listed pressure connector, terminal bar, or other listed means per 250.8(A) (680.26).",
+  "nec_ref": "680.26",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "bonding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-026",
+  "question": "Where does the perimeter bonding ring sit?",
+  "aliases": [
+   "perimeter ring",
+   "680.26(B)(2)",
+   "bonding ring distance"
+  ],
+  "answer_plain": "The bonded perimeter surface extends 3 ft beyond the inside walls. The ring itself: bare solid copper not smaller than 8 AWG, 18–24 in. from the inside walls, 4–6 in. below subgrade, attached at a minimum of four uniformly spaced points.",
+  "nec_ref": "680.26(B)(2)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "bonding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-027",
+  "question": "How is the pool water itself bonded?",
+  "aliases": [
+   "water bonding",
+   "680.26(C)",
+   "9 square inches"
+  ],
+  "answer_plain": "Where no bonded part already contacts the water, an approved corrosion-resistant conductive surface of at least 9 sq in. must be in contact with the pool water (680.26(C)).",
+  "nec_ref": "680.26(C)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "bonding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-028",
+  "question": "Which nearby metal parts get bonded at a pool?",
+  "aliases": [
+   "metal parts bonding pool",
+   "680.26(B)(7)"
+  ],
+  "answer_plain": "Fixed metal parts within 5 ft horizontally of the inside walls (680.26(B)(7)), with an exception where vertical separation reaches 12 ft — plus metallic components (B)(3), shell-penetrating fittings over 4 in. (B)(5), and electrical equipment (B)(6).",
+  "nec_ref": "680.26(B)(7)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "bonding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-029",
+  "question": "The replacement pump is double-insulated — how does it bond?",
+  "aliases": [
+   "double insulated pump bonding",
+   "680.26(B)(6)"
+  ],
+  "answer_plain": "Under the 680.26(B)(6)(a) path, a double-insulated replacement pump connects to the equipotential grid with an 8 AWG bonding tail as the section directs — the grid connection is not skipped just because the motor is double-insulated.",
+  "nec_ref": "680.26(B)(6)(a)",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "bonding",
+   "service"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-030",
+  "question": "Does a storable (above-ground) pool need equipotential bonding?",
+  "aliases": [
+   "storable pool bonding",
+   "680.30"
+  ],
+  "answer_plain": "No. Storable pools follow Parts I and III of Article 680, and 680.26 does not apply to them (680.30).",
+  "nec_ref": "680.30",
+  "nec_edition": "2020",
+  "tags": [
+   "pool",
+   "bonding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-031",
+  "question": "Does a spa need an emergency shutoff?",
+  "aliases": [
+   "spa emergency shutoff",
+   "680.41"
+  ],
+  "answer_plain": "At other than one-family dwellings, yes: readily accessible, adjacent to and within sight of the spa, at least 5 ft away, and clearly labeled as the emergency shutoff (680.41). One-family dwelling spas are excepted.",
+  "nec_ref": "680.41",
+  "nec_edition": "2020",
+  "tags": [
+   "spa"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-032",
+  "question": "Do fountain pumps and lights need GFCI?",
+  "aliases": [
+   "fountain gfci",
+   "680.51"
+  ],
+  "answer_plain": "Yes — luminaires, submersible pumps, and other submersible fountain equipment need GFCI protection under 680.51(A), unless on the listed low-voltage path through 680.23(A)(2).",
+  "nec_ref": "680.51(A)",
+  "nec_edition": "2020",
+  "tags": [
+   "fountain",
+   "gfci"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-033",
+  "question": "What circuit does a jetted (hydromassage) tub need?",
+  "aliases": [
+   "jetted tub circuit",
+   "680.71",
+   "hydromassage"
+  ],
+  "answer_plain": "An individual branch circuit with readily accessible GFCI protection (Part VII, 680.71). Receptacles rated 125V/30A or less within 6 ft also need GFCI, and the equipment must stay accessible without damaging the finish (680.73).",
+  "nec_ref": "680.71",
+  "nec_edition": "2020",
+  "tags": [
+   "hydromassage",
+   "gfci"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-034",
+  "question": "How is PV source-circuit current figured?",
+  "aliases": [
+   "pv source circuit current",
+   "690.8(A)",
+   "isc 125"
+  ],
+  "answer_plain": "Add the short-circuit currents of the parallel modules/strings and multiply by 125% (690.8(A)). That is the maximum current every downstream sizing step starts from.",
+  "nec_ref": "690.8(A)",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "sizing"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-035",
+  "question": "How are PV conductors sized?",
+  "aliases": [
+   "pv conductor sizing",
+   "690.8(B)"
+  ],
+  "answer_plain": "At the larger of: 125% of the 690.8(A) maximum current before temperature correction/adjustment, or 100% of that current after correction/adjustment (690.8(B)). Run both checks — either can govern.",
+  "nec_ref": "690.8(B)",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "sizing"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-036",
+  "question": "What size overcurrent device does a PV circuit get?",
+  "aliases": [
+   "pv fuse sizing",
+   "690.9"
+  ],
+  "answer_plain": "Not less than 125% of the maximum current figured under 690.8(A), where protection is required. 690.9 also states the two-condition case where no device is required at all (conductors sized for full available current and no external backfeed source beyond ampacity).",
+  "nec_ref": "690.9",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "ocp"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-037",
+  "question": "What does rapid shutdown require outside the array boundary?",
+  "aliases": [
+   "rapid shutdown outside boundary",
+   "690.12",
+   "30 volts 30 seconds"
+  ],
+  "answer_plain": "Controlled conductors outside the array boundary (and more than 3 ft from the building entry point) must be limited to not more than 30V within 30 seconds of initiation. The array boundary is 1 ft from the array in all directions.",
+  "nec_ref": "690.12",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "rapid-shutdown"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-038",
+  "question": "What are the rapid shutdown options inside the boundary?",
+  "aliases": [
+   "rapid shutdown inside boundary",
+   "690.12 pv hazard control",
+   "80 volts"
+  ],
+  "answer_plain": "A listed PV hazard control system (PVHCS, UL 3741); or conductors limited to not more than 80V within 30 seconds; or an array with no exposed wiring/conductive parts installed at least 8 ft from exposed grounded conductive parts.",
+  "nec_ref": "690.12",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "rapid-shutdown"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-039",
+  "question": "Where is the rapid shutdown initiation device on a house?",
+  "aliases": [
+   "rsd initiation device location",
+   "690.12(C)"
+  ],
+  "answer_plain": "At a readily accessible location outside the building for one- and two-family dwellings. It must indicate on/off status and may be the service disconnect, the PV disconnect, or another listed switch.",
+  "nec_ref": "690.12(C)",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "rapid-shutdown"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-040",
+  "question": "How must the PV disconnect be marked?",
+  "aliases": [
+   "pv disconnect marking",
+   "690.13"
+  ],
+  "answer_plain": "Permanently marked as the photovoltaic system disconnect, readily accessible, indicating open/closed, and lockable in the open position per 110.25 (690.13).",
+  "nec_ref": "690.13",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "disconnect"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-041",
+  "question": "What must a PV equipment disconnect open?",
+  "aliases": [
+   "pv equipment disconnect",
+   "690.15"
+  ],
+  "answer_plain": "All ungrounded conductors from all sources — grid side and array side (and storage, where present). Isolating only the utility side leaves the equipment energized from the array (690.15).",
+  "nec_ref": "690.15",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "disconnect"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-042",
+  "question": "What does the rapid shutdown label look like?",
+  "aliases": [
+   "rsd label",
+   "690.56",
+   "rapid shutdown placard"
+  ],
+  "answer_plain": "On or within 3 ft of the initiation device: capital letters at least 3/8 in. high, white on a red background, stating the system is equipped with rapid shutdown (690.56). Source directories follow 705.10 (interconnected) or 710.10 (stand-alone).",
+  "nec_ref": "690.56",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "marking"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-043",
+  "question": "What circuit does a sign get?",
+  "aliases": [
+   "sign branch circuit",
+   "600.5",
+   "sign circuit 20 amp"
+  ],
+  "answer_plain": "A branch circuit rated at least 20A serving no other loads besides signs/outline lighting tied to the same work (600.5).",
+  "nec_ref": "600.5",
+  "nec_edition": "2020",
+  "tags": [
+   "signs"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-044",
+  "question": "Where is the sign disconnect?",
+  "aliases": [
+   "sign disconnect",
+   "600.6"
+  ],
+  "answer_plain": "At the point where the circuit enters the sign enclosure, body, or pole — an externally operable switch or breaker opening all ungrounded conductors. Remote arrangements must meet 600.6(A)'s within-sight, lockable, and marking rules.",
+  "nec_ref": "600.6",
+  "nec_edition": "2020",
+  "tags": [
+   "signs",
+   "disconnect"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-045",
+  "question": "What GFCI do elevator pit receptacles need?",
+  "aliases": [
+   "elevator pit gfci",
+   "620.6"
+  ],
+  "answer_plain": "GFCI-type receptacles — 125V, single-phase, 15/20A receptacles in pits, hoistways, on cars, and in the other listed spaces must be of the GFCI type (protection at the receptacle, 620.6). A pit sump pump must be permanently wired or on a single GFCI-protected receptacle.",
+  "nec_ref": "620.6",
+  "nec_edition": "2020",
+  "tags": [
+   "elevator",
+   "gfci"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-046",
+  "question": "Can an elevator disconnect be locked in the closed position?",
+  "aliases": [
+   "elevator disconnect lockable",
+   "620.51"
+  ],
+  "answer_plain": "No. The 620.51 disconnect (one per unit) must be lockable in the open position only, and it must not disconnect the 620.22/620.23/620.24 car lighting, receptacle, and ventilation circuits.",
+  "nec_ref": "620.51",
+  "nec_edition": "2020",
+  "tags": [
+   "elevator",
+   "disconnect"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-047",
+  "question": "Why is the fire pump breaker so big — and locked on?",
+  "aliases": [
+   "fire pump breaker locked rotor",
+   "695.4"
+  ],
+  "answer_plain": "By design. The fire pump disconnect's overcurrent device is listed for fire pump service and selected to carry indefinitely the sum of the locked-rotor currents plus accessory load, and the disconnect is lockable in the closed position and marked in letters at least 1 in. high (695.4).",
+  "nec_ref": "695.4",
+  "nec_edition": "2020",
+  "tags": [
+   "fire-pump"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-048",
+  "question": "What sources can feed a fire pump?",
+  "aliases": [
+   "fire pump power source",
+   "695.3"
+  ],
+  "answer_plain": "A reliable source sized for locked-rotor current of the pump and pressure-maintenance motors plus 100% of accessory load: e.g., a separate service remote from the normal service, a tap ahead of (not within) the service disconnect enclosure, or an on-site generator protected from fire. Transfer equipment sits in the pump room (695.3(F)); phase converters are not permitted (695.3(I)).",
+  "nec_ref": "695.3",
+  "nec_edition": "2020",
+  "tags": [
+   "fire-pump"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-049",
+  "question": "What does an LED sign retrofit require?",
+  "aliases": [
+   "sign retrofit kit",
+   "600.35",
+   "led sign conversion"
+  ],
+  "answer_plain": "A listed and labeled general-use or sign-specific retrofit kit with installation instructions, installed per those instructions: Chapter 3 wiring methods, damaged parts repaired or replaced, and the retrofitted sign marked per 600.4(B) — including the alert label where tubular LEDs run on existing sockets (600.35, new in 2020).",
+  "nec_ref": "600.35",
+  "nec_edition": "2020",
+  "tags": [
+   "signs"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-050",
+  "question": "When do elevator overcurrent devices need selective coordination?",
+  "aliases": [
+   "elevator selective coordination",
+   "620.62"
+  ],
+  "answer_plain": "Where more than one driving machine disconnect is supplied by a single feeder: each disconnect's devices must be selectively coordinated with any other supply-side devices, selected by a licensed PE or other qualified person, and documented — including device settings (620.62).",
+  "nec_ref": "620.62",
+  "nec_edition": "2020",
+  "tags": [
+   "elevator",
+   "coordination"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-051",
+  "question": "How is maximum PV voltage calculated?",
+  "aliases": [
+   "pv maximum voltage",
+   "690.7",
+   "voc temperature"
+  ],
+  "answer_plain": "Sum the series modules' rated open-circuit voltages and correct to the lowest expected ambient temperature using the manufacturer's temperature coefficient of Voc (690.7, 2020 method). The result must not exceed connected equipment ratings; dwellings are capped at 600V maximum system voltage.",
+  "nec_ref": "690.7",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "sizing"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-052",
+  "question": "When does a PV system need DC arc-fault protection?",
+  "aliases": [
+   "pv arc fault",
+   "690.11",
+   "80 volt afci solar"
+  ],
+  "answer_plain": "Where PV DC circuits operate at 80V dc or more between any two conductors: a listed PV arc-fault circuit interrupter or equivalent listed components, detecting and interrupting continuity-failure arcs (690.11). Exception for non-building systems with DC circuits in metallic raceways/metal-clad cable, enclosed metallic trays, or underground.",
+  "nec_ref": "690.11",
+  "nec_edition": "2020",
+  "tags": [
+   "solar",
+   "protection"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-053",
+  "question": "What voltage drop is allowed on a fire pump circuit?",
+  "aliases": [
+   "fire pump voltage drop",
+   "695.7",
+   "15 percent starting"
+  ],
+  "answer_plain": "Mandatory limits, not recommendations: no more than 15% drop at the controller line terminals during motor starting, and no more than 5% at the controller load terminals when the motor runs at 115% of full-load current (695.7).",
+  "nec_ref": "695.7",
+  "nec_edition": "2020",
+  "tags": [
+   "fire-pump",
+   "voltage-drop"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-054",
+  "question": "How is copper-clad aluminum (CCA) sized in this chapter's circuits?",
+  "aliases": [
+   "CCA ampacity",
+   "CCA one size up",
+   "copper-clad aluminum sizing"
+  ],
+  "answer_plain": "CCA is rated from the aluminum column of Table 310.16, at the cable's temperature limit (60C for NM), capped by 240.4(D), with minimum sizes per 310.3 — so a CCA circuit runs one size up from copper: 12 AWG on a 15A breaker, 10 on 20A, 8 on 30A, 6 on 40A, 4 on 50A. There is no 14 AWG CCA in Sharma's Florida work (2020 permits CCA in Type NM only from 12 AWG up). The material choice rides on every sizing step in this chapter — EV branch circuits (625.41), PV conductors (690.8), pool motor circuits, fire pump conductors: run the chapter's math first, then pick the conductor in the chosen material.",
+  "nec_ref": "310.16 / 240.4(D) / 310.3",
+  "nec_edition": "2020",
+  "tags": [
+   "cca",
+   "ampacity",
+   "sizing"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11",
+  "sharma_rule_id": "S-10"
+ },
+ {
+  "id": "C6-L-055",
+  "question": "How do you run a voltage-drop calculation for CCA wire?",
+  "aliases": [
+   "CCA voltage drop",
+   "CCA resistance",
+   "copper-clad aluminum voltage drop"
+  ],
+  "answer_plain": "Chapter 9 Table 8 lists DC resistance for copper and aluminum only — there is no CCA row, so never run a CCA voltage-drop check with copper resistance or aluminum resistance. Use the CCA manufacturer's published resistance for the size in hand (Sharma's CCA is Copperweld). Until that data sheet is on file for the specific cable, treat any CCA voltage-drop number as an estimate, not a verified calculation — this matters most on the two Chapter 6 runs where drop is checked in the field: long EV charger runs and 695.7 fire pump starting drop.",
+  "nec_ref": "Ch. 9 Table 8",
+  "nec_edition": "2020",
+  "tags": [
+   "cca",
+   "voltage-drop",
+   "calculation"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11",
+  "verified": false,
+  "unverified_reason": "No cited manufacturer or UL resistance table for CCA is on file yet; this item states the method only and asserts no CCA resistance value."
+ },
+ {
+  "id": "C6-L-056",
+  "question": "Where can CCA conductors be terminated?",
+  "aliases": [
+   "CCA terminations",
+   "CCA wire nuts",
+   "CCA backstab",
+   "AL/CU marking"
+  ],
+  "answer_plain": "Standard 15A and 20A device screw terminals accept CCA — a CO/ALR marking is not required at those devices — but 30A-and-larger devices must be marked AL/CU. Splice connectors and lugs must be marked for the conductor (AL/CU, or CC/CC-CU marked connectors); a copper-only connector is not listed for CCA. Push-in (backstab) terminals are listed for 14 AWG solid copper only — CCA never goes in a backstab hole, and Sharma does not backstab at all. Torque to the printed value (110.14(D)).",
+  "nec_ref": "110.14",
+  "nec_edition": "2020",
+  "tags": [
+   "cca",
+   "terminations"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11",
+  "sharma_rule_id": "S-10"
+ },
+ {
+  "id": "C6-L-057",
+  "question": "Does box fill or conduit fill change when the wire is CCA?",
+  "aliases": [
+   "CCA box fill",
+   "CCA conduit fill",
+   "fill by size not metal"
+  ],
+  "answer_plain": "No — box fill under 314.16 and conduit fill under Chapter 9 Tables 4 and 5 are figured from the conductor's AWG size and insulation type; the metal never enters the math, so the result is identical for copper, aluminum, and CCA of the same size and insulation. The practical catch is the one-size-up rule: a 20A pool or garage circuit in CCA pulls 10 AWG, so boxes and raceways are figured at the 10 AWG size (2.50 cu in per conductor in a box), not the 12 AWG a copper run would use.",
+  "nec_ref": "314.16 / Ch. 9 Tables 4-5",
+  "nec_edition": "2020",
+  "tags": [
+   "cca",
+   "box-fill",
+   "conduit-fill"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-058",
+  "question": "How do this chapter's load and sizing calculations change if the conductor is CCA?",
+  "aliases": [
+   "CCA load calc",
+   "CCA service sizing",
+   "CCA pv sizing",
+   "CCA ev sizing"
+  ],
+  "answer_plain": "They don't — the calculations produce amps, and amps are the same in any metal: 625.41's 125% for EV charging, 690.8's current multipliers for PV, 680's motor rules, and 695.3's locked-rotor source sizing are all figured first, without a material. The material enters only at the conductor pick: a CCA conductor is chosen from the aluminum column of Table 310.16, one size up from the copper pick for the same amps. Same for a service or feeder chosen in CCA. Never shrink the calculated load because the wire changed.",
+  "nec_ref": "625.41 / 690.8 / 310.16",
+  "nec_edition": "2020",
+  "tags": [
+   "cca",
+   "load-calc",
+   "sizing"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C6-L-059",
+  "question": "Can CCA land directly on EV charger or pool equipment terminals?",
+  "aliases": [
+   "CCA evse terminals",
+   "CCA charger lugs",
+   "CCA pool equipment terminals"
+  ],
+  "answer_plain": "Only where the equipment's terminals are marked and listed for it. Equipment terminations follow the manufacturer's instructions and terminal markings (110.3(B), 110.14): many EVSE input lugs are marked CU only, or AL/CU for specific sizes. If the terminal is not marked for aluminum/CCA conductors, CCA does not land there — run copper for that equipment connection or make a listed transition to copper first. Never assume CCA is acceptable at charger terminals, and never name CCA in a client submittal (S-10: internal standard only).",
+  "nec_ref": "110.3(B) / 110.14",
+  "nec_edition": "2020",
+  "tags": [
+   "cca",
+   "terminations",
+   "ev",
+   "pool"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11",
+  "sharma_rule_id": "S-10"
+ }
+]

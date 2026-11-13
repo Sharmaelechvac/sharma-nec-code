@@ -1,0 +1,933 @@
+[
+ {
+  "aliases": [
+   "53 percent fill",
+   "single conductor fill"
+  ],
+  "answer_plain": "One conductor may occupy 53 percent of the raceway's inside area under Chapter 9 Table 1. Look up that raceway's 53 percent area in Table 4 and compare it with the conductor's area from Table 5.",
+  "id": "C9-L-001",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 1",
+  "question": "How much fill is allowed for one conductor in a raceway?",
+  "tags": [
+   "fill",
+   "table 1"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "31 percent fill",
+   "two conductor fill"
+  ],
+  "answer_plain": "Two conductors together may occupy 31 percent of the raceway's inside area, the lowest of the Table 1 percentages. Two round conductors pack poorly in a round raceway, which is why this limit sits below both the one-conductor and the three-or-more percentages.",
+  "id": "C9-L-002",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 1",
+  "question": "How much fill is allowed for two conductors in a raceway?",
+  "tags": [
+   "fill",
+   "table 1"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "40 percent fill",
+   "over two conductors"
+  ],
+  "answer_plain": "Three or more conductors together may occupy 40 percent of the raceway's inside area under Table 1. This is the column used for most house and light-commercial pulls, and it is the basis of existing quiz item Q-067.",
+  "id": "C9-L-003",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 1",
+  "question": "How much fill is allowed for three or more conductors?",
+  "tags": [
+   "fill",
+   "table 1"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "choose fill percentage",
+   "fill steps percentage"
+  ],
+  "answer_plain": "Count every conductor in the run first, including the equipment grounding conductor, then pick the percentage for that count. One conductor gets 53 percent, two get 31 percent, and three or more get 40 percent, with 60 percent reserved for short nipples.",
+  "id": "C9-L-004",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 1",
+  "question": "Which Table 1 percentage do I pick first in a fill problem?",
+  "tags": [
+   "fill",
+   "method"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "nipple 60 percent",
+   "60% nipple rule"
+  ],
+  "answer_plain": "A raceway nipple 24 inches or less between enclosures may be filled to 60 percent. The allowance belongs to that short nipple only, and the long runs on either side still use the normal Table 1 percentage for their conductor count.",
+  "id": "C9-L-005",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 1",
+  "question": "When can a raceway be filled to 60 percent?",
+  "tags": [
+   "fill",
+   "nipples"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "nipple fill example",
+   "13 conductors nipple"
+  ],
+  "answer_plain": "At 60 percent, 1/2 in EMT offers 0.182 sq in, and one 12 AWG THHN takes 0.0133 sq in, so 0.182 / 0.0133 = 13.68, which rounds down to 13. That is a fill answer only; conductor ampacity adjustment in Chapter 3 is a separate check.",
+  "id": "C9-L-006",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 1, 4, and 5",
+  "question": "How many 12 AWG THHN fit in a 1/2 in EMT nipple by fill alone?",
+  "tags": [
+   "fill",
+   "nipples",
+   "worked example"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "trade size vs actual size",
+   "EMT inside diameter"
+  ],
+  "answer_plain": "No — trade size is a name, not a measurement. Half-inch EMT is 0.622 in inside and 0.304 sq in in total area, which is why fill work always uses the Table 4 dimensions instead of the trade-size name.",
+  "id": "C9-L-007",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 4",
+  "question": "Is 1/2 in EMT actually a half inch inside?",
+  "tags": [
+   "table 4",
+   "raceway"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "EMT vs PVC fill",
+   "same size different raceway"
+  ],
+  "answer_plain": "Yes. Half-inch PVC Schedule 40 is smaller inside than 1/2 in EMT — 0.285 sq in total and 0.114 sq in at 40 percent, against EMT's 0.304 and 0.122. A count that fits in EMT may not fit in PVC, so always read the row for the raceway actually being installed.",
+  "id": "C9-L-008",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 4",
+  "question": "Does raceway type change a fill answer at the same trade size?",
+  "tags": [
+   "table 4",
+   "raceway"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "0.304 vs 0.305",
+   "EMT area flag"
+  ],
+  "answer_plain": "The v1 table carries 0.304 sq in, and one secondary source showed 0.305, so the difference is flagged rather than silently fixed. The 40 percent usable area of 0.122 sq in agrees across sources, and 0.304 should not be changed without re-checking the printed Table 4.",
+  "fl_note": "Flag carried from the v1 README, item 6.",
+  "id": "C9-L-009",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 4",
+  "question": "Is the 1/2 in EMT total area 0.304 or 0.305 sq in?",
+  "tags": [
+   "table 4",
+   "unverified flag"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "12 AWG THHN area",
+   "0.0133"
+  ],
+  "answer_plain": "One 12 AWG THHN, THWN, or THWN-2 conductor takes 0.0133 sq in by Table 5. That single value drives the classic fill example: 0.122 / 0.0133 = 9.17, so nine fit in 1/2 in EMT at 40 percent.",
+  "id": "C9-L-010",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 5",
+  "question": "What area does one 12 AWG THHN conductor take for fill?",
+  "tags": [
+   "table 5",
+   "conductor area"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "insulation type fill area",
+   "THHN vs other insulation"
+  ],
+  "answer_plain": "Yes. Table 5 lists area by size and insulation type, and a thicker insulation in the same AWG takes more room. If the job changes insulation type, redo the fill math with the new type's area instead of reusing the old count.",
+  "id": "C9-L-011",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 5",
+  "question": "Does insulation type change a conductor's fill area?",
+  "tags": [
+   "table 5",
+   "conductor area"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "bare conductor area",
+   "bare ground fill table"
+  ],
+  "answer_plain": "A bare conductor's area comes from the conductor-properties data in Table 8, because there is no insulation for Table 5 to measure. Insulated conductors, including an insulated equipment ground, use their Table 5 areas instead.",
+  "id": "C9-L-012",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 5 and 8",
+  "question": "Which table gives the area of a bare conductor for fill?",
+  "tags": [
+   "table 8",
+   "bare conductor"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "fill method steps",
+   "how to size conduit"
+  ],
+  "answer_plain": "List every conductor including grounds, add their Table 5 areas (Table 8 for bare), pick the Table 1 percentage from the conductor count, then take the first Table 4 trade size whose usable area covers the total. Skipping the ground or using the wrong raceway row is where most wrong answers start.",
+  "id": "C9-L-013",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 1, 4, and 5",
+  "question": "What are the steps of a conduit fill calculation?",
+  "tags": [
+   "fill",
+   "method"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "close enough fill",
+   "over fill by a little"
+  ],
+  "answer_plain": "No. If the total is over the usable area at all, move up to the next trade size — the two 6 AWG plus one 10 AWG example totals 0.1225 sq in against a 0.122 limit in 1/2 in EMT, so it goes to 3/4 in. Close does not count in fill.",
+  "id": "C9-L-014",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 4 and 5",
+  "question": "My conductor total is just over the allowed area. Can I still use that trade size?",
+  "tags": [
+   "fill",
+   "method"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "two conductor trap",
+   "31 vs 40 percent mistake"
+  ],
+  "answer_plain": "Using the familiar 40 percent column for a pull that only gets 31 percent because it holds exactly two conductors. Always let the conductor count choose the percentage before any areas are compared.",
+  "id": "C9-L-015",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 1",
+  "question": "What is the most common fill mistake on a two-conductor pull?",
+  "tags": [
+   "fill",
+   "table 1"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "same size fill division",
+   "how many fit formula"
+  ],
+  "answer_plain": "Divide the raceway's usable area at the right percentage by one conductor's Table 5 area. For 10 AWG THHN in 3/4 in EMT that is 0.213 / 0.0211 = 10.09, so 10 conductors fit.",
+  "id": "C9-L-016",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 4 and 5",
+  "question": "How do I find how many same-size conductors fit in a raceway?",
+  "tags": [
+   "fill",
+   "same size"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "round fill up or down",
+   "9.17 conductors"
+  ],
+  "answer_plain": "Round down, because a fraction of a conductor cannot be installed — 9.17 means 9 conductors. The only exception is the Chapter 9 note for all-same-size conductors, where a decimal of 0.8 or more may be rounded up.",
+  "id": "C9-L-017",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 4 and 5",
+  "question": "Do I round a fill result up or down?",
+  "tags": [
+   "fill",
+   "rounding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "0.8 rule fill",
+   "round up 0.8"
+  ],
+  "answer_plain": "When every conductor in the raceway is the same size and type and the division leaves a decimal of 0.8 or more — for example 8 AWG THHN in 3/4 in EMT divides to 5.82, so 6 are permitted. Mixed sizes never use this round-up; their areas are added instead.",
+  "id": "C9-L-018",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 4 note",
+  "question": "When may a same-size fill result be rounded up?",
+  "tags": [
+   "fill",
+   "rounding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "mixed size fill",
+   "different sizes one conduit"
+  ],
+  "answer_plain": "Add each conductor's own Table 5 area, count the equipment ground as its own line, and compare the sum with Table 4. There is no single division for a mixed pull, and the same-size shortcuts, including Annex C, cannot answer it.",
+  "id": "C9-L-019",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 4 and 5",
+  "question": "How do I figure fill for mixed conductor sizes?",
+  "tags": [
+   "fill",
+   "mixed sizes"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "1/0 fill example",
+   "0.6072 fill"
+  ],
+  "answer_plain": "No. The total is 3 x 0.1855 + 0.0507 = 0.6072 sq in, and 1-1/4 in EMT allows only 0.598 sq in at 40 percent. The next size, 1-1/2 in EMT at 0.814 sq in, is the answer.",
+  "id": "C9-L-020",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 4 and 5",
+  "question": "Will three 1/0 THHN plus a 6 AWG ground fit in 1-1/4 in EMT?",
+  "tags": [
+   "fill",
+   "worked example"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "does the ground count",
+   "EGC fill"
+  ],
+  "answer_plain": "Yes. An equipment grounding conductor occupies raceway space like any other conductor, and the v1 Chapter 9 notes state that grounds count toward fill. Leaving it out is the most common reason a calculation passes on paper and jams in the field.",
+  "id": "C9-L-021",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 1, 4, and 5",
+  "question": "Does the equipment grounding conductor count toward conduit fill?",
+  "tags": [
+   "fill",
+   "grounding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "insulated ground area",
+   "green ground fill"
+  ],
+  "answer_plain": "Use the Table 5 area for that conductor's size and insulation type, exactly as for a current-carrying conductor. Only a bare ground leaves Table 5 and takes its area from Table 8.",
+  "id": "C9-L-022",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 5",
+  "question": "What area do I use for an insulated equipment ground in fill?",
+  "tags": [
+   "fill",
+   "grounding"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "bare ground zero fill",
+   "bare EGC area"
+  ],
+  "answer_plain": "No. A bare conductor still has metal area, taken from Table 8 for fill purposes. Counting it as zero understates the pull and repeats the classic left-out-ground mistake in a thinner form.",
+  "id": "C9-L-023",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "Does a bare ground get counted at zero area?",
+  "tags": [
+   "fill",
+   "grounding",
+   "table 8"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "annex C purpose",
+   "same size fill tables"
+  ],
+  "answer_plain": "Annex C is a set of pre-worked fill tables for the one case where every conductor in the raceway is the same size and type, so a count can be read off instead of calculated. It is the Tables 1, 4, and 5 math done ahead of time, and it agrees with that math — nine 12 AWG THHN in 1/2 in EMT is the shared example.",
+  "id": "C9-L-024",
+  "nec_edition": "2020",
+  "nec_ref": "Informative Annex C",
+  "question": "What is Annex C for?",
+  "tags": [
+   "annex c",
+   "fill"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "annex C limits",
+   "annex C mixed sizes"
+  ],
+  "answer_plain": "Annex C cannot answer a mixed-size pull, a different insulation type than its tables assume, or a bare-ground case. Those go back to the four-step method with Tables 1, 4, and 5 — and Tables 8 for the bare conductor.",
+  "id": "C9-L-025",
+  "nec_edition": "2020",
+  "nec_ref": "Informative Annex C",
+  "question": "When can Annex C not be used?",
+  "tags": [
+   "annex c",
+   "fill"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "annex C disagreement",
+   "fill check mismatch"
+  ],
+  "answer_plain": "Probably an input, not either method — Annex C and the Tables 4 and 5 division are the same math. Recheck raceway type, insulation type, conductor count, and whether a ground was included before trusting either answer.",
+  "id": "C9-L-026",
+  "nec_edition": "2020",
+  "nec_ref": "Informative Annex C",
+  "question": "My Annex C count and my division disagree. Which is wrong?",
+  "tags": [
+   "annex c",
+   "fill"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "table 8 contents",
+   "conductor properties"
+  ],
+  "answer_plain": "Table 8 gives a conductor's area in circular mils, its stranding, its overall diameter, and its DC resistance at 75 degrees C in ohms per thousand feet, for copper and for aluminum. The resistance columns are what voltage-drop work is built on.",
+  "id": "C9-L-027",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "What information does Table 8 give about a conductor?",
+  "tags": [
+   "table 8"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "solid vs stranded resistance",
+   "12 AWG resistance rows"
+  ],
+  "answer_plain": "Not exactly. Stranded 12 AWG copper is listed at 1.98 ohm/kft and solid 12 AWG copper at 1.93 ohm/kft in the v1 Table 8 data. Read the row that matches the conductor actually in hand when a voltage-drop answer is close to a limit.",
+  "id": "C9-L-028",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "Do solid and stranded conductors of the same AWG have the same resistance?",
+  "tags": [
+   "table 8",
+   "voltage drop"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "divide by 1000 voltage drop",
+   "ohm per kft units"
+  ],
+  "answer_plain": "Table 8 resistance is stated per thousand feet, but job lengths are in single feet. Multiplying length by ohm-per-thousand-feet and dividing by 1000 converts the table unit into the resistance of the actual run.",
+  "id": "C9-L-029",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "Why does the voltage-drop formula divide by 1000?",
+  "tags": [
+   "table 8",
+   "voltage drop"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "CCA resistance table 8",
+   "CCA voltage drop value"
+  ],
+  "answer_plain": "CCA is not separately listed in Table 8, so the aluminum column is used only as an approximation, exactly as the v1 table notes it. Never invent a CCA resistance or present an aluminum-column result as an exact CCA value.",
+  "fl_note": "Flag carried from the v1 README, item 7.",
+  "id": "C9-L-030",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "What resistance do I use for copper-clad aluminum in voltage drop?",
+  "tags": [
+   "table 8",
+   "CCA",
+   "unverified flag"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "CCA ampacity vs resistance",
+   "CCA aluminum column"
+  ],
+  "answer_plain": "They are two different uses of the aluminum column. For ampacity, Table 310.16 groups CCA with aluminum and Sharma rule S-10 sizes it one AWG larger; for voltage drop, the aluminum resistance is only a stand-in estimate, because Table 8 lists no CCA value.",
+  "id": "C9-L-031",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8; 310.16",
+  "question": "Is using the aluminum column for CCA the same rule as its ampacity?",
+  "sharma_rule_id": "S-10",
+  "tags": [
+   "CCA",
+   "table 8"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "voltage drop formula",
+   "VD equals 2LRI"
+  ],
+  "answer_plain": "VD = 2 x L x R x I / 1000, where L is the one-way length in feet, R is the Table 8 resistance in ohm per thousand feet, and I is the actual load current. The result is in volts; divide by the system voltage and multiply by 100 for the percentage.",
+  "id": "C9-L-032",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "What is the single-phase voltage-drop formula used in this book?",
+  "tags": [
+   "voltage drop",
+   "formula"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "factor of 2 voltage drop",
+   "round trip conductor"
+  ],
+  "answer_plain": "Current travels out on one conductor and back on the other, so it crosses the run length twice and drops voltage on both legs. Forgetting the 2 understates the drop by half and is the most common error in the whole calculation.",
+  "id": "C9-L-033",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "Why is there a 2 in the single-phase voltage-drop formula?",
+  "tags": [
+   "voltage drop",
+   "formula"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "voltage drop current value",
+   "breaker size vs load amps"
+  ],
+  "answer_plain": "Use the actual load current the circuit carries, not the breaker rating, unless the load truly equals that rating. A 20A circuit carrying 12A drops voltage as a 12A circuit, and substituting 20A will upsize wire the job does not need.",
+  "id": "C9-L-034",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "Do I use the breaker size or the actual load for voltage drop?",
+  "tags": [
+   "voltage drop",
+   "method"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "voltage drop percent conversion",
+   "VD percent"
+  ],
+  "answer_plain": "Divide the drop in volts by the system voltage and multiply by 100. A 6.34V drop is 5.28 percent on a 120V circuit but would be only 2.64 percent on a 240V circuit, which is why long runs hurt less at higher voltage.",
+  "id": "C9-L-035",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "How do I turn voltage drop in volts into a percentage?",
+  "tags": [
+   "voltage drop",
+   "method"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "12 AWG voltage drop example",
+   "6.336 volts"
+  ],
+  "answer_plain": "Using stranded copper at 1.98 ohm/kft: 2 x 100 x 1.98 x 16 / 1000 = 6.34V, which is 5.28 percent of 120V. That is well past the 3 percent recommendation for a branch circuit, so the conductor needs upsizing.",
+  "id": "C9-L-036",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "What is the voltage drop of 16A at 100 ft on 12 AWG copper at 120V?",
+  "tags": [
+   "voltage drop",
+   "worked example"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "upsize for voltage drop",
+   "fix voltage drop"
+  ],
+  "answer_plain": "Rerun the same formula with the next size's lower Table 8 resistance — do not guess how many sizes to jump. In the 100 ft, 16A example, 10 AWG still gives 3.31 percent, and only 8 AWG, at 2.08 percent, meets the 3 percent recommendation.",
+  "id": "C9-L-037",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "How do I fix a circuit that fails a voltage-drop check?",
+  "tags": [
+   "voltage drop",
+   "method"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "three phase voltage drop formula",
+   "1.732 voltage drop"
+  ],
+  "answer_plain": "VD = 1.732 x L x R x I / 1000, with L one-way feet, R the Table 8 resistance, and I the load current. The 1.732 factor replaces the single-phase round-trip factor of 2 for a balanced three-phase circuit.",
+  "id": "C9-L-038",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 8",
+  "question": "What is the three-phase voltage-drop formula in this book?",
+  "tags": [
+   "voltage drop",
+   "three phase"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "three phase approximation",
+   "table 8 DC on AC"
+  ],
+  "answer_plain": "No — it is an approximation, because it borrows DC resistance for an AC system. Large conductors, steel raceways, and power factor can move the real answer, which is the finer work Table 9 exists for, so results near a limit should be labeled and checked.",
+  "id": "C9-L-039",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Tables 8 and 9",
+  "question": "Is the three-phase formula with Table 8 exact?",
+  "tags": [
+   "voltage drop",
+   "three phase"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "3 percent 5 percent mandatory",
+   "voltage drop requirement or recommendation"
+  ],
+  "answer_plain": "No. The 3 percent branch-circuit and 5 percent feeder-plus-branch figures are recommendations in Informational Notes to 210.19(A) and 215.2(A), not enforceable requirements. This book keeps that label on every voltage-drop page and quiz item.",
+  "fl_note": "Flag carried from the v1 README, item 8.",
+  "id": "C9-L-040",
+  "nec_edition": "2020",
+  "nec_ref": "210.19(A) Informational Note; 215.2(A) Informational Note",
+  "question": "Are the 3 percent and 5 percent voltage-drop figures code requirements?",
+  "tags": [
+   "voltage drop",
+   "informational note"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "over 3 percent violation",
+   "voltage drop failed inspection"
+  ],
+  "answer_plain": "Not by that fact alone, because the figure is a recommendation, not a requirement. It is still a circuit that may run its load poorly — dim lights or a hard-starting motor — and a good installer fixes it by upsizing, shortening the run, or moving the load.",
+  "id": "C9-L-041",
+  "nec_edition": "2020",
+  "nec_ref": "210.19(A) Informational Note",
+  "question": "Is a circuit over 3 percent voltage drop a code violation?",
+  "tags": [
+   "voltage drop"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "voltage drop spec limit",
+   "project specification VD"
+  ],
+  "answer_plain": "Yes, if a source with actual authority on that job imposes it — a project specification, a contract, or a local amendment. That enforcement comes from those documents, not from the Informational Note itself, so check the job documents and the AHJ.",
+  "id": "C9-L-042",
+  "nec_edition": "2020",
+  "nec_ref": "210.19(A) Informational Note",
+  "question": "Can a 3 percent voltage-drop limit ever be enforced on a job?",
+  "tags": [
+   "voltage drop"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "table 9 purpose",
+   "AC resistance reactance"
+  ],
+  "answer_plain": "Table 9 works with alternating-current resistance and reactance for 600V cables, giving a finer voltage-drop calculation than Table 8's DC resistance alone. Reach for it on large conductors, long three-phase runs, or any result that lands near a limit.",
+  "id": "C9-L-043",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 9",
+  "question": "What is Table 9 used for?",
+  "tags": [
+   "table 9",
+   "voltage drop"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "table 9 values missing",
+   "table 9 unverified"
+  ],
+  "answer_plain": "Because no Table 9 value was re-checked against the printed 2020 book for this pass, and the v1 calc tables do not include it. The book teaches when to use Table 9 and flags the values as unverified rather than inventing numbers.",
+  "id": "C9-L-044",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9, Table 9",
+  "question": "Why does this book publish no Table 9 values?",
+  "tags": [
+   "table 9",
+   "unverified flag"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "annex D purpose",
+   "load calculation examples annex"
+  ],
+  "answer_plain": "Annex D works the load-calculation articles end to end on example buildings: list the loads, apply the allowed demand factors, and arrive at a service or feeder size. Use it as the pattern for the order of work, and do the mandatory calculation itself in the Chapter 2 articles.",
+  "id": "C9-L-045",
+  "nec_edition": "2020",
+  "nec_ref": "Informative Annex D",
+  "question": "What does Annex D show?",
+  "tags": [
+   "annex d",
+   "load calculations"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "220.82 pointer",
+   "dwelling optional calculation"
+  ],
+  "answer_plain": "In Chapter 2, under the load-calculation articles — the v1 calc data carries the optional dwelling method as table 220.82. Annex D only illustrates the method with examples; it does not replace the article that governs your building.",
+  "id": "C9-L-046",
+  "nec_edition": "2020",
+  "nec_ref": "220.82; Informative Annex D",
+  "question": "Where does a dwelling load calculation actually get done?",
+  "tags": [
+   "load calculations",
+   "annex d"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "torque marking vs table",
+   "110.14 torque order"
+  ],
+  "answer_plain": "The equipment's own marking or manufacturer instruction governs first, and a general recommended-torque table is used only where the equipment gives no value. Make the connection with a torque tool to that value rather than by feel.",
+  "id": "C9-L-047",
+  "nec_edition": "2020",
+  "nec_ref": "110.14(D); Informative Annex I",
+  "question": "Which torque value governs a lug or breaker connection?",
+  "tags": [
+   "torque",
+   "annex i"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "annex I values unverified",
+   "torque values missing"
+  ],
+  "answer_plain": "The annex letter and its values were not re-confirmed against the printed 2020 book for this pass, so the page teaches the order of authority — marking, instruction, then recommended table — and publishes no numbers. Check the printed book and the equipment marking on the job.",
+  "id": "C9-L-048",
+  "nec_edition": "2020",
+  "nec_ref": "Informative Annex I",
+  "question": "Why does this book publish no Annex I torque values?",
+  "tags": [
+   "annex i",
+   "unverified flag"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "informative annex meaning",
+   "annex mandatory or not"
+  ],
+  "answer_plain": "An informative annex explains, illustrates, or supplies reference data; it is not a mandatory requirement unless an adopting ordinance specifically adopts it. That is the same guidance status the voltage-drop percentages carry as Informational Notes.",
+  "id": "C9-L-049",
+  "nec_edition": "2020",
+  "nec_ref": "Informative Annexes, general",
+  "question": "What does it mean that an annex is informative?",
+  "tags": [
+   "annexes"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "aliases": [
+   "held tables chapter 9",
+   "table 5A table 10 11 12 held"
+  ],
+  "answer_plain": "Table 5A, Table 10, Tables 11 and 12, and every annex letter other than C, D, and I were held for confirmation against the printed 2020 book rather than written from the brief alone. There is no Table 13 or Annex K in this chapter, and nothing was invented to fill those slots.",
+  "id": "C9-L-050",
+  "nec_edition": "2020",
+  "nec_ref": "Chapter 9",
+  "question": "Which Chapter 9 tables and annexes did this chapter hold back, and why?",
+  "tags": [
+   "chapter 9",
+   "unverified flag"
+  ],
+  "verified_by": "Jarvis",
+  "verified_date": "2026-11-11"
+ },
+ {
+  "id": "C9-L-051",
+  "term": "Material choice in Chapter 9 calculations",
+  "answer": "Every conductor calculation in this chapter now states its material — copper, aluminum, or copper-clad aluminum (CCA) — before the math starts. The choice changes ampacity (Chapter 3, Table 310.16) and the resistance used for voltage drop (Table 8 here), but it does not change conduit fill or box fill, which run on conductor size and insulation only. Sharma's standard branch wire is CCA (S-10), so the material is stated out loud on every worked example instead of being assumed.",
+  "nec_ref": "Ch. 9 Tables 4, 5, 8; 310.16",
+  "source_pages": [],
+  "diagram_hint": ""
+ },
+ {
+  "id": "C9-L-052",
+  "term": "CCA ampacity — which column",
+  "answer": "Size copper-clad aluminum from the aluminum column of Table 310.16 — the table's ampacity columns cover copper and aluminum/copper-clad together, and CCA takes the aluminum side. Combined with the small-conductor caps, that lands one AWG size above copper for the same breaker (S-10). Minimum conductor sizes and the rest of the ampacity rules live with Article 310 in Chapter 3 of this book; this chapter only supplies the fill and resistance tables the sizing works from.",
+  "nec_ref": "310.16; Ch. 9 Table 8 note",
+  "source_pages": [
+   "C9-Table8-CCA"
+  ],
+  "diagram_hint": ""
+ },
+ {
+  "id": "C9-L-053",
+  "term": "CCA resistance for voltage drop — no exact value on file",
+  "answer": "Table 8 does not list copper-clad aluminum, and no cited manufacturer or UL resistance value for CCA is on file for this book as of this pass — so no exact CCA resistance is published here, and none may be invented. Working practice stays what the Table 8 CCA page teaches: use the aluminum column for the same AWG as a labeled approximation, state that the voltage-drop result is an estimate, and treat any CCA-specific resistance figure from a study sheet or sales sheet as unverified until it is checked against the manufacturer's published data. Any future CCA resistance entry in this book is flagged verified=false until that check is done.",
+  "nec_ref": "Ch. 9 Table 8",
+  "source_pages": [
+   "C9-Table8-CCA",
+   "C9-Table8"
+  ],
+  "diagram_hint": "",
+  "verified": false,
+  "unverified_reason": "No cited manufacturer/UL CCA resistance value on file; aluminum-column approximation only, per the chapter's flags."
+ },
+ {
+  "id": "C9-L-054",
+  "term": "Where CCA terminations are OK",
+  "answer": "On the device side, ordinary 15 and 20 A receptacle and switch screw terminals are fine with copper-clad aluminum. Anything that clamps or splices conductors — wire connectors and lugs — must carry an AL/CU (AL-CU or CU-AL) marking; a copper-only connector is not the pick for CCA. Push-in backstab holes are the hard no: they are listed for 14 AWG solid copper only, so no CCA conductor of any size goes in a backstab hole — side screws or pigtails with a listed connector instead (S-10).",
+  "nec_ref": "110.14; 334.104",
+  "source_pages": [
+   "C9-Table8-CCA"
+  ],
+  "diagram_hint": ""
+ },
+ {
+  "id": "C9-L-055",
+  "term": "Conduit fill — metal does not change the answer",
+  "answer": "Chapter 9 Tables 4 and 5 have no column for conductor metal: fill runs on conductor size and insulation type only. Same size, same insulation, same count means the same fill result whether the conductor is copper or copper-clad aluminum — nine 12 AWG THHN fit a 1/2 in EMT either way. The metal shows up one step earlier, in sizing: when CCA's ampacity puts a circuit on a larger AWG than copper would use, run the fill math at that larger AWG, because size is what the tables read (S-10).",
+  "nec_ref": "Ch. 9 Tables 1, 4, 5",
+  "source_pages": [
+   "C9-Table5",
+   "C9-ANNEXC"
+  ],
+  "diagram_hint": ""
+ },
+ {
+  "id": "C9-L-056",
+  "term": "Box fill — size, not metal (314.16)",
+  "answer": "Box fill under 314.16 works the same way: each conductor is charged a volume allowance by its AWG size — 2.25 cu in for 12 AWG, 2.50 cu in for 10 AWG — and the metal is never asked. The result for a given set of conductor sizes is identical in copper and CCA. What changes in practice is the size itself: a 20 A CCA circuit runs 10 AWG where copper runs 12, so its conductors each carry the 10 AWG allowance and the box fills faster — the Chapter 3 box-fill table does that math.",
+  "nec_ref": "314.16",
+  "source_pages": [],
+  "diagram_hint": ""
+ },
+ {
+  "id": "C9-L-057",
+  "term": "Load calcs — conductor picked in the chosen material",
+  "answer": "A load calculation (220.82 and the other Article 220 methods) produces amperes, not a wire. The conductor is picked afterward, from Table 310.16, in the material the job is actually using: copper from the copper column, aluminum or copper-clad aluminum from the aluminum column, with the small-conductor caps applied. So the same calculated load can land on different AWG sizes for different materials — the arithmetic of the load does not change, the pick does.",
+  "nec_ref": "220.82; 310.16",
+  "source_pages": [],
+  "diagram_hint": ""
+ },
+ {
+  "id": "C9-L-058",
+  "term": "State the material before the math",
+  "answer": "Field habit for every calculation in this book: say the material first — copper, aluminum, or CCA — then the size, then the table. Most wrong answers in conduit fill and voltage drop are not arithmetic errors; they are a copper assumption carried into a CCA job (or the reverse), which silently changes the AWG in the fill count and the resistance in the drop formula. Sharma runs CCA as its standard branch wire (S-10), so CCA is the assumption to state and check, not copper.",
+  "nec_ref": "Ch. 9 Tables 5, 8",
+  "source_pages": [
+   "C9-VD-LIMITS"
+  ],
+  "diagram_hint": ""
+ }
+]

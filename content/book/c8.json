@@ -1,0 +1,1422 @@
+{
+  "schema_version": "book-v1",
+  "nec_edition": "2020",
+  "jurisdiction": "Florida Building Code 8th Edition (2023)",
+  "chapter": 8,
+  "chapter_title": "Communications Systems",
+  "id_prefix": "C8",
+  "label": "Reference aid; the AHJ and the printed NEC govern.",
+  "sections": [
+    {
+      "id": "C8-90.3",
+      "chapter": 8,
+      "article": "90",
+      "section": "90.3",
+      "title": "Chapter 8 stands on its own — the 90.3 rule",
+      "plain_explanation": "Article 90 explains how the Code is organized, and 90.3 draws a line around Chapter 8. In plain terms, the general rules in Chapters 1 through 7 do not automatically apply to a communications installation. They apply only where Chapter 8 itself points back to them, or where a specific article in this chapter says so. That is why a rule you know well from power wiring cannot simply be carried over to a phone, data, or coax job.",
+      "on_the_job": "When a power-wiring rule and a Chapter 8 job seem to collide, do not assume the power rule wins. Open the communications article first and look for a reference back to Chapters 1 through 7. If Chapter 8 is silent, ask the lead or the AHJ instead of inventing a bridge.",
+      "sharma_note": "",
+      "figure_idea": "A simple diagram with Chapters 1-7 in one box and Chapter 8 in its own box, with a few labelled arrows showing where Chapter 8 reaches back, for example to 250.94 for the intersystem bonding termination.",
+      "related_ids": [
+        "C8-L-001",
+        "C8-Q-001"
+      ],
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not yet adopted in Florida, so a 2023 study book may show different Chapter 8 numbering or wording.",
+      "verified": true,
+      "prev_id": null,
+      "next_id": "C8-ART-800",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-ART-800",
+      "chapter": 8,
+      "article": "800",
+      "section": "800",
+      "title": "Article 800 — General requirements for communications systems",
+      "plain_explanation": "Article 800 is the general article that was new in the 2020 edition. It gathers the rules that used to be repeated in almost every communications article — things like workmanship, abandoned cable, fire spread, cables entering a building, bonding and grounding, separation from power, and cable listing — and states them once. Those general rules then apply to the specific systems in Articles 805, 820, 830, and 840, unless one of those articles changes them. Article 810, antennas, is the exception: it stands apart from Article 800 and carries its own rules.",
+      "on_the_job": "Read Article 800 first on any communications job, then read the specific article for the system you are installing. Most inspection failures Sharma would hit in this chapter — no bond at the entrance, cable mixed with power, dead cable left in a ceiling — are Article 800 failures, not failures of the specific system article.",
+      "sharma_note": "",
+      "figure_idea": "A chapter map showing Article 800 in the center, with lines out to 805, 820, 830, and 840, and Article 810 drawn off to the side in its own box marked 'stands alone.'",
+      "related_ids": [
+        "C8-L-002",
+        "C8-Q-002"
+      ],
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not yet adopted in Florida, so a 2023 study book may show different Chapter 8 numbering or wording.",
+      "verified": true,
+      "prev_id": "C8-90.3",
+      "next_id": "C8-800.1",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.1",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.1",
+      "title": "Scope of the general article",
+      "plain_explanation": "This section says what Article 800 covers: the general requirements for the communications systems handled in this chapter. It works together with the specific articles, so a telephone circuit, a CATV coax run, and a broadband entrance all start here for their shared rules. It does not cover the utility's own plant under the utility's exclusive control, which Article 90 leaves outside the Code. The customer's side of the demarcation point is where this book's work lives.",
+      "on_the_job": "On a service call, find the demarcation point first. Everything on the customer side is fair game for Chapter 8 rules; the provider's network on the other side is theirs. When the provider's installer and Sharma's crew disagree about a bond or a cable, this scope line usually settles whose rules apply.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-002"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-ART-800",
+      "next_id": "C8-800.2",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.2",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.2",
+      "title": "Definitions that belong to this chapter",
+      "plain_explanation": "Some words in this chapter carry Code definitions, and this section holds the ones communications work turns on. Two do daily duty. The point of entrance is the point where a communications wire or cable comes into the building from outside — through a wall, a floor, or a grounded metal raceway that extends it — and almost every entrance rule in the chapter is measured from it. Abandoned communications cable, defined here, is cable that is not terminated at equipment and not identified for future use with a tag, which is the test 800.25 then applies. Added in reconciliation: the ChatGPT research listed this section, and 2020 sources in hand (the BICSI 2020 Chapter 8 presentation and McGraw-Hill's NEC 2020 Handbook commentary on 800.25) both cite definitions at 800.2.",
+      "on_the_job": "Before arguing about where a protector, bond, or 50 ft limit lands, settle where the point of entrance is — the wall penetration, or the end of the grounded entrance conduit if one extends it. And when a dead cable is disputed, run the definition: terminated, or tagged for future use? If neither, it is abandoned.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-047",
+        "C8-L-004"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.1",
+      "next_id": "C8-800.3",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.3",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.3",
+      "title": "How Article 800 works with the other articles",
+      "plain_explanation": "Article 800 is a layer, not a replacement. Its general rules apply across the communications articles unless a specific article modifies them, and other NEC articles apply to a communications job only where Chapter 8 references them. One practical example: reconditioned communications equipment is pulled back to the general marking rules of Chapter 1 through this section. Another is grounding: Chapter 8 repeatedly sends you to the intersystem bonding termination described in 250.94, instead of restating it.",
+      "on_the_job": "Work the layers in order: 800 for the general rule, the specific article (805, 820, 830, or 840) for anything that changes it, then any article Chapter 8 points you to. Do not skip straight to a Chapter 3 wiring method and assume it governs a communications cable.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-001",
+        "L-060"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.2",
+      "next_id": "C8-800.24",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.24",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.24",
+      "title": "Doing the work neatly and protecting the cable",
+      "plain_explanation": "This section requires communications work to be done in a neat, workmanlike way, and it ties cable installation to basic protection against physical damage. Cables and raceways that pass through wood framing get the same kind of boring and notching discipline the Code expects elsewhere, and cables must be secured and supported so they are not hanging off other systems. Sloppy low-voltage work is still a code violation even though the voltage is low.",
+      "on_the_job": "Dress the runs, support them on their own supports, and keep holes centered in studs the way you would for power cable. Never hang a communications cable from a power raceway, a sprinkler pipe, or a ceiling grid wire that is not part of the support system. A neat rough-in is also the fastest one to inspect.",
+      "sharma_note": "",
+      "figure_idea": "A photo-style drawing of a stud bay with a centered bored hole, a supported Cat 6 and coax run, and a red X over a cable zip-tied to an EMT run.",
+      "related_ids": [
+        "C8-L-003",
+        "C8-Q-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.3",
+      "next_id": "C8-800.25",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.25",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.25",
+      "title": "Abandoned cable has to come out",
+      "plain_explanation": "A communications cable that is no longer terminated at equipment, and is not tagged for future use, counts as abandoned. The accessible part of abandoned cable must be removed, because dead cable is fuel in a ceiling or shaft and it confuses every crew that comes later. A cable you honestly plan to reuse can stay, but only if it carries a durable tag saying so, suited to the environment it sits in. Cable hidden inside a concealed raceway is not treated as accessible, so the removal duty is aimed at what a crew can actually reach.",
+      "on_the_job": "On a remodel or a tenant finish-out, walk the ceiling before you add anything. Pull out dead coax and old phone cable you can reach, and tag any spare you are keeping with what it is and where it goes. 'We might use it someday' with no tag does not count.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-047",
+        "C8-L-004",
+        "C8-Q-004"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.24",
+      "next_id": "C8-800.26",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.26",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.26",
+      "title": "Slowing the spread of fire and smoke",
+      "plain_explanation": "Communications cables, raceways, and cable routing assemblies must be installed so they do not noticeably increase how fire or the products of combustion can spread through hollow spaces, shafts, and air-handling paths. Where a cable or raceway passes through a fire-resistance-rated wall, floor, partition, or ceiling, the opening around it has to be firestopped with an approved method that restores the rating. This mirrors the general firestopping idea in Chapter 3, restated here because Chapter 8 stands on its own.",
+      "on_the_job": "Every poke through a rated assembly gets firestopped — putty, collars, or a listed system matched to the cable type and the assembly. Do not leave an oversized hole stuffed with scrap insulation and call it done. In Florida commercial work this is one of the most common communications corrections on a final inspection.",
+      "sharma_note": "",
+      "figure_idea": "A cutaway of a rated wall with a coax bundle passing through a red firestop collar, next to the same wall with an open hole marked as a fail.",
+      "related_ids": [
+        "C8-L-005",
+        "C8-Q-005"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.25",
+      "next_id": "C8-800.44",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.44",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.44",
+      "title": "Overhead wires and cables coming into a building",
+      "plain_explanation": "Overhead communications wires and cables that enter a building have clearance and separation rules where they cross roofs and where they run near the power service. Communications drops must keep a vertical clearance of at least 8 ft above roofs they pass over, with limited exceptions. Where a power service drop of 750 volts or less runs above and parallel to a communications or coax drop, the two need at least 12 in of separation through the span and at the building attachment, provided the power conductors are insulated and at least 40 in of clearance is kept between the two services at the pole.",
+      "on_the_job": "Before you set a ladder, look up: check the comm drop's height over the roof and its distance from the power drop at the wall and back at the pole. Never use the power service mast to support a communications drop. If the existing drop sags into the power drop, that is a provider call, not something to fix by pulling it tighter yourself.",
+      "sharma_note": "",
+      "figure_idea": "A house elevation sketch showing a coax drop crossing a roof with an 8 ft clearance arrow, and a 12 in gap marked between the comm drop and the insulated power drop at the attachment.",
+      "related_ids": [
+        "C8-L-006",
+        "C8-Q-006"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.26",
+      "next_id": "C8-800.47",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.47",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.47",
+      "title": "Underground cables where power is also present",
+      "plain_explanation": "Underground communications wires and cables that share a manhole, handhole, or similar enclosure with electric light, power, Class 1, or non-power-limited fire alarm conductors must be kept apart from those conductors by a suitable barrier. The point is simple: a space where a worker may reach in and grab a cable cannot mix bare power conductors with communications cable as if they were the same system. The barrier has to be permanent and suitable, not a scrap of cardboard or a cable draped to the far side.",
+      "on_the_job": "Sharma rarely opens manholes, but the same thinking applies at underground entrances and pull points on light-commercial work. If you find comm cable lying against power conductors in a shared enclosure, do not just close the lid — report it and get the separation corrected.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-007"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.44",
+      "next_id": "C8-800.49",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.49",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.49",
+      "title": "Grounding a metal conduit that carries the entrance cable",
+      "plain_explanation": "When the communications entrance wire or cable arrives inside a metal conduit, that conduit itself has to be tied into the grounding system. The conduit gets connected by a bonding conductor or a grounding electrode conductor to a grounding electrode, or to the building grounding electrode system where one is present, following the connection points given in 800.100(B). A floating metal entrance conduit can sit at a very different potential from the building during a surge, which is exactly what the bond prevents.",
+      "on_the_job": "If you sleeve an entrance cable through metal conduit, plan the bond clamp and conductor before the provider arrives. Land it where 800.100(B) allows, not on the nearest water pipe you happen to see. Plastic conduit does not need this bond, but it also does not extend the point of entrance the way a grounded metal raceway can.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-008",
+        "L-060"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.47",
+      "next_id": "C8-800.53",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.53",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.53",
+      "title": "Keeping communications cable away from lightning protection",
+      "plain_explanation": "Where it is practicable, communications wires and cables on a building, including coax, are to be kept at least 6 ft away from lightning protection system conductors. A lightning down conductor carries an enormous surge for a few microseconds, and a communications cable run alongside it can pick up enough of that energy by induction to destroy equipment or start a fire inside. Where 6 ft genuinely cannot be had, the Code points to the sideflash calculation approach in the lightning protection standard rather than a guess.",
+      "on_the_job": "Florida is lightning country, so this one is not theoretical here. On any building with air terminals and down leads — churches, schools, larger custom homes — route the data and coax entrances to a different wall or corner whenever you can. If the only entrance is beside a down lead, raise it with the lead before the rough-in, not at final.",
+      "sharma_note": "",
+      "figure_idea": "A building corner sketch with a lightning down lead on one face, the communications entrance moved to the adjacent face, and a 6 ft dimension between the two paths.",
+      "related_ids": [
+        "C8-L-009",
+        "C8-Q-007"
+      ],
+      "florida_note": "Florida has more lightning than any other state; AHJs and insurers here take separation from lightning protection conductors seriously. Confirm the local position where a building has an existing lightning protection system.",
+      "verified": true,
+      "prev_id": "C8-800.49",
+      "next_id": "C8-800.100",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.100",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.100",
+      "title": "Bonding and grounding at the entrance — the heart of Chapter 8",
+      "plain_explanation": "This is the section the whole chapter hangs on. It covers how communications cables and primary protectors get bonded and grounded: the metallic parts that arrive from outside — cable sheaths, protector grounds, coax shields handled under their own articles — must be tied to the building's grounding system at the entrance. The bonding or grounding conductor has its own rules for material, size, and length, and for where it is allowed to land, which the next three pages break out. Done right, a surge arriving on a phone line or coax shield is carried to the same earth reference as the power service, so the two systems rise and fall together instead of sparking across to each other.",
+      "on_the_job": "Pick the protector and grounding-block location to keep this conductor as short and straight as you can. Land it at the intersystem bonding termination when one is there — that device exists precisely for this job (see 250.94, item L-060). Photograph the finished bond; it is the first thing a communications inspector looks for.",
+      "sharma_note": "S-09 puts the meter outside with the panel directly behind it inside, where the house allows. That same service spot is where the intersystem bonding termination belongs, so plan the communications bond to land at the service, not at a random rod driven by the cable installer.",
+      "figure_idea": "A house service wall in elevation: meter and panel back to back, an intersystem bonding termination beside the meter, and short bonding conductors arriving from the phone protector and the coax grounding block.",
+      "related_ids": [
+        "L-060",
+        "C8-L-010",
+        "C8-L-011",
+        "C8-Q-008",
+        "S-09"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.53",
+      "next_id": "C8-800.100(A)",
+      "sharma_rule_ids": [
+        "S-09"
+      ]
+    },
+    {
+      "id": "C8-800.100(A)",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.100(A)",
+      "title": "The bonding conductor itself — material, size, and length",
+      "plain_explanation": "The conductor that bonds the protector or cable sheath has to be copper or another corrosion-resistant conductive material, solid or stranded, and listed for the purpose, with the insulation choices the section allows. It cannot be smaller than 14 AWG, and its current-carrying capacity has to be at least that of the metallic sheath or protected conductor it serves — but it never has to be larger than 6 AWG. It must be run as short as practicable, and in a one- or two-family dwelling it cannot exceed 20 ft. Where it runs in a metal raceway, that raceway has to be bonded at both ends, and the conductor should run in as straight a line as practicable and be protected from physical damage.",
+      "on_the_job": "Measure before you mount the protector: if the run to a legal landing point is over 20 ft at a house, move the protector or use the separate-electrode option on the next pages instead of stretching the conductor. Keep bends gentle and few — a surge does not like corners any more than the inspector does. Fourteen AWG is the floor, not a target; when in doubt, the sheath size governs.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-011",
+        "C8-L-012",
+        "C8-Q-009",
+        "C8-Q-010",
+        "C8-L-048"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.100",
+      "next_id": "C8-800.100(B)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.100(B)",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.100(B)",
+      "title": "Where the bonding conductor is allowed to land",
+      "plain_explanation": "This part lists, in order, the places the entrance bonding or grounding conductor may terminate. First choice is the intersystem bonding termination, if the building has one. Without one, it lands on the building's grounding electrode system or one of the accessible grounding points the section names, such as the grounding electrode conductor or the service equipment enclosure, following the exact list in the printed section. In a building with no grounding means at all, it lands on an electrode installed for the purpose — a rod at least 5 ft long and 1/2 in in diameter is the minimum the section describes for that case.",
+      "on_the_job": "Use the first landing point on the list that the building actually has, and use the nearest accessible one. Do not land the bond on a random receptacle ground, a plumbing vent, or a rod you cannot prove is bonded to the power system. Item L-060 (250.94) explains the termination device itself.",
+      "sharma_note": "",
+      "figure_idea": "A decision ladder graphic: intersystem bonding termination at the top, then the building grounding electrode system points, then a new electrode at the bottom for buildings with no grounding means.",
+      "related_ids": [
+        "L-060",
+        "C8-L-013",
+        "C8-Q-011"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.100(A)",
+      "next_id": "C8-800.100(D)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.100(D)",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.100(D)",
+      "title": "Bonding a separate communications electrode back to the power system",
+      "plain_explanation": "Sometimes the bonding conductor cannot stay inside its length limit — the classic house case is the exception that lets a separate ground rod be driven for the communications system when the run would pass 20 ft. That separate electrode is never allowed to stand alone. It must be bonded to the building's power grounding electrode system with a conductor no smaller than 6 AWG. Two unbonded earth connections at one house are worse than one, because a surge can put thousands of volts between them, right across the equipment inside.",
+      "on_the_job": "If you drive a rod for the phone or coax entrance, the job is not finished until the 6 AWG bond back to the power grounding system is in. The same 6 AWG bonding rule shows up again for antennas in 810.21(J) and for CATV in 820.100(D) — learn it once, use it three times.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-014",
+        "C8-Q-012"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.100(B)",
+      "next_id": "C8-800.110",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.110",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.110",
+      "title": "Raceways and cable routing assemblies for communications",
+      "plain_explanation": "Communications wires and cables may be run in communications raceways and cable routing assemblies that are listed and chosen for the space they serve — plenum, riser, or general-purpose — under the application tables in 800.154. Chapter 9 conduit-fill rules do not govern ordinary communications cables in these raceways, with an exception the section keeps for medium-power network-powered broadband cables. In other words, a listed low-voltage raceway is its own wiring method here; do not borrow a Chapter 3 conduit rule and assume it decides the question.",
+      "on_the_job": "On light-commercial work, pick the raceway rating to match the space: plenum-rated in an air-handling ceiling, riser-rated in a shaft. Keep the manufacturer's fill guidance even though Chapter 9 fill percentages are not the governing rule. If the job is really Class 2 or Class 3 control wiring, you are in Article 725 (Chapter 7), not here.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-015"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.100(D)",
+      "next_id": "C8-800.113",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.113",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.113",
+      "title": "Installing cables inside the building — ducts, plenums, and risers",
+      "plain_explanation": "This long section is the inside-the-building installation rulebook for communications cable. Cables in ducts made for environmental air follow the duct rules it references, and cables in other air-handling spaces (plenums) must be the plenum types allowed there. Vertical runs that pass through one or more floors — risers — need riser-rated cable, or one of the protected alternatives the section lists, such as cable in a metal raceway or a fireproof shaft with firestops at each floor. One- and two-family dwellings get their own, more relaxed list, which is why house work and commercial work part company here. The section also carries a quiet but important marking rule: cables installed inside must be listed, and a voltage rating is not to be marked on a communications cable, because that marking invites someone to treat it as power wire.",
+      "on_the_job": "Before rough-in, ask one question per run: is this space moving air, or does this run pass a floor? A yes to the first means CMP; a yes to the second means CMR or a listed protected path. At a house, CM or CMX from the dwelling list is normally the right shelf to shop from.",
+      "sharma_note": "",
+      "figure_idea": "A three-panel figure: a plenum ceiling space labelled CMP, a vertical shaft between floors labelled CMR, and a same-floor office run labelled CM/CMG.",
+      "related_ids": [
+        "C8-L-016",
+        "C8-L-017",
+        "C8-Q-013"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.110",
+      "next_id": "C8-800.133",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.133",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.133",
+      "title": "Separation from power — the section in one view",
+      "plain_explanation": "This is the separation rule the inspection-prep notes pointed at, re-checked for this book: communications cables must be kept apart from electric light, power, Class 1, and non-power-limited fire alarm conductors. The rule has two halves. The first half governs sharing a raceway, box, or enclosure; the second half governs running alongside power wiring in open space, where the headline number is 2 in. A third part forbids using the outside of a raceway as a support for communications cable. The next two pages take the halves one at a time, because this is the single most-cited communications rule on Sharma's kind of work.",
+      "on_the_job": "Keep low-voltage cable out of power boxes and power raceways unless a listed barrier setup on the next page genuinely applies. Do not strap, tape, or tie a data or coax run to the outside of a conduit for support. When an inspector says 'separation,' this section is what they mean — and yes, the distance is 2 in, confirmed against the 2020 text and commentary, not the larger figures in some exam-prep sheets.",
+      "sharma_note": "",
+      "figure_idea": "An overview strip showing three scenes: same box (barrier needed), open parallel run (2 in gap), and a cable tied to a conduit (marked not permitted).",
+      "related_ids": [
+        "C8-L-018",
+        "C8-L-019",
+        "C8-Q-014",
+        "C8-Q-015"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.113",
+      "next_id": "C8-800.133(A)(1)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.133(A)(1)",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.133(A)(1)",
+      "title": "Sharing a raceway, box, or enclosure with power",
+      "plain_explanation": "Communications conductors are not permitted in the same raceway, box, or enclosure as electric light, power, Class 1, or non-power-limited fire alarm conductors as a general rule. The exceptions are narrow. Sharing is allowed where the two systems are separated by a permanent barrier or a listed divider, and power conductors may be brought into a communications enclosure only to feed the communications equipment itself, kept at least 1/2 in away from the communications wiring inside. A shared box with a listed divider is a designed product, not two cables stuffed into one handy box.",
+      "on_the_job": "Default answer on site: separate boxes, separate raceways. If a plan shows a divided box, verify the divider is the listed one made for that box before rough-in, not after the drywall is up. The 1/2 in figure inside an equipment enclosure is not permission to mix systems in a junction box.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-018",
+        "C8-Q-014"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.133",
+      "next_id": "C8-800.133(A)(2)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.133(A)(2)",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.133(A)(2)",
+      "title": "The 2-inch separation in open runs",
+      "plain_explanation": "Where communications conductors run near power or Class 1 conductors outside a shared enclosure, they must be separated by at least 2 in. That 2 in can be provided by space alone, or by one of the constructions the section recognizes — for example, where the power conductors are inside a raceway or a metal-sheathed, armored, nonmetallic-sheathed, or UF cable assembly, or where the communications cable is in its own raceway, the bare 2 in spacing is not demanded because the sheath or raceway already provides the separation. What the rule will not accept is communications cable laid directly against open power wiring with nothing between them.",
+      "on_the_job": "In a stud bay, drill separate holes and keep the 2 in. In an attic, do not lay Cat 6 across a bundle of Romex and call the joist a separator. If a crossing is unavoidable, cross at right angles rather than running parallel in contact, and keep the parallel distance honest everywhere else.",
+      "sharma_note": "",
+      "figure_idea": "A stud-bay drawing with two bored holes 2 in apart, one holding NM cable and one holding Cat 6, plus an inset showing NM's sheath counting as the separation where the rule allows it.",
+      "related_ids": [
+        "C8-L-019",
+        "C8-Q-015"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.133(A)(1)",
+      "next_id": "C8-800.154",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.154",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.154",
+      "title": "Where each cable type may be used — the application tables",
+      "plain_explanation": "The tables in this section are the permission slip for cable types. One table matches listed communications cables and raceways against the places they may be installed — plenums, risers, general use, dwellings — and a companion table covers the coaxial cable types used under Article 820. A higher-rated cable may substitute for a lower one down the ladder; a lower-rated cable may never substitute upward. Plenum cable sits at the top of the ladder, then riser, then general-purpose, then the limited-use dwelling type.",
+      "on_the_job": "When a supplier substitutes cable, check the jacket legend against the space, not against the purchase order. CMP can go almost anywhere communications cable can go; CMX cannot leave its dwelling lane. The substitution ladder is in the figure that accompanies this section in the printed book — use it rather than memory when a job mixes types.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-020",
+        "C8-Q-016"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.133(A)(2)",
+      "next_id": "C8-800.179",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.179",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.179",
+      "title": "The cable types themselves — CMP, CMR, CMG, CM, CMX",
+      "plain_explanation": "This section defines the listed communications cable types by how they behave in fire. Type CMP is the plenum type, tested for low flame spread and smoke in air-handling spaces. Type CMR is the riser type, for vertical runs between floors. Types CMG and CM are general-purpose types for ordinary horizontal runs. Type CMX is the limited-use type, restricted in size and use, and at home mainly in one- and two-family dwellings. Conductors in these cables are copper, other than in coaxial constructions handled under Article 820. The letters say nothing about speed or category — a CMP Cat 5e and a CM Cat 6 are rated by fire behavior, not performance.",
+      "on_the_job": "Read the jacket before you pull: the type letters decide where the cable may go, and the category marking decides what it can carry. Do not let a cheap roll of CMX talk you into a commercial riser. Keep one shelf rule in your head: plenum space, CMP; between floors, CMR; same floor, CM or CMG; house, CM or CMX within its limits.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-017",
+        "C8-L-020",
+        "C8-Q-017"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.154",
+      "next_id": "C8-ART-805",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-ART-805",
+      "chapter": 8,
+      "article": "805",
+      "section": "805",
+      "title": "Article 805 — Communications circuits",
+      "plain_explanation": "Article 805 is where the old pre-2020 Article 800 went to live. It covers the traditional communications circuits — the telephone-style circuits that run from the service provider's demarcation point to the customer's communications equipment — and the specific rules for those circuits that Article 800 does not already state generally. Its key topics are which circuits need a primary protector, how the metallic sheath of an entering cable is grounded or interrupted, and the one dwelling-unit outlet every new house owes. If Article 800 is the chapter's foundation, Article 805 is the phone-and-data entrance built on it.",
+      "on_the_job": "Most of Sharma's houses touch this article lightly: a demarc, a protector, a bond, and one outlet. The failures are just as light — no protector where one is required, a sheath left floating, no outlet roughed in. Catch them at rough-in, when they are still cheap.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-021"
+      ],
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not yet adopted in Florida, so a 2023 study book may show different Chapter 8 numbering or wording.",
+      "verified": true,
+      "prev_id": "C8-800.179",
+      "next_id": "C8-805.1",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-805.1",
+      "chapter": 8,
+      "article": "805",
+      "section": "805.1",
+      "title": "Scope of communications circuits",
+      "plain_explanation": "This short section fixes what Article 805 covers: communications circuits and the equipment on them. A communications circuit, as the chapter defines it, is the path that extends service from the communications utility or service provider up to and including the customer's own communications equipment. Inside wiring that is really power-limited control or signaling work belongs to Article 725 in Chapter 7 instead — the same physical cable can fall under different articles depending on what system it serves, so the system, not the jacket color, decides.",
+      "on_the_job": "When a low-voltage scope is handed to you, ask what system each run serves before you pick an article. Phone and provider data entrance: 805 and 800. Door access, HVAC controls, and most security signaling: usually 725. Guessing the article is how separation and listing rules get crossed.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-021",
+        "C8-Q-018"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-ART-805",
+      "next_id": "C8-805.50",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-805.50",
+      "chapter": 8,
+      "article": "805",
+      "section": "805.50",
+      "title": "Circuits that require primary protectors — and the 4-inch rule outside",
+      "plain_explanation": "This section works with 805.90: it identifies the communications circuits that require primary protectors and sets conditions on the wiring that feeds them. Its part (A) covers the drop and entrance conductors used to extend circuits to a building, which must be listed for the purpose. Its part (B) carries a number crews miss: specified unshielded communications wires and cables installed on the outside of a building must be separated at least 4 in from open electric light or power wiring that is not in a raceway or a cable assembly, subject to the alternatives and exceptions the section allows. Its part (C) covers circuits entering the building ahead of the primary protector, which must be protected by a bushing or metal raceway unless an exception applies, such as entry through masonry or a listed fuseless-protector arrangement. Added in reconciliation: the ChatGPT research named this section and its 4 in figure, and McGraw-Hill's NEC 2020 Handbook commentary on Article 805 confirms both the section and the 4 in separation in part (B).",
+      "on_the_job": "The 4 in rule is about exposed wiring on the outside of the building — it is not the 2 in indoor separation of 800.133(A)(2), and the two numbers are not interchangeable. Where a drop runs down an exterior wall near open power wiring, check this section before assuming the indoor rule covers it. And do not run unprotected conductors into the building ahead of the protector through a plain hole in wood framing.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-046",
+        "C8-Q-032",
+        "C8-L-022"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-805.1",
+      "next_id": "C8-805.90",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-805.90",
+      "chapter": 8,
+      "article": "805",
+      "section": "805.90",
+      "title": "Primary protectors — where they are required and where they go",
+      "plain_explanation": "A listed primary protector is required on each communications circuit that is exposed to lightning or to possible contact with power conductors operating above the threshold the section sets. The protector is an arrester connected between each line conductor and ground, mounted as the listing directs, with its terminals marked for line and ground. It must sit in, on, or immediately next to the building served, as close as practicable to where the circuit enters, and it must not be placed in a hazardous (classified) location or near easily ignitible material. The section also recognizes fused and fuseless protector designs and provides for secondary protectors inside, in series between the primary protector and the equipment.",
+      "on_the_job": "Short protector ground, short trouble: mount the protector at the entrance and bond it under 800.100 with the shortest honest run. If a circuit arrives with no protector and it is exposed, that is a stop-and-call item for the provider or the lead — not a detail to wave through at trim.",
+      "sharma_note": "",
+      "figure_idea": "An entrance detail: drop cable arriving, a listed primary protector in a small enclosure beside the service, and its bonding conductor dropping straight to the intersystem bonding termination.",
+      "related_ids": [
+        "C8-L-022",
+        "C8-L-023",
+        "C8-Q-019"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-805.50",
+      "next_id": "C8-805.93",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-805.93",
+      "chapter": 8,
+      "article": "805",
+      "section": "805.93",
+      "title": "Grounding or interrupting the cable sheath at the entrance",
+      "plain_explanation": "The non-current-carrying metallic sheath members of a communications cable entering a building must be dealt with at the entrance: either grounded following 800.100, or interrupted by an insulating joint or an equivalent device, as near as practicable to the point where the cable enters. A floating metallic sheath is a long antenna that delivers surge energy deep into the building. Grounding it at the entrance, or breaking its continuity there with an insulating joint, keeps that energy outside the living space.",
+      "on_the_job": "At the demarc, look for the sheath bond or the insulating joint before you close anything up. If the entering cable's shield simply disappears into the wall unbonded, flag it. This is the communications twin of the coax rule in 820.93 — same entrance, same idea.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-024",
+        "C8-Q-020"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-805.90",
+      "next_id": "C8-805.156",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-805.156",
+      "chapter": 8,
+      "article": "805",
+      "section": "805.156",
+      "title": "One communications outlet in every new dwelling",
+      "plain_explanation": "For new construction, every dwelling unit gets at least one communications outlet, installed in a readily accessible area inside the dwelling and cabled back to the service provider demarcation point. This is the rule that used to live at 800.156 before the 2020 reorganization moved it here, which is why older checklists and study guides still cite the old number. One outlet is the floor, not a design: Sharma's builders routinely want data and coax at several rooms, but the Code's own minimum is this single, cabled, accessible outlet.",
+      "on_the_job": "Rough it in even when the buyer has not picked a provider — a cabled outlet at the demarc is the requirement, not a live dial tone. Put it somewhere genuinely accessible, not buried behind a fixed appliance. And when an old Sharma checklist says 800.156, translate it: in the 2020 book it is 805.156.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-025",
+        "C8-Q-021"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-805.93",
+      "next_id": "C8-ART-810",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-ART-810",
+      "chapter": 8,
+      "article": "810",
+      "section": "810",
+      "title": "Article 810 — Radio and television equipment",
+      "plain_explanation": "Article 810 covers antenna systems: receiving antennas for radio and television, satellite dishes, their masts and lead-in conductors, and amateur and citizen-band transmitting and receiving stations. Uniquely in this chapter, Article 810 is not covered by the general rules of Article 800 — it stands alone, and its own grounding section, 810.21, is the complete recipe for bonding an antenna system. Its concerns are the ones Florida weather writes large: lightning, wind-blown lead-ins, and keeping antenna wiring clear of power conductors.",
+      "on_the_job": "A dish or antenna job is a grounding job with a picture at the end of it. Price and plan the mast bond, the discharge unit, and the run to a legal grounding point before anyone climbs. If a mast stands within 5 ft of a swimming pool, it also has to bond to the pool's equipotential grid — see the pool rules in Chapter 6.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-026"
+      ],
+      "florida_note": "Florida's lightning exposure makes 810.21 the most safety-critical page in this article here. Local amendments and insurer requirements on existing lightning protection systems vary; confirm with the AHJ on larger homes.",
+      "verified": true,
+      "prev_id": "C8-805.156",
+      "next_id": "C8-810.15",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-810.15",
+      "chapter": 8,
+      "article": "810",
+      "section": "810.15",
+      "title": "Grounding the mast and its supporting structure",
+      "plain_explanation": "Outdoor antenna masts, and the metal structures that support antennas, must be grounded following 810.21. There is a narrow escape: an antenna and its supporting mast or structure that sit inside a zone of protection — the area sheltered by a lightning protection system, described with a 150 ft radius rolling sphere in the lightning standard — are not required to be grounded under this section. Outside that protected zone, which means nearly every ordinary house dish and mast Sharma will meet, the mast gets its 810.21 bond, full stop.",
+      "on_the_job": "Do not let 'the dish is small' talk you out of the mast bond. Look for a nearby lightning protection system before claiming the zone-of-protection exception — on a normal subdivision house there is none, so ground the mast. Keep the bond run straight and protected, per 810.21.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-027",
+        "C8-Q-022"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-ART-810",
+      "next_id": "C8-810.18",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-810.18",
+      "chapter": 8,
+      "article": "810",
+      "section": "810.18",
+      "title": "Clearances for antenna lead-in conductors",
+      "plain_explanation": "Lead-in conductors from an outdoor antenna have clearance rules in three directions. Attached to a building, they must be kept from swinging closer than 2 ft to conductors of circuits of 250 volts or less, and at least 10 ft from conductors of circuits over 250 volts. They must also keep at least 6 ft from lightning protection conductors. Underground lead-ins keep at least 12 in of separation from power conductors, and indoor antenna and lead-in conductors keep at least 2 in from light and power conductors. Separately, the conductors themselves are sized from the table in 810.16 by material and length — a lead-in under 35 ft can be as small as 19 AWG copper, while runs over 150 ft step up to 12 AWG copper, with copper-clad steel and bronze sizes listed alongside.",
+      "on_the_job": "Route the lead-in like it will move in wind, because in a Florida storm it will: the clearance is to the swung position, not the calm-day position. Keep the indoor tail 2 in off power wiring, the same number as 800.133(A)(2). Long spans need the bigger wire from the 810.16 table, not whatever is on the truck.",
+      "sharma_note": "",
+      "figure_idea": "A mast-to-house lead-in drawing with three dimension bubbles: 2 ft to a 120/240V drop, 10 ft to a higher-voltage line, and 6 ft to a lightning down lead.",
+      "related_ids": [
+        "C8-L-028",
+        "C8-L-029",
+        "C8-Q-023"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-810.15",
+      "next_id": "C8-810.20",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-810.20",
+      "chapter": 8,
+      "article": "810",
+      "section": "810.20",
+      "title": "Antenna discharge units",
+      "plain_explanation": "Each lead-in conductor from an outdoor antenna must have a listed antenna discharge unit, or an equivalent means the section allows, to drain static charges off the antenna system before they reach the equipment inside. The unit goes as near as practicable to the point where the lead-in enters the building — inside or outside the wall — but not near combustible material and not in a hazardous (classified) location. The discharge unit itself must be bonded or grounded following 810.21, which is what gives the drained charge somewhere to go.",
+      "on_the_job": "One discharge unit per lead-in conductor, at the entrance, bonded per 810.21 — that is the whole checklist. A factory grounding block on a satellite lead-in often serves this role; verify it is listed for it rather than assuming. Never land the discharge unit's ground on a convenient pipe and call it bonded.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-030"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-810.18",
+      "next_id": "C8-810.21",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-810.21",
+      "chapter": 8,
+      "article": "810",
+      "section": "810.21",
+      "title": "The antenna bonding and grounding recipe, (A) through (K)",
+      "plain_explanation": "This section is the complete set of rules for the conductors that bond an antenna mast and its discharge unit to ground. The conductor must be copper, copper-clad aluminum, or another corrosion-resistant material, solid or stranded, and it does not have to be insulated. It must be securely fastened, protected where it is exposed to physical damage, and run in as straight a line as practicable, inside or outside the building. It lands where the section's electrode rules point — first at the intersystem bonding termination where one exists, otherwise at the nearest accessible point on the building grounding electrode system or the other listed points, and in a building with no grounding means, at an electrode described in 250.52. Size and the bonding of separate electrodes get their own pages next, because they are the two numbers inspectors actually measure.",
+      "on_the_job": "Straight, short, protected, and landed at a listed point — run this bond the way you would a grounding electrode conductor, because that is what it is. Take the intersystem bonding termination when the house has one (L-060); it was installed for exactly this conductor. Sharp bends and a tour of the attic are the classic fails.",
+      "sharma_note": "",
+      "figure_idea": "A straight vertical bond from a mast, down an exterior wall with a protective sleeve at grade, landing on an intersystem bonding termination beside the meter.",
+      "related_ids": [
+        "L-060",
+        "C8-L-031",
+        "C8-Q-024"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-810.20",
+      "next_id": "C8-810.21(H)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-810.21(H)",
+      "chapter": 8,
+      "article": "810",
+      "section": "810.21(H)",
+      "title": "Antenna bonding conductor size — 10 AWG copper",
+      "plain_explanation": "The bonding or grounding conductor for an antenna mast or discharge unit cannot be smaller than 10 AWG copper, or 17 AWG copper-clad steel or bronze. That 17 AWG copper-clad size is the thin messenger-style wire often molded into the jacket of satellite coax, which is why a factory dish lead-in can carry its own ground. Ten AWG copper is noticeably heavier than the 14 AWG floor for communications protectors in 800.100(A) — antennas sit up in the lightning, and the Code sizes their bond accordingly.",
+      "on_the_job": "Carry 10 AWG copper for antenna bonds and stop reaching for the 14 AWG spool used at the phone protector. If the run is the molded-in 17 AWG copper-clad messenger, confirm it is genuinely copper-clad steel or bronze and continuous to the grounding block. When in doubt, run the 10.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-032",
+        "C8-Q-025"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-810.21",
+      "next_id": "C8-810.21(J)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-810.21(J)",
+      "chapter": 8,
+      "article": "810",
+      "section": "810.21(J)",
+      "title": "Bonding a separate antenna electrode — 6 AWG again",
+      "plain_explanation": "If a separate ground rod or other electrode is installed to serve the radio and television equipment, it cannot stand alone. It must be bonded to the building's power grounding electrode system with a conductor no smaller than 6 AWG copper or the equivalent. This is the same anti-islanding rule as 800.100(D): one building, one earth reference, no matter how many systems drive their own rods. A separate electrode is permitted; a separate, unbonded electrode is a hazard wearing a ground rod's clothes.",
+      "on_the_job": "Driven a dish rod because the service was far away? The job ends when the 6 AWG bond ties it back to the power grounding system, not when the rod disappears below grade. Budget that conductor run when the dish location is chosen — it is often the longest wire in the whole antenna job.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-033",
+        "C8-Q-026"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-810.21(H)",
+      "next_id": "C8-810.57",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-810.57",
+      "chapter": 8,
+      "article": "810",
+      "section": "810.57",
+      "title": "Amateur and citizen-band transmitting stations",
+      "plain_explanation": "Transmitting antennas for amateur (ham) and citizen-band stations get the receiving-station rules plus their own. Each outdoor antenna lead-in conductor needs an antenna discharge unit or another suitable means of draining static, under 810.57. The bonding and grounding conductors then follow 810.58: the protective bonding or grounding conductor must be at least as large as the lead-in and never smaller than 10 AWG copper, bronze, or copper-clad steel, while the operating bonding or grounding conductor cannot be smaller than 14 AWG copper or its equivalent. These stations also still owe the mast grounding of 810.15 and the installation rules of Part III of this article.",
+      "on_the_job": "Sharma meets this mostly in custom homes with a ham shack roughed into a study or garage. Treat the radio room's ground as a system: discharge unit at the entrance, protective bond at 10 AWG minimum, operating bond at 14 AWG minimum, all tied to the one building grounding reference.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-034"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-810.21(J)",
+      "next_id": "C8-ART-820",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-ART-820",
+      "chapter": 8,
+      "article": "820",
+      "section": "820",
+      "title": "Article 820 — Community antenna television and radio distribution (coax)",
+      "plain_explanation": "Article 820 covers coaxial cable systems that distribute television and radio signals — cable TV, and closed-circuit television of the same construction. The system's defining part is the coax itself: a center conductor inside a metallic outer shield, and that shield is where this article's safety rules concentrate. The shield of a coax arriving from outside must be grounded at the entrance, the cable types are listed in this article, and the general rules of Article 800 — separation, installation, fire — layer on top unless 820 changes them. Note what 820 does not require: unlike a telephone circuit, a coax entrance is not required to have a primary protector, though if one is installed it must be listed and applied at the entrance.",
+      "on_the_job": "For Sharma this is the cable company's drop, the grounding block on the side of the house, and the coax distribution inside. Our scope is usually the bond at the block and clean, separated inside runs — the provider owns their drop up to the demarc, but the bond at our service is everybody's inspection item.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-035"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-810.57",
+      "next_id": "C8-820.93",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-820.93",
+      "chapter": 8,
+      "article": "820",
+      "section": "820.93",
+      "title": "Grounding the coax shield at the point of entrance",
+      "plain_explanation": "The outer conductive shield of a coaxial cable supplied to a building must be grounded as close as practicable to the point where the cable enters, following the conductor rules of 820.100. The grounding connection can be made where the cable terminates outside the building or just inside it — the point of entrance can effectively be extended by a grounded metal raceway — but 'as close as practicable' is the standard either way. A coax shield left floating at a house is the single most common Chapter 8 defect in residential work.",
+      "on_the_job": "Find the grounding block before trim-out and verify the bond is actually landed, at the service or another 820.100 point — a block screwed to the wall with an empty ground lug is a fail waiting for a surge. Keep the bond conductor short; the entrance is not the place for a scenic route.",
+      "sharma_note": "",
+      "figure_idea": "An exterior wall detail: coax drop, grounding block at the entrance, and a short bonding conductor to the intersystem bonding termination.",
+      "related_ids": [
+        "C8-L-036",
+        "C8-Q-027",
+        "L-060"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-ART-820",
+      "next_id": "C8-820.100",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-820.100",
+      "chapter": 8,
+      "article": "820",
+      "section": "820.100",
+      "title": "Coax bonding and grounding conductors",
+      "plain_explanation": "This section sends the coax shield's bonding and grounding conductor back to the same recipe as 800.100: copper or another corrosion-resistant material, no smaller than 14 AWG, with capacity at least equal to the coax's outer shield but never required to exceed 6 AWG. In a one- or two-family dwelling the conductor must be as short as practicable and no more than 20 ft; if that length cannot be met, a separate electrode may be installed and then bonded back to the power grounding electrode system with at least 6 AWG, under part (D). For coax systems that never leave the building and are isolated from outside plant, an exception allows the shield to be bonded through an equipment grounding conductor of a listed type instead.",
+      "on_the_job": "Same numbers as the phone protector, because the Code means them to rhyme: 14 AWG floor, 6 AWG ceiling, 20 ft at a house, 6 AWG bond for a separate rod. If the cable system is purely internal — a camera system that never exits — read the exception before driving anything. Otherwise, bond at the entrance like every other system in this chapter.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-037",
+        "C8-Q-028"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-820.93",
+      "next_id": "C8-820.113",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-820.113",
+      "chapter": 8,
+      "article": "820",
+      "section": "820.113",
+      "title": "Installing coaxial cable inside the building",
+      "plain_explanation": "Listed coaxial cable inside a building follows the installation framework of Article 800 as this section applies it: the right cable type for the space — plenum, riser, or general use — chosen from this article's cable list and the application tables. There is a distance rule that drives most house work: unlisted outside-plant coax may come into a building only a limited distance — 50 ft from the point of entrance — before listed cable is required, under 820.48. Past that point, the run must be listed coax of a type permitted for the space it passes through.",
+      "on_the_job": "Measure the entrance path on long custom homes: if the distribution panel sits more than 50 ft of cable run from where the drop enters, the whole run needs listed cable, not the provider's outdoor spool. In commercial ceilings and shafts, treat coax exactly like communications cable for fire rating — CMP in plenums, CATVR-type riser cable between floors.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-038"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-820.100",
+      "next_id": "C8-820.133",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-820.133",
+      "chapter": 8,
+      "article": "820",
+      "section": "820.133",
+      "title": "Separation for coaxial cable",
+      "plain_explanation": "Coaxial cable obeys the same separation discipline as the rest of the chapter. It may not share a raceway or box with electric light and power conductors, it may not be supported from a raceway that contains power conductors, and it keeps at least 2 in from light and power conductors unless those conductors are in a raceway or in a sheathed cable assembly such as nonmetallic-sheathed, armored, or UF cable. Article 800's 800.133 states the general rule; this section carries it into the coax world, so a helper who learns one has learned both.",
+      "on_the_job": "Run coax in its own holes, on its own supports, 2 in off the power runs — the same muscle memory as Cat 6. The classic fail is a coax home-run bundle zip-tied along an EMT or draped over a Romex bundle in the attic. Separate supports cost minutes; a failed inspection costs a return trip.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-039",
+        "C8-Q-029"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-820.113",
+      "next_id": "C8-ART-830",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-ART-830",
+      "chapter": 8,
+      "article": "830",
+      "section": "830",
+      "title": "Article 830 — Network-powered broadband systems",
+      "plain_explanation": "Article 830 covers broadband systems where the network itself sends the power: the provider's network powers the network interface unit at the customer's building, over the same plant that carries the signal. Because power arrives from off the premises on a communications cable, this article is stricter at the entrance than plain CATV — its circuits get primary protection, and its shields, protectors, and interface-unit enclosures all get grounded. The general rules of Article 800 still layer underneath, and 830 borrows the 800.100 grounding recipe for its conductors. Sharma meets 830 as the powered cable-broadband entrance on commercial and multi-dwelling work more than on single houses.",
+      "on_the_job": "Recognize the powered entrance by the network interface unit and the provider's powering arrangement, not by the shape of the cable. Once you know power is coming in on it, the protector and grounding pages that follow are not optional reading. Keep hands off the provider's powered plant beyond the demarc — that side is theirs.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-040"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-820.133",
+      "next_id": "C8-830.90",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-830.90",
+      "chapter": 8,
+      "article": "830",
+      "section": "830.90",
+      "title": "Primary protectors on network-powered broadband circuits",
+      "plain_explanation": "Because a network-powered broadband circuit brings both signal and network power in from outside plant, each of its conductors gets primary protection at the entrance, in the pattern of the protector rules used across this chapter. The protector deals with the same two threats as at a telephone entrance: lightning energy riding in on the outside plant, and accidental contact between that plant and power conductors out on the poles. Protection belongs at the point of entrance, ahead of the network interface unit and the inside distribution.",
+      "on_the_job": "If a powered broadband entrance has no protector, treat it like a phone entrance with no protector: a provider-side correction to raise before the installation is signed off. Sharma's part is usually the bond and the space: leave the protector accessible and its grounding path short.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-041"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-ART-830",
+      "next_id": "C8-830.93",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-830.93",
+      "chapter": 8,
+      "article": "830",
+      "section": "830.93",
+      "title": "Grounding shields, protectors, and the interface unit",
+      "plain_explanation": "The metallic shield of the network-powered broadband cable, the primary protector, and the metallic enclosure of the network interface unit all must be grounded, following the conductor rules that this article ties back to 800.100. Everything metallic that the outside plant touches at the entrance ends up on the one building grounding reference — shield, protector ground, and enclosure alike. Leaving the interface enclosure floating while the shield is bonded only finishes two-thirds of the job.",
+      "on_the_job": "Bond all three: shield, protector, enclosure. Use the 800.100 conductor rules — 14 AWG minimum, short and straight, landed at a listed point. Photograph the entrance assembly at rough-in; broadband entrances get buried behind provider equipment fast.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-042",
+        "C8-Q-030"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-830.90",
+      "next_id": "C8-830.100",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-830.100",
+      "chapter": 8,
+      "article": "830",
+      "section": "830.100",
+      "title": "Broadband bonding and grounding conductors",
+      "plain_explanation": "The bonding and grounding conductors for a network-powered broadband entrance follow the same dimensional rules as the rest of the chapter: not smaller than 14 AWG, not required to exceed 6 AWG, as short as practicable, and no more than 20 ft in a one- or two-family dwelling. The section carries the same escape hatch as 800.100 and 820.100 — where the length cannot be met, a separate electrode is permitted, and its exception structure requires that electrode to be bonded back to the power grounding electrode system with a conductor of at least 6 AWG. By this point in the chapter the pattern should be familiar, because the Code intends it to be one pattern repeated.",
+      "on_the_job": "Do not re-derive the numbers at a broadband entrance; they are the chapter's numbers. Fourteen to six AWG, twenty feet at a house, six AWG to bond a separate rod. If you know 800.100 cold, you already know this page.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-043"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-830.93",
+      "next_id": "C8-ART-840",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-ART-840",
+      "chapter": 8,
+      "article": "840",
+      "section": "840",
+      "title": "Article 840 — Premises-powered broadband systems",
+      "plain_explanation": "Article 840 covers broadband systems where the power is supplied at the premises instead of by the network — the classic case is fiber arriving at an optical network terminal that plugs into a local receptacle. The fiber itself carries no metallic path and no power, which changes the entrance picture: there is no outside metallic shield arriving on glass, and the protection focus shifts to any metallic members that do enter and to the terminal equipment at the premises. Article 840 works with the optical fiber rules of Article 770 in Chapter 7 for the fiber cable itself, and sends its grounding questions to the Chapter 8 pattern in 800.90's family of protector and grounding rules as the specific sections direct. It is the shortest article in the chapter and, for Sharma, mostly a fiber-to-the-home entrance on new custom work.",
+      "on_the_job": "On a fiber entrance, find what is actually metallic: a metallic strength member, a locate wire, or a hybrid cable changes the grounding answer, while pure dielectric fiber does not get a bond it does not need. The ONT still needs its premises power planned — a receptacle at the right place is Sharma's scope even when the fiber is not.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-044"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-830.100",
+      "next_id": "C8-840.93",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-840.93",
+      "chapter": 8,
+      "article": "840",
+      "section": "840.93",
+      "title": "Grounding at a premises-powered broadband entrance",
+      "plain_explanation": "Where a premises-powered broadband cable arriving at a building has metallic members that require grounding — a metallic shield, strength member, or similar conductive part — those members are grounded following the chapter's entrance-grounding pattern, as close as practicable to the point of entrance. The rule exists for the hybrid and metallic-bearing entrance cables, not for dielectric fiber, which has nothing conductive to ground. Grounding follows the conductor and landing-point rules the article references back into the general Chapter 8 framework.",
+      "on_the_job": "Inspect the actual cable construction before deciding there is nothing to bond. If the entrance cable carries a metallic member, bond it at the entrance like every other system in this chapter. If it is all-dielectric, say so on the job record instead of leaving the next crew to guess why there is no bond.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C8-L-045",
+        "C8-Q-031"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-ART-840",
+      "next_id": null,
+      "sharma_rule_ids": []
+    }
+  ],
+  "toc": [
+    {
+      "id": "C8-90.3",
+      "article": "90",
+      "title": "Chapter 8 and Article 90.3 — how this chapter stands apart",
+      "children": []
+    },
+    {
+      "id": "C8-ART-800",
+      "article": "800",
+      "title": "General Requirements for Communications Systems",
+      "children": [
+        {
+          "id": "C8-800.1",
+          "section": "800.1",
+          "title": "Scope of the general article"
+        },
+        {
+          "id": "C8-800.2",
+          "section": "800.2",
+          "title": "Definitions that belong to this chapter"
+        },
+        {
+          "id": "C8-800.3",
+          "section": "800.3",
+          "title": "How Article 800 works with the other articles"
+        },
+        {
+          "id": "C8-800.24",
+          "section": "800.24",
+          "title": "Doing the work neatly and protecting the cable"
+        },
+        {
+          "id": "C8-800.25",
+          "section": "800.25",
+          "title": "Abandoned cable has to come out"
+        },
+        {
+          "id": "C8-800.26",
+          "section": "800.26",
+          "title": "Slowing the spread of fire and smoke"
+        },
+        {
+          "id": "C8-800.44",
+          "section": "800.44",
+          "title": "Overhead wires and cables coming into a building"
+        },
+        {
+          "id": "C8-800.47",
+          "section": "800.47",
+          "title": "Underground cables where power is also present"
+        },
+        {
+          "id": "C8-800.49",
+          "section": "800.49",
+          "title": "Grounding a metal conduit that carries the entrance cable"
+        },
+        {
+          "id": "C8-800.53",
+          "section": "800.53",
+          "title": "Keeping communications cable away from lightning protection"
+        },
+        {
+          "id": "C8-800.100",
+          "section": "800.100",
+          "title": "Bonding and grounding at the entrance — the heart of Chapter 8"
+        },
+        {
+          "id": "C8-800.100(A)",
+          "section": "800.100(A)",
+          "title": "The bonding conductor itself — material, size, and length"
+        },
+        {
+          "id": "C8-800.100(B)",
+          "section": "800.100(B)",
+          "title": "Where the bonding conductor is allowed to land"
+        },
+        {
+          "id": "C8-800.100(D)",
+          "section": "800.100(D)",
+          "title": "Bonding a separate communications electrode back to the power system"
+        },
+        {
+          "id": "C8-800.110",
+          "section": "800.110",
+          "title": "Raceways and cable routing assemblies for communications"
+        },
+        {
+          "id": "C8-800.113",
+          "section": "800.113",
+          "title": "Installing cables inside the building — ducts, plenums, and risers"
+        },
+        {
+          "id": "C8-800.133",
+          "section": "800.133",
+          "title": "Separation from power — the section in one view"
+        },
+        {
+          "id": "C8-800.133(A)(1)",
+          "section": "800.133(A)(1)",
+          "title": "Sharing a raceway, box, or enclosure with power"
+        },
+        {
+          "id": "C8-800.133(A)(2)",
+          "section": "800.133(A)(2)",
+          "title": "The 2-inch separation in open runs"
+        },
+        {
+          "id": "C8-800.154",
+          "section": "800.154",
+          "title": "Where each cable type may be used — the application tables"
+        },
+        {
+          "id": "C8-800.179",
+          "section": "800.179",
+          "title": "The cable types themselves — CMP, CMR, CMG, CM, CMX"
+        }
+      ]
+    },
+    {
+      "id": "C8-ART-805",
+      "article": "805",
+      "title": "Communications Circuits",
+      "children": [
+        {
+          "id": "C8-805.1",
+          "section": "805.1",
+          "title": "Scope of communications circuits"
+        },
+        {
+          "id": "C8-805.50",
+          "section": "805.50",
+          "title": "Circuits that require primary protectors — and the 4-inch rule outside"
+        },
+        {
+          "id": "C8-805.90",
+          "section": "805.90",
+          "title": "Primary protectors — where they are required and where they go"
+        },
+        {
+          "id": "C8-805.93",
+          "section": "805.93",
+          "title": "Grounding or interrupting the cable sheath at the entrance"
+        },
+        {
+          "id": "C8-805.156",
+          "section": "805.156",
+          "title": "One communications outlet in every new dwelling"
+        }
+      ]
+    },
+    {
+      "id": "C8-ART-810",
+      "article": "810",
+      "title": "Radio and Television Equipment",
+      "children": [
+        {
+          "id": "C8-810.15",
+          "section": "810.15",
+          "title": "Grounding the mast and its supporting structure"
+        },
+        {
+          "id": "C8-810.18",
+          "section": "810.18",
+          "title": "Clearances for antenna lead-in conductors"
+        },
+        {
+          "id": "C8-810.20",
+          "section": "810.20",
+          "title": "Antenna discharge units"
+        },
+        {
+          "id": "C8-810.21",
+          "section": "810.21",
+          "title": "The antenna bonding and grounding recipe, (A) through (K)"
+        },
+        {
+          "id": "C8-810.21(H)",
+          "section": "810.21(H)",
+          "title": "Antenna bonding conductor size — 10 AWG copper"
+        },
+        {
+          "id": "C8-810.21(J)",
+          "section": "810.21(J)",
+          "title": "Bonding a separate antenna electrode — 6 AWG again"
+        },
+        {
+          "id": "C8-810.57",
+          "section": "810.57",
+          "title": "Amateur and citizen-band transmitting stations"
+        }
+      ]
+    },
+    {
+      "id": "C8-ART-820",
+      "article": "820",
+      "title": "Community Antenna Television and Radio Distribution Systems",
+      "children": [
+        {
+          "id": "C8-820.93",
+          "section": "820.93",
+          "title": "Grounding the coax shield at the point of entrance"
+        },
+        {
+          "id": "C8-820.100",
+          "section": "820.100",
+          "title": "Coax bonding and grounding conductors"
+        },
+        {
+          "id": "C8-820.113",
+          "section": "820.113",
+          "title": "Installing coaxial cable inside the building"
+        },
+        {
+          "id": "C8-820.133",
+          "section": "820.133",
+          "title": "Separation for coaxial cable"
+        }
+      ]
+    },
+    {
+      "id": "C8-ART-830",
+      "article": "830",
+      "title": "Network-Powered Broadband Communications Systems",
+      "children": [
+        {
+          "id": "C8-830.90",
+          "section": "830.90",
+          "title": "Primary protectors on network-powered broadband circuits"
+        },
+        {
+          "id": "C8-830.93",
+          "section": "830.93",
+          "title": "Grounding shields, protectors, and the interface unit"
+        },
+        {
+          "id": "C8-830.100",
+          "section": "830.100",
+          "title": "Broadband bonding and grounding conductors"
+        }
+      ]
+    },
+    {
+      "id": "C8-ART-840",
+      "article": "840",
+      "title": "Premises-Powered Broadband Communications Systems",
+      "children": [
+        {
+          "id": "C8-840.93",
+          "section": "840.93",
+          "title": "Grounding at a premises-powered broadband entrance"
+        }
+      ]
+    }
+  ],
+  "index": [
+    {
+      "term": "Abandoned cable, removal of",
+      "ids": [
+        "C8-800.25"
+      ]
+    },
+    {
+      "term": "Antenna, discharge unit",
+      "ids": [
+        "C8-810.20",
+        "C8-810.57"
+      ]
+    },
+    {
+      "term": "Antenna, lead-in clearances",
+      "ids": [
+        "C8-810.18"
+      ]
+    },
+    {
+      "term": "Antenna, mast grounding",
+      "ids": [
+        "C8-810.15",
+        "C8-810.21"
+      ]
+    },
+    {
+      "term": "Bonding conductor, communications — size and length",
+      "ids": [
+        "C8-800.100(A)",
+        "C8-820.100",
+        "C8-830.100"
+      ]
+    },
+    {
+      "term": "Broadband, network-powered",
+      "ids": [
+        "C8-ART-830",
+        "C8-830.90",
+        "C8-830.93"
+      ]
+    },
+    {
+      "term": "Broadband, premises-powered (fiber / ONT)",
+      "ids": [
+        "C8-ART-840",
+        "C8-840.93"
+      ]
+    },
+    {
+      "term": "Cable types, communications (CMP, CMR, CMG, CM, CMX)",
+      "ids": [
+        "C8-800.179",
+        "C8-800.154"
+      ]
+    },
+    {
+      "term": "CATV / coax, grounding the shield",
+      "ids": [
+        "C8-820.93",
+        "C8-820.100"
+      ]
+    },
+    {
+      "term": "CATV / coax, separation",
+      "ids": [
+        "C8-820.133"
+      ]
+    },
+    {
+      "term": "Chapter 8, independence from Chapters 1–7",
+      "ids": [
+        "C8-90.3"
+      ]
+    },
+    {
+      "term": "Communications outlet, dwelling (one minimum)",
+      "ids": [
+        "C8-805.156"
+      ]
+    },
+    {
+      "term": "Demarcation point",
+      "ids": [
+        "C8-800.1",
+        "C8-805.1",
+        "C8-805.156"
+      ]
+    },
+    {
+      "term": "Firestopping, communications penetrations",
+      "ids": [
+        "C8-800.26"
+      ]
+    },
+    {
+      "term": "Ground rod, separate — bonding it back (6 AWG)",
+      "ids": [
+        "C8-800.100(D)",
+        "C8-810.21(J)",
+        "C8-820.100"
+      ]
+    },
+    {
+      "term": "Ham / amateur radio station grounding",
+      "ids": [
+        "C8-810.57"
+      ]
+    },
+    {
+      "term": "Intersystem bonding termination (IBT)",
+      "ids": [
+        "C8-800.100",
+        "C8-800.100(B)",
+        "C8-810.21",
+        "L-060"
+      ]
+    },
+    {
+      "term": "Lightning protection, separation from (6 ft)",
+      "ids": [
+        "C8-800.53",
+        "C8-810.18"
+      ]
+    },
+    {
+      "term": "Overhead drops, clearances",
+      "ids": [
+        "C8-800.44"
+      ]
+    },
+    {
+      "term": "Plenum and riser cable ratings",
+      "ids": [
+        "C8-800.113",
+        "C8-800.179"
+      ]
+    },
+    {
+      "term": "Point of entrance",
+      "ids": [
+        "C8-800.2",
+        "C8-805.90",
+        "C8-820.93"
+      ]
+    },
+    {
+      "term": "Primary protector, communications",
+      "ids": [
+        "C8-805.90",
+        "C8-830.90"
+      ]
+    },
+    {
+      "term": "Primary protectors, circuits requiring (4 in exterior rule)",
+      "ids": [
+        "C8-805.50"
+      ]
+    },
+    {
+      "term": "Protector bonding and grounding (800.100)",
+      "ids": [
+        "C8-800.100",
+        "C8-800.100(A)",
+        "C8-800.100(B)"
+      ]
+    },
+    {
+      "term": "Separation from power, 2 in",
+      "ids": [
+        "C8-800.133",
+        "C8-800.133(A)(2)",
+        "C8-820.133"
+      ]
+    },
+    {
+      "term": "Separation, same raceway / box / enclosure",
+      "ids": [
+        "C8-800.133(A)(1)"
+      ]
+    },
+    {
+      "term": "Sheath, metallic — grounding or insulating joint",
+      "ids": [
+        "C8-805.93",
+        "C8-800.49"
+      ]
+    }
+  ]
+}

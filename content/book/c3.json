@@ -1,0 +1,2466 @@
+{
+  "schema_version": "book-v1",
+  "nec_edition": "2020",
+  "jurisdiction": "Florida Building Code 8th Edition (2023)",
+  "chapter": 3,
+  "chapter_title": "Wiring Methods and Materials",
+  "id_prefix": "C3",
+  "sections": [
+    {
+      "id": "C3-ART-300",
+      "article": "300",
+      "section": "300",
+      "title": "Wiring methods — general rules",
+      "plain_explanation": "Article 300 is the rulebook that sits over every wiring method in this chapter. Whichever cable or raceway you pick later — NM, MC, EMT, PVC — these general rules still apply: protect the wiring from damage, give underground runs enough cover, support what you install, and leave enough free wire at every box to make a proper joint. Read this article first, then go to the article for the specific method.",
+      "on_the_job": "Before you choose a method, ask three questions: Where does it run (dry, damp, wet, underground, exposed)? What can hit it? How will it be supported? The answers pick the method and trigger the 300 rules.",
+      "sharma_note": "",
+      "figure_idea": "Cross-section of a house wall, slab and yard showing one circuit as NM in the wall, EMT on the surface and UF underground, with callouts to 300.4, 300.5 and 300.11.",
+      "related_ids": [
+        "C3-300.4",
+        "C3-300.5",
+        "C3-300.14"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": null,
+      "next_id": "C3-300.4",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.4",
+      "article": "300",
+      "section": "300.4",
+      "title": "Protecting wiring from physical damage",
+      "plain_explanation": "This is the nail-and-screw section. Where cable or raceway passes through or runs alongside wood or metal framing, it has to sit far enough back from the face of the framing that drywall screws and nails miss it — or be shielded by a steel plate. It also covers cables run across the top of joists, through notches, and parallel to framing, where the same idea applies: keep the wiring out of the fastener zone, or armor it.",
+      "on_the_job": "Center your holes, keep the 1-1/4 in setback in 300.4(A)(1), and plate anything that ends up closer. Kick plates / nail plates are not extras — if the cable is in the strike zone, the plate goes on before drywall, every time.",
+      "sharma_note": "Kick plates are always in Sharma takeoffs — stock them on every rough-in truck, do not treat them as an optional add-on.",
+      "figure_idea": "Front view of a stud bay: a centered bored hole marked 1-1/4 in minimum from each face, and beside it a shallow hole covered by a 1/16 in steel nail plate.",
+      "related_ids": [
+        "L-062",
+        "Q-029",
+        "C3-L-001",
+        "C3-L-002"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-ART-300",
+      "next_id": "C3-300.4(A)(1)",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.4(A)(1)",
+      "article": "300",
+      "section": "300.4(A)(1)",
+      "title": "Bored holes in wood framing",
+      "plain_explanation": "A hole bored through a wood stud or joist for cable or raceway must be drilled so the edge of the hole is at least 1-1/4 in from the nearest edge of the wood. If that distance cannot be kept, the cable must be protected by a steel plate at least 1/16 in thick, of a suitable length and width, installed to protect the wiring.",
+      "on_the_job": "Drill in the middle third of the stud width where you can. Check both faces — a hole can be legal from the front and too close from the back on a shallow stud. Plate first, then pull cable, so the plate is not forgotten.",
+      "sharma_note": "",
+      "figure_idea": "Close-up of a 2x4 stud with a centered hole, dimension arrows showing 1-1/4 in from hole edge to stud face.",
+      "related_ids": [
+        "L-062",
+        "Q-029"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-300.4",
+      "next_id": "C3-300.4(G)",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.4(G)",
+      "article": "300",
+      "section": "300.4(G)",
+      "title": "Protecting large conductors where they enter enclosures",
+      "plain_explanation": "Conductors 4 AWG and larger entering a cabinet, box or raceway have to be protected from abrasion at the entry — by a fitting, bushing or adapter that gives them a smooth, rounded surface to bear on, in the cases this subsection describes. Big conductors are stiff, heavy and expensive; a sharp knockout edge plus one hard pull is insulation damage you cannot see after the cover goes on. The research notes this protection was expanded and clarified for 2020; the exact fitting language is Mike's to confirm.",
+      "on_the_job": "Fit the insulating bushing before the pull, not after you see the scrape. On service and feeder entries, check every entry edge with a fingertip before conductors go in.",
+      "sharma_note": "",
+      "figure_idea": "Service conductor entering a meter enclosure through a listed fitting with a smooth rounded insulating surface, sharp-edge version crossed out beside it.",
+      "related_ids": [
+        "C3-ART-312"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Subsection cited by the ChatGPT research and listed as a 2020 change (300.4(G)) in the Utah 2020-change syllabus; wording not checked against the printed text.",
+      "prev_id": "C3-300.4(A)(1)",
+      "next_id": "C3-300.5",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.5",
+      "article": "300",
+      "section": "300.5",
+      "title": "Underground wiring — cover, protection and sealing",
+      "plain_explanation": "Underground runs have to be in a wiring method approved for burial and buried deep enough that digging, traffic and frost do not reach them. Cover is measured from the top of the cable or raceway to finished grade, and the required depth depends on the method and what is above it — a yard, a driveway and a slab are not the same row of the table. Risers coming out of the ground need protection from damage, raceway seals are needed where moisture or temperature change will drive condensation, and splices underground must be listed for the job.",
+      "on_the_job": "Use the v1 numbers Sharma already teaches, and check the table row for the actual location before you trench: direct-burial UF 24 in, rigid PVC 18 in, rigid metal conduit 6 in, and a residential branch circuit of 120V, 20A or less with GFCI protection 12 in. Do not carry one depth to every location — driveways and streets are different rows, and those rows are not restated here.",
+      "sharma_note": "",
+      "figure_idea": "Trench cross-section with four parallel runs at 24, 18, 12 and 6 in, each labeled with its method, and a tape measure to finished grade.",
+      "related_ids": [
+        "L-061",
+        "O-04",
+        "Q-030",
+        "Q-031",
+        "C3-L-003",
+        "C3-L-004"
+      ],
+      "florida_note": "Local AHJs in Florida sometimes require warning tape or specific bedding in rock and sand — confirm at permit, do not assume the table is the whole job.",
+      "verified": true,
+      "prev_id": "C3-300.4(G)",
+      "next_id": "C3-300.11",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.11",
+      "article": "300",
+      "section": "300.11",
+      "title": "Securing and supporting — general",
+      "plain_explanation": "Wiring methods must be secured in place and supported at the intervals their own article requires. Raceways and cables cannot hang off other raceways, pipes or ceiling wires unless the rule for that method specifically allows it, and in a fire-rated ceiling the support has to be independent so the wiring does not fall when the ceiling does.",
+      "on_the_job": "When in doubt, support it yourself: your own strap, on structure, at the spacing in the method's article (334.30 for NM, 330.30 for MC, 358.30 for EMT, 352.30 for PVC). Never lay cable on a ceiling tile or tie it to a sprinkler pipe.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-L-005"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-300.5",
+      "next_id": "C3-300.14",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.14",
+      "article": "300",
+      "section": "300.14",
+      "title": "Free conductor length at boxes",
+      "plain_explanation": "At every outlet, junction and switch point, leave at least 6 in of free conductor, measured from where the conductor comes out of its raceway or cable sheath. Where the box opening is smaller than 8 in in any direction, the conductors also have to stick out of the opening by at least 3 in, so devices can be made up and folded back without fighting short wires. Conductors that pass straight through a box without a splice or termination are not counted by this rule.",
+      "on_the_job": "Strip and make up with the full 6 in in hand. If you are short, the fix is a bigger pull or a re-pull — not a wire nut buried with 2 in stubs. Leave the same working length on the spare conductors you cap off.",
+      "sharma_note": "",
+      "figure_idea": "Side view of a single-gang box with 6 in of conductor looped out, and a 3 in dimension from the box opening.",
+      "related_ids": [
+        "L-063",
+        "Q-032",
+        "C3-L-006"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-300.11",
+      "next_id": "C3-300.15",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.15",
+      "article": "300",
+      "section": "300.15",
+      "title": "A box or fitting at each splice, outlet and junction",
+      "plain_explanation": "Every splice, tap, outlet, switch and pull point needs a box, conduit body or listed fitting behind it, and the wiring inside has to stay accessible without tearing the building apart. A joint made in open air, in a wall cavity, or inside a raceway run is not a joint the next electrician — or an inspector — can ever find.",
+      "on_the_job": "Plan box locations while the walls are open. If a splice has to exist, it gets a box with a cover that stays reachable after finishes go on.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-L-007"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-300.14",
+      "next_id": "C3-300.21",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.21",
+      "article": "300",
+      "section": "300.21",
+      "title": "Firestopping penetrations of rated construction",
+      "plain_explanation": "Where wiring passes through a fire-rated floor, wall or ceiling, the opening around it has to be firestopped with an approved system so fire and smoke do not travel through the penetration. The electrical work does not end at the conduit — the annular space around it is part of the rated assembly's performance. Ordinary expanding foam from the truck is not a firestop system unless it is listed as one for that assembly and penetration.",
+      "on_the_job": "On commercial and multi-family work, plan the firestop with the run: listed system for the assembly, the raceway type and the opening size, installed before the wall is signed off. Photograph it — the next inspector cannot see inside a closed wall either.",
+      "sharma_note": "",
+      "figure_idea": "Rated wall section with a conduit penetration sealed by a red listed firestop system, callout 'system matched to assembly — not generic foam'.",
+      "related_ids": [
+        "C3-R-19"
+      ],
+      "florida_note": "Firestop systems are assembly-specific; Florida inspectors on rated multi-family and commercial work check them by listing, not by color.",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-300.15",
+      "next_id": "C3-300.22",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.22",
+      "article": "300",
+      "section": "300.22",
+      "title": "Wiring in ducts, plenums and other air-handling spaces",
+      "plain_explanation": "Spaces made for moving environmental air — ducts, plenums and the space above a ceiling used as a return-air plenum — restrict what wiring may run there and how, because anything burning or smoldering in that space feeds the whole building's air. Only the wiring methods and materials this section allows may be installed, and equipment in those spaces is limited to what the section and the mechanical rules permit.",
+      "on_the_job": "The field trap is the plenum ceiling that looks like an ordinary ceiling: before you run a method through a ceiling space on commercial work, ask whether that space is a return-air plenum. If it is, the method list shrinks — when in doubt, ask the AHJ before rough-in, not at inspection.",
+      "sharma_note": "",
+      "figure_idea": "Reflected ceiling plan with the return-air plenum shaded and two wiring methods shown: one allowed routing tagged, one barred routing crossed out.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-300.21",
+      "next_id": "C3-300.25",
+      "chapter": 3
+    },
+    {
+      "id": "C3-300.25",
+      "article": "300",
+      "section": "300.25",
+      "title": "Wiring in exit enclosures",
+      "plain_explanation": "Exit enclosures — the protected stair towers and exit passageways people escape through — may contain only the wiring that serves the exit enclosure itself and the limited other wiring this section permits. Ordinary branch circuits passing through a stair tower on their way somewhere else do not belong there. This section was new in the 2020 NEC, which is why older study material and older habits do not mention it.",
+      "on_the_job": "On multi-family and commercial work, route around the stair tower by default. If a run must enter it, stop and check what it serves before it goes in.",
+      "sharma_note": "",
+      "figure_idea": "Building section of a stair tower with a foreign branch circuit shown re-routed around the enclosure and only the tower's own lighting circuit inside.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "New-in-2020 status corroborated by the Utah 2020-change syllabus listing *300.25 Exit Enclosures (Stair Towers); exact permitted-wiring list not checked against the printed text.",
+      "prev_id": "C3-300.22",
+      "next_id": "C3-ART-310",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-310",
+      "article": "310",
+      "section": "310",
+      "title": "Conductors for general wiring",
+      "plain_explanation": "Article 310 is about the conductors themselves: what they are made of, how they are insulated, and — most used of all — how much current they may carry. The ampacity work lives in 310.12 for dwelling services and feeders, 310.15 for correction and adjustment, and Table 310.16 for the ampacity values themselves. Termination temperature limits live back in 110.14(C) in Chapter 1; this article hands you the number, Chapter 1 tells you which column you may actually use.",
+      "on_the_job": "Start every sizing question here in this order: load, then Table 310.16 column allowed by the terminations, then correction/adjustment in 310.15, then the small-conductor caps in 240.4(D) from Chapter 2.",
+      "sharma_note": "",
+      "figure_idea": "Flowchart with four boxes: Load -> Table 310.16 -> 310.15 correction/adjustment -> 240.4(D) cap.",
+      "related_ids": [
+        "L-034",
+        "L-036",
+        "L-038",
+        "310.16"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-300.25",
+      "next_id": "C3-310.12",
+      "chapter": 3
+    },
+    {
+      "id": "C3-310.12",
+      "article": "310",
+      "section": "310.12",
+      "title": "The dwelling 83% rule for services and whole-load feeders",
+      "plain_explanation": "For a single-phase dwelling service rated 100A through 400A that carries the entire load of the house, the service conductors may be sized at 83% of the service rating instead of the full Table 310.16 ampacity. The same idea applies to a feeder that carries the entire dwelling load, such as the feeder from an outside meter-main to the inside main panel. It does not apply to a partial-load feeder, and it does not apply when temperature correction or bundling adjustment is in play.",
+      "on_the_job": "The pair Sharma uses daily: a 200A house service is 2/0 copper or 4/0 aluminum when this rule applies. A feeder to a garage subpanel that carries only part of the house load gets sized at full value from Table 310.16 — no 83%.",
+      "sharma_note": "",
+      "figure_idea": "One-line of a house: meter-main outside, main panel inside, the feeder between them labeled 'whole load — 83% can apply'; a second feeder to a garage labeled 'partial load — full size'.",
+      "related_ids": [
+        "L-034",
+        "L-035",
+        "SP-04",
+        "Q-021",
+        "Q-022",
+        "C3-L-008"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-ART-310",
+      "next_id": "C3-310.15",
+      "chapter": 3
+    },
+    {
+      "id": "C3-310.15",
+      "article": "310",
+      "section": "310.15",
+      "title": "Ampacity correction (temperature) and adjustment (bundling)",
+      "plain_explanation": "Table 310.16 assumes no more than three current-carrying conductors together and a 30°C (86°F) surrounding temperature. When reality is hotter, or more conductors share a raceway or cable, the ampacity goes down: an ambient correction factor for temperature, and an adjustment factor for the count of current-carrying conductors — 80% for 4 to 6, 70% for 7 to 9, 50% for 10 to 20, 45% for 21 to 30, 40% for 31 to 40, and 35% for 41 or more. Equipment grounding conductors do not count, and a neutral that carries only the unbalanced load of its circuit usually does not count either. You may start the math from the conductor's insulation rating (for example the 90°C column for THHN or NM conductors) as long as the final number does not exceed what the termination column and the method's own limit allow.",
+      "on_the_job": "Count current-carrying conductors honestly on a home-run bundle: three 12/2 NM cables bundled over 24 in is six current-carrying conductors, not three circuits at full ampacity. Hot Florida attics are the ambient case Sharma hits most — see the attic tip AH-07, whose 310.15(B)(1) citation Mike should re-check against the 2020 numbering.",
+      "sharma_note": "",
+      "figure_idea": "Bar chart: one raceway at 3, 6 and 9 current-carrying conductors with the 100%, 80% and 70% factors marked.",
+      "related_ids": [
+        "L-036",
+        "Q-023",
+        "AH-07",
+        "C3-L-009",
+        "C3-L-010"
+      ],
+      "florida_note": "Florida attics routinely run far above 30°C in summer; that is a design condition here, not an edge case.",
+      "verified": true,
+      "prev_id": "C3-310.12",
+      "next_id": "C3-310.16",
+      "chapter": 3
+    },
+    {
+      "id": "C3-310.16",
+      "article": "310",
+      "section": "310.16",
+      "title": "Table 310.16 — how to read the ampacity table",
+      "plain_explanation": "Table 310.16 gives the allowable ampacity of an insulated conductor by size, material and temperature column: 60°C, 75°C and 90°C, for copper on the left and for aluminum and copper-clad aluminum together on the right. Read it in four steps. One, find the size. Two, pick the material column — CCA is read in the aluminum columns, never the copper columns. Three, pick the temperature column your terminations allow under 110.14(C); most house equipment is 75°C, and the 90°C column is mainly a starting point for correction and adjustment. Four, apply 310.15, then check the small-conductor caps in 240.4(D): copper 14/12/10 AWG is capped at 15/20/30A, and aluminum/CCA 12/10 AWG is capped at 15/25A, no matter what the table row says.",
+      "on_the_job": "Worked reads from the v1 table: 12 AWG copper is 20/25/30A at 60/75/90°C. 12 AWG CCA is 15/20/25A in the aluminum columns — and 240.4(D) caps it at a 15A breaker. 10 AWG CCA is 25/30/35A, capped at 25A. That one-column shift is exactly why a CCA circuit goes one size up from copper for the same breaker.",
+      "sharma_note": "S-10: branch circuits are copper by default — 14 AWG on 15A, 12 AWG on 20A. When CCA is used, go one AWG larger (12 on 15A, 10 on 20A) because Table 310.16 rates CCA in the aluminum column. Terminations must be marked for the conductor (110.14); wire connectors and lugs need AL-CU / CU-AL marking, CU-only connectors are not rated for CCA, and push-in terminals are 14 AWG solid copper only. Never backstab. The microwave circuit stays 12 AWG copper (S-06).",
+      "figure_idea": "A printed Table 310.16 excerpt with the 12 AWG and 10 AWG rows highlighted, an arrow from 'CCA' into the aluminum columns, and the 240.4(D) caps written under the rows.",
+      "related_ids": [
+        "L-038",
+        "BL-13",
+        "Q-024",
+        "Q-025",
+        "310.16",
+        "C3-L-011",
+        "C3-L-012",
+        "C3-Q-005",
+        "C3-Q-006"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-10"
+      ],
+      "prev_id": "C3-310.15",
+      "next_id": "C3-310.16-CCA",
+      "chapter": 3
+    },
+    {
+      "id": "C3-310.16-CCA",
+      "chapter": 3,
+      "article": "310",
+      "section": "310.16 / 310.3",
+      "title": "CCA in every calculation — ampacity, voltage drop, fill, terminations, sizing",
+      "plain_explanation": "Copper-clad aluminum is a material choice inside the same calculations, not a separate code. Run every calculation the same way and pick the CCA line where the table has one: (1) Ampacity — CCA is read in the aluminum column of Table 310.16, with the 240.4(D) caps for aluminum, and the minimum conductor sizes of 310.3 and the cable articles apply — in 2020 work the smallest CCA branch conductor you will meet is 12 AWG, and there is no 14 AWG CCA NM. (2) Voltage drop — Chapter 9 Table 8 lists copper and aluminum resistances only; there is no CCA row, so a CCA voltage-drop figure has to come from the cable maker's data or the ASTM B566 resistivity for the CCA class. Building-wire CCA is the 15 percent copper class, whose maximum resistivity is 0.02676 ohm square millimetres per metre (about 64 percent IACS); worked from that resistivity, 12 AWG CCA is about 2.46 ohms per 1000 ft at 20 degrees against about 1.59 for 12 AWG copper, so the same size of CCA drops roughly one and a half times the voltage — and one size up in CCA lands about where the copper size below it sat. (3) Terminations — 15 and 20 amp device screw terminals are fine for CCA; wire nuts and lugs must be marked AL/CU (Sharma stocks connectors marked for CCA — CC / CC-CU / AL/CU — because a CU-only nut is not listed for it); push-in backstab terminals are 14 AWG solid copper only, so CCA is never backstabbed. (4) Box fill and conduit fill — 314.16 and Chapter 9 Tables 4 and 5 go by conductor size and insulation, never by metal: a 10 AWG CCA conductor takes the same 2.50 cu in box allowance and the same Table 5 area as 10 AWG copper, and the calculation is identical; the CCA difference shows up one step earlier, in the bigger AWG the ampacity rule already chose. (5) Load calculations and service or feeder sizing — the load math (Article 220) does not change with metal; the conductor is then picked in the chosen material, so a whole-load dwelling service or feeder in CCA reads the aluminum column of Table 310.12, and anything else reads the aluminum column of Table 310.16.",
+      "on_the_job": "Crew version: same math, aluminum column, one size up. On a long home run, that one size up is also what saves the voltage drop — 10 AWG CCA at about 1.55 ohms per 1000 ft drops about what 12 AWG copper drops, so a run that was fine in 12 copper is fine in 10 CCA, while 12 CCA on the same run drops about half again as much and needs a second look. Check the connector marking in your pouch before the splice, not after: if it does not say AL/CU or CC, it does not touch CCA.",
+      "sharma_note": "S-10 in calculation form: copper default; CCA one AWG up (12 on 15A, 10 on 20A); microwave stays 12 AWG copper (S-06). Sharma's CCA is Copperweld NM-B; torque CCA terminations to the printed value once — do not re-torque.",
+      "figure_idea": "One flow chart used five times: Load → material (Cu / Al / CCA) → column or resistance source → size → check (240.4(D) cap, fill, voltage drop), with the CCA path highlighted and the Table 8 'no CCA row' gap marked on the voltage-drop branch.",
+      "related_ids": [
+        "C3-310.16",
+        "L-038",
+        "S-10",
+        "C3-L-051",
+        "C3-L-052",
+        "C3-L-053",
+        "C3-L-054",
+        "C3-L-056",
+        "C3-Q-025",
+        "C3-Q-026",
+        "C3-Q-027",
+        "C3-Q-028",
+        "C3-Q-029",
+        "C3-Q-030"
+      ],
+      "florida_note": "No 14 AWG CCA in Florida 2020 work: the 2023 provision for 14 AWG CCA on a special 10A breaker system is not adopted here.",
+      "verified": false,
+      "unverified_reason": "CCA voltage-drop figures are derived from the ASTM B566 resistivity class for 15 percent CCA as published in manufacturer and standards summaries (max 0.02676 ohm mm2/m, about 64 percent IACS), because NEC Chapter 9 Table 8 has no CCA row. Mike to confirm the resistance dataset the app calculators use before this page is marked verified.",
+      "sharma_rule_ids": [
+        "S-10"
+      ],
+      "prev_id": "C3-310.16",
+      "next_id": "C3-ART-311"
+    },
+    {
+      "id": "C3-ART-311",
+      "article": "311",
+      "section": "311",
+      "title": "Medium-voltage conductors and cable",
+      "plain_explanation": "Article 311 covers conductors and cable for systems over 1,000 volts — the medium-voltage distribution found on larger commercial, industrial and campus work, not in houses. It was confirmed in the printed 2020 table of contents for this reconciliation: in the 2020 NEC the medium-voltage article is 311, not 315 (315 is a 2023 number), and there is no Article 305 in the 2020 Chapter 3 — that over-1,000-volt general article is also a later-edition addition. Sharma does not pull medium-voltage cable on ordinary work; this page exists so the book's map is complete and nobody cites the wrong edition's number.",
+      "on_the_job": "If a job genuinely involves over-1,000-volt conductors, that is engineered, utility-coordinated work — stop at this page and escalate; do not extend house habits (NM, ordinary splices, ordinary terminations) into this article.",
+      "sharma_note": "",
+      "figure_idea": "Single-line of a campus feeder at medium voltage with a clear 'specialized work — engineered' tag.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents (Dunbar/McGraw-Hill listings) during the Ch.3 research reconciliation, 2026-11-11; no section pages written — outside Sharma's ordinary scope.",
+      "prev_id": "C3-310.16-CCA",
+      "next_id": "C3-ART-312",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-312",
+      "article": "312",
+      "section": "312",
+      "title": "Cabinets, cutout boxes and meter socket enclosures",
+      "plain_explanation": "Article 312 covers the enclosures the conductors in Article 310 land in: panel cabinets, cutout boxes and meter sockets. Its job is room and protection inside the enclosure — enough space to deflect and bend conductors entering the top or bottom, no sharp edges cutting insulation, doors and covers that close properly, and enclosures kept out of damp and wet locations unless they are rated for them. Working space in front of the enclosure is a Chapter 1 rule (110.26), not this article.",
+      "on_the_job": "On a Sharma house this is the meter enclosure and the panel cabinet. Check conductor bending room before you land a 4/0 service conductor, not after, and keep the enclosure plumb so the deadfront and door seat correctly.",
+      "sharma_note": "S-09 puts the meter outside and the panel inside, back to back, where the house allows — both enclosures still have to meet this article and the 110.26 working space.",
+      "figure_idea": "Elevation of a meter socket beside a panel cabinet with the conductor bending space shaded at the top entry.",
+      "related_ids": [
+        "S-09",
+        "C3-L-013"
+      ],
+      "florida_note": "FPL and other Florida utilities have their own meter-socket approval lists on top of the NEC — the socket must be on the serving utility's list.",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "sharma_rule_ids": [
+        "S-09"
+      ],
+      "prev_id": "C3-ART-311",
+      "next_id": "C3-312.6",
+      "chapter": 3
+    },
+    {
+      "id": "C3-312.6",
+      "article": "312",
+      "section": "312.6",
+      "title": "Conductor bending and deflection space in enclosures",
+      "plain_explanation": "Large conductors cannot be bent around a thumb. This section sets the minimum space inside cabinets, cutout boxes and meter enclosures for conductors to deflect and bend where they enter and land — figured from tables in the section by conductor size, number of conductors per terminal, and whether the conductor turns or runs straight through. An enclosure can be big enough on the wall and still be too small for the 4/0 or 250 kcmil that has to land in it.",
+      "on_the_job": "Size the enclosure from the conductor, not the wall space: check the bending-space table for the largest conductor and the entry direction (top, bottom, side) before the gear is ordered. Forcing a feeder into too-tight a bend is damaged insulation and a failed inspection in one move.",
+      "sharma_note": "",
+      "figure_idea": "Panel interior with a large feeder conductor bending from a bottom entry to its lug, the required bending space shaded and dimensioned from the section's table (values left to the table, not restated).",
+      "related_ids": [
+        "C3-ART-312"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-312",
+      "next_id": "C3-312.8",
+      "chapter": 3
+    },
+    {
+      "id": "C3-312.8",
+      "article": "312",
+      "section": "312.8",
+      "title": "What may live inside an enclosure for switches and overcurrent devices",
+      "plain_explanation": "An enclosure that houses switches or overcurrent devices is not a general-purpose junction box, but it is not sealed against all other wiring either: this section allows conductors to run through and splice inside it within set limits — commonly taught as the wiring space used by feed-through conductors being limited to a share of the enclosure's cross-sectional wiring space (40%), and splices and taps to a larger share (75%), with the exact conditions in the section. The 2020 changes also addressed power-monitoring and energy-management equipment installed in these enclosures.",
+      "on_the_job": "Do not treat a panel as free splice space on a remodel. If feed-through or splices are planned in an overcurrent enclosure, count the space, keep it in the wiring gutter area, and be ready to show the inspector the section you relied on.",
+      "sharma_note": "",
+      "figure_idea": "Panel gutter detail with feed-through conductors occupying a measured share of the wiring space, splice bundle tagged separately.",
+      "related_ids": [
+        "C3-ART-312"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "The 40% / 75% figures are the standard taught values for 312.8 and the 312.8(B) power-monitoring change is corroborated by the Utah 2020-change syllabus; exact subsection wording not checked against the printed text.",
+      "prev_id": "C3-312.6",
+      "next_id": "C3-ART-314",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-314",
+      "article": "314",
+      "section": "314",
+      "title": "Outlet, device, pull and junction boxes",
+      "plain_explanation": "Article 314 is the box article: which box, how big, how it is set, how it is supported, and what may live in it. The sizing heart is 314.16 — a box is big enough only if its marked volume holds every conductor, device, clamp and ground the counting rules charge against it. The placement rules around it (setback, repair, support, fan rating, accessibility) are what inspectors check after the volume math passes.",
+      "on_the_job": "Run the fill math before the rough-in, not at trim. A box that fails fill in the wall fails the same way on paper — cheaper to catch it on paper.",
+      "sharma_note": "",
+      "figure_idea": "Cutaway of a 4-square box with a receptacle, two NM cables and clamps, each counted item tagged 1x, 2x or 'grounds = 1'.",
+      "related_ids": [
+        "L-064",
+        "L-065",
+        "L-066",
+        "314.16(A)",
+        "314.16(B)"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-312.8",
+      "next_id": "C3-314.16",
+      "chapter": 3
+    },
+    {
+      "id": "C3-314.16",
+      "article": "314",
+      "section": "314.16",
+      "title": "Box fill — volume, allowances and counting",
+      "plain_explanation": "A box may not be filled past its volume. Start with the box volume: for a standard metal box use Table 314.16(A); for a nonmetallic or marked box use the volume marked on the box itself. Then charge the contents using Table 314.16(B) allowances — 2.00 cu in for each 14 AWG, 2.25 for each 12 AWG, 2.50 for each 10 AWG. The counting rules in 314.16(B)(1) through (5) decide how many allowances each thing costs — including the 2020 grounds rule on the next page (up to four grounds count once, each one past four adds a quarter) — and the total charge may not exceed the box volume.",
+      "on_the_job": "The five counts, in field order: (1) each conductor that enters from outside and ends or is spliced in the box counts once, and a conductor that passes through unbroken also counts once, while a short pigtail that starts and ends in the box counts zero; (2) [see the (B) page for the full list in order]. Worked example from the v1 tables: a 4 x 1-1/2 square box is 21.0 cu in. Three 12/2 NM cables, one receptacle and internal clamps charge 6 conductors x 2.25 = 13.50, grounds 2.25, device yoke 4.50, clamps 2.25 — total 22.50 cu in. It fails. The 4 x 2-1/8 square at 30.3 cu in passes.",
+      "sharma_note": "Box height on the wall is not a 314 rule — Sharma S-04 (receptacles 18 in to the bottom of the box, plan silent) and S-05 (switches 48 in to center) govern placement; 314 governs whether the box you placed is big enough and set right.",
+      "figure_idea": "Worksheet-style figure: left side a box volume stamp '30.3 cu in', right side a tally list adding to 22.50, with a green check.",
+      "related_ids": [
+        "L-064",
+        "Q-033",
+        "Q-034",
+        "Q-035",
+        "Q-036",
+        "314.16(A)",
+        "314.16(B)",
+        "C3-L-014",
+        "C3-L-015",
+        "C3-Q-001",
+        "C3-Q-002",
+        "C3-Q-003"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-ART-314",
+      "next_id": "C3-314.16(B)",
+      "chapter": 3
+    },
+    {
+      "id": "C3-314.16(B)",
+      "article": "314",
+      "section": "314.16(B)",
+      "title": "The five counting rules, one by one",
+      "plain_explanation": "314.16(B)(1) Conductors: each conductor from outside the box that is spliced or terminated counts once; a conductor that runs through unbroken counts once; a conductor looped unbroken with at least 12 in of free length counts twice; pigtails that originate in the box count zero. (B)(2) Clamps: all internal cable clamps together count once, at the largest conductor in the box; external clamps count zero. (B)(3) Support fittings: each fixture stud or hickey counts once. (B)(4) Devices: each device yoke or strap counts twice, at the largest conductor connected to that device. (B)(5) Grounds — the count that changed in 2020: up to four equipment grounding conductors and equipment bonding jumpers entering the box together count once, at the largest ground in the box, and each additional one beyond four adds a quarter of that allowance. Isolated-ground conductors count in with the rest of the grounds; the old separate extra allowance for an isolated-ground set is a 2017 rule and does not apply in 2020.",
+      "on_the_job": "Say the counts out loud as you tally: wires, clamps, studs, yokes, grounds. Field example at 12 AWG (2.25 cu in): four grounds = 2.25 cu in; six grounds = 2.25 + (2 x 0.25 x 2.25) = 3.38 cu in. In a normal house box with two or three cables the ground count is four or fewer, so the old habit gives the same answer — the quarter rule only bites in crowded multi-cable boxes, which is exactly where fill was already tight.",
+      "sharma_note": "",
+      "figure_idea": "Five-row tally card with icons: conductor, clamp, stud, yoke, ground bar, each with its multiplier.",
+      "related_ids": [
+        "L-064",
+        "314.16(B)",
+        "C3-Q-001",
+        "C3-Q-004"
+      ],
+      "florida_note": "CONFLICT FLAGGED FOR MIKE: v1 calc-tables.json notes for 314.16(B) and lookup L-064 still state the pre-2020 'all grounds count once' rule. The 2020 quarter-allowance wording is corroborated by the ChatGPT research and by independent NEC 2020 sources (Leviton 2020 change summary as cited in published box-fill references). Mike to confirm against the printed 2020 text and correct v1 if it stands.",
+      "verified": true,
+      "prev_id": "C3-314.16",
+      "next_id": "C3-314.17",
+      "chapter": 3
+    },
+    {
+      "id": "C3-314.17",
+      "article": "314",
+      "section": "314.17",
+      "title": "Conductors and cables entering boxes",
+      "plain_explanation": "Cables entering a box have to be secured to it, or the cable has to be fastened close enough that the box entry stays put, and the cable sheath has to continue into the box so the conductors are protected where they enter. The v1 field rule (L-065): the sheath extends at least 1/4 in inside the box past any clamp, and with single-gang nonmetallic boxes the cable is fastened within 8 in of the box while the sheath still goes 1/4 in in.",
+      "on_the_job": "Strip the sheath outside the box, not inside it: 1/4 in of sheath past the clamp is protection; 2 in of sheath inside the box is fill you did not count and a make-up fight at trim.",
+      "sharma_note": "",
+      "figure_idea": "Close-up of an NM cable entering a plastic box: sheath ending 1/4 in past the knockout, conductors separating after that point.",
+      "related_ids": [
+        "L-065",
+        "Q-037",
+        "C3-L-016"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "The '8 in' fastening wording for single-gang nonmetallic boxes is flagged UNVERIFIED in the v1 README — substance is from L-065; Mike to re-check 314.17(C) wording in the printed 2020 text before this page is marked verified.",
+      "prev_id": "C3-314.16(B)",
+      "next_id": "C3-314.20",
+      "chapter": 3
+    },
+    {
+      "id": "C3-314.20",
+      "article": "314",
+      "section": "314.20",
+      "title": "How a box sits in a wall or ceiling",
+      "plain_explanation": "Boxes in finished surfaces have to sit so their front edge is where the finished surface is: in a combustible wall (wood studs and drywall assemblies treated as combustible for this rule) the box sits flush with or projects past the finished surface; in a noncombustible surface it may sit back no more than 1/4 in. A box buried behind the finish is both a device problem — the yoke ears cannot reach — and a code problem.",
+      "on_the_job": "Set box depth off the stud face for the finish that is actually going on that wall: 1/2 in drywall is not tile on backer board. Use the adjustable-depth or extension option before the wall closes, not a stack of goof rings at trim.",
+      "sharma_note": "S-04 and S-05 set the height (18 in to bottom for receptacles, 48 in to center for switches, plan silent); this section sets the depth. Both have to be right on the same box.",
+      "figure_idea": "Wall section: stud, drywall, and a box face drawn flush, with a second box drawn 1/4 in back marked 'noncombustible only'.",
+      "related_ids": [
+        "C3-L-017"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-314.17",
+      "next_id": "C3-314.21",
+      "chapter": 3
+    },
+    {
+      "id": "C3-314.21",
+      "article": "314",
+      "section": "314.21",
+      "title": "Repairing the surface around a box",
+      "plain_explanation": "Where a box is set in a noncombustible wall or ceiling, the broken or chipped surface around it has to be repaired so there is no gap or open space bigger than 1/8 in around the box. The plate cannot be the patch — the surface itself has to come back to the box.",
+      "on_the_job": "On remodel work, check the gap before you set the device. A 1/4 in crater around a cut-in box is a fail here and a wobbly device later; use the right box or repair the opening.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-L-018"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-314.20",
+      "next_id": "C3-314.23",
+      "chapter": 3
+    },
+    {
+      "id": "C3-314.23",
+      "article": "314",
+      "section": "314.23",
+      "title": "Supporting boxes",
+      "plain_explanation": "A box has to be supported — screwed, nailed, braced or hung by a method the article allows for that box type — rigidly enough that it does not move when devices are plugged in and pulled out for twenty years. Surface boxes, pendant boxes and boxes in walls and ceilings each have their own allowed supports in this section, and a box supported by a raceway alone is allowed only in the narrow cases the section describes.",
+      "on_the_job": "Wiggle test at rough-in: grab the box and push. If it moves, the device will move at trim and the plate will never sit flat. Add the brace or bracket now.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-L-019"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-314.21",
+      "next_id": "C3-314.27(C)",
+      "chapter": 3
+    },
+    {
+      "id": "C3-314.27(C)",
+      "article": "314",
+      "section": "314.27(C)",
+      "title": "Boxes at ceiling-fan outlets",
+      "plain_explanation": "Where an outlet in a habitable room ceiling is in a spot that could support a ceiling fan — wired and placed the way a fan location is — the box has to be listed for fan support, and the maximum weight it may carry is marked on it. A fan over 35 lb up to 70 lb needs a box marked for that weight; a fan heavier than 70 lb is supported independently of the box.",
+      "on_the_job": "If there is a ceiling outlet in a bedroom or living room with a switch leg, rough it in with a fan-rated box whether or not the plan shows a fan today — the next owner will hang one there. That is checklist BL-09.",
+      "sharma_note": "",
+      "figure_idea": "Ceiling box seen from below with its fan-support marking enlarged, and a fan outline above it.",
+      "related_ids": [
+        "L-066",
+        "BL-09",
+        "C3-L-020"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-314.23",
+      "next_id": "C3-314.28",
+      "chapter": 3
+    },
+    {
+      "id": "C3-314.28",
+      "article": "314",
+      "section": "314.28",
+      "title": "Pull and junction boxes for conductors 4 AWG and larger",
+      "plain_explanation": "Once conductors reach 4 AWG and larger, box sizing stops being a cubic-inch question and becomes a geometry question: the box must be big enough to pull and bend stiff conductors without damaging them. For a straight pull — in one wall, out the opposite wall — the distance from the entry to the opposite wall must be at least eight times the trade size of the largest raceway. For an angle pull, a U pull or splices, that distance must be at least six times the largest raceway in the row, plus the sum of the trade sizes of the other raceways in the same row on the same wall; and the distance between raceways that enclose the same conductor must be at least six times the larger raceway. These rules are in 314.28(A)(1) and (A)(2).",
+      "on_the_job": "Worked example: a straight pull with a largest raceway of 2 in needs at least 16 in from entry to opposite wall. An angle pull in a row with a 2 in and a 1 in raceway needs at least (6 x 2) + 1 = 13 in to the opposite wall. Cubic inches do not rescue a box that fails this geometry.",
+      "sharma_note": "",
+      "figure_idea": "Two plan-view box diagrams side by side: straight pull dimensioned 8x, angle pull dimensioned 6x + sum of the row.",
+      "related_ids": [
+        "C3-R-20"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-314.27(C)",
+      "next_id": "C3-314.29",
+      "chapter": 3
+    },
+    {
+      "id": "C3-314.29",
+      "article": "314",
+      "section": "314.29",
+      "title": "Boxes must stay accessible",
+      "plain_explanation": "A junction or pull box has to remain accessible without removing any part of the building — no drywall, no tile, no fixed cabinetry over the cover. If reaching the splice means cutting the building open, the box was in the wrong place when the walls were open.",
+      "on_the_job": "Before close-in, walk the job and photograph every junction box location. If a cover will be behind a fixed finish, move the box or move the splice now.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-L-021"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-314.28",
+      "next_id": "C3-ART-320",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-320",
+      "article": "320",
+      "section": "320",
+      "title": "Armored cable — Type AC",
+      "plain_explanation": "Type AC is a factory cable with its conductors inside a flexible metal armor, with an internal bonding strip in contact with the armor so the armor can serve as the equipment ground path. Sharma meets this article most often through one cross-reference: 334.23 sends NM cable in accessible attics to the attic protection rules written here in 320.23. The cable itself shows up on Sharma jobs mainly in older work and the occasional commercial job.",
+      "on_the_job": "Do not confuse AC with MC: AC carries its bonding strip and uses fittings listed for AC; MC (Article 330) usually carries a separate green ground conductor. The fittings are not interchangeable by habit — use the fitting listed for the cable in your hand.",
+      "sharma_note": "",
+      "figure_idea": "Detail of AC cable end: armor, bonding strip folded back, anti-short bushing at the connector.",
+      "related_ids": [
+        "AH-06",
+        "C3-334.23",
+        "C3-L-022"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-314.29",
+      "next_id": "C3-ART-322",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-322",
+      "article": "322",
+      "section": "322",
+      "title": "Flat cable assemblies — Type FC",
+      "plain_explanation": "Type FC is a factory flat-cable assembly used with its own listed floor and surface systems — a specialized method, not a substitute for NM run loose in a wall. The whole system (cable, boxes, fittings, covers) is listed together and installed by its own article and the manufacturer's instructions.",
+      "on_the_job": "Sharma does not install Type FC on ordinary work. If a spec calls for it, the listed system components come as a set — do not mix in ordinary boxes or fittings.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-320",
+      "next_id": "C3-ART-324",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-324",
+      "article": "324",
+      "section": "324",
+      "title": "Flat conductor cable — Type FCC",
+      "plain_explanation": "Type FCC is a flat conductor cable system designed to be installed under carpet squares and similar finishes, with its own shields, boxes and transition fittings. It is a different method from Type FC flat cable assemblies (Article 322) — the two are not interchangeable, and neither is ordinary branch wiring in a flat jacket.",
+      "on_the_job": "Encountered almost only in specialized commercial fit-outs. Identify the system by its listing before touching an existing FCC installation.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-322",
+      "next_id": "C3-ART-326",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-326",
+      "article": "326",
+      "section": "326",
+      "title": "Integrated gas spacer cable — Type IGS",
+      "plain_explanation": "Type IGS is a specialized cable in which the conductors are held apart by an insulating gas inside a sealed sheath — a distribution method for specific listed applications, far outside house and light-commercial branch work. It exists in the book so the map is complete.",
+      "on_the_job": "No Sharma field use. If IGS appears on a drawing, it is an engineered system — escalate, do not substitute a familiar cable.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-324",
+      "next_id": "C3-ART-330",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-330",
+      "article": "330",
+      "section": "330",
+      "title": "Metal-clad cable — Type MC",
+      "plain_explanation": "Type MC is a factory assembly of insulated conductors inside a metal sheath — smooth, corrugated or interlocked armor — with its own equipment grounding arrangement. It is the commercial counterpart to NM: it can be used exposed or concealed, in dry locations and the other locations its listing allows, fished in existing walls, and run where NM cannot go, such as many commercial ceilings and walls. It may not be used where it will be subject to physical damage, in wet locations unless the specific cable is listed for it, or in the other prohibited uses its article lists.",
+      "on_the_job": "Cut MC with the right tool and use listed MC connectors — a Romex connector is not an MC connector. Support and securing follow 330.30 (see the companion lookup), with the familiar pattern of securing close to boxes and supporting at regular intervals, plus exceptions for fished runs and short lengths to luminaires.",
+      "sharma_note": "S-01 applies on commercial work, where MC is most used: 20A minimum branch circuits, 12 AWG copper minimum.",
+      "figure_idea": "MC cable run across commercial studs with a listed connector at a 4-square box, armor and green ground shown.",
+      "related_ids": [
+        "C3-L-023",
+        "C3-L-024",
+        "S-01"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "sharma_rule_ids": [
+        "S-01"
+      ],
+      "prev_id": "C3-ART-326",
+      "next_id": "C3-ART-332",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-332",
+      "article": "332",
+      "section": "332",
+      "title": "Mineral-insulated, metal-sheathed cable — Type MI",
+      "plain_explanation": "Type MI is a copper or alloy sheath packed with mineral insulation around its conductors — a cable chosen where extreme heat, fire survival or mechanical abuse rules out ordinary methods, such as fire-pump and critical circuits and harsh industrial spots. Its terminations are specialized sealed fittings, and moisture control at the ends is part of the installation, not an afterthought.",
+      "on_the_job": "Sharma meets MI mainly as existing work in older or specialized installations. Do not cut or terminate it with NM/MC habits — the sealing fitting and its instructions govern.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-330",
+      "next_id": "C3-ART-334",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-334",
+      "article": "334",
+      "section": "334",
+      "title": "Nonmetallic-sheathed cable — Types NM, NMC, NMS (Romex)",
+      "plain_explanation": "This is Sharma's house cable. NM is two or more insulated conductors with an equipment ground, factory-wrapped in a nonmetallic sheath. Article 334 says where it may be used (334.10), where it may never be used (334.12), how it is protected and run (334.15, 334.17, 334.23), how it is bent (334.24), how often it is secured and supported (334.30), and how its ampacity is limited (334.80). Almost every Sharma rough-in decision — staple spacing, attic runs, the 60°C ampacity limit — traces back to this one article.",
+      "on_the_job": "If you learn one article in this chapter cold, learn this one. The other methods are variations; NM is the daily work.",
+      "sharma_note": "",
+      "figure_idea": "A coil of 12/2 NM beside a stapled stud bay run, with callouts to 334.30 (staples), 334.15 (protection) and 334.80 (ampacity).",
+      "related_ids": [
+        "L-037",
+        "L-067",
+        "L-068",
+        "334.80"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-ART-332",
+      "next_id": "C3-334.10",
+      "chapter": 3
+    },
+    {
+      "id": "C3-334.10",
+      "article": "334",
+      "section": "334.10",
+      "title": "Where NM may be used",
+      "plain_explanation": "NM may be used exposed or concealed in normally dry locations, in one- and two-family dwellings and their garages, and in the other buildings and construction types this section allows. 'Normally dry' is the load-bearing phrase: the cable is a dry-location method, and the building type limits in this section are why a method that is fine in a house may not be fine in a larger commercial building.",
+      "on_the_job": "House, garage and accessory work in dry interiors: NM is the default. Anything wet, damp, underground or in a bigger occupancy: stop and check 334.12 and pick another method.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "L-068",
+        "C3-L-025"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-334",
+      "next_id": "C3-334.12",
+      "chapter": 3
+    },
+    {
+      "id": "C3-334.12",
+      "article": "334",
+      "section": "334.12",
+      "title": "Where NM may not be used",
+      "plain_explanation": "NM may not be used in wet or damp locations — including inside a raceway that is itself underground or outdoors, because the inside of that raceway is a wet location — as service-entrance cable, embedded in concrete or masonry, in areas subject to physical damage without protection, or in the other locations this section lists. It is a dry, protected, interior method.",
+      "on_the_job": "The classic fail: NM sleeved in PVC down an outside wall and underground to a yard light. The PVC does not make the location dry. Use UF or conductors in raceway for that run (Articles 340 and 352).",
+      "sharma_note": "",
+      "figure_idea": "Red-X diagram: NM entering an underground PVC run; green-check diagram beside it with UF cable on the same route.",
+      "related_ids": [
+        "L-068",
+        "C3-L-026"
+      ],
+      "florida_note": "Florida's humidity does not reclassify an interior dry location, but any exterior or underground raceway interior is wet — plan the method for the location, not the weather.",
+      "verified": true,
+      "prev_id": "C3-334.10",
+      "next_id": "C3-334.15",
+      "chapter": 3
+    },
+    {
+      "id": "C3-334.15",
+      "article": "334",
+      "section": "334.15",
+      "title": "NM in exposed work and through framing",
+      "plain_explanation": "Exposed NM has to follow the surface it is run on and be protected where it can be hit. Where it passes through a floor, a wall or framing, the Article 300 protection rules ride along: bored-hole setbacks and nail plates from 300.4, and protection where the cable passes through slots or notches. In unfinished basements and crawl spaces, this section sets how larger cables may run through joists and how smaller cables are run on running boards or through bored holes. The basement and crawl-space case has its own subsection, 334.15(C): where cable runs at angles with the joists, a cable at least as large as two 6 AWG or three 8 AWG conductors may be secured directly to the lower edges of the joists; smaller cables must run through bored holes in the joists or on running boards. NM on the wall of an unfinished basement must be protected — in listed conduit or tubing, or protected the way 300.4 requires — with a bushing or adapter where the cable enters the raceway.",
+      "on_the_job": "Treat an unfinished basement ceiling like a wall someone will finish later: bore the joists or use running boards, keep the cable tight to the framing, and plate anything in the strike zone.",
+      "sharma_note": "",
+      "figure_idea": "Basement joist bay with NM bored through joist centers and a smaller cable on a running board, both labeled.",
+      "related_ids": [
+        "L-062",
+        "300.4",
+        "C3-L-027"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-334.12",
+      "next_id": "C3-334.23",
+      "chapter": 3
+    },
+    {
+      "id": "C3-334.23",
+      "article": "334",
+      "section": "334.23",
+      "title": "NM in accessible attics — the scuttle rule",
+      "plain_explanation": "For accessible attics, this section points NM cable at the attic rules written for AC cable in 320.23: near the attic access, where people climb in and step, the cable needs protection from being stepped on and damaged. The v1 wording that maps 334.23 onto 320.23 is flagged UNVERIFIED in the content README — Mike to re-check it against the printed 2020 text. What is not in doubt on a Sharma job is Sanjay's own ruling, which is stricter and simpler, and is stated in the Sharma note.",
+      "on_the_job": "Route attic runs the Sharma way from the start and the inspection question mostly disappears: runs hug the framing, nothing crosses the scuttle opening, and nothing invites a foot.",
+      "sharma_note": "SHARMA RULE (Sanjay, definitive 2026-11-09 — company practice, not a code quote): within 6 ft of an attic scuttle with no permanent stairs, run NM along the sides of the joists/trusses only, parallel to the framing, never diagonally across it and never across the opening; no guard strips; bends stay at least 1.5 ft clear of the opening; the attic light sits about 1.5 ft beside the opening with its switch at the entry. This is how BuzzDraws and the crews run it, regardless of how the 320.23 wording settles.",
+      "figure_idea": "Plan view of a scuttle opening with a 6 ft band shaded around it, NM runs drawn parallel along joist sides inside the band, one diagonal run crossed out.",
+      "related_ids": [
+        "AH-06",
+        "C3-ART-320",
+        "C3-L-028"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "334.23 -> 320.23 mapping wording is UNVERIFIED in the v1 README (section numbers taken from memory this pass). The Sharma note is Sanjay's confirmed practice and does not depend on that wording.",
+      "prev_id": "C3-334.15",
+      "next_id": "C3-334.24",
+      "chapter": 3
+    },
+    {
+      "id": "C3-334.24",
+      "article": "334",
+      "section": "334.24",
+      "title": "Bending radius of NM cable",
+      "plain_explanation": "NM may not be bent so sharply that the bend damages the sheath or the conductors inside it; the rule of this section is expressed as a minimum radius measured to the inner edge of the bend — commonly taught as five times the cable diameter. A kinked flat cable at a tight stud turn is exactly the damage this section is aimed at.",
+      "on_the_job": "Make wide, lazy turns. If you have to force it around a corner with your thumb creasing the sheath, the bend is too tight — re-route or move the hole.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-L-029"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-334.23",
+      "next_id": "C3-334.30",
+      "chapter": 3
+    },
+    {
+      "id": "C3-334.30",
+      "article": "334",
+      "section": "334.30",
+      "title": "Securing and supporting NM",
+      "plain_explanation": "NM must be secured and supported at intervals not exceeding 4-1/2 ft, and within 12 in of every box, cabinet and fitting. Cable run through bored holes or notches in framing counts as secured and supported by that framing. Flat cable may not be stapled on edge, and the staple has to hold the cable snug without crushing the sheath.",
+      "on_the_job": "Staple pattern on a stud run: within 12 in of the box, then at least every 4-1/2 ft, snug not crushed. A staple that deforms the sheath is a damage point, not a support point.",
+      "sharma_note": "",
+      "figure_idea": "Stud bay with staple positions dimensioned: 12 in max from the box, 4 ft 6 in max between staples.",
+      "related_ids": [
+        "L-067",
+        "Q-027",
+        "Q-028",
+        "C3-L-030"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-334.24",
+      "next_id": "C3-334.80",
+      "chapter": 3
+    },
+    {
+      "id": "C3-334.80",
+      "article": "334",
+      "section": "334.80",
+      "title": "Ampacity of NM cable — the 60°C limit",
+      "plain_explanation": "The conductors inside NM are 90°C rated, but the cable's ampacity is limited to the 60°C column of Table 310.16. You may still start correction and adjustment math from the 90°C value — that is what makes a bundled or hot-attic NM run survivable on paper — as long as the final ampacity after 310.15 does not exceed the 60°C value, and the 240.4(D) small-conductor caps still apply on top.",
+      "on_the_job": "Field translation: 14 AWG NM on a 15A breaker and 12 AWG NM on a 20A breaker, full stop — and if you derate a bundle of home runs, do the math from 90°C, then cap the answer at the 60°C column (25A for 12 AWG before the 20A breaker cap).",
+      "sharma_note": "S-10 still governs the wire choice: copper by default; CCA one size up. NM ampacity limits apply the same either way, read in the correct 310.16 column for the metal.",
+      "figure_idea": "Two-column mini-table: 12 AWG NM — 90°C start 30A (Cu) for derating, 60°C final cap 25A, breaker cap 20A.",
+      "related_ids": [
+        "L-037",
+        "Q-026",
+        "310.16",
+        "C3-L-031"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [
+        "S-10"
+      ],
+      "prev_id": "C3-334.30",
+      "next_id": "C3-ART-336",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-336",
+      "article": "336",
+      "section": "336",
+      "title": "Power and control tray cable — Type TC",
+      "plain_explanation": "Type TC is a factory assembly of power or control conductors with an overall jacket, listed for installation in cable tray (Article 392) and the other uses its article permits. Tray-rated is the load-bearing word: a cable in a tray must be a cable type Article 392 allows, and TC is the common one. Certain TC constructions carry additional ratings (such as exposed-run ratings) only when the cable is marked for them.",
+      "on_the_job": "On a light-commercial tray job, read the jacket print before the cable leaves the shop: TC alone is not every rating — check for the marking that matches the actual installation.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-334.80",
+      "next_id": "C3-ART-337",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-337",
+      "article": "337",
+      "section": "337",
+      "title": "Type P cable",
+      "plain_explanation": "Type P is a rugged, flexible cable construction originating in marine and drilling work, listed in the 2020 NEC for the applications its article describes, including certain hazardous-location uses noted in the 2020 changes. It is not a house or ordinary commercial branch-circuit cable.",
+      "on_the_job": "No Sharma field use on ordinary work. Its presence on a drawing signals a specialized, engineered specification.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-336",
+      "next_id": "C3-ART-338",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-338",
+      "article": "338",
+      "section": "338",
+      "title": "Service-entrance cable — Types SE and USE",
+      "plain_explanation": "SE cable is a multi-conductor assembly with a moisture- and sunlight-resistant outer covering in its USE form, used mainly between the utility connection, the meter and the first disconnect or panel. On a house, this is the cable that can carry the service where individual conductors in a mast or raceway are not used. Its ampacity and use rules borrow heavily from Articles 310 and 334, and where it is used for interior branch or feeder wiring it has to follow the NM rules for that wiring as well. Type SE and Type USE are not interchangeable: USE is the underground service form, and a plain USE cable does not automatically qualify as interior branch or feeder wiring — interior use needs the cable's own marking and listing to cover it (dual-rated cable is marked accordingly).",
+      "on_the_job": "Keep service work in its own lane: conductor sizing is 310.12 / 310.16 work, the disconnect and grounding live in Chapters 2 and 2/250 territory, and this article governs the cable itself.",
+      "sharma_note": "S-02: new meter-mains and disconnects are Siemens. S-09: meter and panel back to back where the house allows.",
+      "figure_idea": "House elevation: service drop to a mast, SE cable down through the meter to an inside panel.",
+      "related_ids": [
+        "L-034",
+        "C3-L-032"
+      ],
+      "florida_note": "The serving utility (FPL and the Florida co-ops/munis) controls the drop, meter and its own connection rules on top of the NEC.",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "sharma_rule_ids": [
+        "S-02",
+        "S-09"
+      ],
+      "prev_id": "C3-ART-337",
+      "next_id": "C3-ART-340",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-340",
+      "article": "340",
+      "section": "340",
+      "title": "Underground feeder cable — Type UF",
+      "plain_explanation": "UF is NM's underground sibling: the conductors are embedded in a solid moisture-resistant covering so the cable itself is rated for direct burial and wet locations, and for sunlight exposure where it is marked sunlight resistant. It is used for yard lights, outbuildings, pool and landscape feeds and other underground branch circuits and feeders, buried at the cover depth Article 300.5 sets for it — 24 in for direct burial in the general case, with the 12 in residential GFCI exception L-061 teaches.",
+      "on_the_job": "UF is stiff and unforgiving to strip — score the covering carefully and do not nick the conductors. Above ground, protect it where it can be damaged, the same as any exposed cable, and sleeve risers where 300.5 requires protection.",
+      "sharma_note": "",
+      "figure_idea": "Trench detail: UF at 24 in with a sleeved riser at the house wall, warning about the 12 in GFCI residential exception noted as a separate case.",
+      "related_ids": [
+        "L-061",
+        "O-04",
+        "C3-300.5",
+        "C3-L-033"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-ART-338",
+      "next_id": "C3-ART-342",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-342",
+      "article": "342",
+      "section": "342",
+      "title": "Intermediate metal conduit — IMC",
+      "plain_explanation": "IMC is the middle-weight steel raceway: thinner wall than rigid metal conduit, heavier and stronger than EMT, threaded like RMC and usable in most of the same places, including many wet and exposed locations with the right fittings. Sharma meets it mainly on commercial and service work where EMT is not tough enough and full rigid is not needed.",
+      "on_the_job": "One trade size note that matters in the field: IMC and RMC share the same outside dimensions, so their fill comes from the same Chapter 9 family — link to Chapter 9, do not re-derive it here.",
+      "sharma_note": "",
+      "figure_idea": "Three short raceway stubs side by side — EMT, IMC, RMC — wall thickness shown in cross-section.",
+      "related_ids": [
+        "Ch9-T4",
+        "C3-L-034"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-340",
+      "next_id": "C3-ART-344",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-344",
+      "article": "344",
+      "section": "344",
+      "title": "Rigid metal conduit — RMC",
+      "plain_explanation": "RMC is the heavy-wall threaded steel raceway — the toughest common raceway in this chapter. It may be used in nearly every location, including underground (where its shallow 6 in cover in Table 300.5 is the payoff for its strength), wet locations, and places subject to physical damage, with fittings and supports made for it. Underground, corrosion protection and the soil conditions govern how long it lasts.",
+      "on_the_job": "The 6 in burial depth is why RMC still earns its cost under driveways and in shallow-rock trenches where PVC would need 18 in you do not have.",
+      "sharma_note": "",
+      "figure_idea": "Driveway cross-section: RMC at 6 in under the slab edge beside a PVC run drawn at 18 in in open yard.",
+      "related_ids": [
+        "L-061",
+        "Ch9-T4",
+        "C3-L-035"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-ART-342",
+      "next_id": "C3-ART-348",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-348",
+      "article": "348",
+      "section": "348",
+      "title": "Flexible metal conduit — FMC ('Greenfield')",
+      "plain_explanation": "FMC is a flexible spiral metal raceway used for short, bendy final connections — inside equipment, across a vibration gap, or fished where a rigid method cannot go. It is not a wet-location method in its basic form (that is LFMC, Article 350), it needs fittings listed for it, and when it is used as the ground path its length and overcurrent limits are restricted — on Sharma work, pull a green ground and do not rely on the spiral.",
+      "on_the_job": "Keep FMC whips short and supported, bond with a real conductor, and switch to LFMC the moment the location is wet or outdoors.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-L-036"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-344",
+      "next_id": "C3-ART-350",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-350",
+      "article": "350",
+      "section": "350",
+      "title": "Liquidtight flexible metal conduit — LFMC",
+      "plain_explanation": "LFMC is FMC with a liquidtight plastic jacket over the metal core — the flexible method for wet locations, outdoors, and vibrating equipment. On Sharma work this is the condenser whip: LFMC from the disconnect to the outdoor unit, with listed liquidtight fittings, supported close to each end, and a separate equipment ground inside.",
+      "on_the_job": "The whip is not the support for the disconnect and the disconnect is not the support for the whip — strap both, keep the whip off the ground where it will be weed-eaten, and seal the outdoor end with the listed fitting, hand-tight plus the manufacturer's turn, not channel-locks.",
+      "sharma_note": "",
+      "figure_idea": "Condenser pad detail: disconnect on the wall, LFMC whip looping down to the unit with support straps marked.",
+      "related_ids": [
+        "C3-L-037"
+      ],
+      "florida_note": "210.8(F) GFCI enforcement on outdoor HVAC outlets has varied by AHJ and amendment — see the Chapter 2 note; confirm locally before choosing the condenser breaker.",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-348",
+      "next_id": "C3-ART-352",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-352",
+      "article": "352",
+      "section": "352",
+      "title": "Rigid polyvinyl chloride conduit — PVC",
+      "plain_explanation": "PVC is the nonmetallic rigid raceway Sharma uses underground and in wet and corrosive spots: services and feeders in the yard, pool-area runs, and sleeves. Schedule 40 is the standard wall; Schedule 80 is the heavier wall used where the run is exposed to physical damage. PVC may not be used where ambient or conductor heat will exceed its temperature rating, in the hazardous and theater-type locations its article bars, or as a support for fixtures and equipment hanging off it. Underground cover for PVC is 18 in in the general Table 300.5 case. Two field behaviors define the method: it expands and contracts a lot with temperature, and its joints are solvent-welded, not threaded (except at listed threaded fittings and adapters). PVC is nonmetallic, so the raceway itself is never the ground path — an equipment grounding conductor goes in the run where one is required.",
+      "on_the_job": "Expansion is the inspection item apprentices forget: a long straight run in Florida sun moves. Where the expected length change reaches 1/4 in, an expansion fitting belongs in the run — the exact trigger and the movement math are flagged for Mike's check in the companion lookup, and the support spacings come from this article's support table, not from habit.",
+      "sharma_note": "",
+      "figure_idea": "Long PVC run down a block wall with an expansion fitting mid-run, sun arrows on the wall, and a support strap spacing callout.",
+      "related_ids": [
+        "L-061",
+        "Ch9-T4",
+        "C3-L-038",
+        "C3-L-039",
+        "C3-L-040"
+      ],
+      "florida_note": "Florida sun on an exposed PVC riser is the textbook expansion case — check every long south- and west-wall run.",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-350",
+      "next_id": "C3-ART-353",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-353",
+      "article": "353",
+      "section": "353",
+      "title": "High-density polyethylene conduit — Type HDPE",
+      "plain_explanation": "HDPE conduit is the coiled, flexible nonmetallic raceway used mainly for long underground runs — directional-bored and trenched duct for utilities, site feeders and communications — joined by fusion or listed couplings rather than solvent cement. Its strength is the continuous long run with no joints in the bore.",
+      "on_the_job": "Sharma meets HDPE most often as the duct the utility or site contractor provides. Confirm what is actually in the duct and who owns it before planning a pull through it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-352",
+      "next_id": "C3-ART-354",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-354",
+      "article": "354",
+      "section": "354",
+      "title": "Nonmetallic underground conduit with conductors — Type NUCC",
+      "plain_explanation": "NUCC is a factory assembly: conductors already installed inside a nonmetallic underground conduit, supplied and installed as one listed system for direct burial work. Because it arrives as a system, its fittings, splices and repairs follow its own article and listing — it is not field-pulled PVC with a head start.",
+      "on_the_job": "Rare on Sharma work. Treat any NUCC found underground as a system to be identified before it is cut or extended.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-353",
+      "next_id": "C3-ART-355",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-355",
+      "article": "355",
+      "section": "355",
+      "title": "Reinforced thermosetting resin conduit — Type RTRC",
+      "plain_explanation": "RTRC is a fiberglass-reinforced resin raceway chosen where corrosion resistance and strength matter and metal raceways would rot or are barred — chemical, wastewater and harsh outdoor industrial environments. It is joined with its own fittings and adhesives and supported on its own article's spacings, which are not PVC's spacings.",
+      "on_the_job": "Specialized work only. If a corrosive-environment job specifies RTRC, its support table and joining instructions come with the material — get them before the run is laid out.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-354",
+      "next_id": "C3-ART-356",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-356",
+      "article": "356",
+      "section": "356",
+      "title": "Liquidtight flexible nonmetallic conduit — LFNC",
+      "plain_explanation": "LFNC is the all-plastic liquidtight flexible raceway — no metal core — used for short flexible connections in wet and outdoor locations where a nonmetallic method is wanted, including many pool and equipment connections. It comes in listed types with different fittings and limits, has a maximum supported length pattern similar to other flex methods, and may not be used where subject to physical damage or beyond its temperature and listing limits.",
+      "on_the_job": "On pool and outdoor equipment, confirm the specific LFNC type and its fittings are listed for the location before it goes on the truck — 'liquidtight' on the box is a listing claim, not a description.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-L-041"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-355",
+      "next_id": "C3-ART-358",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-358",
+      "article": "358",
+      "section": "358",
+      "title": "Electrical metallic tubing — EMT",
+      "plain_explanation": "EMT is the thin-wall steel raceway that carries most of Sharma's light-commercial work: unthreaded, joined with set-screw or compression couplings and connectors, bent on the job with a hand or mechanical bender. It may be used exposed or concealed, in wet locations with fittings listed for wet use and corrosion protection, in concrete and underground only with the supplementary protection its article requires, and it serves as its own equipment ground path when installed with listed fittings made up properly. It may not be used where subject to severe physical damage, for cinder-fill or the other barred uses its article lists, or threaded in the field like rigid conduit.",
+      "on_the_job": "EMT is a system, not a tube: tube + listed fittings + tight make-up = the raceway and the ground path in one. A loose set-screw coupling is a loose ground.",
+      "sharma_note": "S-01 on commercial EMT work: 20A minimum branch circuits, 12 AWG copper minimum.",
+      "figure_idea": "EMT run across a commercial ceiling with a bend, a compression coupling and a support strap, each tagged.",
+      "related_ids": [
+        "Ch9-T4",
+        "Ch9-T5",
+        "C3-L-042",
+        "C3-L-043",
+        "S-01"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "sharma_rule_ids": [
+        "S-01"
+      ],
+      "prev_id": "C3-ART-356",
+      "next_id": "C3-358.22",
+      "chapter": 3
+    },
+    {
+      "id": "C3-358.22",
+      "article": "358",
+      "section": "358.22",
+      "title": "How many conductors fit in EMT — the Chapter 9 handoff",
+      "plain_explanation": "This section does not carry its own fill numbers: the number of conductors in EMT is whatever Chapter 9 allows — Table 1 percentages (53% for one conductor, 31% for two, 40% for more than two, 60% for a nipple 24 in or shorter), Table 4 areas for the raceway, and Table 5 areas for the conductors. Worked example from the v1 Chapter 9 tables: 1/2 in EMT has a 40% area of 0.122 sq in; a 12 AWG THHN conductor occupies 0.0133 sq in; 0.122 / 0.0133 = 9.17, so nine 12 AWG THHN fit. Equipment grounds count toward fill.",
+      "on_the_job": "Do the area math, do not eyeball a stuffed pipe at trim time. When all conductors are the same size, Annex C gives the same answer as a shortcut — but the tables are the rule, Annex C is the shortcut.",
+      "sharma_note": "",
+      "figure_idea": "Calculation card: 0.122 ÷ 0.0133 = 9.17 → 9 conductors, with a 1/2 in EMT cross-section holding nine dots.",
+      "related_ids": [
+        "Ch9-T4",
+        "Ch9-T5",
+        "C3-Q-007",
+        "C3-Q-008"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C3-ART-358",
+      "next_id": "C3-358.24-26",
+      "chapter": 3
+    },
+    {
+      "id": "C3-358.24-26",
+      "article": "358",
+      "section": "358.24 / 358.26",
+      "title": "EMT bends — radius and the 360-degree rule",
+      "plain_explanation": "Bends in EMT have to be made so the tubing is not kinked or damaged and its inside diameter is not effectively reduced — factory and field bends follow the radius rules referenced for raceway bends, and offsets and saddles count toward the run's total bend. Between pull points, the total bend in one run may not exceed 360 degrees: four quarter bends, in any combination. A run that needs more than 360 degrees needs a pull point — a box or conduit body — not a stronger pull.",
+      "on_the_job": "Count bends on your fingers as you lay out: stub-up 90, offset 30+30, saddle 45 — you are at 195 before the run leaves the room. Plan the pull points while the ceiling is open.",
+      "sharma_note": "",
+      "figure_idea": "Run diagram with bend angles added in a running total: 90 + 30 + 30 + 45 = 195°, marked 'under 360 — OK'.",
+      "related_ids": [
+        "C3-L-044",
+        "C3-Q-009"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-358.22",
+      "next_id": "C3-358.30",
+      "chapter": 3
+    },
+    {
+      "id": "C3-358.30",
+      "article": "358",
+      "section": "358.30",
+      "title": "Securing and supporting EMT",
+      "plain_explanation": "EMT must be securely fastened within 3 ft of each outlet box, junction box, device box, cabinet, conduit body or other tubing termination, and supported at least every 10 ft. Where the structure does not permit fastening within that 3 ft at a termination, the section allows a longer unsecured length in the limited cases it describes — the common one being up to 5 ft at a termination where structural members do not permit the 3 ft fastening. Horizontal runs through framing members can count as supported by that framing.",
+      "on_the_job": "Strap rhythm in the field: strap at 3 ft from the box, then every 10 ft, and a strap on each side of a coupling run that wants to sag. If the tube moves when you pull wire, it was not supported.",
+      "sharma_note": "",
+      "figure_idea": "Ceiling run with straps dimensioned: 3 ft max from the box, 10 ft max between straps.",
+      "related_ids": [
+        "C3-L-045",
+        "C3-Q-010"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-358.24-26",
+      "next_id": "C3-358.42",
+      "chapter": 3
+    },
+    {
+      "id": "C3-358.42",
+      "article": "358",
+      "section": "358.42",
+      "title": "EMT couplings and connectors — tight, and listed for the location",
+      "plain_explanation": "EMT couplings and connectors must be made up tight so the raceway is mechanically continuous and electrically continuous as a ground path. In wet locations they must be of the type listed for wet use (compression type is the field standard), and in concrete or earth they must be concrete-tight. A standard set-screw fitting is a dry-location fitting unless it is listed otherwise.",
+      "on_the_job": "Match the fitting to the location on the purchase order, not at the truck: compression for wet and concrete, set-screw only where it stays dry.",
+      "sharma_note": "",
+      "figure_idea": "Two fittings side by side: set-screw marked 'dry', compression marked 'wet / concrete-tight'.",
+      "related_ids": [
+        "C3-L-046"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-358.30",
+      "next_id": "C3-ART-360",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-360",
+      "article": "360",
+      "section": "360",
+      "title": "Flexible metallic tubing — Type FMT",
+      "plain_explanation": "FMT is a small, flexible metallic tubing method for specific limited applications — not a general raceway and not the same thing as FMC (Article 348), despite the similar name and look. Its permitted uses are narrow and its size range is small.",
+      "on_the_job": "Name-check before use: FMT on a print is a specific listed method. Do not substitute FMC, EMT or LFMC for it by appearance.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-358.42",
+      "next_id": "C3-ART-362",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-362",
+      "article": "362",
+      "section": "362",
+      "title": "Electrical nonmetallic tubing — ENT ('smurf tube')",
+      "plain_explanation": "ENT is a pliable, corrugated nonmetallic raceway used concealed in walls, floors and ceilings, in slab on grade and in other locations its article allows — common on Sharma-adjacent work for low-voltage and island/concrete runs in houses, and as a sleeve where a future pull is wanted. It is not a general substitute for PVC conduit: its locations, support rules (commonly every 3 ft and within 3 ft of boxes, per its article) and temperature and damage limits are its own.",
+      "on_the_job": "Island receptacle in a slab house is the classic ENT case: stub it accurately, cap it, photograph it with measurements before the pour — a lost stub in concrete is a saw-cut later.",
+      "sharma_note": "",
+      "figure_idea": "Slab section with a corrugated ENT run to a kitchen island stub-up, tape measure to two walls in the photo callout.",
+      "related_ids": [
+        "C3-L-047"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-360",
+      "next_id": "C3-ART-366",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-366",
+      "article": "366",
+      "section": "366",
+      "title": "Auxiliary gutters",
+      "plain_explanation": "An auxiliary gutter is a sheet-metal enclosure hung at switchboards, panelboards and service equipment to give conductors room to enter, turn and distribute where the equipment's own wiring space runs out. It supplements the equipment — it is not a raceway run across a building, and its conductor fill and splicing room follow its own article.",
+      "on_the_job": "On larger services and multi-meter work, a gutter is what makes a clean, legal lineup possible. Size it for the conductors and their bending, like 312.6, before the gear is set.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-362",
+      "next_id": "C3-ART-368",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-368",
+      "article": "368",
+      "section": "368",
+      "title": "Busways",
+      "plain_explanation": "A busway is a factory-built distribution system: busbars in a metal housing, with plug-in units that tap power off along the run — the backbone distribution of larger commercial and industrial buildings. Sections are joined, supported and tapped as a listed system; overcurrent protection and grounding follow its article and the system design.",
+      "on_the_job": "Outside Sharma's ordinary scope, but common in the larger commercial spaces Sharma works in. Never open, move or tap a busway as if it were a big wireway — it is energized distribution equipment.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-366",
+      "next_id": "C3-ART-370",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-370",
+      "article": "370",
+      "section": "370",
+      "title": "Cablebus",
+      "plain_explanation": "Cablebus is an engineered power-distribution assembly: insulated conductors supported in a ventilated metal enclosure, built to a specific design for large feeders, typically between major equipment. It is designed and supplied as a system for that job, not assembled from shelf parts in the field.",
+      "on_the_job": "Industrial and large-commercial work only. Field changes to a cablebus run are engineering changes, not electrician improvisation.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-368",
+      "next_id": "C3-ART-372",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-372",
+      "article": "372",
+      "section": "372",
+      "title": "Cellular concrete floor raceways",
+      "plain_explanation": "This article covers raceways formed in cellular concrete floor systems in larger commercial buildings, where the floor structure itself contains the distribution cells and header ducts. Outlets are activated from the cells with system fittings.",
+      "on_the_job": "Encountered in existing commercial buildings, not new Sharma construction. Identifying the floor system correctly is the whole job before any outlet work.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-370",
+      "next_id": "C3-ART-374",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-374",
+      "article": "374",
+      "section": "374",
+      "title": "Cellular metal floor raceways",
+      "plain_explanation": "The metal counterpart to Article 372: raceways formed by the cells of a cellular steel floor deck in commercial construction, with header ducts and system outlet fittings. Bonding and continuity of the metal system are part of its article.",
+      "on_the_job": "Existing-building work. As with 372, the system has to be identified before it is extended or abandoned in place.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-372",
+      "next_id": "C3-ART-376",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-376",
+      "article": "376",
+      "section": "376",
+      "title": "Metal wireways",
+      "plain_explanation": "A wireway is a sheet-metal trough with a hinged or removable cover, used in light commercial work to carry feeders and branch circuits where conductors need to be laid in and remain accessible along a run — above panels, along shop walls, in electrical rooms. Conductors are limited by fill and by the number of current-carrying conductors before adjustment applies, splices and taps are allowed inside where the wireway stays accessible, and the cover is what makes the system legal: no cover, no wireway.",
+      "on_the_job": "Wireway is the tidy alternative to a forest of parallel conduits leaving a panel — plan its size for the conductors plus their derating, not just their bulk.",
+      "sharma_note": "",
+      "figure_idea": "Electrical room wall: panel with a wireway trough above it, conduits dropping out of the bottom of the trough.",
+      "related_ids": [
+        "C3-L-048"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-374",
+      "next_id": "C3-ART-378",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-378",
+      "article": "378",
+      "section": "378",
+      "title": "Nonmetallic wireways",
+      "plain_explanation": "The nonmetallic counterpart to Article 376's metal wireways: a trough with a removable cover for laying in conductors, used where a nonmetallic system is wanted, within the locations and limits its article sets. Fill, splices and support follow the same wireway logic in a plastic system.",
+      "on_the_job": "Use where corrosion makes metal wireway a poor choice and the location is permitted. The cover still makes the system — no cover, no wireway.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-376",
+      "next_id": "C3-ART-380",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-380",
+      "article": "380",
+      "section": "380",
+      "title": "Multioutlet assemblies",
+      "plain_explanation": "A multioutlet assembly is a factory raceway strip with receptacles built in at regular spacing — the plug strip over a workbench or lab counter, in metal or nonmetallic form. It is a surface wiring method for dry locations, not a way to dodge receptacle spacing rules in a dwelling, and it may not be run through walls or in the barred locations its article lists.",
+      "on_the_job": "Use it where it belongs — benches, counters, retail and lab work — and count its load like any receptacle run; the strip does not create capacity, it only distributes outlets.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C3-L-049"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-378",
+      "next_id": "C3-ART-382",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-382",
+      "article": "382",
+      "section": "382",
+      "title": "Nonmetallic extensions",
+      "plain_explanation": "Nonmetallic extensions are listed surface extension wiring systems that start from an existing outlet to serve additional outlets along a wall surface — a narrow, specific method with its own fittings and limits, not a license to surface-run ordinary cable. They are barred in many of the places people first think of using them.",
+      "on_the_job": "Rarely the right answer on Sharma work; a proper raceway (386/388) or a new circuit is usually both legal and better. Know the article mainly to recognize the method.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-380",
+      "next_id": "C3-ART-384",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-384",
+      "article": "384",
+      "section": "384",
+      "title": "Strut-type channel raceway",
+      "plain_explanation": "A strut-type channel raceway is a listed wiring system built on metal strut channel with covers and fittings made for electrical use — the channel is the raceway. Ordinary structural strut by itself is a support, not a raceway; the listed covers, fittings and conductor limits of this article are what turn it into one.",
+      "on_the_job": "Common confusion on commercial jobs: strut holding conduits is support work; strut carrying conductors inside it is this article. Keep the two apart in the takeoff and the inspection conversation.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-382",
+      "next_id": "C3-ART-386",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-386",
+      "article": "386",
+      "section": "386",
+      "title": "Surface metal raceways",
+      "plain_explanation": "Surface metal raceway is the low-profile metal channel system mounted on walls and ceilings in finished spaces — the office and retail retrofit standard — carrying branch circuits to surface boxes and devices made for the system. Fill, fittings and grounding are the system's own; it is a raceway, not a decorative cover for loose cable.",
+      "on_the_job": "The retrofit answer where walls cannot open. Plan device boxes and fittings from the same system — mixing ordinary boxes defeats the listing.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-384",
+      "next_id": "C3-ART-388",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-388",
+      "article": "388",
+      "section": "388",
+      "title": "Surface nonmetallic raceways",
+      "plain_explanation": "The nonmetallic counterpart to Article 386: surface-mounted plastic raceway systems for finished spaces, common for both power and low-voltage in offices and homes. Power and communications sharing one system is allowed only where the system is listed and arranged for it.",
+      "on_the_job": "Neat retrofit work, within its damage and location limits — it is surface wiring, so it lives where people and furniture can reach it. Protect or re-route accordingly.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-386",
+      "next_id": "C3-ART-390",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-390",
+      "article": "390",
+      "section": "390",
+      "title": "Underfloor raceways",
+      "plain_explanation": "Underfloor raceways are distribution ducts set in or under a concrete floor — the older office-building system of floor ducts and junction boxes feeding floor outlets. New work is uncommon; existing systems are met on commercial remodels, where inserts and outlets must match the system.",
+      "on_the_job": "On a remodel, find the junction boxes before promising floor outlets. An abandoned duct with no access is archaeology, not distribution.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-388",
+      "next_id": "C3-ART-392",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-392",
+      "article": "392",
+      "section": "392",
+      "title": "Cable tray systems",
+      "plain_explanation": "Cable tray is a support system, not a raceway: an open ladder, ventilated or solid-bottom structure that carries listed cables — including tray-rated Type TC and the other cable types this article permits — across warehouses, industrial and larger commercial spaces. Only cables listed for tray use may be installed in it, the tray itself must be bonded and grounded as the article requires, and fill is figured by the cable-area and diameter rules of this article, not by Chapter 9 conduit tables.",
+      "on_the_job": "If Sharma reaches for tray on a light-commercial job, the cable choice changes first (tray-rated cable), then the tray size. Do not lay NM or ordinary building wire in tray and call it supported.",
+      "sharma_note": "",
+      "figure_idea": "Warehouse bay with a ladder tray carrying bundled tray cable above a conduit drop to a disconnect.",
+      "related_ids": [
+        "C3-L-050"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "First-pass page from builder knowledge / chapter brief; Mike to confirm section wording against the printed NEC 2020 before merge.",
+      "prev_id": "C3-ART-390",
+      "next_id": "C3-ART-393",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-393",
+      "article": "393",
+      "section": "393",
+      "title": "Low-voltage suspended ceiling power distribution systems",
+      "plain_explanation": "This article covers listed low-voltage power systems that use the suspended ceiling structure to distribute power to ceiling-supported equipment — a specific engineered system, not permission to treat ceiling grid as a raceway or support. Components, connections and loads are the system's own.",
+      "on_the_job": "Specialized commercial systems only. Ordinary ceiling work stays under 300.11 and 300.22 — this article does not loosen either.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-392",
+      "next_id": "C3-ART-394",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-394",
+      "article": "394",
+      "section": "394",
+      "title": "Concealed knob-and-tube wiring",
+      "plain_explanation": "Knob-and-tube is the oldest method in the chapter: single conductors run open on porcelain knobs and through porcelain tubes, found in older Florida houses. This article governs its (very limited) permitted extensions and uses today; new knob-and-tube installations are effectively a closed door, and insulation contact with it is a known fire concern that other codes also address.",
+      "on_the_job": "On remodels in older houses, Sharma practice is identification and safe handling: document it, do not bury it in new insulation or extend it casually, and put replacement options in front of the customer.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-393",
+      "next_id": "C3-ART-396",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-396",
+      "article": "396",
+      "section": "396",
+      "title": "Messenger-supported wiring",
+      "plain_explanation": "Messenger-supported wiring carries cables or conductors on a steel messenger strand strung between structures — overhead spans to outbuildings, site lighting and similar runs, using cable assemblies listed for the method. The messenger carries the load; the electrical cable is not its own support.",
+      "on_the_job": "Overhead spans live outdoors and age outdoors: check the strand, attachments and clearances as one system at every service call.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-394",
+      "next_id": "C3-ART-398",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-398",
+      "article": "398",
+      "section": "398",
+      "title": "Open wiring on insulators",
+      "plain_explanation": "Open wiring on insulators — individual conductors run exposed on insulators with set separations — is a legacy and specialized method (agricultural and industrial settings are its remaining home), governed by its own clearances and protection rules. It is not a shortcut version of knob-and-tube and not a method for new house work.",
+      "on_the_job": "Know it to recognize it. New Sharma work does not start here.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-396",
+      "next_id": "C3-ART-399",
+      "chapter": 3
+    },
+    {
+      "id": "C3-ART-399",
+      "article": "399",
+      "section": "399",
+      "title": "Outdoor overhead conductors over 1,000 volts",
+      "plain_explanation": "The chapter's last article covers outdoor overhead conductors operating over 1,000 volts — utility-side and engineered distribution territory: clearances, supports and construction for overhead medium-voltage lines. (Note the number: in the 2020 NEC this article is 399, not 395 — the research draft's body text used 395 before its own index corrected it.)",
+      "on_the_job": "Not Sharma field work. Its page exists so the book ends where the printed chapter ends, with the right number on it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "Article number and title confirmed against a reproduction of the printed 2020 NEC contents during the Ch.3 research reconciliation, 2026-11-11; first-pass intro only — Mike to confirm before any section pages are added.",
+      "prev_id": "C3-ART-398",
+      "next_id": null,
+      "chapter": 3
+    }
+  ],
+  "toc": [
+    {
+      "id": "C3-ART-300",
+      "article": "300",
+      "title": "Wiring methods — general rules",
+      "children": [
+        {
+          "id": "C3-300.4",
+          "section": "300.4",
+          "title": "Protecting wiring from physical damage"
+        },
+        {
+          "id": "C3-300.4(A)(1)",
+          "section": "300.4(A)(1)",
+          "title": "Bored holes in wood framing"
+        },
+        {
+          "id": "C3-300.4(G)",
+          "section": "300.4(G)",
+          "title": "Protecting large conductors where they enter enclosures"
+        },
+        {
+          "id": "C3-300.5",
+          "section": "300.5",
+          "title": "Underground wiring — cover, protection and sealing"
+        },
+        {
+          "id": "C3-300.11",
+          "section": "300.11",
+          "title": "Securing and supporting — general"
+        },
+        {
+          "id": "C3-300.14",
+          "section": "300.14",
+          "title": "Free conductor length at boxes"
+        },
+        {
+          "id": "C3-300.15",
+          "section": "300.15",
+          "title": "A box or fitting at each splice, outlet and junction"
+        },
+        {
+          "id": "C3-300.21",
+          "section": "300.21",
+          "title": "Firestopping penetrations of rated construction"
+        },
+        {
+          "id": "C3-300.22",
+          "section": "300.22",
+          "title": "Wiring in ducts, plenums and other air-handling spaces"
+        },
+        {
+          "id": "C3-300.25",
+          "section": "300.25",
+          "title": "Wiring in exit enclosures"
+        }
+      ]
+    },
+    {
+      "id": "C3-ART-310",
+      "article": "310",
+      "title": "Conductors for general wiring",
+      "children": [
+        {
+          "id": "C3-310.12",
+          "section": "310.12",
+          "title": "The dwelling 83% rule for services and whole-load feeders"
+        },
+        {
+          "id": "C3-310.15",
+          "section": "310.15",
+          "title": "Ampacity correction (temperature) and adjustment (bundling)"
+        },
+        {
+          "id": "C3-310.16",
+          "section": "310.16",
+          "title": "Table 310.16 — how to read the ampacity table"
+        },
+        {
+          "id": "C3-310.16-CCA",
+          "section": "310.16 / 310.3",
+          "title": "CCA in every calculation — ampacity, voltage drop, fill, terminations, sizing"
+        }
+      ]
+    },
+    {
+      "id": "C3-ART-311",
+      "article": "311",
+      "title": "Medium-voltage conductors and cable",
+      "children": []
+    },
+    {
+      "id": "C3-ART-312",
+      "article": "312",
+      "title": "Cabinets, cutout boxes and meter socket enclosures",
+      "children": [
+        {
+          "id": "C3-312.6",
+          "section": "312.6",
+          "title": "Conductor bending and deflection space in enclosures"
+        },
+        {
+          "id": "C3-312.8",
+          "section": "312.8",
+          "title": "What may live inside an enclosure for switches and overcurrent devices"
+        }
+      ]
+    },
+    {
+      "id": "C3-ART-314",
+      "article": "314",
+      "title": "Outlet, device, pull and junction boxes",
+      "children": [
+        {
+          "id": "C3-314.16",
+          "section": "314.16",
+          "title": "Box fill — volume, allowances and counting"
+        },
+        {
+          "id": "C3-314.16(B)",
+          "section": "314.16(B)",
+          "title": "The five counting rules, one by one"
+        },
+        {
+          "id": "C3-314.17",
+          "section": "314.17",
+          "title": "Conductors and cables entering boxes"
+        },
+        {
+          "id": "C3-314.20",
+          "section": "314.20",
+          "title": "How a box sits in a wall or ceiling"
+        },
+        {
+          "id": "C3-314.21",
+          "section": "314.21",
+          "title": "Repairing the surface around a box"
+        },
+        {
+          "id": "C3-314.23",
+          "section": "314.23",
+          "title": "Supporting boxes"
+        },
+        {
+          "id": "C3-314.27(C)",
+          "section": "314.27(C)",
+          "title": "Boxes at ceiling-fan outlets"
+        },
+        {
+          "id": "C3-314.28",
+          "section": "314.28",
+          "title": "Pull and junction boxes for conductors 4 AWG and larger"
+        },
+        {
+          "id": "C3-314.29",
+          "section": "314.29",
+          "title": "Boxes must stay accessible"
+        }
+      ]
+    },
+    {
+      "id": "C3-ART-320",
+      "article": "320",
+      "title": "Armored cable — Type AC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-322",
+      "article": "322",
+      "title": "Flat cable assemblies — Type FC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-324",
+      "article": "324",
+      "title": "Flat conductor cable — Type FCC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-326",
+      "article": "326",
+      "title": "Integrated gas spacer cable — Type IGS",
+      "children": []
+    },
+    {
+      "id": "C3-ART-330",
+      "article": "330",
+      "title": "Metal-clad cable — Type MC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-332",
+      "article": "332",
+      "title": "Mineral-insulated, metal-sheathed cable — Type MI",
+      "children": []
+    },
+    {
+      "id": "C3-ART-334",
+      "article": "334",
+      "title": "Nonmetallic-sheathed cable — Types NM, NMC, NMS (Romex)",
+      "children": [
+        {
+          "id": "C3-334.10",
+          "section": "334.10",
+          "title": "Where NM may be used"
+        },
+        {
+          "id": "C3-334.12",
+          "section": "334.12",
+          "title": "Where NM may not be used"
+        },
+        {
+          "id": "C3-334.15",
+          "section": "334.15",
+          "title": "NM in exposed work and through framing"
+        },
+        {
+          "id": "C3-334.23",
+          "section": "334.23",
+          "title": "NM in accessible attics — the scuttle rule"
+        },
+        {
+          "id": "C3-334.24",
+          "section": "334.24",
+          "title": "Bending radius of NM cable"
+        },
+        {
+          "id": "C3-334.30",
+          "section": "334.30",
+          "title": "Securing and supporting NM"
+        },
+        {
+          "id": "C3-334.80",
+          "section": "334.80",
+          "title": "Ampacity of NM cable — the 60°C limit"
+        }
+      ]
+    },
+    {
+      "id": "C3-ART-336",
+      "article": "336",
+      "title": "Power and control tray cable — Type TC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-337",
+      "article": "337",
+      "title": "Type P cable",
+      "children": []
+    },
+    {
+      "id": "C3-ART-338",
+      "article": "338",
+      "title": "Service-entrance cable — Types SE and USE",
+      "children": []
+    },
+    {
+      "id": "C3-ART-340",
+      "article": "340",
+      "title": "Underground feeder cable — Type UF",
+      "children": []
+    },
+    {
+      "id": "C3-ART-342",
+      "article": "342",
+      "title": "Intermediate metal conduit — IMC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-344",
+      "article": "344",
+      "title": "Rigid metal conduit — RMC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-348",
+      "article": "348",
+      "title": "Flexible metal conduit — FMC ('Greenfield')",
+      "children": []
+    },
+    {
+      "id": "C3-ART-350",
+      "article": "350",
+      "title": "Liquidtight flexible metal conduit — LFMC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-352",
+      "article": "352",
+      "title": "Rigid polyvinyl chloride conduit — PVC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-353",
+      "article": "353",
+      "title": "High-density polyethylene conduit — Type HDPE",
+      "children": []
+    },
+    {
+      "id": "C3-ART-354",
+      "article": "354",
+      "title": "Nonmetallic underground conduit with conductors — Type NUCC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-355",
+      "article": "355",
+      "title": "Reinforced thermosetting resin conduit — Type RTRC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-356",
+      "article": "356",
+      "title": "Liquidtight flexible nonmetallic conduit — LFNC",
+      "children": []
+    },
+    {
+      "id": "C3-ART-358",
+      "article": "358",
+      "title": "Electrical metallic tubing — EMT",
+      "children": [
+        {
+          "id": "C3-358.22",
+          "section": "358.22",
+          "title": "How many conductors fit in EMT — the Chapter 9 handoff"
+        },
+        {
+          "id": "C3-358.24-26",
+          "section": "358.24 / 358.26",
+          "title": "EMT bends — radius and the 360-degree rule"
+        },
+        {
+          "id": "C3-358.30",
+          "section": "358.30",
+          "title": "Securing and supporting EMT"
+        },
+        {
+          "id": "C3-358.42",
+          "section": "358.42",
+          "title": "EMT couplings and connectors — tight, and listed for the location"
+        }
+      ]
+    },
+    {
+      "id": "C3-ART-360",
+      "article": "360",
+      "title": "Flexible metallic tubing — Type FMT",
+      "children": []
+    },
+    {
+      "id": "C3-ART-362",
+      "article": "362",
+      "title": "Electrical nonmetallic tubing — ENT ('smurf tube')",
+      "children": []
+    },
+    {
+      "id": "C3-ART-366",
+      "article": "366",
+      "title": "Auxiliary gutters",
+      "children": []
+    },
+    {
+      "id": "C3-ART-368",
+      "article": "368",
+      "title": "Busways",
+      "children": []
+    },
+    {
+      "id": "C3-ART-370",
+      "article": "370",
+      "title": "Cablebus",
+      "children": []
+    },
+    {
+      "id": "C3-ART-372",
+      "article": "372",
+      "title": "Cellular concrete floor raceways",
+      "children": []
+    },
+    {
+      "id": "C3-ART-374",
+      "article": "374",
+      "title": "Cellular metal floor raceways",
+      "children": []
+    },
+    {
+      "id": "C3-ART-376",
+      "article": "376",
+      "title": "Metal wireways",
+      "children": []
+    },
+    {
+      "id": "C3-ART-378",
+      "article": "378",
+      "title": "Nonmetallic wireways",
+      "children": []
+    },
+    {
+      "id": "C3-ART-380",
+      "article": "380",
+      "title": "Multioutlet assemblies",
+      "children": []
+    },
+    {
+      "id": "C3-ART-382",
+      "article": "382",
+      "title": "Nonmetallic extensions",
+      "children": []
+    },
+    {
+      "id": "C3-ART-384",
+      "article": "384",
+      "title": "Strut-type channel raceway",
+      "children": []
+    },
+    {
+      "id": "C3-ART-386",
+      "article": "386",
+      "title": "Surface metal raceways",
+      "children": []
+    },
+    {
+      "id": "C3-ART-388",
+      "article": "388",
+      "title": "Surface nonmetallic raceways",
+      "children": []
+    },
+    {
+      "id": "C3-ART-390",
+      "article": "390",
+      "title": "Underfloor raceways",
+      "children": []
+    },
+    {
+      "id": "C3-ART-392",
+      "article": "392",
+      "title": "Cable tray systems",
+      "children": []
+    },
+    {
+      "id": "C3-ART-393",
+      "article": "393",
+      "title": "Low-voltage suspended ceiling power distribution systems",
+      "children": []
+    },
+    {
+      "id": "C3-ART-394",
+      "article": "394",
+      "title": "Concealed knob-and-tube wiring",
+      "children": []
+    },
+    {
+      "id": "C3-ART-396",
+      "article": "396",
+      "title": "Messenger-supported wiring",
+      "children": []
+    },
+    {
+      "id": "C3-ART-398",
+      "article": "398",
+      "title": "Open wiring on insulators",
+      "children": []
+    },
+    {
+      "id": "C3-ART-399",
+      "article": "399",
+      "title": "Outdoor overhead conductors over 1,000 volts",
+      "children": []
+    }
+  ],
+  "index": [
+    {
+      "term": "83% rule, dwelling service/feeder",
+      "ids": [
+        "C3-310.12"
+      ]
+    },
+    {
+      "term": "AC cable, attic cross-reference",
+      "ids": [
+        "C3-ART-320",
+        "C3-334.23"
+      ]
+    },
+    {
+      "term": "Ampacity table, how to read",
+      "ids": [
+        "C3-310.16"
+      ]
+    },
+    {
+      "term": "Ampacity, adjustment (bundling)",
+      "ids": [
+        "C3-310.15"
+      ]
+    },
+    {
+      "term": "Ampacity, correction (ambient temperature)",
+      "ids": [
+        "C3-310.15"
+      ]
+    },
+    {
+      "term": "Ampacity, NM cable 60°C limit",
+      "ids": [
+        "C3-334.80"
+      ]
+    },
+    {
+      "term": "Attic, NM near scuttle (Sharma rule)",
+      "ids": [
+        "C3-334.23"
+      ]
+    },
+    {
+      "term": "Bends, EMT — 360 degrees",
+      "ids": [
+        "C3-358.24-26"
+      ]
+    },
+    {
+      "term": "Bored holes, 1-1/4 in setback",
+      "ids": [
+        "C3-300.4",
+        "C3-300.4(A)(1)"
+      ]
+    },
+    {
+      "term": "Box fill, counting rules",
+      "ids": [
+        "C3-314.16",
+        "C3-314.16(B)"
+      ]
+    },
+    {
+      "term": "Box fill, volume tables",
+      "ids": [
+        "C3-314.16"
+      ]
+    },
+    {
+      "term": "Box setback in wall",
+      "ids": [
+        "C3-314.20"
+      ]
+    },
+    {
+      "term": "Box, accessible",
+      "ids": [
+        "C3-314.29"
+      ]
+    },
+    {
+      "term": "Box, fan-rated",
+      "ids": [
+        "C3-314.27(C)"
+      ]
+    },
+    {
+      "term": "Burial depth / cover, underground",
+      "ids": [
+        "C3-300.5",
+        "C3-ART-340",
+        "C3-ART-344"
+      ]
+    },
+    {
+      "term": "Busways",
+      "ids": [
+        "C3-ART-368"
+      ]
+    },
+    {
+      "term": "Cabinets and meter enclosures",
+      "ids": [
+        "C3-ART-312"
+      ]
+    },
+    {
+      "term": "Cable tray",
+      "ids": [
+        "C3-ART-392"
+      ]
+    },
+    {
+      "term": "Cablebus",
+      "ids": [
+        "C3-ART-370"
+      ]
+    },
+    {
+      "term": "CCA in calculations (ampacity, voltage drop, fill, sizing)",
+      "ids": [
+        "C3-310.16-CCA"
+      ]
+    },
+    {
+      "term": "CCA, aluminum column",
+      "ids": [
+        "C3-310.16",
+        "C3-334.80"
+      ]
+    },
+    {
+      "term": "CCA, one size up (S-10)",
+      "ids": [
+        "C3-310.16"
+      ]
+    },
+    {
+      "term": "Conductor length, free — 6 in / 3 in",
+      "ids": [
+        "C3-300.14"
+      ]
+    },
+    {
+      "term": "EMT, conductor fill (Chapter 9 handoff)",
+      "ids": [
+        "C3-358.22"
+      ]
+    },
+    {
+      "term": "EMT, couplings — wet / concrete-tight",
+      "ids": [
+        "C3-358.42"
+      ]
+    },
+    {
+      "term": "EMT, securing — 3 ft / 10 ft",
+      "ids": [
+        "C3-358.30"
+      ]
+    },
+    {
+      "term": "EMT, uses",
+      "ids": [
+        "C3-ART-358"
+      ]
+    },
+    {
+      "term": "ENT (smurf tube)",
+      "ids": [
+        "C3-ART-362"
+      ]
+    },
+    {
+      "term": "Exit enclosures, wiring in",
+      "ids": [
+        "C3-300.25"
+      ]
+    },
+    {
+      "term": "Fan box",
+      "ids": [
+        "C3-314.27(C)"
+      ]
+    },
+    {
+      "term": "Firestopping, rated penetrations",
+      "ids": [
+        "C3-300.21"
+      ]
+    },
+    {
+      "term": "FMC / LFMC, condenser whip",
+      "ids": [
+        "C3-ART-348",
+        "C3-ART-350"
+      ]
+    },
+    {
+      "term": "Grounds, box-fill count",
+      "ids": [
+        "C3-314.16(B)"
+      ]
+    },
+    {
+      "term": "Grounds, quarter allowance past four (2020)",
+      "ids": [
+        "C3-314.16(B)"
+      ]
+    },
+    {
+      "term": "HDPE conduit",
+      "ids": [
+        "C3-ART-353"
+      ]
+    },
+    {
+      "term": "IMC",
+      "ids": [
+        "C3-ART-342"
+      ]
+    },
+    {
+      "term": "Kick plates / nail plates",
+      "ids": [
+        "C3-300.4"
+      ]
+    },
+    {
+      "term": "Knob-and-tube wiring",
+      "ids": [
+        "C3-ART-394"
+      ]
+    },
+    {
+      "term": "MC cable",
+      "ids": [
+        "C3-ART-330"
+      ]
+    },
+    {
+      "term": "Medium-voltage conductors (Art. 311)",
+      "ids": [
+        "C3-ART-311"
+      ]
+    },
+    {
+      "term": "MI cable",
+      "ids": [
+        "C3-ART-332"
+      ]
+    },
+    {
+      "term": "Multioutlet assembly",
+      "ids": [
+        "C3-ART-380"
+      ]
+    },
+    {
+      "term": "NM, ampacity",
+      "ids": [
+        "C3-334.80"
+      ]
+    },
+    {
+      "term": "NM, securing — 12 in / 4-1/2 ft",
+      "ids": [
+        "C3-334.30"
+      ]
+    },
+    {
+      "term": "NM, sheath into box — 1/4 in",
+      "ids": [
+        "C3-314.17"
+      ]
+    },
+    {
+      "term": "NM, uses permitted / not permitted",
+      "ids": [
+        "C3-334.10",
+        "C3-334.12"
+      ]
+    },
+    {
+      "term": "Plenums and ducts, wiring in",
+      "ids": [
+        "C3-300.22"
+      ]
+    },
+    {
+      "term": "Pull box sizing, 4 AWG and larger (8x / 6x + sum)",
+      "ids": [
+        "C3-314.28"
+      ]
+    },
+    {
+      "term": "PVC conduit, expansion",
+      "ids": [
+        "C3-ART-352"
+      ]
+    },
+    {
+      "term": "RMC, 6 in cover",
+      "ids": [
+        "C3-ART-344",
+        "C3-300.5"
+      ]
+    },
+    {
+      "term": "RTRC conduit",
+      "ids": [
+        "C3-ART-355"
+      ]
+    },
+    {
+      "term": "SE cable",
+      "ids": [
+        "C3-ART-338"
+      ]
+    },
+    {
+      "term": "Tray cable, Type TC",
+      "ids": [
+        "C3-ART-336"
+      ]
+    },
+    {
+      "term": "Type P cable",
+      "ids": [
+        "C3-ART-337"
+      ]
+    },
+    {
+      "term": "UF cable, direct burial",
+      "ids": [
+        "C3-ART-340"
+      ]
+    },
+    {
+      "term": "Voltage drop — CCA resistance (no Table 8 row)",
+      "ids": [
+        "C3-310.16-CCA"
+      ]
+    },
+    {
+      "term": "Wireways, metal",
+      "ids": [
+        "C3-ART-376"
+      ]
+    },
+    {
+      "term": "Yoke, box-fill count (counts as two)",
+      "ids": [
+        "C3-314.16(B)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "C3-Q-001",
+    "article": "314",
+    "question": "Box fill: two 12/2 NM cables, one receptacle, and internal cable clamps go into a box marked 18.0 cu in. The required volume is:",
+    "choices": [
+      "15.75 cu in — passes",
+      "18.00 cu in — passes with nothing to spare",
+      "20.25 cu in — fails",
+      "22.50 cu in — fails"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Four insulated conductors + one allowance for all grounds + two for the yoke + one for all clamps = 8 allowances. 8 x 2.25 cu in (12 AWG) = 18.00 cu in, exactly the box volume.",
+    "nec_ref": "314.16(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-002",
+    "article": "314",
+    "question": "Box fill: three 14/2 NM cables and one single-pole switch, no internal clamps. The required volume is:",
+    "choices": [
+      "14.0 cu in",
+      "16.0 cu in",
+      "18.0 cu in",
+      "20.0 cu in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Six insulated conductors + one ground allowance + two for the switch yoke = 9 allowances. 9 x 2.00 cu in (14 AWG) = 18.0 cu in.",
+    "nec_ref": "314.16(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-003",
+    "article": "314",
+    "question": "A receptacle is connected with 12 AWG conductors. Its yoke allowance for box fill is:",
+    "choices": [
+      "2.25 cu in",
+      "3.50 cu in",
+      "4.50 cu in",
+      "6.75 cu in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "A device yoke counts as two conductors of the largest size connected to it. 2 x 2.25 cu in = 4.50 cu in.",
+    "nec_ref": "314.16(B)(4)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-004",
+    "article": "314",
+    "question": "Six equipment grounding conductors, all 12 AWG, enter one box. Their total box-fill allowance under NEC 2020 is:",
+    "choices": [
+      "2.25 cu in",
+      "2.81 cu in",
+      "3.38 cu in",
+      "4.50 cu in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "NEC 2020 changed this count in 314.16(B)(5): the first four grounds together take one allowance (2.25 cu in at 12 AWG), and each ground past four adds a quarter allowance. Two extra grounds add 2 x 0.25 x 2.25 = 1.13, for a total of 3.38 cu in. The old rule — any number of grounds counts once — is the 2017 rule and is wrong for Florida's 2020 code.",
+    "nec_ref": "314.16(B)(5)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-005",
+    "article": "310",
+    "question": "From Table 310.16, the 75°C ampacity of 8 AWG copper is:",
+    "choices": [
+      "40 A",
+      "50 A",
+      "55 A",
+      "65 A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Read the 8 AWG row across to the copper 75°C column: 50 A. The 55 A value is the 90°C column.",
+    "nec_ref": "310.16",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-006",
+    "article": "310",
+    "question": "A 10 AWG copper-clad aluminum conductor has a 75°C table ampacity of 30 A. The largest breaker allowed on it by the small-conductor rule is:",
+    "choices": [
+      "20 A",
+      "25 A",
+      "30 A",
+      "35 A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "240.4(D) caps aluminum and CCA at 25 A for 10 AWG, regardless of the higher table value. That cap is why S-10 puts 10 AWG CCA on a 20 A circuit, not a 30 A circuit.",
+    "nec_ref": "310.16",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-007",
+    "article": "358",
+    "question": "The 40% fill area of 1/2 in EMT (Chapter 9 Table 4) is:",
+    "choices": [
+      "0.304 sq in",
+      "0.182 sq in",
+      "0.122 sq in",
+      "0.061 sq in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "1/2 in EMT has 0.304 sq in total area; the column for over two conductors allows 40% of it, 0.122 sq in. 0.182 sq in is the 60% nipple value.",
+    "nec_ref": "358.22",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C3-Q-008",
+    "article": "358",
+    "question": "How many 12 AWG THHN conductors fit in 1/2 in EMT at 40% fill? (12 AWG THHN = 0.0133 sq in)",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "12"
+    ],
+    "answer_index": 2,
+    "explain_plain": "0.122 / 0.0133 = 9.17, so 9 conductors. This matches Annex C Table C.1 for the same combination.",
+    "nec_ref": "358.22",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-009",
+    "article": "358",
+    "question": "The maximum total bends between pull points in one EMT run is:",
+    "choices": [
+      "180 degrees",
+      "270 degrees",
+      "360 degrees",
+      "450 degrees"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Four quarter bends, in any combination of 90s, offsets and saddles. More than 360 degrees requires a pull point.",
+    "nec_ref": "358.26",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-010",
+    "article": "358",
+    "question": "EMT must be securely fastened within ___ of each box, and supported at least every ___.",
+    "choices": [
+      "12 in / 4-1/2 ft",
+      "3 ft / 10 ft",
+      "3 ft / 5 ft",
+      "18 in / 10 ft"
+    ],
+    "answer_index": 1,
+    "explain_plain": "358.30 sets fastening within 3 ft of each termination and support at intervals not exceeding 10 ft.",
+    "nec_ref": "358.30",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C3-Q-011",
+    "article": "310",
+    "question": "Using the 83% dwelling rule, the minimum aluminum service conductor for a 200 A house service is:",
+    "choices": [
+      "2/0",
+      "3/0",
+      "4/0",
+      "250 kcmil"
+    ],
+    "answer_index": 2,
+    "explain_plain": "310.12 / Table 310.12: a 200 A dwelling service is 2/0 copper or 4/0 aluminum when the rule applies and no correction or adjustment is needed.",
+    "nec_ref": "310.12",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-012",
+    "article": "310",
+    "question": "Seven current-carrying conductors in one raceway take an adjustment factor of:",
+    "choices": [
+      "80%",
+      "70%",
+      "60%",
+      "50%"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 310.15(C)(1): 4–6 conductors = 80%, 7–9 = 70%, 10–20 = 50%.",
+    "nec_ref": "310.15(C)(1)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-013",
+    "article": "310",
+    "question": "Six current-carrying 12 AWG THHN conductors (90°C ampacity 30 A) share one raceway. Their adjusted ampacity before the 240.4(D) cap is:",
+    "choices": [
+      "30 A",
+      "27 A",
+      "24 A",
+      "21 A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "30 A x 0.80 (six conductors) = 24 A. The breaker is still capped at 20 A by 240.4(D), but the adjusted ampacity itself is 24 A.",
+    "nec_ref": "310.15(C)(1)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-014",
+    "article": "334",
+    "question": "The final ampacity of 12 AWG NM cable may not exceed the 60°C column value, which is:",
+    "choices": [
+      "20 A",
+      "25 A",
+      "30 A",
+      "35 A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "334.80 limits NM to the 60°C column: 25 A for 12 AWG copper. The 20 A figure is the separate 240.4(D) breaker cap, not the cable ampacity.",
+    "nec_ref": "334.80",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-015",
+    "article": "300",
+    "question": "Where a bored hole cannot keep cable 1-1/4 in from the stud edge, the steel protective plate must be at least:",
+    "choices": [
+      "1/32 in thick",
+      "1/16 in thick",
+      "1/8 in thick",
+      "16 gauge, any thickness"
+    ],
+    "answer_index": 1,
+    "explain_plain": "300.4(A)(1) requires a steel plate not less than 1/16 in thick where the setback cannot be maintained.",
+    "nec_ref": "300.4(A)(1)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C3-Q-016",
+    "article": "300",
+    "question": "In a box whose opening is smaller than 8 in, free conductors must extend outside the opening by at least:",
+    "choices": [
+      "1 in",
+      "2 in",
+      "3 in",
+      "6 in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "300.14: at least 6 in of free conductor at the box, and at least 3 in extending outside a small opening. The two numbers answer two different measurements.",
+    "nec_ref": "300.14",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-017",
+    "article": "314",
+    "question": "The NM cable sheath must extend into the box at least:",
+    "choices": [
+      "Flush with the knockout",
+      "1/8 in",
+      "1/4 in",
+      "1 in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "314.17 as taught in L-065: the sheath extends at least 1/4 in inside the box, past any clamp.",
+    "nec_ref": "314.17",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C3-Q-018",
+    "article": "314",
+    "question": "A ceiling fan weighing 75 lb is to hang at a ceiling outlet. The correct support is:",
+    "choices": [
+      "Any fan-rated box",
+      "A box marked for 75 lb",
+      "Support independent of the box",
+      "A deep octagon box"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Fans over 70 lb must be supported independently of the outlet box. A box marked for the weight works only up to 70 lb.",
+    "nec_ref": "314.27(C)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-019",
+    "article": "300",
+    "question": "The general minimum cover for a rigid PVC conduit run underground is:",
+    "choices": [
+      "6 in",
+      "12 in",
+      "18 in",
+      "24 in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Table 300.5 general case: PVC conduit 18 in, direct-burial cable 24 in, rigid metal conduit 6 in.",
+    "nec_ref": "300.5",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-020",
+    "article": "300",
+    "question": "The general minimum cover for rigid metal conduit underground is:",
+    "choices": [
+      "6 in",
+      "12 in",
+      "18 in",
+      "24 in"
+    ],
+    "answer_index": 0,
+    "explain_plain": "RMC's strength buys the shallowest cover in the table: 6 in in the general case. Driveways and other locations are different rows.",
+    "nec_ref": "300.5",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C3-Q-021",
+    "article": "314",
+    "question": "From Table 314.16(A), a 4-11/16 in square box, 2-1/8 in deep, has a volume of:",
+    "choices": [
+      "29.5 cu in",
+      "30.3 cu in",
+      "42.0 cu in",
+      "21.0 cu in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "The 4-11/16 x 2-1/8 square box is the big one in the table at 42.0 cu in. 30.3 cu in is the 4 x 2-1/8 square.",
+    "nec_ref": "314.16(A)",
+    "difficulty": 2,
+    "exam": "master"
+  },
+  {
+    "id": "C3-Q-022",
+    "article": "314",
+    "question": "A device connected with 10 AWG conductors counts its yoke at:",
+    "choices": [
+      "2.50 cu in",
+      "4.00 cu in",
+      "5.00 cu in",
+      "7.50 cu in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Yoke = two allowances at the largest conductor on the device. 2 x 2.50 cu in (10 AWG) = 5.00 cu in.",
+    "nec_ref": "314.16(B)(4)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-023",
+    "article": "310",
+    "question": "Per Sharma rule S-10, the CCA size used on a 20 A branch circuit is:",
+    "choices": [
+      "12 AWG CCA",
+      "10 AWG CCA",
+      "8 AWG CCA",
+      "CCA is never used"
+    ],
+    "answer_index": 1,
+    "explain_plain": "CCA is rated in the aluminum column, so it goes one size up from copper: 12 AWG copper becomes 10 AWG CCA on a 20 A circuit. Terminations must be marked for the conductor and CU-only connectors are not rated for CCA.",
+    "nec_ref": "310.16",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-024",
+    "article": "358",
+    "question": "EMT enters a wet-location enclosure outdoors. The connector must be:",
+    "choices": [
+      "A standard set-screw connector",
+      "A connector listed for wet locations, made up tight",
+      "Any connector with a locknut",
+      "A threaded rigid coupling"
+    ],
+    "answer_index": 1,
+    "explain_plain": "358.42 requires couplings and connectors made up tight, and wet locations require the type listed for wet use — compression type is the field standard.",
+    "nec_ref": "358.42",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C3-Q-025",
+    "article": "310",
+    "question": "You need a voltage-drop figure for a 12 AWG CCA run. Chapter 9 Table 8:",
+    "choices": [
+      "Lists CCA between copper and aluminum",
+      "Has no CCA row — use the cable maker's or ASTM B566 resistivity data",
+      "Says to use the copper row for CCA",
+      "Says CCA may not be used on long runs"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 8 covers copper and aluminum. For CCA the app uses cited manufacturer / ASTM B566 class resistivity (15% class max 0.02676 ohm mm2/m), marked unverified until Mike confirms the dataset — never an invented value.",
+    "nec_ref": "310.16",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-026",
+    "article": "314",
+    "question": "A receptacle is wired with 10 AWG CCA. Its yoke allowance for box fill is:",
+    "choices": [
+      "4.50 cu in, because CCA counts extra",
+      "5.00 cu in — fill goes by size, not metal",
+      "2.50 cu in",
+      "6.00 cu in, CCA counts double"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Box fill is figured from conductor size and insulation only: a device yoke counts two allowances at the largest conductor on it, 2 x 2.50 cu in (10 AWG) = 5.00 cu in, identical for copper, aluminum and CCA.",
+    "nec_ref": "314.16(B)(4)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-027",
+    "article": "358",
+    "question": "Nine 12 AWG THHN copper conductors fit a 1/2 in EMT at 40% fill. How many 12 AWG THHN CCA conductors fit the same conduit?",
+    "choices": [
+      "7 — CCA is bigger",
+      "8 — one less for the cladding",
+      "9 — fill goes by size and insulation, not metal",
+      "12 — CCA is lighter"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Tables 4 and 5 measure the insulated conductor and the raceway; the metal inside the insulation is not a fill input. Same size, same insulation, same count: 9.",
+    "nec_ref": "358.22",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-028",
+    "article": "310",
+    "question": "Which connector may be used to splice CCA to copper?",
+    "choices": [
+      "Any wire nut — copper colour preferred",
+      "Only a connector marked AL/CU (or marked for CCA, such as CC / CC-CU)",
+      "A CU-only wire nut, if taped",
+      "Solder and tape"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Splice connectors for CCA must be listed and marked for it — AL/CU or a CCA marking such as CC / CC-CU. A CU-only marking is a copper-only listing and does not cover CCA (110.14).",
+    "nec_ref": "110.14",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C3-Q-029",
+    "article": "310",
+    "question": "A helper lands 12 AWG CCA in the push-in (backstab) holes of a receptacle. This is:",
+    "choices": [
+      "Fine — the holes are rated for it",
+      "Fine if the device is marked AL/CU",
+      "Never permitted — push-in terminals are 14 AWG solid copper only",
+      "Permitted on 15A circuits only"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Backstab terminals are listed for 14 AWG solid copper only — not CCA of any size, and not even 12 AWG copper. CCA lands on screw terminals (110.14 / S-10).",
+    "nec_ref": "110.14",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C3-Q-030",
+    "article": "310",
+    "question": "A 200 A single-phase dwelling service is run in CCA and carries the entire load. Using 310.12, the minimum size is:",
+    "choices": [
+      "2/0 CCA",
+      "3/0 CCA",
+      "4/0 CCA",
+      "250 kcmil CCA"
+    ],
+    "answer_index": 2,
+    "explain_plain": "CCA reads the aluminum column everywhere, including Table 310.12: a 200 A whole-load dwelling service is 2/0 copper or 4/0 aluminum/CCA.",
+    "nec_ref": "310.12",
+    "difficulty": 2,
+    "exam": "both"
+  }
+]

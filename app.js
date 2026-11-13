@@ -4,7 +4,7 @@
 "use strict";
 const $ = (s, el=document) => el.querySelector(s);
 const view = $("#view");
-let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null, book:null, bookLookup:null, bookQuiz:null, bookChecklists:null };
+let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null, book:null, bookLookup:null, bookQuiz:null, bookChecklists:null, bookSet:{} };
 const FALLBACK_TABLES = {"boxFillVolumePerConductor":{"18":2,"16":2.25,"14":2.25,"12":2.5,"10":2.5,"8":3,"6":5},"ampacity75C":{"copper":{"14":20,"12":25,"10":35,"8":50,"6":65,"4":85,"3":100,"2":115,"1":130,"1/0":150,"2/0":175,"3/0":200,"4/0":230},"aluminum":{"12":20,"10":30,"8":40,"6":50,"4":65,"3":75,"2":90,"1":100,"1/0":120,"2/0":135,"3/0":155,"4/0":180}},"smallConductorCaps":{"copper":{"14":15,"12":20,"10":30},"aluminum":{"12":15,"10":25}},"circularMils":{"14":4110,"12":6530,"10":10380,"8":16510,"6":26240,"4":41740,"3":52620,"2":66360,"1":83690,"1/0":105600,"2/0":133100,"3/0":167800,"4/0":211600},"conduitAreas40pct":{"EMT":{"1/2":0.122,"3/4":0.213,"1":0.346,"1-1/4":0.598,"1-1/2":0.814,"2":1.342}},"conductorAreasTHHN":{"14":0.0097,"12":0.0133,"10":0.0211,"8":0.0366,"6":0.0507,"4":0.0824,"3":0.0973,"2":0.1158}};
 const favs = new Set(JSON.parse(localStorage.getItem("nec-favs")||"[]"));
 function saveFavs(){ localStorage.setItem("nec-favs", JSON.stringify([...favs])); }
@@ -191,43 +191,58 @@ function renderCalc(){
     $("#lc-out").innerHTML=`<div class="result">General + appliances after 220.82 demand: <b>${Math.round(demand).toLocaleString()} VA</b><br>Heating/cooling (larger): <b>${Math.round(hvac).toLocaleString()} VA</b><br>Total: <b>${Math.round(total).toLocaleString()} VA = ${amps.toFixed(1)}A at 240V</b><br>Minimum standard service size: <b>${svc}A</b><br><span class="flag">Simplified v1 — Mike to verify against 220.82 before field use</span></div>`; };
 }
 /* ---------- Field Book (draft chapters; book-v1 schema from 00-COMMON) ---------- */
-let bookState = { page:null, view:"toc" };
-function bookSection(id){ return ((DATA.book&&DATA.book.sections)||[]).find(s=>s.id===id); }
+let bookState = { chapter:null, page:null, view:"toc" };
+function bookEntries(){ return DATA.books||[]; }
+function currentEntry(){
+  const es = bookEntries();
+  return es.find(e=>e.book.chapter===bookState.chapter) || es[0] || null;
+}
+function bookSection(id){
+  for(const e of bookEntries()){ const s=(e.book.sections||[]).find(x=>x.id===id); if(s) return s; }
+  return null;
+}
 function relatedLabel(id){
-  if(id.startsWith("C1-L-")){ const e=(DATA.bookLookup||[]).find(x=>x.id===id); return e? e.question : id; }
-  if(id.startsWith("C1-Q-")){ const e=(DATA.bookQuiz||[]).find(x=>x.id===id); return e? ("Quiz: "+e.question) : id; }
-  if(id.startsWith("C1-SP-")){ for(const r of (DATA.bookChecklists||[])) for(const it of r.items) if(it.id===id) return ("Checklist: "+it.text); return id; }
+  if(/^C\d+-L-/.test(id)){ for(const e of bookEntries()){ const x=(e.lookup||[]).find(y=>y.id===id); if(x) return x.question; } return id; }
+  if(/^C\d+-Q-/.test(id)){ for(const e of bookEntries()){ const x=(e.quiz||[]).find(y=>y.id===id); if(x) return "Quiz: "+x.question; } return id; }
+  for(const e of bookEntries()) for(const r of (e.checklists||[])) for(const it of r.items) if(it.id===id) return "Checklist: "+it.text;
   if(/^S-\d+$/.test(id)) return "Sharma rule "+id+" (Field Book rules file)";
   if(/^L-\d+$/.test(id)) return "Field Book v1 lookup "+id;
   if(/^Q-\d+$/.test(id)) return "Field Book v1 quiz "+id;
+  if(/^K-/.test(id)) return "Field Book v1 checklist "+id;
+  if(/^(Ch9-T|\d{3}\.\d)/.test(id)) return "Calc table "+id;
   return id;
 }
 document.addEventListener("click",e=>{
-  const p=e.target.closest("[data-bookpage]"); if(p){ bookState={page:p.dataset.bookpage, view:"page"}; if(tab!=="book"){ tab="book"; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="book")); } render(); window.scrollTo(0,0); return; }
+  const ch=e.target.closest("[data-bookchapter]"); if(ch){ bookState={chapter:parseInt(ch.dataset.bookchapter,10), page:null, view:"toc"}; if(tab!=="book"){ tab="book"; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="book")); } render(); window.scrollTo(0,0); return; }
+  const p=e.target.closest("[data-bookpage]"); if(p){ const s=bookSection(p.dataset.bookpage); if(s) bookState.chapter=s.chapter; bookState={chapter:bookState.chapter, page:p.dataset.bookpage, view:"page"}; if(tab!=="book"){ tab="book"; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="book")); } render(); window.scrollTo(0,0); return; }
   const v=e.target.closest("[data-bookview]"); if(v){ bookState.view=v.dataset.bookview; if(v.dataset.bookview!=="page") bookState.page=null; render(); window.scrollTo(0,0); }
 });
 function renderBook(){
-  const B=DATA.book;
-  if(!B){ view.innerHTML=`<h2 class="sec">Sharma NEC Field Book</h2><div class="empty">Field Book chapter file not loaded yet.</div>`; return; }
-  const pages=B.sections.length;
-  const unverified=B.sections.filter(s=>!s.verified).length;
+  const ent = currentEntry();
+  if(!ent || !ent.book){ view.innerHTML=`<h2 class="sec">Sharma NEC Field Book</h2><div class="empty">Field Book chapter files not loaded yet.</div>`; return; }
+  const B = ent.book;
+  const pages = B.sections.length;
+  const unverified = B.sections.filter(s=>!s.verified).length;
+  const ckItems = (ent.checklists||[]).reduce((n,r)=>n+((r.items||[]).length),0);
+  const picker = bookEntries().length>1 ? `<div class="rowbtns">${bookEntries().map(e=>`<button class="quizbtn" data-bookchapter="${e.book.chapter}"${e.book.chapter===B.chapter?` style="background:#0058a3;color:#fff"`:``}>Ch. ${e.book.chapter} — ${esc(e.book.chapter_title)}</button>`).join("")}</div>` : "";
   const head=`<h2 class="sec">Sharma NEC Field Book — Chapter ${B.chapter}: ${esc(B.chapter_title)}</h2>`+
     `<p class="flag">DRAFT — under Mike Holt review. Goes live only on Sanjay's OK. NEC ${esc(B.nec_edition)} · ${esc(B.jurisdiction)}. ${esc(B.label||"")}</p>`+
-    `<p class="bkmeta">${B.toc.length} articles · ${pages} pages · ${unverified} unverified item${unverified===1?"":"s"} · plus ${(DATA.bookLookup||[]).length} lookup, ${(DATA.bookQuiz||[]).length} quiz, ${((DATA.bookChecklists||[])[0]||{items:[]}).items.length} checklist items</p>`+
+    picker+
+    `<p class="bkmeta">${B.toc.length} articles · ${pages} pages · ${unverified} unverified item${unverified===1?"":"s"} · plus ${(ent.lookup||[]).length} lookup, ${(ent.quiz||[]).length} quiz, ${ckItems} checklist items</p>`+
     `<div class="rowbtns"><button class="quizbtn" data-bookview="toc">Contents</button><button class="quizbtn" data-bookview="index">Index</button></div>`;
   if(bookState.view==="index"){
     view.innerHTML = head + `<div class="card"><h3>Index</h3><ul class="bkindex">${B.index.map(en=>
-      `<li><b>${esc(en.term)}</b><br>${en.ids.map(id=>{ const s=bookSection(id); return `<button class="bkchip" data-bookpage="${id}">${esc(id.replace(/^C1-/,""))}${s? " — "+esc(s.title):""}</button>`; }).join(" ")}</li>`).join("")}</ul></div>`;
+      `<li><b>${esc(en.term)}</b><br>${en.ids.map(id=>{ const s=bookSection(id); return `<button class="bkchip" data-bookpage="${id}">${esc(id.replace(/^C\d+-/,""))}${s? " — "+esc(s.title):""}</button>`; }).join(" ")}</li>`).join("")}</ul></div>`;
     return;
   }
   if(bookState.view==="page" && bookState.page){
     const s=bookSection(bookState.page);
-    if(!s){ bookState={page:null,view:"toc"}; return renderBook(); }
+    if(!s){ bookState={chapter:B.chapter,page:null,view:"toc"}; return renderBook(); }
     const prev=s.prev_id? bookSection(s.prev_id):null, next=s.next_id? bookSection(s.next_id):null;
     view.innerHTML = head + `<div class="card bkpage">
       <div class="cite">Article ${esc(s.article)} · Section ${esc(s.section)}</div>
       <h3>${esc(s.title)}</h3>
-      ${s.verified? `<span class="tag">VERIFIED</span>` : `<span class="flag">⚠ UNVERIFIED${s.unverified_reason? " — "+esc(s.unverified_reason):""}</span>`}
+      ${s.verified? `<span class="tag">VERIFIED</span>` : `<span class="flag">\u26a0 UNVERIFIED${s.unverified_reason? " — "+esc(s.unverified_reason):""}</span>`}
       <p>${esc(s.plain_explanation)}</p>
       ${s.on_the_job? `<h4>What it means on the job</h4><p>${esc(s.on_the_job)}</p>`:""}
       ${s.sharma_note? `<h4>Sharma note</h4><p>${esc(s.sharma_note)}</p>`:""}
@@ -235,19 +250,41 @@ function renderBook(){
       ${s.figure_idea? `<h4>Figure idea</h4><p class="bkfig">${esc(s.figure_idea)}</p>`:""}
       ${(s.related_ids&&s.related_ids.length)? `<h4>Related</h4><div>${s.related_ids.map(id=>`<span class="bkchip static">${esc(id)} — ${esc(relatedLabel(id))}</span>`).join(" ")}</div>`:""}
       <div class="bknav">
-        ${prev? `<button class="go" data-bookpage="${prev.id}">← Previous: ${esc(prev.section)} ${esc(prev.title)}</button>` : `<span class="bkmeta">Start of chapter</span>`}
-        ${next? `<button class="go" data-bookpage="${next.id}">Next: ${esc(next.section)} ${esc(next.title)} →</button>` : `<span class="bkmeta">End of chapter</span>`}
+        ${prev? `<button class="go" data-bookpage="${prev.id}">\u2190 Previous: ${esc(prev.section)} ${esc(prev.title)}</button>` : `<span class="bkmeta">Start of chapter</span>`}
+        ${next? `<button class="go" data-bookpage="${next.id}">Next: ${esc(next.section)} ${esc(next.title)} \u2192</button>` : `<span class="bkmeta">End of chapter</span>`}
       </div>
       <div class="rowbtns"><button class="quizbtn" data-bookview="toc">Back to contents</button><button class="quizbtn" data-bookview="index">Index</button></div>
     </div>`;
     return;
   }
-  view.innerHTML = head + B.toc.map(a=>
-    `<div class="card"><h3>Article ${esc(a.article)} — ${esc(a.title)}</h3><ul class="bktoc">
-      <li><button class="bkchip" data-bookpage="${a.id}">Intro — Article ${esc(a.article)}</button></li>
+  view.innerHTML = head + B.toc.map(a=>{
+    const isArt = a.article && a.article!==String(B.chapter);
+    return `<div class="card"><h3>${isArt? `Article ${esc(a.article)} — `:""}${esc(a.title)}</h3><ul class="bktoc">
+      <li><button class="bkchip" data-bookpage="${a.id}">Intro${isArt? ` — Article ${esc(a.article)}`:""}</button></li>
       ${a.children.map(c=>`<li><button class="bkchip" data-bookpage="${c.id}">${esc(c.section)} — ${esc(c.title)}</button></li>`).join("")}
-    </ul></div>`).join("");
+    </ul></div>`; }).join("");
 }
 /* ---------- boot ---------- */
-(async()=>{ const [l,c,q,s,t,bk,bl,bq,bc]=await Promise.all([loadJSON("lookup"),loadJSON("checklists"),loadJSON("quiz"),loadJSON("sharma-rules"),loadJSON("calc-tables"),loadJSON("book/c1"),loadJSON("book/c1-lookup"),loadJSON("book/c1-quiz"),loadJSON("book/c1-checklists")]);
-  DATA={lookup:l,checklists:c,quiz:q,sharma:s,tables:t||FALLBACK_TABLES,book:bk,bookLookup:bl,bookQuiz:bq,bookChecklists:bc}; render(); })();
+(async()=>{
+  const [l,c,q,s,t] = await Promise.all([loadJSON("lookup"),loadJSON("checklists"),loadJSON("quiz"),loadJSON("sharma-rules"),loadJSON("calc-tables")]);
+  const chapDefs = [
+    { book:"book/c1", lookup:"book/c1-lookup", quiz:"book/c1-quiz", checklists:"book/c1-checklists" },
+    { book:"book-c2", lookup:"book/c2-lookup", quiz:"book/c2-quiz", checklists:"book/c2-checklists" },
+    { book:"book/c3", lookup:"book/c3-lookup", quiz:"book/c3-quiz", checklists:"book/c3-checklists" },
+    { book:"book/c4", lookup:"book/c4-lookup", quiz:"book/c4-quiz", checklists:"book/c4-checklists" },
+    { book:"book/c5", lookup:"book/c5-lookup", quiz:"book/c5-quiz", checklists:"book/c5-checklists" },
+    { book:"book/c6", lookup:"book/c6-lookup", quiz:"book/c6-quiz", checklists:"book/c6-checklists" },
+    { book:"book/c7", lookup:"book/c7-lookup", quiz:"book/c7-quiz", checklists:"book/c7-checklists" },
+    { book:"book/c8", lookup:"book/c8-lookup", quiz:"book/c8-quiz", checklists:"book/c8-checklists" },
+    { book:"book/c9", lookup:"book/c9-lookup", quiz:"book/c9-quiz", checklists:"book/c9-checklists" }
+  ];
+  const books = [];
+  for(const d of chapDefs){
+    const [bk,bl,bq,bc] = await Promise.all([loadJSON(d.book),loadJSON(d.lookup),loadJSON(d.quiz),loadJSON(d.checklists)]);
+    if(bk && bk.sections) books.push({ book:bk, lookup:bl||[], quiz:bq||[], checklists:bc||[] });
+  }
+  books.sort((a,b)=>a.book.chapter-b.book.chapter);
+  const first = books[0]||null;
+  DATA={lookup:l,checklists:c,quiz:q,sharma:s,tables:t||FALLBACK_TABLES,books:books,
+        book:first?first.book:null, bookLookup:first?first.lookup:[], bookQuiz:first?first.quiz:[], bookChecklists:first?first.checklists:[]};
+  render(); })();

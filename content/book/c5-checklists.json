@@ -1,0 +1,155 @@
+[
+  {
+    "room": "Temporary Power / Jobsite",
+    "items": [
+      {
+        "id": "C5-T-01",
+        "text": "Temp service installed to Article 230 rules, with grounding and a working disconnect for every temporary circuit.",
+        "nec_ref": "590.4(A) / 590.4(E)",
+        "severity": "code"
+      },
+      {
+        "id": "C5-T-02",
+        "text": "Removal date on the temp paperwork; temp comes out when the work it serves is done (holiday and decorative work: 90 days maximum).",
+        "nec_ref": "590.3",
+        "severity": "code"
+      },
+      {
+        "id": "C5-T-03",
+        "text": "GFCI protection on all 125V and 125/250V, 15A, 20A, and 30A receptacles used for the work, including permanent building receptacles being used temporarily; devices tested and logged.",
+        "nec_ref": "590.6(A)",
+        "severity": "code"
+      },
+      {
+        "id": "C5-T-04",
+        "text": "Receptacles outside the direct GFCI list are GFCI protected or covered by a written assured grounding program with test records on site.",
+        "nec_ref": "590.6(B)",
+        "severity": "code"
+      },
+      {
+        "id": "C5-T-05",
+        "text": "No receptacles on temporary lighting branch circuits; temp lighting on its own circuits.",
+        "nec_ref": "590.4(D)(1)",
+        "severity": "code"
+      },
+      {
+        "id": "C5-T-06",
+        "text": "All temp splices in boxes or enclosures with covers on; all temp lamps guarded.",
+        "nec_ref": "590.4(G) / 590.4(F)",
+        "severity": "code"
+      },
+      {
+        "id": "C5-T-07",
+        "text": "Feeder and branch circuit cables supported off the ground and floor, protected at doorways and pinch points; wet-location receptacles weatherproof with a plug inserted.",
+        "nec_ref": "590.4(J) / 590.4(H) / 590.4(D)(2)",
+        "severity": "code"
+      },
+      {
+        "id": "C5-T-08",
+        "text": "Temp panel breakers inspected, listed for that panel, and not damaged or unknown-history takeouts.",
+        "nec_ref": "590.8",
+        "severity": "code"
+      },
+      {
+        "id": "C5-T-09",
+        "text": "Sharma temp panels use Siemens breakers listed for the panel; no mixed-brand swaps in temp gear.",
+        "sharma_rule_id": "S-03",
+        "severity": "sharma"
+      }
+    ]
+  },
+  {
+    "room": "Commercial Garage",
+    "items": [
+      {
+        "id": "C5-G-01",
+        "text": "Classification written on the takeoff for each space: major or minor repair, floor or pit or ceiling, ventilation provided or not.",
+        "nec_ref": "511.3",
+        "severity": "code"
+      },
+      {
+        "id": "C5-G-02",
+        "text": "Classified pockets wired to Article 501 methods; ordinary shop materials stop at the boundary.",
+        "nec_ref": "511.4",
+        "severity": "code"
+      },
+      {
+        "id": "C5-G-03",
+        "text": "Above the classified band, only the fixed methods listed in 511.7(A); luminaires over bays checked against the 12-foot conditions.",
+        "nec_ref": "511.7",
+        "severity": "code"
+      },
+      {
+        "id": "C5-G-04",
+        "text": "Under-slab runs detailed as 514-style underground work and settled before the pour.",
+        "nec_ref": "511.8",
+        "severity": "code"
+      },
+      {
+        "id": "C5-G-05",
+        "text": "GFCI protection per 210.8(B) on garage receptacles, tested at trim.",
+        "nec_ref": "511.12",
+        "severity": "code"
+      },
+      {
+        "id": "C5-G-06",
+        "text": "Vehicle charging scope, if any, identified separately with nameplate and ventilation information requested.",
+        "nec_ref": "511.10",
+        "severity": "tip"
+      },
+      {
+        "id": "C5-G-07",
+        "text": "Commercial branch circuits 20A minimum on 12 AWG copper.",
+        "sharma_rule_id": "S-01",
+        "severity": "sharma"
+      }
+    ]
+  },
+  {
+    "room": "Marina / Dock",
+    "items": [
+      {
+        "id": "C5-M-01",
+        "text": "Datum plane established and marked on site before rough-in; nothing the article restricts set below it.",
+        "nec_ref": "555.3",
+        "severity": "code"
+      },
+      {
+        "id": "C5-M-02",
+        "text": "Service equipment for floating buildings and docks located on adjacent land, not on the floating structure.",
+        "nec_ref": "555 / 553",
+        "severity": "code"
+      },
+      {
+        "id": "C5-M-03",
+        "text": "All water-contact and energizable metal bonded with solid copper, 8 AWG minimum, back to the panelboard grounding bus; continuity tested.",
+        "nec_ref": "555.13",
+        "severity": "code"
+      },
+      {
+        "id": "C5-M-04",
+        "text": "Each shore power receptacle has an identified disconnect within 30 inches, readily accessible, ahead of the receptacle.",
+        "nec_ref": "555.17",
+        "severity": "code"
+      },
+      {
+        "id": "C5-M-05",
+        "text": "Receptacles at least 12 inches above finished deck and not below the datum plane; shore power only in listed marine power outlets.",
+        "nec_ref": "555.19",
+        "severity": "code"
+      },
+      {
+        "id": "C5-M-06",
+        "text": "GFPE layers set and recorded: shore power 30 mA maximum, dock feeder 100 mA maximum; other small receptacles Class A GFCI.",
+        "nec_ref": "555.35",
+        "severity": "code"
+      },
+      {
+        "id": "C5-M-07",
+        "text": "Tripping pedestal is investigated as a fault, never defeated or swapped to an ordinary breaker to keep a boat powered.",
+        "nec_ref": "555.35",
+        "severity": "tip"
+      }
+    ]
+  }
+]

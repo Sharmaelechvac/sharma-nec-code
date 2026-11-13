@@ -1,0 +1,150 @@
+[
+ {
+  "room": "Pool — Rough / Final (Art. 680)",
+  "items": [
+   {
+    "id": "C6-P-01",
+    "nec_ref": "680.22(A)(1)",
+    "severity": "code",
+    "text": "Required receptacle is in the 6–20 ft band from the inside wall and no more than 6 ft 6 in. above the serving surface; distances checked by cord path, not through barriers."
+   },
+   {
+    "id": "C6-P-02",
+    "nec_ref": "680.22(A)(4)",
+    "severity": "code",
+    "text": "Every 125V 15/20A receptacle within 20 ft of the inside wall is GFCI protected."
+   },
+   {
+    "id": "C6-P-03",
+    "nec_ref": "680.21(C)",
+    "severity": "code",
+    "text": "All pool motors 150V or less to ground, 60A or less (1- or 3-phase) have GFCI protection — hardwired included."
+   },
+   {
+    "id": "C6-P-04",
+    "nec_ref": "680.21(A)",
+    "severity": "code",
+    "text": "Insulated copper EGC on motor circuits, sized per 250.122 and never smaller than 12 AWG."
+   },
+   {
+    "id": "C6-P-05",
+    "nec_ref": "680.26",
+    "severity": "code",
+    "text": "Bonding conductor is solid copper 8 AWG minimum with listed pressure connections; grid is continuous."
+   },
+   {
+    "id": "C6-P-06",
+    "nec_ref": "680.26(B)",
+    "severity": "code",
+    "text": "All (B)(1)–(B)(7) parts bonded: shell/steel, perimeter, metallic components, light shells, fittings over 4 in., equipment, fixed metal within 5 ft."
+   },
+   {
+    "id": "C6-P-07",
+    "nec_ref": "680.26(B)(2)",
+    "severity": "code",
+    "text": "Perimeter ring 18–24 in. from inside walls, 4–6 in. below subgrade, minimum four uniformly spaced attachments; bonded surface extends 3 ft."
+   },
+   {
+    "id": "C6-P-08",
+    "nec_ref": "680.26(C)",
+    "severity": "code",
+    "text": "Pool water bonded — bonded part in contact, or listed water-bond surface of at least 9 sq in."
+   },
+   {
+    "id": "C6-P-09",
+    "nec_ref": "680.24(A)",
+    "severity": "code",
+    "text": "Deck/junction boxes listed as pool boxes, 4 ft minimum from inside wall, greater of 4 in. above deck or 8 in. above max water level."
+   },
+   {
+    "id": "C6-P-10",
+    "nec_ref": "680.23",
+    "severity": "code",
+    "text": "Underwater luminaires listed for the niche type; wall units with lens top at least 18 in. below normal water level unless listed for less."
+   },
+   {
+    "id": "C6-P-11",
+    "nec_ref": "680.9(A)",
+    "severity": "code",
+    "text": "Overhead clearances verified from maximum water level: 22.5 ft in any direction; 14.5 ft to platforms/towers."
+   },
+   {
+    "id": "C6-P-12",
+    "nec_ref": "680.11",
+    "severity": "code",
+    "text": "No underground wiring under the pool or within 5 ft except raceways serving permitted pool equipment."
+   },
+   {
+    "id": "C6-P-13",
+    "nec_ref": "680.22(B)",
+    "severity": "code",
+    "text": "New lights/fans over the pool or within 5 ft are at least 12 ft above max water; 5–10 ft band and existing fixtures meet the GFCI rules."
+   },
+   {
+    "id": "C6-P-14",
+    "nec_ref": "680.26",
+    "severity": "tip",
+    "text": "Photograph the bonding grid and ring before deck pour or backfill — after cover, none of it can be shown."
+   }
+  ]
+ },
+ {
+  "room": "Solar Rooftop — Rough / Final (Art. 690)",
+  "items": [
+   {
+    "id": "C6-PV-01",
+    "nec_ref": "690.7",
+    "severity": "code",
+    "text": "String voltage calculated with cold-corrected Voc (manufacturer coefficient, lowest expected ambient) and under equipment ratings; dwellings at or under 600V."
+   },
+   {
+    "id": "C6-PV-02",
+    "nec_ref": "690.8",
+    "severity": "code",
+    "text": "Conductor sizing shows both 690.8(B) checks (125% before factors / 100% after) — worksheet in the job folder."
+   },
+   {
+    "id": "C6-PV-03",
+    "nec_ref": "690.9",
+    "severity": "code",
+    "text": "String overcurrent protection applied per the 690.9 conditions, not by habit."
+   },
+   {
+    "id": "C6-PV-04",
+    "nec_ref": "690.11",
+    "severity": "code",
+    "text": "DC arc-fault protection present where DC circuits run at 80V or more (listed PV AFCI or equivalent)."
+   },
+   {
+    "id": "C6-PV-05",
+    "nec_ref": "690.12",
+    "severity": "code",
+    "text": "Rapid shutdown path identified (PVHCS / 80V in 30 s inside boundary; 30V in 30 s outside the 1 ft boundary) and function-tested at final."
+   },
+   {
+    "id": "C6-PV-06",
+    "nec_ref": "690.12(C)",
+    "severity": "code",
+    "text": "Initiation device readily accessible, indicates on/off; on dwellings it is outside the building."
+   },
+   {
+    "id": "C6-PV-07",
+    "nec_ref": "690.13",
+    "severity": "code",
+    "text": "PV disconnect readily accessible, permanently marked as the PV system disconnect, lockable open per 110.25."
+   },
+   {
+    "id": "C6-PV-08",
+    "nec_ref": "690.15",
+    "severity": "code",
+    "text": "Equipment disconnect opens all ungrounded conductors from all sources (array, grid, storage)."
+   },
+   {
+    "id": "C6-PV-09",
+    "nec_ref": "690.56",
+    "severity": "code",
+    "text": "Rapid shutdown label on or within 3 ft of the initiation device, capitals at least 3/8 in., white on red; source directory/plaque in place."
+   }
+  ]
+ }
+]

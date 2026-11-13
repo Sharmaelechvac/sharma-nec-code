@@ -1,0 +1,2221 @@
+{
+ "schema_version": "book-v1",
+ "nec_edition": "2020",
+ "jurisdiction": "Florida Building Code 8th Edition (2023)",
+ "chapter": 6,
+ "chapter_title": "Special Equipment",
+ "id_prefix": "C6",
+ "label": "Reference aid; the AHJ and the printed NEC govern.",
+ "sections": [
+  {
+   "id": "C6-ART-600",
+   "chapter": 6,
+   "article": "600",
+   "section": "600",
+   "title": "Article 600 — Electric Signs and Outline Lighting",
+   "plain_explanation": "This article covers signs, outline lighting, and skeleton tubing — the lighted advertising and identification equipment on commercial buildings. Its field core is simple: a proper sign branch circuit and a real disconnect at the sign.",
+   "on_the_job": "If a bid has signage, price the circuit and the disconnect, not just the sign.",
+   "sharma_note": "",
+   "figure_idea": "Storefront with a channel-letter sign fed from its own labeled circuit.",
+   "related_ids": [
+    "C6-600.5",
+    "C6-600.6",
+    "C6-600.35",
+    "C6-L-043",
+    "C6-L-044"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": null,
+   "next_id": "C6-600.5"
+  },
+  {
+   "id": "C6-600.5",
+   "chapter": 6,
+   "article": "600",
+   "section": "600.5",
+   "title": "Sign branch circuits — 20A, signs only",
+   "plain_explanation": "A sign or outline lighting system is supplied by a branch circuit rated at least 20A that serves no other loads, other than signs and outline lighting tied to the same work.",
+   "on_the_job": "Don't hang storefront lighting or receptacles on the sign circuit.",
+   "sharma_note": "S-01 already sets a 20A minimum on commercial branch circuits — the code and company practice land in the same place here.",
+   "figure_idea": "Storefront sign on its own labeled 20A circuit.",
+   "related_ids": [
+    "C6-L-043",
+    "S-01"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [
+    "S-01"
+   ],
+   "prev_id": "C6-ART-600",
+   "next_id": "C6-600.6"
+  },
+  {
+   "id": "C6-600.6",
+   "chapter": 6,
+   "article": "600",
+   "section": "600.6",
+   "title": "Sign disconnecting means",
+   "plain_explanation": "The conductors feeding a sign, outline lighting system, or skeleton tubing are controlled by an externally operable switch or breaker that opens all ungrounded conductors. The disconnect sits where the circuit enters the sign enclosure, body, or pole; the 2020 rules in 600.6(A) also cover within-sight, lockable, and remote-location marking situations so service people and first responders can find and kill it.",
+   "on_the_job": "Stand at the sign — can you see and reach its disconnect? If it's remote, it must be marked at the sign.",
+   "sharma_note": "",
+   "figure_idea": "Sign disconnect at the point of entry into the sign body, placard for a remote disconnect beside it.",
+   "related_ids": [
+    "C6-L-044"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-600.5",
+   "next_id": "C6-600.35"
+  },
+  {
+   "id": "C6-600.35",
+   "chapter": 6,
+   "article": "600",
+   "section": "600.35",
+   "title": "Retrofit kits (new in 2020)",
+   "plain_explanation": "Converting an existing sign to new lighting technology is a listed-kit job, not a lamp swap. A general-use or sign-specific retrofit kit must be listed and labeled and must include installation instructions for field conversion of the host sign. The kit is installed per those instructions; wiring methods follow Chapter 3 (with the Class 2 path in 600.12(C), 600.24, and 600.33); parts not replaced are inspected and damaged parts are repaired or replaced; workmanship follows 110.12; and the retrofitted sign is marked per 600.4(B) — including the alert label where tubular LED lamps run on the existing sign sockets, so nobody later installs fluorescent lamps. The 600.2 retrofit definitions (host sign, subassembly, general-use and sign-specific kits) ride with this section.",
+   "on_the_job": "Before quoting an LED sign conversion, confirm the kit is listed for that host sign and plan the label — an inspector can fail an unlisted conversion even if it lights.",
+   "sharma_note": "",
+   "figure_idea": "Host sign opened for conversion: listed kit, instructions, and the retrofit marking label.",
+   "related_ids": [
+    "C6-L-049"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-600.6",
+   "next_id": "C6-ART-604"
+  },
+  {
+   "id": "C6-ART-604",
+   "chapter": 6,
+   "article": "604",
+   "section": "604",
+   "title": "Article 604 — Manufactured Wiring Systems",
+   "plain_explanation": "Intro: factory-built wiring assemblies — plug-together branch-circuit and feeder components — used heavily in office fit-outs. The components must be listed and used as a system, not mixed and matched between manufacturers.",
+   "on_the_job": "Sharma hits these on tenant work; keep one manufacturer's system end to end and follow its instructions.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-ART-605"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-600.35",
+   "next_id": "C6-ART-605"
+  },
+  {
+   "id": "C6-ART-605",
+   "chapter": 6,
+   "article": "605",
+   "section": "605",
+   "title": "Article 605 — Office Furnishings",
+   "plain_explanation": "Intro: electrical rules for wired office partitions and furniture systems — how powered furniture connects to the building wiring, and the limits on cord connections and interconnecting partitions.",
+   "on_the_job": "Coordinate furniture power early on office jobs; the furniture system is listed equipment, not field-built wiring.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-ART-604"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-604",
+   "next_id": "C6-ART-610"
+  },
+  {
+   "id": "C6-ART-610",
+   "chapter": 6,
+   "article": "610",
+   "section": "610",
+   "title": "Article 610 — Cranes and Hoists",
+   "plain_explanation": "Intro: wiring, disconnects, and controls for cranes and hoists — runway conductors, festoon wiring, and the disconnecting means that let a crane be locked out for service. Rare in Sharma's current work; recognize it and price from the article when a warehouse job includes one.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-605",
+   "next_id": "C6-ART-620"
+  },
+  {
+   "id": "C6-ART-620",
+   "chapter": 6,
+   "article": "620",
+   "section": "620",
+   "title": "Article 620 — Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and Stairway Chairlifts",
+   "plain_explanation": "This article covers the electrical installation for elevators and similar equipment: the machine-room disconnect, the branch circuits that serve the car and the machine space, GFCI protection in pits and hoistways, and selective coordination where several machines share a feeder. Elevator work is always coordinated with the elevator contractor and ASME A17.1 — the electrical scope is defined here, the machine scope is theirs.",
+   "on_the_job": "On a job with an elevator, Sharma's piece is typically the disconnect, the car and machine-room circuits, and pit/hoistway receptacles — confirm that split in the bid, not on site.",
+   "sharma_note": "",
+   "figure_idea": "Machine room: one labeled disconnect per unit, car circuits tapped ahead of it.",
+   "related_ids": [
+    "C6-620.6",
+    "C6-620.51",
+    "C6-620.62",
+    "C6-L-045",
+    "C6-L-046"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-610",
+   "next_id": "C6-620.6"
+  },
+  {
+   "id": "C6-620.6",
+   "chapter": 6,
+   "article": "620",
+   "section": "620.6",
+   "title": "GFCI protection in elevator spaces",
+   "plain_explanation": "All 125V, single-phase, 15A and 20A receptacles installed in pits, in hoistways, on elevator and dumbwaiter cars, in escalator and moving-walk wellways, and in the runways and machinery spaces of platform lifts and stairway chairlifts must be of the GFCI type — the protection is at the receptacle, not just a GFCI breaker upstream. Receptacles in machine rooms, control rooms, machinery spaces, and control spaces must also have GFCI protection for personnel. A permanently installed sump pump in the pit must be permanently wired or supplied by a single GFCI-protected receptacle — the blanket sump-pump exemption as printed in the 2017 edition is gone in 2020.",
+   "on_the_job": "Use GFCI receptacles (not a breaker alone) at pit and hoistway locations, and don't assume a pit sump pump is exempt. The 2020 Handbook notes the hard-wired sump-pump wording sits awkwardly with 422.5(A)(6) — a point flagged for Mike and worth an AHJ conversation on a real job.",
+   "sharma_note": "",
+   "figure_idea": "Pit receptacle with the GFCI device at the outlet, sump pump on a single protected receptacle.",
+   "related_ids": [
+    "C6-L-045"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-620",
+   "next_id": "C6-620.22"
+  },
+  {
+   "id": "C6-620.22",
+   "chapter": 6,
+   "article": "620",
+   "section": "620.22",
+   "title": "Car lighting, receptacle, and air-conditioning/ventilation branch circuit",
+   "plain_explanation": "This section governs the branch circuit that serves the elevator car's lighting, receptacles, and car air-conditioning and ventilation — loads that must stay alive independently of the driving-machine disconnect (see 620.51).",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-620.51"
+   ],
+   "florida_note": "",
+   "verified": false,
+   "unverified_reason": "Section existence and subject confirmed from a 2020-based source, but the exact permitted-load list was truncated in the source available; held unverified for Mike Holt's check against the printed 2020 text.",
+   "sharma_rule_ids": [],
+   "prev_id": "C6-620.6",
+   "next_id": "C6-620.51"
+  },
+  {
+   "id": "C6-620.51",
+   "chapter": 6,
+   "article": "620",
+   "section": "620.51",
+   "title": "Disconnecting means — one per unit, lockable open only",
+   "plain_explanation": "Each elevator, dumbwaiter, escalator, moving walk, platform lift, or stairway chairlift gets its own disconnecting means: an enclosed, externally operable fused motor-circuit switch or circuit breaker that disconnects the driving machine. Two details are exam-and-inspection favorites: the disconnect must be lockable in the open position only — it is not permitted to be lockable in the closed position — and it must not disconnect the car lighting, receptacle, and ventilation circuits covered by 620.22, 620.23, and 620.24, which are arranged to stay energized for service work in the car.",
+   "on_the_job": "One disconnect per unit, labeled, and never let it kill the car light circuit — a serviceman in a dark car is exactly what the rule prevents.",
+   "sharma_note": "",
+   "figure_idea": "Machine-room disconnect with lock hasp in the open position only; car-light circuit breaker in a separate enclosure.",
+   "related_ids": [
+    "C6-L-046",
+    "C6-620.22"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-620.22",
+   "next_id": "C6-620.62"
+  },
+  {
+   "id": "C6-620.62",
+   "chapter": 6,
+   "article": "620",
+   "section": "620.62",
+   "title": "Selective coordination",
+   "plain_explanation": "Where more than one driving machine disconnecting means is supplied by a single feeder, the overcurrent devices in each disconnect must be selectively coordinated with any other supply-side overcurrent devices, so one fault doesn't strand every car on the feeder. The coordination must be selected by a licensed professional engineer or other qualified person engaged primarily in the design, installation, or maintenance of electrical systems, and the selection — including device settings, a documentation point the 2020 edition added — must be documented and made available to those authorized to design, install, inspect, maintain, and operate the system. Enclosures containing coordinated devices are marked per 620.65.",
+   "on_the_job": "Multi-elevator jobs: coordination is an engineering deliverable, not a field decision. Get the documented study before trim-out.",
+   "sharma_note": "",
+   "figure_idea": "Two elevator disconnects on one feeder with the coordination study folder in the machine room.",
+   "related_ids": [
+    "C6-L-050"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-620.51",
+   "next_id": "C6-ART-625"
+  },
+  {
+   "id": "C6-ART-625",
+   "chapter": 6,
+   "article": "625",
+   "section": "625",
+   "title": "Article 625 — Electric Vehicle Power Transfer System",
+   "plain_explanation": "The 2020 edition renamed this article from 'Charging System' to 'Power Transfer System' because the equipment now moves power both ways — charging, power export, and bidirectional flow are all inside the article's scope. The field core for Sharma: a dedicated branch circuit per outlet (625.40), protection at 125% of a continuous load (625.41, 625.42), a lockable disconnect above the threshold (625.43), and GFCI on every charging receptacle (625.54).",
+   "on_the_job": "Garage EV points follow Sharma's garage rules (S-07, S-01) only where they don't conflict with Article 625 — the article wins where they differ.",
+   "sharma_note": "",
+   "figure_idea": "Garage wall with a hardwired EVSE on its own circuit; bidirectional unit exporting to a house panel shown in a second panel of the figure.",
+   "related_ids": [
+    "C6-625.40",
+    "C6-625.41",
+    "C6-625.54",
+    "L-084",
+    "L-085",
+    "Q-057",
+    "Q-058",
+    "G-05"
+   ],
+   "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-620.62",
+   "next_id": "C6-625.40"
+  },
+  {
+   "id": "C6-625.40",
+   "chapter": 6,
+   "article": "625",
+   "section": "625.40",
+   "title": "Electric vehicle branch circuit — one outlet, one circuit",
+   "plain_explanation": "Each outlet installed for the purpose of charging electric vehicles must be supplied by an individual branch circuit, and each such circuit must have no other outlets. In the 2020 text that rule applies to every EV outlet regardless of size — the 'greater than 16A or 120V' qualifier and the exception letting one branch circuit feed multiple chargers are 2023 changes that Florida has not adopted.",
+   "on_the_job": "Two cars means two circuits under Florida's 2020 rules. Power sharing between chargers happens upstream through load management (625.42), not by doubling up a branch circuit.",
+   "sharma_note": "",
+   "figure_idea": "Two garage EV outlets, each home-run to its own breaker.",
+   "related_ids": [
+    "C6-L-001",
+    "L-084",
+    "Q-057"
+   ],
+   "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-625",
+   "next_id": "C6-625.41"
+  },
+  {
+   "id": "C6-625.41",
+   "chapter": 6,
+   "article": "625",
+   "section": "625.41",
+   "title": "Overcurrent protection — 125% of maximum load",
+   "plain_explanation": "Overcurrent protection for feeders and branch circuits supplying EV charging is sized for continuous duty at not less than 125% of the equipment's maximum load. The math the inspector expects: a 32A charger lands on a 40A device; a 48A charger lands on a 60A device; a charger set to 40A output needs at least a 50A device.",
+   "on_the_job": "Size from the charger's maximum setting, not from the car that happens to be plugged in today.",
+   "sharma_note": "",
+   "figure_idea": "Breaker schedule callout: 48A EVSE → 60A breaker, conductor sized to match.",
+   "related_ids": [
+    "C6-L-002",
+    "C6-L-003",
+    "Q-057"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-625.40",
+   "next_id": "C6-625.42"
+  },
+  {
+   "id": "C6-625.42",
+   "chapter": 6,
+   "article": "625",
+   "section": "625.42",
+   "title": "Rating — charging is a continuous load; load management",
+   "plain_explanation": "Electric vehicle charging loads are considered continuous loads for this article — that is the root of the 125% sizing in 625.41. Where a listed automatic load management system is used, the maximum equipment load on a service or feeder is the maximum load the system permits: the managed cap, not the sum of every charger's nameplate, is the figure used for the service and feeder. Adjustable equipment is figured at its setting only where the adjustment means meets the section's conditions.",
+   "on_the_job": "Load management is how a 100A or 200A service legally carries two chargers — but it changes the service calculation, never the per-outlet branch-circuit rule in 625.40.",
+   "sharma_note": "",
+   "figure_idea": "Load management controller capping two chargers at a combined service figure.",
+   "related_ids": [
+    "C6-L-004",
+    "C6-L-009",
+    "C6-625.40"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-625.41",
+   "next_id": "C6-625.43"
+  },
+  {
+   "id": "C6-625.43",
+   "chapter": 6,
+   "article": "625",
+   "section": "625.43",
+   "title": "Disconnecting means — over 60A or 150V to ground",
+   "plain_explanation": "EV charging equipment rated more than 60A, or more than 150V to ground, must have a disconnecting means that is readily accessible and capable of being locked in the open position, with the locking provision remaining in place as 110.25 requires. Equipment at or under both thresholds does not need the separate disconnect under this section.",
+   "on_the_job": "Big commercial chargers and DC fast-charge equipment cross the threshold — plan the disconnect location at rough-in, not at the final.",
+   "sharma_note": "",
+   "figure_idea": "Wall-mounted lockable disconnect beside a high-output charger.",
+   "related_ids": [
+    "C6-L-005"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-625.42",
+   "next_id": "C6-625.50"
+  },
+  {
+   "id": "C6-625.50",
+   "chapter": 6,
+   "article": "625",
+   "section": "625.50",
+   "title": "Connector storage — 18 in. indoors, 24 in. outdoors",
+   "plain_explanation": "Unless the equipment is listed and marked for a different arrangement, the coupling means (the vehicle connector) must be stored or located at a height of not less than 18 in. above the floor for indoor locations and not less than 24 in. above grade for outdoor locations, and positioned so it can couple directly to the vehicle.",
+   "on_the_job": "Mount the holster high enough that the connector isn't sitting in garage floor water or driveway runoff.",
+   "sharma_note": "",
+   "figure_idea": "Connector docked in its holster at compliant height, indoor and outdoor versions.",
+   "related_ids": [
+    "C6-L-006"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-625.43",
+   "next_id": "C6-625.52"
+  },
+  {
+   "id": "C6-625.52",
+   "chapter": 6,
+   "article": "625",
+   "section": "625.52",
+   "title": "Ventilation — only where the listing requires it",
+   "plain_explanation": "Indoor charging locations need mechanical ventilation only where the equipment is listed as requiring ventilation for indoor use. Equipment listed for indoor charging without ventilation needs none. Where ventilation is required, it is a permanent supply-and-exhaust system vented directly to the outdoors, arranged for the vehicles being charged.",
+   "on_the_job": "Read the EVSE listing before pricing ductwork — most modern residential equipment is listed for indoor use with no ventilation at all.",
+   "sharma_note": "",
+   "figure_idea": "Garage charger shown twice: listed 'no ventilation required' vs. a vented commercial installation.",
+   "related_ids": [
+    "C6-L-007"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-625.50",
+   "next_id": "C6-625.54"
+  },
+  {
+   "id": "C6-625.54",
+   "chapter": 6,
+   "article": "625",
+   "section": "625.54",
+   "title": "GFCI protection for personnel — every EV receptacle",
+   "plain_explanation": "All receptacles installed for the connection of electric vehicle charging must be provided with GFCI protection for personnel. The requirement is in addition to the dwelling garage rules in 210.8 — a 240V charging receptacle is not exempt, and indoor locations are not exempt. The charger receptacle is the outlet being protected; the EVSE's own internal personnel protection system does not substitute for it.",
+   "on_the_job": "Treat every EV receptacle as a GFCI point, 120V or 240V, indoor or out.",
+   "sharma_note": "Sharma note: S-07's dual-function point is a 120V device. A 240V EV circuit is not an S-07 point — meet 625.54 with the listed protection method specified for the job (Mike/Sanjay decide the device per job), and never describe a 240V charger circuit as a DFN point.",
+   "figure_idea": "14-50 receptacle on a 2-pole GFCI breaker, labeled 'EV charging — GFCI protected.'",
+   "related_ids": [
+    "C6-L-008",
+    "L-085",
+    "Q-058",
+    "S-07"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [
+    "S-07"
+   ],
+   "prev_id": "C6-625.52",
+   "next_id": "C6-625.56"
+  },
+  {
+   "id": "C6-625.56",
+   "chapter": 6,
+   "article": "625",
+   "section": "625.56",
+   "title": "Wet location — weatherproof enclosure",
+   "plain_explanation": "Receptacles installed outdoors or in wet locations for EV charging must be enclosed so they are weatherproof with the attachment plug cap inserted or removed — in plain terms, 'weatherproof while in use,' the same duty as other outdoor receptacle covers.",
+   "on_the_job": "Standard flip covers don't meet in-use duty; spec the bubble cover on outdoor charger receptacles.",
+   "sharma_note": "",
+   "figure_idea": "Outdoor receptacle with an in-use cover, charger plugged in, cover closed.",
+   "related_ids": [
+    "C6-L-010"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-625.54",
+   "next_id": "C6-ART-626"
+  },
+  {
+   "id": "C6-ART-626",
+   "chapter": 6,
+   "article": "626",
+   "section": "626",
+   "title": "Article 626 — Electrified Truck Parking Spaces",
+   "plain_explanation": "Intro: shore-power connections at truck parking spaces — pedestals, receptacles, and disconnects that let a parked truck run its cab loads without idling. Commercial/industrial work; recognize the article when a truck-stop or warehouse job specs electrified spaces.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-625.56",
+   "next_id": "C6-ART-630"
+  },
+  {
+   "id": "C6-ART-630",
+   "chapter": 6,
+   "article": "630",
+   "section": "630",
+   "title": "Article 630 — Electric Welders",
+   "plain_explanation": "Intro: duty-cycle-based conductor and overcurrent rules for arc and resistance welders — the one place the Code lets you size conductors below the nameplate input current using the welder's rated duty cycle (630.11 multipliers). Shop work: get the duty cycle off the nameplate before sizing.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-626",
+   "next_id": "C6-ART-640"
+  },
+  {
+   "id": "C6-ART-640",
+   "chapter": 6,
+   "article": "640",
+   "section": "640",
+   "title": "Article 640 — Audio Signal Processing, Amplification, and Reproduction Equipment",
+   "plain_explanation": "Intro: power and wiring rules for professional and commercial sound systems — studios, venues, houses of worship. Mostly a specialty-contractor article; Sharma touches it on commercial fit-outs with distributed audio.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-630",
+   "next_id": "C6-ART-645"
+  },
+  {
+   "id": "C6-ART-645",
+   "chapter": 6,
+   "article": "645",
+   "section": "645",
+   "title": "Article 645 — Information Technology Equipment",
+   "plain_explanation": "Intro: special wiring allowances for IT equipment rooms that meet the article's conditions — including wiring under raised floors and the room disconnecting means. The allowances apply only when every condition in 645.4 is met; otherwise Chapters 1–4 govern as usual.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-640",
+   "next_id": "C6-ART-646"
+  },
+  {
+   "id": "C6-ART-646",
+   "chapter": 6,
+   "article": "646",
+   "section": "646",
+   "title": "Article 646 — Modular Data Centers",
+   "plain_explanation": "Intro: factory-built data center modules treated as listed equipment with their own supply, disconnect, and grounding rules. Added in an earlier cycle (2014), not new in 2020.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-645",
+   "next_id": "C6-ART-647"
+  },
+  {
+   "id": "C6-ART-647",
+   "chapter": 6,
+   "article": "647",
+   "section": "647",
+   "title": "Article 647 — Sensitive Electronic Equipment",
+   "plain_explanation": "Intro: the 120V, single-phase, center-tapped 60V-to-ground 'balanced' power system for audio/video production and similar noise-sensitive work, with its own receptacle and grounding rules. Rare and always engineered — never improvise one.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-646",
+   "next_id": "C6-ART-650"
+  },
+  {
+   "id": "C6-ART-650",
+   "chapter": 6,
+   "article": "650",
+   "section": "650",
+   "title": "Article 650 — Pipe Organs",
+   "plain_explanation": "Intro: low-voltage organ action circuits, blower motors, and the separation rules between them. Church work only; recognize and route to the article.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-647",
+   "next_id": "C6-ART-660"
+  },
+  {
+   "id": "C6-ART-660",
+   "chapter": 6,
+   "article": "660",
+   "section": "660",
+   "title": "Article 660 — X-Ray Equipment",
+   "plain_explanation": "Intro: disconnect, control, and transformer rules for medical, dental, and industrial X-ray equipment, including the momentary-rating allowances for diagnostic equipment. Healthcare work coordinates with Article 517.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-650",
+   "next_id": "C6-ART-665"
+  },
+  {
+   "id": "C6-ART-665",
+   "chapter": 6,
+   "article": "665",
+   "section": "665",
+   "title": "Article 665 — Induction and Dielectric Heating Equipment",
+   "plain_explanation": "Intro: industrial heating equipment — shielding, grounding of high-frequency equipment, and disconnect rules. Industrial only.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-660",
+   "next_id": "C6-ART-668"
+  },
+  {
+   "id": "C6-ART-668",
+   "chapter": 6,
+   "article": "668",
+   "section": "668",
+   "title": "Article 668 — Electrolytic Cells",
+   "plain_explanation": "Intro: cell-line working spaces, cranes over cells, and the rule that cell-line conductors and attachments are not treated as ordinary grounded systems. Heavy industrial only.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-665",
+   "next_id": "C6-ART-669"
+  },
+  {
+   "id": "C6-ART-669",
+   "chapter": 6,
+   "article": "669",
+   "section": "669",
+   "title": "Article 669 — Electroplating",
+   "plain_explanation": "Intro: low-voltage, high-current plating supplies — busbar and conductor rules for electroplating and anodizing lines. Industrial only.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-668",
+   "next_id": "C6-ART-670"
+  },
+  {
+   "id": "C6-ART-670",
+   "chapter": 6,
+   "article": "670",
+   "section": "670",
+   "title": "Article 670 — Industrial Machinery",
+   "plain_explanation": "Intro: the nameplate, supply-conductor, and overcurrent rules for industrial machines with combined motor and control loads — the machine's nameplate current, not a 430 calculation, drives the supply sizing.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-669",
+   "next_id": "C6-ART-675"
+  },
+  {
+   "id": "C6-ART-675",
+   "chapter": 6,
+   "article": "675",
+   "section": "675",
+   "title": "Article 675 — Electrically Driven or Controlled Irrigation Machines",
+   "plain_explanation": "Intro: center-pivot and similar irrigation machines — collector rings, grounding, and the disconnect that must be able to stop the whole machine. Agricultural work across Sharma's rural counties.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-670",
+   "next_id": "C6-ART-680"
+  },
+  {
+   "id": "C6-ART-680",
+   "chapter": 6,
+   "article": "680",
+   "section": "680",
+   "title": "Article 680 — Swimming Pools, Fountains, and Similar Installations",
+   "plain_explanation": "Article 680 is organized by installation type, and the first job on any pool is knowing which part you are in: Part I general rules ride with every part; Part II is permanently installed pools; Part III storable pools; Part IV spas and hot tubs; Part V fountains; Part VII hydromassage bathtubs; Part VIII pool lifts. Two systems run through all of it and must never be confused: grounding (the fault path back to the source) and equipotential bonding under 680.26 (tying everything a swimmer can touch to one potential). Florida is pool country — this is the highest-value article in the chapter for Sharma.",
+   "on_the_job": "Classify the install before pricing: a storable pool, an outdoor spa, and a permanently installed pool carry three different rule sets out of the same article.",
+   "sharma_note": "",
+   "figure_idea": "Pool cross-section with callouts: receptacle band 6–20 ft, bonding ring under the deck, deck box at 4 ft, overhead clearance arrows.",
+   "related_ids": [
+    "C6-680.21(C)",
+    "C6-680.22(A)",
+    "C6-680.26",
+    "L-086",
+    "L-087",
+    "L-088",
+    "Q-059",
+    "Q-060",
+    "O-08"
+   ],
+   "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-675",
+   "next_id": "C6-680.9"
+  },
+  {
+   "id": "C6-680.9",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.9",
+   "title": "Overhead conductor clearances",
+   "plain_explanation": "In the 2020 edition the overhead rules live at 680.9(A) with Table 680.9(A) — older sources that cite 680.8 are working from a previous edition. The clearance in any direction from the water level, the edge of a diving structure, or the base of a diving platform is 22.5 ft for the conductors the table covers. Measured from maximum water level, the clearance to an observation stand, tower, or diving platform is 14.5 ft. All clearances are measured from maximum water level, not from the deck.",
+   "on_the_job": "Survey the overhead lines before the pool layout is final — moving a pool shell is cheaper than relocating a service drop, and 22.5 ft in ANY direction includes diagonals.",
+   "sharma_note": "",
+   "figure_idea": "Elevation sketch: pool, diving board, and an overhead line with the 22.5 ft diagonal arrow.",
+   "related_ids": [
+    "C6-L-018",
+    "C6-L-019"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-680",
+   "next_id": "C6-680.11"
+  },
+  {
+   "id": "C6-680.11",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.11",
+   "title": "Underground wiring",
+   "plain_explanation": "Underground wiring is not permitted under a pool or within 5 ft horizontally of the inside wall unless it is necessary to supply pool equipment permitted by the article. Wiring in that zone uses the article's listed raceway methods, and equipment grounding follows the pool rules — when in doubt, route around the 5 ft band.",
+   "on_the_job": "Keep site lighting and landscape conduits out of the 5 ft band unless they serve the pool itself.",
+   "sharma_note": "",
+   "figure_idea": "Plan view: pool shell with the 5 ft underground-wiring band shaded.",
+   "related_ids": [
+    "C6-L-017"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.9",
+   "next_id": "C6-680.21(A)"
+  },
+  {
+   "id": "C6-680.21(A)",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.21(A)",
+   "title": "Motor wiring and equipment grounding conductor",
+   "plain_explanation": "Pool motor circuits carry an insulated copper equipment grounding conductor sized per 250.122 — and never smaller than 12 AWG, even where Table 250.122 would allow smaller. The insulated EGC (not a bare conductor in the raceway) is the pool difference inspectors look for at the equipment pad.",
+   "on_the_job": "Pull a green insulated 12 AWG minimum EGC on every pool motor circuit, whatever the breaker size.",
+   "sharma_note": "",
+   "figure_idea": "Equipment pad raceway opened: insulated green EGC alongside the circuit conductors.",
+   "related_ids": [
+    "C6-L-015"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.11",
+   "next_id": "C6-680.21(C)"
+  },
+  {
+   "id": "C6-680.21(C)",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.21(C)",
+   "title": "GFCI protection for pool motors — re-checked",
+   "plain_explanation": "GFCI protection is required for outlets supplying pool motors on branch circuits rated 150V or less to ground and 60A or less, single-phase or three-phase — by receptacle or by direct connection. This was one of the figures re-checked against 2020-based sources before this chapter was written, and the v1 lookup (L-088) states it correctly: the scope is all pool motors inside those ratings, not just cord-and-plug pumps.",
+   "on_the_job": "A hardwired 240V pool pump needs GFCI protection just as much as a plug-in one — plan the protection device at design, not at the final walk.",
+   "sharma_note": "Sharma note: like 625.54, a 240V pool circuit is not an S-07 120V DFN point. Meet 680.21(C) with the listed method specified for the job; device choice is Mike/Sanjay's per job.",
+   "figure_idea": "Pump circuit showing GFCI protection device ahead of a hardwired motor.",
+   "related_ids": [
+    "C6-L-014",
+    "L-088",
+    "S-07"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [
+    "S-07"
+   ],
+   "prev_id": "C6-680.21(A)",
+   "next_id": "C6-680.21(D)"
+  },
+  {
+   "id": "C6-680.21(D)",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.21(D)",
+   "title": "Replacement pump motors",
+   "plain_explanation": "Where a pool pump motor is replaced, the replacement work must provide the GFCI protection 680.21(C) requires for that outlet. A service call that swaps a motor on an old unprotected circuit does not get to leave it unprotected.",
+   "on_the_job": "Service crews: a motor swap triggers the GFCI upgrade — quote it with the replacement, not as a surprise.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-L-016"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.21(C)",
+   "next_id": "C6-680.22(A)"
+  },
+  {
+   "id": "C6-680.22(A)",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.22(A)",
+   "title": "Receptacles — the 2020 lettering",
+   "plain_explanation": "The 2020 lettering, re-checked before writing: (A)(1) the required receptacle for a permanently installed pool — not less than 6 ft and not more than 20 ft from the inside wall of the pool, and not more than 6 ft 6 in. above the floor, platform, or grade serving the pool. (A)(2) receptacles serving pool circulation and sanitation equipment — not less than 6 ft away, single receptacle, grounding type, GFCI protected. (A)(3) all other receptacles — not less than 6 ft from the inside wall. (A)(4) GFCI protection for all 125V, single-phase, 15A and 20A receptacles located within 20 ft of the inside wall. (A)(5) distances are measured as the shortest path a supply cord would follow without passing through a floor, wall, ceiling, doorway, window, or other effective barrier. Older sources print different letters for the same rules — cite the 2020 letters.",
+   "on_the_job": "Lay out the required receptacle in the 6–20 ft band at rough-in, and remember the tape follows the cord path, not a straight line through a screen wall.",
+   "sharma_note": "",
+   "figure_idea": "Plan view: 6 ft inner line, 20 ft outer line, required receptacle between them; cord-path measurement around a barrier.",
+   "related_ids": [
+    "C6-L-011",
+    "C6-L-012",
+    "C6-L-013",
+    "L-086",
+    "Q-059"
+   ],
+   "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.21(D)",
+   "next_id": "C6-680.22(B)"
+  },
+  {
+   "id": "C6-680.22(B)",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.22(B)",
+   "title": "Lighting and fans over and near the pool",
+   "plain_explanation": "New luminaires, lighting outlets, and ceiling fans installed above a pool or within 5 ft horizontally of the inside wall must be at least 12 ft above maximum water level (B)(1). Existing luminaires and fans in that zone may remain where they are at least 5 ft above the water, rigidly attached, and GFCI protected (B)(3). In the band from 5 to 10 ft horizontally, luminaires need GFCI protection unless they are at least 5 ft above the water and rigidly attached (B)(4). Listed low-voltage luminaires have their own path through 680.23(A)(2) (B)(6).",
+   "on_the_job": "Screen-enclosure and lanai lights over Florida pools land in this section constantly — measure from maximum water level, not the deck.",
+   "sharma_note": "",
+   "figure_idea": "Elevation: new fixture at 12 ft over water; existing fixture grandfathered at 5 ft with GFCI.",
+   "related_ids": [
+    "C6-L-020",
+    "C6-L-021"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.22(A)",
+   "next_id": "C6-680.23"
+  },
+  {
+   "id": "C6-680.23",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.23",
+   "title": "Underwater luminaires",
+   "plain_explanation": "Underwater luminaires must be listed for the purpose and installed by niche type — wet-niche, dry-niche, or no-niche — with transformers and power supplies for low-voltage units listed for pool use under 680.23(A)(2). Units operating above the low-voltage contact limit get GFCI protection. Wall-mounted units sit with the top of the lens at least 18 in. below the normal water level unless the luminaire is listed and marked for use at a lesser depth.",
+   "on_the_job": "The light, its niche, its transformer, and its junction box are one system — check all four against the listing.",
+   "sharma_note": "",
+   "figure_idea": "Wet-niche luminaire cross-section with the 18 in. lens depth marked.",
+   "related_ids": [
+    "C6-L-022",
+    "C6-680.24(A)"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.22(B)",
+   "next_id": "C6-680.24(A)"
+  },
+  {
+   "id": "C6-680.24(A)",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.24(A)",
+   "title": "Junction boxes for underwater luminaires",
+   "plain_explanation": "A junction box tied to a conduit running directly to an underwater luminaire forming shell must be listed, labeled, and identified as a swimming pool junction box, located not less than 4 ft from the inside wall of the pool (unless separated by a solid fence, wall, or other permanent barrier), and at an elevation of not less than 4 in. above the ground or pool deck, or not less than 8 in. above maximum water level — whichever gives the greater elevation. A flush deck box is permitted only for systems at or below the low-voltage contact limit, and still at least 4 ft out.",
+   "on_the_job": "Set the deck box on the tape and the level at rough-in; 'close enough' fails on both numbers.",
+   "sharma_note": "",
+   "figure_idea": "Deck box elevation sketch — 8 in. above max water, 4 in. above deck, 4 ft from inside wall.",
+   "related_ids": [
+    "C6-L-023"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.23",
+   "next_id": "C6-680.26"
+  },
+  {
+   "id": "C6-680.26",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.26",
+   "title": "Equipotential bonding — the idea",
+   "plain_explanation": "Bonding around a pool is not grounding. Its job is to tie everything a swimmer can touch into one equipotential mass so there is no voltage difference between the water, the deck, a ladder, and the pump — because it is the difference, not the voltage alone, that drives current through a person. The bonding system is not required to extend back to a panelboard, a service disconnect, or a grounding electrode, and it never substitutes for the equipment grounding conductor in the branch circuit.",
+   "on_the_job": "Two systems, two purposes: the green EGC carries fault current home; the bare 8 AWG bonding grid kills voltage differences. Crews who can say that sentence pass pool inspections.",
+   "sharma_note": "",
+   "figure_idea": "Swimmer touching a ladder and the water, both bonded to the same grid — no potential difference arrows.",
+   "related_ids": [
+    "C6-L-024",
+    "L-087",
+    "Q-060"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.24(A)",
+   "next_id": "C6-680.26(B)"
+  },
+  {
+   "id": "C6-680.26(B)",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.26(B)",
+   "title": "Equipotential bonding — what gets bonded, and how",
+   "plain_explanation": "The parts in 680.26(B)(1) through (B)(7) are bonded together with a solid copper conductor not smaller than 8 AWG, connected with a listed pressure connector, a terminal bar, or another listed means per 250.8(A): (B)(1) conductive pool shells (reinforcing steel, or the listed alternate grid for nonconductive shells); (B)(2) perimeter surfaces (next page); (B)(3) metallic components; (B)(4) underwater lighting forming shells and mounting brackets; (B)(5) metal fittings larger than 4 in. that penetrate the shell; (B)(6) electrical equipment — with the (B)(6)(a) exception path that lets a double-insulated replacement pump connect by an 8 AWG tail to the grid; and (B)(7) fixed metal parts within 5 ft horizontally of the inside walls (with the vertical-separation exception at 12 ft).",
+   "on_the_job": "Walk the (B) list physically at rough-in — shell, steel, fittings, equipment, nearby metal — before anything is buried or shot.",
+   "sharma_note": "",
+   "figure_idea": "Bonding grid plan with the seven (B) categories called out.",
+   "related_ids": [
+    "C6-L-025",
+    "C6-L-028",
+    "C6-L-029",
+    "L-087",
+    "Q-060"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.26",
+   "next_id": "C6-680.26(B)(2)"
+  },
+  {
+   "id": "C6-680.26(B)(2)",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.26(B)(2)",
+   "title": "Perimeter surfaces — the ring",
+   "plain_explanation": "The bonded perimeter surface extends 3 ft beyond the inside walls of the pool. Where the ring method is used, it is one or more bare solid copper conductors not smaller than 8 AWG, laid 18 to 24 in. out from the inside walls and 4 to 6 in. below the subgrade, and attached to the pool's reinforcing steel or copper grid at a minimum of four uniformly spaced points. The perimeter rule exists so the deck a wet swimmer stands on is at the same potential as the water.",
+   "on_the_job": "Set the ring before pavers or deck pour — depth and distance are both inspection points, and neither can be fixed after the deck is down.",
+   "sharma_note": "",
+   "figure_idea": "Section through the deck edge: ring at 18–24 in. out, 4–6 in. below subgrade, tie points marked.",
+   "related_ids": [
+    "C6-L-026"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.26(B)",
+   "next_id": "C6-680.26(C)"
+  },
+  {
+   "id": "C6-680.26(C)",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.26(C)",
+   "title": "Pool water bonding — 9 square inches",
+   "plain_explanation": "The pool water itself must be bonded. Where a bonded part (a ladder rail, a light niche, a fitting) is already in direct contact with the water, that contact does the job. Where nothing bonded touches the water, an approved corrosion-resistant conductive surface of at least 9 sq in. must be in contact with it — the familiar listed water-bonding fitting in the skimmer or pump line.",
+   "on_the_job": "All-plastic pools with vinyl liners and no metal in the water are the trap — check for the 9 sq in. contact on every job.",
+   "sharma_note": "",
+   "figure_idea": "Skimmer with a listed water-bond plate, 9 sq in. dimensioned.",
+   "related_ids": [
+    "C6-L-027"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.26(B)(2)",
+   "next_id": "C6-680.30"
+  },
+  {
+   "id": "C6-680.30",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.30",
+   "title": "Storable pools — Parts I and III only",
+   "plain_explanation": "A storable pool (and a storable spa or hot tub) is governed by Parts I and III of Article 680 — and 680.26 equipotential bonding does not apply to it. The pump and equipment rules of Part III substitute for the Part II regime. Classification is the whole game: the same backyard water is a different code job depending on whether the pool is storable or permanently installed.",
+   "on_the_job": "Don't bond a storable pool like a gunite pool, and don't wire a permanent pool like a storable one — confirm which it is before the quote.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-L-030"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.26(C)",
+   "next_id": "C6-680.40"
+  },
+  {
+   "id": "C6-680.40",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.40",
+   "title": "Spas and hot tubs — Parts I and IV (outdoor adds Part II)",
+   "plain_explanation": "Spas and hot tubs are governed by Parts I and IV, and an outdoor spa also picks up the Part II rules that Part IV references (680.42) — receptacle distances, GFCI, and bonding arrive through that door. A self-contained factory spa package still lands on an installation that must meet the article; the listing doesn't waive the field wiring rules.",
+   "on_the_job": "Outdoor spa on a lanai: run the Part II checklist (distances, GFCI, bonding) even though the tub arrived as one box.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-680.41",
+    "C6-L-031"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.30",
+   "next_id": "C6-680.41"
+  },
+  {
+   "id": "C6-680.41",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.41",
+   "title": "Spa emergency shutoff — 5 ft, in sight, labeled",
+   "plain_explanation": "Spas and hot tubs (other than at one-family dwellings) must have an emergency shutoff for the recirculation and jet system: readily accessible, adjacent to and within sight of the tub, at least 5 ft away from it, and clearly labeled as the emergency shutoff. The 5 ft floor keeps a person in the water from reaching it; the in-sight rule lets a bystander find it.",
+   "on_the_job": "Hotels, condos, and amenity centers need the shutoff; a single-family backyard spa does not — know which job you're on before omitting it.",
+   "sharma_note": "",
+   "figure_idea": "Amenity-center spa with the labeled shutoff on the wall 5 ft away, in sight.",
+   "related_ids": [
+    "C6-L-031"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.40",
+   "next_id": "C6-680.43"
+  },
+  {
+   "id": "C6-680.43",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.43",
+   "title": "Indoor spas and hot tubs",
+   "plain_explanation": "Indoor spa installations are governed by Parts I and II as modified by 680.43 — including the indoor receptacle placement rules at 680.43(A) and the switch distance at 680.43(C), which places switches at least 5 ft from the inside walls unless separated by a permanent barrier.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-680.40"
+   ],
+   "florida_note": "",
+   "verified": false,
+   "unverified_reason": "The Part I/II framework and the 680.43(C) 5 ft switch distance are verified for 2020, but the indoor receptacle band detail was carried from a review of an earlier edition; the 2020 lettering of 680.43(A) is held unverified for Mike Holt's check.",
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.41",
+   "next_id": "C6-680.50"
+  },
+  {
+   "id": "C6-680.50",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.50",
+   "title": "Fountains — Parts I and V",
+   "plain_explanation": "Fountains are governed by Parts I and V, and where people can enter the water (an interactive fountain or splash feature), the referenced Part II rules come in as well. Fountain equipment — submersible pumps, luminaires, and their supplies — is pool-grade listed equipment, not landscape-lighting stock.",
+   "on_the_job": "A 'decorative fountain' that kids can wade in is not wired like a dry-deck ornament — ask about entry before pricing.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-680.51"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.43",
+   "next_id": "C6-680.51"
+  },
+  {
+   "id": "C6-680.51",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.51",
+   "title": "Fountains — GFCI for submersible equipment",
+   "plain_explanation": "Under 680.51(A), GFCI protection is required for fountain luminaires, submersible pumps, and other submersible equipment, unless the equipment is a listed low-voltage system supplied through the 680.23(A)(2) path. If it lives under fountain water and runs on line voltage, it is GFCI protected — no exceptions by habit.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-L-032"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.50",
+   "next_id": "C6-680.71"
+  },
+  {
+   "id": "C6-680.71",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.71",
+   "title": "Hydromassage bathtubs — Part VII only",
+   "plain_explanation": "A hydromassage bathtub (the jetted tub in a bathroom) is governed by Part VII alone — it does not pick up the pool and spa parts. The unit must be on an individual branch circuit with readily accessible GFCI protection; 125V receptacles rated 30A or less within 6 ft of the tub need GFCI protection; the other electrical equipment in the room stays under Chapters 1–4 (680.72); and the equipment must remain accessible without damaging the building finish (680.73) — the access panel is a code item, not a courtesy.",
+   "on_the_job": "Master-bath remodels: dedicated circuit, accessible GFCI (a faceless device or GFCI breaker where the tub blocks access), and an access panel that actually opens.",
+   "sharma_note": "",
+   "figure_idea": "Jetted tub with access panel open, pump and GFCI visible.",
+   "related_ids": [
+    "C6-L-033"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.51",
+   "next_id": "C6-680.80"
+  },
+  {
+   "id": "C6-680.80",
+   "chapter": 6,
+   "article": "680",
+   "section": "680.80",
+   "title": "Pool lifts — Part VIII",
+   "plain_explanation": "Part VIII covers electrically operated pool lifts (the accessibility lifts at commercial and amenity pools): listed equipment, GFCI protection for the lift circuit, and bonding of the lift into the pool's equipotential system where Part II applies.",
+   "on_the_job": "Amenity-pool ADA work: the lift is electrical scope — include its circuit and bonding in the pool price.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.71",
+   "next_id": "C6-ART-682"
+  },
+  {
+   "id": "C6-ART-682",
+   "chapter": 6,
+   "article": "682",
+   "section": "682",
+   "title": "Article 682 — Natural and Artificially Made Bodies of Water",
+   "plain_explanation": "Intro: electrical installations in and around lakes, ponds, and similar natural or artificial bodies of water that are not pools or fountains — floating structures, docks outside Article 555's scope, and equipment near the water's edge. Florida lakefront work lands here; the shock-hazard logic follows Article 680's thinking.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-680.80",
+   "next_id": "C6-ART-685"
+  },
+  {
+   "id": "C6-ART-685",
+   "chapter": 6,
+   "article": "685",
+   "section": "685",
+   "title": "Article 685 — Integrated Electrical Systems",
+   "plain_explanation": "Intro: orderly shutdown and interconnection rules for integrated electrical systems in industrial and large facilities where a single failure must not cascade. Specialty engineering territory; recognize the article.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-682",
+   "next_id": "C6-ART-690"
+  },
+  {
+   "id": "C6-ART-690",
+   "chapter": 6,
+   "article": "690",
+   "section": "690",
+   "title": "Article 690 — Solar Photovoltaic (PV) Systems",
+   "plain_explanation": "Article 690 covers PV systems from the module terminals to the point of connection: how circuit current is figured (690.8), how conductors and overcurrent devices are sized (690.8, 690.9), maximum voltage (690.7), ground-fault and arc-fault protection (690.5, 690.11), rapid shutdown on buildings (690.12), disconnects (690.13, 690.15), and the marking that tells the next person — and the fire department — what the system is (690.56). Interconnection to the premises system runs through Article 705: the 120% bus rule lives at 705.12(B)(3)(2) in Chapter 7 and is deliberately not repeated here.",
+   "on_the_job": "Sharma's solar-adjacent work is mostly service, additions, and builder rough-ins that a solar contractor finishes — the disconnect, marking, and rapid-shutdown pages are the ones that decide whose inspection fails.",
+   "sharma_note": "",
+   "figure_idea": "Rooftop array with the 1 ft rapid-shutdown boundary drawn around it; initiation device at the service.",
+   "related_ids": [
+    "C6-690.7",
+    "C6-690.8",
+    "C6-690.12",
+    "L-093"
+   ],
+   "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-685",
+   "next_id": "C6-690.5"
+  },
+  {
+   "id": "C6-690.5",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.5",
+   "title": "Ground-fault protection",
+   "plain_explanation": "PV systems must be provided with ground-fault protection meeting this section: the system detects a ground fault in the DC circuits, interrupts the faulted circuit, and indicates the fault, using equipment listed for PV ground-fault protection. It is the DC-side companion to 690.11's arc-fault protection — ground faults and series arcs are different failures and one device does not cover both.",
+   "on_the_job": "On a service call, a tripped ground-fault indication inside the inverter is a find-the-fault call, not a reset-and-leave call.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-690.11"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-690",
+   "next_id": "C6-690.7"
+  },
+  {
+   "id": "C6-690.7",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.7",
+   "title": "Maximum voltage — correct Voc for cold",
+   "plain_explanation": "A PV string's voltage is not its nameplate total. Module open-circuit voltage rises as temperature falls, so maximum system voltage is calculated from the sum of the series modules' rated open-circuit voltages corrected to the lowest expected ambient temperature at the site, using the manufacturer's temperature coefficient of Voc — the 2020 edition dropped the old correction-factor table in favor of the coefficient method. The corrected voltage must not exceed the rated voltage of the connected equipment (inverter input, disconnects, conductors), and maximum PV system voltage for one- and two-family dwellings is limited to 600V.",
+   "on_the_job": "Size the string on the coldest bright morning of the year, not on the day of the install — over-voltage on a frosty sunrise is the failure this section exists to prevent. Flagged for Mike: two secondary sources still print a Table 690.7(A); the detailed 2020 change accounts say the table was removed, and this page follows the coefficient method.",
+   "sharma_note": "",
+   "figure_idea": "Thermometer at dawn beside an array; Voc arrow rising as the temperature falls; 600V dwelling cap marked.",
+   "related_ids": [
+    "C6-L-051"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.5",
+   "next_id": "C6-690.8"
+  },
+  {
+   "id": "C6-690.8",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.8",
+   "title": "Circuit current and conductor sizing",
+   "plain_explanation": "PV current is figured on the article's own multipliers, not on load estimates. (A) The maximum current for a PV source circuit is the sum of the parallel module short-circuit currents multiplied by 125%. (B) Conductors are then sized at the larger of two numbers: 125% of the (A) current before any temperature correction or adjustment factors, or 100% of the (A) current after those factors are applied. Both checks must be run — either one can govern depending on the rooftop temperature and fill.",
+   "on_the_job": "Do the two-step check on paper; hot Florida rooftops make the after-correction figure govern more often than installers expect.",
+   "sharma_note": "",
+   "figure_idea": "Worksheet sketch: parallel Isc sum × 1.25, then the two conductor checks side by side.",
+   "related_ids": [
+    "C6-L-034",
+    "C6-L-035"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.7",
+   "next_id": "C6-690.9"
+  },
+  {
+   "id": "C6-690.9",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.9",
+   "title": "Overcurrent protection",
+   "plain_explanation": "Where overcurrent protection is required for a PV circuit, the device rating is not less than 125% of the maximum current figured under 690.8(A). The section also states the two-condition case in which no overcurrent device is required at all — conductors sized for the full available current and no external source able to backfeed beyond their ampacity. String fusing questions are answered by applying those conditions, not by habit.",
+   "on_the_job": "Three or more parallel strings is where the backfeed condition usually starts to bite — check it before deciding fuses are 'never needed' or 'always needed.'",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-L-036"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.8",
+   "next_id": "C6-690.11"
+  },
+  {
+   "id": "C6-690.11",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.11",
+   "title": "Arc-fault circuit protection (DC)",
+   "plain_explanation": "PV systems with DC circuits operating at 80V dc or greater between any two conductors must be protected by a listed PV arc-fault circuit interrupter, or other listed system components providing equivalent protection. The protection must detect and interrupt arcing faults caused by a failure in the intended continuity of a conductor, connection, module, or other component in the PV DC circuits. Exception: systems not installed on or in buildings, with the DC circuits in metallic raceways or metal-clad cables, in enclosed metallic cable trays, or underground.",
+   "on_the_job": "Loose MC4-style connections are the classic series-arc source — connector discipline on the roof is what keeps this protection from ever having to work.",
+   "sharma_note": "",
+   "figure_idea": "Series arc at a failed connection, AFCI device interrupting the string.",
+   "related_ids": [
+    "C6-L-052",
+    "C6-690.5"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.9",
+   "next_id": "C6-690.12"
+  },
+  {
+   "id": "C6-690.12",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.12",
+   "title": "Rapid shutdown of PV systems on buildings",
+   "plain_explanation": "Rapid shutdown controls PV conductors on and in buildings to protect firefighters. The array boundary is 1 ft from the array in all directions. Outside the boundary — and for conductors more than 3 ft from the point of entry into the building — controlled conductors must be limited to not more than 30V within 30 seconds of initiation. Inside the boundary, the installation must use one of the section's paths: a listed PV hazard control system (PVHCS, UL 3741), or conductors limited to not more than 80V within 30 seconds, or an array with no exposed wiring methods or conductive parts and installed not less than 8 ft from exposed grounded conductive parts. The v1 lookup L-093 covers this section and is linked, not rewritten.",
+   "on_the_job": "Module-level shutdown electronics are the common residential path; whichever path is chosen, the initiation device and its label (690.12(C), 690.56) are what the inspector and the fire crew actually look for.",
+   "sharma_note": "",
+   "figure_idea": "Roof plan: array, 1 ft boundary line, conductor leaving the boundary tagged '30V in 30 s.'",
+   "related_ids": [
+    "C6-L-037",
+    "C6-L-038",
+    "L-093",
+    "C6-690.12(C)"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.11",
+   "next_id": "C6-690.12(C)"
+  },
+  {
+   "id": "C6-690.12(C)",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.12(C)",
+   "title": "Rapid shutdown initiation device",
+   "plain_explanation": "The initiation device must be readily accessible, must clearly indicate whether it is in the off (shutdown initiated) or on position, and may be the service disconnect, the PV system disconnect, or another listed switch. For one- and two-family dwellings, the initiation device must be located at a readily accessible location outside the building — the fire crew does not enter the house to shut the array down.",
+   "on_the_job": "On dwelling jobs, walk out front and find the initiation point the way a firefighter would — if you can't, neither can they.",
+   "sharma_note": "",
+   "figure_idea": "Initiation switch beside the meter on an exterior wall, placard visible from the driveway.",
+   "related_ids": [
+    "C6-L-039",
+    "C6-690.56"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.12",
+   "next_id": "C6-690.13"
+  },
+  {
+   "id": "C6-690.13",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.13",
+   "title": "PV system disconnecting means",
+   "plain_explanation": "The PV system disconnecting means must be readily accessible, indicate whether it is open or closed, be permanently marked as the photovoltaic system disconnect, and be capable of being locked in the open position per 110.25. Where the PV disconnect is not at the service, the directory and plaque rules of 690.56 point back to it.",
+   "on_the_job": "One obvious, labeled PV disconnect — 'somewhere in the inverter menu' is not a disconnecting means.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-L-040"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.12(C)",
+   "next_id": "C6-690.15"
+  },
+  {
+   "id": "C6-690.15",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.15",
+   "title": "Disconnection of PV equipment",
+   "plain_explanation": "Equipment disconnecting means must open all ungrounded conductors from all sources — on a PV job that means the utility side and the array side, and on hybrid systems the storage side too. A disconnect that isolates the inverter from the grid but leaves it connected to a live array has not made the equipment safe to service.",
+   "on_the_job": "Before opening an inverter, verify both sides are dead — the array makes power whenever the sun is up.",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [
+    "C6-L-041"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.13",
+   "next_id": "C6-690.56"
+  },
+  {
+   "id": "C6-690.56",
+   "chapter": 6,
+   "article": "690",
+   "section": "690.56",
+   "title": "Marking — plaques, directories, and the rapid shutdown label",
+   "plain_explanation": "PV systems carry permanent plaques and directories: a stand-alone system follows the directory rule of 710.10, and a system interconnected with another source follows 705.10, so the sources at a building can be found from the service equipment. The rapid shutdown label — stating that the system is equipped with rapid shutdown — goes on or within 3 ft of the initiation device, in capital letters at least 3/8 in. high, white on a red background. Marking is not paperwork; it is the part of the system the fire department uses.",
+   "on_the_job": "Carry the red RSD labels in the truck stock — a missing 3/8 in. label fails finals.",
+   "sharma_note": "",
+   "figure_idea": "Red-and-white rapid shutdown placard beside the service disconnect, letters dimensioned 3/8 in.",
+   "related_ids": [
+    "C6-L-042",
+    "C6-690.12(C)"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.15",
+   "next_id": "C6-ART-691"
+  },
+  {
+   "id": "C6-ART-691",
+   "chapter": 6,
+   "article": "691",
+   "section": "691",
+   "title": "Article 691 — Large-Scale Photovoltaic (PV) Electric Supply Stations",
+   "plain_explanation": "Intro: utility-scale PV plants of 5 MW and up — engineered installations with their own access, fencing, and documentation rules. Added in the 2017 edition, not new in 2020. Sharma does not build these; recognize the article so a plant job is never priced from residential 690 habits.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-690.56",
+   "next_id": "C6-ART-692"
+  },
+  {
+   "id": "C6-ART-692",
+   "chapter": 6,
+   "article": "692",
+   "section": "692",
+   "title": "Article 692 — Fuel Cell Systems",
+   "plain_explanation": "Intro: fuel cell power systems — output circuits, disconnects, and interconnection of a chemical generator that runs whenever fuel is present. Specialty work; the disconnect and marking pages matter when one appears on a commercial job.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-691",
+   "next_id": "C6-ART-694"
+  },
+  {
+   "id": "C6-ART-694",
+   "chapter": 6,
+   "article": "694",
+   "section": "694",
+   "title": "Article 694 — Wind Electric Systems",
+   "plain_explanation": "Intro: small wind systems — turbines, towers, and their disconnects and grounding, including the rule that the turbine itself is part of the electrical system. Rare in Sharma's counties; recognize and route.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-692",
+   "next_id": "C6-ART-695"
+  },
+  {
+   "id": "C6-ART-695",
+   "chapter": 6,
+   "article": "695",
+   "section": "695",
+   "title": "Article 695 — Fire Pumps",
+   "plain_explanation": "Article 695 exists for one reason: the fire pump must run, even at the cost of the equipment itself. Everything in it runs backward from ordinary motor practice — sources are chosen for reliability above all (695.3), overcurrent devices are sized to carry locked-rotor current indefinitely rather than to trip (695.4), and disconnects are arranged so the pump cannot be casually shut off. Recognition level is the right depth for Sharma: this is engineered, AHJ-scrutinized work, and the pages here cover what to recognize and what never to improvise. The article does not apply to sprinkler-system pumps at one- and two-family dwellings, and pressure-maintenance (jockey) pumps sit outside its scope as pumps — though their current counts in the 695.3 source sizing.",
+   "on_the_job": "If a bid touches a fire pump, the electrical design comes from the engineer of record and NFPA 20 — Sharma prices the installation of a designed system, never a redesign in the field.",
+   "sharma_note": "",
+   "figure_idea": "Fire pump room: controller, dedicated disconnect placarded in 1 in. letters, transfer equipment in the room.",
+   "related_ids": [
+    "C6-695.3",
+    "C6-695.4",
+    "C6-695.5",
+    "C6-695.7",
+    "C6-L-047",
+    "C6-L-048"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-694",
+   "next_id": "C6-695.3"
+  },
+  {
+   "id": "C6-695.3",
+   "chapter": 6,
+   "article": "695",
+   "section": "695.3",
+   "title": "Power sources — reliable, and sized for locked rotor",
+   "plain_explanation": "The fire pump supply must come from a reliable source, and the source is sized to carry the locked-rotor current of the fire pump motor(s) plus the pressure-maintenance pump motors, plus 100% of the accessory equipment load — locked rotor, not full load, is the design event. Permitted arrangements include a separate utility service arranged remote from the normal service, a tap ahead of (but not within the enclosure of) the normal service disconnect, and an on-site standby generator protected against fire damage. Where transfer equipment is used, it sits in the fire pump room (695.3(F)). Phase converters are not permitted as the supply (695.3(I)).",
+   "on_the_job": "Recognize the tap-ahead-of-the-main arrangement when you see it on existing work — it is deliberate, not a violation.",
+   "sharma_note": "",
+   "figure_idea": "One-line: normal service and fire pump tap ahead of the main, generator as second source.",
+   "related_ids": [
+    "C6-L-048"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-ART-695",
+   "next_id": "C6-695.4"
+  },
+  {
+   "id": "C6-695.4",
+   "chapter": 6,
+   "article": "695",
+   "section": "695.4",
+   "title": "Continuity of power — protection that refuses to trip",
+   "plain_explanation": "Continuity rules invert ordinary practice. A single disconnecting means is permitted where it is listed for fire pump service together with the controller (or transfer switch) it feeds. Its overcurrent device is selected to carry, indefinitely, the sum of the locked-rotor currents of the fire pump and pressure-maintenance motors plus the full accessory load, and it must be listed for fire pump use. The disconnect must be lockable in the closed position — the opposite of the elevator rule — and is identified with permanently marked letters not less than 1 in. high as a fire pump disconnect. No ground-fault protection of equipment is applied to the fire pump circuit: anything that can shut the pump down on a fault that isn't a short circuit is designed out.",
+   "on_the_job": "Field recognition: a fire pump disconnect that looks 'oversized' and is locked ON is correct. Never 'fix' one to ordinary motor sizing.",
+   "sharma_note": "",
+   "figure_idea": "Disconnect placard: 'FIRE PUMP DISCONNECT' in 1 in. letters, lock through the closed-position hasp.",
+   "related_ids": [
+    "C6-L-047"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-695.3",
+   "next_id": "C6-695.5"
+  },
+  {
+   "id": "C6-695.5",
+   "chapter": 6,
+   "article": "695",
+   "section": "695.5",
+   "title": "Transformers — dedicated and oversized",
+   "plain_explanation": "A transformer supplying a fire pump installation is dedicated to that service and sized at not less than 125% of the fire pump and pressure-maintenance motor loads, plus 100% of the accessory equipment supplied by it. Its overcurrent protection follows the same carry-indefinitely philosophy as 695.4 — the transformer protection is not allowed to become the weak link that stops the pump.",
+   "on_the_job": "",
+   "sharma_note": "",
+   "figure_idea": "",
+   "related_ids": [],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-695.4",
+   "next_id": "C6-695.7"
+  },
+  {
+   "id": "C6-695.7",
+   "chapter": 6,
+   "article": "695",
+   "section": "695.7",
+   "title": "Voltage drop — 15% starting, 5% running",
+   "plain_explanation": "One of the NEC's few mandatory voltage-drop rules, and it is a calculation rule: (A) starting — the voltage at the controller's line terminals must not drop more than 15% below normal (controller-rated) voltage under motor starting conditions; (B) running — the voltage at the controller's load terminals must not drop more than 5% below the motor's voltage rating when the motor operates at 115% of its full-load current. Conductors under 695.6(B) must satisfy both their ampacity floor and these limits.",
+   "on_the_job": "Long fire pump runs get upsized for starting voltage, not just ampacity — if the pump can't start and hold, nothing else in Article 695 matters.",
+   "sharma_note": "",
+   "figure_idea": "Voltage profile along a long pump feeder: 15% dip envelope at start, 5% at run.",
+   "related_ids": [
+    "C6-L-053",
+    "C6-695.4"
+   ],
+   "florida_note": "",
+   "verified": true,
+   "sharma_rule_ids": [],
+   "prev_id": "C6-695.5",
+   "next_id": null
+  }
+ ],
+ "toc": [
+  {
+   "id": "C6-ART-600",
+   "article": "600",
+   "title": "Electric Signs and Outline Lighting",
+   "children": [
+    {
+     "id": "C6-600.5",
+     "section": "600.5",
+     "title": "Sign branch circuits — 20A, signs only"
+    },
+    {
+     "id": "C6-600.6",
+     "section": "600.6",
+     "title": "Sign disconnecting means"
+    },
+    {
+     "id": "C6-600.35",
+     "section": "600.35",
+     "title": "Retrofit kits (new in 2020)"
+    }
+   ]
+  },
+  {
+   "id": "C6-ART-604",
+   "article": "604",
+   "title": "Manufactured Wiring Systems",
+   "children": []
+  },
+  {
+   "id": "C6-ART-605",
+   "article": "605",
+   "title": "Office Furnishings",
+   "children": []
+  },
+  {
+   "id": "C6-ART-610",
+   "article": "610",
+   "title": "Cranes and Hoists",
+   "children": []
+  },
+  {
+   "id": "C6-ART-620",
+   "article": "620",
+   "title": "Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and Stairway Chairlifts",
+   "children": [
+    {
+     "id": "C6-620.6",
+     "section": "620.6",
+     "title": "GFCI protection in elevator spaces"
+    },
+    {
+     "id": "C6-620.22",
+     "section": "620.22",
+     "title": "Car lighting, receptacle, and air-conditioning/ventilation branch circuit"
+    },
+    {
+     "id": "C6-620.51",
+     "section": "620.51",
+     "title": "Disconnecting means — one per unit, lockable open only"
+    },
+    {
+     "id": "C6-620.62",
+     "section": "620.62",
+     "title": "Selective coordination"
+    }
+   ]
+  },
+  {
+   "id": "C6-ART-625",
+   "article": "625",
+   "title": "Electric Vehicle Power Transfer System",
+   "children": [
+    {
+     "id": "C6-625.40",
+     "section": "625.40",
+     "title": "Electric vehicle branch circuit — one outlet, one circuit"
+    },
+    {
+     "id": "C6-625.41",
+     "section": "625.41",
+     "title": "Overcurrent protection — 125% of maximum load"
+    },
+    {
+     "id": "C6-625.42",
+     "section": "625.42",
+     "title": "Rating — charging is a continuous load; load management"
+    },
+    {
+     "id": "C6-625.43",
+     "section": "625.43",
+     "title": "Disconnecting means — over 60A or 150V to ground"
+    },
+    {
+     "id": "C6-625.50",
+     "section": "625.50",
+     "title": "Connector storage — 18 in. indoors, 24 in. outdoors"
+    },
+    {
+     "id": "C6-625.52",
+     "section": "625.52",
+     "title": "Ventilation — only where the listing requires it"
+    },
+    {
+     "id": "C6-625.54",
+     "section": "625.54",
+     "title": "GFCI protection for personnel — every EV receptacle"
+    },
+    {
+     "id": "C6-625.56",
+     "section": "625.56",
+     "title": "Wet location — weatherproof enclosure"
+    }
+   ]
+  },
+  {
+   "id": "C6-ART-626",
+   "article": "626",
+   "title": "Electrified Truck Parking Spaces",
+   "children": []
+  },
+  {
+   "id": "C6-ART-630",
+   "article": "630",
+   "title": "Electric Welders",
+   "children": []
+  },
+  {
+   "id": "C6-ART-640",
+   "article": "640",
+   "title": "Audio Signal Processing, Amplification, and Reproduction Equipment",
+   "children": []
+  },
+  {
+   "id": "C6-ART-645",
+   "article": "645",
+   "title": "Information Technology Equipment",
+   "children": []
+  },
+  {
+   "id": "C6-ART-646",
+   "article": "646",
+   "title": "Modular Data Centers",
+   "children": []
+  },
+  {
+   "id": "C6-ART-647",
+   "article": "647",
+   "title": "Sensitive Electronic Equipment",
+   "children": []
+  },
+  {
+   "id": "C6-ART-650",
+   "article": "650",
+   "title": "Pipe Organs",
+   "children": []
+  },
+  {
+   "id": "C6-ART-660",
+   "article": "660",
+   "title": "X-Ray Equipment",
+   "children": []
+  },
+  {
+   "id": "C6-ART-665",
+   "article": "665",
+   "title": "Induction and Dielectric Heating Equipment",
+   "children": []
+  },
+  {
+   "id": "C6-ART-668",
+   "article": "668",
+   "title": "Electrolytic Cells",
+   "children": []
+  },
+  {
+   "id": "C6-ART-669",
+   "article": "669",
+   "title": "Electroplating",
+   "children": []
+  },
+  {
+   "id": "C6-ART-670",
+   "article": "670",
+   "title": "Industrial Machinery",
+   "children": []
+  },
+  {
+   "id": "C6-ART-675",
+   "article": "675",
+   "title": "Electrically Driven or Controlled Irrigation Machines",
+   "children": []
+  },
+  {
+   "id": "C6-ART-680",
+   "article": "680",
+   "title": "Swimming Pools, Fountains, and Similar Installations",
+   "children": [
+    {
+     "id": "C6-680.9",
+     "section": "680.9",
+     "title": "Overhead conductor clearances"
+    },
+    {
+     "id": "C6-680.11",
+     "section": "680.11",
+     "title": "Underground wiring"
+    },
+    {
+     "id": "C6-680.21(A)",
+     "section": "680.21(A)",
+     "title": "Motor wiring and equipment grounding conductor"
+    },
+    {
+     "id": "C6-680.21(C)",
+     "section": "680.21(C)",
+     "title": "GFCI protection for pool motors — re-checked"
+    },
+    {
+     "id": "C6-680.21(D)",
+     "section": "680.21(D)",
+     "title": "Replacement pump motors"
+    },
+    {
+     "id": "C6-680.22(A)",
+     "section": "680.22(A)",
+     "title": "Receptacles — the 2020 lettering"
+    },
+    {
+     "id": "C6-680.22(B)",
+     "section": "680.22(B)",
+     "title": "Lighting and fans over and near the pool"
+    },
+    {
+     "id": "C6-680.23",
+     "section": "680.23",
+     "title": "Underwater luminaires"
+    },
+    {
+     "id": "C6-680.24(A)",
+     "section": "680.24(A)",
+     "title": "Junction boxes for underwater luminaires"
+    },
+    {
+     "id": "C6-680.26",
+     "section": "680.26",
+     "title": "Equipotential bonding — the idea"
+    },
+    {
+     "id": "C6-680.26(B)",
+     "section": "680.26(B)",
+     "title": "Equipotential bonding — what gets bonded, and how"
+    },
+    {
+     "id": "C6-680.26(B)(2)",
+     "section": "680.26(B)(2)",
+     "title": "Perimeter surfaces — the ring"
+    },
+    {
+     "id": "C6-680.26(C)",
+     "section": "680.26(C)",
+     "title": "Pool water bonding — 9 square inches"
+    },
+    {
+     "id": "C6-680.30",
+     "section": "680.30",
+     "title": "Storable pools — Parts I and III only"
+    },
+    {
+     "id": "C6-680.40",
+     "section": "680.40",
+     "title": "Spas and hot tubs — Parts I and IV (outdoor adds Part II)"
+    },
+    {
+     "id": "C6-680.41",
+     "section": "680.41",
+     "title": "Spa emergency shutoff — 5 ft, in sight, labeled"
+    },
+    {
+     "id": "C6-680.43",
+     "section": "680.43",
+     "title": "Indoor spas and hot tubs"
+    },
+    {
+     "id": "C6-680.50",
+     "section": "680.50",
+     "title": "Fountains — Parts I and V"
+    },
+    {
+     "id": "C6-680.51",
+     "section": "680.51",
+     "title": "Fountains — GFCI for submersible equipment"
+    },
+    {
+     "id": "C6-680.71",
+     "section": "680.71",
+     "title": "Hydromassage bathtubs — Part VII only"
+    },
+    {
+     "id": "C6-680.80",
+     "section": "680.80",
+     "title": "Pool lifts — Part VIII"
+    }
+   ]
+  },
+  {
+   "id": "C6-ART-682",
+   "article": "682",
+   "title": "Natural and Artificially Made Bodies of Water",
+   "children": []
+  },
+  {
+   "id": "C6-ART-685",
+   "article": "685",
+   "title": "Integrated Electrical Systems",
+   "children": []
+  },
+  {
+   "id": "C6-ART-690",
+   "article": "690",
+   "title": "Solar Photovoltaic (PV) Systems",
+   "children": [
+    {
+     "id": "C6-690.5",
+     "section": "690.5",
+     "title": "Ground-fault protection"
+    },
+    {
+     "id": "C6-690.7",
+     "section": "690.7",
+     "title": "Maximum voltage — correct Voc for cold"
+    },
+    {
+     "id": "C6-690.8",
+     "section": "690.8",
+     "title": "Circuit current and conductor sizing"
+    },
+    {
+     "id": "C6-690.9",
+     "section": "690.9",
+     "title": "Overcurrent protection"
+    },
+    {
+     "id": "C6-690.11",
+     "section": "690.11",
+     "title": "Arc-fault circuit protection (DC)"
+    },
+    {
+     "id": "C6-690.12",
+     "section": "690.12",
+     "title": "Rapid shutdown of PV systems on buildings"
+    },
+    {
+     "id": "C6-690.12(C)",
+     "section": "690.12(C)",
+     "title": "Rapid shutdown initiation device"
+    },
+    {
+     "id": "C6-690.13",
+     "section": "690.13",
+     "title": "PV system disconnecting means"
+    },
+    {
+     "id": "C6-690.15",
+     "section": "690.15",
+     "title": "Disconnection of PV equipment"
+    },
+    {
+     "id": "C6-690.56",
+     "section": "690.56",
+     "title": "Marking — plaques, directories, and the rapid shutdown label"
+    }
+   ]
+  },
+  {
+   "id": "C6-ART-691",
+   "article": "691",
+   "title": "Large-Scale Photovoltaic (PV) Electric Supply Stations",
+   "children": []
+  },
+  {
+   "id": "C6-ART-692",
+   "article": "692",
+   "title": "Fuel Cell Systems",
+   "children": []
+  },
+  {
+   "id": "C6-ART-694",
+   "article": "694",
+   "title": "Wind Electric Systems",
+   "children": []
+  },
+  {
+   "id": "C6-ART-695",
+   "article": "695",
+   "title": "Fire Pumps",
+   "children": [
+    {
+     "id": "C6-695.3",
+     "section": "695.3",
+     "title": "Power sources — reliable, and sized for locked rotor"
+    },
+    {
+     "id": "C6-695.4",
+     "section": "695.4",
+     "title": "Continuity of power — protection that refuses to trip"
+    },
+    {
+     "id": "C6-695.5",
+     "section": "695.5",
+     "title": "Transformers — dedicated and oversized"
+    },
+    {
+     "id": "C6-695.7",
+     "section": "695.7",
+     "title": "Voltage drop — 15% starting, 5% running"
+    }
+   ]
+  }
+ ],
+ "index": [
+  {
+   "term": "Arc-fault protection (PV)",
+   "ids": [
+    "C6-690.11",
+    "C6-L-052"
+   ]
+  },
+  {
+   "term": "Bonding, equipotential (pool)",
+   "ids": [
+    "C6-680.26",
+    "C6-680.26(B)",
+    "C6-L-024",
+    "C6-L-025"
+   ]
+  },
+  {
+   "term": "Branch circuit, EV",
+   "ids": [
+    "C6-625.40",
+    "C6-L-001"
+   ]
+  },
+  {
+   "term": "Connector storage height (EV)",
+   "ids": [
+    "C6-625.50",
+    "C6-L-006"
+   ]
+  },
+  {
+   "term": "Copper-clad aluminum (CCA)",
+   "ids": [
+    "C6-L-054",
+    "C6-L-055",
+    "C6-L-056",
+    "C6-L-057",
+    "C6-L-058",
+    "C6-L-059"
+   ]
+  },
+  {
+   "term": "Deck box",
+   "ids": [
+    "C6-680.24(A)",
+    "C6-L-023"
+   ]
+  },
+  {
+   "term": "Disconnect, elevator",
+   "ids": [
+    "C6-620.51",
+    "C6-L-046"
+   ]
+  },
+  {
+   "term": "Disconnect, EV",
+   "ids": [
+    "C6-625.43",
+    "C6-L-005"
+   ]
+  },
+  {
+   "term": "Disconnect, PV",
+   "ids": [
+    "C6-690.13",
+    "C6-L-040"
+   ]
+  },
+  {
+   "term": "Disconnect, sign",
+   "ids": [
+    "C6-600.6",
+    "C6-L-044"
+   ]
+  },
+  {
+   "term": "Electric vehicle power transfer",
+   "ids": [
+    "C6-ART-625"
+   ]
+  },
+  {
+   "term": "Elevator selective coordination",
+   "ids": [
+    "C6-620.62",
+    "C6-L-050"
+   ]
+  },
+  {
+   "term": "Emergency shutoff, spa",
+   "ids": [
+    "C6-680.41",
+    "C6-L-031"
+   ]
+  },
+  {
+   "term": "Equipotential bonding",
+   "ids": [
+    "C6-680.26",
+    "C6-680.26(B)(2)",
+    "C6-680.26(C)"
+   ]
+  },
+  {
+   "term": "Fire pump sources",
+   "ids": [
+    "C6-695.3",
+    "C6-L-048"
+   ]
+  },
+  {
+   "term": "Fire pump voltage drop",
+   "ids": [
+    "C6-695.7",
+    "C6-L-053"
+   ]
+  },
+  {
+   "term": "Fountains",
+   "ids": [
+    "C6-680.50",
+    "C6-680.51",
+    "C6-L-032"
+   ]
+  },
+  {
+   "term": "GFCI, elevator spaces",
+   "ids": [
+    "C6-620.6",
+    "C6-L-045"
+   ]
+  },
+  {
+   "term": "GFCI, EV receptacles",
+   "ids": [
+    "C6-625.54",
+    "C6-L-008",
+    "L-085"
+   ]
+  },
+  {
+   "term": "GFCI, pool motors",
+   "ids": [
+    "C6-680.21(C)",
+    "C6-L-014",
+    "L-088"
+   ]
+  },
+  {
+   "term": "GFCI, pool receptacles",
+   "ids": [
+    "C6-680.22(A)",
+    "C6-L-012"
+   ]
+  },
+  {
+   "term": "Ground-fault protection (PV)",
+   "ids": [
+    "C6-690.5"
+   ]
+  },
+  {
+   "term": "Hydromassage bathtub",
+   "ids": [
+    "C6-680.71",
+    "C6-L-033"
+   ]
+  },
+  {
+   "term": "Load management (EV)",
+   "ids": [
+    "C6-625.42",
+    "C6-L-009"
+   ]
+  },
+  {
+   "term": "Locked-rotor current (fire pump)",
+   "ids": [
+    "C6-695.3",
+    "C6-695.4",
+    "C6-L-047"
+   ]
+  },
+  {
+   "term": "Maximum voltage (PV)",
+   "ids": [
+    "C6-690.7",
+    "C6-L-051"
+   ]
+  },
+  {
+   "term": "Overhead clearances (pool)",
+   "ids": [
+    "C6-680.9",
+    "C6-L-018",
+    "C6-L-019"
+   ]
+  },
+  {
+   "term": "Perimeter bonding ring",
+   "ids": [
+    "C6-680.26(B)(2)",
+    "C6-L-026"
+   ]
+  },
+  {
+   "term": "Pool water bonding",
+   "ids": [
+    "C6-680.26(C)",
+    "C6-L-027"
+   ]
+  },
+  {
+   "term": "Rapid shutdown",
+   "ids": [
+    "C6-690.12",
+    "C6-690.12(C)",
+    "C6-L-037",
+    "L-093"
+   ]
+  },
+  {
+   "term": "Rapid shutdown label",
+   "ids": [
+    "C6-690.56",
+    "C6-L-042"
+   ]
+  },
+  {
+   "term": "Receptacle, pool required",
+   "ids": [
+    "C6-680.22(A)",
+    "C6-L-011",
+    "L-086"
+   ]
+  },
+  {
+   "term": "Retrofit kits (signs)",
+   "ids": [
+    "C6-600.35",
+    "C6-L-049"
+   ]
+  },
+  {
+   "term": "Sign branch circuit",
+   "ids": [
+    "C6-600.5",
+    "C6-L-043"
+   ]
+  },
+  {
+   "term": "Spas and hot tubs",
+   "ids": [
+    "C6-680.40",
+    "C6-680.43"
+   ]
+  },
+  {
+   "term": "Storable pools",
+   "ids": [
+    "C6-680.30",
+    "C6-L-030"
+   ]
+  },
+  {
+   "term": "Underground wiring (pool)",
+   "ids": [
+    "C6-680.11",
+    "C6-L-017"
+   ]
+  },
+  {
+   "term": "Underwater luminaires",
+   "ids": [
+    "C6-680.23",
+    "C6-L-022"
+   ]
+  },
+  {
+   "term": "Ventilation (EV)",
+   "ids": [
+    "C6-625.52",
+    "C6-L-007"
+   ]
+  },
+  {
+   "term": "Voltage drop, fire pump",
+   "ids": [
+    "C6-695.7",
+    "C6-L-053"
+   ]
+  }
+ ]
+}

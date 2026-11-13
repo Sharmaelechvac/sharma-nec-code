@@ -1,0 +1,104 @@
+[
+  {
+    "room": "Communications / Low-Voltage Rough-In",
+    "items": [
+      {
+        "id": "C8-C-01",
+        "text": "Demarcation point identified and photographed; customer-side scope separated from provider plant.",
+        "severity": "code",
+        "nec_ref": "805.1"
+      },
+      {
+        "id": "C8-C-02",
+        "text": "Primary protector (communications circuits / network-powered broadband) installed at the entrance, listed, out of hazardous locations and away from ignitible material.",
+        "severity": "code",
+        "nec_ref": "805.90"
+      },
+      {
+        "id": "C8-C-03",
+        "text": "Protector / sheath / coax shield bonding conductor landed at the intersystem bonding termination where present, otherwise at the nearest 800.100(B) point.",
+        "severity": "code",
+        "nec_ref": "800.100(B)"
+      },
+      {
+        "id": "C8-C-04",
+        "text": "Bonding conductor 14 AWG minimum, not required over 6 AWG, as short and straight as practicable, 20 ft maximum at a one- or two-family dwelling.",
+        "severity": "code",
+        "nec_ref": "800.100(A)"
+      },
+      {
+        "id": "C8-C-05",
+        "text": "Any separate communications electrode bonded back to the power grounding electrode system with 6 AWG minimum.",
+        "severity": "code",
+        "nec_ref": "800.100(D)"
+      },
+      {
+        "id": "C8-C-06",
+        "text": "Metallic sheath of entering communications cable grounded or interrupted by an insulating joint at the entrance; coax shield grounded at its grounding block at the entrance.",
+        "severity": "code",
+        "nec_ref": "805.93 / 820.93"
+      },
+      {
+        "id": "C8-C-07",
+        "text": "Metal entrance conduit bonded to the grounding electrode system.",
+        "severity": "code",
+        "nec_ref": "800.49"
+      },
+      {
+        "id": "C8-C-08",
+        "text": "Communications and coax kept out of power raceways, boxes, and enclosures except a listed barrier/divider setup; 2 in separation kept in open runs.",
+        "severity": "code",
+        "nec_ref": "800.133 / 820.133"
+      },
+      {
+        "id": "C8-C-09",
+        "text": "No communications or coax cable strapped, taped, or tied to the outside of a raceway for support; all runs on their own supports.",
+        "severity": "code",
+        "nec_ref": "800.133"
+      },
+      {
+        "id": "C8-C-10",
+        "text": "Cable types match the space: CMP in plenums, CMR (or a listed protected path) in risers, CM/CMG general use, CMX only within its dwelling limits.",
+        "severity": "code",
+        "nec_ref": "800.113 / 800.179"
+      },
+      {
+        "id": "C8-C-11",
+        "text": "Accessible abandoned communications cable removed; kept spares tagged for future use with durable tags.",
+        "severity": "code",
+        "nec_ref": "800.25"
+      },
+      {
+        "id": "C8-C-12",
+        "text": "All penetrations of rated walls, floors, and ceilings firestopped with an approved system.",
+        "severity": "code",
+        "nec_ref": "800.26"
+      },
+      {
+        "id": "C8-C-13",
+        "text": "At least one communications outlet roughed in a readily accessible area of each new dwelling, cabled to the demarcation point.",
+        "severity": "code",
+        "nec_ref": "805.156"
+      },
+      {
+        "id": "C8-C-14",
+        "text": "Antenna work, where present: mast grounded per 810.21, discharge unit at the entrance, bonding conductor 10 AWG copper minimum, lead-in clearances kept (2 ft / 10 ft / 6 ft from lightning conductors).",
+        "severity": "code",
+        "nec_ref": "810.15 / 810.18 / 810.20 / 810.21"
+      },
+      {
+        "id": "C8-C-15",
+        "text": "Communications entrance planned at the service location so the bond lands with the meter/panel layout instead of a remote rod.",
+        "severity": "sharma",
+        "nec_ref": "800.100",
+        "sharma_rule_id": "S-09"
+      },
+      {
+        "id": "C8-C-16",
+        "text": "Photograph every finished entrance bond (protector, coax block, broadband, dish) before it is covered or buried behind provider equipment.",
+        "severity": "tip",
+        "nec_ref": "800.100"
+      }
+    ]
+  }
+]

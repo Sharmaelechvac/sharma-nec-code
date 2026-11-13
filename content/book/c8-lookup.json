@@ -1,0 +1,946 @@
+[
+  {
+    "id": "C8-L-001",
+    "question": "Do the general rules in Chapters 1 through 7 automatically apply to a communications job?",
+    "aliases": [
+      "chapter 8 independence",
+      "90.3 communications",
+      "does 300 apply to data"
+    ],
+    "answer_plain": "No. Chapter 8 stands apart, so Chapters 1 through 7 apply to a communications installation only where Chapter 8 itself references them. Always start with the communications article for the system, then follow any reference it makes back to the general chapters.",
+    "nec_ref": "90.3",
+    "nec_edition": "2020",
+    "tags": [
+      "chapter 8",
+      "application"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-002",
+    "question": "What does the new Article 800 do in the 2020 NEC?",
+    "aliases": [
+      "article 800 general",
+      "2020 reorganization 800",
+      "general communications requirements"
+    ],
+    "answer_plain": "Article 800 states the requirements that are common to the Chapter 8 communications systems once, instead of repeating them in every article. It covers shared topics such as abandoned cable, fire spread, entrance grounding, and separation from power. The specific articles for communications circuits, CATV, and broadband then add or modify rules on top of it.",
+    "nec_ref": "800.1",
+    "nec_edition": "2020",
+    "tags": [
+      "article 800",
+      "2020 change"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-003",
+    "question": "Can I support a data cable by tying it to a power conduit?",
+    "aliases": [
+      "support comm cable on raceway",
+      "zip tie cat6 to emt",
+      "800.24 support"
+    ],
+    "answer_plain": "No. Communications cables need their own supports, and a cable must not be strapped, taped, or tied to the outside of a raceway as its means of support. Sloppy support is also a workmanship problem under the general installation rule for this chapter.",
+    "nec_ref": "800.24 / 800.133",
+    "nec_edition": "2020",
+    "tags": [
+      "support",
+      "workmanship"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-004",
+    "question": "The old phone cable in the ceiling is dead. Can it stay?",
+    "aliases": [
+      "abandoned cable removal",
+      "dead cat5 ceiling",
+      "tag for future use"
+    ],
+    "answer_plain": "Not if it is accessible and truly abandoned. A cable that is not terminated at equipment and is not tagged for future use must have its accessible portion removed. A spare you intend to reuse may stay only with a durable tag identifying it for future use.",
+    "nec_ref": "800.25",
+    "nec_edition": "2020",
+    "tags": [
+      "abandoned cable",
+      "demolition"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-005",
+    "question": "Do I have to firestop a hole where coax passes through a rated wall?",
+    "aliases": [
+      "firestop low voltage penetration",
+      "800.26 fire spread",
+      "rated wall coax hole"
+    ],
+    "answer_plain": "Yes. Openings around communications cables and raceways through fire-resistance-rated walls, floors, and ceilings must be firestopped with an approved method that keeps the rating of the assembly. Use a firestop system listed for the cable type and the construction, not scrap material stuffed in the hole.",
+    "nec_ref": "800.26",
+    "nec_edition": "2020",
+    "tags": [
+      "firestopping",
+      "fire spread"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-006",
+    "question": "How high must a communications drop be over a roof it crosses?",
+    "aliases": [
+      "comm drop roof clearance",
+      "coax over roof 8 feet",
+      "800.44 aerial clearance"
+    ],
+    "answer_plain": "Communications and coax service drops need at least 8 feet of vertical clearance above a roof they pass over, with only limited exceptions. Where a low-voltage power drop runs parallel to the communications drop, the two also need at least 12 inches of separation in the span and at the building. Check both numbers before the ladder comes off the truck.",
+    "nec_ref": "800.44",
+    "nec_edition": "2020",
+    "tags": [
+      "aerial",
+      "clearance",
+      "service drop"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-007",
+    "question": "Phone cable and power conductors share the same manhole. Is that allowed as-is?",
+    "aliases": [
+      "manhole separation barrier",
+      "800.47 underground comm",
+      "handhole power and data"
+    ],
+    "answer_plain": "Only with a suitable permanent barrier keeping the communications cable separated from the power, Class 1, or non-power-limited fire alarm conductors in that enclosure. Simply laying the two systems in the same space together is not permitted. Report a missing barrier instead of closing the lid on it.",
+    "nec_ref": "800.47",
+    "nec_edition": "2020",
+    "tags": [
+      "underground",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-008",
+    "question": "The entrance cable enters through a steel conduit. Does the conduit need anything?",
+    "aliases": [
+      "metal entrance conduit grounding",
+      "800.49 conduit bond",
+      "sleeve entrance cable metal"
+    ],
+    "answer_plain": "Yes. A metal conduit carrying the entrance wire or cable must be connected to a grounding electrode or to the building grounding electrode system with a bonding or grounding conductor. Follow the landing points in the entrance grounding rules rather than clamping to the nearest pipe.",
+    "nec_ref": "800.49",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "entrance"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-009",
+    "question": "How far should communications cable stay from a lightning protection down lead?",
+    "aliases": [
+      "lightning conductor separation 6 feet",
+      "800.53 sideflash",
+      "down lead data cable"
+    ],
+    "answer_plain": "Keep at least 6 feet of separation between lightning protection conductors and communications wires and cables, including coax, wherever that is practicable. Florida lightning makes this a real design decision, so route the communications entrance to a different wall or corner when you can. Where 6 feet cannot be had, the lightning standard's sideflash calculation governs instead of a guess.",
+    "nec_ref": "800.53",
+    "nec_edition": "2020",
+    "tags": [
+      "lightning",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "fl_note": "Florida has the highest lightning density in the country; confirm the AHJ position on buildings with existing lightning protection systems."
+  },
+  {
+    "id": "C8-L-010",
+    "question": "What has to be bonded at a communications entrance?",
+    "aliases": [
+      "800.100 entrance bonding",
+      "protector ground what bonds",
+      "entrance grounding overview"
+    ],
+    "answer_plain": "The metallic parts arriving from outside, such as cable sheaths and the primary protector ground, must be bonded to the building grounding system at the entrance. The shared bonding and grounding rules in this section set the conductor material, size, length, and landing points for the whole chapter. Done correctly, a surge on the communications plant rises and falls with the power grounding system instead of arcing between them.",
+    "nec_ref": "800.100",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "bonding",
+      "entrance"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": "entrance-bonding"
+  },
+  {
+    "id": "C8-L-011",
+    "question": "What is the smallest bonding conductor for a primary protector?",
+    "aliases": [
+      "protector ground wire size 14 awg",
+      "800.100(A) size",
+      "minimum comm bond"
+    ],
+    "answer_plain": "The bonding or grounding conductor for a protector or cable sheath cannot be smaller than 14 AWG. It must be copper or another corrosion-resistant material, and its capacity must at least match the sheath or protected conductor it serves. It never has to be larger than 6 AWG.",
+    "nec_ref": "800.100(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "conductor size"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-012",
+    "question": "How long can the protector bonding conductor be at a house?",
+    "aliases": [
+      "20 foot ground limit dwelling",
+      "800.100 length 20 ft",
+      "protector ground too long"
+    ],
+    "answer_plain": "In a one- or two-family dwelling it must be as short as practicable and cannot exceed 20 feet. If a legal landing point cannot be reached inside that length, the Code allows a separate electrode for the communications system instead. That separate electrode then has to be bonded back to the power grounding system.",
+    "nec_ref": "800.100(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "dwelling",
+      "length"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-013",
+    "question": "Where should the communications bond land first if the house has an intersystem bonding termination?",
+    "aliases": [
+      "IBT first choice landing",
+      "800.100(B) termination points",
+      "where does cable bond go"
+    ],
+    "answer_plain": "Land it on the intersystem bonding termination, which is the device installed at the service exactly for communications, CATV, and antenna bonds. If there is no termination, use the nearest accessible landing point on the list in this section, such as the building grounding electrode system. Item L-060 explains the termination device itself under 250.94.",
+    "nec_ref": "800.100(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "IBT",
+      "service"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-014",
+    "question": "I drove a separate ground rod for the cable entrance. Am I done?",
+    "aliases": [
+      "separate ground rod bond 6 awg",
+      "800.100(D) bonding electrodes",
+      "two ground rods house"
+    ],
+    "answer_plain": "Not until the rod is bonded back to the building power grounding electrode system with a conductor no smaller than 6 AWG. A separate electrode is permitted, but a separate unbonded electrode is a hazard. The same 6 AWG bonding rule appears again for antennas and for CATV.",
+    "nec_ref": "800.100(D)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "electrode bonding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-015",
+    "question": "Does Chapter 9 conduit fill decide how many Cat 6 cables fit in a low-voltage raceway?",
+    "aliases": [
+      "chapter 9 fill communications raceway",
+      "800.110 fill",
+      "low voltage conduit fill"
+    ],
+    "answer_plain": "Generally no. Chapter 9 fill rules do not govern ordinary communications cables in listed communications raceways, apart from an exception kept for medium-power network-powered broadband cables. Choose a listed raceway rated for the space, and follow the manufacturer guidance for a practical fill.",
+    "nec_ref": "800.110",
+    "nec_edition": "2020",
+    "tags": [
+      "raceways",
+      "fill"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-016",
+    "question": "Why is there no voltage rating printed on the communications cable I bought?",
+    "aliases": [
+      "no voltage marking comm cable",
+      "800.113 marking",
+      "cable jacket voltage"
+    ],
+    "answer_plain": "That is on purpose. Communications cables installed inside a building must be listed, and a voltage rating is not permitted to be marked on the cable. The missing marking keeps anyone from mistaking a communications cable for a power wiring method.",
+    "nec_ref": "800.113",
+    "nec_edition": "2020",
+    "tags": [
+      "listing",
+      "marking"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-017",
+    "question": "Riser or plenum cable — how do I choose on a commercial job?",
+    "aliases": [
+      "CMR vs CMP choice",
+      "cable between floors rating",
+      "800.113 riser plenum"
+    ],
+    "answer_plain": "A run in a space used for environmental air needs the plenum type, CMP. A vertical run passing through one or more floors needs the riser type, CMR, or one of the protected paths the installation section allows, such as a metal raceway or a firestopped fireproof shaft. One- and two-family dwellings follow a more relaxed list, which is why house and commercial cable shelves differ.",
+    "nec_ref": "800.113",
+    "nec_edition": "2020",
+    "tags": [
+      "plenum",
+      "riser",
+      "cable types"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-018",
+    "question": "Can phone or data conductors share a box with power conductors?",
+    "aliases": [
+      "same box power and data",
+      "800.133 barrier divider",
+      "mixed box low voltage"
+    ],
+    "answer_plain": "Not as a general rule. Sharing a raceway, box, or enclosure is allowed only where a permanent barrier or listed divider separates the systems, or where power enters a communications enclosure only to feed that equipment and is kept at least half an inch from the communications wiring. A divider must be the listed part made for the box, not an improvised partition.",
+    "nec_ref": "800.133(A)(1)",
+    "nec_edition": "2020",
+    "tags": [
+      "separation",
+      "boxes"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-019",
+    "question": "What is the separation between a data cable and Romex in open framing?",
+    "aliases": [
+      "2 inch separation 800.133",
+      "cat6 next to romex",
+      "how far data from power"
+    ],
+    "answer_plain": "Keep at least 2 inches between communications conductors and electric light, power, or Class 1 conductors in open runs. The spacing is not demanded where the power conductors are in a raceway or in a sheathed cable assembly such as nonmetallic-sheathed, armored, or UF cable, or where the communications cable is in its own raceway. Laying data cable directly against open power wiring is never the answer.",
+    "nec_ref": "800.133(A)(2)",
+    "nec_edition": "2020",
+    "tags": [
+      "separation",
+      "residential"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-020",
+    "question": "Can I substitute CMP cable where CMR was specified? What about the other way?",
+    "aliases": [
+      "cable substitution ladder",
+      "CMP replace CMR",
+      "800.154 substitutions"
+    ],
+    "answer_plain": "A higher-rated cable may substitute for a lower one, so CMP may serve where CMR or CM is required. The reverse is never allowed, so CMR cannot go into a plenum and CMX cannot climb into a riser. Check the jacket legend against the space every time a supplier substitutes a roll.",
+    "nec_ref": "800.154",
+    "nec_edition": "2020",
+    "tags": [
+      "cable types",
+      "substitution"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-021",
+    "question": "Is a home-run data cable to a router a communications circuit under Article 805, or Article 725 work?",
+    "aliases": [
+      "805 vs 725 ethernet",
+      "which article data cable",
+      "communications circuit definition"
+    ],
+    "answer_plain": "It depends on the system the cable serves, not the jacket. Provider communications circuits running from the demarcation point to customer communications equipment fall under Article 805 with the general rules of Article 800. Power-limited control and signaling systems, such as most access control and HVAC control wiring, are usually Article 725 work in Chapter 7.",
+    "nec_ref": "805.1",
+    "nec_edition": "2020",
+    "tags": [
+      "communications circuits",
+      "article 725"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-022",
+    "question": "When does a telephone-style circuit need a primary protector?",
+    "aliases": [
+      "primary protector required when",
+      "805.90 protector exposure",
+      "lightning exposed circuit protector"
+    ],
+    "answer_plain": "A listed primary protector is required on each communications circuit that is exposed to lightning or to possible contact with higher-voltage power conductors. The protector connects an arrester between each line conductor and ground. Circuits with no outside exposure may not trigger the requirement, which is why the entrance path matters.",
+    "nec_ref": "805.90",
+    "nec_edition": "2020",
+    "tags": [
+      "protector",
+      "entrance"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-023",
+    "question": "Where does the primary protector go?",
+    "aliases": [
+      "protector location point of entrance",
+      "805.90 near entrance",
+      "mount protector where"
+    ],
+    "answer_plain": "In, on, or immediately next to the building served, as close as practicable to where the circuit enters. Keep it out of hazardous locations and away from easily ignitible material. A short distance to the entrance also keeps its bonding conductor short, which the grounding rules reward.",
+    "nec_ref": "805.90",
+    "nec_edition": "2020",
+    "tags": [
+      "protector",
+      "location"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-024",
+    "question": "The entering phone cable has a metal sheath and no protector bond. What are my options?",
+    "aliases": [
+      "cable sheath ground or insulating joint",
+      "805.93 sheath",
+      "floating shield entrance"
+    ],
+    "answer_plain": "The metallic sheath members must be either grounded following the entrance grounding rules, or interrupted by an insulating joint or an equivalent device, as near as practicable to the point of entrance. Leaving the sheath floating is not one of the options. The same entrance idea applies to the coax shield under Article 820.",
+    "nec_ref": "805.93",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "sheath"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-025",
+    "question": "Does a new house owe any communications outlet if the buyer has no provider yet?",
+    "aliases": [
+      "one communications outlet new house",
+      "805.156 dwelling outlet",
+      "demarc outlet requirement"
+    ],
+    "answer_plain": "Yes. New construction requires at least one communications outlet inside the dwelling, in a readily accessible area, cabled back to the service provider demarcation point. The requirement is the cabled outlet, not a live service, so rough it in even when no provider has been chosen. Older references cite this as 800.156 from before the 2020 reorganization.",
+    "nec_ref": "805.156",
+    "nec_edition": "2020",
+    "tags": [
+      "dwelling",
+      "outlet",
+      "2020 change"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-026",
+    "question": "Does Article 800's general rules govern the satellite dish article too?",
+    "aliases": [
+      "article 810 stands alone",
+      "does 800 apply to antennas",
+      "810 exception general rules"
+    ],
+    "answer_plain": "No. Article 810 is the exception in this chapter, because its antenna rules stand alone instead of layering under Article 800. Its own section, 810.21, carries the complete bonding and grounding recipe for antenna systems. Read 810 by itself, and follow only the outside references that 810 itself makes.",
+    "nec_ref": "810.1 / 800.1",
+    "nec_edition": "2020",
+    "tags": [
+      "antennas",
+      "application"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-027",
+    "question": "Does every antenna mast need to be grounded?",
+    "aliases": [
+      "mast grounding exception",
+      "810.15 zone of protection",
+      "dish mast bond required"
+    ],
+    "answer_plain": "Outdoor masts and their metal support structures must be grounded following 810.21. The exception is an antenna and mast sitting inside a zone of protection provided by a lightning protection system, described with a 150 foot radius rolling sphere. An ordinary house with no lightning protection system gets the mast bond, full stop.",
+    "nec_ref": "810.15",
+    "nec_edition": "2020",
+    "tags": [
+      "antennas",
+      "grounding",
+      "lightning"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-028",
+    "question": "How close can an antenna lead-in swing toward the power drop?",
+    "aliases": [
+      "lead-in swing clearance",
+      "810.18 2 feet 10 feet",
+      "antenna wire near service drop"
+    ],
+    "answer_plain": "A lead-in attached to a building must not be able to swing closer than 2 feet to conductors of circuits of 250 volts or less. For circuits over 250 volts the clearance is 10 feet. Plan for the swung position in wind, not the still position on a calm day.",
+    "nec_ref": "810.18",
+    "nec_edition": "2020",
+    "tags": [
+      "antennas",
+      "clearance"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-029",
+    "question": "What size wire does a long antenna lead-in need?",
+    "aliases": [
+      "antenna conductor size table",
+      "810.16 lead-in awg",
+      "lead-in length 150 feet"
+    ],
+    "answer_plain": "The size steps up with length under the table in 810.16. A copper lead-in under 35 feet may be as small as 19 AWG, a run between 35 and 150 feet needs at least 14 AWG copper, and a run over 150 feet needs at least 12 AWG copper. Copper-clad steel and bronze have their own, smaller sizes listed in the same table because of their strength.",
+    "nec_ref": "810.16 / 810.18",
+    "nec_edition": "2020",
+    "tags": [
+      "antennas",
+      "conductor size"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-030",
+    "question": "What is an antenna discharge unit and where does it go?",
+    "aliases": [
+      "discharge unit antenna",
+      "810.20 static drain",
+      "lead-in protector dish"
+    ],
+    "answer_plain": "It is a listed device that drains static charge from the antenna system before the charge reaches the equipment inside. Each lead-in conductor from an outdoor antenna needs one, placed as near as practicable to the point of entrance, inside or outside the wall. The unit itself must be bonded or grounded following 810.21.",
+    "nec_ref": "810.20",
+    "nec_edition": "2020",
+    "tags": [
+      "antennas",
+      "discharge unit"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-031",
+    "question": "Where does the antenna bonding conductor land, and how should it run?",
+    "aliases": [
+      "antenna ground landing points",
+      "810.21 straight line",
+      "dish ground where connect"
+    ],
+    "answer_plain": "Run it in as straight a line as practicable, protect it where it can be damaged, and land it first on the intersystem bonding termination where the building has one. Without a termination, use the nearest accessible point on the building grounding electrode system or another landing point the section lists. It does not have to be insulated.",
+    "nec_ref": "810.21",
+    "nec_edition": "2020",
+    "tags": [
+      "antennas",
+      "grounding",
+      "IBT"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-032",
+    "question": "What size is an antenna bonding conductor?",
+    "aliases": [
+      "dish ground wire size 10 awg",
+      "810.21(H) size",
+      "antenna bond minimum"
+    ],
+    "answer_plain": "Not smaller than 10 AWG copper, or 17 AWG copper-clad steel or bronze. The thin copper-clad option is the messenger wire often molded into satellite coax jackets. Ten AWG copper is heavier than the 14 AWG floor used at a communications protector, because the antenna sits exposed to lightning.",
+    "nec_ref": "810.21(H)",
+    "nec_edition": "2020",
+    "tags": [
+      "antennas",
+      "conductor size"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-033",
+    "question": "A separate rod was driven for the dish. What else is required?",
+    "aliases": [
+      "antenna rod bond power system",
+      "810.21(J) 6 awg",
+      "dish separate electrode"
+    ],
+    "answer_plain": "The separate electrode must be bonded to the building power grounding electrode system with a conductor no smaller than 6 AWG copper or equivalent. A separate electrode is allowed, but it is never allowed to stand alone. This matches the separate-electrode rule for communications entrances in 800.100(D).",
+    "nec_ref": "810.21(J)",
+    "nec_edition": "2020",
+    "tags": [
+      "antennas",
+      "electrode bonding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-034",
+    "question": "A customer is adding a ham radio station. What grounding sizes apply?",
+    "aliases": [
+      "ham radio grounding sizes",
+      "810.57 810.58 amateur",
+      "cb station bond"
+    ],
+    "answer_plain": "Each outdoor lead-in needs a discharge unit or an equivalent static drain under 810.57. The protective bonding or grounding conductor must be at least as large as the lead-in and never smaller than 10 AWG copper, bronze, or copper-clad steel. The operating bonding or grounding conductor cannot be smaller than 14 AWG copper or its equivalent, under 810.58.",
+    "nec_ref": "810.57 / 810.58",
+    "nec_edition": "2020",
+    "tags": [
+      "antennas",
+      "amateur radio"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-035",
+    "question": "Does a cable TV coax entrance need a primary protector like a phone line?",
+    "aliases": [
+      "coax protector required",
+      "820 no primary protector",
+      "catv entrance protection"
+    ],
+    "answer_plain": "No, a primary protector is not required for a coaxial cable entrance the way it is for an exposed communications circuit. If a protector is installed on the coax, it must be listed and applied at the point of entrance. What every coax entrance does require is grounding of the outer shield, covered in 820.93.",
+    "nec_ref": "820.93",
+    "nec_edition": "2020",
+    "tags": [
+      "CATV",
+      "coax",
+      "protector"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-036",
+    "question": "Where does the coax shield get grounded?",
+    "aliases": [
+      "grounding block location",
+      "820.93 shield point of entrance",
+      "cable tv bond where"
+    ],
+    "answer_plain": "As close as practicable to the point where the coax enters the building, following the conductor rules of 820.100. The connection can be made where the cable terminates outside or just inside, and a grounded metal raceway can extend the effective point of entrance. A grounding block screwed to the wall with an empty lug does not count.",
+    "nec_ref": "820.93",
+    "nec_edition": "2020",
+    "tags": [
+      "CATV",
+      "grounding",
+      "entrance"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "diagram_hint": "coax-ground-block"
+  },
+  {
+    "id": "C8-L-037",
+    "question": "What are the bonding conductor numbers for a CATV entrance at a house?",
+    "aliases": [
+      "catv ground wire size length",
+      "820.100 14 awg 20 feet",
+      "coax bond numbers"
+    ],
+    "answer_plain": "The conductor is copper or another corrosion-resistant material, no smaller than 14 AWG, and never required to exceed 6 AWG. At a one- or two-family dwelling it must be as short as practicable and no longer than 20 feet. A separate electrode used to meet the length limit must be bonded back to the power system with at least 6 AWG.",
+    "nec_ref": "820.100",
+    "nec_edition": "2020",
+    "tags": [
+      "CATV",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-038",
+    "question": "The provider's outdoor coax runs 70 feet inside the house to the panel. Is that fine?",
+    "aliases": [
+      "unlisted coax 50 feet inside",
+      "820.48 entrance cable distance",
+      "outdoor coax inside limit"
+    ],
+    "answer_plain": "No. Unlisted outside plant coax may extend only 50 feet from the point of entrance inside a building before listed cable is required. Past that distance the run must be listed coax of a type permitted for the spaces it passes through. Measure the actual cable path on long custom homes, not the straight-line distance.",
+    "nec_ref": "820.48 / 820.113",
+    "nec_edition": "2020",
+    "tags": [
+      "CATV",
+      "listing",
+      "entrance"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-039",
+    "question": "Can coax be supported from the EMT that carries the store's power?",
+    "aliases": [
+      "coax support from raceway",
+      "820.133 separation support",
+      "strap coax to conduit"
+    ],
+    "answer_plain": "No. Coaxial cable cannot be supported from a raceway containing power conductors, cannot share a raceway or box with power, and keeps at least 2 inches from power conductors unless those conductors are in a raceway or a sheathed cable assembly. Give coax its own holes and its own supports, exactly like data cable.",
+    "nec_ref": "820.133",
+    "nec_edition": "2020",
+    "tags": [
+      "CATV",
+      "separation",
+      "support"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-040",
+    "question": "How do I recognize a network-powered broadband entrance?",
+    "aliases": [
+      "network powered broadband what is it",
+      "830 NIU powered by network",
+      "powered cable entrance"
+    ],
+    "answer_plain": "The provider's network supplies the power for the network interface unit at the building, over the same outside plant that carries the signal. That incoming power is why this article requires primary protection and grounding at the entrance. If the interface unit is powered from a local receptacle instead, you are likely looking at a premises-powered system under Article 840.",
+    "nec_ref": "830.1",
+    "nec_edition": "2020",
+    "tags": [
+      "broadband",
+      "network-powered"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-041",
+    "question": "Why does network-powered broadband get protectors on its conductors?",
+    "aliases": [
+      "830.90 protector broadband",
+      "powered broadband lightning protection",
+      "protector all conductors"
+    ],
+    "answer_plain": "Because the circuit arrives from outside plant carrying both signal and network power, exposed to lightning and to accidental contact with power conductors on the poles. Primary protection at the entrance gives that energy a path before it reaches the interface unit and the inside distribution. Treat a missing protector like a missing phone protector, as a provider-side correction.",
+    "nec_ref": "830.90",
+    "nec_edition": "2020",
+    "tags": [
+      "broadband",
+      "protector"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-042",
+    "question": "What three things get grounded at a network-powered broadband entrance?",
+    "aliases": [
+      "830.93 shield protector enclosure",
+      "NIU enclosure grounding",
+      "broadband entrance grounding list"
+    ],
+    "answer_plain": "The cable shield, the primary protector, and the metallic enclosure of the network interface unit all get grounded. Their conductors follow the same entrance grounding recipe used across this chapter. Bonding only the shield and leaving the enclosure floating finishes just part of the job.",
+    "nec_ref": "830.93",
+    "nec_edition": "2020",
+    "tags": [
+      "broadband",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-043",
+    "question": "Do the broadband grounding numbers change at a house?",
+    "aliases": [
+      "830.100 house length size",
+      "broadband bond 20 feet",
+      "same numbers chapter 8"
+    ],
+    "answer_plain": "No. The broadband bonding conductor follows the chapter pattern of 14 AWG minimum, never required above 6 AWG, as short as practicable, and no more than 20 feet in a one- or two-family dwelling. A separate electrode used for length gets bonded back with at least 6 AWG. Learn 800.100 once and the broadband pages are already familiar.",
+    "nec_ref": "830.100",
+    "nec_edition": "2020",
+    "tags": [
+      "broadband",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-044",
+    "question": "The new house has fiber to an optical network terminal. Which article is that?",
+    "aliases": [
+      "fiber ONT article 840",
+      "premises powered broadband",
+      "fiber to the home nec"
+    ],
+    "answer_plain": "Premises-powered broadband under Article 840, because the terminal is powered at the premises rather than by the network. The fiber cable itself is also tied to the optical fiber rules of Article 770. Pure dielectric fiber carries no metallic path, so the entrance grounding question turns on whether any metallic member actually arrives with the cable.",
+    "nec_ref": "840.1",
+    "nec_edition": "2020",
+    "tags": [
+      "broadband",
+      "fiber",
+      "ONT"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-045",
+    "question": "Does a fiber entrance cable always need a bond?",
+    "aliases": [
+      "fiber entrance grounding metallic member",
+      "840.93 grounding",
+      "dielectric fiber bond"
+    ],
+    "answer_plain": "Only where the arriving cable has metallic members, such as a shield or a metallic strength member, that require grounding. Those members are grounded following the chapter entrance pattern, as close as practicable to the point of entrance. An all-dielectric fiber cable has nothing conductive to bond, and the job record should say so.",
+    "nec_ref": "840.93",
+    "nec_edition": "2020",
+    "tags": [
+      "broadband",
+      "fiber",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-046",
+    "question": "How far must an outside communications drop stay from open power wiring on the building wall?",
+    "aliases": [
+      "805.50 4 inch separation",
+      "drop wire near open power wiring",
+      "exterior comm wire separation"
+    ],
+    "answer_plain": "Specified unshielded communications wires and cables on the outside of a building must be separated at least 4 inches from open electric light or power conductors that are not in a raceway or cable assembly, subject to the alternatives in the section. This exterior rule is separate from the 2 inch indoor separation for communications cable. Check which situation you actually have before picking a number.",
+    "nec_ref": "805.50(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "separation",
+      "entrance",
+      "communications circuits"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-047",
+    "question": "What is the point of entrance, and why does it matter?",
+    "aliases": [
+      "point of entrance definition",
+      "800.2 definitions",
+      "where cable enters building"
+    ],
+    "answer_plain": "The point of entrance is where a communications wire or cable enters the building from outside, through a wall or floor, or at the end of a grounded metal entrance raceway that extends it. Protector location, sheath and shield grounding, and the distance allowed for unlisted outside cable are all measured from this point. Settle where it is before applying any entrance rule in this chapter.",
+    "nec_ref": "800.2",
+    "nec_edition": "2020",
+    "tags": [
+      "definitions",
+      "entrance"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-048",
+    "question": "Can the communications bonding conductor be copper-clad aluminum (CCA)?",
+    "aliases": [
+      "CCA bonding conductor",
+      "800.100 conductor material",
+      "copper clad aluminum communications bond"
+    ],
+    "answer_plain": "No. The bonding and grounding conductor run under 800.100 is specified as copper or another corrosion-resistant conductive material, sized from 14 AWG up to (never required over) 6 AWG. CCA is Sharma's branch-circuit wire elsewhere in the building, sized on the aluminum column of Table 310.16, but it is not the material this chapter specifies for the intersystem bond. Keep the communications bond copper.",
+    "nec_ref": "800.100(A)",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "bonding",
+      "CCA",
+      "materials"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-049",
+    "question": "Where is CCA allowed to terminate?",
+    "aliases": [
+      "CCA terminations",
+      "backstab CCA",
+      "AL/CU wire nuts CCA",
+      "CCA screw terminals"
+    ],
+    "answer_plain": "CCA terminates fine on 15 and 20 amp device screw terminals. Wire nuts and lugs used with CCA must be marked AL/CU. Backstab (push-in) holes are for 14 AWG solid copper only, so CCA is never backstabbed, in communications work or anywhere else. These are the same termination rules Sharma applies on the power side.",
+    "nec_ref": "110.14",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "terminations",
+      "materials"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-050",
+    "question": "Does conductor metal (copper, aluminum, or CCA) change box fill or conduit fill?",
+    "aliases": [
+      "box fill conductor material",
+      "conduit fill CCA",
+      "314.16 metal",
+      "fill by size not metal"
+    ],
+    "answer_plain": "No. Box fill under 314.16 and conduit fill under Chapter 9 Tables 4 and 5 are figured from the conductor's size and insulation, not from what metal is inside it. A 12 AWG THHN conductor takes the same fill allowance whether it is copper, aluminum, or copper-clad aluminum. Metal changes ampacity and terminations, never the fill arithmetic.",
+    "nec_ref": "314.16",
+    "nec_edition": "2020",
+    "tags": [
+      "box fill",
+      "conduit fill",
+      "CCA",
+      "materials"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C8-L-051",
+    "question": "How are CCA conductors sized for ampacity and voltage drop?",
+    "aliases": [
+      "CCA ampacity column",
+      "CCA voltage drop resistance",
+      "310.16 CCA"
+    ],
+    "answer_plain": "For ampacity, CCA is sized on the aluminum column of Table 310.16, with minimum sizes following 310.3, which in practice means one AWG size up from copper for the same ampacity. For voltage drop, CCA's own resistance must be used, and Chapter 9 Table 8 does not list CCA values. Per-size CCA resistance is being sourced from cited manufacturer or UL data before any number is published here; until then no CCA resistance figure is stated, rather than inventing one.",
+    "nec_ref": "310.16",
+    "nec_edition": "2020",
+    "tags": [
+      "CCA",
+      "ampacity",
+      "voltage drop"
+    ],
+    "verified_by": "Jarvis — UNVERIFIED in part: CCA resistance values pending cited manufacturer/UL data",
+    "verified_date": "2026-11-11"
+  }
+]

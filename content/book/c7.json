@@ -395,7 +395,10 @@
         "C7-L-011",
         "C7-L-012",
         "C7-Q-005",
-        "C7-Q-006"
+        "C7-Q-006",
+        "C7-L-051",
+        "C7-L-055",
+        "C7-Q-027"
       ],
       "florida_note": "",
       "verified": true,
@@ -417,7 +420,9 @@
         "L-089",
         "S-02",
         "C7-L-013",
-        "C7-Q-007"
+        "C7-Q-007",
+        "C7-L-052",
+        "C7-Q-029"
       ],
       "florida_note": "",
       "verified": true,
@@ -647,7 +652,9 @@
         "Q-063",
         "SP-16",
         "C7-L-026",
-        "C7-L-032"
+        "C7-L-032",
+        "C7-L-053",
+        "C7-Q-031"
       ],
       "florida_note": "",
       "verified": true,
@@ -1763,6 +1770,13 @@
       "term": "Communications circuits, separation",
       "ids": [
         "C7-725.136(I)"
+      ]
+    },
+    {
+      "term": "Copper-clad aluminum (CCA)",
+      "ids": [
+        "C7-702.4(B)(2)",
+        "C7-705.12"
       ]
     },
     {
