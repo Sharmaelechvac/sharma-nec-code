@@ -63,3 +63,35 @@ h2.sec{font-size:25px;margin:18px 0 6px;font-weight:900}
 .bkpage h4{margin:14px 0 4px;color:#004585}
 .bkfig{font-style:italic;color:#444}
 .bknav{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+
+/* Redesign v8 — education-first, easy navigation */
+.tabs{flex-wrap:wrap;overflow-x:visible}
+.tabs button{flex:1 1 30%;text-align:center}
+.hero{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;border-radius:18px;padding:22px 18px;margin:14px 0}
+.hero h2{font-size:29px;line-height:1.12;margin:0 0 8px;font-weight:900}
+.hero p{font-size:17px;line-height:1.5;margin:0;opacity:.96}
+.howsteps{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.howsteps span{background:rgba(255,255,255,.16);border:1.5px solid rgba(255,255,255,.45);border-radius:999px;padding:8px 13px;font-weight:800;font-size:15px}
+.howsteps b{display:inline-flex;align-items:center;justify-content:center;background:#fff;color:var(--navy);border-radius:999px;width:24px;height:24px;margin-right:6px;font-size:14px}
+.hero-continue{border:3px solid var(--blue)}
+.pbar.mini{display:block;height:10px;background:var(--sky2);border-radius:999px;overflow:hidden;margin-top:8px}
+.pbar.mini>span{display:block;height:100%;background:var(--blue)}
+.pathcard{display:flex;gap:13px;align-items:flex-start;width:100%;text-align:left;background:#fff;border:2px solid var(--line);border-radius:18px;padding:15px 14px;margin:10px 0;box-shadow:0 2px 10px rgba(0,69,133,.08);cursor:pointer;font:inherit;color:var(--ink)}
+.pathcard:active{border-color:var(--blue)}
+.pathnum{flex:0 0 auto;display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:999px;background:var(--blue);color:#fff;font-weight:900;font-size:22px}
+.pathbody{flex:1;display:block}
+.pathbody b{display:block;font-size:19.5px;line-height:1.2}
+.pathbody i{display:block;font-style:normal;color:var(--mut);font-weight:600;font-size:15.5px;margin-top:3px;line-height:1.35}
+.pathbody small{display:block;font-weight:800;color:var(--navy);font-size:13.5px;margin-top:6px}
+.pathgo{flex:0 0 auto;font-size:30px;font-weight:900;color:var(--blue);line-height:1;padding-top:8px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.tile{text-align:left;background:#fff;border:2px solid var(--line);border-radius:16px;padding:14px;cursor:pointer;font:inherit;color:var(--ink);min-height:96px}
+.tile:active{border-color:var(--blue)}
+.tile b{display:block;font-size:18px;margin-bottom:5px}
+.tile span{color:var(--mut);font-weight:600;font-size:14.5px;line-height:1.35;display:block}
+.lessonrow{display:flex;gap:10px;align-items:center;width:100%;text-align:left;background:var(--sky);border:1.5px solid var(--sky2);border-radius:12px;padding:12px;font:inherit;color:var(--ink);cursor:pointer;min-height:52px}
+.lessonrow:active{border-color:var(--blue)}
+.lcheck{flex:0 0 auto;display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:999px;background:#fff;border:2px solid var(--blue);color:var(--green);font-weight:900;font-size:16px}
+.lsec{flex:0 0 auto;font-weight:900;color:var(--navy);font-size:14.5px;min-width:44px}
+.ltitle{flex:1;font-weight:700;font-size:16.5px;line-height:1.3}
+@media (max-width:520px){.tiles{grid-template-columns:1fr 1fr}.hero h2{font-size:26px}.tabs button{font-size:15px;padding:11px 8px}}

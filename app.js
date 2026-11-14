@@ -8,12 +8,12 @@ let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null, 
 const FALLBACK_TABLES = {"boxFillVolumePerConductor":{"18":1.5,"16":1.75,"14":2,"12":2.25,"10":2.5,"8":3,"6":5},"ampacity75C":{"copper":{"14":20,"12":25,"10":35,"8":50,"6":65,"4":85,"3":100,"2":115,"1":130,"1/0":150,"2/0":175,"3/0":200,"4/0":230},"aluminum":{"12":20,"10":30,"8":40,"6":50,"4":65,"3":75,"2":90,"1":100,"1/0":120,"2/0":135,"3/0":155,"4/0":180}},"smallConductorCaps":{"copper":{"14":15,"12":20,"10":30},"aluminum":{"12":15,"10":25}},"circularMils":{"14":4110,"12":6530,"10":10380,"8":16510,"6":26240,"4":41740,"3":52620,"2":66360,"1":83690,"1/0":105600,"2/0":133100,"3/0":167800,"4/0":211600},"conduitAreas40pct":{"EMT":{"1/2":0.122,"3/4":0.213,"1":0.346,"1-1/4":0.598,"1-1/2":0.814,"2":1.342}},"conductorAreasTHHN":{"14":0.0097,"12":0.0133,"10":0.0211,"8":0.0366,"6":0.0507,"4":0.0824,"3":0.0973,"2":0.1158},"table8Resistance":{"copper":{"14":3.14,"12":1.98,"10":1.24,"8":0.778,"6":0.491,"4":0.308,"3":0.245,"2":0.194,"1":0.154,"1/0":0.122,"2/0":0.0967,"3/0":0.0766,"4/0":0.0608},"aluminum":{"12":3.25,"10":2.04,"8":1.28,"6":0.808,"4":0.508,"3":0.403,"2":0.319,"1":0.253,"1/0":0.201,"2/0":0.159,"3/0":0.126,"4/0":0.100}}};
 const favs = new Set(JSON.parse(localStorage.getItem("nec-favs")||"[]"));
 function saveFavs(){ localStorage.setItem("nec-favs", JSON.stringify([...favs])); }
-const CONTENT_V = "7";
+const CONTENT_V = "8";
 async function loadJSON(name){
   try{ const r = await fetch("content/"+name+".json?v="+CONTENT_V); if(r.ok) return await r.json(); }catch(e){}
   return null;
 }
-let tab = "lookup";
+let tab = "home";
 document.querySelectorAll("#tabs button").forEach(b=>b.addEventListener("click",()=>{
   document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x===b));
   tab=b.dataset.tab; render();
@@ -58,6 +58,7 @@ document.addEventListener("click",e=>{
 function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
 
 function render(){
+  if(tab==="home") return renderHome();
   if(tab==="book") return renderBook();
   if(tab==="lookup") return renderLookup();
   if(tab==="calc") return renderCalc();
@@ -65,6 +66,49 @@ function render(){
   if(tab==="quiz") return renderQuiz();
   if(tab==="sharma") return renderSharma();
   if(tab==="favs") return renderFavs();
+}
+/* ---------- Home: education-first start page ---------- */
+const CH_SUB = {1:"The rules that apply to every job",2:"Services, feeders, grounding and breakers",3:"Cable, conduit, boxes and wire",4:"Switches, receptacles, lights and equipment",5:"Hazardous places, health care and assembly",6:"Pools, solar, EVs, signs and special gear",7:"Generators, emergency systems and fire alarm",8:"Low voltage, data and antennas",9:"The tables you use every day"};
+function allBookSections(){ const out=[]; for(const e of bookEntries()) for(const s of e.book.sections) out.push(s); return out; }
+function chProgress(e){ const secs=e.book.sections||[]; const done=secs.filter(s=>learned.has(s.id)).length; return {done:done, total:secs.length, pct:secs.length?Math.round(100*done/secs.length):0}; }
+document.addEventListener("click",e=>{
+  const gq=e.target.closest("[data-gotoquiz]"); if(gq){ setTab("quiz"); startQuiz(gq.dataset.gotoquiz,0); render(); window.scrollTo(0,0); return; }
+  const g=e.target.closest("[data-goto]"); if(!g) return;
+  setTab(g.dataset.goto); render(); window.scrollTo(0,0);
+});
+function renderHome(){
+  const topics=(DATA.lookup&&DATA.lookup.topics)||[];
+  const secs=allBookSections();
+  const totalLessons=topics.length+secs.length;
+  const doneCount=[...learned].filter(id=>topics.some(t=>t.id===id)||secs.some(s=>s.id===id)).length;
+  const pct=totalLessons?Math.round(100*doneCount/totalLessons):0;
+  const nextTopic=topics.find(t=>!learned.has(t.id));
+  const nextSec=secs.find(s=>!learned.has(s.id));
+  let continueCard="";
+  if(nextSec){
+    const chE=bookEntries().find(e=>e.book.chapter===nextSec.chapter);
+    continueCard=`<div class="card hero-continue"><div class="cite">${doneCount? "Continue where you left off":"Start here — your first lesson"}</div><h3>Chapter ${nextSec.chapter}: ${esc(nextSec.title)}</h3><p>NEC ${esc(nextSec.section)} · ${chE?esc(chE.book.chapter_title):""} — in plain words, with what it means on the job.</p><button class="go" data-bookpage="${nextSec.id}">${doneCount? "Continue learning →":"Start Lesson 1 →"}</button></div>`;
+  } else if(nextTopic){
+    continueCard=`<div class="card hero-continue"><div class="cite">Start here</div><h3>${esc(nextTopic.title)}</h3><p>One of the 15 essential lessons every electrician should know first.</p><button class="go" data-goto="lookup">Start the essential lessons →</button></div>`;
+  } else if(totalLessons){
+    continueCard=`<div class="card hero-continue"><div class="cite">🎉 All lessons done</div><h3>You have worked through every lesson</h3><p>Keep sharp with the Practice quizzes, or look anything up any time.</p><button class="go" data-goto="quiz">Practice now →</button></div>`;
+  }
+  view.innerHTML =
+  `<div class="hero"><h2>Learn the NEC, one lesson at a time</h2><p>No code-book language to fight through. Every lesson is in plain words, in order, with the NEC section on it so you can check the real book.</p>
+   <div class="howsteps"><span><b>1</b> Read a lesson</span><span><b>2</b> Answer a question</span><span><b>3</b> Use it on the job</span></div></div>` +
+  (totalLessons? `<div class="progresswrap"><div class="plabel">Your learning progress: ${doneCount} of ${totalLessons} lessons</div><div class="pbar"><div style="width:${pct}%"></div></div></div>`:"") +
+  continueCard +
+  `<h2 class="sec">Your learning path — Chapters 1 to 9, in order</h2><p class="bkmeta">Tap a chapter to open its lessons. Work top to bottom, or jump to the chapter you need today — your checkmarks are saved on this phone.</p>` +
+  bookEntries().map(e=>{ const pr=chProgress(e); return `<button class="pathcard" data-bookchapter="${e.book.chapter}"><span class="pathnum">${e.book.chapter}</span><span class="pathbody"><b>Chapter ${e.book.chapter} — ${esc(e.book.chapter_title)}</b><i>${esc(CH_SUB[e.book.chapter]||"")}</i><small>${pr.total} lessons · ${(e.quiz||[]).length} practice questions${pr.done?` · ✓ ${pr.done} learned`:""}</small><span class="pbar mini"><span style="width:${pr.pct}%"></span></span></span><span class="pathgo">›</span></button>`; }).join("") +
+  `<h2 class="sec">Quick ways in</h2><div class="tiles">
+     <button class="tile" data-goto="lookup"><b>⭐ Start Here</b><span>The 15 essential lessons, with pictures</span></button>
+     <button class="tile" data-goto="quiz"><b>✏️ Practice</b><span>Quiz yourself — 80% to pass</span></button>
+     <button class="tile" data-goto="calc"><b>🧮 Tools</b><span>Box fill, conduit fill, voltage drop, load calc</span></button>
+     <button class="tile" data-goto="rooms"><b>🏠 Room Checklists</b><span>Room by room, before the inspector comes</span></button>
+     <button class="tile" data-goto="sharma"><b>⭐ Sharma Rules</b><span>How Sharma does it — stricter than code</span></button>
+     <button class="tile" data-goto="favs"><b>❤️ Saved</b><span>The lessons and rules you bookmarked</span></button>
+   </div>
+   <div class="card"><div class="cite">Just need one answer?</div><h3>Use Look Up</h3><p>Type what you are looking for in the search box at the top — it searches every lesson, every quick answer and every quiz question in the app at once.</p><button class="go" data-goto="lookup">Go to Look Up →</button></div>`;
 }
 /* ---------- Lookup ---------- */
 function topicCard(t, ix){
@@ -93,11 +137,11 @@ function renderLookup(){
     return;
   }
   const total=topics.length;
-  let html = `<h2 class="sec">Learn the code — one rule at a time</h2>` +
-    (total? `<div class="progresswrap"><div class="plabel">Your progress: ${[...learned].filter(id=>topics.some(t=>t.id===id)).length} of ${total} rules learned</div><div class="pbar"><div style="width:${Math.round(100*[...learned].filter(id=>topics.some(t=>t.id===id)).length/Math.max(total,1))}%"></div></div></div>`:"") +
+  let html = `<h2 class="sec">Start Here — the 15 essential lessons</h2><p class="bkmeta">New to the code? Start with these 15. Each one has a picture, the key numbers, and simple steps. Mark it learned when you can explain it back.</p>` +
+    (total? `<div class="progresswrap"><div class="plabel">Essential lessons: ${[...learned].filter(id=>topics.some(t=>t.id===id)).length} of ${total} learned</div><div class="pbar"><div style="width:${Math.round(100*[...learned].filter(id=>topics.some(t=>t.id===id)).length/Math.max(total,1))}%"></div></div></div>`:"") +
     (DATA.lookup? `<p class="flag">${esc(DATA.lookup.meta.status)}</p>`:"") +
     (topics.length? topics.map((t,i)=>topicCard(t,i)).join("") : `<div class="empty">Lookup file not loaded yet.</div>`);
-  html += `<h2 class="sec">Field Book lookup</h2><p class="bkmeta">The nine chapters carry ${chapterLookupAll().length} lookup cards of their own. Pick a chapter to browse them, or use the search box above — it searches the topics, every chapter bank, the v1 pack, and the book pages at once.</p>`;
+  html += `<h2 class="sec">Quick Answers by chapter</h2><p class="bkmeta">Need one fast answer? The nine chapters carry ${chapterLookupAll().length} quick-answer cards. Pick a chapter to browse them, or use the search box at the top — it searches everything in the app at once.</p>`;
   html += `<div class="rowbtns">${bookEntries().map(e=>`<button class="quizbtn" data-lookupch="${e.book.chapter}"${lookupState.chapter===e.book.chapter?` style="background:#0058a3;color:#fff"`:``}>Ch. ${e.book.chapter} (${(e.lookup||[]).length})</button>`).join("")}</div>`;
   if(lookupState.chapter){ const ent=bookEntries().find(e=>e.book.chapter===lookupState.chapter); if(ent) html += (ent.lookup||[]).map(x=>lookupCard(ent.book.chapter,x)).join(""); }
   view.innerHTML = html;
@@ -105,7 +149,7 @@ function renderLookup(){
 /* ---------- Sharma rules ---------- */
 function renderSharma(){
   const rules=(DATA.sharma&&DATA.sharma.rules)||[];
-  view.innerHTML = `<h2 class="sec">Sharma rules — stricter than code</h2>` + (rules.length? rules.map(r=>
+  view.innerHTML = `<h2 class="sec">Sharma Rules — how we do it</h2><p class="bkmeta">The code is the floor. These are Sharma's own rules on top of it — when a Sharma rule and the code differ, follow the stricter one and ask your foreman if you are not sure.</p>` + (rules.length? rules.map(r=>
     `<div class="card">${favBtn("s:"+r.id)}<span class="tag">SHARMA RULE</span><h3 style="margin-top:6px">${esc(r.title)}</h3><p>${esc(r.text)}</p>${r.status?`<span class="flag">${esc(r.status)}</span>`:""}</div>`).join("")
     : `<div class="empty">Sharma rules file not loaded yet.</div>`);
 }
@@ -122,10 +166,10 @@ function renderFavs(){
 /* ---------- Checklists ---------- */
 function renderRooms(){
   const rooms=(DATA.checklists&&DATA.checklists.rooms)||[];
-  let html=`<h2 class="sec">Room checklists</h2>`+(rooms.length? rooms.map(r=>
+  let html=`<h2 class="sec">Room Checklists — check it before inspection</h2><p class="bkmeta">Walk the room, tick each item off. These are the things inspectors look for — and the things that fail jobs.</p>`+(rooms.length? rooms.map(r=>
     `<div class="card"><h3>${esc(r.room)}</h3><ul class="ck">${r.items.map(i=>`<li><input type="checkbox"><span>${esc(i)}</span></li>`).join("")}</ul></div>`).join("")
     : `<div class="empty">Checklists file not loaded yet.</div>`);
-  html+=`<h2 class="sec">Field Book checklists</h2>`;
+  html+=`<h2 class="sec">More checklists — by chapter</h2>`;
   for(const e of bookEntries()) for(const r of (e.checklists||[])){
     html+=`<div class="card"><h3>Ch. ${e.book.chapter} — ${esc(r.room)}</h3><ul class="ck">${r.items.map(i=>`<li id="ck-${esc(i.id)}"${roomsHighlight===i.id?` style="outline:3px solid #0058a3"`:``}><input type="checkbox"><span>${esc(i.text)}${i.nec_ref?` <span class="cite">${esc(i.nec_ref)}</span>`:""}${i.severity==="sharma"?` <span class="tag">SHARMA</span>`:""}</span></li>`).join("")}</ul></div>`;
   }
@@ -143,7 +187,7 @@ function quizBank(name){
 function startQuiz(bank, idx){ quizState={bank:bank, qs:quizBank(bank), i:idx||0, score:0, answered:false}; }
 function renderQuiz(){
   if(!quizState){
-    view.innerHTML=`<h2 class="sec">Quiz — pick a bank</h2><div class="card"><div class="rowbtns">
+    view.innerHTML=`<h2 class="sec">Practice — check what you learned</h2><p class="bkmeta">Best way: study one chapter under Learn, then take that chapter's quiz here. 80% to pass.</p><div class="card"><h3>Pick a quiz</h3><div class="rowbtns">
       <button class="quizbtn" data-quizbank="starter">Starter bank (${((DATA.quiz&&DATA.quiz.questions)||[]).length})</button>
       <button class="quizbtn" data-quizbank="all">All chapters (${chapterQuizAll().length})</button>
       ${bookEntries().map(e=>`<button class="quizbtn" data-quizbank="ch${e.book.chapter}">Ch. ${e.book.chapter} (${(e.quiz||[]).length})</button>`).join("")}
@@ -177,7 +221,8 @@ function renderCalc(){
   const awgs=Object.keys(T.circularMils);
   const opts=(arr,v)=>arr.map(a=>`<option ${a===v?"selected":""}>${a}</option>`).join("");
   view.innerHTML=`
-  <h2 class="sec">Calculators</h2>
+  <h2 class="sec">Tools — calculators for the job</h2>
+  <div class="tiles"><button class="tile" data-goto="rooms"><b>🏠 Room Checklists</b><span>Check a room before inspection</span></button><button class="tile" data-goto="sharma"><b>⭐ Sharma Rules</b><span>Stricter than code — our way</span></button></div>
   <div class="card"><h3>📦 Box fill <span class="cite">314.16</span></h3>
     <label class="f">Wire size (AWG)</label><select class="n" id="bf-awg">${opts(["14","12","10","8","6"],"12")}</select>
     <label class="f">Conductors entering the box (count each insulated conductor; do NOT count grounds here — use the grounds field)</label><input class="n" id="bf-cond" type="number" value="6" min="0">
@@ -313,12 +358,13 @@ function renderBook(){
   const pages = B.sections.length;
   const unverified = B.sections.filter(s=>!s.verified).length;
   const ckItems = (ent.checklists||[]).reduce((n,r)=>n+((r.items||[]).length),0);
-  const picker = bookEntries().length>1 ? `<div class="rowbtns">${bookEntries().map(e=>`<button class="quizbtn" data-bookchapter="${e.book.chapter}"${e.book.chapter===B.chapter?` style="background:#0058a3;color:#fff"`:``}>Ch. ${e.book.chapter} — ${esc(e.book.chapter_title)}</button>`).join("")}</div>` : "";
-  const head=`<h2 class="sec">Sharma NEC Field Book — Chapter ${B.chapter}: ${esc(B.chapter_title)}</h2>`+
-    `<p class="flag">Live — master-audited Nov 2026. NEC ${esc(B.nec_edition)} · ${esc(B.jurisdiction)}. ${esc(B.label||"")}</p>`+
+  const pr = chProgress(ent);
+  const picker = `<div class="progresswrap"><div class="plabel">Chapter ${B.chapter} progress: ${pr.done} of ${pr.total} lessons learned</div><div class="pbar"><div style="width:${pr.pct}%"></div></div></div>`;
+  const head=`<h2 class="sec">Learn — Chapter ${B.chapter}: ${esc(B.chapter_title)}</h2>`+
+    `<p class="bkmeta">${esc(CH_SUB[B.chapter]||"")} · ${pages} lessons in order · ${(ent.quiz||[]).length} practice questions · ${ckItems} checklist items${unverified?` · ${unverified} lesson${unverified===1?"":"s"} still marked unverified (shown on the lesson)`:""}</p>`+
     picker+
-    `<p class="bkmeta">${B.toc.length} articles · ${pages} pages · ${unverified} unverified item${unverified===1?"":"s"} · plus ${(ent.lookup||[]).length} lookup, ${(ent.quiz||[]).length} quiz, ${ckItems} checklist items</p>`+
-    `<div class="rowbtns"><button class="quizbtn" data-bookview="toc">Contents</button><button class="quizbtn" data-bookview="index">Index</button></div>`;
+    `<div class="rowbtns"><button class="quizbtn" data-bookview="toc">📚 Lessons in this chapter</button><button class="quizbtn" data-bookview="index">🔤 A–Z Index</button><button class="quizbtn" data-goto="home">🏠 All chapters</button></div>`+
+    `<p class="bkmeta">NEC ${esc(B.nec_edition)} · ${esc(B.jurisdiction)} · Master-audited Nov 2026</p>`;
   if(bookState.view==="index"){
     view.innerHTML = head + `<div class="card"><h3>Index</h3><ul class="bkindex">${B.index.map(en=>
       `<li><b>${esc(en.term)}</b><br>${en.ids.map(id=>{ const s=bookSection(id); return s? `<button class="bkchip" data-bookpage="${id}">${esc(id.replace(/^C\d+-/,""))} — ${esc(s.title)}</button>` : relChip(id); }).join(" ")}</li>`).join("")}</ul></div>`;
@@ -328,30 +374,36 @@ function renderBook(){
     const s=bookSection(bookState.page);
     if(!s){ bookState={chapter:B.chapter,page:null,view:"toc"}; return renderBook(); }
     const prev=s.prev_id? bookSection(s.prev_id):null, next=s.next_id? bookSection(s.next_id):null;
+    const pos=B.sections.findIndex(x=>x.id===s.id)+1;
+    const isDone=learned.has(s.id);
     view.innerHTML = head + `<div class="card bkpage">
-      <div class="cite">Article ${esc(s.article)} · Section ${esc(s.section)}</div>
+      <div class="cite">Lesson ${pos} of ${B.sections.length} · Chapter ${B.chapter} · NEC ${esc(s.section)} (Article ${esc(s.article)})</div>
       <h3>${esc(s.title)}</h3>
       ${s.verified? `<span class="tag">VERIFIED</span>` : `<span class="flag">\u26a0 UNVERIFIED${s.unverified_reason? " — "+esc(s.unverified_reason):""}</span>`}
+      <h4>In plain words</h4>
       <p>${esc(s.plain_explanation)}</p>
       ${s.on_the_job? `<h4>What it means on the job</h4><p>${esc(s.on_the_job)}</p>`:""}
       ${s.sharma_note? `<h4>Sharma note</h4><p>${esc(s.sharma_note)}</p>`:""}
       ${s.florida_note? `<h4>Florida note</h4><p>${esc(s.florida_note)}</p>`:""}
       ${s.figure_idea? `<h4>Figure idea</h4><p class="bkfig">${esc(s.figure_idea)}</p>`:""}
       ${(s.related_ids&&s.related_ids.length)? `<h4>Related</h4><div>${s.related_ids.map(id=>relChip(id)).join(" ")}</div>`:""}
+      <div class="rowbtns"><button class="learnbtn ${isDone?"done":""}" data-learn="${s.id}">${isDone?"✓ Learned — tap to undo":"✓ Mark as learned"}</button><button class="quizbtn" data-quizjump="1">Quiz me →</button></div>
       <div class="bknav">
-        ${prev? `<button class="go" data-bookpage="${prev.id}">\u2190 Previous: ${esc(prev.section)} ${esc(prev.title)}</button>` : `<span class="bkmeta">Start of chapter</span>`}
-        ${next? `<button class="go" data-bookpage="${next.id}">Next: ${esc(next.section)} ${esc(next.title)} \u2192</button>` : `<span class="bkmeta">End of chapter</span>`}
+        ${prev? `<button class="go" data-bookpage="${prev.id}">\u2190 Previous lesson</button>` : `<span class="bkmeta">Start of chapter</span>`}
+        ${next? `<button class="go" data-bookpage="${next.id}">Next lesson: ${esc(next.title)} \u2192</button>` : `<span class="bkmeta">End of chapter — nice work. Take the Chapter ${B.chapter} quiz under Practice.</span>`}
       </div>
-      <div class="rowbtns"><button class="quizbtn" data-bookview="toc">Back to contents</button><button class="quizbtn" data-bookview="index">Index</button></div>
+      <div class="rowbtns"><button class="quizbtn" data-bookview="toc">All lessons in this chapter</button><button class="quizbtn" data-bookview="index">A–Z Index</button></div>
     </div>`;
     return;
   }
-  view.innerHTML = head + B.toc.map(a=>{
+  const lessonRow=(id,secLabel,title)=>`<li><button class="lessonrow" data-bookpage="${id}"><span class="lcheck">${learned.has(id)?"✓":""}</span><span class="lsec">${esc(secLabel)}</span><span class="ltitle">${esc(title)}</span><span class="pathgo">›</span></button></li>`;
+  view.innerHTML = head + `<p class="bkmeta">Work down the list in order — tap a lesson to open it, mark it learned, then tap Next lesson. A ✓ means you finished it.</p>` + B.toc.map(a=>{
     const isArt = a.article && a.article!==String(B.chapter);
     return `<div class="card"><h3>${isArt? `Article ${esc(a.article)} — `:""}${esc(a.title)}</h3><ul class="bktoc">
-      <li><button class="bkchip" data-bookpage="${a.id}">Intro${isArt? ` — Article ${esc(a.article)}`:""}</button></li>
-      ${a.children.map(c=>`<li><button class="bkchip" data-bookpage="${c.id}">${esc(c.section)} — ${esc(c.title)}</button></li>`).join("")}
-    </ul></div>`; }).join("");
+      ${lessonRow(a.id, isArt? "Intro":"Start", isArt? `About Article ${esc(a.article)}`:"Chapter introduction")}
+      ${a.children.map(c=>lessonRow(c.id, c.section, c.title)).join("")}
+    </ul></div>`; }).join("") +
+    `<div class="card"><div class="cite">Finished this chapter?</div><h3>Take the Chapter ${B.chapter} practice quiz</h3><p>80% to pass. Wrong answers explain why, in plain words.</p><button class="go" data-gotoquiz="ch${B.chapter}">Start Chapter ${B.chapter} quiz →</button></div>`;
 }
 /* ---------- boot ---------- */
 (async()=>{
