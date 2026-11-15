@@ -678,7 +678,7 @@
       "title": "Appliances — article intro",
       "plain_explanation": "Article 422 covers appliances: water heaters, dishwashers, disposals, ranges and cooktops, dryers as appliances, space heaters that plug or hard-wire as appliances, and similar equipment. Its working parts are branch-circuit sizing for specific appliances, permitted cord-and-plug connections, overcurrent protection, and the disconnecting means that lets a servicer kill the appliance safely. Where an appliance is also a motor load or also HVAC equipment, Articles 430 and 440 may govern instead or in addition — check the appliance's own article first.",
       "on_the_job": "For every appliance on a job, settle three things from the nameplate before rough-in is closed: circuit size, cord-and-plug or hard-wired, and where the disconnect will be. The nameplate, not the catalog photo, is the source.",
-      "sharma_note": "S-06: the microwave gets its own 20A circuit on 12 AWG copper. Do not lump the microwave onto an appliance circuit shared with the hood or anything else.",
+      "sharma_note": "S-06 is PENDING. The microwave gets its own 20A circuit and is not lumped onto a circuit shared with the hood or anything else. The wire (12 AWG copper versus 10 AWG CCA) is not settled until Mike Holt rules.",
       "figure_idea": "",
       "related_ids": [
         "L-078",
@@ -711,12 +711,13 @@
         "C4-L-043"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [
         "S-07"
       ],
       "prev_id": "C4-ART-422",
-      "next_id": "C4-422.13"
+      "next_id": "C4-422.13",
+      "unverified_reason": "Verified badge removed after the 2026-11-15 field audit. The wording on this page was wrong or rested on a note that the printed NEC was not checked. Confirm against the printed 2020 text before relying on it."
     },
     {
       "id": "C4-422.13",
@@ -747,7 +748,7 @@
       "title": "Cord-and-plug connection for range hoods",
       "plain_explanation": "Section 422.16(B)(4) is the provision the brief assigns to cord-and-plug-connected range hoods: a listed range hood may be connected with a cord and plug where the conditions of that subsection are met, including that the hood is marked for that connection method and the receptacle arrangement matches the rule. Cord connection is what lets the hood be removed for service without unwiring it, but it is only permitted because the appliance and the installation meet the listed conditions — not as a general shortcut for any fixed appliance.",
       "on_the_job": "Confirm the hood's instructions allow cord connection and that the receptacle location matches the plan before rough-in. If the hood is listed for hard-wiring only, hard-wire it; the cord kit in the truck does not override the listing.",
-      "sharma_note": "Sharma note (company practice, not a 422 rule): the range hood often rides the dishwasher/disposal circuit in Sharma design practice. S-06 still stands on its own — the microwave keeps its own dedicated 20A copper circuit and is never lumped in with the hood.",
+      "sharma_note": "Sharma note (company practice, not a 422 rule): the range hood often rides the dishwasher/disposal circuit in Sharma design practice. S-06 still stands on its own — the microwave keeps its own dedicated 20A circuit and is never lumped in with the hood. The wire size on that circuit is PENDING (12 AWG copper versus 10 AWG CCA).",
       "figure_idea": "",
       "related_ids": [
         "L-080",

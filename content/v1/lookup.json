@@ -163,18 +163,16 @@
       "outdoor outlet GFCI",
       "AC condenser GFCI"
     ],
-    "answer_plain": "NEC 2020 added 210.8(F): outdoor outlets at dwellings on single-phase circuits of 150V to ground or less, rated 50A or less, need GFCI protection, with an exception for lighting outlets. This caught hardwired outdoor equipment such as AC condensers and pool equipment. Check with the AHJ on condensers, because amendments and enforcement varied for this rule.",
+    "answer_plain": "NEC 2020 210.8(F) requires GFCI protection for outdoor outlets at dwellings on single-phase circuits of 150V to ground or less, rated 50A or less, other than the receptacle outlets already covered in 210.8(A). Lighting outlets have their own exception. For a one- or two-family dwelling, the Florida Building Code, Residential, 8th Edition, E3408.1 adds Exception No. 2: GFCI protection is not required for listed and labeled HVAC equipment. Other outdoor outlets in that voltage and ampere range still need it. The exception is in the residential code; commercial jobs are outside it.",
     "nec_ref": "210.8(F)",
     "nec_edition": "2020",
-    "fl_note": "Confirm 210.8(F) enforcement on HVAC condensers with the local AHJ before rough-in. Sharma practice (Sanjay 2026-10-28) is a standard 2-pole breaker sized to MOCP on condensers.",
+    "fl_note": "FBC-Residential 8th Edition E3408.1 Exception No. 2: listed and labeled HVAC equipment at a one- or two-family dwelling does not need 210.8(F) GFCI. Sharma practice (Sanjay 2026-10-28) is a standard 2-pole breaker sized to the nameplate MOCP on those condensers. Receptacles near the equipment are a separate 210.8(A) question and still need GFCI.",
     "tags": [
       "GFCI",
       "outdoor",
       "HVAC",
       "2020 change"
-    ],
-    "verified_by": "Mike",
-    "verified_date": "2026-11-11"
+    ]
   },
   {
     "id": "L-010",
@@ -1164,7 +1162,7 @@
       "box fill",
       "314.16"
     ],
-    "answer_plain": "Add up volume allowances from Table 314.16(B): each insulated conductor counts once, all equipment grounds together count as one (the largest), internal clamps count as one, and each device yoke counts as two, based on the largest conductor on that device. The total can't exceed the box volume.",
+    "answer_plain": "Add up volume allowances from Table 314.16(B): each insulated conductor counts once at its own size, internal clamps count as one, and each device yoke counts as two based on the largest conductor on that device. Equipment grounding conductors use the 2020 count in 314.16(B)(5): up to four count as one volume based on the largest ground, and each ground past four adds one quarter of that volume. The total cannot exceed the box volume. The metal does not change the allowance.",
     "nec_ref": "314.16(B)",
     "nec_edition": "2020",
     "diagram_hint": "box-fill",

@@ -450,7 +450,7 @@
   {
     "id": "C5-Q-029",
     "article": "555",
-    "question": "A shore power disconnect (2020 numbering, 555.17) must be located within how far of its receptacle?",
+    "question": "A shore power disconnect (2020 section 555.36) must be located within how far of its receptacle?",
     "choices": [
       "12 inches",
       "30 inches",
@@ -458,15 +458,15 @@
       "Within sight only, no distance"
     ],
     "answer_index": 1,
-    "explain_plain": "Not more than 30 inches, readily accessible, identified, and ahead of the receptacle. In NEC 2023 this moved to 555.36, which Florida has not adopted.",
-    "nec_ref": "555.17(B)",
+    "explain_plain": "Not more than 30 inches, readily accessible, identified, and ahead of the receptacle. In the 2020 NEC this is 555.36. The older number 555.17 is not the 2020 section.",
+    "nec_ref": "555.36",
     "difficulty": 2,
     "exam": "both"
   },
   {
     "id": "C5-Q-030",
     "article": "555",
-    "question": "Marina receptacles (2020 numbering, 555.19) mount at least how far above the deck?",
+    "question": "Marina receptacles (2020 section 555.33) mount at least how far above the deck?",
     "choices": [
       "6 inches",
       "12 inches",
@@ -474,8 +474,8 @@
       "30 inches"
     ],
     "answer_index": 1,
-    "explain_plain": "At least 12 inches above the deck surface, and never below the electrical datum plane. Deck replacement can change the finished height and must be rechecked.",
-    "nec_ref": "555.19",
+    "explain_plain": "At least 12 inches above the deck surface, and never below the electrical datum plane. In the 2020 NEC this is 555.33. Deck replacement can change the finished height and must be rechecked.",
+    "nec_ref": "555.33",
     "difficulty": 1,
     "exam": "journeyman"
   },

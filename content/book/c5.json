@@ -1018,48 +1018,50 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C5-555.3",
-      "next_id": "C5-555.17",
+      "next_id": "C5-555.36",
       "sharma_rule_ids": []
     },
     {
-      "id": "C5-555.17",
+      "id": "C5-555.36",
       "chapter": 5,
       "article": "555",
-      "section": "555.17",
-      "title": "Disconnecting means for shore power connections (2020 numbering)",
+      "section": "555.36",
+      "title": "Disconnecting means for shore power connections (2020 section 555.36)",
       "plain_explanation": "Each boat's shore power connection needs its own disconnecting means that isolates that boat from its supply. The disconnect is a circuit breaker, a switch, or both, identified to show which receptacle it controls, readily accessible, ahead of the receptacle in the circuit, and located not more than 30 inches from the receptacle it controls. Breakers or switches inside a marine power outlet can serve as this disconnect when they meet those conditions.",
       "on_the_job": "Label every pedestal disconnect with the slip and receptacle it controls, and measure the 30-inch limit before the pedestal is set. A boater in the dark needs to kill one connection, not the whole dock.",
-      "sharma_note": "Numbering caution for Mike's review: in NEC 2023 this material moved to 555.36 — not yet adopted in FL. This book uses the 2020 number, 555.17.",
+      "sharma_note": "This is the 2020 section number, 555.36. The older number 555.17 is not the 2020 section, and 555.36 is not a 2023-only number.",
       "figure_idea": "",
       "related_ids": [
         "C5-L-059",
         "C5-Q-031"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C5-555.13",
-      "next_id": "C5-555.19",
-      "sharma_rule_ids": []
+      "next_id": "C5-555.33",
+      "sharma_rule_ids": [],
+      "unverified_reason": "Section number corrected from the pre-2020 number 555.17 to 2020 section 555.36. The 30-inch distance is unchanged. Printed 2020 text not yet checked in this pass."
     },
     {
-      "id": "C5-555.19",
+      "id": "C5-555.33",
       "chapter": 5,
       "article": "555",
-      "section": "555.19",
-      "title": "Receptacles at marinas and docking facilities (2020 numbering)",
+      "section": "555.33",
+      "title": "Receptacles at marinas and docking facilities (2020 section 555.33)",
       "plain_explanation": "Receptacles at docking facilities are mounted at least 12 inches above the deck surface and not below the electrical datum plane. Shore power receptacles have their own requirements within this section, including being part of listed marine power outlet equipment, while other receptacles serve general dock use. Height, listing, and location work together — a correct receptacle set too low still fails.",
       "on_the_job": "Set receptacle heights from the finished deck, and re-check them if decking is replaced after rough-in. Use only marine power outlets listed for shore power service where boats connect.",
-      "sharma_note": "Numbering caution for Mike's review: in NEC 2023 receptacle material moved to 555.33 — not yet adopted in FL. This book uses the 2020 number, 555.19.",
+      "sharma_note": "This is the 2020 section number, 555.33. The older number 555.19 is not the 2020 section, and 555.33 is not a 2023-only number.",
       "figure_idea": "",
       "related_ids": [
         "C5-L-060",
         "C5-Q-032"
       ],
       "florida_note": "",
-      "verified": true,
-      "prev_id": "C5-555.17",
+      "verified": false,
+      "prev_id": "C5-555.36",
       "next_id": "C5-555.35",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "unverified_reason": "Section number corrected from the pre-2020 number 555.19 to 2020 section 555.33. The 12-inch height above the deck is unchanged. Printed 2020 text not yet checked in this pass."
     },
     {
       "id": "C5-555.35",
@@ -1079,7 +1081,7 @@
       ],
       "florida_note": "Florida coastal AHJs test marina ground-fault protection seriously after electric shock drowning incidents nationally; expect the settings and signage to be checked at final.",
       "verified": true,
-      "prev_id": "C5-555.19",
+      "prev_id": "C5-555.33",
       "next_id": "C5-ART-590",
       "sharma_rule_ids": []
     },
@@ -1481,14 +1483,17 @@
           "title": "Bonding at marinas and docking facilities"
         },
         {
-          "id": "C5-555.17",
-          "section": "555.17",
-          "title": "Disconnecting means for shore power connections (2020 numbering)"
+          "id": "C5-555.36",
+          "section": "555.36",
+          "title": "Disconnecting means for shore power connections (2020 section 555.36)",
+          "sharma_note": "This is the 2020 section number, 555.36. The older number 555.17 is not the 2020 section, and 555.36 is not a 2023-only number.",
+          "verified": false,
+          "unverified_reason": "Section number corrected from the pre-2020 number 555.17 to 2020 section 555.36. The 30-inch distance is unchanged. Printed 2020 text not yet checked in this pass."
         },
         {
-          "id": "C5-555.19",
-          "section": "555.19",
-          "title": "Receptacles at marinas and docking facilities (2020 numbering)"
+          "id": "C5-555.33",
+          "section": "555.33",
+          "title": "Receptacles at marinas and docking facilities (2020 section 555.33)"
         },
         {
           "id": "C5-555.35",
@@ -1598,7 +1603,7 @@
     {
       "term": "Disconnect, shore power",
       "ids": [
-        "C5-555.17"
+        "C5-555.36"
       ]
     },
     {
@@ -1780,8 +1785,8 @@
     {
       "term": "Shore power",
       "ids": [
-        "C5-555.17",
-        "C5-555.19",
+        "C5-555.36",
+        "C5-555.33",
         "C5-555.35"
       ]
     },

@@ -42,15 +42,15 @@
       "cite": "110.26"
     },
     {
-      "q": "How are equipment grounding conductors counted for box fill?",
+      "q": "How are equipment grounding conductors counted for box fill under the 2020 NEC?",
       "choices": [
-        "One volume allowance for all of them together",
-        "One allowance each",
+        "Up to four count as one volume; each one past four adds a quarter",
+        "One volume allowance no matter how many there are",
         "Not counted",
-        "Two allowances"
+        "One full volume each"
       ],
       "answer": 0,
-      "why": "314.16(B)(5): all EGCs in the box count as a single volume allowance based on the largest EGC.",
+      "why": "314.16(B)(5) in the 2020 NEC: the first four equipment grounding conductors count as one volume based on the largest. Each additional ground adds one quarter of that volume. Counting every ground as only one volume, with nothing added past four, is the 2017 rule.",
       "cite": "314.16(B)(5)"
     },
     {

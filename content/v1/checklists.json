@@ -46,7 +46,7 @@
       },
       {
         "id": "K-08",
-        "text": "Microwave on its own 20A circuit, 12 AWG copper, unless the plan or nameplate says otherwise.",
+        "text": "Microwave on its own 20A circuit. Wire size is PENDING under S-06 (12 AWG copper vs 10 AWG CCA) unless the plan or nameplate states a size.",
         "sharma_rule_id": "S-06",
         "severity": "sharma"
       },

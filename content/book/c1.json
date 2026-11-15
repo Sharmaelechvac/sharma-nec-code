@@ -272,7 +272,7 @@
       "title": "Appliance",
       "plain_explanation": "An appliance is utilization equipment, usually built as a unit, that does a household or similar job — cooking, washing, drying, comfort heating or cooling, and the like — other than a basic luminaire or motor by itself. The word matters because several branch-circuit and disconnect rules turn on whether the load is an appliance.",
       "on_the_job": "Dishwashers, disposals, ranges, dryers and built-in microwaves are appliances. When a rule says appliance, check whether the equipment in front of you fits that idea before applying a general receptacle rule to it.",
-      "sharma_note": "S-06: the microwave gets its own 20A circuit on 12 AWG copper unless the plan or nameplate says otherwise.",
+      "sharma_note": "S-06 is PENDING. The microwave gets its own 20A circuit. The wire is not settled — 12 AWG copper versus 10 AWG CCA — until Mike Holt rules. If the plan or the nameplate states a size, that statement governs.",
       "figure_idea": "",
       "related_ids": [
         "C1-L-015",
@@ -1141,7 +1141,7 @@
       "section": "110.26(A)",
       "title": "Working space about equipment",
       "plain_explanation": "Live electrical equipment that may need examination or work while energized has to have a clear working space in front of it. For a typical 120/240V house panel with no live parts on the other side of the aisle (Condition 1), that space is 3 ft deep, at least 30 in wide or the width of the equipment, whichever is greater, and at least 6-1/2 ft high. The depth can be greater under other conditions or at higher voltage; use the table in 110.26(A)(1) rather than memorizing one number for every job. The work space also has to be arranged so equipment doors and hinged panels can open at least 90°.",
-      "on_the_job": "Measure from the face of the panel, not from the wall behind it. Keep the width centered on the equipment so a person can stand in front of the breakers. Do not park water heaters, shelving, or stored material in that space.",
+      "on_the_job": "Measure from the face of the panel, not from the wall behind it. The 30-inch width has to cover the equipment, and it may sit to either side. It does not have to be centered. Do not park water heaters, shelving, or stored material in that space.",
       "sharma_note": "S-09 prefers the meter outside and the panel inside, back to back, where the house allows. That layout still has to leave the 110.26 working space in front of the panel.",
       "figure_idea": "A plan view of a 200A panel on a garage wall with a 30 in-wide by 3 ft-deep rectangle in front, height marked 6 ft 6 in, and a 'do not store here' callout.",
       "related_ids": [
@@ -1155,12 +1155,13 @@
         "C1-L-053"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C1-110.26",
       "next_id": "C1-110.26(A)(1)",
       "sharma_rule_ids": [
         "S-09"
-      ]
+      ],
+      "unverified_reason": "Verified badge removed after the 2026-11-15 field audit. The wording on this page was wrong or rested on a note that the printed NEC was not checked. Confirm against the printed 2020 text before relying on it."
     },
     {
       "id": "C1-110.26(A)(1)",

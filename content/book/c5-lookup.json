@@ -983,10 +983,10 @@
     "question": "How close must a shore power disconnect be to its receptacle?",
     "aliases": [
       "shore power disconnect 30 inches",
-      "555.17"
+      "555.36"
     ],
-    "answer_plain": "The disconnect for each boat shore power connection must sit not more than thirty inches from the receptacle it controls. It must be readily accessible, identified for that receptacle, and placed ahead of the receptacle in the circuit. Breakers or switches inside a marine power outlet can serve when they meet those same conditions.",
-    "nec_ref": "555.17",
+    "answer_plain": "The disconnect for each boat shore power connection must sit not more than thirty inches from the receptacle it controls. It must be readily accessible, identified for that receptacle, and placed ahead of the receptacle in the circuit. In the 2020 NEC this rule is 555.36. Breakers or switches inside a marine power outlet can serve when they meet those same conditions.",
+    "nec_ref": "555.36",
     "nec_edition": "2020",
     "tags": [
       "marinas",
@@ -1000,10 +1000,10 @@
     "question": "How high are marina receptacles mounted?",
     "aliases": [
       "marina receptacle height",
-      "555.19 twelve inches"
+      "555.33 twelve inches"
     ],
-    "answer_plain": "Receptacles at a docking facility mount at least twelve inches above the deck surface and never below the electrical datum plane. Shore power receptacles carry added requirements, including being part of listed marine power outlet equipment. A correct device set too low still fails, so heights are rechecked if decking changes.",
-    "nec_ref": "555.19",
+    "answer_plain": "Receptacles at a docking facility mount at least twelve inches above the deck surface and never below the electrical datum plane. In the 2020 NEC this rule is 555.33. Shore power receptacles carry added requirements, including being part of listed marine power outlet equipment. A correct device set too low still fails, so heights are rechecked if decking changes.",
+    "nec_ref": "555.33",
     "nec_edition": "2020",
     "tags": [
       "marinas",

@@ -81,7 +81,7 @@
       },
       {
         "id": "C3-R-14",
-        "text": "Microwave circuit stays 12 AWG copper on its own 20A circuit, even on a CCA job.",
+        "text": "Microwave on its own 20A circuit. Wire size is PENDING under S-06 (12 AWG copper vs 10 AWG CCA).",
         "sharma_rule_id": "S-06",
         "severity": "sharma"
       },

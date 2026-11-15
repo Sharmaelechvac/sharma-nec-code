@@ -129,13 +129,13 @@
       {
         "id": "C5-M-04",
         "text": "Each shore power receptacle has an identified disconnect within 30 inches, readily accessible, ahead of the receptacle.",
-        "nec_ref": "555.17",
+        "nec_ref": "555.36",
         "severity": "code"
       },
       {
         "id": "C5-M-05",
         "text": "Receptacles at least 12 inches above finished deck and not below the datum plane; shore power only in listed marine power outlets.",
-        "nec_ref": "555.19",
+        "nec_ref": "555.33",
         "severity": "code"
       },
       {

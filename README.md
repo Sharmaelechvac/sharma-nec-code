@@ -31,8 +31,11 @@ basics, Ohm's law & formulas, wire color codes, tool/safety (OSHA/NFPA 70E),
 inspection checklists, Florida-specific rules, FL journeyman/master exam prep.
 
 ## Open item
-Sharma rule SR-6 (microwave circuit) wire material/size is PENDING Mike Holt's
-ruling: 12 AWG copper vs the Sharma CCA standard (10 AWG CCA for 20A).
+Sharma rule S-06 (microwave circuit) wire material/size is PENDING Mike Holt's
+ruling: 12 AWG copper vs 10 AWG CCA for the dedicated 20A circuit. The Sharma
+tab shows that pending flag. Do not treat either size as the settled company rule.
+Both can meet NEC 240.4(D): 12 AWG copper is capped at 20A, and 10 AWG CCA is
+capped at 25A. The lead decides for the job until the ruling.
 
 ## Field Book (LIVE on `main`)
 

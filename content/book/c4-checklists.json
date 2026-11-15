@@ -84,7 +84,7 @@
       },
       {
         "id": "C4-D-14",
-        "text": "Microwave on its own 20A circuit, 12 AWG copper; not shared with the hood or any other appliance.",
+        "text": "Microwave on its own 20A circuit, not shared with the hood or any other appliance. Wire size is PENDING under S-06 (12 AWG copper vs 10 AWG CCA).",
         "severity": "sharma",
         "sharma_rule_id": "S-06"
       },
