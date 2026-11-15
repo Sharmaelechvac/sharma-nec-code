@@ -80,7 +80,7 @@ function themeDiagram(text){
 function keyNums(t){ const m=[...String(t.summary).matchAll(/(\d+(?:\.\d+)?\s?(?:ft|in|%|VA|A\b|AWG))/g)].map(x=>x[1].replace(/\s+/g," ").trim()); return [...new Set(m)].slice(0,4); }
 function steps(t){ return String(t.summary).split(/(?<=\.)\s+/).filter(x=>x.trim()).slice(0,4); }
 
-function favBtn(id){ return `<button class="favbtn" data-fav="${id}" title="Save">${favs.has(id)?"❤️":"🤍"}</button>`; }
+function favBtn(id){ return `<button class="favbtn${favs.has(id)?" on":""}" data-fav="${id}" title="Save">${favs.has(id)?"Saved":"Save"}</button>`; }
 document.addEventListener("click",e=>{
   const f=e.target.closest("[data-fav]"); if(!f) return;
   const id=f.dataset.fav; favs.has(id)?favs.delete(id):favs.add(id); saveFavs(); render();
@@ -121,7 +121,7 @@ function renderHome(){
   } else if(nextTopic){
     continueCard=`<div class="card hero-continue"><div class="cite">Start here</div><h3>${esc(nextTopic.title)}</h3><p>One of the 15 essential lessons every electrician should know first.</p><button class="go" data-goto="lookup">Start the essential lessons →</button></div>`;
   } else if(totalLessons){
-    continueCard=`<div class="card hero-continue"><div class="cite">🎉 All lessons done</div><h3>You have worked through every lesson</h3><p>Keep sharp with the Practice quizzes, or look anything up any time.</p><button class="go" data-goto="quiz">Practice now →</button></div>`;
+    continueCard=`<div class="card hero-continue"><div class="cite">All lessons done</div><h3>You have worked through every lesson</h3><p>Keep sharp with the Practice quizzes, or look anything up any time.</p><button class="go" data-goto="quiz">Practice now →</button></div>`;
   }
   view.innerHTML =
   `<div class="hero"><h2>Learn the NEC, one lesson at a time</h2><p>No code-book language to fight through. Every lesson is in plain words, in order, with the NEC section on it so you can check the real book.</p>
@@ -131,12 +131,12 @@ function renderHome(){
   `<h2 class="sec">Your learning path — Chapters 1 to 9, in order</h2><p class="bkmeta">Tap a chapter to open its lessons. Work top to bottom, or jump to the chapter you need today — your checkmarks are saved on this phone.</p>` +
   bookEntries().map(e=>{ const pr=chProgress(e); return `<button class="pathcard" data-bookchapter="${e.book.chapter}"><span class="pathnum">${e.book.chapter}</span><span class="pathbody"><b>Chapter ${e.book.chapter} — ${esc(e.book.chapter_title)}</b><i>${esc(CH_SUB[e.book.chapter]||"")}</i><small>${pr.total} lessons · ${(e.quiz||[]).length} practice questions${pr.done?` · ✓ ${pr.done} learned`:""}</small><span class="pbar mini"><span style="width:${pr.pct}%"></span></span></span><span class="pathgo">›</span></button>`; }).join("") +
   `<h2 class="sec">Quick ways in</h2><div class="tiles">
-     <button class="tile" data-goto="lookup"><b>⭐ Start Here</b><span>The 15 essential lessons, with pictures</span></button>
-     <button class="tile" data-goto="quiz"><b>✏️ Practice</b><span>Quiz yourself — 80% to pass</span></button>
-     <button class="tile" data-goto="calc"><b>🧮 Tools</b><span>Box fill, conduit fill, voltage drop, load calc</span></button>
-     <button class="tile" data-goto="rooms"><b>🏠 Room Checklists</b><span>Room by room, before the inspector comes</span></button>
-     <button class="tile" data-goto="sharma"><b>⭐ Sharma Rules</b><span>How Sharma does it — stricter than code</span></button>
-     <button class="tile" data-goto="favs"><b>❤️ Saved</b><span>The lessons and rules you bookmarked</span></button>
+     <button class="tile" data-goto="lookup"><b>Start Here</b><span>The 15 essential lessons, with pictures</span></button>
+     <button class="tile" data-goto="quiz"><b>Practice</b><span>Quiz yourself — 80% to pass</span></button>
+     <button class="tile" data-goto="calc"><b>Tools</b><span>Box fill, conduit fill, voltage drop, load calc</span></button>
+     <button class="tile" data-goto="rooms"><b>Room Checklists</b><span>Room by room, before the inspector comes</span></button>
+     <button class="tile" data-goto="sharma"><b>Sharma Rules</b><span>How Sharma does it — stricter than code</span></button>
+     <button class="tile" data-goto="favs"><b>Saved</b><span>The lessons and rules you bookmarked</span></button>
    </div>
    <div class="card"><div class="cite">Just need one answer?</div><h3>Use Look Up</h3><p>Type what you are looking for in the search box at the top — it searches every lesson, every quick answer and every quiz question in the app at once.</p><button class="go" data-goto="lookup">Go to Look Up →</button></div>`;
 }
@@ -148,7 +148,7 @@ function topicCard(t, ix){
   return `<div class="card">${favBtn("t:"+t.id)}<div class="cite">${typeof ix==="number"?`<span class="num-badge">${ix+1}</span>`:""}${esc(t.cite)}</div><h3>${esc(t.title)}</h3>${diagram(t.id)}${kn.length?`<div class="keynums">${kn.map(k=>`<span class="keynum">${esc(k)}</span>`).join("")}</div>`:""}<ul class="steps">${st.map((x,i)=>`<li><b>Step ${i+1}.</b> ${esc(x)}</li>`).join("")}</ul>${t.flag?`<span class="flag">${esc(t.flag)}</span>`:""}<div class="rowbtns"><button class="learnbtn ${done?"done":""}" data-learn="${t.id}">${done?"✓ Learned":"Mark as learned"}</button><button class="quizbtn" data-quizjump="1">Quiz me →</button></div></div>`;
 }
 function lookupCard(ch, x){
-  return `<div class="card" id="lk-${esc(x.id)}"${lookupState.highlight===x.id?` style="outline:3px solid #0058a3"`:``}><div class="cite">Ch. ${ch} · ${esc(x.nec_ref||"")} · ${esc(x.id)}</div><h3>${esc(x.question)}</h3>${themeDiagram(x.question+" "+x.answer_plain)}<p>${esc(x.answer_plain)}</p>${x.verified===false?`<span class="flag">⚠ UNVERIFIED${x.unverified_reason? " — "+esc(x.unverified_reason):""}</span>`:""}${x.sharma_rule_id?`<span class="tag">SHARMA ${esc(x.sharma_rule_id)}</span>`:""}</div>`;
+  return `<div class="card" id="lk-${esc(x.id)}"${lookupState.highlight===x.id?` style="outline:3px solid #0058a3"`:``}><div class="cite">Ch. ${ch} · ${esc(x.nec_ref||"")} · ${esc(x.id)}</div><h3>${esc(x.question)}</h3>${themeDiagram(x.question+" "+x.answer_plain)}<p>${esc(x.answer_plain)}</p>${x.verified===false?`<span class="flag">UNVERIFIED${x.unverified_reason? " — "+esc(x.unverified_reason):""}</span>`:""}${x.sharma_rule_id?`<span class="tag">SHARMA ${esc(x.sharma_rule_id)}</span>`:""}</div>`;
 }
 function renderLookup(){
   const q=($("#search").value||"").toLowerCase().trim();
@@ -192,7 +192,7 @@ function renderFavs(){
   const topics=(DATA.lookup&&DATA.lookup.topics)||[]; const rules=(DATA.sharma&&DATA.sharma.rules)||[];
   let html=`<h2 class="sec">Saved</h2>`;
   const ft=topics.filter(t=>favs.has("t:"+t.id)); const fr=rules.filter(r=>favs.has("s:"+r.id));
-  if(!ft.length&&!fr.length) html+=`<div class="empty">Tap 🤍 on any topic or Sharma rule to save it here.</div>`;
+  if(!ft.length&&!fr.length) html+=`<div class="empty">Tap Save on any topic or Sharma rule to save it here.</div>`;
   html+=ft.map(topicCard).join("");
   html+=fr.map(r=>`<div class="card">${favBtn("s:"+r.id)}<span class="tag">SHARMA RULE</span><h3 style="margin-top:6px">${esc(r.title)}</h3><p>${esc(r.text)}</p></div>`).join("");
   view.innerHTML=html;
@@ -230,7 +230,7 @@ function renderQuiz(){
   }
   const s=quizState, qs=s.qs;
   if(!qs.length){ view.innerHTML=`<div class="empty">That quiz bank is empty.</div>`; quizState=null; return; }
-  if(s.i>=qs.length){ view.innerHTML=`<div class="card"><div class="score">Score: ${s.score} / ${qs.length} (${Math.round(100*s.score/qs.length)}%)<br>${100*s.score/qs.length>=80?"✅ Pass":"❌ Below the 80% pass mark — run it again"}</div><div class="rowbtns"><button class="go" id="qrestart">Restart this bank</button><button class="quizbtn" id="qbank">Change bank</button></div></div>`;
+  if(s.i>=qs.length){ view.innerHTML=`<div class="card"><div class="score">Score: ${s.score} / ${qs.length} (${Math.round(100*s.score/qs.length)}%)<br>${100*s.score/qs.length>=80?"<span class=\"ok-t\">Pass</span>":"<span class=\"no-t\">Below the 80% pass mark — run it again"}</div><div class="rowbtns"><button class="go" id="qrestart">Restart this bank</button><button class="quizbtn" id="qbank">Change bank</button></div></div>`;
     $("#qrestart").onclick=()=>{ startQuiz(s.bank,0); renderQuiz(); };
     $("#qbank").onclick=()=>{ quizState=null; renderQuiz(); }; return; }
   const q=qs[s.i];
@@ -243,7 +243,7 @@ function renderQuiz(){
     view.querySelectorAll("[data-q]").forEach(x=>{ const ix=+x.dataset.q;
       if(ix===q.answer) x.classList.add("right"); else if(ix===pick) x.classList.add("wrong"); });
     if(pick===q.answer) s.score++;
-    $("#qwhy").innerHTML=`<div class="why">${pick===q.answer?"✅ Correct. ":"❌ Not quite. "}${esc(q.why)} <b>(${esc(q.cite)})</b></div><button class="go" id="qnext">${s.i+1>=qs.length?"See score":"Next question"}</button>`;
+    $("#qwhy").innerHTML=`<div class="why">${pick===q.answer?"<b class=\"ok-t\">Correct.</b> ":"<b class=\"no-t\">Not quite.</b> "}${esc(q.why)} <b>(${esc(q.cite)})</b></div><button class="go" id="qnext">${s.i+1>=qs.length?"See score":"Next question"}</button>`;
     $("#qnext").onclick=()=>{ s.i++; s.answered=false; renderQuiz(); };
   });
 }
@@ -259,8 +259,8 @@ function renderCalc(){
   view.innerHTML=`
   <h2 class="sec">Tools — calculators for the job</h2>
   <p class="bkmeta">EMT fill here covers 1/2 in through 2 in, THHN through 2 AWG. Ampacity is the Table 310.16 temperature column only — no ambient correction and no adjustment for more than three current-carrying conductors. Box fill and conduit fill do not change with copper, aluminum, or CCA; the metal only changes the size you already chose.</p>
-  <div class="tiles"><button class="tile" data-goto="rooms"><b>🏠 Room Checklists</b><span>Check a room before inspection</span></button><button class="tile" data-goto="sharma"><b>⭐ Sharma Rules</b><span>Stricter than code — our way</span></button></div>
-  <div class="card"><h3>📦 Box fill <span class="cite">314.16</span></h3>
+  <div class="tiles"><button class="tile" data-goto="rooms"><b>Room Checklists</b><span>Check a room before inspection</span></button><button class="tile" data-goto="sharma"><b>Sharma Rules</b><span>Stricter than code — our way</span></button></div>
+  <div class="card"><h3>Box fill <span class="cite">314.16</span></h3>
     <label class="f">Wire size (AWG) — one size for every conductor in this count, including the largest ground</label><select class="n" id="bf-awg">${opts(["14","12","10","8","6"],"12")}</select>
     <label class="f">Conductors entering the box (count each insulated conductor; do NOT count grounds here — use the grounds field)</label><input class="n" id="bf-cond" type="number" value="6" min="0">
     <label class="f">Devices (switches / receptacles)</label><input class="n" id="bf-dev" type="number" value="1" min="0">
@@ -268,13 +268,13 @@ function renderCalc(){
     <label class="f">Equipment grounding conductors entering the box (count) — 2020 rule 314.16(B)(5): the first four together take ONE allowance; each ground past four adds a QUARTER allowance</label><input class="n" id="bf-egc" type="number" value="2" min="0">
     <label class="f">Box volume (cu in — printed inside the box)</label><input class="n" id="bf-box" type="number" value="22.5" step="0.5">
     <button class="go" id="bf-go">Calculate box fill</button><div id="bf-out"></div></div>
-  <div class="card"><h3>🔌 Conduit fill <span class="cite">Ch. 9 Tables 1, 4, 5</span></h3>
+  <div class="card"><h3>Conduit fill <span class="cite">Ch. 9 Tables 1, 4, 5</span></h3>
     <p class="bkmeta">EMT only, 1/2 in through 2 in, THHN/THWN through 2 AWG. Copper, aluminum, and CCA use the same area.</p>
     <label class="f">Conduit (EMT)</label><select class="n" id="cf-size">${opts(emtSizes,"3/4")}</select>
     <label class="f">Wire size (THHN)</label><select class="n" id="cf-awg">${opts(Object.keys(T.conductorAreasTHHN),"12")}</select>
     <label class="f">How many conductors (grounds count too)</label><input class="n" id="cf-n" type="number" value="3" min="1">
     <button class="go" id="cf-go">Calculate conduit fill</button><div id="cf-out"></div></div>
-  <div class="card"><h3>⚡ Voltage drop <span class="cite">210.19 / 215.2 notes · Ch. 9 Table 8</span></h3>
+  <div class="card"><h3>Voltage drop <span class="cite">210.19 / 215.2 notes · Ch. 9 Table 8</span></h3>
     <label class="f">Material</label><select class="n" id="vd-mat">${matOpts}</select>
     <label class="f">Wire size (AWG)</label><select class="n" id="vd-awg">${opts(awgs,"12")}</select>
     <label class="f">Load (amps)</label><input class="n" id="vd-i" type="number" value="16" step="0.5">
@@ -282,12 +282,12 @@ function renderCalc(){
     <label class="f">Circuit voltage</label><input class="n" id="vd-v" type="number" value="120">
     <label class="f">System</label><select class="n" id="vd-ph"><option value="1">Single-phase</option><option value="3">Three-phase</option></select>
     <button class="go" id="vd-go">Calculate voltage drop</button><div id="vd-out"></div></div>
-  <div class="card"><h3>🔋 Wire ampacity <span class="cite">Table 310.16 · 240.4(D) · 334.80 · 110.14(C)</span></h3>
+  <div class="card"><h3>Wire ampacity <span class="cite">Table 310.16 · 240.4(D) · 334.80 · 110.14(C)</span></h3>
     <p class="bkmeta">75°C column, 30°C ambient, not more than three current-carrying conductors. No bundling adjustment and no ambient correction in this tool.</p>
     <label class="f">Material</label><select class="n" id="am-mat">${matOpts}</select>
     <label class="f">Wire size (AWG)</label><select class="n" id="am-awg">${opts(Object.keys(T.ampacity75C.copper),"12")}</select>
     <button class="go" id="am-go">Look up ampacity</button><div id="am-out"></div></div>
-  <div class="card"><h3>🏠 Residential load calc <span class="cite">220.82 optional method</span></h3>
+  <div class="card"><h3>Residential load calc <span class="cite">220.82 optional method</span></h3>
     <p class="bkmeta">For a dwelling on one 120/240 V or 120/208 V service or feeder of 100 A or more. Fixed-appliance nameplates go inside the 10 kVA demand split. Heating and cooling are not added together.</p>
     <label class="f">Living area (sq ft) — outside dimensions, not porches, garages, or unused space</label><input class="n" id="lc-sf" type="number" value="1800">
     <label class="f">Small-appliance branch circuits (1,500 VA each)</label><input class="n" id="lc-sa" type="number" value="2" min="0">
@@ -308,7 +308,7 @@ function renderCalc(){
     const egcN=num("#bf-egc"); const egcF= egcN===0?0 : egcN<=4?1 : 1+0.25*(egcN-4);
     const total=per*(num("#bf-cond")+2*num("#bf-dev")+num("#bf-clamp")+egcF);
     const box=num("#bf-box");
-    $("#bf-out").innerHTML=`<div class="result" id="bf-result">Required volume: <b>${total.toFixed(2)} cu in</b> (grounds allowance: ${egcF} × ${per} cu in)<br>Box volume: <b>${box} cu in</b> → ${total<=box?"✅ <b>FITS</b>":"❌ <b>TOO SMALL</b> — use a bigger box or a box extension"}<br><span class="flag">Copper, aluminum, and CCA do not change this volume — 314.16 charges the AWG, not the metal. This count assumes every conductor and the largest ground are the size selected. A smaller ground, a mixed size, or a fixture stud or hickey (one allowance each) is not in this number.</span></div>`; };
+    $("#bf-out").innerHTML=`<div class="result" id="bf-result">Required volume: <b>${total.toFixed(2)} cu in</b> (grounds allowance: ${egcF} × ${per} cu in)<br>Box volume: <b>${box} cu in</b> → ${total<=box?"<b class=\"ok-t\">FITS</b>":"<b class=\"no-t\">TOO SMALL</b> — use a bigger box or a box extension"}<br><span class="flag">Copper, aluminum, and CCA do not change this volume — 314.16 charges the AWG, not the metal. This count assumes every conductor and the largest ground are the size selected. A smaller ground, a mixed size, or a fixture stud or hickey (one allowance each) is not in this number.</span></div>`; };
   $("#cf-go").onclick=()=>{
     const size=sel("#cf-size"), each=T.conductorAreasTHHN[sel("#cf-awg")], n=num("#cf-n");
     const row=(T.conduitFillEMT||{})[size] || {p40:T.conduitAreas40pct.EMT[size]};
@@ -320,7 +320,7 @@ function renderCalc(){
     const here=note7(allow), at40=note7(p40);
     const fits = n<=here.maxN;
     const note = (fits && used>allow+1e-6) ? `<br>Chapter 9 Note 7 permits this count: the remainder is 0.8 or more, so the next whole number is allowed.` : "";
-    $("#cf-out").innerHTML=`<div class="result" id="cf-result">Conductors take <b>${used.toFixed(3)} sq in</b>. Allowed at ${pct}% (Chapter 9, Table 1): <b>${allow.toFixed(3)} sq in</b> → ${fits?"✅ <b>FITS</b>":"❌ <b>OVERFILLED</b> — upsize the conduit"}${note}<br>Note 7 maximum of this size at ${pct}%: <b>${here.maxN}</b>. At 40% (three or more conductors): <b>${at40.maxN}</b>.<br><span class="flag">Same area for copper, aluminum, or CCA. Nipples 24 in or shorter may use 60% fill (Table 1, Note 4), and that note also skips the 310.15(C)(1) adjustment — this tool does not apply the 60% figure. EMT 1/2 in through 2 in, THHN through 2 AWG only.</span></div>`; };
+    $("#cf-out").innerHTML=`<div class="result" id="cf-result">Conductors take <b>${used.toFixed(3)} sq in</b>. Allowed at ${pct}% (Chapter 9, Table 1): <b>${allow.toFixed(3)} sq in</b> → ${fits?"<b class=\"ok-t\">FITS</b>":"<b class=\"no-t\">OVERFILLED</b> — upsize the conduit"}${note}<br>Note 7 maximum of this size at ${pct}%: <b>${here.maxN}</b>. At 40% (three or more conductors): <b>${at40.maxN}</b>.<br><span class="flag">Same area for copper, aluminum, or CCA. Nipples 24 in or shorter may use 60% fill (Table 1, Note 4), and that note also skips the 310.15(C)(1) adjustment — this tool does not apply the 60% figure. EMT 1/2 in through 2 in, THHN through 2 AWG only.</span></div>`; };
   $("#vd-go").onclick=()=>{ const mat=sel("#vd-mat"), start=sel("#vd-awg"), I=num("#vd-i"), L=num("#vd-l"), V=num("#vd-v");
     if(mat==="cca"){
       $("#vd-out").innerHTML=`<div class="result" id="vd-result"><b>No voltage drop is computed for copper-clad aluminum.</b><br>Chapter 9, Table 8 lists DC resistance for copper and for aluminum. It has no copper-clad aluminum value, and this app has no cited 75°C CCA resistance from a manufacturer or a standard. A number is not invented here. Do not use the copper column for a CCA run.</div>`;
@@ -448,7 +448,7 @@ function renderBook(){
   const head=`<h2 class="sec">Learn — Chapter ${B.chapter}: ${esc(B.chapter_title)}</h2>`+
     `<p class="bkmeta">${esc(CH_SUB[B.chapter]||"")} · ${pages} lessons in order · ${(ent.quiz||[]).length} practice questions · ${ckItems} checklist items${unverified?` · ${unverified} lesson${unverified===1?"":"s"} still marked unverified (shown on the lesson)`:""}</p>`+
     picker+
-    `<div class="rowbtns"><button class="quizbtn" data-bookview="toc">📚 Lessons in this chapter</button><button class="quizbtn" data-bookview="index">🔤 A–Z Index</button><button class="quizbtn" data-goto="home">🏠 All chapters</button></div>`+
+    `<div class="rowbtns"><button class="quizbtn" data-bookview="toc">Lessons in this chapter</button><button class="quizbtn" data-bookview="index">A–Z Index</button><button class="quizbtn" data-goto="home">All chapters</button></div>`+
     `<p class="bkmeta">NEC ${esc(B.nec_edition)} · ${esc(B.jurisdiction)} · Master-audited Nov 2026</p>`;
   if(bookState.view==="index"){
     view.innerHTML = head + `<div class="card"><h3>Index</h3><ul class="bkindex">${B.index.map(en=>
