@@ -298,7 +298,7 @@
       "title": "The named dwelling circuits: kitchen, laundry, bathroom, garage",
       "plain_explanation": "This subsection names four things. At least two 20A small-appliance circuits serve kitchen, pantry, breakfast, and dining receptacles, with tight limits on other outlets. At least one 20A laundry circuit serves the laundry receptacle and nothing else outside that area. At least one 20A bathroom circuit serves bathroom receptacles, or — for a single bathroom only — may carry that bathroom's other outlets. And the 2020 edition adds a dedicated 20A garage circuit for the required garage receptacles, with a limited allowance for readily accessible outdoor receptacles.",
       "on_the_job": "Label these four on the panel schedule by their code job, not by a room nickname, and check the 'no other outlets' limits before adding a convenience receptacle to any of them. The single-bathroom exception is the trap: it does not let one circuit carry two bathrooms' receptacles plus lights.",
-      "sharma_note": "S-06 sits on top of this list: the microwave gets its own 20A circuit in 12 AWG copper, separate from the small-appliance circuits.",
+      "sharma_note": "S-06 sits on top of this list: the microwave gets its own 20A circuit, separate from the small-appliance circuits. The wire size is PENDING (12 AWG copper versus 10 AWG CCA).",
       "figure_idea": "Five labeled home runs leaving a panel: two to the kitchen counters, one to the laundry, one to the bathroom, one to the garage, each with a 'no other outlets' tag where it applies.",
       "related_ids": [
         "L-001",

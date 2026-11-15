@@ -5,10 +5,10 @@
 const $ = (s, el=document) => el.querySelector(s);
 const view = $("#view");
 let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null, book:null, bookLookup:null, bookQuiz:null, bookChecklists:null, bookSet:{}, v1lookup:[], v1quiz:[], v1checklists:[], v1sharma:[], books:[] };
-const FALLBACK_TABLES = {"boxFillVolumePerConductor":{"18":1.5,"16":1.75,"14":2,"12":2.25,"10":2.5,"8":3,"6":5},"ampacity75C":{"copper":{"14":20,"12":25,"10":35,"8":50,"6":65,"4":85,"3":100,"2":115,"1":130,"1/0":150,"2/0":175,"3/0":200,"4/0":230},"aluminum":{"12":20,"10":30,"8":40,"6":50,"4":65,"3":75,"2":90,"1":100,"1/0":120,"2/0":135,"3/0":155,"4/0":180}},"smallConductorCaps":{"copper":{"14":15,"12":20,"10":30},"aluminum":{"12":15,"10":25}},"circularMils":{"14":4110,"12":6530,"10":10380,"8":16510,"6":26240,"4":41740,"3":52620,"2":66360,"1":83690,"1/0":105600,"2/0":133100,"3/0":167800,"4/0":211600},"conduitAreas40pct":{"EMT":{"1/2":0.122,"3/4":0.213,"1":0.346,"1-1/4":0.598,"1-1/2":0.814,"2":1.342}},"conductorAreasTHHN":{"14":0.0097,"12":0.0133,"10":0.0211,"8":0.0366,"6":0.0507,"4":0.0824,"3":0.0973,"2":0.1158},"table8Resistance":{"copper":{"14":3.14,"12":1.98,"10":1.24,"8":0.778,"6":0.491,"4":0.308,"3":0.245,"2":0.194,"1":0.154,"1/0":0.122,"2/0":0.0967,"3/0":0.0766,"4/0":0.0608},"aluminum":{"12":3.25,"10":2.04,"8":1.28,"6":0.808,"4":0.508,"3":0.403,"2":0.319,"1":0.253,"1/0":0.201,"2/0":0.159,"3/0":0.126,"4/0":0.100}}};
+const FALLBACK_TABLES = {"boxFillVolumePerConductor":{"6":5,"8":3,"10":2.5,"12":2.25,"14":2,"16":1.75,"18":1.5},"ampacity75C":{"copper":{"1":130,"2":115,"3":100,"4":85,"6":65,"8":50,"10":35,"12":25,"14":20,"1/0":150,"2/0":175,"3/0":200,"4/0":230},"aluminum":{"1":100,"2":90,"3":75,"4":65,"6":50,"8":40,"10":30,"12":20,"1/0":120,"2/0":135,"3/0":155,"4/0":180}},"smallConductorCaps":{"copper":{"10":30,"12":20,"14":15},"aluminum":{"10":25,"12":15}},"circularMils":{"1":83690,"2":66360,"3":52620,"4":41740,"6":26240,"8":16510,"10":10380,"12":6530,"14":4110,"1/0":105600,"2/0":133100,"3/0":167800,"4/0":211600},"conduitAreas40pct":{"EMT":{"1":0.346,"2":1.342,"1/2":0.122,"3/4":0.213,"1-1/4":0.598,"1-1/2":0.814}},"conductorAreasTHHN":{"2":0.1158,"3":0.0973,"4":0.0824,"6":0.0507,"8":0.0366,"10":0.0211,"12":0.0133,"14":0.0097},"table8Resistance":{"copper":{"1":0.154,"2":0.194,"3":0.245,"4":0.308,"6":0.491,"8":0.778,"10":1.24,"12":1.98,"14":3.14,"1/0":0.122,"2/0":0.0967,"3/0":0.0766,"4/0":0.0608},"aluminum":{"1":0.253,"2":0.319,"3":0.403,"4":0.508,"6":0.808,"8":1.28,"10":2.04,"12":3.25,"1/0":0.201,"2/0":0.159,"3/0":0.126,"4/0":0.1}},"ampacity60C":{"copper":{"1":110,"2":95,"3":85,"4":70,"6":55,"8":40,"10":30,"12":20,"14":15,"1/0":125,"2/0":145,"3/0":165,"4/0":195},"aluminum":{"1":85,"2":75,"3":65,"4":55,"6":40,"8":35,"10":25,"12":15,"1/0":100,"2/0":115,"3/0":130,"4/0":150}},"conduitFillEMT":{"1":{"total":0.864,"p53":0.458,"p31":0.268,"p40":0.346},"2":{"total":3.356,"p53":1.778,"p31":1.04,"p40":1.342},"1/2":{"total":0.304,"p53":0.161,"p31":0.094,"p40":0.122},"3/4":{"total":0.533,"p53":0.283,"p31":0.165,"p40":0.213},"1-1/4":{"total":1.496,"p53":0.793,"p31":0.464,"p40":0.598},"1-1/2":{"total":2.036,"p53":1.079,"p31":0.631,"p40":0.814}}};
 const favs = new Set(JSON.parse(localStorage.getItem("nec-favs")||"[]"));
 function saveFavs(){ localStorage.setItem("nec-favs", JSON.stringify([...favs])); }
-const CONTENT_V = "12";
+const CONTENT_V = "13";
 async function loadJSON(name){
   try{ const r = await fetch("content/"+name+".json?v="+CONTENT_V); if(r.ok) return await r.json(); }catch(e){}
   return null;
@@ -27,7 +27,7 @@ const learned = new Set(JSON.parse(localStorage.getItem("nec-learned")||"[]"));
 function saveLearned(){ localStorage.setItem("nec-learned", JSON.stringify([...learned])); }
 document.addEventListener("click",e=>{
   const l=e.target.closest("[data-learn]"); if(l){ const id=l.dataset.learn; learned.has(id)?learned.delete(id):learned.add(id); saveLearned(); render(); return; }
-  const qz=e.target.closest("[data-quizjump]"); if(qz){ setTab("quiz"); startQuiz("all",0); render(); }
+  const qz=e.target.closest("[data-quizjump]"); if(qz){ setTab("quiz"); if(bookState.page && bookState.chapter) startQuiz("ch"+bookState.chapter,0); else startQuiz("starter",0); render(); }
 });
 const DG = {
 "box-fill":`<rect x="100" y="18" width="120" height="84" rx="8" fill="none" stroke="#004585" stroke-width="3"/><circle cx="128" cy="45" r="11" fill="#0058a3"/><circle cx="160" cy="45" r="11" fill="#0058a3"/><circle cx="192" cy="45" r="11" fill="#0058a3"/><circle cx="144" cy="76" r="11" fill="#7fb3dd"/><circle cx="176" cy="76" r="11" fill="#7fb3dd"/><text x="160" y="116" text-anchor="middle" font-size="13" font-weight="800" fill="#004585">COUNT EVERY CONDUCTOR</text>`,
@@ -158,12 +158,16 @@ function renderLookup(){
     const bank=chapterLookupAll().filter(({item:x})=>(x.id+" "+x.question+" "+x.answer_plain+" "+(x.nec_ref||"")+" "+(x.aliases||[]).join(" ")).toLowerCase().includes(q));
     const v1=(DATA.v1lookup||[]).filter(x=>(x.id+" "+x.question+" "+x.answer_plain+" "+(x.nec_ref||"")+" "+(x.aliases||[]).join(" ")).toLowerCase().includes(q));
     const pages=[]; for(const e of bookEntries()) for(const s of e.book.sections) if((s.id+" "+s.section+" "+s.title+" "+s.plain_explanation).toLowerCase().includes(q)) pages.push(s);
+    const quizzes=[]; for(const e of bookEntries()) for(const x of (e.quiz||[])) if((x.id+" "+x.question+" "+(x.explain_plain||"")+" "+(x.nec_ref||"")).toLowerCase().includes(q)) quizzes.push({ch:e.book.chapter, item:x});
+    const rules=((DATA.sharma&&DATA.sharma.rules)||[]).filter(r=>(r.id+" "+r.title+" "+r.text).toLowerCase().includes(q));
     view.innerHTML = `<h2 class="sec">Search results</h2>` +
       (tlist.length? `<h2 class="sec">Learn-the-code topics</h2>`+tlist.map(t=>topicCard(t)).join(""):"") +
       (bank.length? `<h2 class="sec">Field Book lookup (${bank.length})</h2>`+bank.slice(0,120).map(({ch,item})=>lookupCard(ch,item)).join("")+(bank.length>120?`<p class="flag">Showing the first 120 matches — narrow the search to see more.</p>`:""):"") +
       (v1.length? `<h2 class="sec">Field Book v1 lookup (${v1.length})</h2>`+v1.slice(0,60).map(x=>`<div class="card"><div class="cite">${esc(x.id)} · ${esc(x.nec_ref||"")}</div><h3>${esc(x.question)}</h3>${themeDiagram(x.question+" "+x.answer_plain)}<p>${esc(x.answer_plain)}</p></div>`).join(""):"") +
       (pages.length? `<h2 class="sec">Field Book pages (${pages.length})</h2><div class="card">${pages.slice(0,60).map(s=>`<button class="bkchip" data-bookpage="${s.id}">${esc(s.id.replace(/^C\d+-/,""))} — ${esc(s.title)}</button>`).join(" ")}</div>`:"") +
-      (!tlist.length&&!bank.length&&!v1.length&&!pages.length? `<div class="empty">No matches. Try a topic name or an article number.</div>`:"");
+      (quizzes.length? `<h2 class="sec">Practice questions (${quizzes.length})</h2><div class="card">${quizzes.slice(0,40).map(({item})=>`<button class="bkchip" data-reljump="quiz:${item.id}">${esc(item.id)} — ${esc(item.question)}</button>`).join(" ")}</div>`:"") +
+      (rules.length? `<h2 class="sec">Sharma rules</h2>`+rules.map(r=>`<div class="card"><span class="tag">${esc(r.id)}</span><h3>${esc(r.title)}</h3><p>${esc(r.text)}</p>${r.status?`<span class="flag">${esc(r.status)}</span>`:""}</div>`).join(""):"") +
+      (!tlist.length&&!bank.length&&!v1.length&&!pages.length&&!quizzes.length&&!rules.length? `<div class="empty">No matches. Try a topic name or an article number.</div>`:"");
     return;
   }
   const total=topics.length;
@@ -179,8 +183,8 @@ function renderLookup(){
 /* ---------- Sharma rules ---------- */
 function renderSharma(){
   const rules=(DATA.sharma&&DATA.sharma.rules)||[];
-  view.innerHTML = `<h2 class="sec">Sharma Rules — how we do it</h2><p class="bkmeta">The code is the floor. These are Sharma's own rules on top of it — when a Sharma rule and the code differ, follow the stricter one and ask your foreman if you are not sure.</p>` + (rules.length? rules.map(r=>
-    `<div class="card">${favBtn("s:"+r.id)}<span class="tag">SHARMA RULE</span><h3 style="margin-top:6px">${esc(r.title)}</h3><p>${esc(r.text)}</p>${r.status?`<span class="flag">${esc(r.status)}</span>`:""}</div>`).join("")
+  view.innerHTML = `<h2 class="sec">Sharma Rules — how we do it</h2><p class="bkmeta">The code is the floor. These are Sharma's own rules on top of it — when a Sharma rule and the code differ, follow the stricter one and ask your foreman if you are not sure. The id on each card is the same id the Field Book uses.</p>` + (rules.length? rules.map(r=>
+    `<div class="card">${favBtn("s:"+r.id)}<span class="tag">${esc(r.id)}</span><h3 style="margin-top:6px">${esc(r.title)}</h3><p>${esc(r.text)}</p>${r.status?`<span class="flag">${esc(r.status)}</span>`:""}</div>`).join("")
     : `<div class="empty">Sharma rules file not loaded yet.</div>`);
 }
 /* ---------- Favorites ---------- */
@@ -250,69 +254,117 @@ function renderCalc(){
   const T=DATA.tables||FALLBACK_TABLES;
   const awgs=Object.keys(T.circularMils);
   const opts=(arr,v)=>arr.map(a=>`<option ${a===v?"selected":""}>${a}</option>`).join("");
+  const emtSizes=Object.keys((T.conduitFillEMT||T.conduitAreas40pct.EMT));
+  const matOpts=`<option value="copper">Copper</option><option value="aluminum">Aluminum</option><option value="cca">Copper-clad aluminum (CCA)</option>`;
   view.innerHTML=`
   <h2 class="sec">Tools — calculators for the job</h2>
+  <p class="bkmeta">EMT fill here covers 1/2 in through 2 in, THHN through 2 AWG. Ampacity is the Table 310.16 temperature column only — no ambient correction and no adjustment for more than three current-carrying conductors. Box fill and conduit fill do not change with copper, aluminum, or CCA; the metal only changes the size you already chose.</p>
   <div class="tiles"><button class="tile" data-goto="rooms"><b>🏠 Room Checklists</b><span>Check a room before inspection</span></button><button class="tile" data-goto="sharma"><b>⭐ Sharma Rules</b><span>Stricter than code — our way</span></button></div>
   <div class="card"><h3>📦 Box fill <span class="cite">314.16</span></h3>
-    <label class="f">Wire size (AWG)</label><select class="n" id="bf-awg">${opts(["14","12","10","8","6"],"12")}</select>
+    <label class="f">Wire size (AWG) — one size for every conductor in this count, including the largest ground</label><select class="n" id="bf-awg">${opts(["14","12","10","8","6"],"12")}</select>
     <label class="f">Conductors entering the box (count each insulated conductor; do NOT count grounds here — use the grounds field)</label><input class="n" id="bf-cond" type="number" value="6" min="0">
     <label class="f">Devices (switches / receptacles)</label><input class="n" id="bf-dev" type="number" value="1" min="0">
     <label class="f">Internal cable clamps?</label><select class="n" id="bf-clamp"><option value="0">No / external</option><option value="1">Yes (counts as 1)</option></select>
     <label class="f">Equipment grounding conductors entering the box (count) — 2020 rule 314.16(B)(5): the first four together take ONE allowance; each ground past four adds a QUARTER allowance</label><input class="n" id="bf-egc" type="number" value="2" min="0">
     <label class="f">Box volume (cu in — printed inside the box)</label><input class="n" id="bf-box" type="number" value="22.5" step="0.5">
     <button class="go" id="bf-go">Calculate box fill</button><div id="bf-out"></div></div>
-  <div class="card"><h3>🔌 Conduit fill <span class="cite">Ch. 9</span></h3>
-    <label class="f">Conduit (EMT)</label><select class="n" id="cf-size">${opts(Object.keys(T.conduitAreas40pct.EMT),"3/4")}</select>
+  <div class="card"><h3>🔌 Conduit fill <span class="cite">Ch. 9 Tables 1, 4, 5</span></h3>
+    <p class="bkmeta">EMT only, 1/2 in through 2 in, THHN/THWN through 2 AWG. Copper, aluminum, and CCA use the same area.</p>
+    <label class="f">Conduit (EMT)</label><select class="n" id="cf-size">${opts(emtSizes,"3/4")}</select>
     <label class="f">Wire size (THHN)</label><select class="n" id="cf-awg">${opts(Object.keys(T.conductorAreasTHHN),"12")}</select>
     <label class="f">How many conductors (grounds count too)</label><input class="n" id="cf-n" type="number" value="3" min="1">
     <button class="go" id="cf-go">Calculate conduit fill</button><div id="cf-out"></div></div>
-  <div class="card"><h3>⚡ Voltage drop <span class="cite">210.19 note</span></h3>
-    <label class="f">Material</label><select class="n" id="vd-mat"><option value="copper">Copper</option><option value="aluminum">Aluminum</option></select>
+  <div class="card"><h3>⚡ Voltage drop <span class="cite">210.19 / 215.2 notes · Ch. 9 Table 8</span></h3>
+    <label class="f">Material</label><select class="n" id="vd-mat">${matOpts}</select>
     <label class="f">Wire size (AWG)</label><select class="n" id="vd-awg">${opts(awgs,"12")}</select>
     <label class="f">Load (amps)</label><input class="n" id="vd-i" type="number" value="16" step="0.5">
     <label class="f">One-way length (ft)</label><input class="n" id="vd-l" type="number" value="75">
     <label class="f">Circuit voltage</label><input class="n" id="vd-v" type="number" value="120">
     <label class="f">System</label><select class="n" id="vd-ph"><option value="1">Single-phase</option><option value="3">Three-phase</option></select>
     <button class="go" id="vd-go">Calculate voltage drop</button><div id="vd-out"></div></div>
-  <div class="card"><h3>🔋 Wire ampacity <span class="cite">Table 310.16 · 240.4(D)</span></h3>
-    <label class="f">Material</label><select class="n" id="am-mat"><option value="copper">Copper</option><option value="aluminum">Aluminum</option></select>
+  <div class="card"><h3>🔋 Wire ampacity <span class="cite">Table 310.16 · 240.4(D) · 334.80 · 110.14(C)</span></h3>
+    <p class="bkmeta">75°C column, 30°C ambient, not more than three current-carrying conductors. No bundling adjustment and no ambient correction in this tool.</p>
+    <label class="f">Material</label><select class="n" id="am-mat">${matOpts}</select>
     <label class="f">Wire size (AWG)</label><select class="n" id="am-awg">${opts(Object.keys(T.ampacity75C.copper),"12")}</select>
     <button class="go" id="am-go">Look up ampacity</button><div id="am-out"></div></div>
-  <div class="card"><h3>🏠 Residential load calc <span class="cite">220.82 optional</span></h3>
-    <label class="f">Living area (sq ft)</label><input class="n" id="lc-sf" type="number" value="1800">
-    <label class="f">Appliance nameplate total (VA) — range, dryer, water heater, etc. (beyond the standard allowances)</label><input class="n" id="lc-app" type="number" value="12000">
-    <label class="f">Heat (VA) — include heat strips</label><input class="n" id="lc-heat" type="number" value="10000">
-    <label class="f">AC / heat pump (VA) — the larger of heat vs AC is used</label><input class="n" id="lc-ac" type="number" value="7200">
+  <div class="card"><h3>🏠 Residential load calc <span class="cite">220.82 optional method</span></h3>
+    <p class="bkmeta">For a dwelling on one 120/240 V or 120/208 V service or feeder of 100 A or more. Fixed-appliance nameplates go inside the 10 kVA demand split. Heating and cooling are not added together.</p>
+    <label class="f">Living area (sq ft) — outside dimensions, not porches, garages, or unused space</label><input class="n" id="lc-sf" type="number" value="1800">
+    <label class="f">Small-appliance branch circuits (1,500 VA each)</label><input class="n" id="lc-sa" type="number" value="2" min="0">
+    <label class="f">Laundry branch circuits (1,500 VA each)</label><input class="n" id="lc-ld" type="number" value="1" min="0">
+    <label class="f">Fastened appliance nameplates (VA) — range, dryer, water heater, and other fastened loads. These sit inside the 10 kVA / 40% split.</label><input class="n" id="lc-app" type="number" value="12000">
+    <label class="f">Heating type for 220.82(C)</label><select class="n" id="lc-mode">
+      <option value="space-lt4" selected>Electric space heat, fewer than 4 separately controlled units (65%)</option>
+      <option value="space-4">Electric space heat, 4 or more separately controlled units (40%)</option>
+      <option value="hp">Heat pump, no supplemental heat (100%)</option>
+      <option value="hp-strips">Heat pump plus strips that can run together (100% compressor + 65% strips)</option>
+      <option value="none">No electric heat</option>
+    </select>
+    <label class="f">Heat or heat-pump compressor (VA)</label><input class="n" id="lc-heat" type="number" value="10000">
+    <label class="f">Supplemental strips (VA) — used only for heat pump plus strips</label><input class="n" id="lc-strips" type="number" value="0">
+    <label class="f">Air conditioning / cooling nameplate (VA), counted at 100%</label><input class="n" id="lc-ac" type="number" value="7200">
     <button class="go" id="lc-go">Calculate service load</button><div id="lc-out"></div></div>`;
   $("#bf-go").onclick=()=>{ const per=T.boxFillVolumePerConductor[sel("#bf-awg")];
     const egcN=num("#bf-egc"); const egcF= egcN===0?0 : egcN<=4?1 : 1+0.25*(egcN-4);
     const total=per*(num("#bf-cond")+2*num("#bf-dev")+num("#bf-clamp")+egcF);
     const box=num("#bf-box");
-    $("#bf-out").innerHTML=`<div class="result">Required volume: <b>${total.toFixed(2)} cu in</b> (grounds allowance: ${egcF} × ${per} cu in)<br>Box volume: <b>${box} cu in</b> → ${total<=box?"✅ <b>FITS</b>":"❌ <b>TOO SMALL</b> — use a bigger box or a box extension"}</div>`; };
-  $("#cf-go").onclick=()=>{ const a40=T.conduitAreas40pct.EMT[sel("#cf-size")]; const each=T.conductorAreasTHHN[sel("#cf-awg")]; const n=num("#cf-n");
-    const totalArea=a40/0.40; const pct= n===1?0.53 : n===2?0.31 : 0.40; const allow=totalArea*pct;
+    $("#bf-out").innerHTML=`<div class="result" id="bf-result">Required volume: <b>${total.toFixed(2)} cu in</b> (grounds allowance: ${egcF} × ${per} cu in)<br>Box volume: <b>${box} cu in</b> → ${total<=box?"✅ <b>FITS</b>":"❌ <b>TOO SMALL</b> — use a bigger box or a box extension"}<br><span class="flag">Copper, aluminum, and CCA do not change this volume — 314.16 charges the AWG, not the metal. This count assumes every conductor and the largest ground are the size selected. A smaller ground, a mixed size, or a fixture stud or hickey (one allowance each) is not in this number.</span></div>`; };
+  $("#cf-go").onclick=()=>{
+    const size=sel("#cf-size"), each=T.conductorAreasTHHN[sel("#cf-awg")], n=num("#cf-n");
+    const row=(T.conduitFillEMT||{})[size] || {p40:T.conduitAreas40pct.EMT[size]};
+    const p40=row.p40, p53=row.p53!=null?row.p53:row.p40/0.40*0.53, p31=row.p31!=null?row.p31:row.p40/0.40*0.31;
+    const allow = n<=1 ? p53 : n===2 ? p31 : p40;
+    const pct = n<=1 ? 53 : n===2 ? 31 : 40;
     const used=each*n;
-    const raw=a40/each; const maxN= (raw-Math.floor(raw)>=0.8)? Math.ceil(raw) : Math.floor(raw);
-    $("#cf-out").innerHTML=`<div class="result">Conductors take <b>${used.toFixed(3)} sq in</b> of the <b>${allow.toFixed(3)} sq in</b> allowed (${Math.round(pct*100)}% fill for ${n} conductor${n===1?"":"s"}, Ch. 9 Table 1) → ${used<=allow?"✅ <b>FITS</b>":"❌ <b>OVERFILLED</b> — upsize the conduit"}<br>Max of this size in that conduit at 40%: <b>${maxN}</b> (Note 7: a remainder of 0.8 or more rounds up)<br><span class="flag">Nipples 24 in or shorter may use 60% fill (Table 1, Note 4) — and Note 4 also waives the 310.15(C)(1) ampacity adjustment on those nipples.</span></div>`; };
+    const note7=allowArea=>{ const raw=allowArea/each; const base=Math.floor(raw+1e-9); const frac=raw-base; return {raw, maxN: frac>=0.8-1e-6 ? base+1 : base}; };
+    const here=note7(allow), at40=note7(p40);
+    const fits = n<=here.maxN;
+    const note = (fits && used>allow+1e-6) ? `<br>Chapter 9 Note 7 permits this count: the remainder is 0.8 or more, so the next whole number is allowed.` : "";
+    $("#cf-out").innerHTML=`<div class="result" id="cf-result">Conductors take <b>${used.toFixed(3)} sq in</b>. Allowed at ${pct}% (Chapter 9, Table 1): <b>${allow.toFixed(3)} sq in</b> → ${fits?"✅ <b>FITS</b>":"❌ <b>OVERFILLED</b> — upsize the conduit"}${note}<br>Note 7 maximum of this size at ${pct}%: <b>${here.maxN}</b>. At 40% (three or more conductors): <b>${at40.maxN}</b>.<br><span class="flag">Same area for copper, aluminum, or CCA. Nipples 24 in or shorter may use 60% fill (Table 1, Note 4), and that note also skips the 310.15(C)(1) adjustment — this tool does not apply the 60% figure. EMT 1/2 in through 2 in, THHN through 2 AWG only.</span></div>`; };
   $("#vd-go").onclick=()=>{ const mat=sel("#vd-mat"), start=sel("#vd-awg"), I=num("#vd-i"), L=num("#vd-l"), V=num("#vd-v");
+    if(mat==="cca"){
+      $("#vd-out").innerHTML=`<div class="result" id="vd-result"><b>No voltage drop is computed for copper-clad aluminum.</b><br>Chapter 9, Table 8 lists DC resistance for copper and for aluminum. It has no copper-clad aluminum value, and this app has no cited 75°C CCA resistance from a manufacturer or a standard. A number is not invented here. Do not use the copper column for a CCA run.</div>`;
+      return;
+    }
     const f= sel("#vd-ph")==="3"? 1.732 : 2;
     const R8=(T.table8Resistance||{})[mat]||{};
     const dropFor=a=>{ const R=R8[a]; if(R) return f*L*I*R/1000; const K=mat==="copper"?12.9:21.2; return f*K*I*L/T.circularMils[a]; };
     const vd=dropFor(start); const pct=100*vd/V;
     let size=start;
     const bySize=[...awgs].sort((x,y)=>T.circularMils[x]-T.circularMils[y]);
-    for(const a of bySize){ if(100*dropFor(a)/V<=3){ size=a; break; } }
-    const basis= R8[start]? `Chapter 9, Table 8 resistance (${R8[start]} Ω per 1,000 ft)` : "K-constant approximation (no Table 8 value loaded for this size)";
-    $("#vd-out").innerHTML=`<div class="result">Voltage drop: <b>${vd.toFixed(2)} V (${pct.toFixed(1)}%)</b> — ${basis}<br>${pct<=3?"✅ Within the 3% recommendation":`❌ Over 3% — smallest size that gets you there: <b>${size} AWG</b>`}<br><span class="flag">Florida commercial work: FBC Energy Conservation C405.5.3 caps feeders + branch circuits COMBINED at 5% total voltage drop.</span></div>`; };
+    for(const a of bySize){ if(R8[a] && 100*dropFor(a)/V<=3){ size=a; break; } }
+    const basis= R8[start]? `Chapter 9, Table 8, stranded uncoated, 75°C (${R8[start]} Ω per 1,000 ft)` : "approximate K (12.9 copper, 21.2 aluminum) because no Table 8 value is loaded for this size";
+    const rec = pct<=3 ? "Within the 3% recommendation in the informational notes to 210.19 and 215.2. That note is not an NEC maximum." : `Above the 3% recommendation in the informational notes to 210.19 and 215.2 (not an NEC maximum). Smallest loaded size at or under 3% on this run: <b>${size} AWG</b>.`;
+    $("#vd-out").innerHTML=`<div class="result" id="vd-result">Voltage drop: <b>${vd.toFixed(2)} V (${pct.toFixed(1)}%)</b> — ${basis}<br>${rec}<br><span class="flag">Table 8 here is DC resistance, not the Table 9 impedance used for a long large feeder. Florida commercial work: FBC Energy Conservation C405.5.3 sizes feeders and branch circuits together for 5% total drop. Solid wire is slightly lower resistance than this stranded value.</span></div>`; };
   $("#am-go").onclick=()=>{ const mat=sel("#am-mat"), a=sel("#am-awg");
-    const amp=T.ampacity75C[mat][a]; const cap=T.smallConductorCaps[mat][a];
-    $("#am-out").innerHTML= amp? `<div class="result"><b>${a} AWG ${mat}</b> — Table 310.16 (75°C): <b>${amp}A</b>${cap?`<br>240.4(D) small-conductor cap: max breaker <b>${cap}A</b>`:""}</div>` : `<div class="result">No 75°C value listed for that combination in v1 — flag for Mike.</div>`; };
-  $("#lc-go").onclick=()=>{ const gen=3*num("#lc-sf")+1500+1500+1500;
-    const first=Math.min(gen,10000); const rest=Math.max(gen-10000,0);
-    const demand=first+0.4*rest+num("#lc-app"); const hvac=Math.max(num("#lc-heat"),num("#lc-ac"));
-    const total=demand+hvac; const amps=total/240;
-    const svc=[100,125,150,175,200,225,300,400].find(s=>s>=amps)||">400";
-    $("#lc-out").innerHTML=`<div class="result">General + appliances after 220.82 demand: <b>${Math.round(demand).toLocaleString()} VA</b><br>Heating/cooling (larger): <b>${Math.round(hvac).toLocaleString()} VA</b><br>Total: <b>${Math.round(total).toLocaleString()} VA = ${amps.toFixed(1)}A at 240V</b><br>Minimum standard service size: <b>${svc}A</b><br><span class="flag">Simplified v1 — Mike to verify against 220.82 before field use</span></div>`; };
+    const key = mat==="copper" ? "copper" : "aluminum";
+    const label = mat==="cca" ? "copper-clad aluminum (CCA)" : mat;
+    const amp=T.ampacity75C[key][a];
+    const amp60=(T.ampacity60C&&T.ampacity60C[key]||{})[a];
+    const cap=(T.smallConductorCaps[key]||{})[a];
+    if(!amp){ $("#am-out").innerHTML=`<div class="result" id="am-result">No 75°C Table 310.16 value for ${a} AWG ${label}. 14 AWG aluminum and 14 AWG CCA are not in that column.</div>`; return; }
+    const cca = mat==="cca" ? `<br>Copper-clad aluminum uses the <b>aluminum column</b> of Table 310.16. The table has no CCA column. 240.4(D) applies the aluminum small-conductor caps to CCA.` : "";
+    const col60 = amp60 ? `<br>60°C column: <b>${amp60}A</b>. Under 110.14(C), equipment 100A or less, and terminations on 14 AWG through 1 AWG, use the 60°C column unless the termination is marked for 75°C.` : "";
+    const nm = amp60 ? `<br>334.80: NM cable's final ampacity cannot exceed the 60°C column (${amp60}A), even when the conductors are rated 90°C.` : "";
+    const capLine = cap ? `<br>240.4(D) small-conductor cap: breaker not over <b>${cap}A</b>.` : `<br>240.4(D) does not cap this size.`;
+    $("#am-out").innerHTML=`<div class="result" id="am-result"><b>${a} AWG ${label}</b> — Table 310.16, 75°C column: <b>${amp}A</b> (30°C ambient, not more than three current-carrying conductors).${cca}${col60}${nm}${capLine}<br><span class="flag">This tool does not apply ambient correction or the 310.15(C)(1) adjustment for more than three current-carrying conductors.</span></div>`; };
+  $("#lc-go").onclick=()=>{
+    const sf=num("#lc-sf"), appVA=num("#lc-app"), heat=num("#lc-heat"), strips=num("#lc-strips"), ac=num("#lc-ac");
+    const sa=1500*num("#lc-sa"), ld=1500*num("#lc-ld"), light=3*sf;
+    const general=light+sa+ld+appVA;
+    const demand=Math.min(general,10000)+0.4*Math.max(general-10000,0);
+    const mode=sel("#lc-mode");
+    let heatVA=0, heatWhy="No electric heat counted";
+    if(mode==="space-lt4"){ heatVA=0.65*heat; heatWhy="Electric space heat, fewer than 4 separately controlled units, at 65%"; }
+    else if(mode==="space-4"){ heatVA=0.40*heat; heatWhy="Electric space heat, 4 or more separately controlled units, at 40%"; }
+    else if(mode==="hp"){ heatVA=heat; heatWhy="Heat pump with no supplemental heat, at 100%"; }
+    else if(mode==="hp-strips"){ heatVA=heat+0.65*strips; heatWhy="Heat-pump compressor at 100% plus supplemental strips at 65%"; }
+    const hvac=Math.max(heatVA, ac);
+    const hvacWhy = heatVA>=ac ? heatWhy : "Air conditioning at 100%";
+    const total=demand+hvac, amps=total/240;
+    const svc=[100,110,125,150,175,200,225,250,300,350,400].find(s=>s>=amps)||">400";
+    const fmt=n=>Math.round(n).toLocaleString();
+    $("#lc-out").innerHTML=`<div class="result" id="lc-result">Lighting, 3 VA/sq ft: <b>${fmt(light)} VA</b><br>Small-appliance + laundry: <b>${fmt(sa+ld)} VA</b><br>Fastened appliances: <b>${fmt(appVA)} VA</b><br>General load before demand: <b>${fmt(general)} VA</b><br>220.82(B): first 10 kVA at 100% and the remainder at 40%: <b>${fmt(demand)} VA</b><br>220.82(C), larger of heat and cooling — ${hvacWhy}: <b>${fmt(hvac)} VA</b> (heat side ${fmt(heatVA)} VA, cooling ${fmt(ac)} VA; they are not added)<br>Total: <b>${fmt(total)} VA = ${amps.toFixed(1)} A at 240 V</b><br>Next standard size in this list: <b>${svc} A</b><br><span class="flag">Optional method only, for a dwelling on one 120/240 V or 120/208 V set of conductors rated 100 A or more. The other 220.82(C) choices (thermal storage, and a controller that keeps the compressor and the strips from running together) are not separate buttons — pick the matching type above. Confirm against the printed section before the service is ordered.</span></div>`; };
 }
 /* ---------- Field Book (draft chapters; book-v1 schema from 00-COMMON) ---------- */
 let bookState = { chapter:null, page:null, view:"toc" };
@@ -336,9 +388,12 @@ function v1Quiz(id){ return (DATA.v1quiz||[]).find(x=>x.id===id)||null; }
 function v1Checklist(id){ for(const r of (DATA.v1checklists||[])) for(const it of r.items) if(it.id===id) return {room:r.room, item:it}; return null; }
 function v1Sharma(id){ return (DATA.v1sharma||[]).find(x=>x.id===id)||null; }
 let v1Overlay=null, lookupState={chapter:null, highlight:null}, roomsHighlight=null;
+const CHIP_ALIAS = {"220.82":"C2-220.82","310.16":"C3-310.16","314.16(A)":"C3-314.16","314.16(B)":"C3-314.16(B)","334.80":"C3-334.80","300.4":"C3-300.4","Ch9-T4":"C9-Table4","Ch9-T5":"C9-Table5","Ch9-T8":"C9-Table8"};
 function relChip(id){
+  const target = CHIP_ALIAS[id] || id;
+  const sec = bookSection(target);
+  if(sec) return `<button class="bkchip" data-bookpage="${target}">${esc(id)} — ${esc(sec.title)}</button>`;
   const label = relatedLabel(id);
-  if(bookSection(id)) return `<button class="bkchip" data-bookpage="${id}">${esc(id)} — ${esc(label)}</button>`;
   if(chapterLookupItem(id)) return `<button class="bkchip" data-reljump="lookup:${id}">${esc(id)} — ${esc(label)}</button>`;
   if(chapterQuizItem(id)) return `<button class="bkchip" data-reljump="quiz:${id}">${esc(id)} — ${esc(label)}</button>`;
   if(chapterChecklistItem(id)) return `<button class="bkchip" data-reljump="rooms:${id}">${esc(id)} — ${esc(label)}</button>`;

@@ -91,7 +91,7 @@
       "section": "300.5",
       "title": "Underground wiring — cover, protection and sealing",
       "plain_explanation": "Underground runs have to be in a wiring method approved for burial and buried deep enough that digging, traffic and frost do not reach them. Cover is measured from the top of the cable or raceway to finished grade, and the required depth depends on the method and what is above it — a yard, a driveway and a slab are not the same row of the table. Risers coming out of the ground need protection from damage, raceway seals are needed where moisture or temperature change will drive condensation, and splices underground must be listed for the job.",
-      "on_the_job": "The rows Sharma digs to most (Table 300.5, cover over the top of the cable or raceway): in open ground — direct-burial cable 24 in, nonmetallic raceway (PVC) 18 in, rigid metal conduit 6 in. Under a one- or two-family dwelling driveway — RMC 6 in, nonmetallic raceway 12 in, direct-burial cable 18 in. Under streets, roads, alleys, driveways and parking lots (the commercial row) — 24 in for EVERY method. A residential branch circuit 120V, 20A or less with GFCI protection gets the 12 in column in its own row. Slabs and building interiors have their own rows — check the table row for the actual location before you trench, and never carry one depth to every location.",
+      "on_the_job": "The rows Sharma digs to most (Table 300.5, cover over the top of the cable or raceway): in open ground — direct-burial cable 24 in, nonmetallic raceway (PVC) 18 in, rigid metal conduit 6 in. Under a one- or two-family dwelling driveway or outdoor parking area used only for the dwelling — direct-burial cable, rigid metal conduit, and nonmetallic raceway (PVC) are all 18 in. The 12 in figure is only the separate column for a 120 V, 20 A or less, GFCI-protected residential branch circuit. It is not the depth for PVC in general. Under streets, roads, alleys, driveways and parking lots (the commercial row) — 24 in for EVERY method. A residential branch circuit 120V, 20A or less with GFCI protection gets the 12 in column in its own row. Slabs and building interiors have their own rows — check the table row for the actual location before you trench, and never carry one depth to every location.",
       "sharma_note": "",
       "figure_idea": "Trench cross-section with four parallel runs at 24, 18, 12 and 6 in, each labeled with its method, and a tape measure to finished grade.",
       "related_ids": [
@@ -103,10 +103,11 @@
         "C3-L-004"
       ],
       "florida_note": "NEC 300.5(D)(3) itself requires a warning ribbon in the trench above underground service conductors — that part is code, not local preference. Local AHJs may add bedding or tape requirements beyond it — confirm at permit, and do not assume the table is the whole job.",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-300.4(G)",
       "next_id": "C3-300.11",
-      "chapter": 3
+      "chapter": 3,
+      "unverified_reason": "Verified badge removed after the 2026-11-15 field audit. The wording on this page was wrong or rested on a note that the printed NEC was not checked. Confirm against the printed 2020 text before relying on it."
     },
     {
       "id": "C3-300.11",
@@ -292,7 +293,7 @@
       "title": "Table 310.16 — how to read the ampacity table",
       "plain_explanation": "Table 310.16 gives the allowable ampacity of an insulated conductor by size, material and temperature column: 60°C, 75°C and 90°C, for copper on the left and for aluminum and copper-clad aluminum together on the right. Read it in four steps. One, find the size. Two, pick the material column — CCA is read in the aluminum columns, never the copper columns. Three, pick the temperature column your terminations allow under 110.14(C); most house equipment is 75°C, and the 90°C column is mainly a starting point for correction and adjustment. Four, apply 310.15, then check the small-conductor caps in 240.4(D): copper 14/12/10 AWG is capped at 15/20/30A, and aluminum/CCA 12/10 AWG is capped at 15/25A, no matter what the table row says.",
       "on_the_job": "Worked reads from the v1 table: 12 AWG copper is 20/25/30A at 60/75/90°C. 12 AWG CCA is 15/20/25A in the aluminum columns — and 240.4(D) caps it at a 15A breaker. 10 AWG CCA is 25/30/35A, capped at 25A. That one-column shift is exactly why a CCA circuit goes one size up from copper for the same breaker.",
-      "sharma_note": "S-10: branch circuits are copper by default — 14 AWG on 15A, 12 AWG on 20A. When CCA is used, go one AWG larger (12 on 15A, 10 on 20A) because Table 310.16 rates CCA in the aluminum column. Terminations must be marked for the conductor (110.14); wire connectors and lugs need AL-CU / CU-AL marking, CU-only connectors are not rated for CCA, and push-in terminals are 14 AWG solid copper only. Never backstab. The microwave circuit stays 12 AWG copper (S-06).",
+      "sharma_note": "S-10: branch circuits are copper by default — 14 AWG on 15A, 12 AWG on 20A. When CCA is used, go one AWG larger (12 on 15A, 10 on 20A) because Table 310.16 rates CCA in the aluminum column. Terminations must be marked for the conductor (110.14); wire connectors and lugs need AL-CU / CU-AL marking, CU-only connectors are not rated for CCA, and push-in terminals are 14 AWG solid copper only. Never backstab. The microwave circuit wire is PENDING under S-06 (12 AWG copper versus 10 AWG CCA).",
       "figure_idea": "A printed Table 310.16 excerpt with the 12 AWG and 10 AWG rows highlighted, an arrow from 'CCA' into the aluminum columns, and the 240.4(D) caps written under the rows.",
       "related_ids": [
         "L-038",
@@ -321,8 +322,8 @@
       "section": "310.16 / 310.3",
       "title": "CCA in every calculation — ampacity, voltage drop, fill, terminations, sizing",
       "plain_explanation": "Copper-clad aluminum is a material choice inside the same calculations, not a separate code. Run every calculation the same way and pick the CCA line where the table has one: (1) Ampacity — CCA is read in the aluminum column of Table 310.16, with the 240.4(D) caps for aluminum, and the minimum conductor sizes in the cable articles apply — in 2020 work the smallest CCA branch conductor you will meet is 12 AWG, and there is no 14 AWG CCA NM. (2) Voltage drop — Chapter 9 Table 8 lists copper and aluminum resistances only; there is no CCA row, so a CCA voltage-drop figure has to come from the cable maker's data or the ASTM B566 resistivity for the CCA class. Building-wire CCA is the 15 percent copper class, whose maximum resistivity is 0.02676 ohm square millimetres per metre (about 64 percent IACS); worked from that resistivity, 12 AWG CCA is about 2.46 ohms per 1000 ft at 20 degrees against about 1.59 for 12 AWG copper, so the same size of CCA drops roughly one and a half times the voltage — and one size up in CCA lands about where the copper size below it sat. (3) Terminations — 15 and 20 amp device screw terminals are fine for CCA; wire nuts and lugs must be marked AL/CU (Sharma stocks connectors marked for CCA — CC / CC-CU / AL/CU — because a CU-only nut is not listed for it); push-in backstab terminals are 14 AWG solid copper only, so CCA is never backstabbed. (4) Box fill and conduit fill — 314.16 and Chapter 9 Tables 4 and 5 go by conductor size and insulation, never by metal: a 10 AWG CCA conductor takes the same 2.50 cu in box allowance and the same Table 5 area as 10 AWG copper, and the calculation is identical; the CCA difference shows up one step earlier, in the bigger AWG the ampacity rule already chose. (5) Load calculations and service or feeder sizing — the load math (Article 220) does not change with metal; the conductor is then picked in the chosen material, so a whole-load dwelling service or feeder in CCA reads the aluminum column of Table 310.12, and anything else reads the aluminum column of Table 310.16.",
-      "on_the_job": "Crew version: same math, aluminum column, one size up. On a long home run, that one size up is also what saves the voltage drop — 10 AWG CCA at about 1.55 ohms per 1000 ft drops about what 12 AWG copper drops, so a run that was fine in 12 copper is fine in 10 CCA, while 12 CCA on the same run drops about half again as much and needs a second look. Check the connector marking in your pouch before the splice, not after: if it does not say AL/CU or CC, it does not touch CCA.",
-      "sharma_note": "S-10 in calculation form: copper default; CCA one AWG up (12 on 15A, 10 on 20A); microwave stays 12 AWG copper (S-06). Sharma's CCA is Copperweld NM-B; torque CCA terminations to the printed value once — do not re-torque.",
+      "on_the_job": "Crew version for ampacity: aluminum column, one size up. Do not use a CCA resistance in a voltage-drop calculation from this page. The 2.46 and 1.55 ohm figures here are 20°C arithmetic from a stated resistivity. They are not Chapter 9 Table 8 values, which are 75°C, and they are not verified. The calculator will not compute a CCA voltage drop until a cited 75°C source exists. Check the connector marking before the splice: if it does not say AL/CU or CC, it does not touch CCA.",
+      "sharma_note": "S-10 in calculation form: copper default; CCA one AWG up (12 on 15A, 10 on 20A); the microwave wire is PENDING under S-06 (12 AWG copper versus 10 AWG CCA). Sharma's CCA is Copperweld NM-B; torque CCA terminations to the printed value once — do not re-torque.",
       "figure_idea": "One flow chart used five times: Load → material (Cu / Al / CCA) → column or resistance source → size → check (240.4(D) cap, fill, voltage drop), with the CCA path highlighted and the Table 8 'no CCA row' gap marked on the voltage-drop branch.",
       "related_ids": [
         "C3-310.16",
@@ -493,11 +494,12 @@
         "C3-Q-001",
         "C3-Q-004"
       ],
-      "florida_note": "CONFLICT FLAGGED FOR MIKE: v1 calc-tables.json notes for 314.16(B) and lookup L-064 still state the pre-2020 'all grounds count once' rule. The 2020 quarter-allowance wording is corroborated by the ChatGPT research and by independent NEC 2020 sources (Leviton 2020 change summary as cited in published box-fill references). Mike to confirm against the printed 2020 text and correct v1 if it stands.",
-      "verified": true,
+      "florida_note": "The 2020 quarter-allowance count is what this page, the calculator, the starter quiz, and lookup L-064 now teach. This page stays unverified until the printed 2020 text of 314.16(B)(5) is checked. The old 'all grounds count as one, however many' rule is the 2017 rule.",
+      "verified": false,
       "prev_id": "C3-314.16",
       "next_id": "C3-314.17",
-      "chapter": 3
+      "chapter": 3,
+      "unverified_reason": "Verified badge removed after the 2026-11-15 field audit. The wording on this page was wrong or rested on a note that the printed NEC was not checked. Confirm against the printed 2020 text before relying on it."
     },
     {
       "id": "C3-314.17",
@@ -525,7 +527,7 @@
       "article": "314",
       "section": "314.20",
       "title": "How a box sits in a wall or ceiling",
-      "plain_explanation": "Boxes in finished surfaces have to sit so their front edge is where the finished surface is: in a combustible wall (wood studs and drywall assemblies treated as combustible for this rule) the box sits flush with or projects past the finished surface; in a noncombustible surface it may sit back no more than 1/4 in. A box buried behind the finish is both a device problem — the yoke ears cannot reach — and a code problem.",
+      "plain_explanation": "How far a box may sit behind the finished surface depends on what that surface is made of. In concrete, tile, gypsum board (drywall), plaster, or other noncombustible material, the front of the box, plaster ring, extension ring, or listed extender may be back no more than 1/4 inch. In wood or other combustible material, the box or extender has to reach the finished surface or project past it. Drywall is noncombustible for this rule even when it is screwed to wood studs. A box buried farther than the rule allows is both a device problem — the yoke ears cannot reach — and a code problem.",
       "on_the_job": "Set box depth off the stud face for the finish that is actually going on that wall: 1/2 in drywall is not tile on backer board. Use the adjustable-depth or extension option before the wall closes, not a stack of goof rings at trim.",
       "sharma_note": "S-04 and S-05 set the height (18 in to bottom for receptacles, 48 in to center for switches, plan silent); this section sets the depth. Both have to be right on the same box.",
       "figure_idea": "Wall section: stud, drywall, and a box face drawn flush, with a second box drawn 1/4 in back marked 'noncombustible only'.",
@@ -1036,20 +1038,21 @@
       "article": "344",
       "section": "344",
       "title": "Rigid metal conduit — RMC",
-      "plain_explanation": "RMC is the heavy-wall threaded steel raceway — the toughest common raceway in this chapter. It may be used in nearly every location, including underground (where its 6 in cover in the general Table 300.5 row — and in the one- and two-family dwelling driveway row — is the payoff for its strength; streets, roads, and other driveways and parking lots demand 24 in for every method), wet locations, and places subject to physical damage, with fittings and supports made for it. Underground, corrosion protection and the soil conditions govern how long it lasts.",
-      "on_the_job": "The 6 in burial depth is why RMC still earns its cost in shallow-rock trenches and under one- and two-family dwelling driveways, where nonmetallic raceway needs 12 in. Under streets, roads, alleys, and other driveways or parking lots, Table 300.5 requires 24 in of cover for every method, RMC included.",
+      "plain_explanation": "RMC is the heavy-wall threaded steel raceway — the toughest common raceway in this chapter. It may be used in nearly every location, including underground (where its 6 in cover in the general open-ground row of Table 300.5 is the payoff for its strength. Under a one- or two-family dwelling driveway that same rigid metal conduit needs 18 in, the same as PVC and direct-burial cable. Streets, roads, and other driveways and parking lots demand 24 in for every method), wet locations, and places subject to physical damage, with fittings and supports made for it. Underground, corrosion protection and the soil conditions govern how long it lasts.",
+      "on_the_job": "The 6 in burial depth is why RMC still earns its cost in open ground and in shallow-rock trenches that are not under a driveway. It is not a 6 in depth under a one- or two-family dwelling driveway — that row is 18 in for RMC and for PVC. Under streets, roads, alleys, and other driveways or parking lots, Table 300.5 requires 24 in of cover for every method, RMC included.",
       "sharma_note": "",
-      "figure_idea": "Driveway cross-section: RMC at 6 in under the slab edge beside a PVC run drawn at 18 in in open yard.",
+      "figure_idea": "Open-ground cross-section: RMC at 6 in beside a PVC run at 18 in. A one- or two-family dwelling driveway is a different Table 300.5 row — 18 in for both.",
       "related_ids": [
         "L-061",
         "Ch9-T4",
         "C3-L-035"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-342",
       "next_id": "C3-ART-348",
-      "chapter": 3
+      "chapter": 3,
+      "unverified_reason": "Verified badge removed after the 2026-11-15 field audit. The wording on this page was wrong or rested on a note that the printed NEC was not checked. Confirm against the printed 2020 text before relying on it."
     },
     {
       "id": "C3-ART-348",

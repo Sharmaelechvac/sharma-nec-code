@@ -1139,7 +1139,7 @@
       "article": "690",
       "section": "690",
       "title": "Article 690 — Solar Photovoltaic (PV) Systems",
-      "plain_explanation": "Article 690 covers PV systems from the module terminals to the point of connection: how circuit current is figured (690.8), how conductors and overcurrent devices are sized (690.8, 690.9), maximum voltage (690.7), ground-fault and arc-fault protection (690.5, 690.11), rapid shutdown on buildings (690.12), disconnects (690.13, 690.15), and the marking that tells the next person — and the fire department — what the system is (690.56). Interconnection to the premises system runs through Article 705: the 120% bus rule lives at 705.12(B)(3)(2) in Chapter 7 and is deliberately not repeated here.",
+      "plain_explanation": "Article 690 covers PV systems from the module terminals to the point of connection: how circuit current is figured (690.8), how conductors and overcurrent devices are sized (690.8, 690.9), maximum voltage (690.7), ground-fault and arc-fault protection (690.41(B) and 690.11; the old 690.5 number was deleted in 2020), rapid shutdown on buildings (690.12), disconnects (690.13, 690.15), and the marking that tells the next person — and the fire department — what the system is (690.56). Interconnection to the premises system runs through Article 705: the 120% bus rule lives at 705.12(B)(3)(2) in Chapter 7 and is deliberately not repeated here.",
       "on_the_job": "Sharma's solar-adjacent work is mostly service, additions, and builder rough-ins that a solar contractor finishes — the disconnect, marking, and rapid-shutdown pages are the ones that decide whose inspection fails.",
       "sharma_note": "",
       "figure_idea": "Rooftop array with the 1 ft rapid-shutdown boundary drawn around it; initiation device at the service.",
@@ -1150,10 +1150,11 @@
         "L-093"
       ],
       "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-685",
-      "next_id": "C6-690.41(B)"
+      "next_id": "C6-690.41(B)",
+      "unverified_reason": "Verified badge removed after the 2026-11-15 field audit. The wording on this page was wrong or rested on a note that the printed NEC was not checked. Confirm against the printed 2020 text before relying on it."
     },
     {
       "id": "C6-690.41(B)",

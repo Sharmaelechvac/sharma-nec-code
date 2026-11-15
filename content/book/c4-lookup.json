@@ -381,7 +381,7 @@
       "422.16(B)(4)",
       "hood receptacle"
     ],
-    "answer_plain": "Yes, where the hood is listed and marked for cord connection and the installation meets the conditions of 422.16(B)(4), including the receptacle arrangement. If the hood's instructions say hard-wire only, the listing governs and it gets hard-wired. Sharma practice (not a code rule) often places the hood on the dishwasher/disposal circuit; the microwave still keeps its own 20A copper circuit under S-06.",
+    "answer_plain": "Yes, where the hood is listed and marked for cord connection and the installation meets the conditions of 422.16(B)(4), including the receptacle arrangement. If the hood's instructions say hard-wire only, the listing governs and it gets hard-wired. Sharma practice (not a code rule) often places the hood on the dishwasher/disposal circuit; the microwave still keeps its own 20A circuit under S-06. The wire on that circuit is PENDING (12 AWG copper versus 10 AWG CCA).",
     "nec_ref": "422.16(B)(4)",
     "nec_edition": "2020",
     "tags": [

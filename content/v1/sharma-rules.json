@@ -36,7 +36,7 @@
   },
   {
     "id": "S-06",
-    "text": "Microwave gets its own 20A circuit on 12 AWG copper unless the plan or the nameplate says otherwise.",
+    "text": "PENDING RULING. The microwave gets its own dedicated 20A circuit. The wire is not settled: 12 AWG copper versus 10 AWG CCA. Until Mike Holt rules, the lead decides. If the plan or the nameplate states a size, that statement governs. Both sizes can meet 240.4(D).",
     "overrides_or_adds": "stricter than code",
     "applies_when": "plan silent",
     "source": "Sanjay 2026-11-10"
@@ -64,7 +64,7 @@
   },
   {
     "id": "S-10",
-    "text": "Branch circuits are copper by default: 14 AWG on 15A, 12 AWG on 20A. When copper-clad aluminum (CCA) is used, go one AWG size larger (12 AWG on 15A, 10 AWG on 20A), because NEC Table 310.16 rates CCA in the aluminum column. Every termination must be marked for the conductor (NEC 110.14): 15/20A receptacles and switches take copper or CCA on their screw terminals unless the device says otherwise (CO/ALR adds plain aluminum); 30A-and-up devices need AL/CU; wire connectors (wire nuts, lugs) need AL-CU / CU-AL, because CU-only connectors are not rated for CCA; check breaker and equipment lug markings for AL-CU. Push-in terminals are 14 AWG solid copper only. The lead picks the wire. The microwave circuit stays 12 AWG copper. Never backstab.",
+    "text": "Branch circuits are copper by default: 14 AWG on 15A, 12 AWG on 20A. When copper-clad aluminum (CCA) is used, go one AWG size larger (12 AWG on 15A, 10 AWG on 20A), because NEC Table 310.16 rates CCA in the aluminum column. Every termination must be marked for the conductor (NEC 110.14): 15/20A receptacles and switches take copper or CCA on their screw terminals unless the device says otherwise (CO/ALR adds plain aluminum); 30A-and-up devices need AL/CU; wire connectors (wire nuts, lugs) need AL-CU / CU-AL, because CU-only connectors are not rated for CCA; check breaker and equipment lug markings for AL-CU. Push-in terminals are 14 AWG solid copper only. The lead picks the wire. The microwave circuit wire is PENDING under S-06 (12 AWG copper versus 10 AWG CCA). Never backstab.",
     "overrides_or_adds": "company preference",
     "applies_when": "always",
     "source": "Sanjay 2026-11-11 (relayed via Steve)"

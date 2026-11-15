@@ -438,7 +438,7 @@
         "S-10"
       ],
       "section": "Table 8, CCA",
-      "sharma_note": "S-10: when CCA is used, go one AWG size larger (12 AWG on 15A, 10 AWG on 20A), terminations must be listed for the conductor, and never backstab. The lead picks the wire; the microwave circuit stays 12 AWG copper.",
+      "sharma_note": "S-10: when CCA is used, go one AWG size larger (12 AWG on 15A, 10 AWG on 20A), terminations must be listed for the conductor, and never backstab. The lead picks the wire. The microwave circuit wire is PENDING under S-06 (12 AWG copper versus 10 AWG CCA).",
       "sharma_rule_ids": [
         "S-10"
       ],

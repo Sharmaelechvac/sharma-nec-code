@@ -612,15 +612,13 @@
       "344 burial 6 inch",
       "rigid shallow cover"
     ],
-    "answer_plain": "Rigid metal conduit needs only 6 inches of cover in the general Table 300.5 case and under one- and two-family dwelling driveways, where nonmetallic raceway needs 18 inches in the general case and 12 in the dwelling-driveway case, and direct-burial cable needs 24. Under streets, roads, alleys, and other driveways and parking lots, every method needs 24 inches of cover — there is no shallow RMC shortcut there.",
-    "nec_ref": "344",
+    "answer_plain": "In open ground, Table 300.5 gives rigid metal conduit 6 inches of cover, nonmetallic raceway 18 inches, and direct-burial cable 24 inches. Under a one- or two-family dwelling driveway, direct-burial cable, rigid metal, and PVC are all 18 inches. The 12-inch figure is only the column for a 120 V, 20 A or less, GFCI-protected residential branch circuit. Under streets, roads, alleys, and other driveways and parking lots, every method needs 24 inches. There is no 6-inch rigid-metal shortcut under a dwelling driveway.",
+    "nec_ref": "300.5",
     "nec_edition": "2020",
     "tags": [
       "raceway",
       "underground"
-    ],
-    "verified_by": "Jarvis",
-    "verified_date": "2026-11-11"
+    ]
   },
   {
     "id": "C3-L-036",
@@ -898,7 +896,7 @@
       "Table 8 no CCA",
       "CCA ohms per 1000 ft"
     ],
-    "answer_plain": "Chapter 9 Table 8 lists copper and aluminum only, so a CCA figure comes from the cable maker's data or the ASTM B566 resistivity for the CCA class, never from a guessed value. Worked from the 15 percent class resistivity, 12 AWG CCA is about 2.46 ohms per 1000 ft at 20 degrees against about 1.59 for copper, so same-size CCA drops roughly one and a half times the voltage.",
+    "answer_plain": "Chapter 9 Table 8 lists copper and aluminum only. No voltage-drop number for copper-clad aluminum is computed in this app, because no cited 75°C CCA resistance is on file. A 20°C figure worked from a stated resistivity is not a Table 8 value and is not verified. Do not type one into a calculation.",
     "nec_ref": "310.16",
     "nec_edition": "2020",
     "tags": [

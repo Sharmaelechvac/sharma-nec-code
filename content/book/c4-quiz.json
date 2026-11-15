@@ -198,11 +198,11 @@
     "choices": [
       "On the range hood circuit",
       "On the dishwasher/disposal circuit",
-      "On its own 20A circuit, 12 AWG copper (S-06)",
+      "On its own 20A circuit (S-06; wire size still pending)",
       "On a small-appliance circuit"
     ],
     "answer_index": 2,
-    "explain_plain": "S-06 is a Sharma rule: microwave gets its own 20A circuit on 12 AWG copper unless the plan or nameplate says otherwise. The hood riding the dishwasher/disposal circuit is separate company practice, not the microwave.",
+    "explain_plain": "S-06 is a Sharma rule, and the wire size is PENDING: the microwave gets its own 20A circuit, but Mike Holt has not ruled 12 AWG copper versus 10 AWG CCA. The hood riding the dishwasher/disposal circuit is separate company practice, not the microwave.",
     "nec_ref": "422 / S-06",
     "difficulty": 1,
     "exam": "both"

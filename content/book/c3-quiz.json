@@ -10,7 +10,7 @@
       "22.50 cu in — fails"
     ],
     "answer_index": 1,
-    "explain_plain": "Four insulated conductors + one allowance for all grounds + two for the yoke + one for all clamps = 8 allowances. 8 x 2.25 cu in (12 AWG) = 18.00 cu in, exactly the box volume.",
+    "explain_plain": "Four insulated conductors, plus one allowance for the two equipment grounds (the 2020 rule counts up to four grounds as one), plus two for the yoke, plus one for all clamps, is 8 allowances. 8 x 2.25 cu in at 12 AWG is 18.00 cu in, exactly the box volume. A ground past the fourth would add a quarter allowance. Counting every ground as one volume with nothing added is the 2017 rule.",
     "nec_ref": "314.16(B)",
     "difficulty": 2,
     "exam": "both"
