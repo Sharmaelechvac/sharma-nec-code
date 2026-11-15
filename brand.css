@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Inter:wght@400;600;700&family=IBM+Plex+Mono:wght@600&display=swap');
+/* Sharma brand layer (2026-11-15, Mark Cuban / Design). Loaded after styles.css. */
+:root{--blue:#264387;--navy:#1a2f61;--sky:#eef1f8;--sky2:#dfe4ee;--ink:#1d2433;--mut:#5b6478;--bg:#f4f6fb;--line:#dfe4ee;--amber:#7a4e0c;--amberbg:#fff8ec;--red:#b3261e;--green:#1f7a3e;--gold:#F0A846}
+body{font-family:'Inter',Arial,sans-serif;background:var(--bg)}
+h2,h3,.t1,.hero h2,h2.sec,.pathbody b,.tile b,.score{font-family:'Barlow Semi Condensed','Arial Narrow',Arial,sans-serif;font-weight:700;letter-spacing:0}
+.topbar{background:#fff;color:var(--navy);border-bottom:3px solid var(--gold);padding:10px 16px}
+.topbar .logo{height:38px;width:auto;background:none;border-radius:0;padding:0;box-shadow:none}
+.t1{font-size:24px;color:var(--navy);text-transform:none}
+.t2{color:var(--mut);opacity:1;font-weight:600}
+.banner{background:#fff8ec;color:#5a3d08;border-bottom:1px solid var(--gold);border-left:6px solid var(--gold)}
+.learnstrip{background:var(--navy);color:#fff;font-family:'Barlow Semi Condensed',Arial,sans-serif;font-weight:600;font-size:16px;letter-spacing:.02em;text-transform:none}
+.searchbar input{border-radius:4px;border:2px solid var(--blue);font-weight:500}
+.tabs button{border-radius:4px;border:1.5px solid var(--line);color:var(--navy);font-family:'Barlow Semi Condensed',Arial,sans-serif;font-weight:700;font-size:17px}
+.tabs button.on{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:inset 0 -3px 0 var(--gold)}
+.card,.pathcard,.tile,.lessonrow,.result,.why,.steps li,.qopt,input.n,select.n{border-radius:6px;box-shadow:none}
+.card{border:1px solid var(--line)}
+.hero{background:var(--navy);border-radius:6px;border-top:4px solid var(--gold)}
+.hero h2{color:#fff}
+.howsteps span{background:transparent;border:1.5px solid rgba(255,255,255,.5);border-radius:4px;font-weight:600}
+.howsteps b{border-radius:3px;background:var(--gold);color:var(--navy);font-family:'IBM Plex Mono',monospace}
+.pathcard{border:1px solid var(--line)}
+.pathcard:hover,.tile:hover{border-color:var(--blue)}
+.pathnum,.num-badge{border-radius:4px;font-family:'IBM Plex Mono',monospace;background:var(--navy)}
+.keynum{font-family:'IBM Plex Mono',monospace;border-radius:4px}
+.cite{font-family:'Barlow Semi Condensed',Arial,sans-serif;font-weight:700;letter-spacing:.04em;font-size:15px}
+.lsec{font-family:'IBM Plex Mono',ui-monospace,monospace;font-weight:600}
+.go,.quizbtn,.learnbtn{border-radius:4px;font-weight:700}
+.tag,.flag{border-radius:3px}
+.bkchip{border-radius:4px}
+.lcheck{border-radius:3px}
+.favbtn{font-size:13px;font-weight:700;color:var(--blue);border:1.5px solid var(--blue);border-radius:4px;padding:4px 10px}
+.favbtn.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.ok-t{color:var(--green);font-weight:700}.no-t{color:var(--red);font-weight:700}
