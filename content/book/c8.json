@@ -103,6 +103,23 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C8-800.2",
+      "next_id": "C8-800.21",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.21",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.21",
+      "title": "Keep the ceiling panels removable — cable cannot block access",
+      "plain_explanation": "Access to electrical equipment must not be denied by an accumulation of communications wires and cables that prevents removal of panels, including suspended-ceiling panels. In plain terms, the tiles of a suspended ceiling are an access door to the junction boxes, disconnects, and other electrical equipment above them. A bundle of data cable draped across the grid so that a panel cannot be lifted out fails this section, even if every cable in the bundle is the right type, properly supported, and properly bonded. The rule is not about the cable — it is about keeping the access the ceiling was designed to give.",
+      "on_the_job": "Route and support the runs so any ceiling panel can still be lifted and slid aside: bundles on their own hangers or J-hooks above the grid, never resting on the tiles, never piled across the panel below a box or disconnect someone will need to reach. If you cannot lift the tile, neither can the next electrician — and the inspector will try the tile nearest the equipment.",
+      "sharma_note": "",
+      "figure_idea": "A suspended ceiling drawn from above: one bay with cable supported on J-hooks clear of the panels and the panel lifting free, beside a bay with cable draped across the tile and the tile stuck fast, marked as a fail.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.3",
       "next_id": "C8-800.24",
       "sharma_rule_ids": []
     },
@@ -122,7 +139,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C8-800.3",
+      "prev_id": "C8-800.21",
       "next_id": "C8-800.25",
       "sharma_rule_ids": []
     },
@@ -164,6 +181,23 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C8-800.25",
+      "next_id": "C8-800.27",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.27",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.27",
+      "title": "Never run a cable hotter than its rating",
+      "plain_explanation": "No wire or cable may be used in such a manner that its operating temperature exceeds the temperature rating of the wire or cable. It is a one-sentence general rule — the Chapter 8 counterpart of the temperature limitation the rest of the Code puts on conductors — and the heat it guards against can come from anywhere: a hot attic or boiler room, a sun-baked exterior run, or the cable's own load, since communications cables that deliver power to devices warm up from the inside, and the middle of a fat bundle warms up most. The cable types in 800.179 are built around temperature — suitable for at least 60°C, with any higher rating marked — and this section is the installation rule that says the rating has to be respected in the field, not just on the reel.",
+      "on_the_job": "Think about heat before you bundle. A thick bundle of powered Ethernet cable in a Florida attic is the classic trap: the room is already hot and the center of the bundle runs far hotter than the air around it. Split oversized powered bundles, keep runs out of the hottest part of the attic where the layout allows, and never bury communications cable in insulation or strap it against a heat source and assume the jacket rating will save it.",
+      "sharma_note": "",
+      "figure_idea": "A thick bundle of powered data cables in an attic with heat waves drawn at its core, beside the same circuits split into two smaller bundles, marked as the cooler installation.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.26",
       "next_id": "C8-800.44",
       "sharma_rule_ids": []
     },
@@ -183,7 +217,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C8-800.26",
+      "prev_id": "C8-800.27",
       "next_id": "C8-800.47",
       "sharma_rule_ids": []
     },
@@ -332,6 +366,23 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C8-800.100(B)",
+      "next_id": "C8-800.106",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.106",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.106",
+      "title": "Grounding the primary protector at a mobile home",
+      "plain_explanation": "A mobile home gets its own version of the 800.100 grounding recipe, because the power service usually is not on the home itself — under 550.32(A) the service equipment or disconnecting means sits nearby, in sight from the home and not more than 30 ft from its exterior wall. Where that equipment is in place, the primary protector is grounded and bonded into that grounding arrangement as 800.100 describes. Where there is no mobile home service equipment or grounded disconnect in sight and within 30 ft, 800.106(A) sends the grounding to the electrode options in 800.100(B)(3) — the same list used at a building that has no intersystem bonding termination and no grounding means. Either way, 800.106(B) adds a step an ordinary house does not need: the protector's grounding terminal must be bonded to the mobile home's metal frame, or to the grounding terminal the home provides, with copper not smaller than 12 AWG, so the telephone ground and the frame the occupants touch can never sit at different voltages in a surge. This section is also the reason the 6 AWG bond-back rule in 800.100(D) carries an exception for mobile homes — at a mobile home, 800.106 replaces it.",
+      "on_the_job": "On a manufactured-home call, find the pedestal or disconnect first. If it is in sight and within 30 ft, ground the protector into that system — and still add the 12 AWG copper bond to the home's frame or grounding terminal. If the disconnect is farther away, or there is no grounded disconnect to work from, you are on the 800.100(B)(3) electrode list, and the frame bond is still required. Do not skip the frame bond because the protector 'has its own ground rod': a rod alone does not tie the phone ground to the frame.",
+      "sharma_note": "",
+      "figure_idea": "A mobile home with its power pedestal nearby: the protector at the entrance grounded into the pedestal system, with the 12 AWG bond drawn from the protector to the home's frame; beside it, the same home with the pedestal far away and a local electrode driven at the home.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.100(D)",
       "next_id": "C8-800.110",
       "sharma_rule_ids": []
     },
@@ -350,7 +401,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C8-800.100(D)",
+      "prev_id": "C8-800.106",
       "next_id": "C8-800.113",
       "sharma_rule_ids": []
     },
@@ -475,6 +526,40 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C8-800.154",
+      "next_id": "C8-800.180",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.180",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.180",
+      "title": "Grounding hardware has to be listed",
+      "plain_explanation": "Where bonding or grounding is required, the devices used to connect a shield, sheath, or other non-current-carrying metallic member of a cable to a bonding conductor or a grounding electrode conductor must be listed — or be part of listed equipment. It is a short listing rule, and it closes a gap the rest of the article leaves open: 800.100 specifies the conductor itself — its material, its size, its length, and where it may land — while this section governs the clamp or fitting that joins the cable's metal to that conductor. A primary protector or network interface device with its own grounding terminal satisfies the rule through its listing; a random piece of hardware does not.",
+      "on_the_job": "Use the grounding terminal built into the protector or interface device, or a listed grounding clamp made for bonding a cable shield or sheath. A hose clamp, a sheet-metal screw driven through the sheath, or an unmarked clamp off the hardware shelf is not a listed grounding device — and the fitting at the entrance is exactly where a sharp inspector looks first.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.179",
+      "next_id": "C8-800.182",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-800.182",
+      "chapter": 8,
+      "article": "800",
+      "section": "800.182",
+      "title": "Communications raceways and cable routing assemblies — the listing rules",
+      "plain_explanation": "This section is the listing home for the two support systems Article 800 builds communications installations with: communications raceways — the enclosed nonmetallic channels defined in Article 100, close cousins of ENT — and cable routing assemblies, the single or multiple channels that support high densities of cable. The raceway rules follow the same three fire levels as the cables themselves — plenum, riser, and general-purpose — and the section carries two marking tables, Table 800.182(a) for cable routing assemblies and Table 800.182(b) for communications raceways, so the level is printed on the product. One point installers miss: a rated raceway does not upgrade the cable inside it. A plenum communications raceway installed in an air-handling space under 300.22(C) still has to contain plenum-rated CMP cable — the raceway and the cable are each matched to the space on their own.",
+      "on_the_job": "Read the print on the raceway before you hang it: plenum level for air-handling ceilings, riser level for vertical shafts, general-purpose for ordinary runs. Nonmetallic communications raceways are installed under the ENT rules this section points to — bends, supports, and joints per 362.24 through 362.56 — and cable routing assemblies support their cable at the intervals the listing allows. Where the space demands plenum, both the raceway and the cable in it must be plenum level; one out of two does not pass.",
+      "sharma_note": "",
+      "figure_idea": "Three short raceway samples side by side, marked plenum, riser, and general-purpose, with a CMP cable shown inside the plenum sample and a red X over a CM cable drawn inside the same plenum raceway.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C8-800.180",
       "next_id": "C8-ART-805",
       "sharma_rule_ids": []
     },
@@ -493,7 +578,7 @@
       ],
       "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not yet adopted in Florida, so a 2023 study book may show different Chapter 8 numbering or wording.",
       "verified": true,
-      "prev_id": "C8-800.179",
+      "prev_id": "C8-800.182",
       "next_id": "C8-805.1",
       "sharma_rule_ids": []
     },
@@ -1002,6 +1087,11 @@
           "title": "How Article 800 works with the other articles"
         },
         {
+          "id": "C8-800.21",
+          "section": "800.21",
+          "title": "Keep the ceiling panels removable — cable cannot block access"
+        },
+        {
           "id": "C8-800.24",
           "section": "800.24",
           "title": "Doing the work neatly and protecting the cable"
@@ -1015,6 +1105,11 @@
           "id": "C8-800.26",
           "section": "800.26",
           "title": "Slowing the spread of fire and smoke"
+        },
+        {
+          "id": "C8-800.27",
+          "section": "800.27",
+          "title": "Never run a cable hotter than its rating"
         },
         {
           "id": "C8-800.44",
@@ -1057,6 +1152,11 @@
           "title": "Bonding a separate communications electrode back to the power system"
         },
         {
+          "id": "C8-800.106",
+          "section": "800.106",
+          "title": "Grounding the primary protector at a mobile home"
+        },
+        {
           "id": "C8-800.110",
           "section": "800.110",
           "title": "Raceways and cable routing assemblies for communications"
@@ -1090,6 +1190,16 @@
           "id": "C8-800.179",
           "section": "800.179",
           "title": "The cable types themselves — CMP, CMR, CMG, CM, CMX"
+        },
+        {
+          "id": "C8-800.180",
+          "section": "800.180",
+          "title": "Grounding hardware has to be listed"
+        },
+        {
+          "id": "C8-800.182",
+          "section": "800.182",
+          "title": "Communications raceways and cable routing assemblies — the listing rules"
         }
       ]
     },
@@ -1237,6 +1347,12 @@
       ]
     },
     {
+      "term": "Access to equipment behind panels",
+      "ids": [
+        "C8-800.21"
+      ]
+    },
+    {
       "term": "Antenna, discharge unit",
       "ids": [
         "C8-810.20",
@@ -1280,6 +1396,12 @@
       ]
     },
     {
+      "term": "Cable temperature rating, do not exceed",
+      "ids": [
+        "C8-800.27"
+      ]
+    },
+    {
       "term": "Cable types, communications (CMP, CMR, CMG, CM, CMX)",
       "ids": [
         "C8-800.179",
@@ -1312,6 +1434,12 @@
       ]
     },
     {
+      "term": "Communications raceways and cable routing assemblies, listing",
+      "ids": [
+        "C8-800.182"
+      ]
+    },
+    {
       "term": "Demarcation point",
       "ids": [
         "C8-800.1",
@@ -1334,6 +1462,12 @@
       ]
     },
     {
+      "term": "Grounding devices, listed",
+      "ids": [
+        "C8-800.180"
+      ]
+    },
+    {
       "term": "Ham / amateur radio station grounding",
       "ids": [
         "C8-810.57"
@@ -1353,6 +1487,12 @@
       "ids": [
         "C8-800.53",
         "C8-810.18"
+      ]
+    },
+    {
+      "term": "Mobile home, protector grounding at",
+      "ids": [
+        "C8-800.106"
       ]
     },
     {
