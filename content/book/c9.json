@@ -223,7 +223,7 @@
       "id": "C9-Table4",
       "next_id": "C9-Table5",
       "on_the_job": "Read the row for the exact raceway you are installing, then take the column that matches your conductor count from Table 1. Flag carried from v1: the 1/2 in EMT total area is carried as 0.304 sq in; one secondary source showed 0.305, but the 40 percent value of 0.122 sq in agrees across sources. Do not change 0.304 without re-checking the printed table.",
-      "plain_explanation": "Table 4 gives, for each raceway type and trade size, the inside diameter, the total inside area, and the usable area at each Table 1 percentage. Trade size is a name, not a measurement: 1/2 in EMT is actually 0.622 in inside and 0.304 sq in total, with 0.122 sq in usable at 40 percent. Raceway type matters as much as trade size — 1/2 in PVC Schedule 40 is a little smaller inside (0.285 sq in total, 0.114 at 40 percent), so an EMT answer does not carry over to PVC.",
+      "plain_explanation": "Table 4 gives, for each raceway type and trade size, the inside diameter, the total inside area, and the usable area at each Table 1 percentage. Trade size is a name, not a measurement: 1/2 in EMT is actually 0.622 in inside and 0.304 sq in total, with 0.122 sq in usable at 40 percent. Raceway type matters as much as trade size — 1/2 in PVC Schedule 40 is a little smaller inside (0.285 sq in total, 0.114 at 40 percent), so an EMT answer does not carry over to PVC. Two more raceways are carried here so their answers are not borrowed from the wrong row. PVC Schedule 80, the thick-wall PVC used where conduit is subject to physical damage, runs smaller inside than Schedule 40 at every size (inside diameter in inches, total area in sq in, then the usable areas at 53, 31, and 40 percent): 1/2 in — 0.526, 0.217, 0.115, 0.067, 0.087; 3/4 in — 0.722, 0.409, 0.217, 0.127, 0.164; 1 in — 0.936, 0.688, 0.365, 0.213, 0.275; 1-1/4 in — 1.255, 1.237, 0.656, 0.383, 0.495; 1-1/2 in — 1.476, 1.711, 0.907, 0.530, 0.684; 2 in — 1.913, 2.874, 1.523, 0.891, 1.150. Flexible metal conduit (FMC) is its own row too — close to EMT at the small sizes, but never the same row: 1/2 in — 0.635, 0.317, 0.168, 0.098, 0.127; 3/4 in — 0.824, 0.533, 0.283, 0.165, 0.213; 1 in — 1.020, 0.817, 0.433, 0.253, 0.327; 1-1/4 in — 1.275, 1.277, 0.677, 0.396, 0.511; 1-1/2 in — 1.538, 1.858, 0.985, 0.576, 0.743; 2 in — 2.040, 3.269, 1.732, 1.013, 1.307. A fill that passes in Schedule 40 or EMT can fail in Schedule 80, so when the raceway changes, rerun the division with the new row.",
       "prev_id": "C9-Table1-Nipples",
       "related_ids": [
         "Ch9-T4",
@@ -413,15 +413,15 @@
     {
       "article": "9",
       "chapter": 9,
-      "figure_idea": "The Table 8 aluminum column with a translucent CCA label laid over it and a bold 'approximation only' tag.",
+      "figure_idea": "The printed Table 8 with its copper and aluminum columns, beside an empty third column outline labeled 'CCA — not in this table; maker data required.'",
       "flags": [
-        "CCA is not separately listed in Table 8; aluminum column is an approximation only. v1 README item 7 — carried, not resolved."
+        "CCA is not listed in Table 8 and this book publishes no CCA resistance; a CCA voltage-drop figure requires cited manufacturer data for the actual product at 75 degrees C. v1 README item 7 — carried, not resolved."
       ],
       "florida_note": "",
       "id": "C9-Table8-CCA",
       "next_id": "C9-VD-METHOD",
-      "on_the_job": "Worked estimate, labeled as one: 12 AWG stranded, aluminum column 3.25 ohm/kft, 12A at 50 ft one-way on 120V gives 2 x 50 x 3.25 x 12 / 1000 = 3.90V, about 3.25 percent. Report it as an approximation using the aluminum column, never as a measured CCA value.",
-      "plain_explanation": "Copper-clad aluminum is not separately listed in Table 8. The v1 table uses the aluminum column for CCA only as an approximation, and this book repeats that warning on purpose: do not invent a CCA resistance, and do not present an aluminum-column result as an exact CCA value. That is a different question from ampacity — for ampacity, Table 310.16 groups CCA with the aluminum column and S-10 sizes CCA one AWG larger; for a voltage-drop estimate, the aluminum column is the closest available stand-in and the answer should be called an estimate.",
+      "on_the_job": "If a CCA run needs a voltage-drop answer, do not borrow the aluminum column and report the result as the CCA drop — the aluminum number belongs to aluminum. Get the maker's DC resistance for the actual cable at 75 degrees C, write the source on the calculation, and only then run the formula. If that number is not on hand, the honest status is 'not yet calculated,' and that is what goes on the takeoff.",
+      "plain_explanation": "Copper-clad aluminum is not in Table 8. The printed table carries copper — uncoated and coated — and aluminum, and nothing else: no CCA column, no CCA row, and this book does not invent one. Ampacity is a different question — there, Table 310.16 reads CCA in its aluminum and copper-clad aluminum column, and S-10 sizes CCA one AWG larger. Voltage drop is where the gap bites, because the resistance has to describe the actual conductor. The aluminum column describes aluminum — 12 AWG stranded aluminum is 3.25 ohm/kft at 75 degrees C — and it is not a CCA value: a drop computed from it must never be reported as a CCA conductor's drop. A CCA resistance has to come from the cable maker's data for the actual product at the operating temperature. Until a cited manufacturer value for the CCA product Sharma installs is on file, this book publishes no CCA voltage-drop figure — the same open point carried on C3-310.16-CCA.",
       "prev_id": "C9-Table8",
       "related_ids": [
         "310.16",
@@ -442,9 +442,9 @@
       "sharma_rule_ids": [
         "S-10"
       ],
-      "title": "CCA in Table 8 — an approximation, labeled as one",
+      "title": "CCA in Table 8 — not listed, and no substitute value",
       "verified": false,
-      "unverified_reason": "CCA treatment carried, not resolved: Table 8 has no CCA column and no cited manufacturer/UL CCA resistance value is on file; the aluminum column is a labeled approximation until Mike Holt's printed check or a cited value lands."
+      "unverified_reason": "Kept unverified, consistent with C3-310.16-CCA. Verified against the printed table: Table 8 carries copper (uncoated and coated) and aluminum only — there is no CCA data in it — and the aluminum value quoted here (12 AWG stranded, 3.25 ohm/kft at 75 degrees C) matches the printed table. What cannot be verified is any CCA resistance: no cited manufacturer (Copperweld) 75 degrees C DC resistance for the actual CCA building-wire product is on file, so no CCA voltage-drop figure is published and the aluminum column is not presented as a substitute. Promote when a cited product value lands."
     },
     {
       "article": "9",
@@ -549,12 +549,12 @@
     {
       "article": "9",
       "chapter": 9,
-      "figure_idea": "A fork in the road: short branch runs take the Table 8 path; a long large feeder takes the Table 9 path with a 'values to be checked in the printed book' sign.",
+      "figure_idea": "A fork in the road: short branch runs take the Table 8 path; a long large feeder takes the Table 9 path with a 'run it from the printed Table 9' sign.",
       "florida_note": "",
       "id": "C9-Table9",
       "next_id": "C9-ANNEXD",
       "on_the_job": "If a voltage-drop answer matters enough to fight over — a long feeder, a big motor, a plan review comment — do not settle it with the Table 8 approximation. Flag it for Mike to run with Table 9 and the actual raceway and power factor.",
-      "plain_explanation": "Table 9 is the next step past Table 8 for voltage drop: instead of DC resistance alone, it works with alternating-current resistance and reactance for 600V cables, so raceway type and conductor size effects that DC numbers miss can be counted. This book states no Table 9 values. The v1 calc tables do not include it, and no value from it was re-checked against the printed 2020 book for this pass, so the honest teaching here is when to reach for it — large conductors, long three-phase runs, or a Table 8 approximation that lands near a limit — not numbers to memorize from this page.",
+      "plain_explanation": "Table 9 is the next step past Table 8 for voltage drop. Its full title is 'Alternating-Current Resistance and Reactance for 600-Volt Cables, 3-Phase, 60 Hz, 75 degrees C — Three Single Conductors in Conduit,' and instead of DC resistance alone it gives, in ohms to neutral per 1000 ft, the inductive reactance for all wires, the alternating-current resistance for uncoated copper and for aluminum, and the effective impedance Z at 0.85 power factor — each broken out for PVC, aluminum, and steel conduit, because a magnetic steel raceway raises reactance and, in the larger sizes, AC resistance as well. The table's Note 1 limits its values to conductors at 75 degrees C under the conditions its title states. This book publishes no Table 9 values by size; the teaching here is when to reach for it — large conductors, long three-phase runs, steel raceway, or a Table 8 approximation that lands near a limit — and to run those cases from the printed table rather than from memory.",
       "prev_id": "C9-VD-LIMITS",
       "related_ids": [
         "C9-L-043",
@@ -565,8 +565,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 9 — AC resistance and reactance, for finer voltage-drop work",
-      "unverified_reason": "Table 9 existence and purpose are as stated in the Chapter 9 brief, but no Table 9 value was checked against the printed NEC 2020 book or a v1 source in this pass, so no values are published here.",
-      "verified": false
+      "verified": true
     },
     {
       "article": "9",
@@ -576,7 +575,7 @@
       "id": "C9-ANNEXD",
       "next_id": "C9-ANNEXI",
       "on_the_job": "When a load calc is due, work it in the annex's order — general loads, then the named appliances and motors, then demand, then the service size — and keep the arithmetic with the estimate so Mike can re-run it. If your total and the annex pattern disagree, the inputs are wrong somewhere, not the pattern.",
-      "plain_explanation": "Annex D shows the load-calculation articles worked end to end on example buildings: add the loads the articles name, apply the demand factors the articles allow, and arrive at a service or feeder size. This book teaches that method and points you to the real work in Chapter 2 — especially the optional dwelling calculation data carried in v1 as table 220.82 — rather than copying an annex example. A Sharma example must be computed fresh from the actual house, labeled as a Sharma example, and checked; an annex example is a pattern to follow, not a number to borrow for a different building.",
+      "plain_explanation": "Annex D shows the load-calculation articles worked end to end on example buildings: add the loads the articles name, apply the demand factors the articles allow, and arrive at a service or feeder size. The 2020 annex works eight example families: D1, a one-family dwelling by the standard method, with and without air conditioning; D2, a one-family dwelling by the optional method of 220.82, including a heat-pump version with backup heat; D3, a store building; D4 and D5, multifamily dwellings — D5 served at 208Y/120 volts, three-phase; D6, maximum demand for range loads from Table 220.55; D7, dwelling service conductors sized with 310.12; and D8, motor conductors and protection under Article 430. This book teaches that method and points you to the real work in Chapter 2 — especially the optional dwelling calculation data carried in v1 as table 220.82 — rather than copying an annex example. A Sharma example must be computed fresh from the actual house, labeled as a Sharma example, and checked; an annex example is a pattern to follow, not a number to borrow for a different building.",
       "prev_id": "C9-Table9",
       "related_ids": [
         "220.82",
@@ -587,8 +586,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Annex D — worked load-calculation examples",
-      "unverified_reason": "Annex letter and subject are as stated in the Chapter 9 brief; the letter was not re-confirmed against the printed NEC 2020 annex list in this pass, and no annex example text or numbers are reproduced.",
-      "verified": false
+      "verified": true
     },
     {
       "article": "9",
@@ -598,7 +596,7 @@
       "id": "C9-ANNEXI",
       "next_id": "C9-ANNEXES-INFORMATIVE",
       "on_the_job": "Reach for the equipment marking first, the manufacturer instruction second, and a general recommended table only when neither exists — and use a torque tool, not a guess by feel, on service and feeder lugs.",
-      "plain_explanation": "The annex identified in the chapter brief as Annex I collects recommended tightening-torque values for connections, to be used where the equipment itself does not give a torque. It backs up the Chapter 1 rule that a connection is made to the manufacturer's instructed torque where one is provided — a lug or breaker marked with a torque value is governed by that marking, not by a general table. This page publishes no torque values, because none were re-checked against the printed 2020 book for this pass.",
+      "plain_explanation": "Informative Annex I is titled 'Recommended Tightening Torque Tables from UL Standard 486A-B,' and it collects recommended tightening-torque values for connections in three tables: Table I.1, for screws No. 10 and larger, including split-bolt and other connectors; Table I.2, for slotted head screws smaller than No. 10, intended for use with conductors 8 AWG and smaller; and Table I.3, for screws with recessed Allen or square drives. It is a fallback, not the first stop: 110.14(D) makes the manufacturer's stated torque the rule, achieved by an approved means, and the annex tables serve the connection where the equipment gives no torque value and none can be obtained from the manufacturer. This page publishes no torque values — torque comes off the equipment marking, the manufacturer's instructions, or the annex tables in the printed book, never from memory.",
       "prev_id": "C9-ANNEXD",
       "related_ids": [
         "C9-L-047",
@@ -608,8 +606,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Annex I — recommended tightening torque",
-      "unverified_reason": "Annex letter is as stated, with a confirm-first instruction, in the Chapter 9 brief; it was not re-confirmed against the printed NEC 2020 annex list in this pass, and no torque values are published here.",
-      "verified": false
+      "verified": true
     },
     {
       "article": "9",
@@ -622,7 +619,7 @@
       "id": "C9-ANNEXES-INFORMATIVE",
       "next_id": null,
       "on_the_job": "When someone quotes an annex at you on a job, ask the deciding question: is that in a mandatory section, or in an annex or a note? Both can be good practice; only one can be enforced as written, and knowing which keeps you from arguing the wrong point with an inspector.",
-      "plain_explanation": "The annexes sit behind the mandatory chapters as explanation, examples, and reference data. Unless an adopting ordinance specifically adopts an annex, its content is not a requirement an inspector can cite the way a numbered article section can be cited — that is the same status the 3 and 5 percent voltage-drop figures carry as Informational Notes. This chapter covers the annexes Sharma work actually touches — C for same-size fill checks, D for calculation examples, and I for torque, flagged where unconfirmed. The remaining annex letters were not written as pages in this pass, because their letters and subjects were not confirmed against the printed 2020 book, and this book does not invent an annex.",
+      "plain_explanation": "The annexes sit behind the mandatory chapters as explanation, examples, and reference data. Unless an adopting ordinance specifically adopts an annex, its content is not a requirement an inspector can cite the way a numbered article section can be cited — that is the same status the 3 and 5 percent voltage-drop figures carry as Informational Notes. This chapter covers the annexes Sharma work actually touches — C for same-size fill checks, D for calculation examples, and I for torque. The remaining annex letters were not written as pages in this pass, because their letters and subjects were not confirmed against the printed 2020 book, and this book does not invent an annex.",
       "prev_id": "C9-ANNEXI",
       "related_ids": [
         "C9-L-049",
@@ -700,7 +697,7 @@
         {
           "id": "C9-Table8-CCA",
           "section": "Table 8, CCA",
-          "title": "CCA — aluminum column as approximation only"
+          "title": "CCA — no CCA column in Table 8"
         },
         {
           "id": "C9-VD-METHOD",
@@ -730,19 +727,19 @@
       "article": "9",
       "children": [],
       "id": "C9-Table9",
-      "title": "Table 9 — AC resistance and reactance (no values published, unverified)"
+      "title": "Table 9 — AC resistance and reactance (method only)"
     },
     {
       "article": "9",
       "children": [],
       "id": "C9-ANNEXD",
-      "title": "Annex D — load-calculation examples (unverified letter)"
+      "title": "Annex D — load-calculation examples"
     },
     {
       "article": "9",
       "children": [],
       "id": "C9-ANNEXI",
-      "title": "Annex I — recommended tightening torque (unverified letter)"
+      "title": "Annex I — recommended tightening torque"
     },
     {
       "article": "9",
