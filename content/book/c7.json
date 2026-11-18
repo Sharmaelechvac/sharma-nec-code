@@ -183,6 +183,25 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-700.12",
+      "next_id": "C7-700.16",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.16",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.16",
+      "title": "Emergency illumination — no single failure leaves a space dark",
+      "plain_explanation": "Emergency illumination covers the means of egress lighting, the illuminated exit signs and every other luminaire specified as necessary to get people out. The system has to be designed and installed so that the failure of any single illumination source cannot leave a space that requires emergency illumination in total darkness — one dead lamp, ballast or driver never blacks out an exit path. Control devices on the system have to be listed for use in emergency systems. Where discharge lighting such as HID is the sole source of normal illumination, the emergency system has to operate until normal illumination is restored, because those lamps are slow to restrike. The section also requires emergency illumination in the area of an indoor service or feeder disconnecting means.",
+      "on_the_job": "Count sources, not fixtures on a schedule. Stand in each egress space and ask what goes dark if one source dies; if the answer is everything, the layout fails this section even though every fixture sits on an emergency circuit.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: an egress corridor lit by two interleaved emergency fixtures, one shown failed, with the corridor still lit from the second source.",
+      "related_ids": [
+        "C7-700.12"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-700.15",
       "next_id": "C7-700.32",
       "sharma_rule_ids": []
     },
@@ -201,7 +220,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C7-700.15",
+      "prev_id": "C7-700.16",
       "next_id": "C7-ART-701",
       "sharma_rule_ids": []
     },
@@ -284,6 +303,26 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-701.10",
+      "next_id": "C7-701.32",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-701.32",
+      "chapter": 7,
+      "article": "701",
+      "section": "701.32",
+      "title": "Selective coordination — legally required standby",
+      "plain_explanation": "Legally required standby overcurrent devices have to selectively coordinate with all supply-side overcurrent protective devices, so a fault on one standby branch opens the device at the fault instead of tripping devices upstream and darkening healthy standby loads with it. The coordination is selected by a licensed professional engineer or another qualified person engaged primarily in the design, installation or maintenance of electrical systems, and the selection has to be documented and made available to the people authorized to design, install, inspect, maintain and operate the system. It is the Article 700 duty at 700.32 carried one tier down. Coordination is not required between two devices in series where no loads are connected in parallel with the downstream device.",
+      "on_the_job": "Same discipline as the emergency tier: this is a study, not a field adjustment. Get the documented coordination selection into the job record before the gear is released, and leave it where the inspector and the owner's maintenance people can reach it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-L-004",
+        "C7-700.32"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-701.12",
       "next_id": "C7-ART-702",
       "sharma_rule_ids": []
     },
@@ -308,7 +347,7 @@
       ],
       "florida_note": "Florida hurricane season is why this article earns its keep here — but no Florida amendment relaxes the transfer or sizing rules in this chapter. The AHJ and the printed NEC 2020 govern.",
       "verified": true,
-      "prev_id": "C7-701.12",
+      "prev_id": "C7-701.32",
       "next_id": "C7-702.4(A)",
       "sharma_rule_ids": [
         "S-02"
@@ -768,6 +807,26 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-705.12(B)(3)(2)",
+      "next_id": "C7-705.12(B)(3)(4)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.12(B)(3)(4)",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.12(B)(3)(4)",
+      "title": "The center-fed busbar method — one end only",
+      "plain_explanation": "Some dwelling panelboards are center-fed: the main breaker or main lugs sit in the middle of the busbar instead of at one end, a construction common on combination meter-and-panel equipment in some regions. This method permits a source connection at either end of that busbar, but never at both ends. The math is the familiar 120 percent check applied to the connection: the sum of 125 percent of the power source output circuit current and the rating of the overcurrent device protecting the busbar must not exceed 120 percent of the busbar rating. Because a center-fed bus can concentrate load on one half of the busbar, the option is limited to dwellings.",
+      "on_the_job": "Identify the panel construction before reaching for the 120 percent rule: if the main sits in the middle, this paragraph is the method, not (3)(2). Land the source at one end only, run the math on that connection, and record which end was used in the job file.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: a center-fed dwelling panelboard with the main in the middle of the busbar, a source breaker landed at one end, and the opposite end marked as no source connection.",
+      "related_ids": [
+        "C7-705.12(B)(3)(2)",
+        "C7-L-028"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.12(B)(3)(3)",
       "next_id": "C7-705.13",
       "sharma_rule_ids": []
     },
@@ -787,7 +846,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C7-705.12(B)(3)(3)",
+      "prev_id": "C7-705.12(B)(3)(4)",
       "next_id": "C7-705.20",
       "sharma_rule_ids": []
     },
@@ -826,6 +885,26 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-705.20",
+      "next_id": "C7-705.40",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-705.40",
+      "chapter": 7,
+      "article": "705",
+      "section": "705.40",
+      "title": "Loss of primary source — the source must stop and stay off",
+      "plain_explanation": "When the primary source — normally the utility — is lost, an interconnected power production source has to be automatically disconnected from all ungrounded conductors of the primary source, and it must not reconnect until the primary source is restored. The duty bites even if only one line or phase of the utility supply opens. It exists so a solar array or cogeneration source can never backfeed lines that utility crews are treating as dead. The exception is the listed utility-interactive inverter: it may keep producing ac power for local loads as long as no power reaches the service conductors, which in effect turns the premises into their own island. A source serving an emergency or legally required standby system through transfer equipment is not shut down by this section — those systems are supposed to run during the outage.",
+      "on_the_job": "This is why a grid-tied inverter goes quiet in an outage even in full sun: it is not broken, it is obeying this section. If the owner wants power during outages, the answer is equipment designed to island legally, never a defeated anti-islanding control.",
+      "sharma_note": "",
+      "figure_idea": "Original diagram: a utility feed shown open with an inverter stopped at its disconnect, beside a second sketch of the same inverter islanded and feeding local loads only.",
+      "related_ids": [
+        "C7-705.20",
+        "C7-L-034"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C7-705.30",
       "next_id": "C7-ART-706",
       "sharma_rule_ids": []
     },
@@ -848,7 +927,7 @@
       ],
       "florida_note": "Florida note: hurricane-driven battery work is arriving in houses that were never designed for it. The ESS rules in this article, plus the fire-code siting the AHJ enforces, both apply — ask the AHJ about location limits before the batteries are set.",
       "verified": true,
-      "prev_id": "C7-705.30",
+      "prev_id": "C7-705.40",
       "next_id": "C7-706.7",
       "sharma_rule_ids": []
     },
@@ -1013,17 +1092,19 @@
       "article": "712",
       "section": "712.10",
       "title": "Directory — dc microgrid sources",
-      "plain_explanation": "A directory provision for dc microgrids appears in the 2020 code-changes material under this number, pointing the reader to where the microgrid's source disconnects are, in the same spirit as 705.10 and 710.10. The exact wording was not re-checked against the printed 2020 text for this pass, so this page is carried as unverified and the substance should be confirmed before it is relied on.",
-      "on_the_job": "Treat this page as a signpost, not a citation: confirm the directory wording in the printed book before putting it on a plan or a quiz.",
+      "plain_explanation": "This is Article 712's directory rule, the dc counterpart of 705.10 and 710.10: a permanent plaque or directory denoting all electric power sources on or in the premises, installed at each service equipment location and at the locations of power production sources capable of being interconnected, so anyone working the building can find every source and its disconnect. Subsection (B) covers the directory for a building supplied by a dc microgrid. Other articles send dc microgrid work here for its plaques and directories: battery systems under 480.7(G)(1), PV under 690.56(B), fuel cells under 692.4(B)(2) and wind systems under 694.54(B).",
+      "on_the_job": "Sharma has not installed a dc microgrid; this page is the signpost for the day one appears on a plan set. The field habit transfers directly from 705.10 work: directory at the service, every source named, disconnect locations shown.",
       "sharma_note": "",
       "figure_idea": "",
-      "related_ids": [],
+      "related_ids": [
+        "C7-705.10",
+        "C7-L-025"
+      ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C7-ART-712",
       "next_id": "C7-ART-720",
-      "sharma_rule_ids": [],
-      "unverified_reason": "Section number and existence seen in a 2020 NEC code-changes course outline (712.2 definitions, 712.10 directory listed as changed sections); wording not re-checked against the printed NEC 2020 text or a handbook excerpt in this pass."
+      "sharma_rule_ids": []
     },
     {
       "id": "C7-ART-720",
@@ -1433,6 +1514,11 @@
           "title": "Loads on emergency branch circuits"
         },
         {
+          "id": "C7-700.16",
+          "section": "700.16",
+          "title": "Emergency illumination — no single failure leaves a space dark"
+        },
+        {
           "id": "C7-700.32",
           "section": "700.32",
           "title": "Selective coordination — emergency systems"
@@ -1458,6 +1544,11 @@
           "id": "C7-701.12",
           "section": "701.12",
           "title": "Sources of power — available in 60 seconds"
+        },
+        {
+          "id": "C7-701.32",
+          "section": "701.32",
+          "title": "Selective coordination — legally required standby"
         }
       ]
     },
@@ -1574,6 +1665,11 @@
           "title": "The sum-of-breakers method"
         },
         {
+          "id": "C7-705.12(B)(3)(4)",
+          "section": "705.12(B)(3)(4)",
+          "title": "The center-fed busbar method — one end only"
+        },
+        {
           "id": "C7-705.13",
           "section": "705.13",
           "title": "Power control systems — a listed controller can limit the current"
@@ -1587,6 +1683,11 @@
           "id": "C7-705.30",
           "section": "705.30",
           "title": "Overcurrent protection — interconnected sources"
+        },
+        {
+          "id": "C7-705.40",
+          "section": "705.40",
+          "title": "Loss of primary source — the source must stop and stay off"
         }
       ]
     },
@@ -1752,6 +1853,7 @@
       "term": "120 percent rule",
       "ids": [
         "C7-705.12(B)(3)(2)",
+        "C7-705.12(B)(3)(4)",
         "C7-705.12"
       ]
     },
@@ -1765,6 +1867,12 @@
       "term": "Busbar, 100 percent method",
       "ids": [
         "C7-705.12(B)(3)(1)"
+      ]
+    },
+    {
+      "term": "Busbar, center-fed method",
+      "ids": [
+        "C7-705.12(B)(3)(4)"
       ]
     },
     {
@@ -1823,6 +1931,12 @@
       "term": "Emergency disconnect, 230.85, vs generator shutdown",
       "ids": [
         "C7-702.7"
+      ]
+    },
+    {
+      "term": "Emergency illumination",
+      "ids": [
+        "C7-700.16"
       ]
     },
     {
@@ -1936,7 +2050,8 @@
       "term": "Legally required standby systems",
       "ids": [
         "C7-ART-701",
-        "C7-701.12"
+        "C7-701.12",
+        "C7-701.32"
       ]
     },
     {
@@ -1944,6 +2059,12 @@
       "ids": [
         "C7-702.4(B)(2)",
         "C7-ART-750"
+      ]
+    },
+    {
+      "term": "Loss of primary source",
+      "ids": [
+        "C7-705.40"
       ]
     },
     {
@@ -1982,6 +2103,12 @@
       "term": "Selective coordination, emergency",
       "ids": [
         "C7-700.32"
+      ]
+    },
+    {
+      "term": "Selective coordination, legally required standby",
+      "ids": [
+        "C7-701.32"
       ]
     },
     {
