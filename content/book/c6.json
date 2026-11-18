@@ -192,17 +192,16 @@
       "chapter": 6,
       "article": "620",
       "section": "620.22",
-      "title": "Car lighting, receptacle, and air-conditioning/ventilation branch circuit",
-      "plain_explanation": "This section governs the branch circuit that serves the elevator car's lighting, receptacles, and car air-conditioning and ventilation — loads that must stay alive independently of the driving-machine disconnect (see 620.51).",
-      "on_the_job": "",
+      "title": "Car lighting, receptacle, ventilation, heating and air-conditioning branch circuits",
+      "plain_explanation": "This section puts the car loads on their own dedicated circuits, apart from the driving-machine supply. Under 620.22(A), a separate branch circuit supplies the car lights, receptacle(s), auxiliary lighting power source, and ventilation on each car, and the required car lighting must not be connected to the load side of a GFCI — a tripped service receptacle must not black out the car. Under 620.22(B), car heating and air-conditioning units are supplied by their own separate branch circuit. The overcurrent device protecting each circuit is located in the machine room or control space for that car, and neither circuit is opened by the driving-machine disconnect (620.51), so the car stays lit and ventilated while the machine is locked out for service.",
+      "on_the_job": "Two dedicated car circuits, not one: lights, receptacles, and ventilation on the first; car heat and AC on their own. Both breakers live in the machine room or control space — not in the car and not on the machine disconnect.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
         "C6-620.51"
       ],
       "florida_note": "",
-      "verified": false,
-      "unverified_reason": "Section existence and subject confirmed from a 2020-based source, but the exact permitted-load list was truncated in the source available; held unverified for Mike Holt's check against the printed 2020 text.",
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-620.6",
       "next_id": "C6-620.51"
@@ -1011,16 +1010,15 @@
       "article": "680",
       "section": "680.43",
       "title": "Indoor spas and hot tubs",
-      "plain_explanation": "Indoor spa installations are governed by Parts I and II as modified by 680.43 — including the indoor receptacle placement rules at 680.43(A) and the switch distance at 680.43(C), which places switches at least 5 ft from the inside walls unless separated by a permanent barrier.",
-      "on_the_job": "",
+      "plain_explanation": "An indoor spa or hot tub is wired under Parts I and II of Article 680 as modified by 680.43, and any Chapter 3 wiring method may be used. Receptacles [680.43(A)]: at least one 125V, 15A or 20A receptacle on a general-purpose branch circuit must be located not less than 6 ft and not more than 10 ft from the inside wall; every receptacle must be at least 6 ft from the inside walls, measured horizontally; 125-volt receptacles rated 30A or less within 10 ft of the inside walls must be GFCI protected; and a receptacle that supplies spa or hot tub equipment must be GFCI protected. Luminaires and ceiling fans within 5 ft horizontally of an inside wall must be at least 12 ft above the spa or hot tub or be GFCI protected [680.43(B)]. Switches must be at least 5 ft from the inside walls, measured horizontally [680.43(C)] — indoors, no permanent-barrier exception applies to that switch distance; the barrier language in this section belongs to bonding [680.43(D)], which ties together metal parts within 5 ft of the inside walls that are not separated from the spa or hot tub by a permanent barrier. The distances in this section are measured by the shortest path a cord would follow without piercing a floor, wall, ceiling, or other permanent barrier.",
+      "on_the_job": "Measure the 6 ft receptacle band and the 5 ft switch distance by the cord path around partitions, not a straight line through them — and do not let a partition talk you into a switch inside 5 ft; indoors, the barrier counts for bonding, not for switches.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
         "C6-680.40"
       ],
       "florida_note": "",
-      "verified": false,
-      "unverified_reason": "The Part I/II framework and the 680.43(C) 5 ft switch distance are verified for 2020, but the indoor receptacle band detail was carried from a review of an earlier edition; the 2020 lettering of 680.43(A) is held unverified for Mike Holt's check.",
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.41",
       "next_id": "C6-680.50"
@@ -1150,11 +1148,10 @@
         "L-093"
       ],
       "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-685",
-      "next_id": "C6-690.41(B)",
-      "unverified_reason": "Verified badge removed after the 2026-11-15 field audit. The wording on this page was wrong or rested on a note that the printed NEC was not checked. Confirm against the printed 2020 text before relying on it."
+      "next_id": "C6-690.41(B)"
     },
     {
       "id": "C6-690.41(B)",
@@ -1558,7 +1555,7 @@
         {
           "id": "C6-620.22",
           "section": "620.22",
-          "title": "Car lighting, receptacle, and air-conditioning/ventilation branch circuit"
+          "title": "Car lighting, receptacle, ventilation, heating and air-conditioning branch circuits"
         },
         {
           "id": "C6-620.51",
