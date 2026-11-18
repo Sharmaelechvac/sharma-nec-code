@@ -248,8 +248,8 @@
       "article": "210",
       "section": "210.8(F)",
       "title": "Outdoor outlets other than receptacles",
-      "plain_explanation": "This subsection reaches outdoor outlets that are not receptacles — the hardwired outdoor equipment case, within the rating limits it states. The condenser is the example Sharma runs into: a hardwired outdoor unit can be an outlet for this rule even though there is no plug and no receptacle at the unit. For a one- or two-family dwelling, Florida resolves the condenser question directly: FBC-Residential §E3408.1 amends 210.8(F) with Exception No. 2 — GFCI protection is not required for listed and labeled HVAC equipment.",
-      "on_the_job": "Ask the AHJ's current position before finalizing a condenser circuit on a job where this has not already been settled. Do not promise a homeowner or a builder either answer until that check is made.",
+      "plain_explanation": "This subsection reaches outdoor outlets that are not receptacles — a point where current is taken for equipment, such as the disconnect feeding a hardwired condenser. For dwellings, all outdoor outlets other than those already covered as outdoor receptacles need GFCI protection for personnel when supplied by a single-phase branch circuit rated 150 volts or less to ground and 50 amperes or less. The NEC's own exception covers lighting outlets other than those in 210.8(C). For a one- or two-family dwelling, Florida resolves the condenser question directly: FBC-Residential §E3408.1 amends 210.8(F) with Exception No. 2 — GFCI protection is not required for listed and labeled HVAC equipment.",
+      "on_the_job": "Check the circuit rating first: on a dwelling, a single-phase circuit at 150 volts or less to ground and 50 amperes or less puts a hardwired outdoor outlet in this rule. Listed HVAC on a house falls under the Florida exception; plan on GFCI protection for other outdoor equipment.",
       "sharma_note": "Sharma practice (tip, not an S-rule): condensers are normally on a standard 2-pole breaker sized to the nameplate maximum overcurrent protection. Confirm the AHJ — do not present that practice as a code exemption.",
       "figure_idea": "A condenser pad with a hardwired whip to a disconnect, labeled 'outlet, not a receptacle,' and a callout to confirm the local position.",
       "related_ids": [
@@ -259,11 +259,10 @@
         "C2-L-008"
       ],
       "florida_note": "FBC-Residential, 8th Edition, §E3408.1 amends NEC 210.8(F): Exception No. 2 — GFCI protection shall not be required for listed and labeled HVAC equipment (one- and two-family dwellings). Outside that case — commercial work, unlisted equipment, other outdoor outlets — the AHJ for the job still governs.",
-      "verified": false,
+      "verified": true,
       "prev_id": "C2-210.8(D)",
       "next_id": "C2-210.11",
-      "sharma_rule_ids": [],
-      "unverified_reason": "Partially resolved 2026-11-12: the Florida residential HVAC exception is now stated from FBC-R §E3408.1. The flag remains for the rest of 210.8(F)'s scope (non-HVAC outdoor outlets and non-dwelling work), whose local enforcement was not re-checked for this pass."
+      "sharma_rule_ids": []
     },
     {
       "id": "C2-210.11",
@@ -378,8 +377,8 @@
       "article": "210",
       "section": "210.12(D)",
       "title": "Extending or modifying an existing circuit",
-      "plain_explanation": "Work on an existing circuit can pull arc-fault duties with it. This subsection deals with branch circuits that are modified, replaced, or extended in the listed dwelling areas, and with a panel or device change that has a similar effect. There is an exception connected with a short extension — its exact length and conditions are flagged below and must be checked in the printed code before a crew relies on it.",
-      "on_the_job": "On service work, ask first whether the job is a repair in place or an extension or modification. If wire is being added or the circuit is being reworked, assume this subsection is in play and confirm the exception in the book before quoting it to an inspector.",
+      "plain_explanation": "Where branch-circuit wiring in any area covered by 210.12(A), (B), or (C) — dwelling units, dormitory units, and guest rooms and guest suites — is modified, replaced, or extended, the circuit must gain AFCI protection. It may be protected by any of the methods in 210.12(A)(1) through (6), or by a listed outlet branch-circuit AFCI at the first receptacle outlet of the existing circuit. One narrow exception: no AFCI is required where the extension of the existing conductors is not more than 6 ft and adds no outlets or devices other than splicing devices; conductor length inside an enclosure, cabinet, or junction box does not count toward the 6 ft.",
+      "on_the_job": "On service work, measure the extension before assuming the exception saves you: 6 ft or less, splices only, and no new outlet or device. Anything longer, or anything added, means AFCI — one of the 210.12(A) methods, or an outlet branch-circuit AFCI at the first receptacle.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -387,11 +386,10 @@
         "C2-L-009"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C2-210.12(A)",
       "next_id": "C2-210.19",
-      "sharma_rule_ids": [],
-      "unverified_reason": "UNVERIFIED: the 6 ft exception wording in 210.12(D) was flagged in the v1 README (item 3) as taken from memory and not re-checked this pass. This page therefore does not state a length as fact; Mike to confirm against the printed 2020 text."
+      "sharma_rule_ids": []
     },
     {
       "id": "C2-210.19",
@@ -887,7 +885,7 @@
       "article": "220",
       "section": "220.82(C)",
       "title": "Optional method — heating and cooling",
-      "plain_explanation": "Heating and cooling do not run at full load together, so this part takes the largest of several stated options rather than the sum — air conditioning at full value is one option, fixed electric space heating is treated by count of units, and heat pumps with supplementary heat have their own sub-cases. Because those heat-pump sub-cases were only summarized in the v1 material, this page states the structure and not item-by-item percentages for them. Mike must confirm the sub-cases against the printed code before any calculator logic or exam answer depends on them.",
+      "plain_explanation": "Heating and cooling do not run at full load together, so this part adds only the largest of six selections, in kVA: (1) air conditioning and cooling at 100 percent of nameplate; (2) a heat pump with no supplemental electric heat, at 100 percent; (3) a heat pump at 100 percent of the compressor plus 65 percent of the supplemental electric heat — the compressor is omitted if it is prevented from running at the same time as that heat; (4) electric space heating at 65 percent with fewer than four separately controlled units; (5) electric space heating at 40 percent with four or more separately controlled units; and (6) electric thermal storage and other heating expected to run continuously at full nameplate, at 100 percent — a system counted under (6) is not counted again under another selection.",
       "on_the_job": "In Florida the air-conditioning figure usually wins this comparison, but a house with strip heat or a heat pump with auxiliary heat still needs the comparison done and written down. Take the compressor and air-handler figures from nameplates, not from tonnage rules of thumb.",
       "sharma_note": "",
       "figure_idea": "A balance graphic: AC load on one side, heating load on the other, with only the heavier side carried into the total.",
@@ -895,12 +893,11 @@
         "220.82",
         "C2-L-016"
       ],
-      "florida_note": "Florida heat pumps with electric auxiliary heat are common in Sharma's territory; that is exactly the sub-case flagged for confirmation, so do not skip the comparison on a Florida house.",
-      "verified": false,
+      "florida_note": "Florida heat pumps with electric auxiliary heat are common in Sharma's territory; that is the (C)(3) case — compressor at 100 percent plus 65 percent of the auxiliary heat — so do not skip the comparison on a Florida house.",
+      "verified": true,
       "prev_id": "C2-220.82(B)",
       "next_id": "C2-ART-225",
-      "sharma_rule_ids": [],
-      "unverified_reason": "UNVERIFIED in part: v1 README item 4 — 220.82(C) was summarized in plain words, not item by item, and the heat-pump sub-cases were not re-checked against the printed code. This page avoids stating those sub-case percentages as fact."
+      "sharma_rule_ids": []
     },
     {
       "id": "C2-ART-225",
@@ -1251,7 +1248,7 @@
       "article": "240",
       "section": "240.24",
       "title": "Where overcurrent devices may be located",
-      "plain_explanation": "Overcurrent devices must be readily accessible, protected from damage, and within the height limit this section sets — the operating handle, at its highest position, no more than 6 ft 7 in above the floor or working platform, with exceptions for the cases the section names. The same section bars overcurrent devices from the vicinity of easily ignitable material, from clothes closets, and, in dwellings, from bathrooms. The exception wording under subsection (A) is flagged below; the height number and the closet and bathroom prohibitions are covered by the checked v1 items linked here.",
+      "plain_explanation": "Circuit breakers and switches containing fuses must be readily accessible and installed so the center of the grip of the operating handle, at its highest position, is not more than 6 ft 7 in above the floor or working platform. That height limit does not apply in four cases: busways, under 368.17(C); supplementary overcurrent protection, under 240.10; overcurrent devices described in 225.40 and 230.92; and devices next to the utilization equipment they supply, where access may be by portable means. A tool may be used to reach devices inside listed industrial control panels or similar enclosures. The rest of this section bars devices near easily ignitable material and in clothes closets, and, in dwellings, in bathrooms.",
       "on_the_job": "Measure handle height to the top breaker in the panel as installed, including a raised floor or platform change on a remodel. And site the panel early: a closet or bathroom location is a relocation, not a waiver request.",
       "sharma_note": "S-09's back-to-back panel still has to satisfy this section and the working-space rules in Article 110 — a good meter position does not excuse a panel in a closet.",
       "figure_idea": "A panel on a wall with a tape from the floor to the top breaker handle at 6 ft 7 in, and a closet door and a bathroom door both crossed out as locations.",
@@ -1265,13 +1262,12 @@
         "S-09"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C2-240.6",
       "next_id": "C2-ART-250",
       "sharma_rule_ids": [
         "S-09"
-      ],
-      "unverified_reason": "UNVERIFIED in part: v1 README item 3 — the exception wording in 240.24(A) was taken from memory and not re-checked this pass. The 6 ft 7 in height and the 240.24(D)/(E) closet and bathroom prohibitions are as covered by checked v1 items L-043/L-044 and Q-019/Q-020; Mike to confirm the (A) exceptions against the printed 2020 text."
+      ]
     },
     {
       "id": "C2-ART-250",
@@ -1565,7 +1561,7 @@
       "article": "250",
       "section": "250.140",
       "title": "Frames of ranges and dryers on existing circuits",
-      "plain_explanation": "Older installations were permitted to ground the frames of ranges and clothes dryers to the neutral on a 3-wire circuit, and this section keeps that arrangement lawful only for existing installations that meet all of its conditions. New work is 4-wire: two hots, an insulated neutral, and a separate equipment ground, with the appliance's bonding strap removed. This page is a tip for service work, not a design rule — and its detailed conditions are flagged below.",
+      "plain_explanation": "New work is 4-wire: the frames of ranges, wall-mounted ovens, counter-mounted cooking units, clothes dryers, and the outlet or junction boxes on their circuits connect to the equipment grounding conductor. This section keeps the older 3-wire arrangement lawful only for an existing branch circuit where no equipment grounding conductor is present in the outlet or junction box, and only if all four conditions are met: the supply is 120/240-volt, single-phase, 3-wire, or 208Y/120-volt from a 3-phase, 4-wire wye system; the grounded conductor is not smaller than 10 AWG copper or 8 AWG aluminum; that conductor is insulated, or uninsulated only as part of a Type SE cable on a circuit originating at the service equipment; and the grounding contacts of receptacles furnished as part of the equipment are bonded to the equipment.",
       "on_the_job": "On a service call, identify what is actually in the wall before quoting a receptacle swap. If the circuit is being replaced or extended as new work, pull 4-wire and set a 4-wire receptacle and cord; never create a new 3-wire installation, and never leave the strap in place on a 4-wire hookup.",
       "sharma_note": "",
       "figure_idea": "A dryer back panel showing the bonding strap removed and a 4-wire cord's green lead landed on the frame screw.",
@@ -1574,11 +1570,10 @@
         "C2-L-031"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C2-250.122",
       "next_id": null,
-      "sharma_rule_ids": [],
-      "unverified_reason": "UNVERIFIED as a detailed statement: v1 README item 3 lists 250.140 among section wordings taken from memory and not re-checked this pass, and the Ch.2 brief treats it as a v1 tip only. The new-work 4-wire practice in this page is the standing Sharma field practice (LA-06); Mike to confirm the existing-installation conditions against the printed 2020 text before this page is relied on for a borderline case."
+      "sharma_rule_ids": []
     }
   ],
   "toc": [
