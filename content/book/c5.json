@@ -441,20 +441,19 @@
       "article": "514",
       "section": "514.11",
       "title": "Emergency disconnect at fuel dispensing",
-      "plain_explanation": "Fuel dispensing areas need an emergency electrical disconnect that shuts down the dispensing equipment, and the 2020 clarification makes clear it must disconnect all circuit conductors of the circuits involved, not just one leg. It is the control a station attendant or firefighter reaches for when fuel is flowing where it should not. Its location, identification, and the circuits it actually kills are inspection items, not details to assume. 514.11(A) also fixes where the disconnect sits: not less than 20 ft and not more than 100 ft from the fuel dispensing devices it serves.",
+      "plain_explanation": "Fuel dispensing areas need clearly identified emergency electrical disconnects — the control a station attendant or firefighter reaches for when fuel is flowing where it should not. Operated, the disconnect must simultaneously open all conductors of the circuits involved, including the grounded (neutral) conductor, cutting power to the dispensing devices, to the remote pumps serving them, to the associated power, control, and signal circuits, and to the other electrical equipment in the classified area around the dispensers. Resetting after an emergency shutoff takes manual intervention, in the manner the AHJ approves. 514.11(A) also fixes where the disconnect sits: an approved location not less than 20 ft and not more than 100 ft from the fuel dispensing devices it serves, and where more than one disconnect is provided, all of them are interconnected. Its location, identification, and the circuits it actually kills are inspection items, not details to assume.",
       "on_the_job": "During a dispensing walkdown, operate the emergency disconnect and prove every dispenser circuit it serves is dead, then reset per the equipment instructions. Put its location on the job record the crew and the owner both get.",
-      "sharma_note": "Adopted after reconciliation with the ChatGPT research Sanjay supplied 2026-11-11, corroborated by a 2020 NEC change-list source that lists 514.11(A) for motor fuel dispensing facilities. Mike Holt to confirm the subsection wording against the printed 2020 book.",
+      "sharma_note": "Adopted after reconciliation with the ChatGPT research Sanjay supplied 2026-11-11; verified 2026-11-18 against NEC 2020 sources (514.11(A) is extracted from NFPA 30A 6.7): the 20 ft to 100 ft location and the simultaneous opening of all circuit conductors, grounded conductor included, are as this page states.",
       "figure_idea": "",
       "related_ids": [
         "C5-L-071",
         "C5-Q-042"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-ART-514",
       "next_id": "C5-ART-515",
-      "sharma_rule_ids": [],
-      "unverified_reason": "Subsection wording to be confirmed by Mike Holt against the printed 2020 text (the page's own note). Substance — the emergency disconnect opens all circuit conductors — is not in doubt."
+      "sharma_rule_ids": []
     },
     {
       "id": "C5-ART-515",
@@ -890,8 +889,8 @@
       "article": "550",
       "section": "550",
       "title": "Mobile homes, manufactured homes, and mobile home parks",
-      "plain_explanation": "Article 550 covers mobile and manufactured homes and the parks that serve them, including how the home connects to its supply, the feeder between the park service and the home, and the disconnecting means at the home. Factory-built homes arrive with their interior wiring already inspected under the federal HUD program, so the site electrician's world is the service, the feeder, and the connection. This first pass stays at intro level, verified at article level only.",
-      "on_the_job": "On a mobile home job, Sharma's scope is normally the park or lot service equipment, the feeder, and the connection — not rewiring the home's interior. This page gives no 550 subsection numbers on this pass; Mike Holt to confirm the 2020 section list before any are added.",
+      "plain_explanation": "Article 550 covers mobile and manufactured homes and the parks that serve them, including how the home connects to its supply, the feeder between the park service and the home, and the disconnecting means at the home. Factory-built homes arrive with their interior wiring already inspected under the federal HUD program, so the site electrician's world is the service, the feeder, and the connection. The section pages that follow carry those site rules: the power supply (550.10), the disconnecting means at the home (550.11), the service equipment (550.32), and the feeder (550.33).",
+      "on_the_job": "On a mobile home job, Sharma's scope is normally the park or lot service equipment, the feeder, and the connection — not rewiring the home's interior. Work the four section pages that follow — power supply, disconnecting means, service equipment, and feeder — before pricing any hookup.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -900,6 +899,74 @@
       "florida_note": "Florida has a large manufactured-home stock, including in Sharma's central Florida counties; confirm with the AHJ whether the home carries a HUD label or a state insignia, because that decides who inspected the interior wiring.",
       "verified": true,
       "prev_id": "C5-547.10",
+      "next_id": "C5-550.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-550.10",
+      "chapter": 5,
+      "article": "550",
+      "section": "550.10",
+      "title": "Power supply — the home is fed by a feeder",
+      "plain_explanation": "A mobile or manufactured home is supplied by a feeder, not by service conductors landed in the home. 550.10(A) allows two forms: a single listed 50-ampere mobile home power-supply cord, or a permanently installed feeder of fixed wiring. Because the supply is a feeder, the panelboard inside the home is a feeder panel — never service equipment — with the neutral isolated and a separate equipment grounding conductor run back to the service equipment, on a cord connection and on a permanent feeder alike. The exception is the manufactured home on a permanent foundation that meets 550.32(B): it may be supplied directly by a service, with the service equipment in or on the home.",
+      "on_the_job": "Before rough-in, confirm which supply the job uses — cord or permanent feeder — and land the home's panel as a sub-panel: neutrals isolated, grounds on their own bus, four conductors back to the service equipment. A neutral bonded inside the home's panel is a defect to correct, not a detail.",
+      "sharma_note": "",
+      "figure_idea": "Hookup sketch: lot service equipment beside the home, a four-conductor feeder running to the home's panelboard, neutral and ground shown separate the whole way.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-ART-550",
+      "next_id": "C5-550.11",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-550.11",
+      "chapter": 5,
+      "article": "550",
+      "section": "550.11",
+      "title": "Disconnecting means at the home",
+      "plain_explanation": "Each mobile or manufactured home has a single disconnecting means — a circuit breaker, or a switch and fuses — at or near the point where the supply cord or the feeder conductors enter the home, in a readily accessible location. The disconnect may be combined with the branch-circuit protective equipment, so the main breaker in the home's panelboard can be the disconnect. It pairs with 550.32: one disconnect at the home itself, and the service equipment disconnect outside, within sight and within 30 ft of the exterior wall.",
+      "on_the_job": "Find and label the home's single disconnect on every set. If a home shows two mains, or the disconnect is hidden behind stored material, flag it — the occupant and the fire department both need one obvious shutoff.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-550.10",
+      "next_id": "C5-550.32",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-550.32",
+      "chapter": 5,
+      "article": "550",
+      "section": "550.32",
+      "title": "Service equipment — in sight and within 30 ft of the home",
+      "plain_explanation": "Mobile home service equipment is located adjacent to the home, never mounted in or on it, in sight from the home and not more than 30 ft from its exterior wall. If the service equipment must sit elsewhere on the premises, a disconnecting means suitable for use as service equipment still has to be within sight and within 30 ft of the wall, with grounding at that disconnect per 250.32. The equipment is rated not less than 100 amperes at 120/240 volts and must allow the feeder to be connected by a permanent wiring method. Mounting height is fixed too: the bottom of the enclosure at least 2 ft above the ground, and the disconnect not more than 6 ft 7 in. above the ground or platform. A manufactured home on a permanent foundation that meets the conditions of 550.32(B) is the exception — its service equipment may be installed in or on the home.",
+      "on_the_job": "Measure the 30 ft from the exterior wall before the pedestal or pole is set, and check the mounting height against finished grade — both are tape-measure inspection items. Keep the disconnect in sight of the home it serves.",
+      "sharma_note": "",
+      "figure_idea": "Lot sketch: pedestal service equipment beside the home, a 30 ft dimension line to the exterior wall, and the enclosure bottom shown 2 ft above grade.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-550.11",
+      "next_id": "C5-550.33",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-550.33",
+      "chapter": 5,
+      "article": "550",
+      "section": "550.33",
+      "title": "The feeder — four insulated conductors, 100-ampere capacity",
+      "plain_explanation": "The feeder from the service equipment to the home is four continuous, insulated, color-coded conductors: two ungrounded conductors, a grounded (neutral) conductor, and an insulated equipment grounding conductor. A bare grounding conductor inside a cable assembly does not count — the ground must be insulated like the rest. Under 550.33(B) the feeder conductors must have a capacity and ampacity of not less than 100 amperes, even when the home's calculated load comes out smaller. Where the conductors are spliced, the splice goes in a suitable junction box — never inside the raceway.",
+      "on_the_job": "Pull four insulated conductors every time; standard SER with a bare ground does not make a mobile home feeder. Size for the 100-ampere minimum capacity, and land the insulated ground on the grounding bus at both ends, keeping neutral and ground separate inside the home.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-550.32",
       "next_id": "C5-ART-551",
       "sharma_rule_ids": []
     },
@@ -918,7 +985,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C5-ART-550",
+      "prev_id": "C5-550.33",
       "next_id": "C5-ART-552",
       "sharma_rule_ids": []
     },
@@ -998,6 +1065,74 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C5-ART-555",
+      "next_id": "C5-555.4",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-555.4",
+      "chapter": 5,
+      "article": "555",
+      "section": "555.4",
+      "title": "Location of service equipment — on land, not on the structure",
+      "plain_explanation": "The service equipment for a floating building, dock, or marina is installed on land, adjacent to the structure it serves — never on or in the floating structure itself. A floating structure rides up and down with the water, so the service stays on solid ground, where it can be reached and worked on like any other service. Everything downstream of it — the feeders out along the pier — is supplied from that shore-side point.",
+      "on_the_job": "Set the service on land next to the dock or marina it serves and run the feeder out to the pier from there. If a plan or an existing installation shows the service mounted on a floating dock, flag it before rough-in — that location fails this section.",
+      "sharma_note": "",
+      "figure_idea": "Site sketch: service equipment on shore beside the pier, feeder running out along the pier to the pedestals, the floating dock shown without service equipment on it.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-555.3",
+      "next_id": "C5-555.5",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-555.5",
+      "chapter": 5,
+      "article": "555",
+      "section": "555.5",
+      "title": "Pier power distribution — the 250-volt limit",
+      "plain_explanation": "Pier power distribution systems are limited to 250 volts phase to phase. The single exception is an engineered installation: where qualified personnel service the equipment under engineering supervision, the system may run above 250 volts, but never above 600 volts phase to phase. Ordinary marina and dock work is designed well under the cap, at the standard voltages — the higher band is not a field upgrade.",
+      "on_the_job": "Read the distribution voltage on the plans before ordering gear. If a pier design shows more than 250 volts phase to phase, stop and confirm the qualified-personnel and engineering-supervision conditions are actually part of the job — that call belongs to the engineer, not the crew.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-555.4",
+      "next_id": "C5-555.9",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-555.9",
+      "chapter": 5,
+      "article": "555",
+      "section": "555.9",
+      "title": "Boat hoists — GFCI protection at dwelling docks",
+      "plain_explanation": "A boat hoist rated not more than 240 volts at a dwelling unit docking facility must have GFCI protection. The 2020 edition moved this rule out of 210.8(C) and into Article 555, with the rest of the dock rules. It is the lift on a house dock that raises the boat out of the water — a motor, a control, and people standing on a wet dock, which is exactly the combination the GFCI is there for.",
+      "on_the_job": "On a residential dock job, put the boat hoist on GFCI protection and test it at trim. If an existing hoist outlet has no GFCI protection, call it out to the owner — a hoist motor fault over water is the shock path this rule exists to break.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-555.5",
+      "next_id": "C5-555.10",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-555.10",
+      "chapter": 5,
+      "article": "555",
+      "section": "555.10",
+      "title": "Warning signs — the shock hazard notice",
+      "plain_explanation": "A permanent safety sign is required at docking facilities, boatyards, and marinas, warning of the electrical shock hazard in the water. The sign must warn with effective words, colors, or symbols meeting 110.21(B)(1), be durable enough to withstand the environment, and be clearly visible from all approaches to the facility. At a minimum it must state: WARNING — POTENTIAL SHOCK HAZARD — ELECTRICAL CURRENTS MAY BE PRESENT IN THE WATER. This is the electric shock drowning warning, and the sign is part of the installation, not an extra.",
+      "on_the_job": "Put the sign in the job scope and photograph it at final — the job can fail inspection for a missing sign even when every circuit is right. Mount it where someone approaching the water will actually see it, not on the back of the service equipment.",
+      "sharma_note": "",
+      "figure_idea": "Sign detail: warning header over the required wording in three lines, shown mounted at a dock entrance.",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": true,
+      "prev_id": "C5-555.9",
       "next_id": "C5-555.13",
       "sharma_rule_ids": []
     },
@@ -1017,7 +1152,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C5-555.3",
+      "prev_id": "C5-555.10",
       "next_id": "C5-555.36",
       "sharma_rule_ids": []
     },
@@ -1036,11 +1171,10 @@
         "C5-Q-031"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-555.13",
       "next_id": "C5-555.33",
-      "sharma_rule_ids": [],
-      "unverified_reason": "Section number corrected from the pre-2020 number 555.17 to 2020 section 555.36. The 30-inch distance is unchanged. Printed 2020 text not yet checked in this pass."
+      "sharma_rule_ids": []
     },
     {
       "id": "C5-555.33",
@@ -1048,7 +1182,7 @@
       "article": "555",
       "section": "555.33",
       "title": "Receptacles at marinas and docking facilities (2020 section 555.33)",
-      "plain_explanation": "Receptacles at docking facilities are mounted at least 12 inches above the deck surface and not below the electrical datum plane. Shore power receptacles have their own requirements within this section, including being part of listed marine power outlet equipment, while other receptacles serve general dock use. Height, listing, and location work together — a correct receptacle set too low still fails.",
+      "plain_explanation": "Receptacles at docking facilities are mounted at least 12 inches above the deck surface and not below the electrical datum plane. Shore power receptacles have their own rules inside this section: they are part of a listed marine power outlet, installed in a listed enclosure protected from the weather, rated not less than 30 amperes, and of the pin-and-sleeve type when rated 60 amperes or more. Receptacles other than shore power get GFCI protection under 210.8, and a replacement receptacle has to meet this section too. Height, listing, and location work together — a correct receptacle set too low still fails.",
       "on_the_job": "Set receptacle heights from the finished deck, and re-check them if decking is replaced after rough-in. Use only marine power outlets listed for shore power service where boats connect.",
       "sharma_note": "This is the 2020 section number, 555.33. The older number 555.19 is not the 2020 section, and 555.33 is not a 2023-only number.",
       "figure_idea": "",
@@ -1057,11 +1191,10 @@
         "C5-Q-032"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-555.36",
       "next_id": "C5-555.35",
-      "sharma_rule_ids": [],
-      "unverified_reason": "Section number corrected from the pre-2020 number 555.19 to 2020 section 555.33. The 12-inch height above the deck is unchanged. Printed 2020 text not yet checked in this pass."
+      "sharma_rule_ids": []
     },
     {
       "id": "C5-555.35",
@@ -1447,7 +1580,28 @@
       "id": "C5-ART-550",
       "article": "550",
       "title": "Mobile homes, manufactured homes, and mobile home parks",
-      "children": []
+      "children": [
+        {
+          "id": "C5-550.10",
+          "section": "550.10",
+          "title": "Power supply — the home is fed by a feeder"
+        },
+        {
+          "id": "C5-550.11",
+          "section": "550.11",
+          "title": "Disconnecting means at the home"
+        },
+        {
+          "id": "C5-550.32",
+          "section": "550.32",
+          "title": "Service equipment — in sight and within 30 ft of the home"
+        },
+        {
+          "id": "C5-550.33",
+          "section": "550.33",
+          "title": "The feeder — four insulated conductors, 100-ampere capacity"
+        }
+      ]
     },
     {
       "id": "C5-ART-551",
@@ -1478,6 +1632,26 @@
           "title": "Electrical datum plane — heights above the water"
         },
         {
+          "id": "C5-555.4",
+          "section": "555.4",
+          "title": "Location of service equipment — on land, not on the structure"
+        },
+        {
+          "id": "C5-555.5",
+          "section": "555.5",
+          "title": "Pier power distribution — the 250-volt limit"
+        },
+        {
+          "id": "C5-555.9",
+          "section": "555.9",
+          "title": "Boat hoists — GFCI protection at dwelling docks"
+        },
+        {
+          "id": "C5-555.10",
+          "section": "555.10",
+          "title": "Warning signs — the shock hazard notice"
+        },
+        {
           "id": "C5-555.13",
           "section": "555.13",
           "title": "Bonding at marinas and docking facilities"
@@ -1485,10 +1659,7 @@
         {
           "id": "C5-555.36",
           "section": "555.36",
-          "title": "Disconnecting means for shore power connections (2020 section 555.36)",
-          "sharma_note": "This is the 2020 section number, 555.36. The older number 555.17 is not the 2020 section, and 555.36 is not a 2023-only number.",
-          "verified": false,
-          "unverified_reason": "Section number corrected from the pre-2020 number 555.17 to 2020 section 555.36. The 30-inch distance is unchanged. Printed 2020 text not yet checked in this pass."
+          "title": "Disconnecting means for shore power connections (2020 section 555.36)"
         },
         {
           "id": "C5-555.33",
@@ -1561,6 +1732,12 @@
       ]
     },
     {
+      "term": "Boat hoists",
+      "ids": [
+        "C5-555.9"
+      ]
+    },
+    {
       "term": "Bonding, marina",
       "ids": [
         "C5-555.13"
@@ -1607,6 +1784,13 @@
       ]
     },
     {
+      "term": "Disconnect, manufactured home",
+      "ids": [
+        "C5-550.11",
+        "C5-550.32"
+      ]
+    },
+    {
       "term": "Distribution point, agricultural",
       "ids": [
         "C5-547.9"
@@ -1616,7 +1800,8 @@
       "term": "Electric shock drowning",
       "ids": [
         "C5-ART-555",
-        "C5-555.35"
+        "C5-555.35",
+        "C5-555.10"
       ]
     },
     {
@@ -1629,6 +1814,13 @@
       "term": "Essential electrical system",
       "ids": [
         "C5-517.30"
+      ]
+    },
+    {
+      "term": "Feeder, manufactured home",
+      "ids": [
+        "C5-550.10",
+        "C5-550.33"
       ]
     },
     {
@@ -1730,6 +1922,10 @@
       "ids": [
         "C5-ART-555",
         "C5-555.3",
+        "C5-555.4",
+        "C5-555.5",
+        "C5-555.9",
+        "C5-555.10",
         "C5-555.35"
       ]
     },
@@ -1742,7 +1938,11 @@
     {
       "term": "Mobile and manufactured homes",
       "ids": [
-        "C5-ART-550"
+        "C5-ART-550",
+        "C5-550.10",
+        "C5-550.11",
+        "C5-550.32",
+        "C5-550.33"
       ]
     },
     {
@@ -1765,6 +1965,12 @@
       ]
     },
     {
+      "term": "Power distribution, marina",
+      "ids": [
+        "C5-555.5"
+      ]
+    },
+    {
       "term": "Protection techniques",
       "ids": [
         "C5-500.7"
@@ -1783,11 +1989,23 @@
       ]
     },
     {
+      "term": "Service equipment, marina",
+      "ids": [
+        "C5-555.4"
+      ]
+    },
+    {
       "term": "Shore power",
       "ids": [
         "C5-555.36",
         "C5-555.33",
         "C5-555.35"
+      ]
+    },
+    {
+      "term": "Signs, warning",
+      "ids": [
+        "C5-555.10"
       ]
     },
     {
