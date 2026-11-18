@@ -46,18 +46,17 @@
       "chapter": 4,
       "article": "400",
       "section": "400.12",
-      "title": "Uses flexible cords are not permitted for — section number flagged",
-      "plain_explanation": "This section is the stop list for flexible cords. A cord may not replace building wiring, pass through holes in walls or ceilings, run through doorways or windows where it can be pinched, be attached to building surfaces as a permanent run, or be hidden inside walls and floors. Most failed 'cord' installations fail here, not on ampacity. The substance is not in doubt; the citation is flagged below.",
+      "title": "Uses not permitted — flexible cords and cables",
+      "plain_explanation": "Section 400.12 is the stop list for flexible cords and cables — in the 2017 edition this list was numbered 400.8, and the 2020 reorganization of Article 400 moved it here. Unless 400.10 permits the use, a flexible cord, flexible cable, cord set, or power-supply cord may not be used: (1) as a substitute for the fixed wiring of the structure; (2) run through holes in walls, structural ceilings, suspended or dropped ceilings, or floors; (3) run through doorways, windows, or similar openings; (4) attached to building surfaces, except that cords used for temporary wiring under 590.4 may be attached; (5) concealed by walls, floors, or ceilings, or located above suspended or dropped ceilings, except within an enclosure for use in other spaces used for environmental air as permitted by 300.22(C)(3); (6) installed in raceways, except as 400.17 permits in industrial establishments where only qualified persons service the installation; or (7) where it is subject to physical damage. Most failed 'cord' installations fail here, not on ampacity.",
       "on_the_job": "On a service call, trace the whole cord, not just the ends. If any part of it is stapled, hidden, or passing through a partition, the fix is a permanent wiring method, not a heavier cord.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-400.10",
-      "next_id": "C4-ART-402",
-      "unverified_reason": "In NEC 2017 this list was numbered 400.8. The ChatGPT research supplied for this chapter cites the prohibited-uses list at 400.12 for NEC 2020, which matches the 2020 reorganization of Article 400, but neither number was checked against the printed NEC 2020 text in this pass. Mike to confirm 400.12 before this page is marked verified."
+      "next_id": "C4-ART-402"
     },
     {
       "id": "C4-ART-402",
@@ -208,20 +207,19 @@
       "chapter": 4,
       "article": "404",
       "section": "404.15(C)",
-      "title": "Switch terminal markings for conductor materials — UNVERIFIED section number",
-      "plain_explanation": "This page is flagged. The ch4 brief records that NEMA material cited 404.15(C) for the terminal-marking rules for snap switches used with copper-clad aluminum, but that citation was not checked against the printed NEC 2020 text in the v1 pass. The substance from the NEMA / UL guide information is: 15A and 20A snap switch screw terminals accept copper and CCA unless marked otherwise, and CO/ALR marking is what adds plain aluminum. Treat the substance as guide information and the section number as unconfirmed until Mike checks it against the book.",
-      "on_the_job": "Until the citation is confirmed, check the device itself: read the terminal marking on the switch you are holding and the conductor you are landing. Do not backstab CCA — push-in terminals are for 14 AWG solid copper only (see S-10).",
+      "title": "Switch terminal markings for conductor materials (CO/ALR)",
+      "plain_explanation": "Section 404.15(C) carries the CO/ALR marking rule for switches — the switch-side twin of 406.3(C) for receptacles: a switch designed for the direct connection of aluminum conductors must be marked CO/ALR. The terminal rules that go with the marking, stated for the 2020 NEC in NEMA Engineering Bulletin No. 122 from the UL guide information for snap switches: terminals of 15A and 20A snap switches are for use with copper and copper-clad aluminum conductors only, unless marked CO/ALR, which adds aluminum; terminals of switches rated 30A and above are for copper only, unless marked AL/CU. Plain aluminum never lands on an unmarked device terminal.",
+      "on_the_job": "Check the device itself: read the terminal marking on the switch you are holding and match it to the conductor you are landing — no CO/ALR marking, no plain aluminum on the terminal. Do not backstab CCA — Sharma lands CCA on screw terminals only (see S-10).",
       "sharma_note": "S-10 applies: CCA is sized one AWG larger than copper and terminations must be listed for the conductor. Never backstab.",
       "figure_idea": "",
       "related_ids": [
         "S-10"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [
         "S-10"
       ],
-      "unverified_reason": "Section number 404.15(C) comes from a NEMA citation quoted in content/v1/README.md and was not checked against the printed NEC 2020 text.",
       "prev_id": "C4-404.14",
       "next_id": "C4-ART-406"
     },
@@ -282,19 +280,38 @@
       "chapter": 4,
       "article": "406",
       "section": "406.5(E)",
-      "title": "Face-up receptacles in countertops — UNVERIFIED wording",
-      "plain_explanation": "This page is flagged. The v1 README lists the wording of 406.5(E) as unverified. The working understanding from the brief is that this subsection addresses receptacles installed face-up in work surfaces and countertops, a position that collects spills, crumbs, and liquids directly into the device, and that such installations are restricted and must use assemblies listed for that use. Do not quote dimensions or a flat prohibition from this page until Mike confirms the 2020 wording. A second audit located the face-up prohibition at 406.5(G)(1) instead, with (G)(2) covering receptacles in the space under a sink and (E) covering listed countertop assemblies — while the chapter's first audit read (E) itself as the face-up rule. The prohibition on face-up receptacles in work surfaces is not in doubt under either reading; the subsection letter is Mike's printed-text call.",
-      "on_the_job": "Field habit that is safe either way: do not cut a standard duplex into a countertop face-up. Put the receptacle on the side of the cabinet, on the wall at the backsplash, or use a listed pop-up assembly made for countertop use, and confirm the current wording with the AHJ on a kitchen island job.",
+      "title": "Receptacle assemblies in countertops and work surfaces — listed for the surface",
+      "plain_explanation": "A receptacle assembly installed in a countertop surface has to be listed for countertop applications — an ordinary receptacle in a cut-in box does not become countertop equipment by being set into the surface. Where the assembly is required to provide GFCI protection under 210.8, it is permitted to be a GFCI receptacle assembly listed for countertop applications. Section 406.5(F) applies the same listing rule to receptacle assemblies in work surfaces. Whether a receptacle may sit face-up in that surface at all is the next rule, 406.5(G).",
+      "on_the_job": "On a kitchen or bath counter, put the listed pop-up or countertop assembly on the material list — do not plan on a standard duplex in the surface. If that location needs GFCI, order the listed GFCI countertop version of the assembly.",
       "sharma_note": "",
-      "figure_idea": "",
+      "figure_idea": "Section through a kitchen island: a listed pop-up countertop assembly with its listing tag called out, beside a standard duplex in a cut box with a red X.",
       "related_ids": [
-        "L-072"
+        "C4-406.5(G)"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
-      "unverified_reason": "Subsection letter in dispute between two audits (406.5(E) vs 406.5(G)(1)/(G)(2)) — Mike Holt to settle against the printed 2020 book. The face-up prohibition itself is not in dispute.",
       "prev_id": "C4-406.4(D)",
+      "next_id": "C4-406.5(G)"
+    },
+    {
+      "id": "C4-406.5(G)",
+      "chapter": 4,
+      "article": "406",
+      "section": "406.5(G)",
+      "title": "Face-up receptacles in countertops — the prohibition is 406.5(G)",
+      "plain_explanation": "Section 406.5(G) carries the face-up rule for receptacles in counters and work surfaces. Under (G)(1), a receptacle may not be installed in a face-up position in or on a countertop or work surface unless it is listed for countertop or work surface applications. Under (G)(2), a receptacle may not be installed face-up in the area below a sink at all — the listed-assembly exception does not apply there. The hazard is the position itself: a face-up device collects spills, crumbs, and liquids directly into its face. The separate listing rule for receptacle assemblies made for these surfaces is at 406.5(E) and (F), covered on the previous page.",
+      "on_the_job": "Do not cut a standard duplex into a countertop face-up. Put the receptacle on the side of the cabinet or on the wall at the backsplash, or use a listed pop-up assembly made for countertop use — a listed assembly is the one face-up exception 406.5(G)(1) allows. Nothing goes face-up in the area below a sink.",
+      "sharma_note": "",
+      "figure_idea": "Countertop from above: a standard duplex crossed out face-up in the surface, a listed pop-up assembly beside it, and the zone below the sink marked no face-up.",
+      "related_ids": [
+        "L-072",
+        "C4-406.5(E)"
+      ],
+      "florida_note": "",
+      "verified": true,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-406.5(E)",
       "next_id": "C4-406.9(A)"
     },
     {
@@ -314,7 +331,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C4-406.5(E)",
+      "prev_id": "C4-406.5(G)",
       "next_id": "C4-406.9(B)"
     },
     {
@@ -617,9 +634,9 @@
       "chapter": 4,
       "article": "410",
       "section": "410.16",
-      "title": "Luminaires in clothes closets — UNVERIFIED clearances",
-      "plain_explanation": "This page is flagged. The v1 README lists the 410.16 closet clearance wording and dimensions as unverified, so this page states the structure of the rule without quoting the clearance table as fact. The structure is: only certain luminaire types may be installed in a clothes closet, surface-mounted and recessed fixtures have minimum clearances from the storage space (the area where clothes and boxes are stored), and pendant fixtures and bare lamps are the recurring problem types because they sit close to stored material and can be broken. Mike must confirm the 2020 clearance distances before this page loses its flag.",
-      "on_the_job": "Safe field practice until the numbers are confirmed here: keep fixtures out of the storage space entirely where the plan allows, use an enclosed, listed closet-suitable fixture, and never hang a pendant or an exposed lamp in a closet. Check the plan and the AHJ rather than working from a remembered clearance number.",
+      "title": "Luminaires in clothes closets — permitted types and clearances",
+      "plain_explanation": "Section 410.16 controls what may light a clothes closet and how far it must sit from the closet storage space — the volume defined in 410.2: 24 inches out from the side and back walls, from the floor up to 6 feet or the highest clothes-hanging rod, and 12 inches out from the walls, or the width of the shelf if greater, from there up to the ceiling. Permitted types [410.16(A)]: surface-mounted or recessed incandescent or LED luminaires with a completely enclosed light source; surface-mounted or recessed fluorescent luminaires; and surface-mounted fluorescent or LED luminaires identified as suitable for installation within the closet storage space. Not permitted [410.16(B)]: incandescent luminaires with open or partially enclosed lamps, and pendant luminaires or lampholders. Minimum clearances from the nearest point of the storage space [410.16(C)]: 12 inches for a surface-mounted incandescent or LED luminaire with a completely enclosed light source, installed on the ceiling or the wall above the door; 6 inches for a surface-mounted fluorescent luminaire in the same positions; 6 inches for a recessed incandescent or LED luminaire with a completely enclosed light source; and 6 inches for a recessed fluorescent luminaire. A surface-mounted fluorescent or LED luminaire identified for use within the closet storage space may be installed inside the storage space itself [410.16(C)(5)].",
+      "on_the_job": "Measure the clearance from the storage space, not from the wall or the clothes — that 24-inch and 12-inch volume exists on paper even in an empty closet. Default habit: an enclosed LED fixture, surface-mounted at 12 inches clear of the storage space or recessed at 6 inches, and never a pendant or an exposed lamp in a closet.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -627,9 +644,8 @@
         "BL-11"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
-      "unverified_reason": "Closet clearance dimensions and wording in 410.16 flagged UNVERIFIED in content/v1/README.md; distances intentionally not stated as fact.",
       "prev_id": "C4-410.10(D)",
       "next_id": "C4-410.116"
     },
@@ -702,16 +718,16 @@
       "article": "422",
       "section": "422.5",
       "title": "GFCI protection required for specific appliances",
-      "plain_explanation": "Section 422.5 lists appliances that must be GFCI protected for personnel in the areas it names, a list that in the 2020 edition reaches items such as dishwashers in dwelling kitchens and certain vending, drinking-water, and similar equipment, with the protection allowed at the breaker, the receptacle, or another listed point the section permits. This appliance-level rule sits on top of the room-level rules in 210.8 — meeting one does not erase the other. Edition caution: the ChatGPT research supplied for this chapter listed ranges, wall ovens, dryers, and microwaves inside this 2020 list. That wider list is an NEC 2023 expansion — not yet adopted in FL — and it is not part of the NEC 2020 list this book teaches. Do not apply it on a Florida 2020 job.",
+      "plain_explanation": "Section 422.5 names the appliances that must have Class A GFCI protection for personnel wherever they are installed — the duty travels with the appliance, on top of the room rules in 210.8, and meeting one does not erase the other. The 2020 list at 422.5(A) is: automotive vacuum machines provided for public use; drinking water coolers and bottle fill stations; cord-and-plug-connected high-pressure spray washing machines; tire inflation machines provided for public use; vending machines; sump pumps; and dishwashers. It reaches appliances rated 150 volts or less to ground and 60 amperes or less, single- or 3-phase, cord-and-plug-connected or hardwired, and 210.8(D) points to this same list. The protection must be readily accessible and provided by one of the methods 422.5(B) permits — a GFCI breaker, a GFCI receptacle, or another listed point the section allows. Edition caution: wider appliance lists circulating from NEC 2023 research are not the 2020 list — in 2020, ranges, dryers, and microwaves pick up their GFCI duties through the location rules in 210.8, not through 422.5.",
       "on_the_job": "Check an appliance against both lists: 210.8 for the room and receptacle, and 422.5 for the appliance itself. On Sharma work the DFN breaker usually supplies this protection for a 120V appliance circuit (S-07); confirm the breaker type actually provides GFCI, not AFCI only.",
       "sharma_note": "S-07: every 120V breaker on new Sharma work is dual-function AFCI/GFCI, which is what makes the breaker the protection point for these appliances.",
-      "figure_idea": "",
+      "figure_idea": "Seven appliance icons in a row — vacuum, water cooler, spray washer, tire inflator, vending machine, sump pump, dishwasher — each wearing a GFCI badge.",
       "related_ids": [
         "S-07",
         "C4-L-043"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [
         "S-07"
       ],
@@ -809,9 +825,9 @@
       "chapter": 4,
       "article": "424",
       "section": "424.4(B)",
-      "title": "Branch-circuit sizing for fixed space heat — 125 percent, UNVERIFIED section number",
-      "plain_explanation": "This page is flagged on its citation, not its arithmetic. The brief records that the 125 percent branch-circuit sizing rule for fixed electric space-heating was 424.3(B) in the 2017 edition and that the 2020 number, given as 424.4(B), was not re-checked in the v1 pass. The substance is stable across both editions: fixed space-heating loads are considered continuous, so the branch-circuit conductors and overcurrent protection are sized at not less than 125 percent of the total load connected to the circuit, including any motor load in the same equipment.",
-      "on_the_job": "Run the math as continuous load regardless of the flag: nameplate amps times 1.25, then select conductor and breaker. Mike to confirm the 2020 subsection number against the printed book before this page is marked verified.",
+      "title": "Branch-circuit sizing for fixed space heat — 125 percent",
+      "plain_explanation": "Section 424.4(B) is where this rule lives in the 2020 edition — it was 424.3(B) in 2017, before the Article 424 reorganization. The 2020 text states the sizing directly instead of using the old 'shall be considered continuous load' sentence: the branch-circuit conductors for fixed electric space-heating equipment and any associated motors shall be sized not smaller than 125 percent of the load. Overcurrent protection is sized at the same 125 percent through the continuous-load rules of 210.19(A)(1) and 210.20(A), so in practice both the conductors and the breaker come out at 125 percent of the total load connected to the circuit, heater plus any blower or fan motor in the same equipment.",
+      "on_the_job": "Run the math at 125 percent: total nameplate amps, heater plus motor, times 1.25 — then select the conductor and the breaker.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -820,9 +836,8 @@
         "C4-L-049"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
-      "unverified_reason": "Section number 424.4(B) not re-checked against NEC 2020 in the v1 pass (was 424.3(B) in 2017), per content/v1/README.md and the ch4 brief.",
       "prev_id": "C4-ART-424",
       "next_id": "C4-424.19"
     },
@@ -1506,7 +1521,7 @@
         {
           "id": "C4-400.12",
           "section": "400.12",
-          "title": "Uses flexible cords are not permitted for — section number flagged"
+          "title": "Uses not permitted — flexible cords and cables"
         }
       ]
     },
@@ -1549,7 +1564,7 @@
         {
           "id": "C4-404.15(C)",
           "section": "404.15(C)",
-          "title": "Switch terminal markings for conductor materials — UNVERIFIED section number"
+          "title": "Switch terminal markings for conductor materials (CO/ALR)"
         }
       ]
     },
@@ -1566,7 +1581,12 @@
         {
           "id": "C4-406.5(E)",
           "section": "406.5(E)",
-          "title": "Face-up receptacles in countertops — UNVERIFIED wording"
+          "title": "Receptacle assemblies in countertops and work surfaces — listed for the surface"
+        },
+        {
+          "id": "C4-406.5(G)",
+          "section": "406.5(G)",
+          "title": "Face-up receptacles in countertops — the prohibition is 406.5(G)"
         },
         {
           "id": "C4-406.9(A)",
@@ -1651,7 +1671,7 @@
         {
           "id": "C4-410.16",
           "section": "410.16",
-          "title": "Luminaires in clothes closets — UNVERIFIED clearances"
+          "title": "Luminaires in clothes closets — permitted types and clearances"
         },
         {
           "id": "C4-410.116",
@@ -1701,7 +1721,7 @@
         {
           "id": "C4-424.4(B)",
           "section": "424.4(B)",
-          "title": "Branch-circuit sizing for fixed space heat — 125 percent, UNVERIFIED section number"
+          "title": "Branch-circuit sizing for fixed space heat — 125 percent"
         },
         {
           "id": "C4-424.19",
@@ -1970,9 +1990,15 @@
       ]
     },
     {
-      "term": "Countertop receptacle, face-up",
+      "term": "Countertop receptacle assembly, listed",
       "ids": [
         "C4-406.5(E)"
+      ]
+    },
+    {
+      "term": "Countertop receptacle, face-up",
+      "ids": [
+        "C4-406.5(G)"
       ]
     },
     {
