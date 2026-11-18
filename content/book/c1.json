@@ -36,7 +36,7 @@
       "plain_explanation": "The point of the Code is to protect people and property from the hazards that come with using electricity. Following it, together with proper maintenance, produces an installation that is largely free from hazard. The Code is not a design manual for beginners, and meeting the Code does not promise the most efficient or most convenient system — it sets the safety floor.",
       "on_the_job": "When a plan meets the Code but works poorly, that is a design problem, not proof the Code failed. When a shortcut works but is hazardous, the Code still controls. Build to the safety floor first, then to good design above it.",
       "sharma_note": "",
-      "figure_idea": "",
+      "figure_idea": "A house and a small shop side by side under one open Code book — the NEC covers both, and everything electrical inside the property line.",
       "related_ids": [
         "C1-L-003"
       ],
@@ -211,7 +211,7 @@
       "plain_explanation": "Article 100 defines the terms that carry a special meaning inside the Code. When a defined word appears in a rule, it means what Article 100 says it means, even if the everyday meaning is broader or narrower. In the 2020 edition the definitions sit in three parts — general definitions, definitions for installations over 1000 volts, and definitions for hazardous (classified) locations — arranged alphabetically inside each part rather than as numbered sections. This chapter covers the job-critical general terms a Sharma helper meets first; it does not attempt every definition in the article.",
       "on_the_job": "When an argument turns on a single word — accessible, listed, outlet, service — come back to this article before arguing from everyday speech. A surprising number of inspection fights are really definition fights.",
       "sharma_note": "",
-      "figure_idea": "",
+      "figure_idea": "An open dictionary: the terms the whole Code shares, defined once in Article 100 instead of being repeated in every article.",
       "related_ids": [
         "C1-L-011"
       ],
@@ -251,7 +251,7 @@
       "plain_explanation": "Ampacity is the most current, in amperes, a conductor can carry continuously in its actual conditions of use without getting hotter than its temperature rating allows. It is not a single number printed on the wire; it depends on the conductor material, insulation rating, ambient temperature, and how many current-carrying conductors share a raceway or cable.",
       "on_the_job": "Start from Table 310.16, then adjust for the job's real conditions. A conductor that is fine alone in a cool space can be over its limit bundled in a hot Florida attic.",
       "sharma_note": "S-10: CCA is rated from the aluminum column of Table 310.16, which is why Sharma goes one AWG size larger when CCA is used.",
-      "figure_idea": "",
+      "figure_idea": "Cross-section of a conductor with heat arrows leaving it: ampacity is set by the heat the insulation can take, not by the copper alone.",
       "related_ids": [
         "C1-L-014",
         "S-10"
@@ -361,7 +361,7 @@
       "plain_explanation": "A branch circuit is the part of the wiring system between the final overcurrent device protecting it — the breaker in the panel — and the outlets it feeds. Everything upstream of that breaker is a feeder or service conductor; everything downstream to the receptacles, lights and equipment is the branch circuit. Article 210 builds its rules on this definition.",
       "on_the_job": "When you size, protect or troubleshoot a circuit, find its breaker first. The conductor size, the breaker rating and the outlets all have to agree as one branch circuit.",
       "sharma_note": "S-01: on commercial work every branch circuit is 20A minimum on 12 AWG copper minimum — no 15A branch circuits on commercial jobs. That is Sharma practice, stricter than the Code floor.",
-      "figure_idea": "",
+      "figure_idea": "One-line diagram: a breaker in the panel and the run out to the outlets it feeds, shaded as the branch circuit.",
       "related_ids": [
         "C1-L-021",
         "S-01"
@@ -383,7 +383,7 @@
       "plain_explanation": "A feeder is the set of circuit conductors between the service equipment, or another power supply source such as a separately derived system, and the final branch-circuit overcurrent devices. It is the middle layer of the system: service conductors feed the service equipment, feeders carry power onward to panels, and branch circuits run from those panels' breakers to the outlets. Rules for sizing, protection and grounding change depending on which layer a conductor belongs to.",
       "on_the_job": "The house-to-detached-garage panel run is the everyday feeder: it starts at an overcurrent device in the house panel and ends at the breakers in the garage panel. Call a run by its right layer before applying any sizing or grounding rule to it.",
       "sharma_note": "",
-      "figure_idea": "",
+      "figure_idea": "One-line diagram: service equipment feeding a subpanel, the run between them shaded as the feeder and the branch circuits beyond left unshaded.",
       "related_ids": [
         "C1-L-021"
       ],
@@ -422,7 +422,7 @@
       "plain_explanation": "A dwelling unit is a single unit that provides complete and independent living facilities for one or more people, including permanent provisions for living, sleeping, eating, cooking and sanitation. All four functions matter. A space with beds but no cooking or sanitation is not a dwelling unit, and many house rules in the Code switch on or off based on this definition.",
       "on_the_job": "One-family houses and each apartment in a multifamily building are dwelling units. A hotel room without permanent cooking provisions generally is not, which changes which receptacle and protection rules apply to it.",
       "sharma_note": "",
-      "figure_idea": "",
+      "figure_idea": "Cutaway of one home: living, sleeping, cooking and sanitation together in a single unit behind one front door.",
       "related_ids": [
         "C1-L-023"
       ],
@@ -563,7 +563,7 @@
       "article": "100",
       "section": "100",
       "title": "Garage, kitchen, and laundry area — how the Code uses area names",
-      "plain_explanation": "Rules throughout the Code name areas of a house — the garage, the kitchen, the laundry area — and attach protection and circuit requirements to receptacles in those areas. This page collects how Sharma crews meet those area names in practice: the garage is the vehicle space and its attached unfinished areas, the kitchen is the room with a sink and permanent provisions for cooking (the Article 100 definition turns on the sink as well as the cooking provisions), and the laundry area is where laundry equipment is installed or intended. Treat this page as a usage guide that points to the rule articles, not as a substitute for a definition in the printed Article 100.",
+      "plain_explanation": "Of these three area names, only one is a formal Article 100 definition: a kitchen is \"an area with a sink and permanent provisions for food preparation and cooking\" — both halves must be present, and a portable appliance plugged in on the counter does not create one. Garage and laundry area carry no standalone Article 100 definition in the 2020 Code. The Code uses both terms in its rules — garage receptacles and their GFCI protection in 210.8(A)(2) and 210.52(G), the laundry area branch circuit in 210.11(C)(2) and laundry-area GFCI in 210.8(A)(10) — and they take their ordinary meaning: the garage is the vehicle space and its attached unfinished areas, and the laundry area is where laundry equipment is installed or intended to be. So treat the kitchen test as a definition to apply exactly, and the other two as usage terms settled by the plan's intended use of the space.",
       "on_the_job": "When a plan is vague about a room's use, settle it before rough-in — a laundry area moved after wiring changes GFCI protection and circuit requirements. The detailed area rules live in Article 210 and are covered in Chapter 2 of this book.",
       "sharma_note": "S-08: the dryer circuit uses a Siemens Q230GF 30A 2-pole GFCI breaker, because NEC 2020 requires GFCI protection for receptacles in laundry areas, including 250V receptacles.",
       "figure_idea": "House plan with garage, kitchen and laundry shaded in three colors, each tagged with the chapter that carries its main rules.",
@@ -573,8 +573,7 @@
         "S-08"
       ],
       "florida_note": "",
-      "verified": false,
-      "unverified_reason": "The ch1 brief lists garage, kitchen and laundry area as job-critical terms to cover, but whether each carries a standalone formal definition in printed NEC 2020 Article 100 was not confirmed against the printed table of contents for this pass. Page is written as a usage guide only; Mike Holt to confirm before any term here is presented as an Article 100 definition.",
+      "verified": true,
       "prev_id": "C1-100-SPECIAL-PERMISSION",
       "next_id": "C1-ART-110",
       "sharma_rule_ids": [
@@ -1140,7 +1139,7 @@
       "article": "110",
       "section": "110.26(A)",
       "title": "Working space about equipment",
-      "plain_explanation": "Live electrical equipment that may need examination or work while energized has to have a clear working space in front of it. For a typical 120/240V house panel with no live parts on the other side of the aisle (Condition 1), that space is 3 ft deep, at least 30 in wide or the width of the equipment, whichever is greater, and at least 6-1/2 ft high. The depth can be greater under other conditions or at higher voltage; use the table in 110.26(A)(1) rather than memorizing one number for every job. The work space also has to be arranged so equipment doors and hinged panels can open at least 90°.",
+      "plain_explanation": "Live electrical equipment that may need examination or work while energized has to have a clear working space in front of it. For a typical 120/240V house panel (150V or less to ground), Table 110.26(A)(1) requires 3 ft of depth under all three conditions — what changes the depth is higher voltage to ground, not the house panel case. The space is at least 30 in wide or the width of the equipment, whichever is greater (110.26(A)(2)), and it runs from the floor up to 6-1/2 ft or the height of the equipment, whichever is greater (110.26(A)(3)). The space also has to be arranged so equipment doors and hinged panels can open at least 90°.",
       "on_the_job": "Measure from the face of the panel, not from the wall behind it. The 30-inch width has to cover the equipment, and it may sit to either side. It does not have to be centered. Do not park water heaters, shelving, or stored material in that space.",
       "sharma_note": "S-09 prefers the meter outside and the panel inside, back to back, where the house allows. That layout still has to leave the 110.26 working space in front of the panel.",
       "figure_idea": "A plan view of a 200A panel on a garage wall with a 30 in-wide by 3 ft-deep rectangle in front, height marked 6 ft 6 in, and a 'do not store here' callout.",
@@ -1155,7 +1154,7 @@
         "C1-L-053"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-110.26",
       "next_id": "C1-110.26(A)(1)",
       "sharma_rule_ids": [
