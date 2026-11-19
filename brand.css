@@ -54,3 +54,4 @@ h2,h3,.t1,.hero h2,h2.sec,.pathbody b,.tile b,.score{font-family:-apple-system,'
 [data-scheme="dark"] .diagram svg [stroke="#004585"]{stroke:#8FC1F0}
 [data-scheme="dark"] .diagram svg [fill="#004585"]{fill:#8FC1F0}
 [data-scheme="dark"] .diagram svg [stroke="#0058a3"]{stroke:#5AA9F0}
+[data-scheme="dark"] .learnstrip{background:#1a2f61;color:#fff}
