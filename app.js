@@ -3,12 +3,67 @@
    Calculator tables are mirrored here as fallback if the JSON can't load. */
 "use strict";
 const $ = (s, el=document) => el.querySelector(s);
-const view = $("#view");
+/* Sharma kit v1.3: SK.stack shell. Render functions paint into the current
+   stack page through the view facade; chapter + lesson screens are pushes. */
+let nav = null, topKey = "root:home";
+const SK_LOGO = '<img src="https://sharma-kit.sharma-crew.workers.dev/assets/logo-white-header.png" alt="Sharma Electric &amp; HVAC" width="103" height="20">';
+const SK_PHONE = '<button class="sk-header__btn" type="button" data-sheet-open="moreSheet" aria-label="More"><svg class="sk-icon"><use href="#i-more"/></svg></button><a class="sk-header__btn" href="tel:+14078819076" aria-label="Call Sharma"><svg class="sk-icon"><use href="#i-phone"/></svg></a>';
+function routeKey(){
+  if (tab === "book"){
+    if (typeof v1Overlay !== "undefined" && v1Overlay) return "v1";
+    if (bookState.view === "page" && bookState.page) return "sec:" + bookState.page;
+    if (bookState.chapter && bookState.chapter !== 1) return "ch:" + bookState.chapter;
+  }
+  return "root:" + tab;
+}
+function pushHeader(key){
+  if (key.indexOf("sec:") === 0){ const s = window.bookSection ? window.bookSection(key.slice(4)) : null; return { lead:'<a class="sk-header__back" href="#/book" data-back>Learn</a>', title: s ? s.title : "Lesson", backHref:"#/book", trail: SK_PHONE }; }
+  if (key.indexOf("ch:") === 0){ return { lead:'<a class="sk-header__back" href="#/book" data-back>Learn</a>', title:"Chapter " + key.slice(3), backHref:"#/book", trail: SK_PHONE }; }
+  return { lead:'<a class="sk-header__back" href="#/book" data-back>Back</a>', title:"Field Book", backHref:"#/book", trail: SK_PHONE };
+}
+function syncAfterPop(popped){
+  if (popped.indexOf("sec:") === 0){ bookState.page = null; bookState.view = "toc"; }
+  else if (popped.indexOf("ch:") === 0){ bookState = { chapter:null, page:null, view:"toc" }; }
+  else if (popped === "v1"){ v1Overlay = null; }
+}
+function paint(html){
+  if (!nav){ const m = document.getElementById("app"); if (m) m.innerHTML = html; return; }
+  const top = nav.top();
+  if (top){
+    const actual = nav.depth() === 1 ? "root:" + top.key : top.key;
+    if (actual !== topKey && routeKey() === topKey){ syncAfterPop(topKey); topKey = actual; }
+  }
+  const key = routeKey();
+  if (key.indexOf("root:") === 0){
+    const t = key.slice(5);
+    nav.root(t, P=>{ P.setHeader({ lead: SK_LOGO, title: "NEC Code", trail: SK_PHONE }); });
+    const P = nav.top(); if (P) P.html(html);
+    if (topKey !== key){ try { history.replaceState(null, "", "#/" + t); } catch(e){} }
+    topKey = key; return;
+  }
+  if (key === topKey && nav.top()){ nav.top().html(html); return; }
+  const i = nav.find(key);
+  if (i >= 0){ nav.popTo(i); if (nav.top()) nav.top().html(html); }
+  else { nav.push(key, P=>{ P.setHeader(pushHeader(key)); P.html(html); }); if (location.hash !== "#/" + key){ try { location.hash = "#/" + key; } catch(e){} } }
+  topKey = key;
+}
+addEventListener("hashchange", ()=>{
+  if (!nav || nav.depth() < 2) return;
+  const h = location.hash.replace(/^#\//, "");
+  const top = nav.top(); if (!top || h === top.key) return;
+  const popped = top.key; nav.pop(); syncAfterPop(popped);
+  topKey = nav.depth() === 1 ? "root:" + nav.top().key : nav.top().key;
+  render();
+});
+const view = { set innerHTML(h){ paint(h); }, get innerHTML(){ const P = nav && nav.top(); return P ? P.body.innerHTML : ""; },
+  querySelector(s){ const P = nav && nav.top(); return P ? P.body.querySelector(s) : null; },
+  querySelectorAll(s){ const P = nav && nav.top(); return P ? P.body.querySelectorAll(s) : []; } };
+function topScroll(){ const P = nav && nav.top(); if (P) P.el.scrollTop = 0; else window.scrollTo(0, 0); }
+function buildNav(){ if (nav) return; if (window.SK && SK.stack){ nav = SK.stack("#app", { lead: SK_LOGO, title: "NEC Code" }); } }
 let DATA = { lookup:null, checklists:null, quiz:null, sharma:null, tables:null, book:null, bookLookup:null, bookQuiz:null, bookChecklists:null, bookSet:{}, v1lookup:[], v1quiz:[], v1checklists:[], v1sharma:[], books:[] };
-const FALLBACK_TABLES = {"boxFillVolumePerConductor":{"6":5,"8":3,"10":2.5,"12":2.25,"14":2,"16":1.75,"18":1.5},"ampacity75C":{"copper":{"1":130,"2":115,"3":100,"4":85,"6":65,"8":50,"10":35,"12":25,"14":20,"1/0":150,"2/0":175,"3/0":200,"4/0":230},"aluminum":{"1":100,"2":90,"3":75,"4":65,"6":50,"8":40,"10":30,"12":20,"1/0":120,"2/0":135,"3/0":155,"4/0":180}},"smallConductorCaps":{"copper":{"10":30,"12":20,"14":15},"aluminum":{"10":25,"12":15}},"circularMils":{"1":83690,"2":66360,"3":52620,"4":41740,"6":26240,"8":16510,"10":10380,"12":6530,"14":4110,"1/0":105600,"2/0":133100,"3/0":167800,"4/0":211600},"conduitAreas40pct":{"EMT":{"1":0.346,"2":1.342,"1/2":0.122,"3/4":0.213,"1-1/4":0.598,"1-1/2":0.814}},"conductorAreasTHHN":{"2":0.1158,"3":0.0973,"4":0.0824,"6":0.0507,"8":0.0366,"10":0.0211,"12":0.0133,"14":0.0097},"table8Resistance":{"copper":{"1":0.154,"2":0.194,"3":0.245,"4":0.308,"6":0.491,"8":0.778,"10":1.24,"12":1.98,"14":3.14,"1/0":0.122,"2/0":0.0967,"3/0":0.0766,"4/0":0.0608},"aluminum":{"1":0.253,"2":0.319,"3":0.403,"4":0.508,"6":0.808,"8":1.28,"10":2.04,"12":3.25,"1/0":0.201,"2/0":0.159,"3/0":0.126,"4/0":0.1}},"ampacity60C":{"copper":{"1":110,"2":95,"3":85,"4":70,"6":55,"8":40,"10":30,"12":20,"14":15,"1/0":125,"2/0":145,"3/0":165,"4/0":195},"aluminum":{"1":85,"2":75,"3":65,"4":55,"6":40,"8":35,"10":25,"12":15,"1/0":100,"2/0":115,"3/0":130,"4/0":150}},"conduitFillEMT":{"1":{"total":0.864,"p53":0.458,"p31":0.268,"p40":0.346},"2":{"total":3.356,"p53":1.778,"p31":1.04,"p40":1.342},"1/2":{"total":0.304,"p53":0.161,"p31":0.094,"p40":0.122},"3/4":{"total":0.533,"p53":0.283,"p31":0.165,"p40":0.213},"1-1/4":{"total":1.496,"p53":0.793,"p31":0.464,"p40":0.598},"1-1/2":{"total":2.036,"p53":1.079,"p31":0.631,"p40":0.814}}};
 const favs = new Set(JSON.parse(localStorage.getItem("nec-favs")||"[]"));
 function saveFavs(){ localStorage.setItem("nec-favs", JSON.stringify([...favs])); }
-const CONTENT_V = "13";
+const CONTENT_V = "14";
 async function loadJSON(name){
   try{ const r = await fetch("content/"+name+".json?v="+CONTENT_V); if(r.ok) return await r.json(); }catch(e){}
   return null;
@@ -27,56 +82,8 @@ const learned = new Set(JSON.parse(localStorage.getItem("nec-learned")||"[]"));
 function saveLearned(){ localStorage.setItem("nec-learned", JSON.stringify([...learned])); }
 document.addEventListener("click",e=>{
   const l=e.target.closest("[data-learn]"); if(l){ const id=l.dataset.learn; learned.has(id)?learned.delete(id):learned.add(id); saveLearned(); render(); return; }
-  const qz=e.target.closest("[data-quizjump]"); if(qz){ setTab("quiz"); if(bookState.page && bookState.chapter) startQuiz("ch"+bookState.chapter,0); else startQuiz("starter",0); render(); }
+  const qz=e.target.closest("[data-quizjump]"); if(qz){ setTab("quiz"); if(bookState.page && bookState.chapter) startQuizSmart("ch"+bookState.chapter,0); else startQuizSmart("starter",0); render(); }
 });
-const DG = {
-"box-fill":`<rect x="100" y="18" width="120" height="84" rx="8" fill="none" stroke="#004585" stroke-width="3"/><circle cx="128" cy="45" r="11" fill="#0058a3"/><circle cx="160" cy="45" r="11" fill="#0058a3"/><circle cx="192" cy="45" r="11" fill="#0058a3"/><circle cx="144" cy="76" r="11" fill="#7fb3dd"/><circle cx="176" cy="76" r="11" fill="#7fb3dd"/><text x="160" y="116" text-anchor="middle" font-size="13" font-weight="800" fill="#004585">COUNT EVERY CONDUCTOR</text>`,
-"ampacity":`<line x1="30" y1="38" x2="290" y2="38" stroke="#004585" stroke-width="3"/><line x1="30" y1="62" x2="290" y2="62" stroke="#0058a3" stroke-width="6"/><line x1="30" y1="90" x2="290" y2="90" stroke="#004585" stroke-width="10"/><text x="34" y="28" font-size="13" font-weight="800" fill="#004585">14 AWG</text><text x="34" y="54" font-size="13" font-weight="800" fill="#004585">12 AWG</text><text x="34" y="82" font-size="13" font-weight="800" fill="#004585">10 AWG</text><text x="240" y="116" font-size="13" font-weight="800" fill="#004585">BIGGER WIRE = MORE AMPS</text>`,
-"conduit-fill":`<circle cx="130" cy="58" r="42" fill="none" stroke="#004585" stroke-width="4"/><circle cx="112" cy="44" r="13" fill="#0058a3"/><circle cx="146" cy="44" r="13" fill="#0058a3"/><circle cx="129" cy="72" r="13" fill="#7fb3dd"/><text x="200" y="52" font-size="21" font-weight="900" fill="#004585">40%</text><text x="196" y="74" font-size="13" font-weight="800" fill="#004585">MAX FILL</text><text x="188" y="92" font-size="12" font-weight="700" fill="#004585">3+ CONDUCTORS</text>`,
-"voltage-drop":`<rect x="18" y="38" width="52" height="42" fill="none" stroke="#004585" stroke-width="3"/><text x="44" y="64" text-anchor="middle" font-size="12" font-weight="800" fill="#004585">PANEL</text><line x1="70" y1="59" x2="240" y2="59" stroke="#0058a3" stroke-width="4" stroke-dasharray="8 5"/><rect x="240" y="38" width="58" height="42" fill="none" stroke="#004585" stroke-width="3"/><text x="269" y="64" text-anchor="middle" font-size="12" font-weight="800" fill="#004585">LOAD</text><text x="155" y="40" text-anchor="middle" font-size="14" font-weight="900" fill="#004585">LONG RUN = BIGGER WIRE</text><text x="155" y="104" text-anchor="middle" font-size="13" font-weight="800" fill="#004585">GOAL: 3% OR LESS</text>`,
-"branch-210":`<line x1="16" y1="70" x2="304" y2="70" stroke="#004585" stroke-width="4"/><rect x="34" y="56" width="18" height="28" fill="#0058a3"/><rect x="150" y="56" width="18" height="28" fill="#0058a3"/><rect x="266" y="56" width="18" height="28" fill="#0058a3"/><text x="43" y="104" text-anchor="middle" font-size="12" font-weight="800" fill="#004585">START</text><text x="97" y="44" text-anchor="middle" font-size="13" font-weight="900" fill="#004585">≤ 6 FT</text><text x="213" y="44" text-anchor="middle" font-size="13" font-weight="900" fill="#004585">≤ 6 FT</text><text x="275" y="104" text-anchor="middle" font-size="12" font-weight="800" fill="#004585">END</text>`,
-"afci-gfci":`<rect x="104" y="14" width="112" height="64" rx="8" fill="#0058a3"/><text x="160" y="44" text-anchor="middle" font-size="13" font-weight="900" fill="#fff">DF BREAKER</text><text x="160" y="64" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">AFCI + GFCI</text><text x="160" y="104" text-anchor="middle" font-size="13" font-weight="800" fill="#004585">PROTECTION LIVES AT THE BREAKER</text>`,
-"clearances":`<rect x="140" y="16" width="70" height="56" fill="none" stroke="#004585" stroke-width="3"/><text x="175" y="48" text-anchor="middle" font-size="12" font-weight="800" fill="#004585">PANEL</text><rect x="105" y="76" width="140" height="30" fill="#d3e7f8" stroke="#0058a3" stroke-width="2"/><text x="175" y="96" text-anchor="middle" font-size="13" font-weight="900" fill="#004585">3 FT DEEP · 30 IN WIDE</text><text x="266" y="44" font-size="13" font-weight="900" fill="#004585">6.5 FT</text><text x="262" y="60" font-size="12" font-weight="800" fill="#004585">HEADROOM</text><text x="52" y="96" font-size="12" font-weight="800" fill="#004585">KEEP CLEAR</text>`,
-"grounding":`<rect x="126" y="10" width="68" height="40" fill="none" stroke="#004585" stroke-width="3"/><text x="160" y="35" text-anchor="middle" font-size="12" font-weight="800" fill="#004585">PANEL</text><line x1="160" y1="50" x2="160" y2="82" stroke="#0058a3" stroke-width="4"/><line x1="160" y1="82" x2="160" y2="98" stroke="#004585" stroke-width="5"/><line x1="118" y1="100" x2="202" y2="100" stroke="#004585" stroke-width="3"/><line x1="132" y1="108" x2="188" y2="108" stroke="#004585" stroke-width="3"/><line x1="146" y1="116" x2="174" y2="116" stroke="#004585" stroke-width="3"/><text x="238" y="86" font-size="13" font-weight="800" fill="#004585">GROUND ROD</text>`,
-"load-calc":`<path d="M60 62 L160 20 L260 62" fill="none" stroke="#004585" stroke-width="4"/><rect x="84" y="62" width="152" height="44" fill="none" stroke="#004585" stroke-width="3"/><text x="160" y="80" text-anchor="middle" font-size="14" font-weight="900" fill="#004585">3 VA / SQ FT</text><text x="160" y="99" text-anchor="middle" font-size="12" font-weight="800" fill="#004585">+ APPLIANCES + HVAC</text>`,
-"pools":`<rect x="70" y="22" width="180" height="66" rx="16" fill="#d3e7f8" stroke="#0058a3" stroke-width="3"/><rect x="52" y="10" width="216" height="90" rx="20" fill="none" stroke="#004585" stroke-width="2" stroke-dasharray="7 5"/><text x="160" y="60" text-anchor="middle" font-size="15" font-weight="900" fill="#004585">WATER</text><text x="160" y="116" text-anchor="middle" font-size="13" font-weight="800" fill="#004585">BOND EVERYTHING METAL NEAR IT</text>`,
-"solar":`<rect x="86" y="34" width="148" height="52" fill="none" stroke="#004585" stroke-width="3"/><line x1="123" y1="34" x2="123" y2="86" stroke="#0058a3" stroke-width="2"/><line x1="160" y1="34" x2="160" y2="86" stroke="#0058a3" stroke-width="2"/><line x1="197" y1="34" x2="197" y2="86" stroke="#0058a3" stroke-width="2"/><line x1="86" y1="60" x2="234" y2="60" stroke="#0058a3" stroke-width="2"/><circle cx="272" cy="26" r="12" fill="#7fb3dd"/><text x="160" y="106" text-anchor="middle" font-size="13" font-weight="800" fill="#004585">RAPID SHUTDOWN · LABELS · 120% RULE</text>`,
-"ev":`<path d="M52 74 q6 -26 34 -30 l14 -14 q5 -6 14 -6 h62 q10 0 16 7 l18 16 q44 4 52 28" fill="none" stroke="#004585" stroke-width="3"/><line x1="46" y1="74" x2="268" y2="74" stroke="#004585" stroke-width="3"/><circle cx="96" cy="78" r="13" fill="none" stroke="#004585" stroke-width="3"/><circle cx="222" cy="78" r="13" fill="none" stroke="#004585" stroke-width="3"/><text x="160" y="110" text-anchor="middle" font-size="14" font-weight="900" fill="#004585">SIZE IT AT 125% — IT RUNS FOR HOURS</text>`,
-"generators":`<rect x="26" y="36" width="66" height="46" fill="none" stroke="#004585" stroke-width="3"/><text x="59" y="64" text-anchor="middle" font-size="11" font-weight="800" fill="#004585">UTILITY</text><rect x="128" y="36" width="66" height="46" fill="#0058a3"/><text x="161" y="56" text-anchor="middle" font-size="11" font-weight="900" fill="#fff">TRANSFER</text><text x="161" y="72" text-anchor="middle" font-size="11" font-weight="900" fill="#fff">SWITCH</text><rect x="230" y="36" width="66" height="46" fill="none" stroke="#004585" stroke-width="3"/><text x="263" y="64" text-anchor="middle" font-size="11" font-weight="800" fill="#004585">GENERATOR</text><text x="160" y="106" text-anchor="middle" font-size="13" font-weight="800" fill="#004585">NEVER BACKFEED THE UTILITY</text>`,
-"smokes":`<path d="M46 58 L160 16 L274 58" fill="none" stroke="#004585" stroke-width="4"/><rect x="70" y="58" width="180" height="48" fill="none" stroke="#004585" stroke-width="3"/><circle cx="104" cy="82" r="9" fill="#0058a3"/><circle cx="160" cy="82" r="9" fill="#0058a3"/><circle cx="216" cy="82" r="9" fill="#0058a3"/><text x="160" y="122" text-anchor="middle" font-size="12" font-weight="800" fill="#004585">EVERY BEDROOM · OUTSIDE SLEEPING AREAS · EVERY LEVEL</text>`,
-"hvac440":`<rect x="92" y="26" width="90" height="62" rx="6" fill="none" stroke="#004585" stroke-width="3"/><circle cx="137" cy="57" r="19" fill="none" stroke="#0058a3" stroke-width="3"/><path d="M137 40 v34 M120 57 h34" stroke="#0058a3" stroke-width="2"/><rect x="216" y="34" width="34" height="46" fill="#0058a3"/><text x="233" y="61" text-anchor="middle" font-size="11" font-weight="900" fill="#fff">DISC.</text><line x1="182" y1="57" x2="216" y2="57" stroke="#004585" stroke-width="3"/><text x="160" y="108" text-anchor="middle" font-size="13" font-weight="800" fill="#004585">DISCONNECT WITHIN SIGHT · NAMEPLATE RULES</text>`
-};
-function diagram(id){ return DG[id]? `<div class="diagram"><svg viewBox="0 0 320 124" role="img" aria-label="diagram">${DG[id]}</svg></div>` : ""; }
-/* ---------- Pictures that help: theme diagrams for every answer ---------- */
-const THEME_DG = {
-"gfci":`<rect x="118" y="12" width="84" height="78" rx="10" fill="none" stroke="#004585" stroke-width="3"/><circle cx="144" cy="38" r="5" fill="#0058a3"/><circle cx="176" cy="38" r="5" fill="#0058a3"/><rect x="146" y="54" width="28" height="13" rx="3" fill="#0058a3"/><text x="160" y="64" text-anchor="middle" font-size="8.5" font-weight="900" fill="#fff">TEST</text><rect x="146" y="70" width="28" height="13" rx="3" fill="#7fb3dd"/><text x="160" y="80" text-anchor="middle" font-size="8" font-weight="900" fill="#004585">RESET</text><path d="M30 102 q10 -10 20 0 q10 10 20 0 M250 102 q10 -10 20 0 q10 10 20 0" fill="none" stroke="#0058a3" stroke-width="3"/><text x="160" y="114" text-anchor="middle" font-size="12.5" font-weight="800" fill="#004585">WATER NEARBY? IT NEEDS GFCI PROTECTION</text>`,
-"panel":`<rect x="112" y="8" width="96" height="104" rx="6" fill="none" stroke="#004585" stroke-width="3"/><rect x="126" y="20" width="68" height="16" fill="#0058a3"/><text x="160" y="32" text-anchor="middle" font-size="10" font-weight="900" fill="#fff">MAIN</text><rect x="126" y="44" width="30" height="13" fill="#d3e7f8" stroke="#0058a3" stroke-width="1.5"/><rect x="164" y="44" width="30" height="13" fill="#d3e7f8" stroke="#0058a3" stroke-width="1.5"/><rect x="126" y="63" width="30" height="13" fill="#d3e7f8" stroke="#0058a3" stroke-width="1.5"/><rect x="164" y="63" width="30" height="13" fill="#d3e7f8" stroke="#0058a3" stroke-width="1.5"/><rect x="126" y="82" width="30" height="13" fill="#d3e7f8" stroke="#0058a3" stroke-width="1.5"/><rect x="164" y="82" width="30" height="13" fill="#d3e7f8" stroke="#0058a3" stroke-width="1.5"/><text x="52" y="66" font-size="12" font-weight="800" fill="#004585">SERVICE</text><text x="236" y="66" font-size="12" font-weight="800" fill="#004585">CIRCUITS</text><text x="160" y="122" text-anchor="middle" font-size="12" font-weight="800" fill="#004585">EVERY BREAKER LABELED — NO GUESSING</text>`,
-"lighting":`<line x1="60" y1="14" x2="60" y2="44" stroke="#004585" stroke-width="3"/><rect x="38" y="44" width="44" height="26" rx="4" fill="none" stroke="#004585" stroke-width="3"/><text x="60" y="61" text-anchor="middle" font-size="10" font-weight="800" fill="#004585">SWITCH</text><line x1="82" y1="57" x2="196" y2="57" stroke="#0058a3" stroke-width="3" stroke-dasharray="7 4"/><path d="M196 30 h68 M230 30 v14" stroke="#004585" stroke-width="3"/><path d="M214 62 l16 -18 M246 62 l-16 -18 M230 66 v-22" stroke="#0058a3" stroke-width="3"/><circle cx="230" cy="52" r="13" fill="#fef3c7" stroke="#0058a3" stroke-width="2.5"/><text x="160" y="102" text-anchor="middle" font-size="12.5" font-weight="800" fill="#004585">SWITCH CONTROLS THE LIGHT — HOT IS SWITCHED</text>`,
-"receptacle":`<rect x="126" y="14" width="68" height="72" rx="10" fill="none" stroke="#004585" stroke-width="3"/><line x1="146" y1="34" x2="146" y2="50" stroke="#0058a3" stroke-width="4"/><line x1="174" y1="34" x2="174" y2="50" stroke="#0058a3" stroke-width="4"/><circle cx="160" cy="66" r="4" fill="#0058a3"/><text x="160" y="104" text-anchor="middle" font-size="12.5" font-weight="800" fill="#004585">TAMPER-RESISTANT IN HOMES — SHUTTERS INSIDE</text><text x="52" y="54" font-size="12" font-weight="800" fill="#004585">HOT</text><text x="238" y="54" font-size="12" font-weight="800" fill="#004585">NEUTRAL</text>`,
-"motor":`<circle cx="140" cy="56" r="36" fill="none" stroke="#004585" stroke-width="3"/><circle cx="140" cy="56" r="12" fill="#0058a3"/><path d="M140 24 v64 M108 56 h64 M118 34 l44 44 M162 34 l-44 44" stroke="#0058a3" stroke-width="2"/><rect x="222" y="32" width="52" height="48" fill="none" stroke="#004585" stroke-width="3"/><text x="248" y="60" text-anchor="middle" font-size="10" font-weight="800" fill="#004585">FUSES /</text><text x="248" y="73" text-anchor="middle" font-size="10" font-weight="800" fill="#004585">BREAKER</text><line x1="176" y1="56" x2="222" y2="56" stroke="#004585" stroke-width="3"/><text x="160" y="112" text-anchor="middle" font-size="12.5" font-weight="800" fill="#004585">MOTORS: NAMEPLATE AMPS RUN THE SHOW</text>`
-};
-const THEME_RULES = [
-[/gfci|ground-fault|ground fault|210\.8|422\.5/,"gfci"],[/afci|arc-fault|arc fault|210\.12/,"afci-gfci"],
-[/pool|spa|hot tub|680\./,"pools"],[/solar|photovoltaic|\bpv\b|690\./,"solar"],[/electric vehicle|\bev\b|charging|625\./,"ev"],
-[/generator|transfer switch|standby|702\.|700\./,"generators"],[/smoke|carbon monoxide|fire alarm|co detector/,"smokes"],
-[/grounding|bonding|electrode|250\./,"grounding"],[/box fill|314\.16|junction box|box volume/,"box-fill"],
-[/conduit fill|raceway fill|chapter 9 table 1|fill percent/,"conduit-fill"],[/voltage drop/,"voltage-drop"],
-[/hvac|air condition|heat pump|refrigerat|440\.|motor|430\./,"motor"],[/ampacity|310\.16|310\.15|conductor rating/,"ampacity"],
-[/load calc|demand factor|service size|220\.82|220\.83/,"load-calc"],[/working clearance|110\.26|panel clearance|headroom/,"clearances"],
-[/receptacle spacing|210\.52|countertop|wall space/,"branch-210"],[/panel|service|disconnect|breaker|230\.|408\.|240\./,"panel"],
-[/light|luminaire|switch|dimmer|410\.|404\./,"lighting"],[/receptacle|outlet|406\./,"receptacle"],[/wire|cable|conductor|334\.|300\./,"ampacity"]
-];
-const FALLBACK_DG = `<rect x="96" y="10" width="128" height="88" rx="6" fill="none" stroke="#004585" stroke-width="3"/><rect x="96" y="10" width="16" height="88" fill="#0058a3"/><line x1="126" y1="30" x2="208" y2="30" stroke="#0058a3" stroke-width="3"/><line x1="126" y1="48" x2="208" y2="48" stroke="#7fb3dd" stroke-width="3"/><line x1="126" y1="66" x2="190" y2="66" stroke="#7fb3dd" stroke-width="3"/><text x="160" y="90" text-anchor="middle" font-size="12" font-weight="900" fill="#004585">NEC</text><path d="M248 22 l22 8 v18 c0 16 -9 26 -22 32 c-13 -6 -22 -16 -22 -32 v-18 z" fill="#d3e7f8" stroke="#004585" stroke-width="2.5"/><path d="M238 52 l7 7 l14 -15" fill="none" stroke="#004585" stroke-width="3.5"/><text x="160" y="114" text-anchor="middle" font-size="12.5" font-weight="800" fill="#004585">THE CODE IS THE SAFETY FLOOR — START HERE</text>`;
-function themeDiagram(text){
-  const t=String(text||"").toLowerCase();
-  for(const [re,key] of THEME_RULES){
-    if(re.test(t)){
-      if(THEME_DG[key]) return `<div class="diagram"><svg viewBox="0 0 320 124" role="img" aria-label="helpful picture">${THEME_DG[key]}</svg></div>`;
-      if(DG[key]) return diagram(key);
-    }
-  }
-  return `<div class="diagram"><svg viewBox="0 0 320 124" role="img" aria-label="helpful picture">${FALLBACK_DG}</svg></div>`;
-}
 function keyNums(t){ const m=[...String(t.summary).matchAll(/(\d+(?:\.\d+)?\s?(?:ft|in|%|VA|A\b|AWG))/g)].map(x=>x[1].replace(/\s+/g," ").trim()); return [...new Set(m)].slice(0,4); }
 function steps(t){ return String(t.summary).split(/(?<=\.)\s+/).filter(x=>x.trim()).slice(0,4); }
 
@@ -85,27 +92,45 @@ document.addEventListener("click",e=>{
   const f=e.target.closest("[data-fav]"); if(!f) return;
   const id=f.dataset.fav; favs.has(id)?favs.delete(id):favs.add(id); saveFavs(); render();
 });
+function dgTheme(t){ return window.themeDiagram ? window.themeDiagram(t) : ""; }
+function dgDiagram(id){ return window.diagram ? window.diagram(id) : ""; }
+let __dgTries = 0;
+function ensureDiagrams(){
+  if (window.themeDiagram) return Promise.resolve();
+  return new Promise(res=>{
+    const s = document.createElement("script");
+    s.src = "assets/diagrams.js?v=14";
+    s.onload = ()=>res();
+    s.onerror = ()=>{ if (++__dgTries < 2) setTimeout(()=>ensureDiagrams().then(res), 700); else res(); };
+    document.head.appendChild(s);
+  });
+}
 function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
 
 function render(){
+  if(tab==="book"){ const ent=currentEntry(); if(ent&&ent._light){ ensureChapter(ent.book.chapter).then(()=>{ if(tab==="book") render(); }); view.innerHTML='<h2 class="sec">Learn</h2><div class="sk-skel" style="margin:14px"></div><div class="sk-skel" style="margin:14px"></div>'; return; } ensureV1(); }
+  if(tab==="lookup"){ if(!allLoaded) ensureAllChapters().then(()=>{ if(allLoaded&&tab==="lookup") render(); }); ensureV1(); }
+  if(tab==="rooms"){ if(!allLoaded) ensureAllChapters().then(()=>{ if(allLoaded&&tab==="rooms") render(); }); }
+  if(tab==="quiz" && !quizState){ if(!allLoaded) ensureAllChapters().then(()=>{ if(allLoaded&&tab==="quiz"&&!quizState) render(); }); }
   if(tab==="home") return renderHome();
-  if(tab==="book") return renderBook();
+  if(tab==="book"){ if(window.renderBook) return window.renderBook(); ensureBook().then(()=>{ if(tab==="book") render(); }); view.innerHTML='<h2 class="sec">Learn</h2><div class="sk-skel" style="margin:14px"></div><div class="sk-skel" style="margin:14px"></div>'; return; }
   if(tab==="lookup") return renderLookup();
   if(tab==="calc") return renderCalc();
   if(tab==="rooms") return renderRooms();
   if(tab==="quiz") return renderQuiz();
   if(tab==="sharma") return renderSharma();
-  if(tab==="favs") return renderFavs();
 }
 /* ---------- Home: education-first start page ---------- */
 const CH_SUB = {1:"The rules that apply to every job",2:"Services, feeders, grounding and breakers",3:"Cable, conduit, boxes and wire",4:"Switches, receptacles, lights and equipment",5:"Hazardous places, health care and assembly",6:"Pools, solar, EVs, signs and special gear",7:"Generators, emergency systems and fire alarm",8:"Low voltage, data and antennas",9:"The tables you use every day"};
 function allBookSections(){ const out=[]; for(const e of bookEntries()) for(const s of e.book.sections) out.push(s); return out; }
 function chProgress(e){ const secs=e.book.sections||[]; const done=secs.filter(s=>learned.has(s.id)).length; return {done:done, total:secs.length, pct:secs.length?Math.round(100*done/secs.length):0}; }
 document.addEventListener("click",e=>{
-  const gq=e.target.closest("[data-gotoquiz]"); if(gq){ setTab("quiz"); startQuiz(gq.dataset.gotoquiz,0); render(); window.scrollTo(0,0); return; }
+  const gq=e.target.closest("[data-gotoquiz]"); if(gq){ setTab("quiz"); startQuizSmart(gq.dataset.gotoquiz,0); render(); topScroll(); return; }
   const g=e.target.closest("[data-goto]"); if(!g) return;
-  setTab(g.dataset.goto); render(); window.scrollTo(0,0);
+  if(g.dataset.goto==="favs"){ setTab("home"); render(); setTimeout(()=>{ const el=document.getElementById("savedSec"); if(el) el.scrollIntoView({block:"start"}); },90); return; }
+  setTab(g.dataset.goto); render(); topScroll();
 });
+const BANNER_HTML = '<div class="banner">DRAFT — not cleared for field use. Mike Holt has not signed off on this content. Confirm every answer against the printed NEC 2020 (Florida Building Code, 8th Edition) and your AHJ before you build to it.</div><div class="learnstrip">Read a lesson. Answer a question. Use it on the job.</div>';
 function renderHome(){
   const topics=(DATA.lookup&&DATA.lookup.topics)||[];
   const secs=allBookSections();
@@ -124,12 +149,13 @@ function renderHome(){
     continueCard=`<div class="card hero-continue"><div class="cite">All lessons done</div><h3>You have worked through every lesson</h3><p>Keep sharp with the Practice quizzes, or look anything up any time.</p><button class="go" data-goto="quiz">Practice now →</button></div>`;
   }
   view.innerHTML =
+  BANNER_HTML +
   `<div class="hero"><h2>Learn the NEC, one lesson at a time</h2><p>No code-book language to fight through. Every lesson is in plain words, in order, with the NEC section on it so you can check the real book.</p>
    <div class="howsteps"><span><b>1</b> Read a lesson</span><span><b>2</b> Answer a question</span><span><b>3</b> Use it on the job</span></div></div>` +
   (totalLessons? `<div class="progresswrap"><div class="plabel">Your learning progress: ${doneCount} of ${totalLessons} lessons</div><div class="pbar"><div style="width:${pct}%"></div></div></div>`:"") +
   continueCard +
   `<h2 class="sec">Your learning path — Chapters 1 to 9, in order</h2><p class="bkmeta">Tap a chapter to open its lessons. Work top to bottom, or jump to the chapter you need today — your checkmarks are saved on this phone.</p>` +
-  bookEntries().map(e=>{ const pr=chProgress(e); return `<button class="pathcard" data-bookchapter="${e.book.chapter}"><span class="pathnum">${e.book.chapter}</span><span class="pathbody"><b>Chapter ${e.book.chapter} — ${esc(e.book.chapter_title)}</b><i>${esc(CH_SUB[e.book.chapter]||"")}</i><small>${pr.total} lessons · ${(e.quiz||[]).length} practice questions${pr.done?` · ✓ ${pr.done} learned`:""}</small><span class="pbar mini"><span style="width:${pr.pct}%"></span></span></span><span class="pathgo">›</span></button>`; }).join("") +
+  bookEntries().map(e=>{ const pr=chProgress(e); return `<button class="pathcard" data-bookchapter="${e.book.chapter}"><span class="pathnum">${e.book.chapter}</span><span class="pathbody"><b>Chapter ${e.book.chapter} — ${esc(e.book.chapter_title)}</b><i>${esc(CH_SUB[e.book.chapter]||"")}</i><small>${pr.total} lessons · ${e._light?e._quizCount:(e.quiz||[]).length} practice questions${pr.done?` · ${pr.done} learned`:""}</small><span class="pbar mini"><span style="width:${pr.pct}%"></span></span></span><span class="pathgo">›</span></button>`; }).join("") +
   `<h2 class="sec">Quick ways in</h2><div class="tiles">
      <button class="tile" data-goto="lookup"><b>Start Here</b><span>The 15 essential lessons, with pictures</span></button>
      <button class="tile" data-goto="quiz"><b>Practice</b><span>Quiz yourself — 80% to pass</span></button>
@@ -138,17 +164,17 @@ function renderHome(){
      <button class="tile" data-goto="sharma"><b>Sharma Rules</b><span>How Sharma does it — stricter than code</span></button>
      <button class="tile" data-goto="favs"><b>Saved</b><span>The lessons and rules you bookmarked</span></button>
    </div>
-   <div class="card"><div class="cite">Just need one answer?</div><h3>Use Look Up</h3><p>Type what you are looking for in the search box at the top — it searches every lesson, every quick answer and every quiz question in the app at once.</p><button class="go" data-goto="lookup">Go to Look Up →</button></div>`;
+   <div class="card"><div class="cite">Just need one answer?</div><h3>Use Look Up</h3><p>Type what you are looking for in the search box at the top — it searches every lesson, every quick answer and every quiz question in the app at once.</p><button class="go" data-goto="lookup">Go to Look Up →</button></div>` + `<h2 class="sec" id="savedSec">Saved</h2>` + favsHTML();
 }
 /* ---------- Lookup ---------- */
 function topicCard(t, ix){
   const kn = keyNums(t);
   const st = steps(t);
   const done = learned.has(t.id);
-  return `<div class="card">${favBtn("t:"+t.id)}<div class="cite">${typeof ix==="number"?`<span class="num-badge">${ix+1}</span>`:""}${esc(t.cite)}</div><h3>${esc(t.title)}</h3>${diagram(t.id)}${kn.length?`<div class="keynums">${kn.map(k=>`<span class="keynum">${esc(k)}</span>`).join("")}</div>`:""}<ul class="steps">${st.map((x,i)=>`<li><b>Step ${i+1}.</b> ${esc(x)}</li>`).join("")}</ul>${t.flag?`<span class="flag">${esc(t.flag)}</span>`:""}<div class="rowbtns"><button class="learnbtn ${done?"done":""}" data-learn="${t.id}">${done?"✓ Learned":"Mark as learned"}</button><button class="quizbtn" data-quizjump="1">Quiz me →</button></div></div>`;
+  return `<div class="card">${favBtn("t:"+t.id)}<div class="cite">${typeof ix==="number"?`<span class="num-badge">${ix+1}</span>`:""}${esc(t.cite)}</div><h3>${esc(t.title)}</h3>${dgDiagram(t.id)}${kn.length?`<div class="keynums">${kn.map(k=>`<span class="keynum">${esc(k)}</span>`).join("")}</div>`:""}<ul class="steps">${st.map((x,i)=>`<li><b>Step ${i+1}.</b> ${esc(x)}</li>`).join("")}</ul>${t.flag?`<span class="flag">${esc(t.flag)}</span>`:""}<div class="rowbtns"><button class="learnbtn ${done?"done":""}" data-learn="${t.id}">${done?"Learned":"Mark as learned"}</button><button class="quizbtn" data-quizjump="1">Quiz me →</button></div></div>`;
 }
 function lookupCard(ch, x){
-  return `<div class="card" id="lk-${esc(x.id)}"${lookupState.highlight===x.id?` style="outline:3px solid #0058a3"`:``}><div class="cite">Ch. ${ch} · ${esc(x.nec_ref||"")} · ${esc(x.id)}</div><h3>${esc(x.question)}</h3>${themeDiagram(x.question+" "+x.answer_plain)}<p>${esc(x.answer_plain)}</p>${x.verified===false?`<span class="flag">UNVERIFIED${x.unverified_reason? " — "+esc(x.unverified_reason):""}</span>`:""}${x.sharma_rule_id?`<span class="tag">SHARMA ${esc(x.sharma_rule_id)}</span>`:""}</div>`;
+  return `<div class="card" id="lk-${esc(x.id)}"${lookupState.highlight===x.id?` style="outline:3px solid #0058a3"`:``}><div class="cite">Ch. ${ch} · ${esc(x.nec_ref||"")} · ${esc(x.id)}</div><h3>${esc(x.question)}</h3>${dgTheme(x.question+" "+x.answer_plain)}<p>${esc(x.answer_plain)}</p>${x.verified===false?`<span class="flag">UNVERIFIED${x.unverified_reason? " — "+esc(x.unverified_reason):""}</span>`:""}${x.sharma_rule_id?`<span class="tag">SHARMA ${esc(x.sharma_rule_id)}</span>`:""}</div>`;
 }
 function renderLookup(){
   const q=($("#search").value||"").toLowerCase().trim();
@@ -163,7 +189,7 @@ function renderLookup(){
     view.innerHTML = `<h2 class="sec">Search results</h2>` +
       (tlist.length? `<h2 class="sec">Learn-the-code topics</h2>`+tlist.map(t=>topicCard(t)).join(""):"") +
       (bank.length? `<h2 class="sec">Field Book lookup (${bank.length})</h2>`+bank.slice(0,120).map(({ch,item})=>lookupCard(ch,item)).join("")+(bank.length>120?`<p class="flag">Showing the first 120 matches — narrow the search to see more.</p>`:""):"") +
-      (v1.length? `<h2 class="sec">Field Book v1 lookup (${v1.length})</h2>`+v1.slice(0,60).map(x=>`<div class="card"><div class="cite">${esc(x.id)} · ${esc(x.nec_ref||"")}</div><h3>${esc(x.question)}</h3>${themeDiagram(x.question+" "+x.answer_plain)}<p>${esc(x.answer_plain)}</p></div>`).join(""):"") +
+      (v1.length? `<h2 class="sec">Field Book v1 lookup (${v1.length})</h2>`+v1.slice(0,60).map(x=>`<div class="card"><div class="cite">${esc(x.id)} · ${esc(x.nec_ref||"")}</div><h3>${esc(x.question)}</h3>${dgTheme(x.question+" "+x.answer_plain)}<p>${esc(x.answer_plain)}</p></div>`).join(""):"") +
       (pages.length? `<h2 class="sec">Field Book pages (${pages.length})</h2><div class="card">${pages.slice(0,60).map(s=>`<button class="bkchip" data-bookpage="${s.id}">${esc(s.id.replace(/^C\d+-/,""))} — ${esc(s.title)}</button>`).join(" ")}</div>`:"") +
       (quizzes.length? `<h2 class="sec">Practice questions (${quizzes.length})</h2><div class="card">${quizzes.slice(0,40).map(({item})=>`<button class="bkchip" data-reljump="quiz:${item.id}">${esc(item.id)} — ${esc(item.question)}</button>`).join(" ")}</div>`:"") +
       (rules.length? `<h2 class="sec">Sharma rules</h2>`+rules.map(r=>`<div class="card"><span class="tag">${esc(r.id)}</span><h3>${esc(r.title)}</h3><p>${esc(r.text)}</p>${r.status?`<span class="flag">${esc(r.status)}</span>`:""}</div>`).join(""):"") +
@@ -188,15 +214,16 @@ function renderSharma(){
     : `<div class="empty">Sharma rules file not loaded yet.</div>`);
 }
 /* ---------- Favorites ---------- */
-function renderFavs(){
+function favsHTML(){
   const topics=(DATA.lookup&&DATA.lookup.topics)||[]; const rules=(DATA.sharma&&DATA.sharma.rules)||[];
-  let html=`<h2 class="sec">Saved</h2>`;
+  let html="";
   const ft=topics.filter(t=>favs.has("t:"+t.id)); const fr=rules.filter(r=>favs.has("s:"+r.id));
   if(!ft.length&&!fr.length) html+=`<div class="empty">Tap Save on any topic or Sharma rule to save it here.</div>`;
   html+=ft.map(topicCard).join("");
   html+=fr.map(r=>`<div class="card">${favBtn("s:"+r.id)}<span class="tag">SHARMA RULE</span><h3 style="margin-top:6px">${esc(r.title)}</h3><p>${esc(r.text)}</p></div>`).join("");
-  view.innerHTML=html;
+  return html;
 }
+function renderFavs(){ view.innerHTML = `<h2 class="sec">Saved</h2>` + favsHTML(); }
 /* ---------- Checklists ---------- */
 function renderRooms(){
   const rooms=(DATA.checklists&&DATA.checklists.rooms)||[];
@@ -234,7 +261,7 @@ function renderQuiz(){
     $("#qrestart").onclick=()=>{ startQuiz(s.bank,0); renderQuiz(); };
     $("#qbank").onclick=()=>{ quizState=null; renderQuiz(); }; return; }
   const q=qs[s.i];
-  view.innerHTML=`<h2 class="sec">Practice — question ${s.i+1} of ${qs.length}</h2><div class="card"><h3>${esc(q.q)}</h3>${themeDiagram(q.q+" "+(q.why||""))}`+
+  view.innerHTML=`<h2 class="sec">Practice — question ${s.i+1} of ${qs.length}</h2><div class="card"><h3>${esc(q.q)}</h3>${dgTheme(q.q+" "+(q.why||""))}`+
     q.choices.map((c,ix)=>`<button class="qopt" data-q="${ix}">${esc(c)}</button>`).join("")+
     `<div id="qwhy"></div></div>`;
   view.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>{
@@ -251,7 +278,7 @@ function renderQuiz(){
 function num(id){ const v=parseFloat($(id).value); return isNaN(v)?0:v; }
 function sel(id){ return $(id).value; }
 function renderCalc(){
-  const T=DATA.tables||FALLBACK_TABLES;
+  const T=DATA.tables||window.FALLBACK_TABLES; if(!T){ view.innerHTML=`<h2 class="sec">Tools — calculators for the job</h2><div class="sk-skel" style="margin:14px"></div>`; ensureDiagrams().then(()=>{ if(tab==="calc") render(); }); return; }
   const awgs=Object.keys(T.circularMils);
   const opts=(arr,v)=>arr.map(a=>`<option ${a===v?"selected":""}>${a}</option>`).join("");
   const emtSizes=Object.keys((T.conduitFillEMT||T.conduitAreas40pct.EMT));
@@ -388,130 +415,52 @@ function v1Quiz(id){ return (DATA.v1quiz||[]).find(x=>x.id===id)||null; }
 function v1Checklist(id){ for(const r of (DATA.v1checklists||[])) for(const it of r.items) if(it.id===id) return {room:r.room, item:it}; return null; }
 function v1Sharma(id){ return (DATA.v1sharma||[]).find(x=>x.id===id)||null; }
 let v1Overlay=null, lookupState={chapter:null, highlight:null}, roomsHighlight=null;
-const CHIP_ALIAS = {"220.82":"C2-220.82","310.16":"C3-310.16","314.16(A)":"C3-314.16","314.16(B)":"C3-314.16(B)","334.80":"C3-334.80","300.4":"C3-300.4","Ch9-T4":"C9-Table4","Ch9-T5":"C9-Table5","Ch9-T8":"C9-Table8"};
-function relChip(id){
-  const target = CHIP_ALIAS[id] || id;
-  const sec = bookSection(target);
-  if(sec) return `<button class="bkchip" data-bookpage="${target}">${esc(id)} — ${esc(sec.title)}</button>`;
-  const label = relatedLabel(id);
-  if(chapterLookupItem(id)) return `<button class="bkchip" data-reljump="lookup:${id}">${esc(id)} — ${esc(label)}</button>`;
-  if(chapterQuizItem(id)) return `<button class="bkchip" data-reljump="quiz:${id}">${esc(id)} — ${esc(label)}</button>`;
-  if(chapterChecklistItem(id)) return `<button class="bkchip" data-reljump="rooms:${id}">${esc(id)} — ${esc(label)}</button>`;
-  if(v1Lookup(id)||v1Quiz(id)||v1Checklist(id)||v1Sharma(id)) return `<button class="bkchip" data-reljump="v1:${id}">${esc(id)} — ${esc(label)}</button>`;
-  return `<span class="bkchip static">${esc(id)} — ${esc(label)}</span>`;
-}
-function relatedLabel(id){
-  if(/^C\d+-L-/.test(id)){ for(const e of bookEntries()){ const x=(e.lookup||[]).find(y=>y.id===id); if(x) return x.question; } return id; }
-  if(/^C\d+-Q-/.test(id)){ for(const e of bookEntries()){ const x=(e.quiz||[]).find(y=>y.id===id); if(x) return "Quiz: "+x.question; } return id; }
-  for(const e of bookEntries()) for(const r of (e.checklists||[])) for(const it of r.items) if(it.id===id) return "Checklist: "+it.text;
-  if(/^S-\d+$/.test(id)){ const x=v1Sharma(id); return x? "Sharma rule "+id+": "+x.text : "Sharma rule "+id; }
-  if(/^L-\d+$/.test(id)){ const x=v1Lookup(id); return x? x.question : "Field Book v1 lookup "+id; }
-  if(/^Q-\d+$/.test(id)){ const x=v1Quiz(id); return x? "Quiz: "+x.question : "Field Book v1 quiz "+id; }
-  { const c=v1Checklist(id); if(c) return "Checklist ("+c.room+"): "+c.item.text; }
-  if(/^(Ch9-T|\d{3}\.\d)/.test(id)) return "Calc table "+id;
-  return id;
-}
-document.addEventListener("click",e=>{
-  const ch=e.target.closest("[data-bookchapter]"); if(ch){ bookState={chapter:parseInt(ch.dataset.bookchapter,10), page:null, view:"toc"}; if(tab!=="book"){ tab="book"; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="book")); } render(); window.scrollTo(0,0); return; }
-  const p=e.target.closest("[data-bookpage]"); if(p){ const s=bookSection(p.dataset.bookpage); if(s) bookState.chapter=s.chapter; bookState={chapter:bookState.chapter, page:p.dataset.bookpage, view:"page"}; if(tab!=="book"){ tab="book"; document.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.tab==="book")); } render(); window.scrollTo(0,0); return; }
-  const v=e.target.closest("[data-bookview]"); if(v){ bookState.view=v.dataset.bookview; if(v.dataset.bookview!=="page") bookState.page=null; render(); window.scrollTo(0,0); return; }
-  const rj=e.target.closest("[data-reljump]"); if(rj){ const [kind,id]=rj.dataset.reljump.split(":");
-    if(kind==="lookup"){ const hit=chapterLookupItem(id); lookupState={chapter:hit?hit.ch:null, highlight:id}; $("#search").value=""; setTab("lookup"); render(); setTimeout(()=>{ const el=document.getElementById("lk-"+id); if(el) el.scrollIntoView({block:"center"}); },60); return; }
-    if(kind==="quiz"){ const hit=chapterQuizItem(id); if(hit){ setTab("quiz"); startQuiz("ch"+hit.ch, hit.index); render(); } return; }
-    if(kind==="rooms"){ roomsHighlight=id; setTab("rooms"); render(); setTimeout(()=>{ const el=document.getElementById("ck-"+id); if(el) el.scrollIntoView({block:"center"}); },60); return; }
-    if(kind==="v1"){ v1Overlay=id; if(tab!=="book") setTab("book"); render(); window.scrollTo(0,0); return; }
-  }
-  const lc=e.target.closest("[data-lookupch]"); if(lc){ const n=parseInt(lc.dataset.lookupch,10); lookupState={chapter:lookupState.chapter===n?null:n, highlight:null}; render(); return; }
-  const qb=e.target.closest("[data-quizbank]"); if(qb){ startQuiz(qb.dataset.quizbank,0); render(); return; }
-  const vb=e.target.closest("[data-v1back]"); if(vb){ v1Overlay=null; render(); window.scrollTo(0,0); return; }
-});
-function renderBook(){
-  if(v1Overlay){
-    const id=v1Overlay; let body="";
-    const lk=v1Lookup(id), qz=v1Quiz(id), ck=v1Checklist(id), sh=v1Sharma(id);
-    if(lk) body=`<div class="cite">${esc(id)} · Field Book v1 lookup · ${esc(lk.nec_ref||"")}</div><h3>${esc(lk.question)}</h3>${themeDiagram(lk.question+" "+lk.answer_plain)}<p>${esc(lk.answer_plain)}</p>${lk.verified_by?`<span class="flag">Verified by ${esc(lk.verified_by)}${lk.verified_date? " · "+esc(lk.verified_date):""}</span>`:""}`;
-    else if(qz) body=`<div class="cite">${esc(id)} · Field Book v1 quiz · ${esc(qz.nec_ref||"")}</div><h3>${esc(qz.question)}</h3>${themeDiagram(qz.question+" "+qz.explain_plain)}<ul class="steps">${qz.choices.map((c,ix)=>`<li>${ix===qz.answer_index? "<b>✓ "+esc(c)+"</b>" : esc(c)}</li>`).join("")}</ul><p>${esc(qz.explain_plain)}</p>`;
-    else if(ck) body=`<div class="cite">${esc(id)} · Field Book v1 checklist · ${esc(ck.room)} · ${esc(ck.item.nec_ref||"")}</div><h3>${esc(ck.item.text)}</h3>`;
-    else if(sh) body=`<div class="cite">${esc(id)} · Sharma rule (v1 file)</div><h3>${esc(sh.text)}</h3><p>Applies: ${esc(sh.applies_when||"")} · ${esc(sh.overrides_or_adds||"")} · Source: ${esc(sh.source||"")}</p>`;
-    else body=`<div class="empty">Item ${esc(id)} not found in the v1 pack.</div>`;
-    view.innerHTML=`<h2 class="sec">Sharma NEC Field Book — linked item</h2><div class="card bkpage">${body}<div class="rowbtns"><button class="quizbtn" data-v1back="1">← Back to the book page</button></div></div>`;
-    return;
-  }
-  const ent = currentEntry();
-  if(!ent || !ent.book){ view.innerHTML=`<h2 class="sec">Sharma NEC Field Book</h2><div class="empty">Field Book chapter files not loaded yet.</div>`; return; }
-  const B = ent.book;
-  const pages = B.sections.length;
-  const unverified = B.sections.filter(s=>!s.verified).length;
-  const ckItems = (ent.checklists||[]).reduce((n,r)=>n+((r.items||[]).length),0);
-  const pr = chProgress(ent);
-  const picker = `<div class="progresswrap"><div class="plabel">Chapter ${B.chapter} progress: ${pr.done} of ${pr.total} lessons learned</div><div class="pbar"><div style="width:${pr.pct}%"></div></div></div>`;
-  const head=`<h2 class="sec">Learn — Chapter ${B.chapter}: ${esc(B.chapter_title)}</h2>`+
-    `<p class="bkmeta">${esc(CH_SUB[B.chapter]||"")} · ${pages} lessons in order · ${(ent.quiz||[]).length} practice questions · ${ckItems} checklist items${unverified?` · ${unverified} lesson${unverified===1?"":"s"} still marked unverified (shown on the lesson)`:""}</p>`+
-    picker+
-    `<div class="rowbtns"><button class="quizbtn" data-bookview="toc">Lessons in this chapter</button><button class="quizbtn" data-bookview="index">A–Z Index</button><button class="quizbtn" data-goto="home">All chapters</button></div>`+
-    `<p class="bkmeta">NEC ${esc(B.nec_edition)} · ${esc(B.jurisdiction)} · Master-audited Nov 2026</p>`;
-  if(bookState.view==="index"){
-    view.innerHTML = head + `<div class="card"><h3>Index</h3><ul class="bkindex">${B.index.map(en=>
-      `<li><b>${esc(en.term)}</b><br>${en.ids.map(id=>{ const s=bookSection(id); return s? `<button class="bkchip" data-bookpage="${id}">${esc(id.replace(/^C\d+-/,""))} — ${esc(s.title)}</button>` : relChip(id); }).join(" ")}</li>`).join("")}</ul></div>`;
-    return;
-  }
-  if(bookState.view==="page" && bookState.page){
-    const s=bookSection(bookState.page);
-    if(!s){ bookState={chapter:B.chapter,page:null,view:"toc"}; return renderBook(); }
-    const prev=s.prev_id? bookSection(s.prev_id):null, next=s.next_id? bookSection(s.next_id):null;
-    const pos=B.sections.findIndex(x=>x.id===s.id)+1;
-    const isDone=learned.has(s.id);
-    view.innerHTML = head + `<div class="card bkpage">
-      <div class="cite">Lesson ${pos} of ${B.sections.length} · Chapter ${B.chapter} · NEC ${esc(s.section)} (Article ${esc(s.article)})</div>
-      <h3>${esc(s.title)}</h3>
-      ${s.verified? `<span class="tag">VERIFIED</span>` : `<span class="flag">\u26a0 UNVERIFIED${s.unverified_reason? " — "+esc(s.unverified_reason):""}</span>`}
-      <h4>In plain words</h4>
-      ${themeDiagram(s.title+" "+s.plain_explanation+" "+(s.figure_idea||""))}
-      <p>${esc(s.plain_explanation)}</p>
-      ${s.on_the_job? `<h4>What it means on the job</h4><p>${esc(s.on_the_job)}</p>`:""}
-      ${s.sharma_note? `<h4>Sharma note</h4><p>${esc(s.sharma_note)}</p>`:""}
-      ${s.florida_note? `<h4>Florida note</h4><p>${esc(s.florida_note)}</p>`:""}
-      ${s.figure_idea? `<h4>Figure idea</h4><p class="bkfig">${esc(s.figure_idea)}</p>`:""}
-      ${(s.related_ids&&s.related_ids.length)? `<h4>Related</h4><div>${s.related_ids.map(id=>relChip(id)).join(" ")}</div>`:""}
-      <div class="rowbtns"><button class="learnbtn ${isDone?"done":""}" data-learn="${s.id}">${isDone?"✓ Learned — tap to undo":"✓ Mark as learned"}</button><button class="quizbtn" data-quizjump="1">Quiz me →</button></div>
-      <div class="bknav">
-        ${prev? `<button class="go" data-bookpage="${prev.id}">\u2190 Previous lesson</button>` : `<span class="bkmeta">Start of chapter</span>`}
-        ${next? `<button class="go" data-bookpage="${next.id}">Next lesson: ${esc(next.title)} \u2192</button>` : `<span class="bkmeta">End of chapter — nice work. Take the Chapter ${B.chapter} quiz under Practice.</span>`}
-      </div>
-      <div class="rowbtns"><button class="quizbtn" data-bookview="toc">All lessons in this chapter</button><button class="quizbtn" data-bookview="index">A–Z Index</button></div>
-    </div>`;
-    return;
-  }
-  const lessonRow=(id,secLabel,title)=>`<li><button class="lessonrow" data-bookpage="${id}"><span class="lcheck">${learned.has(id)?"✓":""}</span><span class="lsec">${esc(secLabel)}</span><span class="ltitle">${esc(title)}</span><span class="pathgo">›</span></button></li>`;
-  view.innerHTML = head + `<p class="bkmeta">Work down the list in order — tap a lesson to open it, mark it learned, then tap Next lesson. A ✓ means you finished it.</p>` + B.toc.map(a=>{
-    const isArt = a.article && a.article!==String(B.chapter);
-    return `<div class="card"><h3>${isArt? `Article ${esc(a.article)} — `:""}${esc(a.title)}</h3><ul class="bktoc">
-      ${lessonRow(a.id, isArt? "Intro":"Start", isArt? `About Article ${esc(a.article)}`:"Chapter introduction")}
-      ${a.children.map(c=>lessonRow(c.id, c.section, c.title)).join("")}
-    </ul></div>`; }).join("") +
-    `<div class="card"><div class="cite">Finished this chapter?</div><h3>Take the Chapter ${B.chapter} practice quiz</h3><p>80% to pass. Wrong answers explain why, in plain words.</p><button class="go" data-gotoquiz="ch${B.chapter}">Start Chapter ${B.chapter} quiz →</button></div>`;
+let __bookPromise = null;
+function ensureBook(){
+  if (window.renderBook) return Promise.resolve();
+  if (__bookPromise) return __bookPromise;
+  __bookPromise = new Promise(res=>{ const s = document.createElement("script"); s.src = "assets/book.js?v=14"; s.onload = ()=>res(); s.onerror = ()=>{ __bookPromise = null; res(); }; document.head.appendChild(s); });
+  return __bookPromise;
 }
 /* ---------- boot ---------- */
+const CHAP_DEFS = [
+  { book:"book/c1", lookup:"book/c1-lookup", quiz:"book/c1-quiz", checklists:"book/c1-checklists" },
+  { book:"book-c2", lookup:"book/c2-lookup", quiz:"book/c2-quiz", checklists:"book/c2-checklists" },
+  { book:"book/c3", lookup:"book/c3-lookup", quiz:"book/c3-quiz", checklists:"book/c3-checklists" },
+  { book:"book/c4", lookup:"book/c4-lookup", quiz:"book/c4-quiz", checklists:"book/c4-checklists" },
+  { book:"book/c5", lookup:"book/c5-lookup", quiz:"book/c5-quiz", checklists:"book/c5-checklists" },
+  { book:"book/c6", lookup:"book/c6-lookup", quiz:"book/c6-quiz", checklists:"book/c6-checklists" },
+  { book:"book/c7", lookup:"book/c7-lookup", quiz:"book/c7-quiz", checklists:"book/c7-checklists" },
+  { book:"book/c8", lookup:"book/c8-lookup", quiz:"book/c8-quiz", checklists:"book/c8-checklists" },
+  { book:"book/c9", lookup:"book/c9-lookup", quiz:"book/c9-quiz", checklists:"book/c9-checklists" }
+];
+const chapPromises = {};
+let allLoaded = false, allChaptersPromise = null, v1Promise = null;
+function lightEntry(ix){ return { book:{ chapter:ix.chapter, chapter_title:ix.chapter_title, nec_edition:ix.nec_edition||"", jurisdiction:ix.jurisdiction||"", sections:(ix.sections||[]).map(s=>({ id:s.id, title:s.title, section:s.section||"", chapter:s.chapter||ix.chapter, plain_explanation:"", on_the_job:"" })) }, lookup:[], quiz:[], checklists:[], _light:true, _quizCount:ix.quizCount||0, _ckCount:ix.ckCount||0 }; }
+function ensureChapter(n){
+  if (chapPromises[n]) return chapPromises[n];
+  const d = CHAP_DEFS[n-1]; if (!d) return Promise.resolve();
+  chapPromises[n] = Promise.all([loadJSON(d.book), loadJSON(d.lookup), loadJSON(d.quiz), loadJSON(d.checklists)]).then(([bk,bl,bq,bc])=>{
+    if (bk && bk.sections){ const i = DATA.books.findIndex(e=>e.book.chapter===n); if (i>=0) DATA.books[i] = { book:bk, lookup:bl||[], quiz:bq||[], checklists:bc||[] }; }
+  });
+  return chapPromises[n];
+}
+function ensureAllChapters(){ if (!allChaptersPromise) allChaptersPromise = Promise.all([1,2,3,4,5,6,7,8,9].map(ensureChapter)).then(()=>{ allLoaded = true; }); return allChaptersPromise; }
+function ensureV1(){ if (!v1Promise) v1Promise = Promise.all([loadJSON("v1/lookup"), loadJSON("v1/quiz"), loadJSON("v1/checklists"), loadJSON("v1/sharma-rules")]).then(([a,b,c,d])=>{ DATA.v1lookup=a||[]; DATA.v1quiz=b||[]; DATA.v1checklists=c||[]; DATA.v1sharma=d||[]; }); return v1Promise; }
+function startQuizSmart(bank, idx){
+  const need = bank==="all" ? ensureAllChapters() : (bank.indexOf("ch")===0 ? ensureChapter(parseInt(bank.slice(2),10)) : Promise.resolve());
+  need.then(()=>{ startQuiz(bank, idx); render(); });
+}
 (async()=>{
-  const [l,c,q,s,t,vl,vq,vc,vs] = await Promise.all([loadJSON("lookup"),loadJSON("checklists"),loadJSON("quiz"),loadJSON("sharma-rules"),loadJSON("calc-tables"),loadJSON("v1/lookup"),loadJSON("v1/quiz"),loadJSON("v1/checklists"),loadJSON("v1/sharma-rules")]);
-  const chapDefs = [
-    { book:"book/c1", lookup:"book/c1-lookup", quiz:"book/c1-quiz", checklists:"book/c1-checklists" },
-    { book:"book-c2", lookup:"book/c2-lookup", quiz:"book/c2-quiz", checklists:"book/c2-checklists" },
-    { book:"book/c3", lookup:"book/c3-lookup", quiz:"book/c3-quiz", checklists:"book/c3-checklists" },
-    { book:"book/c4", lookup:"book/c4-lookup", quiz:"book/c4-quiz", checklists:"book/c4-checklists" },
-    { book:"book/c5", lookup:"book/c5-lookup", quiz:"book/c5-quiz", checklists:"book/c5-checklists" },
-    { book:"book/c6", lookup:"book/c6-lookup", quiz:"book/c6-quiz", checklists:"book/c6-checklists" },
-    { book:"book/c7", lookup:"book/c7-lookup", quiz:"book/c7-quiz", checklists:"book/c7-checklists" },
-    { book:"book/c8", lookup:"book/c8-lookup", quiz:"book/c8-quiz", checklists:"book/c8-checklists" },
-    { book:"book/c9", lookup:"book/c9-lookup", quiz:"book/c9-quiz", checklists:"book/c9-checklists" }
-  ];
-  const books = [];
-  for(const d of chapDefs){
-    const [bk,bl,bq,bc] = await Promise.all([loadJSON(d.book),loadJSON(d.lookup),loadJSON(d.quiz),loadJSON(d.checklists)]);
-    if(bk && bk.sections) books.push({ book:bk, lookup:bl||[], quiz:bq||[], checklists:bc||[] });
-  }
+  const [l,c,q,s,t,ix] = await Promise.all([loadJSON("lookup"),loadJSON("checklists"),loadJSON("quiz"),loadJSON("sharma-rules"),loadJSON("calc-tables"),loadJSON("book-index")]);
+  const books = (ix||[]).map(lightEntry);
   books.sort((a,b)=>a.book.chapter-b.book.chapter);
   const first = books[0]||null;
-  DATA={lookup:l,checklists:c,quiz:q,sharma:s,tables:t||FALLBACK_TABLES,books:books,v1lookup:vl||[],v1quiz:vq||[],v1checklists:vc||[],v1sharma:vs||[],
-        book:first?first.book:null, bookLookup:first?first.lookup:[], bookQuiz:first?first.quiz:[], bookChecklists:first?first.checklists:[]};
-  render(); })();
+  DATA = { lookup:l, checklists:c, quiz:q, sharma:s, tables:t||null, books:books, v1lookup:[], v1quiz:[], v1checklists:[], v1sharma:[],
+        book:first?first.book:null, bookLookup:[], bookQuiz:[], bookChecklists:[] };
+  buildNav();
+  render();
+  ensureDiagrams();
+  setTimeout(()=>{ ensureBook(); }, 600);
+  if (document.readyState !== "complete") addEventListener("load", ()=>{ buildNav(); render(); });
+})();
