@@ -1,0 +1,32 @@
+/* Sharma macOS wide-screen look — NEC Code (2026-11-19, Sanjay's order).
+   Presentation only, viewport >= 960px: the app's existing kit tab bar
+   becomes a left source-list sidebar and the content widens to ~1100px
+   beside it. Below 960px nothing in this file applies — the phone look
+   is unchanged. Colours come from kit variables only, so the Appearance
+   switch (data-scheme="dark") keeps working. No content, data, link or
+   script changes. */
+@media (min-width:960px){
+  :root{--mac-side:238px}
+  /* sidebar: the existing kit tab bar, restyled as a source list */
+  .sk-tabbar{position:fixed;top:var(--sk-header-h,52px);bottom:0;left:0;right:auto;width:var(--mac-side);border-top:0;border-right:.5px solid var(--sk-line);background:var(--sk-surface-2);padding:14px 10px;z-index:39}
+  .sk-tabbar__inner{display:flex;flex-direction:column;gap:2px;max-width:none;margin:0;height:auto}
+  .sk-tab{flex-direction:row;justify-content:flex-start;gap:10px;padding:0 12px;min-height:36px;border-radius:8px;font-size:14px;color:var(--sk-text-2)}
+  [data-scheme="dark"] .sk-tab{color:var(--sk-text-2)}
+  .sk-tab .sk-icon{width:20px;height:20px;flex:0 0 auto}
+  .sk .sk-tab:hover{background:var(--sk-fill-2)}
+  .sk .sk-tab[aria-current="page"],.sk .sk-tab.is-on{background:var(--sk-brand);color:var(--sk-on-brand,#fff)}
+  .sk .sk-tab[aria-current="page"]:hover,.sk .sk-tab.is-on:hover{background:var(--sk-brand)}
+  /* the bottom tab bar is gone on wide screens, so its body padding goes too */
+  body.sk{padding-bottom:0}
+  /* header contents line up with the widened content column */
+  .sk-header__bar{max-width:1100px;margin-left:calc(var(--mac-side) + 14px);margin-right:auto}
+  .sk-row:hover{background:var(--sk-fill-2)}
+  ::selection{background:rgba(38,67,135,.16)}
+  /* content column: the SK.stack view shifts right of the sidebar;
+     stack behaviour (pushes, browser back) is untouched */
+  .sk-stackview{left:var(--mac-side)}
+  .sk-page__body{max-width:1100px;margin-left:auto;margin-right:auto}
+  .searchbar{margin-left:var(--mac-side);margin-right:auto;max-width:1100px}
+  .foot{margin-left:var(--mac-side)}
+  .card:hover{border-color:var(--sk-tint)}
+}
