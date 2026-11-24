@@ -494,7 +494,7 @@
       "article": "800",
       "section": "800.154",
       "title": "Where each cable type may be used — the application tables",
-      "plain_explanation": "The tables in this section are the permission slip for cable types. One table matches listed communications cables and raceways against the places they may be installed — plenums, risers, general use, dwellings — and and the coaxial cable types used under Article 820 have their own application table, Table 820.154. A higher-rated cable may substitute for a lower one down the ladder; a lower-rated cable may never substitute upward. Plenum cable sits at the top of the ladder, then riser, then general-purpose, then the limited-use dwelling type.",
+      "plain_explanation": "The tables in this section are the permission slip for cable types. One table matches listed communications cables and raceways against the places they may be installed — plenums, risers, general use, dwellings — and the coaxial cable types used under Article 820 have their own application table, Table 820.154. A higher-rated cable may substitute for a lower one down the ladder; a lower-rated cable may never substitute upward. Plenum cable sits at the top of the ladder, then riser, then general-purpose, then the limited-use dwelling type.",
       "on_the_job": "When a supplier substitutes cable, check the jacket legend against the space, not against the purchase order. CMP can go almost anywhere communications cable can go; CMX cannot leave its dwelling lane. The substitution ladder is in the figure that accompanies this section in the printed book — use it rather than memory when a job mixes types.",
       "sharma_note": "",
       "figure_idea": "",
@@ -503,7 +503,7 @@
         "C8-Q-016"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C8-800.133(A)(2)",
       "next_id": "C8-800.179",
       "sharma_rule_ids": []
@@ -868,7 +868,7 @@
       "article": "820",
       "section": "820.93",
       "title": "Grounding the coax shield at the point of entrance",
-      "plain_explanation": "The outer conductive shield of a coaxial cable supplied to a building must be grounded as close as practicable to the point where the cable enters, following the conductor rules of 820.100. The grounding connection can be made where the cable terminates outside the building or just inside it — the point of entrance can effectively be extended by a grounded metal raceway — but 'as close as practicable' is the standard either way. A coax shield left floating at a house is the single most common Chapter 8 defect in residential work.",
+      "plain_explanation": "The outer conductive shield of a coaxial cable supplied to a building must be grounded as close as practicable to the point where the cable enters, following the conductor rules of 820.100. The grounding connection can be made where the cable terminates outside the building or just inside it — the point of entrance can effectively be extended by a grounded metal raceway — but 'as close as practicable' is the standard either way. A coax shield left floating at a house is the single most common Chapter 8 defect in residential work.\n\nThe conductor rules it points to are spelled out on the next page (820.100): not smaller than 14 AWG, never required to be larger than 6 AWG, and at a one- or two-family dwelling not longer than 20 ft — the chapter's standard entrance numbers, so a coax bond is checked with the same tape measure as a telephone bond.",
       "on_the_job": "Find the grounding block before trim-out and verify the bond is actually landed, at the service or another 820.100 point — a block screwed to the wall with an empty ground lug is a fail waiting for a surge. Keep the bond conductor short; the entrance is not the place for a scenic route.",
       "sharma_note": "",
       "figure_idea": "An exterior wall detail: coax drop, grounding block at the entrance, and a short bonding conductor to the intersystem bonding termination.",
@@ -878,7 +878,7 @@
         "L-060"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C8-ART-820",
       "next_id": "C8-820.100",
       "sharma_rule_ids": []
@@ -1025,7 +1025,7 @@
       "article": "840",
       "section": "840",
       "title": "Article 840 — Premises-powered broadband systems",
-      "plain_explanation": "Article 840 covers broadband systems where the power is supplied at the premises instead of by the network — the classic case is fiber arriving at an optical network terminal that plugs into a local receptacle. The fiber itself carries no metallic path and no power, which changes the entrance picture: there is no outside metallic shield arriving on glass, and the protection focus shifts to any metallic members that do enter and to the terminal equipment at the premises. Article 840 works with the optical fiber rules of Article 770 in Chapter 7 for the fiber cable itself, and sends its grounding questions to the Chapter 8 pattern in the protector rules at 805.90 and the entrance bonding and grounding rules at 800.100 as the specific sections direct. It is the shortest article in the chapter and, for Sharma, mostly a fiber-to-the-home entrance on new custom work.",
+      "plain_explanation": "Article 840 covers broadband systems where the power is supplied at the premises instead of by the network — the classic case is fiber arriving at an optical network terminal that plugs into a local receptacle. The fiber itself carries no metallic path and no power, which changes the entrance picture: there is no outside metallic shield arriving on glass, and the protection focus shifts to any metallic members that do enter and to the terminal equipment at the premises. Article 840 works with the optical fiber rules of Article 770 in Chapter 7 for the fiber cable itself, and sends its grounding questions to the Chapter 8 pattern in the protector rules at 805.90 and the entrance bonding and grounding rules at 800.100 as the specific sections direct. It is the shortest article in the chapter and, for Sharma, mostly a fiber-to-the-home entrance on new custom work.\n\nOne census note, so nobody hunts for pages that do not exist: in NEC 2020 this chapter ends here. Chapter 8 has exactly six articles — 800, 805, 810, 820, 830 and 840 — and the article numbers 850 through 890 are not assigned in the 2020 edition. Optical fiber cable rules are not in this chapter at all in 2020; they live in Article 770 in Chapter 7. If a study aid or a newer book lists communications articles above 840, it is describing a different edition, and its section numbers will not match this one.",
       "on_the_job": "On a fiber entrance, find what is actually metallic: a metallic strength member, a locate wire, or a hybrid cable changes the grounding answer, while pure dielectric fiber does not get a bond it does not need. The ONT still needs its premises power planned — a receptacle at the right place is Sharma's scope even when the fiber is not.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1033,7 +1033,7 @@
         "C8-L-044"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C8-830.100",
       "next_id": "C8-840.93",
       "sharma_rule_ids": []
@@ -1044,7 +1044,7 @@
       "article": "840",
       "section": "840.93",
       "title": "Grounding at a premises-powered broadband entrance",
-      "plain_explanation": "Where a premises-powered broadband cable arriving at a building has metallic members that require grounding — a metallic shield, strength member, or similar conductive part — those members are grounded following the chapter's entrance-grounding pattern, as close as practicable to the point of entrance. The rule exists for the hybrid and metallic-bearing entrance cables, not for dielectric fiber, which has nothing conductive to ground. Grounding follows the conductor and landing-point rules the article references back into the general Chapter 8 framework.",
+      "plain_explanation": "Where a premises-powered broadband cable arriving at a building has metallic members that require grounding — a metallic shield, strength member, or similar conductive part — those members are grounded following the chapter's entrance-grounding pattern, as close as practicable to the point of entrance. The rule exists for the hybrid and metallic-bearing entrance cables, not for dielectric fiber, which has nothing conductive to ground. Grounding follows the conductor and landing-point rules the article references back into the general Chapter 8 framework.\n\nThe conductor behind that bond is the chapter's standard one, from the 800.100 recipe this article works through: copper or another corrosion-resistant conductive material, not smaller than 14 AWG and never required to be larger than 6 AWG, run as short as practicable — and at a one- or two-family dwelling not over 20 ft, with the separate-electrode route and its 6 AWG bond back to the power grounding electrode system (800.100(D)) when that length cannot be met. Same numbers as the telephone and coax entrances, applied here to the metallic members that actually exist.",
       "on_the_job": "Inspect the actual cable construction before deciding there is nothing to bond. If the entrance cable carries a metallic member, bond it at the entrance like every other system in this chapter. If it is all-dielectric, say so on the job record instead of leaving the next crew to guess why there is no bond.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1053,7 +1053,7 @@
         "C8-Q-031"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C8-ART-840",
       "next_id": null,
       "sharma_rule_ids": []

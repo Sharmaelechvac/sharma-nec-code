@@ -123,8 +123,28 @@
       "florida_note": "NEC 300.5(D)(3) itself requires a warning ribbon — that part is code, not local preference — but only for underground service conductors that are not encased in concrete and are buried 18 in or more below grade: their location must be identified by a warning ribbon placed in the trench at least 12 in above the underground installation. The NEC does not impose that ribbon rule on ordinary feeders and branch circuits. Local AHJs may add bedding or tape requirements beyond it — confirm at permit, and do not assume the table is the whole job.",
       "verified": true,
       "prev_id": "C3-300.4(G)",
-      "next_id": "C3-300.11",
+      "next_id": "C3-300.7",
       "chapter": 3
+    },
+    {
+      "id": "C3-300.7",
+      "chapter": 3,
+      "article": "300",
+      "section": "300.7",
+      "title": "Sealing raceways that pass between different temperatures",
+      "plain_explanation": "Where part of a raceway sits at a much lower temperature than another part — a run from a warm building into a cold-storage room is the textbook case — the warmer air inside the raceway circulates into the cold part and its moisture condenses there, wetting conductors that were installed dry. This section requires the raceway to be filled with an approved sealing material at the temperature boundary, to stop that air circulation. It is a condensation seal, not a waterproofing seal: the separate rule for sealing a raceway so moisture cannot reach live parts is 300.5(G), and explosionproof sealing fittings are a hazardous-location subject in Article 501, not this section.",
+      "on_the_job": "The Florida case is any conduit that leaves a hot attic or a sun-baked exterior wall and enters an air-conditioned space or a walk-in cooler: put the duct seal in the run where the temperature changes, on the warm side of the boundary, before the conductors are pulled or as the section's method directs. A run that drips at the panel in August is usually this rule, missed.",
+      "sharma_note": "",
+      "figure_idea": "A conduit crossing a wall from a sunlit exterior into a cooler interior, with a seal drawn inside the conduit at the wall line and condensation drops shown on the unsealed version beside it.",
+      "related_ids": [
+        "C3-300.5",
+        "C3-ART-300"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-300.5",
+      "next_id": "C3-300.11",
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-300.11",
@@ -140,7 +160,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-300.5",
+      "prev_id": "C3-300.7",
       "next_id": "C3-300.14",
       "chapter": 3
     },
@@ -258,7 +278,7 @@
       "article": "310",
       "section": "310.12",
       "title": "The dwelling 83% rule for services and whole-load feeders",
-      "plain_explanation": "For a single-phase dwelling service rated 100A through 400A that carries the entire load of the house, the service conductors may be sized at 83% of the service rating instead of the full Table 310.16 ampacity. The same idea applies to a feeder that carries the entire dwelling load, such as the feeder from an outside meter-main to the inside main panel. It does not apply to a partial-load feeder, and it does not apply when temperature correction or bundling adjustment is in play.",
+      "plain_explanation": "For a single-phase dwelling service rated 100A through 400A that carries the entire load of the house, the service conductors may be sized at 83% of the service rating instead of the full Table 310.16 ampacity. The same idea applies to a feeder that carries the entire dwelling load, such as the feeder from an outside meter-main to the inside main panel. It does not apply to a partial-load feeder, and it does not apply when temperature correction or bundling adjustment is in play.\n\nTable 310.12 in full — the service or whole-load feeder rating, then the conductor it permits:\n• 100A — 4 AWG copper / 2 AWG aluminum\n• 110A — 3 AWG copper / 1 AWG aluminum\n• 125A — 2 AWG copper / 1/0 aluminum\n• 150A — 1 AWG copper / 2/0 aluminum\n• 175A — 1/0 copper / 3/0 aluminum\n• 200A — 2/0 copper / 4/0 aluminum\n• 225A — 3/0 copper / 250 kcmil aluminum\n• 250A — 4/0 copper / 300 kcmil aluminum\n• 300A — 250 kcmil copper / 350 kcmil aluminum\n• 350A — 350 kcmil copper / 500 kcmil aluminum\n• 400A — 400 kcmil copper / 600 kcmil aluminum",
       "on_the_job": "The pair Sharma uses daily: a 200A house service is 2/0 copper or 4/0 aluminum when this rule applies. A feeder to a garage subpanel that carries only part of the house load gets sized at full value from Table 310.16 — no 83%.",
       "sharma_note": "",
       "figure_idea": "One-line of a house: meter-main outside, main panel inside, the feeder between them labeled 'whole load — 83% can apply'; a second feeder to a garage labeled 'partial load — full size'.",
@@ -271,7 +291,7 @@
         "C3-L-008"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-310",
       "next_id": "C3-310.15",
       "chapter": 3
@@ -281,8 +301,8 @@
       "article": "310",
       "section": "310.15",
       "title": "Ampacity correction (temperature) and adjustment (bundling)",
-      "plain_explanation": "Table 310.16 assumes no more than three current-carrying conductors together and a 30°C (86°F) surrounding temperature. When reality is hotter, or more conductors share a raceway or cable, the ampacity goes down: an ambient correction factor for temperature, and an adjustment factor for the count of current-carrying conductors — 80% for 4 to 6, 70% for 7 to 9, 50% for 10 to 20, 45% for 21 to 30, 40% for 31 to 40, and 35% for 41 or more. Equipment grounding conductors do not count, and a neutral that carries only the unbalanced load of its circuit usually does not count either. You may start the math from the conductor's insulation rating (for example the 90°C column for THHN or NM conductors) as long as the final number does not exceed what the termination column and the method's own limit allow.",
-      "on_the_job": "Count current-carrying conductors honestly on a home-run bundle: three 12/2 NM cables bundled over 24 in is six current-carrying conductors, not three circuits at full ampacity. Hot Florida attics are the ambient case Sharma hits most — see the attic tip AH-07, whose 310.15(B)(1) citation Mike should re-check against the 2020 numbering.",
+      "plain_explanation": "Table 310.16 assumes no more than three current-carrying conductors together and a 30°C (86°F) surrounding temperature. When reality is hotter, or more conductors share a raceway or cable, the ampacity goes down: an ambient correction factor for temperature, and an adjustment factor for the count of current-carrying conductors — 80% for 4 to 6, 70% for 7 to 9, 50% for 10 to 20, 45% for 21 to 30, 40% for 31 to 40, and 35% for 41 or more. Equipment grounding conductors do not count, and a neutral that carries only the unbalanced load of its circuit usually does not count either. You may start the math from the conductor's insulation rating (for example the 90°C column for THHN or NM conductors) as long as the final number does not exceed what the termination column and the method's own limit allow.\n\nThe ambient correction factors themselves (Table 310.15(B)(1)), for the temperature bands above the 30°C base:\n• At 36–40°C — 0.82 for a 60°C conductor, 0.88 for 75°C, 0.91 for 90°C\n• At 41–45°C — 0.71 / 0.82 / 0.87\n• At 46–50°C — 0.58 / 0.75 / 0.82\n• At 51–55°C — 0.41 / 0.67 / 0.76\n• At 56–60°C — the 60°C column no longer corrects (shown as — in the table) / 0.58 / 0.71\n• At 61–70°C — — / 0.33 / 0.58\nWhere both apply, the two factors multiply: a bundled run in a hot attic takes the count factor and the temperature factor together.",
+      "on_the_job": "Count current-carrying conductors honestly on a home-run bundle: three 12/2 NM cables bundled over 24 in is six current-carrying conductors, not three circuits at full ampacity. Hot Florida attics are the ambient case Sharma hits most — see the attic tip AH-07, whose 310.15(B)(1) citation Mike should re-check against the 2020 numbering.\n\nWorked example: 12 AWG THHN starts at 30A in the 90°C column. In a 50°C attic the correction is 0.82, giving 24.6A — still enough for its 20A breaker. Run as NM cable, the same conductor is capped at its 60°C table value of 20A before the 240.4(D) cap is even reached, so a single attic circuit rarely changes; a bundle of home runs, where the count factor stacks on the temperature factor, is where the answer moves.",
       "sharma_note": "",
       "figure_idea": "Bar chart: one raceway at 3, 6 and 9 current-carrying conductors with the 100%, 80% and 70% factors marked.",
       "related_ids": [
@@ -293,7 +313,7 @@
         "C3-L-010"
       ],
       "florida_note": "Florida attics routinely run far above 30°C in summer; that is a design condition here, not an edge case.",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-310.12",
       "next_id": "C3-310.16",
       "chapter": 3
@@ -303,7 +323,7 @@
       "article": "310",
       "section": "310.16",
       "title": "Table 310.16 — how to read the ampacity table",
-      "plain_explanation": "Table 310.16 gives the allowable ampacity of an insulated conductor by size, material and temperature column: 60°C, 75°C and 90°C, for copper on the left and for aluminum and copper-clad aluminum together on the right. Read it in four steps. One, find the size. Two, pick the material column — CCA is read in the aluminum columns, never the copper columns. Three, pick the temperature column your terminations allow under 110.14(C); most house equipment is 75°C, and the 90°C column is mainly a starting point for correction and adjustment. Four, apply 310.15, then check the small-conductor caps in 240.4(D): copper 14/12/10 AWG is capped at 15/20/30A, and aluminum/CCA 12/10 AWG is capped at 15/25A, no matter what the table row says.",
+      "plain_explanation": "Table 310.16 gives the allowable ampacity of an insulated conductor by size, material and temperature column: 60°C, 75°C and 90°C, for copper on the left and for aluminum and copper-clad aluminum together on the right. Read it in four steps. One, find the size. Two, pick the material column — CCA is read in the aluminum columns, never the copper columns. Three, pick the temperature column your terminations allow under 110.14(C); most house equipment is 75°C, and the 90°C column is mainly a starting point for correction and adjustment. Four, apply 310.15, then check the small-conductor caps in 240.4(D): copper 14/12/10 AWG is capped at 15/20/30A, and aluminum/CCA 12/10 AWG is capped at 15/25A, no matter what the table row says.\n\nThe rows Sharma reads daily, stated as 60°C / 75°C / 90°C. Copper:\n• 14 AWG — 15 / 20 / 25 A\n• 12 AWG — 20 / 25 / 30 A\n• 10 AWG — 30 / 35 / 40 A\n• 8 AWG — 40 / 50 / 55 A\n• 6 AWG — 55 / 65 / 75 A\n• 4 AWG — 70 / 85 / 95 A\n• 3 AWG — 85 / 100 / 115 A\n• 2 AWG — 95 / 115 / 130 A\n• 1/0 AWG — 125 / 150 / 170 A\n• 2/0 AWG — 145 / 175 / 195 A\n• 3/0 AWG — 165 / 200 / 225 A\n• 4/0 AWG — 195 / 230 / 260 A\n• 250 kcmil — 215 / 255 / 290 A\nAluminum and copper-clad aluminum, same format:\n• 12 AWG — 15 / 20 / 25 A\n• 10 AWG — 25 / 30 / 35 A\n• 8 AWG — 30 / 40 / 45 A\n• 6 AWG — 40 / 50 / 60 A\n• 4 AWG — 55 / 65 / 75 A\n• 2 AWG — 75 / 90 / 100 A\n• 1/0 AWG — 100 / 120 / 135 A\n• 2/0 AWG — 115 / 135 / 150 A\n• 3/0 AWG — 130 / 155 / 175 A\n• 4/0 AWG — 150 / 180 / 205 A\n• 250 kcmil — 170 / 205 / 230 A\nThese are table values before 310.15 correction and adjustment, and before the 240.4(D) small-conductor caps — the caps, not the 90°C column, set the breaker on small conductors.",
       "on_the_job": "Worked reads from the v1 table: 12 AWG copper is 20/25/30A at 60/75/90°C. 12 AWG CCA is 15/20/25A in the aluminum columns — and 240.4(D) caps it at a 15A breaker. 10 AWG CCA is 25/30/35A, capped at 25A. That one-column shift is exactly why a CCA circuit goes one size up from copper for the same breaker.",
       "sharma_note": "S-10: branch circuits are copper by default — 14 AWG on 15A, 12 AWG on 20A. When CCA is used, go one AWG larger (12 on 15A, 10 on 20A) because Table 310.16 rates CCA in the aluminum column. Terminations must be marked for the conductor (110.14); wire connectors and lugs need AL-CU / CU-AL marking, CU-only connectors are not rated for CCA, and push-in terminals are 14 AWG solid copper only. Never backstab. The microwave circuit wire is PENDING under S-06 (12 AWG copper versus 10 AWG CCA).",
       "figure_idea": "A printed Table 310.16 excerpt with the 12 AWG and 10 AWG rows highlighted, an arrow from 'CCA' into the aluminum columns, and the 240.4(D) caps written under the rows.",
@@ -319,7 +339,7 @@
         "C3-Q-006"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [
         "S-10"
       ],
@@ -405,7 +425,7 @@
       "article": "312",
       "section": "312.6",
       "title": "Conductor bending and deflection space in enclosures",
-      "plain_explanation": "Large conductors cannot be bent around a thumb. This section sets the minimum space inside cabinets, cutout boxes and meter enclosures for conductors to deflect and bend where they enter and land — figured from tables in the section by conductor size, number of conductors per terminal, and whether the conductor turns or runs straight through. An enclosure can be big enough on the wall and still be too small for the 4/0 or 250 kcmil that has to land in it.",
+      "plain_explanation": "Large conductors cannot be bent around a thumb. This section sets the minimum space inside cabinets, cutout boxes and meter enclosures for conductors to deflect and bend where they enter and land — figured from tables in the section by conductor size, number of conductors per terminal, and whether the conductor turns or runs straight through. An enclosure can be big enough on the wall and still be too small for the 4/0 or 250 kcmil that has to land in it.\n\nWorking values from Table 312.6(B) — minimum wire-bending space at terminals, one conductor per terminal:\n• 4/0 AWG — 5-1/2 in\n• 250 kcmil — 6 in\n• 300 kcmil — 6-1/2 in\n• 350 kcmil — 7 in\n• 400 kcmil — 8 in\n• 500 kcmil — 8 in\n• 600 kcmil — 9 in\n• 750 kcmil — 10 in\n• 1000 kcmil — 12 in\nTwo conductors landing on one terminal need more than the one-conductor figure — the table's next columns. Deflection space for conductors that enter and turn inside the gutter is Table 312.6(A), figured separately.",
       "on_the_job": "Size the enclosure from the conductor, not the wall space: check the bending-space table for the largest conductor and the entry direction (top, bottom, side) before the gear is ordered. Forcing a feeder into too-tight a bend is damaged insulation and a failed inspection in one move.",
       "sharma_note": "",
       "figure_idea": "Panel interior with a large feeder conductor bending from a bottom entry to its lug, the required bending space shaded and dimensioned from the section's table (values left to the table, not restated).",
@@ -413,7 +433,7 @@
         "C3-ART-312"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-312",
       "next_id": "C3-312.8",
       "chapter": 3
@@ -463,7 +483,7 @@
       "article": "314",
       "section": "314.16",
       "title": "Box fill — volume, allowances and counting",
-      "plain_explanation": "A box may not be filled past its volume. Start with the box volume: for a standard metal box use Table 314.16(A); for a nonmetallic or marked box use the volume marked on the box itself. Then charge the contents using Table 314.16(B) allowances — 2.00 cu in for each 14 AWG, 2.25 for each 12 AWG, 2.50 for each 10 AWG. The counting rules in 314.16(B)(1) through (5) decide how many allowances each thing costs — including the 2020 grounds rule on the next page (up to four grounds count once, each one past four adds a quarter) — and the total charge may not exceed the box volume.",
+      "plain_explanation": "A box may not be filled past its volume. Start with the box volume: for a standard metal box use Table 314.16(A); for a nonmetallic or marked box use the volume marked on the box itself. Then charge the contents using Table 314.16(B) allowances — 2.00 cu in for each 14 AWG, 2.25 for each 12 AWG, 2.50 for each 10 AWG. The counting rules in 314.16(B)(1) through (5) decide how many allowances each thing costs — including the 2020 grounds rule on the next page (up to four grounds count once, each one past four adds a quarter) — and the total charge may not exceed the box volume.\n\nBox volumes from Table 314.16(A) for the boxes Sharma stocks:\n• 4 in square × 1-1/2 in deep — 21.0 cu in\n• 4 in square × 2-1/8 in deep — 30.3 cu in\n• 4-11/16 in square × 1-1/2 in deep — 25.5 cu in\n• 4-11/16 in square × 2-1/8 in deep — 42.0 cu in\n• 4 in octagonal × 1-1/4 in deep — 12.5 cu in\n• 4 in octagonal × 1-1/2 in deep — 15.0 cu in\n• 4 in octagonal × 2-1/8 in deep — 21.5 cu in\nA plaster ring or extension ring marked with its volume adds that volume; an unmarked one adds nothing you may count.",
       "on_the_job": "The five counts, in field order: (1) each conductor that enters from outside and ends or is spliced in the box counts once, and a conductor that passes through unbroken also counts once, while a short pigtail that starts and ends in the box counts zero; (2) [see the (B) page for the full list in order]. Worked example from the v1 tables: a 4 x 1-1/2 square box is 21.0 cu in. Three 12/2 NM cables, one receptacle and internal clamps charge 6 conductors x 2.25 = 13.50, grounds 2.25, device yoke 4.50, clamps 2.25 — total 22.50 cu in. It fails. The 4 x 2-1/8 square at 30.3 cu in passes.",
       "sharma_note": "Box height on the wall is not a 314 rule — Sharma S-04 (receptacles 18 in to the bottom of the box, plan silent) and S-05 (switches 48 in to center) govern placement; 314 governs whether the box you placed is big enough and set right.",
       "figure_idea": "Worksheet-style figure: left side a box volume stamp '30.3 cu in', right side a tally list adding to 22.50, with a green check.",
@@ -482,7 +502,7 @@
         "C3-Q-003"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-314",
       "next_id": "C3-314.16(B)",
       "chapter": 3
@@ -711,7 +731,7 @@
       "article": "330",
       "section": "330",
       "title": "Metal-clad cable — Type MC",
-      "plain_explanation": "Type MC is a factory assembly of insulated conductors inside a metal sheath — smooth, corrugated or interlocked armor — with its own equipment grounding arrangement. It is the commercial counterpart to NM: it can be used exposed or concealed, in dry locations and the other locations its listing allows, fished in existing walls, and run where NM cannot go, such as many commercial ceilings and walls. It may not be used where it will be subject to physical damage, in wet locations unless the specific cable is listed for it, or in the other prohibited uses its article lists.",
+      "plain_explanation": "Type MC is a factory assembly of insulated conductors inside a metal sheath — smooth, corrugated or interlocked armor — with its own equipment grounding arrangement. It is the commercial counterpart to NM: it can be used exposed or concealed, in dry locations and the other locations its listing allows, fished in existing walls, and run where NM cannot go, such as many commercial ceilings and walls. It may not be used where it will be subject to physical damage, in wet locations unless the specific cable is listed for it, or in the other prohibited uses its article lists.\n\nThe support numbers (330.30): MC must be secured within 12 in of every box, cabinet, and fitting, and supported at intervals not exceeding 6 ft. Short lengths to luminaires and fished runs in existing walls have their own exceptions in that section — the 12 in and 6 ft figures are the default rhythm.",
       "on_the_job": "Cut MC with the right tool and use listed MC connectors — a Romex connector is not an MC connector. Support and securing follow 330.30 (see the companion lookup), with the familiar pattern of securing close to boxes and supporting at regular intervals, plus exceptions for fished runs and short lengths to luminaires.",
       "sharma_note": "S-01 applies on commercial work, where MC is most used: 20A minimum branch circuits, 12 AWG copper minimum.",
       "figure_idea": "MC cable run across commercial studs with a listed connector at a 4-square box, armor and green ground shown.",
@@ -721,7 +741,7 @@
         "S-01"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [
         "S-01"
       ],
@@ -1007,7 +1027,7 @@
       "article": "342",
       "section": "342",
       "title": "Intermediate metal conduit — IMC",
-      "plain_explanation": "IMC is the middle-weight steel raceway: thinner wall than rigid metal conduit, heavier and stronger than EMT, threaded like RMC and usable in most of the same places, including many wet and exposed locations with the right fittings. Sharma meets it mainly on commercial and service work where EMT is not tough enough and full rigid is not needed.",
+      "plain_explanation": "IMC is the middle-weight steel raceway: thinner wall than rigid metal conduit, heavier and stronger than EMT, threaded like RMC and usable in most of the same places, including many wet and exposed locations with the right fittings. Sharma meets it mainly on commercial and service work where EMT is not tough enough and full rigid is not needed.\n\nThe support numbers (342.30): IMC must be fastened within 3 ft of each box, cabinet, conduit body, or other termination. For straight runs, Table 342.30(B)(2) spaces supports by size:\n• 1/2 in and 3/4 in — every 10 ft\n• 1 in — every 12 ft\n• 1-1/4 in and 1-1/2 in — every 14 ft\n• 2 in — every 16 ft\n• 2-1/2 in and larger — every 20 ft",
       "on_the_job": "One trade size note that matters in the field: IMC and RMC share the same outside diameter, but IMC's thinner wall gives it a larger inside area, so its Chapter 9, Table 4 fill values are its own — do not use the RMC row for an IMC run. Link to Chapter 9 for the actual numbers; do not re-derive them here.",
       "sharma_note": "",
       "figure_idea": "Three short raceway stubs side by side — EMT, IMC, RMC — wall thickness shown in cross-section.",
@@ -1016,7 +1036,7 @@
         "C3-L-034"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-340",
       "next_id": "C3-ART-344",
       "chapter": 3
@@ -1026,7 +1046,7 @@
       "article": "344",
       "section": "344",
       "title": "Rigid metal conduit — RMC",
-      "plain_explanation": "RMC is the heavy-wall threaded steel raceway — the toughest common raceway in this chapter. It may be used in nearly every location, including underground (where its 6 in cover in the general open-ground row of Table 300.5 is the payoff for its strength. Under a one- or two-family dwelling driveway that same rigid metal conduit needs 18 in, the same as PVC and direct-burial cable. Streets, roads, and other driveways and parking lots demand 24 in for every method), wet locations, and places subject to physical damage, with fittings and supports made for it. Underground, corrosion protection and the soil conditions govern how long it lasts.",
+      "plain_explanation": "RMC is the heavy-wall threaded steel raceway — the toughest common raceway in this chapter. It may be used in nearly every location, including underground (where its 6 in cover in the general open-ground row of Table 300.5 is the payoff for its strength. Under a one- or two-family dwelling driveway that same rigid metal conduit needs 18 in, the same as PVC and direct-burial cable. Streets, roads, and other driveways and parking lots demand 24 in for every method), wet locations, and places subject to physical damage, with fittings and supports made for it. Underground, corrosion protection and the soil conditions govern how long it lasts.\n\nThe support numbers (344.30): RMC must be fastened within 3 ft of each box, cabinet, conduit body, or other termination — with the section's allowances where threaded couplings make that impractical. For straight runs, Table 344.30(B)(2) spaces supports by size:\n• 1/2 in and 3/4 in — every 10 ft\n• 1 in — every 12 ft\n• 1-1/4 in and 1-1/2 in — every 14 ft\n• 2 in — every 16 ft\n• 2-1/2 in and larger — every 20 ft",
       "on_the_job": "The 6 in burial depth is why RMC still earns its cost in open ground and in shallow-rock trenches that are not under a driveway. It is not a 6 in depth under a one- or two-family dwelling driveway — that row is 18 in for RMC and for PVC. Under streets, roads, alleys, and other driveways or parking lots, Table 300.5 requires 24 in of cover for every method, RMC included.",
       "sharma_note": "",
       "figure_idea": "Open-ground cross-section: RMC at 6 in beside a PVC run at 18 in. A one- or two-family dwelling driveway is a different Table 300.5 row — 18 in for both.",
@@ -1036,7 +1056,7 @@
         "C3-L-035"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-342",
       "next_id": "C3-ART-348",
       "chapter": 3
@@ -1082,7 +1102,7 @@
       "article": "352",
       "section": "352",
       "title": "Rigid polyvinyl chloride conduit — PVC",
-      "plain_explanation": "PVC is the nonmetallic rigid raceway Sharma uses underground and in wet and corrosive spots: services and feeders in the yard, pool-area runs, and sleeves. Schedule 40 is the standard wall; Schedule 80 is the heavier wall used where the run is exposed to physical damage. PVC may not be used where ambient or conductor heat will exceed its temperature rating, in the hazardous and theater-type locations its article bars, or as a support for fixtures and equipment hanging off it. Underground cover for PVC is 18 in in the general Table 300.5 case. Two field behaviors define the method: it expands and contracts a lot with temperature, and its joints are solvent-welded, not threaded (except at listed threaded fittings and adapters). PVC is nonmetallic, so the raceway itself is never the ground path — an equipment grounding conductor goes in the run where one is required.",
+      "plain_explanation": "PVC is the nonmetallic rigid raceway Sharma uses underground and in wet and corrosive spots: services and feeders in the yard, pool-area runs, and sleeves. Schedule 40 is the standard wall; Schedule 80 is the heavier wall used where the run is exposed to physical damage. PVC may not be used where ambient or conductor heat will exceed its temperature rating, in the hazardous and theater-type locations its article bars, or as a support for fixtures and equipment hanging off it. Underground cover for PVC is 18 in in the general Table 300.5 case. Two field behaviors define the method: it expands and contracts a lot with temperature, and its joints are solvent-welded, not threaded (except at listed threaded fittings and adapters). PVC is nonmetallic, so the raceway itself is never the ground path — an equipment grounding conductor goes in the run where one is required.\n\nThe support numbers (Table 352.30) — PVC is supported far more often than metal raceway, because it sags:\n• 1/2 in through 1 in — every 3 ft\n• 1-1/4 in through 2 in — every 5 ft\n• 2-1/2 in through 3 in — every 6 ft\n• 3-1/2 in through 5 in — every 7 ft\n• 6 in — every 8 ft\nAnd the expansion numbers (Table 352.44): a 100 ft run of PVC changes length about 2 in with a 50°F temperature swing, and about 4.1 in with a 100°F swing. An expansion fitting is required where the expected change in length reaches 1/4 in — a threshold a short exposed Florida riser can cross between a winter morning and a summer afternoon.",
       "on_the_job": "Expansion is the inspection item apprentices forget: a long straight run in Florida sun moves. Where the expected length change reaches 1/4 in, an expansion fitting belongs in the run — the exact trigger and the movement math are flagged for Mike's check in the companion lookup, and the support spacings come from this article's support table, not from habit.",
       "sharma_note": "",
       "figure_idea": "Long PVC run down a block wall with an expansion fitting mid-run, sun arrows on the wall, and a support strap spacing callout.",
@@ -1094,7 +1114,7 @@
         "C3-L-040"
       ],
       "florida_note": "Florida sun on an exposed PVC riser is the textbook expansion case — check every long south- and west-wall run.",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-350",
       "next_id": "C3-ART-353",
       "chapter": 3
@@ -1642,6 +1662,11 @@
           "id": "C3-300.5",
           "section": "300.5",
           "title": "Underground wiring — cover, protection and sealing"
+        },
+        {
+          "id": "C3-300.7",
+          "section": "300.7",
+          "title": "Sealing raceways that pass between different temperatures"
         },
         {
           "id": "C3-300.11",
@@ -2456,6 +2481,18 @@
       "term": "Yoke, box-fill count (counts as two)",
       "ids": [
         "C3-314.16(B)"
+      ]
+    },
+    {
+      "term": "Sealing raceways, different temperatures (300.7)",
+      "ids": [
+        "C3-300.7"
+      ]
+    },
+    {
+      "term": "Condensation in raceways",
+      "ids": [
+        "C3-300.7"
       ]
     }
   ]

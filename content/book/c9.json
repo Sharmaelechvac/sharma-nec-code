@@ -136,6 +136,24 @@
         "C9-VD-WORKED"
       ],
       "term": "Voltage drop, upsizing to fix"
+    },
+    {
+      "ids": [
+        "C9-Table2"
+      ],
+      "term": "Table 2, radius of conduit bends"
+    },
+    {
+      "ids": [
+        "C9-Table2"
+      ],
+      "term": "Conduit bends, minimum radius"
+    },
+    {
+      "ids": [
+        "C9-ANNEXB"
+      ],
+      "term": "Annex B, ampacity under engineering supervision"
     }
   ],
   "jurisdiction": "Florida Building Code 8th Edition (2023)",
@@ -195,7 +213,7 @@
       "figure_idea": "A short nipple between two panels, dimensioned 24 in or less, with a 60 percent callout and a note that the long conduit leaving the panel is still 40 percent.",
       "florida_note": "",
       "id": "C9-Table1-Nipples",
-      "next_id": "C9-Table4",
+      "next_id": "C9-Table2",
       "on_the_job": "Worked check: a 1/2 in EMT nipple has a 60 percent area of 0.182 sq in in Table 4. At 0.0133 sq in for one 12 AWG THHN, that is 0.182 / 0.0133 = 13.68, so 13 conductors by fill alone. And Note 4 to Table 1 goes further than the 60%: the 310.15(C)(1) ampacity adjustment factors do NOT have to be applied to conductors in a nipple 24 in or shorter — the Code waives that check here expressly, so do not saddle the nipple with it.",
       "plain_explanation": "A short raceway nipple — 24 inches or less between boxes, cabinets, or similar enclosures — may be filled to 60 percent instead of the Table 1 percentages. The extra room is allowed because a short, straight stub is far easier to pull and far less likely to jam than a long run. The allowance belongs to the nipple only; the long runs on either side of it still use 53, 31, or 40 percent as their conductor count requires.",
       "prev_id": "C9-Table1",
@@ -215,6 +233,26 @@
     {
       "article": "9",
       "chapter": 9,
+      "figure_idea": "A 90-degree bend drawn with a dimension line running from the bend's center point to the conduit centerline, with two arcs shown — the tighter bender arc and the wider heat-bend arc — labelled with the two Table 2 columns.",
+      "florida_note": "",
+      "id": "C9-Table2",
+      "next_id": "C9-Table4",
+      "on_the_job": "A bender's shoe sets the radius for you: use the shoe made for the conduit type and size and the bend lands on the first column by construction. Heat-bent PVC is where crews get caught — form the sweep to at least the 'other bends' number, because a tight heat bend that kinks or flattens also fails the 'do not damage, do not effectively reduce the inside diameter' half of the bending sections.\n\nWorked check: a 2 in PVC stub-up sweep formed at a 10 in centerline radius fails Table 2 by 2 in even if it looks smooth. Re-form it at 12 in or better before the concrete truck is called.",
+      "plain_explanation": "Table 2 sets the smallest radius a field bend may have, measured to the centerline of the conduit — not to the inside face of the bend. It has two columns. Bends made on a one-shot or full-shoe bender use the first; all other bends use the second, and a PVC heat bend falls in the second column (352.24 sends heat bends there, while 344.24, 342.24 and 358.24 send rigid, IMC and EMT bender work to the first). The minimum centerline radii for the sizes Sharma bends most:\n\n• 1/2 in — 4 in one-shot / full-shoe, 4 in other bends\n• 3/4 in — 4-1/2 in one-shot / full-shoe, 5 in other bends\n• 1 in — 5-3/4 in one-shot / full-shoe, 6 in other bends\n• 1-1/4 in — 7-1/4 in one-shot / full-shoe, 8 in other bends\n• 1-1/2 in — 8-1/4 in one-shot / full-shoe, 10 in other bends\n• 2 in — 9-1/2 in one-shot / full-shoe, 12 in other bends\n\nThe table keeps climbing past 2 in — 2-1/2 in is 10-1/2 / 15 in and 4 in is 16 / 24 in — and runs to 6 in in the printed book. A factory sweep or a segmented bend laid out well above these numbers is fine; the table is a floor, not a target.",
+      "prev_id": "C9-Table1-Nipples",
+      "related_ids": [
+        "C9-Table1",
+        "C9-Table4"
+      ],
+      "section": "Table 2",
+      "sharma_note": "",
+      "sharma_rule_ids": [],
+      "title": "Table 2 — minimum radius of conduit bends",
+      "verified": false
+    },
+    {
+      "article": "9",
+      "chapter": 9,
       "figure_idea": "One row of the table highlighted, with arrows from trade size to inside diameter to the 40 percent column.",
       "flags": [
         "Ch9-T4 EMT 1/2 in total area carried as 0.304 sq in; one secondary source showed 0.305. 40% value 0.122 sq in is consistent. Flagged in v1 README item 6 — not silently fixed."
@@ -223,8 +261,8 @@
       "id": "C9-Table4",
       "next_id": "C9-Table5",
       "on_the_job": "Read the row for the exact raceway you are installing, then take the column that matches your conductor count from Table 1. Flag carried from v1: the 1/2 in EMT total area is carried as 0.304 sq in; one secondary source showed 0.305, but the 40 percent value of 0.122 sq in agrees across sources. Do not change 0.304 without re-checking the printed table.",
-      "plain_explanation": "Table 4 gives, for each raceway type and trade size, the inside diameter, the total inside area, and the usable area at each Table 1 percentage. Trade size is a name, not a measurement: 1/2 in EMT is actually 0.622 in inside and 0.304 sq in total, with 0.122 sq in usable at 40 percent. Raceway type matters as much as trade size — 1/2 in PVC Schedule 40 is a little smaller inside (0.285 sq in total, 0.114 at 40 percent), so an EMT answer does not carry over to PVC. Two more raceways are carried here so their answers are not borrowed from the wrong row. PVC Schedule 80, the thick-wall PVC used where conduit is subject to physical damage, runs smaller inside than Schedule 40 at every size (inside diameter in inches, total area in sq in, then the usable areas at 53, 31, and 40 percent): 1/2 in — 0.526, 0.217, 0.115, 0.067, 0.087; 3/4 in — 0.722, 0.409, 0.217, 0.127, 0.164; 1 in — 0.936, 0.688, 0.365, 0.213, 0.275; 1-1/4 in — 1.255, 1.237, 0.656, 0.383, 0.495; 1-1/2 in — 1.476, 1.711, 0.907, 0.530, 0.684; 2 in — 1.913, 2.874, 1.523, 0.891, 1.150. Flexible metal conduit (FMC) is its own row too — close to EMT at the small sizes, but never the same row: 1/2 in — 0.635, 0.317, 0.168, 0.098, 0.127; 3/4 in — 0.824, 0.533, 0.283, 0.165, 0.213; 1 in — 1.020, 0.817, 0.433, 0.253, 0.327; 1-1/4 in — 1.275, 1.277, 0.677, 0.396, 0.511; 1-1/2 in — 1.538, 1.858, 0.985, 0.576, 0.743; 2 in — 2.040, 3.269, 1.732, 1.013, 1.307. A fill that passes in Schedule 40 or EMT can fail in Schedule 80, so when the raceway changes, rerun the division with the new row.",
-      "prev_id": "C9-Table1-Nipples",
+      "plain_explanation": "Table 4 gives, for each raceway type and trade size, the inside diameter, the total inside area, and the usable area at each Table 1 percentage. Trade size is a name, not a measurement: 1/2 in EMT is actually 0.622 in inside and 0.304 sq in total, with 0.122 sq in usable at 40 percent. Raceway type matters as much as trade size — 1/2 in PVC Schedule 40 is a little smaller inside (0.285 sq in total, 0.114 at 40 percent), so an EMT answer does not carry over to PVC. Two more raceways are carried here so their answers are not borrowed from the wrong row. PVC Schedule 80, the thick-wall PVC used where conduit is subject to physical damage, runs smaller inside than Schedule 40 at every size (inside diameter in inches, total area in sq in, then the usable areas at 53, 31, and 40 percent): 1/2 in — 0.526, 0.217, 0.115, 0.067, 0.087; 3/4 in — 0.722, 0.409, 0.217, 0.127, 0.164; 1 in — 0.936, 0.688, 0.365, 0.213, 0.275; 1-1/4 in — 1.255, 1.237, 0.656, 0.383, 0.495; 1-1/2 in — 1.476, 1.711, 0.907, 0.530, 0.684; 2 in — 1.913, 2.874, 1.523, 0.891, 1.150. Flexible metal conduit (FMC) is its own row too — close to EMT at the small sizes, but never the same row: 1/2 in — 0.635, 0.317, 0.168, 0.098, 0.127; 3/4 in — 0.824, 0.533, 0.283, 0.165, 0.213; 1 in — 1.020, 0.817, 0.433, 0.253, 0.327; 1-1/4 in — 1.275, 1.277, 0.677, 0.396, 0.511; 1-1/2 in — 1.538, 1.858, 0.985, 0.576, 0.743; 2 in — 2.040, 3.269, 1.732, 1.013, 1.307. A fill that passes in Schedule 40 or EMT can fail in Schedule 80, so when the raceway changes, rerun the division with the new row.\n\nThe two raceways Sharma pulls most, carried here for the common sizes — total inside area first, then the usable area at 40 percent:\n• 1/2 in EMT — 0.304 in² total, 0.122 in² at 40%\n• 3/4 in EMT — 0.533 in² total, 0.213 in² at 40%\n• 1 in EMT — 0.864 in² total, 0.346 in² at 40%\n• 1-1/4 in EMT — 1.496 in² total, 0.598 in² at 40%\n• 1-1/2 in EMT — 2.036 in² total, 0.814 in² at 40%\n• 2 in EMT — 3.356 in² total, 1.342 in² at 40%\nPVC Schedule 40 runs a little smaller inside than EMT at every trade size:\n• 1/2 in PVC Schedule 40 — 0.285 in² total, 0.114 in² at 40%\n• 3/4 in PVC Schedule 40 — 0.508 in² total, 0.203 in² at 40%\n• 1 in PVC Schedule 40 — 0.832 in² total, 0.333 in² at 40%\n• 1-1/4 in PVC Schedule 40 — 1.453 in² total, 0.581 in² at 40%\n• 1-1/2 in PVC Schedule 40 — 1.986 in² total, 0.794 in² at 40%\n• 2 in PVC Schedule 40 — 3.291 in² total, 1.316 in² at 40%",
+      "prev_id": "C9-Table2",
       "related_ids": [
         "Ch9-T4",
         "Q-068",
@@ -236,7 +274,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 4 — raceway inside dimensions and usable area",
-      "verified": true
+      "verified": false
     },
     {
       "article": "9",
@@ -246,7 +284,7 @@
       "id": "C9-Table5",
       "next_id": "C9-FILL-METHOD",
       "on_the_job": "Confirm the insulation type on the reel before you calculate. If the job switches from THHN to a thicker insulation type, redo the fill math with that type's Table 5 area instead of assuming the count still fits.",
-      "plain_explanation": "Table 5 gives the approximate diameter and area of insulated conductors and fixture wires, by size and insulation type. Fill is figured on the insulated conductor you are actually pulling, insulation included — not on the bare metal. In the v1 data used throughout this chapter, 12 AWG THHN/THWN/THWN-2 is 0.0133 sq in, 10 AWG is 0.0211, 8 AWG is 0.0366, and 6 AWG is 0.0507. A different insulation type in the same AWG can have a different area, so the insulation column is part of the answer.",
+      "plain_explanation": "Table 5 gives the approximate diameter and area of insulated conductors and fixture wires, by size and insulation type. Fill is figured on the insulated conductor you are actually pulling, insulation included — not on the bare metal. In the v1 data used throughout this chapter, 12 AWG THHN/THWN/THWN-2 is 0.0133 sq in, 10 AWG is 0.0211, 8 AWG is 0.0366, and 6 AWG is 0.0507. A different insulation type in the same AWG can have a different area, so the insulation column is part of the answer.\n\nThe working list for the insulation type Sharma pulls most — THHN / THWN / THWN-2, approximate area in square inches:\n• 14 AWG THHN — 0.0097 in²\n• 12 AWG THHN — 0.0133 in²\n• 10 AWG THHN — 0.0211 in²\n• 8 AWG THHN — 0.0366 in²\n• 6 AWG THHN — 0.0507 in²\n• 4 AWG THHN — 0.0824 in²\n• 3 AWG THHN — 0.0973 in²\n• 2 AWG THHN — 0.1158 in²\n• 1 AWG THHN — 0.1562 in²\n• 1/0 AWG THHN — 0.1855 in²\n• 2/0 AWG THHN — 0.2223 in²\n• 3/0 AWG THHN — 0.2679 in²\n• 4/0 AWG THHN — 0.3237 in²",
       "prev_id": "C9-Table4",
       "related_ids": [
         "C9-L-010",
@@ -261,7 +299,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 5 — how much room an insulated conductor takes",
-      "verified": true
+      "verified": false
     },
     {
       "article": "9",
@@ -346,7 +384,7 @@
       "figure_idea": "A conductor list with the ground line highlighted, showing an insulated ground routed to Table 5 and a bare ground routed to Table 8.",
       "florida_note": "",
       "id": "C9-FILL-EGC-AND-BARE",
-      "next_id": "C9-ANNEXC",
+      "next_id": "C9-ANNEXB",
       "on_the_job": "On every fill list, write the ground as its own line with its own area before you add. If the ground is bare, say so on the list and take the Table 8 area; if it is insulated, take the Table 5 area for that insulation.",
       "plain_explanation": "An equipment grounding conductor takes up room in the raceway like any other conductor, so it is counted in fill — the v1 table notes state this directly. An insulated ground uses its Table 5 area for its insulation type. A bare conductor has no insulation to measure, so its area comes from the conductor-properties data in Table 8 instead. Leaving the ground out is the single most common reason a fill calculation passes on paper and jams in the field.",
       "prev_id": "C9-FILL-MIXED",
@@ -366,13 +404,33 @@
     {
       "article": "9",
       "chapter": 9,
+      "figure_idea": "A split figure: on the left a Table 310.16 cell highlighted and labelled 'field sizing'; on the right a duct-bank cross-section with a calculation sheet, stamped 'engineering supervision'.",
+      "florida_note": "Annex B is informative. The mandatory ampacity rules are the Chapter 3 articles as adopted in Florida; an annex calculation supports an engineered design, it does not replace the adopted tables on its own.",
+      "id": "C9-ANNEXB",
+      "next_id": "C9-ANNEXC",
+      "on_the_job": "Sharma crews size conductors from Table 310.16 and the Chapter 3 pages, full stop. If a plan shows an ampacity that only works 'per Annex B' or 'per engineering supervision,' that is a Mike-and-the-engineer item: do not match it with a field guess, and do not downsize a conductor on an annex number nobody calculated for this job.",
+      "plain_explanation": "Informative Annex B is the Code's application information for calculating conductor ampacity under engineering supervision — the formula route that accounts for load diversity, conductor arrangement, duct banks and ambient conditions instead of reading a single table cell. Its own tables give ampacities for specific free-air and underground electrical duct arrangements that Table 310.16 does not cover. Two limits define it: it is informative, not mandatory, and it is engineering work — the calculation has to be performed and documented for the actual installation by a qualified person, not estimated in the field.",
+      "prev_id": "C9-FILL-EGC-AND-BARE",
+      "related_ids": [
+        "C9-ANNEXES-INFORMATIVE",
+        "C9-ANNEXC"
+      ],
+      "section": "Annex B",
+      "sharma_note": "",
+      "sharma_rule_ids": [],
+      "title": "Annex B — ampacity calculation under engineering supervision",
+      "verified": false
+    },
+    {
+      "article": "9",
+      "chapter": 9,
       "figure_idea": "Two paths to the same answer side by side: the long division 0.122 / 0.0133 = 9 and a blank annex lookup card also landing on 9, with a red line through a mixed-size pull trying to use the shortcut.",
       "florida_note": "Annex C is informative, not mandatory. The mandatory fill limits are in Chapter 9 Tables 1, 4, and 5 as adopted; the annex is a convenience for one narrow case.",
       "id": "C9-ANNEXC",
       "next_id": "C9-Table8",
       "on_the_job": "Use Annex C to sanity-check a same-size count in seconds, then be able to show the Tables 4 and 5 division behind it. If the annex count and your division disagree, trust neither until you find which input — raceway type, insulation type, or ground — was different.",
       "plain_explanation": "Annex C is a set of pre-worked fill tables for the narrow case where every conductor in the raceway is the same size and type: you look up the raceway and read off a maximum count instead of dividing. It is the Tables 1, 4, and 5 math done ahead of time, and it agrees with that math — the v1 example of nine 12 AWG THHN in 1/2 in EMT matches the Annex C table for that combination. Annex C cannot answer a mixed-size pull, a different insulation type than the table assumes, or a bare ground, and this book does not reproduce its tables; learn the division and use the annex only as a check.",
-      "prev_id": "C9-FILL-EGC-AND-BARE",
+      "prev_id": "C9-ANNEXB",
       "related_ids": [
         "Q-068",
         "C9-L-024",
@@ -395,7 +453,7 @@
       "id": "C9-Table8",
       "next_id": "C9-Table8-CCA",
       "on_the_job": "For a voltage-drop check you need three things off this table and the job: the right metal column, the right stranding row, and resistance in ohm per thousand feet — the formula divides by 1000 because the table is priced per thousand feet, not per foot.",
-      "plain_explanation": "Table 8 describes the conductor itself: area in circular mils, stranding, overall diameter, and direct-current resistance at 75 degrees C in ohms per thousand feet, for copper and for aluminum. In the v1 data, stranded copper runs 3.14 ohm/kft at 14 AWG, 1.98 at 12 AWG, 1.24 at 10 AWG, 0.778 at 8 AWG, and 0.491 at 6 AWG — each step up in size drops resistance sharply, which is exactly why upsizing cures voltage drop. Solid and stranded versions of the same AWG have slightly different resistance, so read the row that matches the conductor in hand.",
+      "plain_explanation": "Table 8 describes the conductor itself: area in circular mils, stranding, overall diameter, and direct-current resistance at 75 degrees C in ohms per thousand feet, for copper and for aluminum. In the v1 data, stranded copper runs 3.14 ohm/kft at 14 AWG, 1.98 at 12 AWG, 1.24 at 10 AWG, 0.778 at 8 AWG, and 0.491 at 6 AWG — each step up in size drops resistance sharply, which is exactly why upsizing cures voltage drop. Solid and stranded versions of the same AWG have slightly different resistance, so read the row that matches the conductor in hand.\n\nStranded uncoated copper, DC resistance at 75°C in ohms per 1000 ft — the full run of common sizes, so a voltage-drop check never has to stop at 6 AWG:\n• 14 AWG stranded copper — 3.14 Ω/kft\n• 12 AWG stranded copper — 1.98 Ω/kft\n• 10 AWG stranded copper — 1.24 Ω/kft\n• 8 AWG stranded copper — 0.778 Ω/kft\n• 6 AWG stranded copper — 0.491 Ω/kft\n• 4 AWG stranded copper — 0.308 Ω/kft\n• 3 AWG stranded copper — 0.245 Ω/kft\n• 2 AWG stranded copper — 0.194 Ω/kft\n• 1 AWG stranded copper — 0.154 Ω/kft\n• 1/0 AWG stranded copper — 0.122 Ω/kft\n• 2/0 AWG stranded copper — 0.0967 Ω/kft\n• 3/0 AWG stranded copper — 0.0766 Ω/kft\n• 4/0 AWG stranded copper — 0.0608 Ω/kft",
       "prev_id": "C9-ANNEXC",
       "related_ids": [
         "Ch9-T8",
@@ -408,7 +466,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 8 — conductor properties and DC resistance",
-      "verified": true
+      "verified": false
     },
     {
       "article": "9",
@@ -553,8 +611,8 @@
       "florida_note": "",
       "id": "C9-Table9",
       "next_id": "C9-ANNEXD",
-      "on_the_job": "If a voltage-drop answer matters enough to fight over — a long feeder, a big motor, a plan review comment — do not settle it with the Table 8 approximation. Flag it for Mike to run with Table 9 and the actual raceway and power factor.",
-      "plain_explanation": "Table 9 is the next step past Table 8 for voltage drop. Its full title is 'Alternating-Current Resistance and Reactance for 600-Volt Cables, 3-Phase, 60 Hz, 75 degrees C — Three Single Conductors in Conduit,' and instead of DC resistance alone it gives, in ohms to neutral per 1000 ft, the inductive reactance for all wires, the alternating-current resistance for uncoated copper and for aluminum, and the effective impedance Z at 0.85 power factor — each broken out for PVC, aluminum, and steel conduit, because a magnetic steel raceway raises reactance and, in the larger sizes, AC resistance as well. The table's Note 1 limits its values to conductors at 75 degrees C under the conditions its title states. This book publishes no Table 9 values by size; the teaching here is when to reach for it — large conductors, long three-phase runs, steel raceway, or a Table 8 approximation that lands near a limit — and to run those cases from the printed table rather than from memory.",
+      "on_the_job": "If a voltage-drop answer matters enough to fight over — a long feeder, a big motor, a plan review comment — do not settle it with the Table 8 approximation. Flag it for Mike to run with Table 9 and the actual raceway and power factor.\n\nWorked example with the effective-Z column: a 208 V three-phase feeder carrying 100 A at 0.85 power factor, 200 ft one-way, on 2 AWG copper in PVC (Z = 0.19 ohm/kft). VD = 1.732 × 200 × 0.19 × 100 / 1000 = 6.58 V, about 3.2 percent of 208 V — over the 3 percent recommendation on the feeder alone, so the design conversation starts at 1 AWG or 1/0, not at hope.",
+      "plain_explanation": "Table 9 is the next step past Table 8 for voltage drop. Its full title is 'Alternating-Current Resistance and Reactance for 600-Volt Cables, 3-Phase, 60 Hz, 75 degrees C — Three Single Conductors in Conduit,' and instead of DC resistance alone it gives, in ohms to neutral per 1000 ft, the inductive reactance for all wires, the alternating-current resistance for uncoated copper and for aluminum, and the effective impedance Z at 0.85 power factor — each broken out for PVC, aluminum, and steel conduit, because a magnetic steel raceway raises reactance and, in the larger sizes, AC resistance as well. The table's Note 1 limits its values to conductors at 75 degrees C under the conditions its title states. This book publishes no Table 9 values by size; the teaching here is when to reach for it — large conductors, long three-phase runs, steel raceway, or a Table 8 approximation that lands near a limit — and to run those cases from the printed table rather than from memory.\n\nCommon-size values are now carried here after all, for the sizes Sharma runs most — uncoated copper, ohms to neutral per 1000 ft. Reactance and the effective-Z column are the parts Table 8 cannot give you; the AC resistance column tracks Table 8 closely at small sizes and climbs above it in steel conduit as sizes grow. Sizes above 4/0, and the aluminum columns, stay in the printed table:\n• 14 AWG copper — reactance 0.058 in PVC or aluminum conduit, 0.073 in steel; AC resistance 3.1 in PVC; effective Z at 0.85 PF 2.7 in PVC\n• 12 AWG copper — reactance 0.054 in PVC or aluminum conduit, 0.068 in steel; AC resistance 2.0 in PVC; effective Z at 0.85 PF 1.7 in PVC\n• 10 AWG copper — reactance 0.050 in PVC or aluminum conduit, 0.063 in steel; AC resistance 1.2 in PVC; effective Z at 0.85 PF 1.1 in PVC\n• 8 AWG copper — reactance 0.052 in PVC or aluminum conduit, 0.065 in steel; AC resistance 0.78 in PVC; effective Z at 0.85 PF 0.69 in PVC\n• 6 AWG copper — reactance 0.051 in PVC or aluminum conduit, 0.064 in steel; AC resistance 0.49 in PVC; effective Z at 0.85 PF 0.44 in PVC\n• 4 AWG copper — reactance 0.048 in PVC or aluminum conduit, 0.060 in steel; AC resistance 0.31 in PVC; effective Z at 0.85 PF 0.29 in PVC\n• 3 AWG copper — reactance 0.047 in PVC or aluminum conduit, 0.059 in steel; AC resistance 0.25 in PVC; effective Z at 0.85 PF 0.23 in PVC\n• 2 AWG copper — reactance 0.045 in PVC or aluminum conduit, 0.057 in steel; AC resistance 0.19 in PVC; effective Z at 0.85 PF 0.19 in PVC\n• 1 AWG copper — reactance 0.046 in PVC or aluminum conduit, 0.057 in steel; AC resistance 0.15 in PVC; effective Z at 0.85 PF 0.16 in PVC\n• 1/0 AWG copper — reactance 0.044 in PVC or aluminum conduit, 0.055 in steel; AC resistance 0.12 in PVC; effective Z at 0.85 PF 0.13 in PVC\n• 4/0 AWG copper — reactance 0.041 in PVC or aluminum conduit, 0.051 in steel; AC resistance 0.062 in PVC",
       "prev_id": "C9-VD-LIMITS",
       "related_ids": [
         "C9-L-043",
@@ -565,7 +623,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 9 — AC resistance and reactance, for finer voltage-drop work",
-      "verified": true
+      "verified": false
     },
     {
       "article": "9",
@@ -619,7 +677,7 @@
       "id": "C9-ANNEXES-INFORMATIVE",
       "next_id": null,
       "on_the_job": "When someone quotes an annex at you on a job, ask the deciding question: is that in a mandatory section, or in an annex or a note? Both can be good practice; only one can be enforced as written, and knowing which keeps you from arguing the wrong point with an inspector.",
-      "plain_explanation": "The annexes sit behind the mandatory chapters as explanation, examples, and reference data. Unless an adopting ordinance specifically adopts an annex, its content is not a requirement an inspector can cite the way a numbered article section can be cited — that is the same status the 3 and 5 percent voltage-drop figures carry as Informational Notes. This chapter covers the annexes Sharma work actually touches — C for same-size fill checks, D for calculation examples, and I for torque. The remaining annex letters were not written as pages in this pass, because their letters and subjects were not confirmed against the printed 2020 book, and this book does not invent an annex.",
+      "plain_explanation": "The annexes sit behind the mandatory chapters as explanation, examples, and reference data. Unless an adopting ordinance specifically adopts an annex, its content is not a requirement an inspector can cite the way a numbered article section can be cited — that is the same status the 3 and 5 percent voltage-drop figures carry as Informational Notes. This chapter covers the annexes Sharma work actually touches — C for same-size fill checks, D for calculation examples, and I for torque. The remaining annex letters were not written as pages in this pass, because their letters and subjects were not confirmed against the printed 2020 book, and this book does not invent an annex.\n\nUpdate since this page was first written: Annex B has since been added as a brief page (C9-ANNEXB), scoped the same way as the annexes above — what it is, when it is used, and no reproduced ampacity tables. The other held-back items in the flag on this page are unchanged.",
       "prev_id": "C9-ANNEXI",
       "related_ids": [
         "C9-L-049",
@@ -630,7 +688,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "What 'informative annex' means — and what this chapter held back",
-      "verified": true
+      "verified": false
     }
   ],
   "toc": [
@@ -651,6 +709,12 @@
       ],
       "id": "C9-Table1",
       "title": "Table 1 — percent of raceway fill"
+    },
+    {
+      "article": "9",
+      "children": [],
+      "id": "C9-Table2",
+      "title": "Table 2 — radius of conduit bends"
     },
     {
       "article": "9",
@@ -684,6 +748,12 @@
       ],
       "id": "C9-Table5",
       "title": "Table 5 — insulated conductor dimensions"
+    },
+    {
+      "article": "9",
+      "children": [],
+      "id": "C9-ANNEXB",
+      "title": "Annex B — ampacity calculation (engineering supervision)"
     },
     {
       "article": "9",

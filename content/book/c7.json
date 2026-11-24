@@ -95,15 +95,15 @@
       "article": "700",
       "section": "700.7",
       "title": "Signs — emergency sources",
-      "plain_explanation": "A sign at the service equipment tells responders and electricians what kind of on-site emergency source the building has and where it is. Nobody should have to hunt through a building during an outage to learn that a second source exists.",
-      "on_the_job": "Put the source type and location on the sign and check it against the actual disconnect location before you call the job done.",
+      "plain_explanation": "A sign at the service equipment tells responders and electricians what kind of on-site emergency source the building has and where it is. Nobody should have to hunt through a building during an outage to learn that a second source exists.\n\nThe sign sits at the service equipment and states two things: the type of on-site emergency source and where that source is located. It has to be permanent and legible, and it is a different sign from the panel directory — the directory says which loads are emergency; this sign says a second source exists and where to find it. Where the source has its own disconnecting means away from the service, the sign at the service is what lets a responder find and kill both sources.",
+      "on_the_job": "Put the source type and location on the sign and check it against the actual disconnect location before you call the job done.\n\nWorked habit: letter the sign before final inspection, then stand at the service and check that a stranger could walk straight to the source from the words on it. A sign that says 'generator' but not where the generator is has not finished this section's job.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
         "C7-L-006"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C7-700.5",
       "next_id": "C7-700.8",
       "sharma_rule_ids": []
@@ -114,7 +114,7 @@
       "article": "700",
       "section": "700.8",
       "title": "Surge protection — emergency systems",
-      "plain_explanation": "Every emergency system switchboard and panelboard has to have a listed surge protective device. This is a flat requirement of the article, not an upsell and not something to value-engineer out.",
+      "plain_explanation": "Every emergency system switchboard and panelboard has to have a listed surge protective device. This is a flat requirement of the article, not an upsell and not something to value-engineer out.\n\nThe device has to be listed, and it is installed in or on the switchboard or panelboard it protects, connected the way its listing and the manufacturer's instructions direct — short, straight leads matter, because a surge device works through its connection, and a long coiled lead-in adds impedance exactly where the surge arrives. A failed or end-of-life SPD that nobody notices leaves the panel unprotected while looking complete, which is why the device's status indication belongs on the 700.3 test-and-maintenance rounds.",
       "on_the_job": "Count an SPD for every emergency panelboard and switchboard on the material list, and confirm it is listed.",
       "sharma_note": "",
       "figure_idea": "",
@@ -123,7 +123,7 @@
         "C7-L-005"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C7-700.7",
       "next_id": "C7-700.10",
       "sharma_rule_ids": []
@@ -153,8 +153,8 @@
       "article": "700",
       "section": "700.12",
       "title": "Sources of power — available in 10 seconds",
-      "plain_explanation": "When the normal supply fails, emergency power has to be available within 10 seconds. The article lists the permitted kinds of sources, from storage batteries and generator sets to a separate service and unit equipment, and it sets conditions for each one. Engine-driven sources carry on-site fuel rules, battery sources carry a minimum run-time duty at close to full voltage, and the equipment has to be located and designed so one fire, flood or act of vandalism is less likely to kill both supplies at once.",
-      "on_the_job": "The 10-second clock is the design test. Ask how the source starts, how fast load lands on it, and where its fuel or charge comes from before you argue about brands.",
+      "plain_explanation": "When the normal supply fails, emergency power has to be available within 10 seconds. The article lists the permitted kinds of sources, from storage batteries and generator sets to a separate service and unit equipment, and it sets conditions for each one. Engine-driven sources carry on-site fuel rules, battery sources carry a minimum run-time duty at close to full voltage, and the equipment has to be located and designed so one fire, flood or act of vandalism is less likely to kill both supplies at once.\n\nTwo numbers carry most of the field weight. A storage battery used as the emergency source has to carry the emergency load for at least 1-1/2 hours without its voltage dropping below 87-1/2 percent of nominal — a battery that fades at 40 minutes is not a 700 source, whatever its amp-hour label says. And the on-site fuel rule for engine-driven sets is part of the source itself: the fuel plan has to be there when the generator is, sized for the run the design requires, not improvised after the outage starts.",
+      "on_the_job": "The 10-second clock is the design test. Ask how the source starts, how fast load lands on it, and where its fuel or charge comes from before you argue about brands.\n\nWorked check on the battery duty: a battery string nameplated at 24 V nominal must still be holding at least 21 V (87.5 percent of 24) at the end of a 90-minute full-load run. If the acceptance test did not run the clock and read the voltage, the duty is unproven.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -162,7 +162,7 @@
         "C7-Q-001"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C7-700.10",
       "next_id": "C7-700.15",
       "sharma_rule_ids": []
@@ -292,7 +292,7 @@
       "article": "701",
       "section": "701.12",
       "title": "Sources of power — available in 60 seconds",
-      "plain_explanation": "Legally required standby power has to be available within 60 seconds of the normal supply failing — slower than the 10 seconds of Article 700, far faster than a portable generator someone drags out of a garage. The article lists the permitted source types and their conditions, including on-site fuel for engine-driven sources and battery duty where batteries are the source. One source may also carry optional loads only where capacity is truly there, or where automatic pickup and shedding protect the legally required loads first.",
+      "plain_explanation": "Legally required standby power has to be available within 60 seconds of the normal supply failing — slower than the 10 seconds of Article 700, far faster than a portable generator someone drags out of a garage. The article lists the permitted source types and their conditions, including on-site fuel for engine-driven sources and battery duty where batteries are the source. One source may also carry optional loads only where capacity is truly there, or where automatic pickup and shedding protect the legally required loads first.\n\nThe battery duty mirrors the emergency tier: a storage battery source has to supply and maintain the legally required load for at least 1-1/2 hours without the voltage falling below 87-1/2 percent of nominal. Note that this chapter asks two different questions of a battery system — the 60-second availability clock above, and the 90-minute endurance duty here — and a system can pass one and fail the other.",
       "on_the_job": "Design to the 60-second clock and to load priority. If optional loads can starve a 701 load, the design is wrong even if the generator starts on time.",
       "sharma_note": "",
       "figure_idea": "",
@@ -301,7 +301,7 @@
         "C7-Q-002"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C7-701.10",
       "next_id": "C7-701.32",
       "sharma_rule_ids": []
@@ -1122,6 +1122,27 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-712.10",
+      "next_id": "C7-ART-722",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-ART-722",
+      "chapter": 7,
+      "article": "722",
+      "section": "722",
+      "title": "Article 722 — not in the 2020 code (a 2023 number)",
+      "plain_explanation": "There is no Article 722 in NEC 2020. The number was first used in the 2023 edition, where a new Article 722 gathers the cable rules for power-limited circuits that the 2020 book spreads across Articles 725, 760 and 770. Florida work under the Florida Building Code 8th Edition is NEC 2020, so a 2023 study book, app or exam sheet that sends you to 722 is pointing at a page this code does not have. In the 2020 book, the cable types, listing and substitution rules for Class 2 and Class 3 circuits live inside Article 725, the power-limited fire alarm cable rules live inside Article 760, and the optical fiber cable rules live in Article 770.",
+      "on_the_job": "If a plan note or a supplier sheet cites 722 on a Florida job, translate it back: a Class 2 or Class 3 cable question goes to 725, a fire alarm cable question goes to 760, and a fiber question goes to 770. Then flag the citation to the lead, because the rest of that document may be written to the wrong edition too.",
+      "sharma_note": "",
+      "figure_idea": "A road-sign style figure: '722' on a sign marked '2023', with three arrows back to 725, 760 and 770 labelled '2020 — this book'.",
+      "related_ids": [
+        "C7-ART-725",
+        "C7-ART-760",
+        "C7-ART-770"
+      ],
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not adopted in Florida, so its new Article 722 has no standing on a Florida job.",
+      "verified": false,
+      "prev_id": "C7-ART-720",
       "next_id": "C7-ART-725",
       "sharma_rule_ids": []
     },
@@ -1144,7 +1165,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C7-ART-720",
+      "prev_id": "C7-ART-722",
       "next_id": "C7-725.2",
       "sharma_rule_ids": []
     },
@@ -1755,6 +1776,12 @@
       "children": []
     },
     {
+      "article": "722",
+      "id": "C7-ART-722",
+      "title": "Article 722 — not in the 2020 code (a 2023 number)",
+      "children": []
+    },
+    {
       "id": "C7-ART-725",
       "article": "725",
       "title": "Class 1, Class 2 and Class 3 circuits — controls and signaling",
@@ -2167,6 +2194,21 @@
       "term": "Under 50 volts, circuits",
       "ids": [
         "C7-ART-720"
+      ]
+    },
+    {
+      "term": "Article 722, not in NEC 2020",
+      "ids": [
+        "C7-ART-722"
+      ]
+    },
+    {
+      "term": "Power-limited cables, where the 2020 rules live",
+      "ids": [
+        "C7-ART-722",
+        "C7-ART-725",
+        "C7-ART-760",
+        "C7-ART-770"
       ]
     }
   ]

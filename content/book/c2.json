@@ -149,7 +149,7 @@
       "article": "210",
       "section": "210.8(A)",
       "title": "Dwelling locations that need GFCI protection",
-      "plain_explanation": "For dwellings, this list covers receptacles in bathrooms, garages and certain accessory buildings, outdoors, crawl spaces, basements, kitchen areas covered by the list, near sinks, in boathouses, near tubs and showers, in laundry areas, and in indoor damp or wet locations. In NEC 2020 the rule applies to receptacles rated 125V through 250V on single-phase circuits of 150V to ground or less — that is why a 240V dryer or garage receptacle is no longer outside the rule. Measurement points matter: distances are taken from the sink, tub, or shower feature the list names.",
+      "plain_explanation": "For dwellings, this list covers receptacles in bathrooms, garages and certain accessory buildings, outdoors, crawl spaces, basements, kitchen areas covered by the list, near sinks, in boathouses, near tubs and showers, in laundry areas, and in indoor damp or wet locations. In NEC 2020 the rule applies to receptacles rated 125V through 250V on single-phase circuits of 150V to ground or less — that is why a 240V dryer or garage receptacle is no longer outside the rule. Measurement points matter: distances are taken from the sink, tub, or shower feature the list names.\n\nThe 2020 list, item by item — receptacles in:\n• (1) Bathrooms\n• (2) Garages, and accessory buildings with a floor located at or below grade level\n• (3) Outdoors\n• (4) Crawl spaces, at or below grade level\n• (5) Basements — finished and unfinished areas alike in the 2020 edition\n• (6) Kitchens — where the receptacles are installed to serve countertop surfaces\n• (7) Areas within 6 ft of the outside edge of a sink, other than the areas listed above\n• (8) Boathouses\n• (9) Areas within 6 ft of the outside edge of a bathtub or shower stall\n• (10) Laundry areas\n• (11) Indoor damp or wet locations",
       "on_the_job": "Use the existing lookup items for the full location list instead of working from memory on a walk-through. Pay special attention to the 6 ft sink and tub/shower measurements and to unfinished basement and garage areas that a finished-room mindset misses.",
       "sharma_note": "S-07: protection is at the DFN breaker, so a standard TR receptacle in one of these locations is protected even though the device itself has no test buttons. Do not swap in a GFCI receptacle. Scope note: S-07 covers the 120-volt points on this list. A 240/250-volt point on the list (other than the dryer, which is S-08) takes a 2-pole GFCI breaker — a single-pole DFN cannot protect it.",
       "figure_idea": "A bathroom and kitchen plan with 6 ft arcs drawn from a sink edge and from a tub edge, shading every receptacle inside the arcs.",
@@ -163,7 +163,7 @@
         "S-08"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-210.8",
       "next_id": "C2-210.8(A)(10)",
       "sharma_rule_ids": [
@@ -398,7 +398,7 @@
       "section": "210.19",
       "title": "Sizing branch-circuit conductors",
       "plain_explanation": "Conductors and breakers for a branch circuit are sized for the load the circuit will actually carry, and a continuous load — one that runs at its maximum for three hours or more — is counted at 125 percent for that sizing unless the assembly is listed for continuous operation at its rating. That is why a load that looks like it 'fits' a breaker on nameplate amps alone can still need the next size up. Multi-outlet circuits supplying receptacles for cord-and-plug loads are also sized by the rating rules in this section and in 210.23.",
-      "on_the_job": "Find the continuous loads first: EV charging, fixed heating, some lighting and equipment. Do the 125 percent math on paper in the job file, not in your head at the supply counter.",
+      "on_the_job": "Find the continuous loads first: EV charging, fixed heating, some lighting and equipment. Do the 125 percent math on paper in the job file, not in your head at the supply counter.\n\nWorked example: a 16A continuous load counts 16 × 1.25 = 20A, so both the conductor ampacity and the breaker land at 20A minimum. A 24A continuous load counts 30A the same way — which is why an EV charger nameplate that 'fits' a smaller breaker on its face still sizes the circuit up.",
       "sharma_note": "S-01: commercial branch circuits are 20A minimum with 12 AWG copper minimum at Sharma, whatever the general sizing math would allow at 15A.",
       "figure_idea": "A worked example strip: 16A continuous load, times 1.25, equals a 20A circuit — with the breaker and the conductor both stepped up.",
       "related_ids": [
@@ -412,7 +412,7 @@
         "C2-L-045"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-210.12(D)",
       "next_id": "C2-210.21",
       "sharma_rule_ids": [
@@ -426,7 +426,7 @@
       "article": "210",
       "section": "210.21",
       "title": "Outlet devices and receptacle ratings on a circuit",
-      "plain_explanation": "This section matches the device to the circuit: lampholders, receptacles, and cord-and-plug equipment may not be loaded beyond their own ratings, and a receptacle's rating must fit the circuit it sits on. On a 20A multi-outlet circuit, 15A duplex receptacles are permitted because the load is spread across outlets; a single receptacle on an individual 20A circuit is a different case and must match the circuit. The existing lookup item carries the rating table in plain form.",
+      "plain_explanation": "This section matches the device to the circuit: lampholders, receptacles, and cord-and-plug equipment may not be loaded beyond their own ratings, and a receptacle's rating must fit the circuit it sits on. On a 20A multi-outlet circuit, 15A duplex receptacles are permitted because the load is spread across outlets; a single receptacle on an individual 20A circuit is a different case and must match the circuit. The existing lookup item carries the rating table in plain form.\n\nThe rating match, from Table 210.21(B)(3) — where a circuit feeds two or more receptacles, the receptacle rating may be:\n• 15A circuit — receptacles not over 15A\n• 20A circuit — 15A or 20A receptacles\n• 30A circuit — 30A receptacles\n• 40A circuit — 40A or 50A receptacles\n• 50A circuit — 50A receptacles\nA single receptacle on an individual branch circuit must be rated not less than the circuit. And the most one cord-and-plug load may draw on a multi-outlet circuit (Table 210.21(B)(2)):\n• 15A circuit — 12A\n• 20A circuit — 16A\n• 30A circuit — 24A",
       "on_the_job": "When a plan calls for a single dedicated receptacle — a fridge, a microwave, a shop tool — check the device rating against the circuit rating before trim. Do not let a trim bin of 15A devices decide the question.",
       "sharma_note": "S-06: the microwave's individual 20A circuit pairs with that sizing check.",
       "figure_idea": "",
@@ -436,7 +436,7 @@
         "S-06"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-210.19",
       "next_id": "C2-210.23",
       "sharma_rule_ids": [
@@ -449,7 +449,7 @@
       "article": "210",
       "section": "210.23",
       "title": "How much load a branch circuit may carry",
-      "plain_explanation": "This section caps what may be put on a circuit by its rating. A single cord-and-plug appliance that is not fastened in place may not take more than 80 percent of a circuit that also serves other outlets, and fastened-in-place equipment has its own limit when it shares a circuit with lighting or portable loads. Motor and specific-appliance loads are sent to their own articles instead of being judged by a general percentage.",
+      "plain_explanation": "This section caps what may be put on a circuit by its rating. A single cord-and-plug appliance that is not fastened in place may not take more than 80 percent of a circuit that also serves other outlets, and fastened-in-place equipment has its own limit when it shares a circuit with lighting or portable loads. Motor and specific-appliance loads are sent to their own articles instead of being judged by a general percentage.\n\nThe percentages in amperes:\n• A cord-and-plug appliance that is not fastened in place, on a circuit that also serves other outlets — not over 80 percent of the circuit rating: 12A on a 15A circuit, 16A on a 20A circuit\n• Fastened-in-place equipment sharing a circuit with lighting outlets or portable cord-and-plug loads — not over 50 percent of the circuit rating: 10A on a 20A circuit\nA circuit that serves only its own fastened equipment is judged by the equipment's own article and nameplate, not by these shared-circuit caps.",
       "on_the_job": "Do the percentage math for the big plug-in loads: space heaters, window units, and shop equipment are where a shared 20A circuit quietly goes over. If a load is fastened in place and shares the circuit, check the second limit too.",
       "sharma_note": "",
       "figure_idea": "",
@@ -459,7 +459,7 @@
         "C2-L-011"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-210.21",
       "next_id": "C2-210.52",
       "sharma_rule_ids": []
@@ -520,7 +520,7 @@
       "article": "210",
       "section": "210.52(C)",
       "title": "Kitchen countertops, islands, and peninsulas",
-      "plain_explanation": "Countertop receptacles are placed so no point along the wall line of a counter is more than 24 in from a receptacle, and a counter run 12 in or wider needs one. Islands and peninsulas are handled by counter area in the 2020 edition: one receptacle for the first portion of countertop area and one more for each additional stated increment — the existing checklist item carries the 2020 numbers. This subsection also limits how far above a counter a receptacle may sit and restricts receptacles placed face-up in a work surface to listed assemblies. A peninsular countertop also needs at least one receptacle within 2 ft of its outer end, measured from the connecting wall (210.52(C)(2)).",
+      "plain_explanation": "Countertop receptacles are placed so no point along the wall line of a counter is more than 24 in from a receptacle, and a counter run 12 in or wider needs one. Islands and peninsulas are handled by counter area in the 2020 edition: one receptacle for the first portion of countertop area and one more for each additional stated increment — the existing checklist item carries the 2020 numbers. This subsection also limits how far above a counter a receptacle may sit and restricts receptacles placed face-up in a work surface to listed assemblies. A peninsular countertop also needs at least one receptacle within 2 ft of its outer end, measured from the connecting wall (210.52(C)(2)).\n\nThe island and peninsula count in numbers (2020 edition):\n• One receptacle for the first 9 sq ft of island or peninsular countertop, or fraction of it\n• One more receptacle for each additional 18 sq ft, or fraction of it\nSo a 30 sq ft island needs three: one for the first 9, and one each for the next 18 and the remaining 3. Two more placement numbers from this subsection:\n• A receptacle installed above a countertop may sit no more than 20 in above the counter surface\n• Countertop space separated by a range, cooktop, refrigerator, or sink counts as a separate countertop space — each separated run gets its own 24 in spacing check",
       "on_the_job": "Count island area from the actual countertop drawing, including an overhang that is part of the work surface, and confirm the count before rough-in — adding an island receptacle after cabinets are set is the expensive version. Under the 2020 rules an island or peninsula receptacle may sit on or above the counter, or below it — not more than 12 in below the countertop, where the counter extends not more than 6 in beyond its supporting base (210.52(C)(3)).",
       "sharma_note": "",
       "figure_idea": "An island drawn in plan with its countertop area shaded and divided into the first area block and the additional blocks, one receptacle marked per block.",
@@ -537,7 +537,7 @@
         "C2-Q-007"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-210.52(A)",
       "next_id": "C2-210.52(D)",
       "sharma_rule_ids": []
@@ -752,7 +752,7 @@
       "section": "215.2",
       "title": "Feeder conductor size and the continuous-load rule",
       "plain_explanation": "Feeder conductors must have ampacity at least as large as the noncontinuous load plus 125 percent of the continuous load, before derating and correction are worked through, unless a listed assembly rated for continuous operation is used. Feeders supplying a dwelling's whole load may also be sized under the dwelling service and feeder table covered in Chapter 3, which is why a house feeder is not always sized from the general ampacity table alone. The calculated load itself comes from Article 220.",
-      "on_the_job": "Do the Article 220 number first, then size the feeder — never size from the size of the panel that happens to be on the truck. Write the continuous portion down separately so the 125 percent step can be checked.",
+      "on_the_job": "Do the Article 220 number first, then size the feeder — never size from the size of the panel that happens to be on the truck. Write the continuous portion down separately so the 125 percent step can be checked.\n\nWorked example: a feeder carrying 80A of noncontinuous load plus 40A of continuous load needs conductor ampacity of at least 80 + (40 × 1.25) = 130A before correction and adjustment factors are applied. If the math is not written down in that form, the 125 percent step is the part that gets lost.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -760,7 +760,7 @@
         "C2-Q-010"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-ART-215",
       "next_id": "C2-215.3",
       "sharma_rule_ids": []
@@ -814,7 +814,7 @@
       "article": "220",
       "section": "220.12",
       "title": "General lighting load by floor area",
-      "plain_explanation": "For dwellings, the general lighting load is taken at 3 volt-amperes for each square foot of floor area, measured from the outside dimensions of the building, with the exclusions and inclusions the table and its notes describe — open porches and unfinished spaces not adaptable for future use are treated differently from living area and adaptable space. This is the starting block of both the standard and the optional dwelling calculations. It covers general lighting and general-use receptacles; named circuits and appliances are added on top of it.",
+      "plain_explanation": "For dwellings, the general lighting load is taken at 3 volt-amperes for each square foot of floor area, measured from the outside dimensions of the building, with the exclusions and inclusions the table and its notes describe — open porches and unfinished spaces not adaptable for future use are treated differently from living area and adaptable space. This is the starting block of both the standard and the optional dwelling calculations. It covers general lighting and general-use receptacles; named circuits and appliances are added on top of it.\n\nUnit loads from Table 220.12 for the occupancies Sharma meets (volt-amperes per square foot):\n• Dwelling units — 3\n• Hotels and motels, including apartment houses with no provision for cooking — 2\n• Hospitals — 2\n• Churches — 1\n• Schools — 3\n• Stores — 3\n• Restaurants — 2\n• Barber shops and beauty parlors — 3\n• Office buildings and banks — 3.5, and where the actual receptacle load is not known the table's footnote adds 1 VA per square foot for general-purpose receptacles\n• Garages, commercial (storage) — 1\n• Lodging houses — 1.5\n• Warehouses (storage) — 0.25\nThe dwelling figure of 3 VA per square foot already includes general-use receptacles; the named circuits and appliances are added on top of it.",
       "on_the_job": "Measure the house the way the calculation does — outside dimensions — and do not subtract for hallways or closets. When a plan shows a finished bonus or a future area, decide with the calculation in hand whether it counts, and note the decision.",
       "sharma_note": "",
       "figure_idea": "",
@@ -824,8 +824,109 @@
         "C2-Q-011"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-ART-220",
+      "next_id": "C2-220.14",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.14",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.14",
+      "title": "Other loads — receptacles and named loads at their set values",
+      "plain_explanation": "Before any demand factor is applied, this section prices the named loads that are not floor area. The values crews reach for most:\n• Receptacle outlets, other than the dwelling general-use receptacles already inside the 3 VA per square foot — 180 VA for each single or multiple receptacle on one yoke or strap\n• Multioutlet assemblies — 180 VA for each 1.5 ft of assembly where the loads are unlikely to run at the same time, and 180 VA for each 1 ft where they are likely to run together\n• Show windows — 200 VA for each linear foot\n• A sign or outline lighting circuit — 1,200 VA minimum for each circuit the sign article requires\n• Fixed appliances and other named equipment — at nameplate rating, unless another part of Article 220 gives the load its own value or demand table\nA duplex receptacle is one yoke and counts once; a four-plex on two straps counts twice. Motors are sent by this section to the motor rules in Article 430 for their values.",
+      "on_the_job": "On a commercial tenant build-out, the receptacle count is the load: count straps, not device faces. Worked example: 40 receptacle straps × 180 VA = 7,200 VA of receptacle load before any demand the later sections allow. Write the count on the calc — 'recepts per plan' is not a number an inspector can check.",
+      "sharma_note": "",
+      "figure_idea": "A duplex receptacle and a four-plex side by side, the duplex tagged 180 VA once and the four-plex tagged 180 VA twice — once per strap.",
+      "related_ids": [
+        "C2-220.12",
+        "C2-ART-220"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-220.12",
+      "next_id": "C2-220.53",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.53",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.53",
+      "title": "Four or more fixed appliances — the 75 percent demand",
+      "plain_explanation": "In the standard method, a dwelling's fixed appliances almost never all run at once. Where four or more fixed appliances — other than electric ranges, clothes dryers, space-heating equipment, and air-conditioning equipment — are fastened in place on the same service or feeder, this section permits a demand factor of 75 percent on their combined nameplate load:\n• Applies at four or more qualifying appliances — three or fewer count at full nameplate\n• Demand factor — 75 percent of the combined nameplate ratings\n• Never applies to ranges, dryers, heating, or cooling — those have their own sections\nDishwashers, disposals, water heaters, and trash compactors are the usual four that unlock it in a house.",
+      "on_the_job": "Worked example: dishwasher 1,200 VA + disposal 900 VA + water heater 4,500 VA + trash compactor 1,000 VA = 7,600 VA of nameplate load; × 75 percent = 5,700 VA carried into the service total. Count the appliances on the plan before you decide the factor is unavailable — the fourth appliance is easy to miss.",
+      "sharma_note": "",
+      "figure_idea": "Four appliance nameplates adding to 7,600 VA, an arrow marked 75 percent, and 5,700 VA landing in the service total.",
+      "related_ids": [
+        "C2-220.14",
+        "C2-220.82(B)"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-220.14",
+      "next_id": "C2-220.54",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.54",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.54",
+      "title": "Clothes dryers — 5,000 VA each and the dryer demand table",
+      "plain_explanation": "A household clothes dryer enters the standard-method calculation at 5,000 VA (5 kW) or its nameplate rating, whichever is larger — per dryer. Where several dryers share a service or feeder, Table 220.54 then applies a demand factor to their combined load:\n• 1 to 4 dryers — 100 percent\n• 5 dryers — 85 percent\n• 6 dryers — 75 percent\n• 7 dryers — 65 percent\n• 8 dryers — 60 percent\n• 9 dryers — 55 percent\n• 10 dryers — 50 percent\n• 11 dryers — 47 percent\nThe table continues downward for larger counts, which is a multifamily and laundromat case. The portion of the dryer load on the neutral may be taken at 70 percent — see the 220.61 page.",
+      "on_the_job": "A single house dryer is simple: read the nameplate, and if it says less than 5,000 VA, use 5,000 VA anyway; if it says 5,600 VA, use 5,600 VA. The demand table only starts to matter on the fifth dryer.",
+      "sharma_note": "",
+      "figure_idea": "A row of dryer nameplates, the first four tagged 100 percent and the fifth tagged 85 percent, showing where the table starts to bite.",
+      "related_ids": [
+        "C2-220.55",
+        "C2-220.61"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-220.53",
+      "next_id": "C2-220.55",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.55",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.55",
+      "title": "Household ranges — the Table 220.55 demand values",
+      "plain_explanation": "A household range is never counted at full nameplate in a dwelling load calculation — not all of its elements run together for long. Table 220.55, Column C, gives the demand load for ranges rated over 3.5 kW through 12 kW:\n• 1 range — 8 kW\n• 2 ranges — 11 kW\n• 3 ranges — 14 kW\n• 4 ranges — 17 kW\nFor a single range rated over 12 kW through 27 kW, start at 8 kW and add 400 VA for each kW — or major fraction of a kW — by which the nameplate exceeds 12 kW. A wall-mounted oven and a separate counter-mounted cooktop fed by one branch circuit are added together by nameplate and treated as one range. The portion of the range load on the neutral may be taken at 70 percent — see the 220.61 page.",
+      "on_the_job": "Worked example: a 12 kW range counts 8,000 VA in the standard method — not 12,000 VA. A 16 kW range counts 8,000 + (4 × 400) = 9,600 VA. Do not carry this table into the optional method: under 220.82(B) the range goes into the general block at nameplate, and the two methods are never mixed on one calculation.",
+      "sharma_note": "",
+      "figure_idea": "A range nameplate reading 12 kW, an arrow through Table 220.55 Column C, and 8 kW landing in the load total.",
+      "related_ids": [
+        "C2-220.54",
+        "C2-220.61"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-220.54",
+      "next_id": "C2-220.61",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.61",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.61",
+      "title": "The neutral load — and the 70 percent rule",
+      "plain_explanation": "The grounded (neutral) conductor of a feeder or service only carries the unbalanced load — the largest load connected between the neutral and any one ungrounded conductor. This section then allows demand on that neutral load:\n• The portion of the neutral load from line-to-neutral loads — the first 200A counts at 100 percent, and any portion over 200A counts at 70 percent\n• The neutral portion of range and dryer loads may be taken at 70 percent (the range and dryer demand values themselves come from 220.55 and 220.54)\n• No reduction is permitted for the neutral of a 4-wire, 3-phase wye system feeding nonlinear loads — discharge lighting, electronic gear, and the like can load a neutral beyond the unbalance, and the 70 percent step does not apply there",
+      "on_the_job": "On a large house service the neutral can legitimately come out smaller than the ungrounded conductors — but only by this arithmetic, written into the calculation in the job file. If the calc does not show the 200A step and the 70 percent step, the smaller neutral is an assumption, not a design.",
+      "sharma_note": "",
+      "figure_idea": "A neutral load bar split at 200A: the first block marked 100 percent, the remainder marked 70 percent, feeding the neutral conductor size.",
+      "related_ids": [
+        "C2-220.55",
+        "C2-220.54",
+        "C2-250.24"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-220.55",
       "next_id": "C2-220.82",
       "sharma_rule_ids": []
     },
@@ -835,8 +936,8 @@
       "article": "220",
       "section": "220.82",
       "title": "The optional method for a dwelling service or feeder",
-      "plain_explanation": "Where a feeder or service supplies an entire dwelling, this optional method lets the load be totaled with demand factors instead of adding every load at full value. The method has conditions: it is for a dwelling, the service or feeder must carry the entire load, and the rating must meet the minimum this section sets. The general-loads part and the heating-and-cooling part are calculated separately and then added, and the existing calc table 220.82 in the app carries the rule rows and worked test cases for the method.",
-      "on_the_job": "Use the app calculator, then hand-check the two parts before you order gear: the demand-factored general load, and the larger heating-or-cooling figure. Save the printout or worksheet with the permit paperwork.",
+      "plain_explanation": "Where a feeder or service supplies an entire dwelling, this optional method lets the load be totaled with demand factors instead of adding every load at full value. The method has conditions: it is for a dwelling, the service or feeder must carry the entire load, and the rating must meet the minimum this section sets. The general-loads part and the heating-and-cooling part are calculated separately and then added, and the existing calc table 220.82 in the app carries the rule rows and worked test cases for the method.\n\nOne condition is a floor: the method is available only where the service-entrance conductors have an ampacity of 100A or more — below that, the standard method governs.",
+      "on_the_job": "Use the app calculator, then hand-check the two parts before you order gear: the demand-factored general load, and the larger heating-or-cooling figure. Save the printout or worksheet with the permit paperwork.\n\nWorked example — a 1,800 sq ft house. General loads: floor area 1,800 × 3 VA = 5,400 VA; two small-appliance circuits 3,000 VA; laundry circuit 1,500 VA; dishwasher 1,200 VA; disposal 900 VA; water heater 4,500 VA; dryer 5,000 VA; range at nameplate 12,000 VA — total 33,500 VA. The first 10,000 VA counts at 100 percent and the remaining 23,500 VA at 40 percent = 9,400 VA, so the general block is 19,400 VA. Heating and cooling: the air conditioner at 5,760 VA is the largest selection, so add 5,760 VA. Total 25,160 VA ÷ 240 V ≈ 105A — the service is sized at or above that figure.",
       "sharma_note": "S-09 affects the gear this calculation sizes: meter and panel back to back where the house allows.",
       "figure_idea": "The calculator screen for 220.82 with its two blocks — general loads and heating/cooling — feeding a single service size.",
       "related_ids": [
@@ -849,8 +950,8 @@
         "C2-Q-028"
       ],
       "florida_note": "",
-      "verified": true,
-      "prev_id": "C2-220.12",
+      "verified": false,
+      "prev_id": "C2-220.61",
       "next_id": "C2-220.82(B)",
       "sharma_rule_ids": [
         "S-09"
@@ -896,6 +997,26 @@
       "florida_note": "Florida heat pumps with electric auxiliary heat are common in Sharma's territory; that is the (C)(3) case — compressor at 100 percent plus 65 percent of the auxiliary heat — so do not skip the comparison on a Florida house.",
       "verified": true,
       "prev_id": "C2-220.82(B)",
+      "next_id": "C2-220.83",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.83",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.83",
+      "title": "Existing dwellings — adding load without changing the service",
+      "plain_explanation": "This is the optional method for additions to an existing one-family dwelling: it answers whether the existing service can carry new load, without rebuilding the calculation from zero. The existing load is first figured from the dwelling's actual loads (or from demand data where the section permits). Then:\n• Where the added load is other than air conditioning or electric space heating — combine the existing load and the added load, take the first 8 kVA at 100 percent and the remainder at 40 percent; if that result does not exceed the existing service rating, no service increase is required\n• Where air conditioning is added — the air-conditioning load counts at 100 percent\n• Where electric space heating is added — it counts at 65 percent with fewer than four separately controlled units, and at 40 percent with four or more, the same selections as the optional method's heating part\nIf the result exceeds the existing service rating, the service is increased and sized under the regular methods.",
+      "on_the_job": "Worked example: an existing 200A service carries a computed existing load of 26 kVA, and the owner adds a 6 kVA workshop load. Combined 32 kVA: first 8 kVA at 100 percent, remaining 24 kVA at 40 percent = 9.6 kVA — total 17.6 kVA, or about 73A at 240V, well under the 200A service. No service change. Keep this worksheet with the permit — it is the document that proves the existing service was checked, not assumed.",
+      "sharma_note": "",
+      "figure_idea": "An existing panel with its load total, a new load added beside it, the 8 kVA / 40 percent split applied, and the result compared against the existing service rating.",
+      "related_ids": [
+        "C2-220.82",
+        "C2-220.82(C)"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-220.82(C)",
       "next_id": "C2-ART-225",
       "sharma_rule_ids": []
     },
@@ -915,7 +1036,27 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-220.82(C)",
+      "prev_id": "C2-220.83",
+      "next_id": "C2-225.18",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-225.18",
+      "chapter": 2,
+      "article": "225",
+      "section": "225.18",
+      "title": "Clearances for outside overhead conductors",
+      "plain_explanation": "Conductors run overhead outside — a feeder across a yard to a detached garage is Sharma's common case — must clear what is under and beside them. The vertical clearances from this section, measured at the conductor's lowest point:\n• Over roofs — 8 ft, with reductions the section allows for low voltage between conductors and steeply sloped roofs\n• Over areas subject only to pedestrian traffic — 10 ft\n• Over residential driveways and other residential property — 12 ft\n• Over other land traversed by vehicles, such as cultivated or grazing land — 15 ft\n• Over roads, streets, alleys, parking lots, and areas subject to truck traffic — 18 ft\nClearance is judged at final sag, not at the height the conductor left the pole or mast on a cool morning.",
+      "on_the_job": "Walk the span before you set the attachment heights: the same garage feeder is a 10 ft job over the lawn, a 12 ft job where it crosses the driveway, and an 18 ft job if it crosses the street. The highest number on the route sets the attachment.",
+      "sharma_note": "",
+      "figure_idea": "A yard feeder span in profile crossing lawn, driveway, and street edge, with 10 ft, 12 ft, and 18 ft clearance lines drawn under it.",
+      "related_ids": [
+        "C2-ART-225",
+        "C2-230.24"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-ART-225",
       "next_id": "C2-225.30",
       "sharma_rule_ids": []
     },
@@ -935,7 +1076,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-ART-225",
+      "prev_id": "C2-225.18",
       "next_id": "C2-225.31",
       "sharma_rule_ids": []
     },
@@ -994,7 +1135,7 @@
       "article": "230",
       "section": "230.9",
       "title": "Clearances for service conductors",
-      "plain_explanation": "Service conductors that run where people, windows, doors, and vehicles can reach them need clearance. Overhead conductors near a building must keep the distances this section sets from windows, doors, porches, and similar features, with a stated allowance where conductors run above an opening. Underground and other service arrangements are handled by their own parts of the article and by Article 300 burial rules.",
+      "plain_explanation": "Service conductors that run where people, windows, doors, and vehicles can reach them need clearance. Overhead conductors near a building must keep the distances this section sets from windows, doors, porches, and similar features, with a stated allowance where conductors run above an opening. Underground and other service arrangements are handled by their own parts of the article and by Article 300 burial rules.\n\nThe building-opening number in this section:\n• Service conductors must be kept at least 3 ft from windows that are designed to be opened, doors, porches, balconies, fire escapes, and similar features\n• Conductors run above the top level of a window are the stated exception to that 3 ft clearance\nThe vertical clearances — how high the conductors must run over roofs, yards, driveways, and streets — are a separate set of numbers in 230.24, covered on its own page.",
       "on_the_job": "Check the drop against the finished building, not the framing: a window that will open, a porch roof, and a balcony added on a plan revision all change the clearance picture. Use the existing lookup item for the window rule crews ask about most.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1003,8 +1144,28 @@
         "C2-L-019"
       ],
       "florida_note": "The utility's own service standards also apply in Florida and may be stricter at the pole and weatherhead; the AHJ and the serving utility both have a say at the service.",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-ART-230",
+      "next_id": "C2-230.24",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-230.24",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.24",
+      "title": "Overhead service conductors — clearance heights",
+      "plain_explanation": "These are the heights an overhead service drop or overhead service conductors must keep, measured to the lowest point of the span, including the drip loop:\n• Above a roof — 8 ft, and that clearance must be kept for at least 3 ft in all directions from the edge of the roof\n• Above a roof with a slope of 4 in 12 or steeper, where the voltage between conductors does not exceed 300V — 3 ft is permitted\n• Over a roof overhang only — as low as 18 in, where not more than 6 ft of conductor passes over not more than 4 ft of overhang and the conductors terminate in a through-the-roof raceway or approved support (the mast case)\n• Above areas subject only to pedestrian traffic — 10 ft\n• Above residential property and driveways — 12 ft\n• Above roads, streets, alleys, and commercial areas subject to truck traffic, including commercial driveways and parking lots — 18 ft\nThe mast and attachment are built to whichever of these numbers the span actually crosses — the utility's own service standards may require more.",
+      "on_the_job": "Set the mast height from the span, not from habit: measure the route, find the highest clearance it crosses, add sag, and that is the weatherhead height. A drop that clears the roof by 8 ft but sags to 11 ft over the driveway fails the driveway number.",
+      "sharma_note": "",
+      "figure_idea": "House elevation with a service mast: 8 ft dimensioned above the roof, 3 ft at the steep-slope case, and 12 ft dimensioned where the drop crosses the driveway.",
+      "related_ids": [
+        "C2-230.9",
+        "C2-225.18"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-230.9",
       "next_id": "C2-230.67",
       "sharma_rule_ids": []
     },
@@ -1027,7 +1188,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-230.9",
+      "prev_id": "C2-230.24",
       "next_id": "C2-230.70",
       "sharma_rule_ids": [
         "S-02"
@@ -1177,7 +1338,7 @@
       "article": "240",
       "section": "240.4(B)",
       "title": "When the next higher breaker size may be used",
-      "plain_explanation": "Where a conductor's ampacity does not land on a standard rating, the next higher standard overcurrent device may be used only when the conditions in this subsection are all met: the conductor is not part of a multi-outlet branch circuit supplying receptacles, the ampacity is not over the stated ceiling for this allowance, and the next higher device does not exceed that same ceiling. It is an allowance with fences, not a general right to round up. The existing lookup item works the common examples.",
+      "plain_explanation": "Where a conductor's ampacity does not land on a standard rating, the next higher standard overcurrent device may be used only when the conditions in this subsection are all met: the conductor is not part of a multi-outlet branch circuit supplying receptacles, the ampacity is not over the stated ceiling for this allowance, and the next higher device does not exceed that same ceiling. It is an allowance with fences, not a general right to round up. The existing lookup item works the common examples.\n\nThe ceiling, in numbers:\n• The conductor's ampacity does not exceed 800A\n• The next higher standard device does not exceed 800A\n• The conductors are not part of a branch circuit supplying more than one receptacle for cord-and-plug-connected portable loads\nPast 800A there is no rounding up — the device may not exceed the ampacity.",
       "on_the_job": "State all three conditions when you use this allowance on a feeder or an equipment circuit. If the circuit feeds receptacles on a multi-outlet branch circuit, stop — the allowance is not available.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1186,7 +1347,7 @@
         "C2-Q-019"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-240.4",
       "next_id": "C2-240.4(D)",
       "sharma_rule_ids": []
@@ -1228,7 +1389,7 @@
       "article": "240",
       "section": "240.6",
       "title": "Standard ratings for breakers and fuses",
-      "plain_explanation": "Overcurrent devices come in standard ampere ratings, and this section lists them — the familiar steps from small branch ratings through the large service ratings, plus the additional standard ratings it names for fuses. Nonstandard ratings exist only in the limited cases the Code allows. A calculation that lands between two standard ratings is resolved by the protection rules, not by ordering a breaker in the calculated size.",
+      "plain_explanation": "Overcurrent devices come in standard ampere ratings, and this section lists them — the familiar steps from small branch ratings through the large service ratings, plus the additional standard ratings it names for fuses. Nonstandard ratings exist only in the limited cases the Code allows. A calculation that lands between two standard ratings is resolved by the protection rules, not by ordering a breaker in the calculated size.\n\nThe standard ratings (240.6(A)):\n• 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100\n• 110, 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, 500, 600\n• 700, 800, 1000, 1200, 1600, 2000, 2500, 3000, 4000, 5000, 6000\nFuses also have additional standard ratings of 1, 3, 6, 10, and 601 amperes. Note the gaps crews trip on: there is no standard 105A, 130A, or 275A device — a calculation landing there resolves to a standard rating under the protection rules.",
       "on_the_job": "When a load calculation lands at a nonstandard number, write the next step as a choice between the standard ratings on either side and record which rule you used. Do not write a nonstandard breaker size on a material list.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1237,8 +1398,28 @@
         "C2-Q-021"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-240.4(D)",
+      "next_id": "C2-240.21",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-240.21",
+      "chapter": 2,
+      "article": "240",
+      "section": "240.21",
+      "title": "Feeder taps — the 10 ft and 25 ft rules",
+      "plain_explanation": "A tap is a conductor that leaves a feeder without its own overcurrent protection at the point of supply, protected instead by the feeder's larger device. That is permitted only inside the fences of this section. The two rules used most:\n• The 10 ft tap — tap conductors not over 10 ft long, with ampacity not less than the computed load, not less than the rating of the device or panel they supply, and not less than one-tenth the rating of the feeder's overcurrent device; the tap ends in a single circuit breaker or set of fuses that limits the load to the tap ampacity, and the conductors are protected from physical damage, in a raceway\n• The 25 ft tap — tap conductors not over 25 ft long, with ampacity not less than one-third the rating of the feeder's overcurrent device, terminating in a single breaker or fuse set rated not over the tap ampacity, with the conductors protected from physical damage\nLonger taps, outside taps, and transformer taps have their own conditions in this section — a tap that fits neither rule above is not made legal by being short-ish.",
+      "on_the_job": "Worked example: tapping a 400A feeder to feed a 100A panelboard nearby. As a 10 ft tap, the conductors need ampacity of at least 100A (the device supplied) — comfortably over one-tenth of 400A. As a 25 ft tap they would need at least one-third of 400A, about 133A — the longer tap demands the bigger wire. Measure the actual run before choosing which rule you are on.",
+      "sharma_note": "",
+      "figure_idea": "A 400A feeder with two taps drawn: a short tap tagged 10 ft rule / one-tenth, and a longer tap tagged 25 ft rule / one-third, each ending in its own breaker.",
+      "related_ids": [
+        "C2-240.4",
+        "C2-215.3"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-240.6",
       "next_id": "C2-240.24",
       "sharma_rule_ids": []
     },
@@ -1263,7 +1444,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-240.6",
+      "prev_id": "C2-240.21",
       "next_id": "C2-ART-250",
       "sharma_rule_ids": [
         "S-09"
@@ -1345,7 +1526,7 @@
       "article": "250",
       "section": "250.28",
       "title": "Main and system bonding jumpers",
-      "plain_explanation": "The bonding jumper is the conductor or connection that ties the grounded conductor, the equipment grounding system, and the enclosure together at the service, and the system bonding jumper does the same job for a separately derived system. This section covers their material and how they are sized — for the main bonding jumper, by reference to the same sizing table used for the grounding electrode conductor, with the limits the section states. A jumper that is present but undersized or poorly landed does not do the job.",
+      "plain_explanation": "The bonding jumper is the conductor or connection that ties the grounded conductor, the equipment grounding system, and the enclosure together at the service, and the system bonding jumper does the same job for a separately derived system. This section covers their material and how they are sized — for the main bonding jumper, by reference to the same sizing table used for the grounding electrode conductor, with the limits the section states. A jumper that is present but undersized or poorly landed does not do the job.\n\nThe sizing numbers: a wire-type main bonding jumper is sized from Table 250.66 — the same table as the grounding electrode conductor — by the size of the largest service-entrance conductor. Where the service conductors are larger than 1100 kcmil copper (1750 kcmil aluminum), the table stops and the jumper must be not less than 12-1/2 percent of the cross-sectional area of the largest phase conductor. On ordinary house services the table rows are the whole answer: 8 AWG copper behind a 100A service on 4 AWG copper conductors, 4 AWG copper behind a 200A service on 2/0 copper.",
       "on_the_job": "Factory-installed straps and screws count only when they are the listed means for that equipment and actually installed. On a service change, verify the jumper exists before you call for inspection — it is a small part with a whole article riding on it.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1354,7 +1535,7 @@
         "L-057"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-250.24",
       "next_id": "C2-250.32",
       "sharma_rule_ids": []
@@ -1406,7 +1587,7 @@
       "article": "250",
       "section": "250.52",
       "title": "Electrodes that are permitted — and the ones that are not",
-      "plain_explanation": "This section lists what may serve as a grounding electrode, from underground water pipe with its conditions, through building steel and concrete-encased electrodes — at least 20 ft of the stated rebar or bare copper conductor encased in the foundation — to rods, pipes, and plates. It also lists what may not be used, which includes metal underground gas piping and aluminum electrodes. A water pipe electrode has its own supplementing rule, covered with the installation section.",
+      "plain_explanation": "This section lists what may serve as a grounding electrode, from underground water pipe with its conditions, through building steel and concrete-encased electrodes — at least 20 ft of the stated rebar or bare copper conductor encased in the foundation — to rods, pipes, and plates. It also lists what may not be used, which includes metal underground gas piping and aluminum electrodes. A water pipe electrode has its own supplementing rule, covered with the installation section.\n\nThe electrode specifications in numbers:\n• Metal underground water pipe — at least 10 ft of pipe in direct contact with the earth\n• Concrete-encased electrode — at least 20 ft of 1/2 in or larger rebar, or at least 20 ft of bare 4 AWG copper conductor, encased in at least 2 in of concrete in the footing or foundation\n• Ground ring — at least 20 ft of bare 2 AWG copper, buried at least 30 in below grade\n• Rod and pipe electrodes — at least 8 ft long in contact with the soil; pipe not smaller than 3/4 in trade size; rods not smaller than 5/8 in diameter unless listed for the use\n• Plate electrodes — at least 2 sq ft of surface exposed to the surrounding soil",
       "on_the_job": "The concrete-encased electrode is the one to coordinate with the builder: 20 ft of qualifying rebar or conductor, encased as the section requires, with an accessible connection. Confirm it with the concrete crew before the pour, in writing on the job notes.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1416,7 +1597,7 @@
         "C2-L-027"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-250.50",
       "next_id": "C2-250.53",
       "sharma_rule_ids": []
@@ -1427,7 +1608,7 @@
       "article": "250",
       "section": "250.53",
       "title": "Installing electrodes — rods, depth, and the second rod",
-      "plain_explanation": "Electrodes must be installed as this section requires: driven or buried to the depths it states, kept as close as practicable to each other and to the service, and supplemented where a single rod, pipe, or plate does not meet the stated resistance to earth — 25 ohms or less — or is not tested at all. In practice that means a second rod, spaced at least 6 ft from the first, on almost every job. Rod connections must be accessible or of the irreversible or exothermic type the article allows where they are buried.",
+      "plain_explanation": "Electrodes must be installed as this section requires: driven or buried to the depths it states, kept as close as practicable to each other and to the service, and supplemented where a single rod, pipe, or plate does not meet the stated resistance to earth — 25 ohms or less — or is not tested at all. In practice that means a second rod, spaced at least 6 ft from the first, on almost every job. Rod connections must be accessible or of the irreversible or exothermic type the article allows where they are buried.\n\nThe installation numbers:\n• Rod, pipe, and plate electrodes — at least 8 ft of the electrode in contact with the soil, with the top end flush with or below grade level unless the connection is protected\n• Two rods — spaced at least 6 ft apart; the 6 ft is a floor, and wider spacing makes the pair work better\n• A single rod, pipe, or plate may stand alone only with a measured resistance to earth of 25 ohms or less — without that measurement on file, the second electrode is required, not optional",
       "on_the_job": "Drive two rods at least 6 ft apart unless you have a tested 25-ohm-or-less result in the job file. Keep the grounding electrode conductor run short, straight, and protected where it is exposed.",
       "sharma_note": "",
       "figure_idea": "Two ground rods driven flush, spaced with a 6 ft tape between them, and the conductor clamped to each in turn on its way to the service.",
@@ -1440,8 +1621,28 @@
         "C2-Q-025"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-250.52",
+      "next_id": "C2-250.64",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.64",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.64",
+      "title": "Installing the grounding electrode conductor",
+      "plain_explanation": "The grounding electrode conductor is sized on the 250.66 page; this section is how it must be run:\n• Continuous, in one unbroken length, without a splice or joint — except splices made with irreversible compression connectors listed as grounding and bonding equipment, or by exothermic welding\n• An aluminum or copper-clad aluminum grounding electrode conductor may not be installed in direct contact with masonry or the earth, where corrosive conditions exist, or outdoors within 18 in of the earth\n• Where exposed, a conductor 6 AWG or larger may follow the surface of the building construction without a raceway where it is securely fastened and not subject to physical damage; smaller conductors, and any run exposed to damage, must be protected — in rigid metal conduit, IMC, EMT, schedule 80 PVC, or another method this section lists\n• A ferrous metal raceway or armor enclosing the conductor must be electrically continuous and bonded to the conductor at both ends — an unbonded steel sleeve chokes the fault path it was meant to protect",
+      "on_the_job": "Plan the run as one piece from the service to the electrode before anything is cut. A grounding electrode conductor that comes up short gets replaced or extended by an irreversible splice — never by a split bolt that will end up buried in a wall or a trench.",
+      "sharma_note": "",
+      "figure_idea": "A grounding electrode conductor run from panel to rod in one unbroken line, with a callout at a steel sleeve showing bonds at both ends.",
+      "related_ids": [
+        "C2-250.66",
+        "C2-250.68"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-250.53",
       "next_id": "C2-250.66",
       "sharma_rule_ids": []
     },
@@ -1451,8 +1652,8 @@
       "article": "250",
       "section": "250.66",
       "title": "Sizing the grounding electrode conductor",
-      "plain_explanation": "The grounding electrode conductor is sized from Table 250.66 by the size of the largest service-entrance conductor, not by the amperage of the service disconnect alone. The section then caps what is actually required for particular electrodes: a run that goes only to rods needs no larger than the stated maximum, and a run to a concrete-encased electrode has its own larger cap — the existing checklist and quiz items carry those numbers. Aluminum and copper-clad conductors used for this purpose have material and installation limits in the surrounding sections. The caps, stated plainly: the portion of the GEC that is the sole connection to a rod, pipe, or plate electrode never has to be larger than 6 AWG copper, and the portion that is the sole connection to a concrete-encased electrode never has to be larger than 4 AWG copper.",
-      "on_the_job": "Read the service conductor size off the actual conductors, then open the table — a 200A service on compact conductors is not automatically the row you expect. Where one conductor serves several electrodes, size and cap it electrode by electrode as the section directs.",
+      "plain_explanation": "The grounding electrode conductor is sized from Table 250.66 by the size of the largest service-entrance conductor, not by the amperage of the service disconnect alone. The section then caps what is actually required for particular electrodes: a run that goes only to rods needs no larger than the stated maximum, and a run to a concrete-encased electrode has its own larger cap — the existing checklist and quiz items carry those numbers. Aluminum and copper-clad conductors used for this purpose have material and installation limits in the surrounding sections. The caps, stated plainly: the portion of the GEC that is the sole connection to a rod, pipe, or plate electrode never has to be larger than 6 AWG copper, and the portion that is the sole connection to a concrete-encased electrode never has to be larger than 4 AWG copper.\n\nTable 250.66 itself — read across: size of the largest service-entrance conductor, then the grounding electrode conductor it requires:\n• 2 AWG copper or smaller — or 1/0 AWG aluminum or smaller: 8 AWG copper GEC (6 AWG if the GEC itself is aluminum)\n• 1 or 1/0 AWG copper — or 2/0 or 3/0 AWG aluminum: 6 AWG copper (4 AWG aluminum)\n• 2/0 or 3/0 AWG copper — or 4/0 AWG or 250 kcmil aluminum: 4 AWG copper (2 AWG aluminum)\n• Over 3/0 through 350 kcmil copper — or over 250 through 500 kcmil aluminum: 2 AWG copper (1/0 aluminum)\n• Over 350 through 600 kcmil copper — or over 500 through 900 kcmil aluminum: 1/0 copper (3/0 aluminum)\n• Over 600 through 1100 kcmil copper — or over 900 through 1750 kcmil aluminum: 2/0 copper (4/0 aluminum)\n• Over 1100 kcmil copper — or over 1750 kcmil aluminum: 3/0 copper (250 kcmil aluminum)\nThe electrode caps stated above then limit what a run to one kind of electrode must actually be — the table size governs a run that serves the whole electrode system.",
+      "on_the_job": "Read the service conductor size off the actual conductors, then open the table — a 200A service on compact conductors is not automatically the row you expect. Where one conductor serves several electrodes, size and cap it electrode by electrode as the section directs.\n\nThe two house rows, worked: a 100A service on 4 AWG copper or 2 AWG aluminum service conductors reads the first row — 8 AWG copper grounding electrode conductor. A 200A service on 2/0 copper or 4/0 aluminum reads the third row — 4 AWG copper. Those two answers cover most Sharma services before the per-electrode caps are applied.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -1463,8 +1664,8 @@
         "C2-Q-026"
       ],
       "florida_note": "",
-      "verified": true,
-      "prev_id": "C2-250.53",
+      "verified": false,
+      "prev_id": "C2-250.64",
       "next_id": "C2-250.68",
       "sharma_rule_ids": []
     },
@@ -1474,7 +1675,7 @@
       "article": "250",
       "section": "250.68",
       "title": "Connections to electrodes — accessibility and continuity",
-      "plain_explanation": "Grounding electrode conductor connections must be made so they stay effective: clamps and connectors listed for the electrode and the conductor, connections to a water pipe made at an accessible point within the stated distance of where the pipe enters the building, and the conductor kept continuous or spliced only by the methods this section allows. Interior metal water piping farther into the building is a bonding question, not a substitute electrode connection point.",
+      "plain_explanation": "Grounding electrode conductor connections must be made so they stay effective: clamps and connectors listed for the electrode and the conductor, connections to a water pipe made at an accessible point within the stated distance of where the pipe enters the building, and the conductor kept continuous or spliced only by the methods this section allows. Interior metal water piping farther into the building is a bonding question, not a substitute electrode connection point.\n\nThe stated distance, in numbers: interior metal water piping may be used to interconnect electrodes only within 5 ft of the point where the water pipe enters the building. Beyond that first 5 ft the piping is bonded under 250.104, but it is not part of the electrode path.",
       "on_the_job": "Land the water-pipe clamp where it can be inspected, on clean metal, and do not bury a mechanical splice in the grounding electrode conductor run. If a run is cut short on a remodel, replace it or use an allowed irreversible splice — not a split bolt in a wall.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1483,7 +1684,7 @@
         "L-059"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-250.66",
       "next_id": "C2-250.94",
       "sharma_rule_ids": []
@@ -1515,7 +1716,7 @@
       "article": "250",
       "section": "250.104",
       "title": "Bonding metal piping systems",
-      "plain_explanation": "Metal water piping in a building supplied by a grounded system must be bonded, sized and connected as this section directs, and other metal piping that is likely to become energized — gas piping is the standard example — must be bonded as well. The bonding jumper is sized by the circuit or service that could energize the piping, using the tables this section points to. Bonding a pipe is a different job from using it as an electrode, and a pipe can need both treatments in different places.",
+      "plain_explanation": "Metal water piping in a building supplied by a grounded system must be bonded, sized and connected as this section directs, and other metal piping that is likely to become energized — gas piping is the standard example — must be bonded as well. The bonding jumper is sized by the circuit or service that could energize the piping, using the tables this section points to. Bonding a pipe is a different job from using it as an electrode, and a pipe can need both treatments in different places.\n\nWhich table sizes which bond:\n• Metal water piping at a service — the bonding jumper is sized from Table 250.66, by the size of the service-entrance conductors, the same table that sizes the grounding electrode conductor\n• Metal water piping supplied by a feeder — sized from the same table by the size of the feeder conductors supplying the building\n• Other metal piping, such as gas — the jumper is sized from Table 250.122, by the rating of the circuit that is likely to energize the piping",
       "on_the_job": "Trace the water piping bond from the panel to clean pipe, and check any jumper over a water meter or filter so the path stays continuous when the meter is removed. For gas piping, bond per this section and the appliance and piping instructions — and see the Florida note on CSST.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1524,8 +1725,28 @@
         "C2-L-030"
       ],
       "florida_note": "CSST gas piping carries manufacturer bonding instructions and FBC Fuel Gas requirements beyond this section. The v1 item L-059 is simplified to this section's rule; do not treat this page as covering CSST bonding.",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-250.94",
+      "next_id": "C2-250.118",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.118",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.118",
+      "title": "Equipment grounding conductors — what counts as one",
+      "plain_explanation": "The fault path back to the source may be a wire, or it may be one of the wiring methods this section recognizes as an equipment grounding conductor:\n• A wire-type conductor — copper, aluminum, or copper-clad aluminum, bare, covered, or insulated, run with the circuit conductors\n• Rigid metal conduit, intermediate metal conduit, and electrical metallic tubing — the raceway itself is the ground path, which is why its fittings must be listed and made up tight\n• The armor of Type AC cable, with its internal bonding strip; and Type MC cable where the armor, alone or combined with its contained grounding conductor, is listed as the ground path\n• Flexible metal conduit and liquidtight flexible metal conduit — only within this section's limits on length (6 ft combined in the ground-return path), fitting listing, and overcurrent rating; outside those limits a wire-type ground must be pulled with the circuit\nA method not on this section's list is not a ground path, however solid it looks.",
+      "on_the_job": "An EMT run with tight listed fittings is its own ground; a loose set-screw coupling is a break in that ground. On a long flexible whip to a motor or rooftop unit, pull the green wire instead of asking the flex to be the path.",
+      "sharma_note": "",
+      "figure_idea": "Four ground paths drawn side by side: a green wire in conduit, an EMT run with tight fittings, AC armor with its bonding strip, and a flex whip with a wire-type ground pulled inside.",
+      "related_ids": [
+        "C2-250.122",
+        "C2-250.4"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-250.104",
       "next_id": "C2-250.122",
       "sharma_rule_ids": []
     },
@@ -1535,7 +1756,7 @@
       "article": "250",
       "section": "250.122",
       "title": "Sizing the equipment grounding conductor",
-      "plain_explanation": "The green or bare conductor that runs with a circuit is sized from Table 250.122 by the rating of the overcurrent device ahead of it — not by the size of the current-carrying conductors, except that when circuit conductors are upsized, the equipment ground must be upsized in proportion. It must be able to carry fault current back to the source for as long as the breaker takes to open, which is why a long, upsized run with a standard ground is a defect even though every receptacle tests 'grounded.' The existing quiz items carry the table's common values.",
+      "plain_explanation": "The green or bare conductor that runs with a circuit is sized from Table 250.122 by the rating of the overcurrent device ahead of it — not by the size of the current-carrying conductors, except that when circuit conductors are upsized, the equipment ground must be upsized in proportion. It must be able to carry fault current back to the source for as long as the breaker takes to open, which is why a long, upsized run with a standard ground is a defect even though every receptacle tests 'grounded.' The existing quiz items carry the table's common values.\n\nTable 250.122 itself — rating of the overcurrent device ahead of the circuit, then the equipment grounding conductor it requires:\n• 15A — 14 AWG copper / 12 AWG aluminum\n• 20A — 12 AWG copper / 10 AWG aluminum\n• 30A — 10 AWG copper / 8 AWG aluminum\n• 40A — 10 AWG copper / 8 AWG aluminum\n• 60A — 10 AWG copper / 8 AWG aluminum\n• 100A — 8 AWG copper / 6 AWG aluminum\n• 200A — 6 AWG copper / 4 AWG aluminum\n• 300A — 4 AWG copper / 2 AWG aluminum\n• 400A — 3 AWG copper / 1 AWG aluminum\n• 500A — 2 AWG copper / 1/0 aluminum\n• 600A — 1 AWG copper / 2/0 aluminum\n• 800A — 1/0 copper / 3/0 aluminum\n• 1000A — 2/0 copper / 4/0 aluminum\n• 1200A — 3/0 copper / 250 kcmil aluminum\nThe table continues to 6000A for large commercial work. Where one equipment ground serves several circuits in a raceway, it is sized for the largest overcurrent device among them.",
       "on_the_job": "When you upsize a run for voltage drop, upsize the ground in the same proportion and write both sizes on the plan. Cable assemblies do this for you; conduit runs do not — check the pull list.",
       "sharma_note": "S-10: on a CCA branch run, the equipment grounding conductor and its connectors still have to be suitable for the installation — check AL-CU markings where CCA is involved.",
       "figure_idea": "A conduit pull list showing a circuit upsized from 12 to 10 AWG for a long run, with the equipment ground upsized beside it.",
@@ -1548,8 +1769,8 @@
         "S-10"
       ],
       "florida_note": "",
-      "verified": true,
-      "prev_id": "C2-250.104",
+      "verified": false,
+      "prev_id": "C2-250.118",
       "next_id": "C2-250.140",
       "sharma_rule_ids": [
         "S-10"
@@ -1759,6 +1980,31 @@
           "title": "General lighting load by floor area"
         },
         {
+          "id": "C2-220.14",
+          "section": "220.14",
+          "title": "Other loads — receptacles and named loads at their set values"
+        },
+        {
+          "id": "C2-220.53",
+          "section": "220.53",
+          "title": "Four or more fixed appliances — the 75 percent demand"
+        },
+        {
+          "id": "C2-220.54",
+          "section": "220.54",
+          "title": "Clothes dryers — 5,000 VA each and the dryer demand table"
+        },
+        {
+          "id": "C2-220.55",
+          "section": "220.55",
+          "title": "Household ranges — the Table 220.55 demand values"
+        },
+        {
+          "id": "C2-220.61",
+          "section": "220.61",
+          "title": "The neutral load — and the 70 percent rule"
+        },
+        {
           "id": "C2-220.82",
           "section": "220.82",
           "title": "The optional method for a dwelling service or feeder"
@@ -1772,6 +2018,11 @@
           "id": "C2-220.82(C)",
           "section": "220.82(C)",
           "title": "Optional method — heating and cooling"
+        },
+        {
+          "id": "C2-220.83",
+          "section": "220.83",
+          "title": "Existing dwellings — adding load without changing the service"
         }
       ]
     },
@@ -1780,6 +2031,11 @@
       "article": "225",
       "title": "Outside branch circuits and feeders",
       "children": [
+        {
+          "id": "C2-225.18",
+          "section": "225.18",
+          "title": "Clearances for outside overhead conductors"
+        },
         {
           "id": "C2-225.30",
           "section": "225.30",
@@ -1801,6 +2057,11 @@
           "id": "C2-230.9",
           "section": "230.9",
           "title": "Clearances for service conductors"
+        },
+        {
+          "id": "C2-230.24",
+          "section": "230.24",
+          "title": "Overhead service conductors — clearance heights"
         },
         {
           "id": "C2-230.67",
@@ -1855,6 +2116,11 @@
           "title": "Standard ratings for breakers and fuses"
         },
         {
+          "id": "C2-240.21",
+          "section": "240.21",
+          "title": "Feeder taps — the 10 ft and 25 ft rules"
+        },
+        {
           "id": "C2-240.24",
           "section": "240.24",
           "title": "Where overcurrent devices may be located"
@@ -1902,6 +2168,11 @@
           "title": "Installing electrodes — rods, depth, and the second rod"
         },
         {
+          "id": "C2-250.64",
+          "section": "250.64",
+          "title": "Installing the grounding electrode conductor"
+        },
+        {
           "id": "C2-250.66",
           "section": "250.66",
           "title": "Sizing the grounding electrode conductor"
@@ -1920,6 +2191,11 @@
           "id": "C2-250.104",
           "section": "250.104",
           "title": "Bonding metal piping systems"
+        },
+        {
+          "id": "C2-250.118",
+          "section": "250.118",
+          "title": "Equipment grounding conductors — what counts as one"
         },
         {
           "id": "C2-250.122",
@@ -2472,6 +2748,90 @@
       "ids": [
         "C2-200.7",
         "C2-L-002"
+      ]
+    },
+    {
+      "term": "Load calculations, other loads and receptacle values (220.14)",
+      "ids": [
+        "C2-220.14"
+      ]
+    },
+    {
+      "term": "Receptacle load, 180 VA per yoke",
+      "ids": [
+        "C2-220.14"
+      ]
+    },
+    {
+      "term": "Appliance demand, four or more fixed appliances (220.53)",
+      "ids": [
+        "C2-220.53"
+      ]
+    },
+    {
+      "term": "Dryer load calculation (220.54)",
+      "ids": [
+        "C2-220.54"
+      ]
+    },
+    {
+      "term": "Range load calculation, Table 220.55",
+      "ids": [
+        "C2-220.55"
+      ]
+    },
+    {
+      "term": "Neutral load and the 70 percent rule (220.61)",
+      "ids": [
+        "C2-220.61"
+      ]
+    },
+    {
+      "term": "Existing dwelling, adding load (220.83)",
+      "ids": [
+        "C2-220.83"
+      ]
+    },
+    {
+      "term": "Service upgrade, checking an existing service",
+      "ids": [
+        "C2-220.83"
+      ]
+    },
+    {
+      "term": "Clearances, overhead conductors outside (225.18)",
+      "ids": [
+        "C2-225.18"
+      ]
+    },
+    {
+      "term": "Service drop clearances (230.24)",
+      "ids": [
+        "C2-230.24"
+      ]
+    },
+    {
+      "term": "Mast height, service clearances",
+      "ids": [
+        "C2-230.24"
+      ]
+    },
+    {
+      "term": "Tap conductors, 10 ft and 25 ft rules (240.21)",
+      "ids": [
+        "C2-240.21"
+      ]
+    },
+    {
+      "term": "Grounding electrode conductor, installation and splices (250.64)",
+      "ids": [
+        "C2-250.64"
+      ]
+    },
+    {
+      "term": "Equipment grounding conductor, types that count (250.118)",
+      "ids": [
+        "C2-250.118"
       ]
     }
   ]

@@ -689,13 +689,13 @@
       "article": "110",
       "section": "110.4",
       "title": "Voltages",
-      "plain_explanation": "Equipment is used at the voltage it is rated for, and where the Code states a voltage it means the nominal system voltage the circuit actually operates at, unless a rule says otherwise. A device rated for a lower voltage does not become suitable on a higher-voltage circuit because its terminals fit, and the nominal voltage is what load, protection and clearance rules are keyed to.",
+      "plain_explanation": "Equipment is used at the voltage it is rated for, and where the Code states a voltage it means the nominal system voltage the circuit actually operates at, unless a rule says otherwise. A device rated for a lower voltage does not become suitable on a higher-voltage circuit because its terminals fit, and the nominal voltage is what load, protection and clearance rules are keyed to.\n\nThe nominal system voltages crews actually meet, from this section's list:\n• 120 V — single-phase branch circuits\n• 120/240 V — the standard one-family house service\n• 208Y/120 V — three-phase wye, common in commercial buildings and multifamily services\n• 240 V — single-phase or three-phase delta\n• 277 V — one leg of a 480Y/277 V system to neutral, the commercial lighting voltage\n• 480Y/277 V and 480 V — larger commercial services\nEquipment is rated for the nominal voltage of the system it is connected to; a device marked for one system voltage is not interchangeable with another just because the plugs look alike.",
       "on_the_job": "Check the nameplate voltage against the system in front of you — 120/240 single-phase, 208Y/120 and 480Y/277 three-phase are different worlds for device ratings even when the hardware looks similar.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C1-110.3(B)",
       "next_id": "C1-110.5",
       "sharma_rule_ids": []
@@ -728,7 +728,7 @@
       "article": "110",
       "section": "110.6",
       "title": "Conductor sizes — AWG and circular mils",
-      "plain_explanation": "Conductor sizes are expressed in American Wire Gauge for the smaller sizes and in circular mil area for the larger ones. The size designation is a standard language: the same AWG number means the same conductor size whoever made the cable. Size by itself is not ampacity — the rating still comes from the ampacity tables, the termination limits and the conditions of use.",
+      "plain_explanation": "Conductor sizes are expressed in American Wire Gauge for the smaller sizes and in circular mil area for the larger ones. The size designation is a standard language: the same AWG number means the same conductor size whoever made the cable. Size by itself is not ampacity — the rating still comes from the ampacity tables, the termination limits and the conditions of use.\n\nCircular-mil areas for the sizes Sharma pulls most (above 4/0, the kcmil number is the area in thousands of circular mils):\n• 14 AWG — 4,110 circular mils\n• 12 AWG — 6,530 circular mils\n• 10 AWG — 10,380 circular mils\n• 8 AWG — 16,510 circular mils\n• 6 AWG — 26,240 circular mils\n• 4 AWG — 41,740 circular mils\n• 2 AWG — 66,360 circular mils\n• 1/0 AWG — 105,600 circular mils\n• 2/0 AWG — 133,100 circular mils\n• 3/0 AWG — 167,800 circular mils\n• 4/0 AWG — 211,600 circular mils\nThese areas are what the proportional upsizing rules work from — when conductors are upsized, grounding conductors are upsized by the ratio of these numbers (see 250.122 in Chapter 2).",
       "on_the_job": "Speak sizes in AWG up through 4/0 and in kcmil above that, and never let a breaker handle rating substitute for the ampacity check behind it.",
       "sharma_note": "",
       "figure_idea": "",
@@ -736,7 +736,7 @@
         "C1-L-014"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C1-110.5",
       "next_id": "C1-110.7",
       "sharma_rule_ids": []
@@ -1251,7 +1251,7 @@
       "article": "110",
       "section": "110.28",
       "title": "Enclosure types",
-      "plain_explanation": "Enclosures are selected by type for the environment they will live in, and this section's table matches enclosure types to the exposures they are built to withstand — indoor dust and dripping liquid, outdoor rain and sleet, hose-directed water, corrosion, and the like. The common field types run from a general indoor enclosure, through the outdoor rain-tight type crews see on house disconnects, to the corrosion-resistant types used in washdown and coastal work. The type marked on the enclosure, not its appearance, is what it is rated for.",
+      "plain_explanation": "Enclosures are selected by type for the environment they will live in, and this section's table matches enclosure types to the exposures they are built to withstand — indoor dust and dripping liquid, outdoor rain and sleet, hose-directed water, corrosion, and the like. The common field types run from a general indoor enclosure, through the outdoor rain-tight type crews see on house disconnects, to the corrosion-resistant types used in washdown and coastal work. The type marked on the enclosure, not its appearance, is what it is rated for.\n\nThe types Sharma meets most, from the section's table:\n• Type 1 — indoor, general purpose; contact and falling-dirt protection\n• Type 3R — outdoor; rainproof and sleet-resistant — the standard house disconnect and meter enclosure type\n• Type 4 — watertight, including against hose-directed water\n• Type 4X — Type 4 performance plus corrosion resistance — washdown and coastal work\n• Type 12 — indoor industrial; dust, lint, and dripping noncorrosive liquids\nA higher-duty type may substitute for a lower one in many cases, but the marked type is the rating — never the paint or the shape.",
       "on_the_job": "Match the type to the real exposure: indoor-type equipment does not go on an exterior Florida wall, and a corroded or wrong-type enclosure found on a service call is a replacement item, not a paint job.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1259,7 +1259,7 @@
         "C1-L-041"
       ],
       "florida_note": "Salt air makes enclosure type a live issue on Florida coastal work; corrosion-resistant types earn their cost outdoors near the coast.",
-      "verified": true,
+      "verified": false,
       "prev_id": "C1-110.27",
       "next_id": "C1-110.31",
       "sharma_rule_ids": []

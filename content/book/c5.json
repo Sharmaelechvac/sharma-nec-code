@@ -57,7 +57,7 @@
       "article": "500",
       "section": "500.6",
       "title": "Material groups",
-      "plain_explanation": "Within each class, materials are sorted into groups by how easily they ignite and how much pressure an explosion can build. Class I groups run A through D and Class II groups run E through G, with the earlier letters generally the more severe materials. Equipment has to be identified for the specific group in the location, not just for the class.",
+      "plain_explanation": "Within each class, materials are sorted into groups by how easily they ignite and how much pressure an explosion can build. Class I groups run A through D and Class II groups run E through G, with the earlier letters generally the more severe materials. Equipment has to be identified for the specific group in the location, not just for the class.\n\nExamples that fix the letters in memory. Class I: Group A is acetylene; Group B is hydrogen and gases or vapors of equivalent hazard; Group C covers ethylene-type vapors; Group D covers the everyday fuels — gasoline, propane, natural gas, and alcohol vapors. Class II: Group E is metal dusts; Group F is carbonaceous dusts such as coal and coke; Group G is grain, flour, and other agricultural and plastic dusts. The classification documents name the group for the material actually present — these examples are orientation, not a substitute for them.",
       "on_the_job": "Check the group letter on the plans against the group letters on every luminaire, motor, and enclosure nameplate before installation. A fitting approved for Group D does not automatically cover Groups A, B, or C.",
       "sharma_note": "",
       "figure_idea": "",
@@ -66,7 +66,7 @@
         "C5-Q-003"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C5-500.5",
       "next_id": "C5-500.7",
       "sharma_rule_ids": []
@@ -97,7 +97,7 @@
       "article": "500",
       "section": "500.8",
       "title": "Equipment suitability, marking, and temperature",
-      "plain_explanation": "Equipment for a classified location has to suit the exact class, division, and group where it sits, and gear approved for Division 1 may also serve in Division 2 of the same class and group. Nameplates carry the class, division or zone, group, and a temperature marking that shows the hottest surface the equipment can reach. That temperature marking has to stay below the ignition temperature of the gas, vapor, or dust involved.",
+      "plain_explanation": "Equipment for a classified location has to suit the exact class, division, and group where it sits, and gear approved for Division 1 may also serve in Division 2 of the same class and group. Nameplates carry the class, division or zone, group, and a temperature marking that shows the hottest surface the equipment can reach. That temperature marking has to stay below the ignition temperature of the gas, vapor, or dust involved.\n\nTemperature codes (the T-marking) run from the hottest permitted surface down:\n• T1 — 450°C (842°F)\n• T2 — 300°C (572°F)\n• T3 — 200°C (392°F)\n• T4 — 135°C (275°F)\n• T5 — 100°C (212°F)\n• T6 — 85°C (185°F)\nThe equipment's marked maximum surface temperature must stay at or below the ignition temperature of the material in the location — a T3 device, allowed a 200°C surface, has no place where the gas present ignites at 180°C.",
       "on_the_job": "Read the full nameplate, including the temperature code, before setting equipment — a correct class and group with the wrong temperature code is still a failed install. Photograph nameplates on classified work for the job record.",
       "sharma_note": "",
       "figure_idea": "Nameplate close-up sketch with callouts pointing to class, group, and temperature code fields (generic plate, no brand).",
@@ -106,7 +106,7 @@
         "C5-Q-005"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C5-500.7",
       "next_id": "C5-ART-501",
       "sharma_rule_ids": []
@@ -276,7 +276,7 @@
       "article": "511",
       "section": "511.3",
       "title": "Classification of garage areas",
-      "plain_explanation": "This section sorts garage spaces using tables that turn on three questions: major or minor repair, whether the area is the floor, a pit, or the ceiling, and whether the required ventilation is provided. In major repair garages the floor area up to 18 inches is commonly a Class I, Division 2 location, pits are Division 1 or Division 2 depending on ventilation, and ceiling areas can be classified for lighter-than-air gases when ventilation is absent. Parking and storage garages with no repair work are not required to be classified.",
+      "plain_explanation": "This section sorts garage spaces using tables that turn on three questions: major or minor repair, whether the area is the floor, a pit, or the ceiling, and whether the required ventilation is provided. In major repair garages the floor area up to 18 inches is commonly a Class I, Division 2 location, pits are Division 1 or Division 2 depending on ventilation, and ceiling areas can be classified for lighter-than-air gases when ventilation is absent. Parking and storage garages with no repair work are not required to be classified.\n\nTwo points settle most layout questions. The classified floor band in a major repair garage runs from the floor up to 18 in. — receptacles and arcing equipment are planned against that band first. And a pit is treated at the stricter classification unless the ventilation the tables require for it is actually provided and maintained: a pit drawn as Division 2 'with ventilation' is Division 1 work the day the ventilation is deleted from the mechanical scope.",
       "on_the_job": "Work the three questions in order for each space and write the result on the takeoff — do not classify the whole building by its worst room. Keep ordinary receptacles and arcing devices out of classified pockets where the layout allows.",
       "sharma_note": "",
       "figure_idea": "Plan view of a repair bay with the 18-inch floor band and a pit marked, and a note that ventilation changes the pit answer.",
@@ -288,7 +288,7 @@
         "C5-Q-009"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C5-ART-511",
       "next_id": "C5-511.4",
       "sharma_rule_ids": []
@@ -544,7 +544,7 @@
       "article": "517",
       "section": "517.13",
       "title": "Redundant grounding in patient care spaces",
-      "plain_explanation": "Branch circuits serving patient care spaces need two independent ground-fault return paths working together. The wiring method itself — a metal raceway, or a cable with a metal armor or sheath that qualifies as a grounding path — provides one path, and an insulated copper equipment grounding conductor run with the circuit provides the second. Receptacle grounding terminals and exposed metal of fixed equipment in those spaces connect to that insulated copper conductor, sized from Table 250.122.",
+      "plain_explanation": "Branch circuits serving patient care spaces need two independent ground-fault return paths working together. The wiring method itself — a metal raceway, or a cable with a metal armor or sheath that qualifies as a grounding path — provides one path, and an insulated copper equipment grounding conductor run with the circuit provides the second. Receptacle grounding terminals and exposed metal of fixed equipment in those spaces connect to that insulated copper conductor, sized from Table 250.122.\n\nThe methods that can supply the metal ground path are the metal wiring methods — rigid metal conduit, intermediate metal conduit, or EMT, or Type MI, MC, or AC cable whose armor or sheath assembly itself qualifies as an equipment grounding conductor — in each case with listed fittings. The insulated copper conductor is pulled in every case: the metal path is the second path, never a substitute for it, and a cable whose armor does not qualify as a grounding path does not become compliant because it looks like the one that does.",
       "on_the_job": "On a patient care rough-in, there is no NM cable and no relying on the raceway alone — pull the insulated copper grounding conductor on every branch circuit. Check that the cable or raceway chosen actually qualifies as a grounding path before it is ordered.",
       "sharma_note": "",
       "figure_idea": "Single-line sketch of one patient care branch circuit showing two parallel ground paths: metal raceway and insulated copper conductor.",
@@ -555,7 +555,7 @@
         "C5-Q-017"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C5-517.10",
       "next_id": "C5-517.16",
       "sharma_rule_ids": []
@@ -1291,7 +1291,7 @@
       "article": "590",
       "section": "590.6",
       "title": "GFCI protection and the assured grounding program",
-      "plain_explanation": "Receptacles that supply temporary power for construction style work need GFCI protection for personnel: the 125-volt, 15-, 20-, and 30-ampere receptacles are covered directly by 590.6(A)(1) and (A)(2); 125/250-volt receptacles join the GFCI list only under (A)(3), and only where they are receptacle outlets on a portable generator rated not greater than 15 kW, including receptacles that are part of the building's permanent wiring when they are being used for the temporary work. For receptacles outside that list, the choice is GFCI protection or a written assured equipment grounding conductor program with documented testing of cords and equipment. All receptacles used for temporary power are of the grounding type.",
+      "plain_explanation": "Receptacles that supply temporary power for construction style work need GFCI protection for personnel: the 125-volt, 15-, 20-, and 30-ampere receptacles are covered directly by 590.6(A)(1) and (A)(2); 125/250-volt receptacles join the GFCI list only under (A)(3), and only where they are receptacle outlets on a portable generator rated not greater than 15 kW, including receptacles that are part of the building's permanent wiring when they are being used for the temporary work. For receptacles outside that list, the choice is GFCI protection or a written assured equipment grounding conductor program with documented testing of cords and equipment. All receptacles used for temporary power are of the grounding type.\n\nWhere the assured equipment grounding conductor program covers the receptacles outside the GFCI list, its tests run on a fixed rhythm: before first use, before equipment is returned to service after a repair, after any incident that could reasonably be suspected of having caused damage, and at intervals not exceeding 3 months — 6 months only for cord sets and receptacles that are fixed in place and not exposed to damage. Each test verifies the equipment grounding conductor's continuity and that it terminates correctly, and the program is documented, by color coding or tagging and by records. An undocumented program is treated as no program.",
       "on_the_job": "Test temp GFCI devices on a schedule and keep the test log with the temp panel. If a site runs an assured grounding program instead for the larger receptacles, the paperwork and cord color coding have to exist before the inspector asks, not after.",
       "sharma_note": "S-07 caution: a DFN breaker feeding a receptacle can be the GFCI method on a house's permanent wiring used temporarily, but a spider box or temp panel on site needs its own GFCI protection verified device by device — do not assume the upstream house pattern covers a jobsite distribution box.",
       "figure_idea": "",
@@ -1302,7 +1302,7 @@
         "C5-Q-040"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C5-590.4",
       "next_id": "C5-590.8",
       "sharma_rule_ids": [

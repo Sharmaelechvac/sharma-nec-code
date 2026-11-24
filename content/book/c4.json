@@ -30,13 +30,13 @@
       "article": "400",
       "section": "400.10",
       "title": "What flexible cords may be used for",
-      "plain_explanation": "Section 400.10 lists the jobs a flexible cord is allowed to do: hanging fixtures, connecting portable equipment, appliances that need to be moved for cleaning or service, and similar uses where flexibility is the point. The common thread is that the equipment, not the building, is what moves. A cord feeding a fixed outlet box or a permanent load is outside this list.",
+      "plain_explanation": "Section 400.10 lists the jobs a flexible cord is allowed to do: hanging fixtures, connecting portable equipment, appliances that need to be moved for cleaning or service, and similar uses where flexibility is the point. The common thread is that the equipment, not the building, is what moves. A cord feeding a fixed outlet box or a permanent load is outside this list.\n\nCord ampacity comes from Table 400.5(A)(1) for the cord type and the number of current-carrying conductors — the sizes a crew actually holds, figured for two current-carrying conductors:\n• 18 AWG cord — 10 A\n• 16 AWG cord — 13 A\n• 14 AWG cord — 18 A\n• 12 AWG cord — 25 A\n• 10 AWG cord — 30 A\nA third current-carrying conductor in the same cord drops the value (the table's next column), which is why a cord's rating is read off its own table and not off the building-wire ampacity table.",
       "on_the_job": "Before you plug or hard-wire a cord to anything, name the 400.10 use out loud. If you cannot name one, stop and run conduit or cable. Watch especially for cords run through walls, ceilings, or doorways, which this article does not allow.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-ART-400",
       "next_id": "C4-400.12"
@@ -189,7 +189,7 @@
       "article": "404",
       "section": "404.14",
       "title": "Snap switch ratings and the loads they may control",
-      "plain_explanation": "Section 404.14 ties a general-use snap switch to the kind of load it controls. A switch marked for AC only, or for AC/DC, has different limits for motor, inductive, and tungsten-type loads, and a switch may not be loaded past the rating that applies to that load type. In plain terms: the amp number on the yoke is not a promise for every load — the load type decides which limit applies.",
+      "plain_explanation": "Section 404.14 ties a general-use snap switch to the kind of load it controls. A switch marked for AC only, or for AC/DC, has different limits for motor, inductive, and tungsten-type loads, and a switch may not be loaded past the rating that applies to that load type. In plain terms: the amp number on the yoke is not a promise for every load — the load type decides which limit applies.\n\nThe working limits, by load type:\n• Resistive loads — up to the switch's full marked ampere rating\n• Inductive loads (ballasts, transformers) — full rating on an AC general-use switch; 50 percent of the rating on an AC/DC general-use switch\n• Motor loads — 80 percent of the rating on an AC general-use switch, or the switch's marked horsepower rating where it has one\n• Tungsten-filament lamp loads — 50 percent of the rating, unless the switch is marked with a T rating for the load\nWorked example: a 15A AC-only snap switch may carry a 12A motor load (15 × 0.80) but only a 7.5A tungsten load (15 × 0.50) unless it is T-rated.",
       "on_the_job": "Read the yoke marking before you put a snap switch on a motor, a ballast bank, or a heater. Where the load is a motor or is otherwise hard on contacts, use a switch rated for that duty or control it through a rated contactor or relay.",
       "sharma_note": "",
       "figure_idea": "",
@@ -197,7 +197,7 @@
         "C4-L-003"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-404.8(A)",
       "next_id": "C4-404.15(C)"
@@ -340,7 +340,7 @@
       "article": "406",
       "section": "406.9(B)",
       "title": "Receptacles in wet locations — in-use covers and weather-resistant devices",
-      "plain_explanation": "Section 406.9(B) covers receptacles in wet locations, where water can reach the device whether or not something is plugged in. The enclosure must stay weatherproof while a plug is inserted and the cord is in use — the bubble or in-use cover — and 15A and 20A, 125V and 250V receptacles in wet locations must be weather-resistant (WR) type. An unattended wet-location receptacle, such as one on a house exterior, needs that in-use protection; the rule has specific treatment for receptacles that are attended while in use.",
+      "plain_explanation": "Section 406.9(B) covers receptacles in wet locations, where water can reach the device whether or not something is plugged in. The enclosure must stay weatherproof while a plug is inserted and the cord is in use — the bubble or in-use cover — and 15A and 20A, 125V and 250V receptacles in wet locations must be weather-resistant (WR) type. An unattended wet-location receptacle, such as one on a house exterior, needs that in-use protection; the rule has specific treatment for receptacles that are attended while in use.\n\nTwo details decide inspections here. First, the in-use cover (the outlet box hood) for a wet-location receptacle must be listed and identified as extra duty — the heavier hinged cover — where 406.9(B)(1) requires it; a light flip lid is a damp-location part, not a wet-location one. Second, the weather-resistant requirement in this section reaches the 15A and 20A, 125V and 250V receptacles a house and a light commercial job actually use; larger pin-and-sleeve and locking devices follow their own listing for the location.",
       "on_the_job": "Stock both parts on the truck: a WR receptacle and an extra-duty in-use cover. A flat flip lid on an exterior receptacle that runs a pump, a charger, or landscape equipment is a correction waiting to happen. Seat the cover gasket fully and route the cord out the bottom notch so the cover can close.",
       "sharma_note": "",
       "figure_idea": "",
@@ -350,7 +350,7 @@
         "O-03"
       ],
       "florida_note": "Florida note: afternoon rain and irrigation spray make most Florida exterior receptacles wet locations in practice, whatever the plan calls them. Default to WR + in-use cover outside.",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-406.9(A)",
       "next_id": "C4-406.9(C)"
@@ -382,7 +382,7 @@
       "article": "406",
       "section": "406.12",
       "title": "Tamper-resistant receptacles in dwellings and other listed occupancies",
-      "plain_explanation": "Section 406.12 requires tamper-resistant receptacles in dwelling units and in a list of other occupancies where children are present, such as guest rooms, childcare and preschool areas, dormitories, and certain medical and office waiting areas. A TR receptacle has internal shutters that only open when both blades of a plug go in together, so a key or paperclip pushed into one slot does not reach a live contact. The requirement applies at the receptacle locations the article covers, generally those at normal reachable height rather than the listed exceptions such as receptacles high above the floor or inside a luminaire.",
+      "plain_explanation": "Section 406.12 requires tamper-resistant receptacles in dwelling units and in a list of other occupancies where children are present, such as guest rooms, childcare and preschool areas, dormitories, and certain medical and office waiting areas. A TR receptacle has internal shutters that only open when both blades of a plug go in together, so a key or paperclip pushed into one slot does not reach a live contact. The requirement applies at the receptacle locations the article covers, generally those at normal reachable height rather than the listed exceptions such as receptacles high above the floor or inside a luminaire.\n\nThe exceptions matter on service work. The TR requirement does not reach:\n• Receptacles located more than 5-1/2 ft above the floor\n• Receptacles that are part of a luminaire or an appliance\n• A single receptacle for one appliance, or a duplex for two, in the dedicated space for an appliance that is not easily moved in normal use\n• Nongrounding-type replacements installed under 406.4(D) where the box has no grounding means\nEverything else at normal device height in the occupancies this section lists is TR — when in doubt, the TR device is the answer.",
       "on_the_job": "Use TR devices as the default dwelling device and check the exception before you substitute a standard one. A failed shutter on a damaged TR receptacle means replacement, not a standard-device swap (see 406.4(D)).",
       "sharma_note": "S-07 pairs with this page: the standard Sharma dwelling device is a TR receptacle, with GFCI/AFCI protection supplied by the DFN breaker rather than by a GFCI receptacle.",
       "figure_idea": "",
@@ -393,7 +393,7 @@
         "S-07"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [
         "S-07"
       ],
@@ -742,7 +742,7 @@
       "section": "422.13",
       "title": "Storage water heaters — treat the load as continuous for circuit sizing",
       "plain_explanation": "Section 422.13 sizes the branch circuit for a fixed storage water heater of 120 gallons or less at not less than 125 percent of the heater's nameplate rating. In practice that is why a common 4500W, 240V heater (18.75A) lands on a 25A minimum calculation and is conventionally wired on a 30A circuit with 10 AWG copper — the arithmetic must be run for the actual nameplate on the actual job, not copied from the last house. The heater is treated this way because it can run for long stretches recovering a tank.",
-      "on_the_job": "Do the division every time: nameplate watts divided by voltage, times 1.25, then choose the standard breaker and conductor that cover it. Write the result on the panel schedule so the next person does not have to reverse-engineer it.",
+      "on_the_job": "Do the division every time: nameplate watts divided by voltage, times 1.25, then choose the standard breaker and conductor that cover it. Write the result on the panel schedule so the next person does not have to reverse-engineer it.\n\nWorked example: a 5,500 W, 240 V heater draws 5,500 ÷ 240 = 22.9 A; × 1.25 = 28.6 A minimum circuit — a 30A breaker on 10 AWG copper covers it. The standard 4,500 W heater works out to 18.75 A × 1.25 = 23.4 A, which is why it also lands on the same 30A / 10 AWG circuit.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -751,7 +751,7 @@
         "C4-L-040"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-422.5",
       "next_id": "C4-422.16(B)(4)"
@@ -827,7 +827,7 @@
       "section": "424.4(B)",
       "title": "Branch-circuit sizing for fixed space heat — 125 percent",
       "plain_explanation": "Section 424.4(B) is where this rule lives in the 2020 edition — it was 424.3(B) in 2017, before the Article 424 reorganization. The 2020 text states the sizing directly instead of using the old 'shall be considered continuous load' sentence: the branch-circuit conductors for fixed electric space-heating equipment and any associated motors shall be sized not smaller than 125 percent of the load. Overcurrent protection is sized at the same 125 percent through the continuous-load rules of 210.19(A)(1) and 210.20(A), so in practice both the conductors and the breaker come out at 125 percent of the total load connected to the circuit, heater plus any blower or fan motor in the same equipment.",
-      "on_the_job": "Run the math at 125 percent: total nameplate amps, heater plus motor, times 1.25 — then select the conductor and the breaker.",
+      "on_the_job": "Run the math at 125 percent: total nameplate amps, heater plus motor, times 1.25 — then select the conductor and the breaker.\n\nWorked example: a 10 kW duct heater at 240 V draws 41.7 A; × 1.25 = 52.1 A — conductors rated at least 52.1 A (6 AWG copper at the 75°C column gives 65 A) on a 60A breaker, and the blower motor amps in the same equipment are added to the heater amps before the 125 percent is applied.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -836,7 +836,7 @@
         "C4-L-049"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-ART-424",
       "next_id": "C4-424.19"
@@ -938,7 +938,7 @@
       "article": "430",
       "section": "430.6",
       "title": "Which current do you size from — table values vs. nameplate",
-      "plain_explanation": "Section 430.6 is the traffic rule for the whole article. For sizing conductors, disconnects, controllers, and short-circuit/ground-fault protection, you use the full-load current values from the Article 430 tables for the motor's horsepower and voltage — not the amps printed on that particular motor's nameplate, because the next replacement motor may differ. Overload protection is the exception: it is sized from the actual nameplate current of the motor installed, because it protects that specific machine. Mixing those two bases up is the single most common motor calculation error.",
+      "plain_explanation": "Section 430.6 is the traffic rule for the whole article. For sizing conductors, disconnects, controllers, and short-circuit/ground-fault protection, you use the full-load current values from the Article 430 tables for the motor's horsepower and voltage — not the amps printed on that particular motor's nameplate, because the next replacement motor may differ. Overload protection is the exception: it is sized from the actual nameplate current of the motor installed, because it protects that specific machine. Mixing those two bases up is the single most common motor calculation error.\n\nTable values the crews use most — single-phase from Table 430.248, three-phase from Table 430.250:\n• 1/2 hp, 115 V — 9.8 A\n• 1 hp, 115 V — 16 A\n• 1 hp, 230 V — 8 A\n• 2 hp, 230 V — 12 A\n• 3 hp, 230 V — 17 A\n• 5 hp, 230 V — 28 A\n• 1 hp, 208 V, 3-phase — 4.6 A\n• 5 hp, 208 V, 3-phase — 16.7 A\n• 10 hp, 208 V, 3-phase — 30.8 A\n• 10 hp, 460 V, 3-phase — 14 A\nThe fuller table is on the 430.250 page. If the horsepower and voltage in front of you are not listed here, pull the value from the printed table for that combination — do not scale from a nearby row.",
       "on_the_job": "Keep two numbers on your worksheet and label them: 'Table FLC' and 'Nameplate FLA.' If a number on your page is not labelled, stop and label it before you size anything from it.",
       "sharma_note": "",
       "figure_idea": "",
@@ -946,7 +946,7 @@
         "C4-L-025"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-ART-430",
       "next_id": "C4-430.22"
@@ -958,14 +958,14 @@
       "section": "430.22",
       "title": "Conductors for a single motor — 125 percent of table full-load current",
       "plain_explanation": "Section 430.22 sizes the branch-circuit conductors feeding one continuous-duty motor at not less than 125 percent of the motor's full-load current as taken from the Article 430 tables. The extra quarter covers the heating of a motor that runs for long periods at full load. Intermittent and short-time duty motors are treated under their own parts of this section, so the duty rating on the nameplate decides which rule you are in before you do any arithmetic.",
-      "on_the_job": "Take the table FLC for the horsepower and voltage, multiply by 1.25, then select the conductor from the ampacity table using the correct temperature column for the terminations. Do not size the wire from the nameplate amps and do not round the 125 percent away.",
+      "on_the_job": "Take the table FLC for the horsepower and voltage, multiply by 1.25, then select the conductor from the ampacity table using the correct temperature column for the terminations. Do not size the wire from the nameplate amps and do not round the 125 percent away.\n\nWorked example: a 5 hp, 230 V single-phase motor has a table FLC of 28 A (Table 430.248). Conductors: 28 × 1.25 = 35 A minimum — 10 AWG copper at the 75°C column (35 A) is the smallest conductor that covers it, before any voltage-drop or adjustment checks.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
         "C4-L-026"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-430.6",
       "next_id": "C4-430.24"
@@ -996,7 +996,7 @@
       "article": "430",
       "section": "430.32",
       "title": "Overload protection — protects the motor from running too hot",
-      "plain_explanation": "Section 430.32 requires overload protection for continuous-duty motors over the small sizes the article sets, sized from the motor's nameplate full-load current with the percentage depending on the motor's service factor and temperature-rise markings. The overload device watches running current over time and trips before the windings cook; it is not there to clear a short circuit, which is the branch protective device's job. A motor with built-in thermal protection meets this requirement through its own device where the article allows it.",
+      "plain_explanation": "Section 430.32 requires overload protection for continuous-duty motors over the small sizes the article sets, sized from the motor's nameplate full-load current with the percentage depending on the motor's service factor and temperature-rise markings. The overload device watches running current over time and trips before the windings cook; it is not there to clear a short circuit, which is the branch protective device's job. A motor with built-in thermal protection meets this requirement through its own device where the article allows it.\n\nThe percentages in 430.32(A)(1), applied to the nameplate full-load current:\n• Motor with a marked service factor of 1.15 or greater — 125 percent\n• Motor with a marked temperature rise of 40°C or less — 125 percent\n• All other motors — 115 percent\nIf an overload selected at those percentages will not let the motor start or carry its load, 430.32(C) permits stepping up — to not more than 140 percent for the first two cases, 130 percent for all others. The step-up is a documented exception for a motor that will not run, not the starting point for selection.",
       "on_the_job": "Read service factor and rise off the nameplate before you select or set an overload. If the overload trips repeatedly, measure the running amps and find the mechanical cause — do not solve a tripping overload by setting it higher than 430.32 permits.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1004,7 +1004,7 @@
         "C4-L-025"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-430.24",
       "next_id": "C4-430.52"
@@ -1015,7 +1015,7 @@
       "article": "430",
       "section": "430.52",
       "title": "Branch-circuit short-circuit and ground-fault protection for motors",
-      "plain_explanation": "Section 430.52 sizes the device that clears a fault on a motor branch circuit, using the percentages in Table 430.52 applied to the table full-load current, with the device type (fuses, inverse-time breaker, instantaneous-trip breaker, and so on) deciding which column applies. These percentages are deliberately far above running current, because the device must ride through motor starting inrush without opening, while still clearing a fault. That is why a motor circuit can legally have a breaker that looks oversized for its wire — the overload device, not the breaker, is protecting the motor and, through its sizing rules, the circuit against overload.",
+      "plain_explanation": "Section 430.52 sizes the device that clears a fault on a motor branch circuit, using the percentages in Table 430.52 applied to the table full-load current, with the device type (fuses, inverse-time breaker, instantaneous-trip breaker, and so on) deciding which column applies. These percentages are deliberately far above running current, because the device must ride through motor starting inrush without opening, while still clearing a fault. That is why a motor circuit can legally have a breaker that looks oversized for its wire — the overload device, not the breaker, is protecting the motor and, through its sizing rules, the circuit against overload.\n\nTable 430.52 maximum ratings, as a percentage of table full-load current:\n• Nontime-delay (single-element) fuses — 300 percent\n• Dual-element (time-delay) fuses — 175 percent\n• Inverse-time circuit breakers — 250 percent\n• Instantaneous-trip breakers — 800 percent, with the table's notes permitting up to 1300 percent for the listed motor designs and sizes\nWorked example: the 5 hp, 230 V motor at 28 A table FLC takes an inverse-time breaker of at most 28 × 2.50 = 70 A. If that device will not hold through starting, 430.52(C)(1) Exception 1 permits an inverse-time breaker up to 400 percent where the FLC is 100 A or less — an exception to document, not a habit.",
       "on_the_job": "Never judge a motor circuit by house-circuit instincts. Check all three together: conductor at 125 percent of table FLC (430.22), overload from the nameplate (430.32), fault protection from Table 430.52. If one of the three is missing from the job paperwork, the calculation is not finished.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1023,7 +1023,7 @@
         "C4-L-027"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-430.32",
       "next_id": "C4-430.102"
@@ -1086,6 +1086,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-430.109",
+      "next_id": "C4-430.250"
+    },
+    {
+      "id": "C4-430.250",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.250",
+      "title": "Motor full-load current tables — the working values (430.248 / 430.250)",
+      "plain_explanation": "Tables 430.248 (single-phase) and 430.250 (three-phase) are the source of the table full-load current used for conductor, disconnect, controller, and short-circuit sizing under 430.6. The combinations below are the ones Sharma's crews meet most; the printed tables govern for anything not listed here.\n\nSingle-phase (Table 430.248):\n• 1/2 hp — 9.8 A at 115 V, 4.9 A at 230 V\n• 1 hp — 16 A at 115 V, 8 A at 230 V\n• 1-1/2 hp — 20 A at 115 V, 10 A at 230 V\n• 2 hp — 24 A at 115 V, 12 A at 230 V\n• 3 hp — 34 A at 115 V, 17 A at 230 V\n• 5 hp — 28 A at 230 V\n• 7-1/2 hp — 40 A at 230 V\n• 10 hp — 50 A at 230 V\n\nThree-phase (Table 430.250):\n• 1 hp — 4.6 A at 208 V, 2.1 A at 460 V\n• 3 hp — 10.6 A at 208 V, 4.8 A at 460 V\n• 5 hp — 16.7 A at 208 V, 7.6 A at 460 V\n• 7-1/2 hp — 24.2 A at 208 V, 11 A at 460 V\n• 10 hp — 30.8 A at 208 V, 14 A at 460 V\n• 15 hp — 46.2 A at 208 V, 21 A at 460 V\n• 20 hp — 59.4 A at 208 V, 27 A at 460 V\n• 25 hp — 74.8 A at 208 V, 34 A at 460 V",
+      "on_the_job": "Keep the two bases separate (430.6): these table numbers size the wire, the disconnect, and the fault protection; the overloads still come off the nameplate of the motor actually installed. A replacement motor of the same horsepower uses the same table FLC even when its nameplate amps differ from the old motor's.",
+      "sharma_note": "",
+      "figure_idea": "Worksheet card: horsepower down the left, 115 / 208 / 230 / 460 V columns across, the common FLC values filled in — a glovebox version of Tables 430.248 and 430.250.",
+      "related_ids": [
+        "C4-430.6",
+        "C4-430.22"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.110",
       "next_id": "C4-ART-440"
     },
     {
@@ -1110,7 +1130,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C4-430.110",
+      "prev_id": "C4-430.250",
       "next_id": "C4-440.4(B)"
     },
     {
@@ -1120,7 +1140,7 @@
       "section": "440.4(B)",
       "title": "Reading the HVAC nameplate — MCA and MOCP do the sizing",
       "plain_explanation": "Section 440.4(B) covers the nameplate marking for equipment with a hermetic refrigerant motor-compressor: the plate carries the rated-load current and the branch-circuit selection current, and the manufacturer's marked minimum circuit ampacity and maximum overcurrent device rating are built from them. In field language: MCA tells you the smallest conductor ampacity the circuit may have; MOCP tells you the largest fuse or breaker you may protect it with. A breaker smaller than MOCP is allowed; a conductor smaller than MCA is not. The plate, not a tonnage rule of thumb, is the calculation.",
-      "on_the_job": "On every condenser and air handler: record MCA, MOCP, voltage, and phase from the plate. Wire to at least MCA, protect at no more than MOCP, and if the installed breaker or wire disagrees with a change-out unit's new plate, stop and tell the office before start-up — that is a change order conversation, not a field improvisation.",
+      "on_the_job": "On every condenser and air handler: record MCA, MOCP, voltage, and phase from the plate. Wire to at least MCA, protect at no more than MOCP, and if the installed breaker or wire disagrees with a change-out unit's new plate, stop and tell the office before start-up — that is a change order conversation, not a field improvisation.\n\nWorked example: a condenser plate reads MCA 24.5 A, MOCP 40 A. The conductor ampacity must be at least 24.5 A — 10 AWG copper (35 A at the 75°C column) covers it — and the breaker may be anything up to 40 A; Sharma's standard install protects it at the MOCP with a standard 2-pole breaker. A same-tonnage change-out plate reading MCA 17.5 / MOCP 30 is a different circuit — the plate, not the tons, decides.",
       "sharma_note": "Cross-link (Chapter 2): the question of GFCI protection for outdoor HVAC equipment under 210.8(F) is handled on the Chapter 2 pages and is deliberately not resolved here; local AHJ position governs on the job.",
       "figure_idea": "",
       "related_ids": [
@@ -1131,7 +1151,7 @@
         "C4-L-030"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-ART-440",
       "next_id": "C4-440.10"
@@ -1187,7 +1207,7 @@
       "article": "440",
       "section": "440.22",
       "title": "Short-circuit and ground-fault protection for a compressor circuit",
-      "plain_explanation": "Section 440.22 sizes the branch-circuit short-circuit and ground-fault protection for a hermetic motor-compressor circuit and ties it to the equipment's rated-load or branch-circuit selection current, with the marked MOCP on a listed unit's nameplate being the number the installer works to in practice. As with motors generally, this device is allowed to be larger than the conductor's plain ampacity, because equipment overload protection inside the unit does the running protection and the breaker must ride through compressor starting current. That allowance only exists inside Article 440's system — never borrow it for a general circuit.",
+      "plain_explanation": "Section 440.22 sizes the branch-circuit short-circuit and ground-fault protection for a hermetic motor-compressor circuit and ties it to the equipment's rated-load or branch-circuit selection current, with the marked MOCP on a listed unit's nameplate being the number the installer works to in practice. As with motors generally, this device is allowed to be larger than the conductor's plain ampacity, because equipment overload protection inside the unit does the running protection and the breaker must ride through compressor starting current. That allowance only exists inside Article 440's system — never borrow it for a general circuit.\n\nThe arithmetic behind the nameplate MOCP, from 440.22(A): the protective device is rated at not more than 175 percent of the compressor's rated-load current or branch-circuit selection current, whichever is greater. If a device at that rating will not carry the starting current, 440.22(B) permits a higher rating — but never more than 225 percent.\n\nWorked example: a compressor with a 20 A rated-load current takes protection at 20 × 1.75 = 35 A; if 35 A will not start it, the ceiling is 20 × 2.25 = 45 A. On listed equipment the manufacturer's printed MOCP already reflects this math, so the plate still governs — this arithmetic is for the compressor-only case and for checking a plate that looks wrong.",
       "on_the_job": "If a condenser trips a breaker sized at or below its MOCP, the fault is in the equipment or the circuit, not in the arithmetic: measure starting and running current and inspect the contactor and conductors before anyone proposes a larger breaker. A breaker above the nameplate MOCP is never the fix.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1195,7 +1215,7 @@
         "C4-L-029"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-440.14",
       "next_id": "C4-440.32"
@@ -1266,7 +1286,7 @@
       "article": "445",
       "section": "445.13",
       "title": "Generator conductors — 115 percent of nameplate current",
-      "plain_explanation": "Section 445.13 sizes the conductors from a generator to its first distribution device or devices at not less than 115 percent of the generator's nameplate current rating, with the article's own provisions for cases where design prevents overloading. The margin exists because a generator can be asked to carry its full rating for the whole duration of an outage. Neutral conductor treatment has its own paragraphs in this section, so do not assume the neutral is automatically the same size as the ungrounded conductors on every system type.",
+      "plain_explanation": "Section 445.13 sizes the conductors from a generator to its first distribution device or devices at not less than 115 percent of the generator's nameplate current rating, with the article's own provisions for cases where design prevents overloading. The margin exists because a generator can be asked to carry its full rating for the whole duration of an outage. Neutral conductor treatment has its own paragraphs in this section, so do not assume the neutral is automatically the same size as the ungrounded conductors on every system type.\n\nWorked example: a 22 kW standby unit at 240 V single-phase has a nameplate current of about 92 A; 92 × 1.15 = 105.8 A minimum conductor ampacity — the feeder lands on conductors rated at least 106 A (2 AWG copper at the 75°C column is 115 A), with the overcurrent arrangement set by the generator and transfer equipment design.",
       "on_the_job": "Size from the nameplate on the actual machine, and confirm whether the installation is a separately derived system before you settle the neutral and grounding arrangement — that decision belongs with the Chapter 2/Chapter 7 pages and the transfer equipment, and it changes this section's wiring.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1274,7 +1294,7 @@
         "C4-L-033"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-445.6",
       "next_id": "C4-445.18(D)"
@@ -1326,7 +1346,7 @@
       "article": "450",
       "section": "450.3",
       "title": "Overcurrent protection for transformers",
-      "plain_explanation": "Section 450.3 sets transformer overcurrent protection through its tables, one for transformers over 1000V and one for 1000V and below, with the required protection depending on voltage, whether protection is primary-only or primary-and-secondary, and the transformer's impedance where the table calls for it. Primary-only protection is permitted only within the table's limits; beyond them, both sides must be protected. The percentages are table lookups for the specific case — do not carry one remembered percentage to a different voltage or impedance.",
+      "plain_explanation": "Section 450.3 sets transformer overcurrent protection through its tables, one for transformers over 1000V and one for 1000V and below, with the required protection depending on voltage, whether protection is primary-only or primary-and-secondary, and the transformer's impedance where the table calls for it. Primary-only protection is permitted only within the table's limits; beyond them, both sides must be protected. The percentages are table lookups for the specific case — do not carry one remembered percentage to a different voltage or impedance.\n\nThe Table 450.3(B) rows (1000 V and below) that cover the dry-type work Sharma actually sets:\n• Primary and secondary currents of 9 A or more, primary protection only — 125 percent of rated primary current\n• Same size range, protection on both sides — primary up to 250 percent, secondary not over 125 percent\n• Primary current under 9 A, primary protection only — up to 167 percent\n• Primary current under 2 A, primary protection only — up to 300 percent\nWhere the calculated percentage falls between standard device ratings, the table's notes permit the next higher standard rating in the cases they cover.\n\nWorked example: a 45 kVA, 480-to-208/120 V transformer draws about 54 A on the primary; primary-only protection is 54 × 1.25 = 67.5 A, so a 70 A device is the standard pick.",
       "on_the_job": "Work the table for the case in front of you and write the case (voltage class, impedance, primary-only or both) on the worksheet. If the impedance is not on the nameplate you can read, stop — the table answer may depend on it.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1334,7 +1354,7 @@
         "C4-L-035"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-ART-450",
       "next_id": "C4-450.9"
@@ -1792,6 +1812,11 @@
           "id": "C4-430.110",
           "section": "430.110",
           "title": "Rating of the motor disconnect — at least 115 percent"
+        },
+        {
+          "id": "C4-430.250",
+          "section": "430.250",
+          "title": "Motor full-load current tables — the working values (430.248 / 430.250)"
         }
       ]
     },
@@ -2070,6 +2095,13 @@
       ]
     },
     {
+      "term": "Full-load current, motor tables",
+      "ids": [
+        "C4-430.250",
+        "C4-430.6"
+      ]
+    },
+    {
       "term": "Generator conductors, 115%",
       "ids": [
         "C4-445.13"
@@ -2138,6 +2170,12 @@
       "ids": [
         "C4-430.22",
         "C4-L-026"
+      ]
+    },
+    {
+      "term": "Motor, full-load current tables",
+      "ids": [
+        "C4-430.250"
       ]
     },
     {
