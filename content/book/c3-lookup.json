@@ -996,5 +996,185 @@
     ],
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C3-L-057",
+    "question": "Do all the conductors of one circuit have to run in the same conduit or cable?",
+    "aliases": [
+      "same raceway circuit conductors",
+      "300.3(B) grouping",
+      "borrowed ground conduit"
+    ],
+    "answer_plain": "Yes. The hots, the neutral, and the equipment grounding conductor of a circuit are installed together in the same raceway, cable, or trench. The exceptions (parallel sets and a few named underground/existing cases) still require complete, balanced groups — never a lone conductor borrowed from another run.",
+    "nec_ref": "300.3(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "raceways",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-L-058",
+    "question": "What protects a cable passing through a steel stud?",
+    "aliases": [
+      "metal stud grommet",
+      "NM through steel framing",
+      "300.4(B) bushing"
+    ],
+    "answer_plain": "A bushing or listed grommet that covers the sharp edge of the punched hole and stays in place. Where the cable runs in a slot or notch in metal framing, it takes a steel plate at least 1/16 in thick (or a listed bushing/grommet) for nail and screw protection. Bare punched steel against a cable jacket is a violation.",
+    "nec_ref": "300.4(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "protection",
+      "framing"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-L-059",
+    "question": "What is the smallest branch-circuit conductor size, by material?",
+    "aliases": [
+      "minimum wire size",
+      "14 AWG copper 12 aluminum",
+      "310.3 minimum"
+    ],
+    "answer_plain": "14 AWG copper, or 12 AWG aluminum or copper-clad aluminum. That minimum is why there is no 14 AWG CCA branch-circuit wiring in 2020 work. Special circuits (fixture wires, control circuits) follow their own articles.",
+    "nec_ref": "310.3",
+    "nec_edition": "2020",
+    "tags": [
+      "conductors",
+      "CCA"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-L-060",
+    "question": "When may NM cables enter a panel through a conduit stub without individual clamps at the enclosure?",
+    "aliases": [
+      "conduit stub exception panel",
+      "312.5(C) exception",
+      "NM into top of panel raceway"
+    ],
+    "answer_plain": "Only under the 312.5(C) exception: the cables enter the top of a surface-mounted enclosure through a raceway not over 10 ft long, the raceway does not penetrate a structural ceiling, each cable is fastened within 12 in (measured along the sheath) of the outer end of the raceway, and the entry protects the cables from abrasion. Otherwise every cable is secured to the enclosure.",
+    "nec_ref": "312.5(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "panels",
+      "NM cable"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-L-061",
+    "question": "Can I make a splice inside an LB conduit body?",
+    "aliases": [
+      "splice in conduit body",
+      "LB splice rule",
+      "314.16(C) marked capacity"
+    ],
+    "answer_plain": "Only if the conduit body is durably and legibly marked with its cubic-inch capacity by the manufacturer — then splices, taps, and devices are allowed and the fill is counted like box fill against that volume. An unmarked conduit body is a pulling fitting only: no splices.",
+    "nec_ref": "314.16(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "boxes",
+      "conduit bodies"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-L-062",
+    "question": "How often is MC cable supported, and how long can a ceiling whip be?",
+    "aliases": [
+      "MC support intervals",
+      "MC whip length",
+      "330.30 securing"
+    ],
+    "answer_plain": "Secured within 12 in of each box, cabinet, or fitting, and supported at intervals of not more than 6 ft. From the last point of support, a length of up to 6 ft may run unsupported to a luminaire or other equipment within an accessible ceiling — the standard ceiling whip.",
+    "nec_ref": "330.30",
+    "nec_edition": "2020",
+    "tags": [
+      "MC cable",
+      "support"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-L-063",
+    "question": "How often do I strap 1-inch PVC conduit?",
+    "aliases": [
+      "PVC support spacing",
+      "Table 352.30 intervals",
+      "strap PVC every"
+    ],
+    "answer_plain": "Every 3 ft — Table 352.30 sets 3 ft intervals for 1/2 in through 1 in PVC — and the conduit is secured within 3 ft of each box, cabinet, or termination. Intervals grow with size: 5 ft for 1-1/4 to 2 in, 6 ft for 2-1/2 to 3 in, 7 ft for 3-1/2 to 5 in, 8 ft for 6 in.",
+    "nec_ref": "352.30",
+    "nec_edition": "2020",
+    "tags": [
+      "PVC",
+      "support"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-L-064",
+    "question": "When does a PVC run need an expansion fitting?",
+    "aliases": [
+      "PVC expansion fitting rule",
+      "352.44 quarter inch",
+      "PVC thermal movement"
+    ],
+    "answer_plain": "Where the expected length change from temperature is 1/4 in or more. PVC moves roughly 4 in per 100 ft for a 100°F swing, so a 40 ft sunlit run through an 80°F swing moves about 1-1/3 in — far past the threshold. The fitting is set at mid-travel for the installation temperature.",
+    "nec_ref": "352.44",
+    "nec_edition": "2020",
+    "tags": [
+      "PVC",
+      "expansion"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-L-065",
+    "question": "Can EMT be used in a wet location — and does it count as the ground path?",
+    "aliases": [
+      "EMT wet location fittings",
+      "EMT as equipment ground",
+      "358.10 uses"
+    ],
+    "answer_plain": "Yes to both, with conditions. EMT is permitted in wet locations where the fittings are listed for wet use (raintight), and EMT is a permitted equipment grounding conductor (250.118(4)) — which is why its couplings and connectors must be made up tight. A loose set-screw is a loose ground.",
+    "nec_ref": "358.10",
+    "nec_edition": "2020",
+    "tags": [
+      "EMT",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-L-066",
+    "question": "How full may a wireway be?",
+    "aliases": [
+      "wireway fill percent",
+      "376.22 fill",
+      "wireway derating 30 conductors"
+    ],
+    "answer_plain": "Conductors at any cross section may not exceed 20 percent of the wireway's interior cross-sectional area. Bundling derating does not apply while there are 30 or fewer current-carrying conductors, and splices and taps are allowed inside an accessible wireway as long as they fill no more than 75 percent of the space at that cross section.",
+    "nec_ref": "376.22",
+    "nec_edition": "2020",
+    "tags": [
+      "wireways",
+      "fill"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]

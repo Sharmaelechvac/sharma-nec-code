@@ -494,5 +494,131 @@
     "nec_ref": "314.16(B)",
     "difficulty": 1,
     "exam": "journeyman"
+  },
+  {
+    "id": "C3-Q-032",
+    "article": "300",
+    "question": "The conductors of one circuit — ungrounded, grounded (neutral), and equipment grounding — must be:",
+    "choices": [
+      "Installed together in the same raceway, cable, or trench",
+      "Run in any raceways, as long as they start and end in the same enclosures",
+      "Separated so their magnetic fields do not interact",
+      "Grouped together only on circuits rated over 30A"
+    ],
+    "answer_index": 0,
+    "explain_plain": "300.3(B) requires all conductors of a circuit, including the equipment grounding conductor, to run together. Separately run conductors heat surrounding metal and leave the ground path away from its circuit.",
+    "nec_ref": "300.3(B)",
+    "difficulty": 1,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-Q-033",
+    "article": "310",
+    "question": "The smallest branch-circuit conductor the Code permits is:",
+    "choices": [
+      "14 AWG copper, or 12 AWG aluminum or copper-clad aluminum",
+      "12 AWG in every material",
+      "14 AWG in every material",
+      "16 AWG copper for lighting circuits"
+    ],
+    "answer_index": 0,
+    "explain_plain": "310.3 sets the floor at 14 AWG copper or 12 AWG aluminum/CCA — which is why 14 AWG CCA branch wiring does not exist in 2020 work.",
+    "nec_ref": "310.3",
+    "difficulty": 1,
+    "exam": "both",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-Q-034",
+    "article": "330",
+    "question": "Type MC cable must be secured within ___ of each box or fitting, and supported at intervals not exceeding ___.",
+    "choices": [
+      "12 in; 6 ft",
+      "12 in; 4-1/2 ft",
+      "8 in; 6 ft",
+      "3 ft; 10 ft"
+    ],
+    "answer_index": 0,
+    "explain_plain": "330.30: secured within 12 in of terminations and supported every 6 ft or less. The 4-1/2 ft figure belongs to flexible conduit articles, not MC.",
+    "nec_ref": "330.30",
+    "difficulty": 1,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-Q-035",
+    "article": "338",
+    "question": "Type USE cable may be used:",
+    "choices": [
+      "For interior branch circuits where NM is impractical",
+      "Aboveground as a feeder between buildings",
+      "Underground, and to terminate inside listed equipment it is permitted to enter",
+      "As an overhead service drop"
+    ],
+    "answer_index": 2,
+    "explain_plain": "338.12 bars USE from interior wiring and from aboveground use, except terminating inside listed equipment. Underground is its job.",
+    "nec_ref": "338.12",
+    "difficulty": 2,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-Q-036",
+    "article": "352",
+    "question": "A PVC run requires a listed expansion fitting where the expected length change from temperature is at least:",
+    "choices": [
+      "1/16 in",
+      "1/8 in",
+      "1/4 in",
+      "1 in"
+    ],
+    "answer_index": 2,
+    "explain_plain": "352.44 sets the threshold at 1/4 in of expected movement. PVC moves about 4 in per 100 ft per 100°F, so ordinary Florida sunlit runs pass the threshold quickly.",
+    "nec_ref": "352.44",
+    "difficulty": 1,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-Q-037",
+    "article": "334",
+    "question": "For 12 AWG copper NM cable, the final ampacity after any derating may not exceed the 60°C column value, which is:",
+    "choices": [
+      "15A",
+      "20A",
+      "25A",
+      "30A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 310.16 gives 12 AWG copper 20A at 60°C. The 25A figure is the 75°C column, and 30A is the 90°C value used only as the starting point for correction and adjustment math under 334.80.",
+    "nec_ref": "334.80",
+    "difficulty": 1,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C3-Q-038",
+    "article": "314",
+    "question": "A 65 lb luminaire may be supported by an outlet box when:",
+    "choices": [
+      "Any listed box may support up to 70 lb",
+      "The box is listed and marked for that weight, or the fixture is supported independently of the box",
+      "The box is also rated for a ceiling fan",
+      "The luminaire is on a chain"
+    ],
+    "answer_index": 1,
+    "explain_plain": "314.27(A) allows a box to support a luminaire up to 50 lb; above that, the box must be listed and marked for the actual weight, or the fixture gets independent support.",
+    "nec_ref": "314.27(A)",
+    "difficulty": 2,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]

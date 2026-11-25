@@ -23,8 +23,30 @@
       "florida_note": "",
       "verified": true,
       "prev_id": null,
-      "next_id": "C3-300.4",
+      "next_id": "C3-300.3",
       "chapter": 3
+    },
+    {
+      "id": "C3-300.3",
+      "article": "300",
+      "section": "300.3(B)",
+      "title": "All conductors of a circuit run together",
+      "plain_explanation": "Every conductor of a circuit — the ungrounded conductors, the grounded (neutral) conductor, and the equipment grounding conductor — is installed in the same raceway, cable, trench, or cord. The rule keeps the circuit's magnetic fields canceling each other (conductors run separately heat surrounding metal and behave unpredictably), and it guarantees the ground path travels with the circuit it protects. The exceptions are narrow — conductors in parallel sets, and a few underground and existing-installation arrangements this section names — and even they require the conductors to be grouped so each raceway or cable carries a complete, balanced set.",
+      "on_the_job": "The field failure is the borrowed ground or the lone neutral: a ground pulled from a different cable, or one circuit's neutral run in another conduit. If the conductors did not arrive together, they do not splice together — re-pull the run.",
+      "sharma_note": "",
+      "figure_idea": "One conduit with hot, neutral, and ground entering together (correct), and a second conduit carrying only a stray ground borrowed from another run (crossed out).",
+      "related_ids": [
+        "C3-ART-300",
+        "C3-300.15",
+        "C3-L-057",
+        "C3-Q-032"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-ART-300",
+      "next_id": "C3-300.4",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-300.4",
@@ -43,7 +65,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-ART-300",
+      "prev_id": "C3-300.3",
       "next_id": "C3-300.4(A)(1)",
       "chapter": 3
     },
@@ -63,8 +85,29 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C3-300.4",
-      "next_id": "C3-300.4(D)",
+      "next_id": "C3-300.4(B)",
       "chapter": 3
+    },
+    {
+      "id": "C3-300.4(B)",
+      "article": "300",
+      "section": "300.4(B)",
+      "title": "Cables through metal framing — bushings and plates",
+      "plain_explanation": "Metal studs change the protection hardware. Where a cable passes through a hole in a metal framing member, it is protected by a bushing or a listed grommet that covers the sharp edge of the hole and is designed to stay in place. Where a cable runs in a slot or notch in metal framing, it is protected against nails and screws by a steel plate at least 1/16 in thick, or by a bushing or grommet listed for the purpose. A raw punched steel edge will saw through a cable jacket under vibration and thermal movement — the bushing is not optional trim.",
+      "on_the_job": "Stock grommets on the truck for steel-stud work and snap them in as you lay out the holes, not after the cable is pulled — a grommet forced over a pulled cable usually ends up in a pocket instead. Walk the run before insulation: every hole, every cable, one bushing.",
+      "sharma_note": "",
+      "figure_idea": "Steel stud with three holes: a bare punched hole with cable through it (crossed out), a hole with a snap-in grommet, and a slotted run protected by a 1/16 in plate.",
+      "related_ids": [
+        "C3-300.4(A)(1)",
+        "C3-300.4",
+        "C3-L-058"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-300.4(A)(1)",
+      "next_id": "C3-300.4(D)",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-300.4(D)",
@@ -81,7 +124,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-300.4(A)(1)",
+      "prev_id": "C3-300.4(B)",
       "next_id": "C3-300.4(G)",
       "chapter": 3
     },
@@ -199,8 +242,29 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C3-300.14",
-      "next_id": "C3-300.21",
+      "next_id": "C3-300.18",
       "chapter": 3
+    },
+    {
+      "id": "C3-300.18",
+      "article": "300",
+      "section": "300.18",
+      "title": "Finish the raceway before the wire goes in",
+      "plain_explanation": "A raceway system is installed complete — runs finished, boxes set, fittings in place — before the conductors are pulled into it. Cut ends are reamed or otherwise finished so no sharp edge waits inside to skin insulation during the pull. Short sections are the everyday case, not a loophole: a nipple between two enclosures follows its own fill rules, but it is still a finished piece of raceway before wire enters it. Pulling wire into a half-built run and 'finishing around it' damages insulation where nobody can see it.",
+      "on_the_job": "Walk the run with a flashlight before the pull: every coupling tight, every end reamed, bushings on. The time to find a burr is before 200 ft of THHN is sitting in the pipe.",
+      "sharma_note": "",
+      "figure_idea": "Conduit run in two states: complete with reamed ends and bushings, wire spool staged (ready); versus a gap in the run with wire already threaded through it (crossed out).",
+      "related_ids": [
+        "C3-300.11",
+        "C3-300.15",
+        "C3-ART-300"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-300.15",
+      "next_id": "C3-300.21",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-300.21",
@@ -216,7 +280,7 @@
       ],
       "florida_note": "Firestop systems are assembly-specific; Florida inspectors on rated multi-family and commercial work check them by listing, not by color.",
       "verified": true,
-      "prev_id": "C3-300.15",
+      "prev_id": "C3-300.18",
       "next_id": "C3-300.22",
       "chapter": 3
     },
@@ -270,8 +334,32 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C3-300.25",
-      "next_id": "C3-310.12",
+      "next_id": "C3-310.3",
       "chapter": 3
+    },
+    {
+      "id": "C3-310.3",
+      "article": "310",
+      "section": "310.3",
+      "title": "Conductor minimums — size, material, stranding",
+      "plain_explanation": "This section sets the floor for building wire. The smallest conductor for branch circuits and feeders is 14 AWG copper or 12 AWG aluminum or copper-clad aluminum — which is why there is no 14 AWG CCA branch-circuit wire in 2020 work. Conductors are copper, aluminum, or copper-clad aluminum, and the material decides which ampacity column and which termination rules apply. Conductors 8 AWG and larger installed in raceways are stranded. Smaller conductors and special circuits (fixture wires, control and signaling circuits, and the other cases other articles govern) follow their own articles — this floor is for general wiring.",
+      "on_the_job": "Ordering rule that follows from this page: a '14 AWG' line on a takeoff means copper. If the job is CCA, the smallest branch-circuit reel on the truck is 12 AWG — and per S-10 it lands on a 15A breaker, not a 20A.",
+      "sharma_note": "S-10: copper by default; CCA one size up. This section is where the 'no 14 AWG CCA' rule lives.",
+      "figure_idea": "Three reels labeled by material with their minimum branch-circuit sizes: copper 14 AWG, aluminum 12 AWG, CCA 12 AWG.",
+      "related_ids": [
+        "C3-310.16-CCA",
+        "C3-310.16",
+        "C3-L-059",
+        "C3-Q-033"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-ART-310",
+      "next_id": "C3-310.12",
+      "chapter": 3,
+      "sharma_rule_ids": [
+        "S-10"
+      ]
     },
     {
       "id": "C3-310.12",
@@ -292,7 +380,7 @@
       ],
       "florida_note": "",
       "verified": false,
-      "prev_id": "C3-ART-310",
+      "prev_id": "C3-310.3",
       "next_id": "C3-310.15",
       "chapter": 3
     },
@@ -417,8 +505,29 @@
         "S-09"
       ],
       "prev_id": "C3-ART-311",
-      "next_id": "C3-312.6",
+      "next_id": "C3-312.5(C)",
       "chapter": 3
+    },
+    {
+      "id": "C3-312.5(C)",
+      "article": "312",
+      "section": "312.5(C)",
+      "title": "Cables entering a cabinet — and the conduit-stub exception",
+      "plain_explanation": "Each cable that enters a cabinet or cutout box is secured to it — the clamp or connector at the entry is what keeps a tug on the cable out of the terminations. The exception everyone uses on panel changes: where nonmetallic-sheathed cables enter the top of a surface-mounted enclosure through a raceway, the cables do not have to be individually secured to the enclosure if the raceway is not longer than 10 ft, does not penetrate a structural ceiling, each cable is fastened within 12 in — measured along the sheath — of the outer end of the raceway, and the entry is fitted to protect the cables from abrasion. Outside that exception, every cable gets its own connector and clamp.",
+      "on_the_job": "The stub exception is a panel-swap tool, not a rough-in shortcut: 10 ft maximum of raceway, straight into the top of the can, cables strapped within a foot of the end of the stub. If any condition fails — longer stub, or a structural ceiling in the path — each cable is secured at the enclosure like any other entry.",
+      "sharma_note": "",
+      "figure_idea": "Surface panel with a short conduit stub out the top: NM cables entering through it, straps marked within 12 in of the stub end, and the 10 ft limit dimensioned.",
+      "related_ids": [
+        "C3-ART-312",
+        "C3-312.8",
+        "C3-L-060"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-ART-312",
+      "next_id": "C3-312.6",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-312.6",
@@ -434,7 +543,7 @@
       ],
       "florida_note": "",
       "verified": false,
-      "prev_id": "C3-ART-312",
+      "prev_id": "C3-312.5(C)",
       "next_id": "C3-312.8",
       "chapter": 3
     },
@@ -525,8 +634,29 @@
       "florida_note": "The 2020 quarter-allowance count is what this page, the calculator, the starter quiz, and lookup L-064 now teach. The printed 2020 text of 314.16(B)(5) was checked in the 2026-11-18 verification pass. The old 'all grounds count as one, however many' rule is the 2017 rule.",
       "verified": true,
       "prev_id": "C3-314.16",
-      "next_id": "C3-314.17",
+      "next_id": "C3-314.16(C)",
       "chapter": 3
+    },
+    {
+      "id": "C3-314.16(C)",
+      "article": "314",
+      "section": "314.16(C)",
+      "title": "Conduit bodies — fill and splices",
+      "plain_explanation": "Conduit bodies follow fill rules too. The conductors inside a conduit body may not exceed the fill the Chapter 9 tables allow for the raceway size the body belongs to. Splices, taps, and devices are allowed inside a conduit body only where the body is durably and legibly marked with its cubic-inch capacity by the manufacturer — and then the fill is counted the same way box fill is counted, against that marked volume. An unmarked LB is a pulling fitting, not a junction box: no splices live in it.",
+      "on_the_job": "Read the casting before you splice: no cubic-inch marking, no splice. If the job needs a splice at that point, the fix is a marked body or a real box — not a bigger wirenut.",
+      "sharma_note": "",
+      "figure_idea": "Two conduit bodies: one cast with its cubic-inch capacity marked, holding a splice (approved); one unmarked with a splice inside (crossed out).",
+      "related_ids": [
+        "C3-314.16",
+        "C3-314.16(B)",
+        "C3-L-061"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-314.16(B)",
+      "next_id": "C3-314.17",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-314.17",
@@ -544,7 +674,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-314.16(B)",
+      "prev_id": "C3-314.16(C)",
       "next_id": "C3-314.20",
       "chapter": 3
     },
@@ -599,8 +729,29 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C3-314.21",
-      "next_id": "C3-314.27(C)",
+      "next_id": "C3-314.27(A)",
       "chapter": 3
+    },
+    {
+      "id": "C3-314.27(A)",
+      "article": "314",
+      "section": "314.27(A)",
+      "title": "Boxes at lighting outlets — the 50-pound rule",
+      "plain_explanation": "A box used at a lighting outlet has to be listed for the purpose, and it may support a luminaire (or lampholder) weighing up to 50 lb. A heavier luminaire may be supported by the box only where the box is listed and marked for the weight it will actually carry; otherwise the fixture is supported independently of the box. Ceiling fans are not luminaires under this rule — a fan needs a fan-rated box under 314.27(C), even if the fan weighs less than 50 lb.",
+      "on_the_job": "Big foyer and lanai fixtures are the trap: weigh the fixture or look up its weight before trim-out. Over 50 lb with no weight marking on the box means an independent support — plan it at rough-in, not with the fixture hanging from your lift.",
+      "sharma_note": "",
+      "figure_idea": "Ceiling box with a 45 lb fixture (approved), a 65 lb fixture on an unmarked box (crossed out), and the same fixture on an independent support (approved).",
+      "related_ids": [
+        "C3-314.27(C)",
+        "C3-314.23",
+        "C3-Q-038"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-314.23",
+      "next_id": "C3-314.27(C)",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-314.27(C)",
@@ -618,7 +769,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-314.23",
+      "prev_id": "C3-314.27(A)",
       "next_id": "C3-314.28",
       "chapter": 3
     },
@@ -746,8 +897,50 @@
         "S-01"
       ],
       "prev_id": "C3-ART-326",
-      "next_id": "C3-ART-332",
+      "next_id": "C3-330.10",
       "chapter": 3
+    },
+    {
+      "id": "C3-330.10",
+      "article": "330",
+      "section": "330.10 / 330.12",
+      "title": "Where MC may — and may not — be used",
+      "plain_explanation": "Type MC is the commercial workhorse because its list of permitted uses is long: exposed or concealed, in dry locations, in cable tray, fished into existing walls and ceilings, and in wet locations where the specific cable assembly is listed for it — an impervious jacket or corrosion-resistant construction is what makes an MC cable wet-location legal; plain interlocked armor is not. The not-permitted list is shorter but firm: MC may not be used where subject to physical damage, it is not a direct-burial cable unless the specific cable is identified for burial, and it may not be embedded in concrete or aggregate unless identified for it. Read the jacket print: the ratings live on the cable, not in the article's title.",
+      "on_the_job": "Before MC leaves the shop, match the jacket print to the location: wet location, tray, plenum — each is a marking on the actual cable. 'MC is MC' is how a dry-location cable ends up in a damp mechanical room and fails inspection.",
+      "sharma_note": "",
+      "figure_idea": "Three MC reels with jacket legends highlighted: standard interlocked (dry), jacketed and wet-location listed, and tray rated, each with its location tag.",
+      "related_ids": [
+        "C3-ART-330",
+        "C3-330.30"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-ART-330",
+      "next_id": "C3-330.30",
+      "chapter": 3,
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C3-330.30",
+      "article": "330",
+      "section": "330.30",
+      "title": "Securing and supporting MC cable",
+      "plain_explanation": "MC is secured within 12 in of each box, cabinet, or fitting, and supported at intervals of not more than 6 ft. The exceptions carry the field cases:\n• Fished through existing walls or ceilings — no securing required where the cable cannot be reached\n• A length of not more than 6 ft from the last point of support to a luminaire or other equipment within an accessible ceiling — the ceiling whip\n• Short lengths at terminals where flexibility is needed for equipment that moves or vibrates\nOutside those cases, a long unsupported drape of MC across a ceiling is a violation even if it happens to be resting on the grid.",
+      "on_the_job": "Strap MC like you mean it: within a foot of the box, then every 6 ft or less, with straps that fit the cable. The 6 ft whip allowance is measured from the last real support — not from wherever the cable happened to leave the bundle.",
+      "sharma_note": "",
+      "figure_idea": "MC run above a ceiling: strap at 12 in from the box, supports dimensioned at 6 ft, and a 6 ft whip dropping to a lay-in fixture.",
+      "related_ids": [
+        "C3-330.10",
+        "C3-ART-330",
+        "C3-L-062",
+        "C3-Q-034"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-330.10",
+      "next_id": "C3-ART-332",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-ART-332",
@@ -761,7 +954,7 @@
       "related_ids": [],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-ART-330",
+      "prev_id": "C3-330.30",
       "next_id": "C3-ART-334",
       "chapter": 3
     },
@@ -909,9 +1102,9 @@
       "section": "334.80",
       "title": "Ampacity of NM cable — the 60°C limit",
       "plain_explanation": "The conductors inside NM are 90°C rated, but the cable's ampacity is limited to the 60°C column of Table 310.16. You may still start correction and adjustment math from the 90°C value — that is what makes a bundled or hot-attic NM run survivable on paper — as long as the final ampacity after 310.15 does not exceed the 60°C value, and the 240.4(D) small-conductor caps still apply on top.",
-      "on_the_job": "Field translation: 14 AWG NM on a 15A breaker and 12 AWG NM on a 20A breaker, full stop — and if you derate a bundle of home runs, do the math from 90°C, then cap the answer at the 60°C column (25A for 12 AWG before the 20A breaker cap).",
+      "on_the_job": "Field translation: 14 AWG NM on a 15A breaker and 12 AWG NM on a 20A breaker, full stop — and if you derate a bundle of home runs, do the math from 90°C, then cap the answer at the 60°C column (20A for 12 AWG — the same place the 240.4(D) breaker cap lands).",
       "sharma_note": "S-10 still governs the wire choice: copper by default; CCA one size up. NM ampacity limits apply the same either way, read in the correct 310.16 column for the metal.",
-      "figure_idea": "Two-column mini-table: 12 AWG NM — 90°C start 30A (Cu) for derating, 60°C final cap 25A, breaker cap 20A.",
+      "figure_idea": "Two-column mini-table: 12 AWG NM — 90°C start 30A (Cu) for derating, 60°C final cap 20A, breaker cap 20A.",
       "related_ids": [
         "L-037",
         "Q-026",
@@ -919,13 +1112,14 @@
         "C3-L-031"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "sharma_rule_ids": [
         "S-10"
       ],
       "prev_id": "C3-334.30",
       "next_id": "C3-ART-336",
-      "chapter": 3
+      "chapter": 3,
+      "unverified_reason": "Corrected 2026-11-25: this page previously stated the 60°C cap for 12 AWG NM as 25A; Table 310.16 gives 20A at 60°C for 12 AWG copper (25A is the 75°C column). Flagged for Mike Holt re-check after the correction."
     },
     {
       "id": "C3-ART-336",
@@ -999,7 +1193,28 @@
       ],
       "verified": true,
       "prev_id": "C3-ART-338",
-      "next_id": "C3-ART-340"
+      "next_id": "C3-338.12"
+    },
+    {
+      "id": "C3-338.12",
+      "article": "338",
+      "section": "338.12",
+      "title": "Where SE and USE cable may not be used",
+      "plain_explanation": "The prohibitions keep service cable in its lane. Type USE is an underground cable: it may not be used for interior wiring, and not aboveground at all, except where it terminates inside listed equipment it is permitted to enter. Type SE may not be used underground (that is USE's job), and SE used as interior branch-circuit or feeder wiring is limited to the conditions on the 338.10(B)(4) page — outside those conditions, interior circuits get an interior wiring method. Service cable leaving the meter is service territory; it does not become a general-purpose house cable because it was on the truck.",
+      "on_the_job": "The classic misuse is USE pulled inside a building 'because it was already in the trench.' Once the run comes inside, the method has to change to one that is legal indoors — plan the transition at the entry, in a box or the panel, not mid-run.",
+      "sharma_note": "",
+      "figure_idea": "House wall section: USE stopping at the entry point and transitioning to an interior method (approved), versus USE continuing across the attic (crossed out).",
+      "related_ids": [
+        "C3-338.10(B)(4)",
+        "C3-ART-338",
+        "C3-Q-035"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-338.10(B)(4)",
+      "next_id": "C3-ART-340",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-ART-340",
@@ -1018,9 +1233,30 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-338.10(B)(4)",
-      "next_id": "C3-ART-342",
+      "prev_id": "C3-338.12",
+      "next_id": "C3-340.10",
       "chapter": 3
+    },
+    {
+      "id": "C3-340.10",
+      "article": "340",
+      "section": "340.10 / 340.12",
+      "title": "Where UF may — and may not — be used",
+      "plain_explanation": "UF's permitted list is the underground counterpart to NM's: direct burial, wet locations, corrosive locations, and sunlight exposure where the cable is marked sunlight resistant. Where UF is used in place of NM for a branch circuit, it is installed under the NM framework it points to (Article 334's protection and support rules). The not-permitted list keeps it out of service work and buildings it does not belong in: UF may not be used as service-entrance cable, in commercial garages, theaters and similar locations, motion picture studios, storage battery rooms, or hoistways, and not embedded in poured concrete or left exposed to physical damage without protection.",
+      "on_the_job": "Yard lights and outbuilding feeds are UF's home turf — but the moment the feed becomes the building's service, UF is the wrong cable. And like NM, its ampacity is read at the 60°C limit (340.80), so size it the way the 334.80 page teaches.",
+      "sharma_note": "",
+      "figure_idea": "Yard cross-section: UF buried to a pedestal light (approved); UF rising into a meter base as a service cable (crossed out).",
+      "related_ids": [
+        "C3-ART-340",
+        "C3-334.80",
+        "C3-300.5"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-ART-340",
+      "next_id": "C3-ART-342",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-ART-342",
@@ -1037,7 +1273,7 @@
       ],
       "florida_note": "",
       "verified": false,
-      "prev_id": "C3-ART-340",
+      "prev_id": "C3-340.10",
       "next_id": "C3-ART-344",
       "chapter": 3
     },
@@ -1066,7 +1302,7 @@
       "article": "348",
       "section": "348",
       "title": "Flexible metal conduit — FMC ('Greenfield')",
-      "plain_explanation": "FMC is a flexible spiral metal raceway used for short, bendy final connections — inside equipment, across a vibration gap, or fished where a rigid method cannot go. It is not a wet-location method in its basic form (that is LFMC, Article 350), it needs fittings listed for it, and when it is used as the ground path its length and overcurrent limits are restricted — on Sharma work, pull a green ground and do not rely on the spiral.",
+      "plain_explanation": "FMC is a flexible spiral metal raceway used for short, bendy final connections — inside equipment, across a vibration gap, or fished where a rigid method cannot go. It is not a wet-location method in its basic form (that is LFMC, Article 350), it needs fittings listed for it, and when it is used as the ground path its length and overcurrent limits are restricted — on Sharma work, pull a green ground and do not rely on the spiral.\n\nThe working numbers (348.30 and 348.60): FMC is fastened within 12 in of each termination and supported at intervals not over 4-1/2 ft, with exceptions for lengths fished in existing construction, for up to 3 ft at a terminal where flexibility is needed after installation, and for a whip of up to 6 ft to a luminaire in an accessible ceiling. As a grounding path, the spiral itself counts only where the fittings are listed for grounding, the total length in the ground return path is not over 6 ft, and the circuit's overcurrent protection stays within the limits this article sets for the trade size (20 amperes for 3/8 in and 1/2 in). Sharma practice stays ahead of all of this: pull the green ground.",
       "on_the_job": "Keep FMC whips short and supported, bond with a real conductor, and switch to LFMC the moment the location is wet or outdoors.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1074,7 +1310,7 @@
         "C3-L-036"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-344",
       "next_id": "C3-ART-350",
       "chapter": 3
@@ -1084,7 +1320,7 @@
       "article": "350",
       "section": "350",
       "title": "Liquidtight flexible metal conduit — LFMC",
-      "plain_explanation": "LFMC is FMC with a liquidtight plastic jacket over the metal core — the flexible method for wet locations, outdoors, and vibrating equipment. On Sharma work this is the condenser whip: LFMC from the disconnect to the outdoor unit, with listed liquidtight fittings, supported close to each end, and a separate equipment ground inside.",
+      "plain_explanation": "LFMC is FMC with a liquidtight plastic jacket over the metal core — the flexible method for wet locations, outdoors, and vibrating equipment. On Sharma work this is the condenser whip: LFMC from the disconnect to the outdoor unit, with listed liquidtight fittings, supported close to each end, and a separate equipment ground inside.\n\nThe working numbers (350.30 and 350.60): LFMC is fastened within 12 in of each termination and supported at intervals not over 4-1/2 ft; a length of up to 6 ft is permitted unsupported at a luminaire or equipment connection within an accessible ceiling, and short lengths at terminals may go unsupported where flexibility is needed. As a grounding path, the jacketed spiral counts only in trade sizes 3/8 in through 1-1/4 in, with listed fittings, a total ground-path length not over 6 ft, and the overcurrent limits this article sets — which is why the condenser whip still gets its own equipment grounding conductor inside, sized from Table 250.122.",
       "on_the_job": "The whip is not the support for the disconnect and the disconnect is not the support for the whip — strap both, keep the whip off the ground where it will be weed-eaten, and seal the outdoor end with the listed fitting, hand-tight plus the manufacturer's turn, not channel-locks.",
       "sharma_note": "",
       "figure_idea": "Condenser pad detail: disconnect on the wall, LFMC whip looping down to the unit with support straps marked.",
@@ -1092,7 +1328,7 @@
         "C3-L-037"
       ],
       "florida_note": "210.8(F) GFCI enforcement on outdoor HVAC outlets has varied by AHJ and amendment — see the Chapter 2 note; confirm locally before choosing the condenser breaker.",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-348",
       "next_id": "C3-ART-352",
       "chapter": 3
@@ -1116,8 +1352,51 @@
       "florida_note": "Florida sun on an exposed PVC riser is the textbook expansion case — check every long south- and west-wall run.",
       "verified": false,
       "prev_id": "C3-ART-350",
-      "next_id": "C3-ART-353",
+      "next_id": "C3-352.30",
       "chapter": 3
+    },
+    {
+      "id": "C3-352.30",
+      "article": "352",
+      "section": "352.30",
+      "title": "Supporting PVC — the Table 352.30 intervals",
+      "plain_explanation": "PVC is secured within 3 ft of each box, cabinet, or termination, and supported at the intervals of Table 352.30, which grow with the conduit size:\n• 1/2 in through 1 in — every 3 ft\n• 1-1/4 in through 2 in — every 5 ft\n• 2-1/2 in through 3 in — every 6 ft\n• 3-1/2 in through 5 in — every 7 ft\n• 6 in — every 8 ft\nThe table assumes the conduit is supported so it cannot sag between straps; a run that bellies between supports will belly worse once the Florida sun and the conductors are in it.",
+      "on_the_job": "On a 1 in yard run, a strap every 3 ft feels like a lot — until you see the same run in August with two straps missing. Strap to the table at rough-in; adding straps after the trench is closed means hand-digging your own work.",
+      "sharma_note": "",
+      "figure_idea": "PVC run along a wall with support intervals dimensioned for 1 in (3 ft) and 2 in (5 ft), and straps marked within 3 ft of the panel.",
+      "related_ids": [
+        "C3-ART-352",
+        "C3-352.44",
+        "C3-L-063"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-ART-352",
+      "next_id": "C3-352.44",
+      "chapter": 3,
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C3-352.44",
+      "article": "352",
+      "section": "352.44",
+      "title": "Expansion fittings — PVC moves",
+      "plain_explanation": "PVC grows and shrinks with temperature far more than the building it is attached to — roughly 4 in of length change per 100 ft of run for a 100°F temperature swing (Table 352.44 gives the exact characteristic). Where the expected length change is 1/4 in or more, a listed expansion fitting is required, so the movement happens at the fitting instead of pulling couplings apart, pushing into boxes, or bowing the run off the wall. Underground runs meet the same rule where they rise out of the ground into the sun.",
+      "on_the_job": "Worked example: a 40 ft PVC run on a sunny Florida wall, installed at 70°F, with surface temperatures reaching 150°F — an 80°F swing. Movement is about 40 ft × (4 in per 100 ft) × 0.8, roughly 1.3 in. That is five times the 1/4 in threshold: the run gets an expansion fitting, set at mid-travel for the installation temperature.",
+      "sharma_note": "",
+      "figure_idea": "Long PVC wall run with an expansion fitting at mid-run, arrows showing the piston travel, and a thermometer scale from installation temperature to summer peak.",
+      "related_ids": [
+        "C3-352.30",
+        "C3-ART-352",
+        "C3-L-064",
+        "C3-Q-036"
+      ],
+      "florida_note": "Florida is expansion-fitting country: attic, roof, and sunlit-wall temperatures swing far past the indoor range, and a long PVC run glued rigid at both ends will find the weakest coupling by the second summer.",
+      "verified": false,
+      "prev_id": "C3-352.30",
+      "next_id": "C3-ART-353",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-ART-353",
@@ -1131,7 +1410,7 @@
       "related_ids": [],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-ART-352",
+      "prev_id": "C3-352.44",
       "next_id": "C3-ART-354",
       "chapter": 3
     },
@@ -1172,7 +1451,7 @@
       "article": "356",
       "section": "356",
       "title": "Liquidtight flexible nonmetallic conduit — LFNC",
-      "plain_explanation": "LFNC is the all-plastic liquidtight flexible raceway — no metal core — used for short flexible connections in wet and outdoor locations where a nonmetallic method is wanted, including many pool and equipment connections. It comes in listed types with different fittings and limits, has a maximum supported length pattern similar to other flex methods, and may not be used where subject to physical damage or beyond its temperature and listing limits.",
+      "plain_explanation": "LFNC is the all-plastic liquidtight flexible raceway — no metal core — used for short flexible connections in wet and outdoor locations where a nonmetallic method is wanted, including many pool and equipment connections. It comes in listed types with different fittings and limits, has a maximum supported length pattern similar to other flex methods, and may not be used where subject to physical damage or beyond its temperature and listing limits.\n\nThe working numbers (356.30): LFNC is fastened within 12 in of each termination and supported at intervals not over 3 ft, with the familiar flex exceptions — fished lengths, short lengths at terminals where flexibility is needed, and up to 6 ft at a luminaire or equipment connection in an accessible ceiling. The tubing itself is plastic and carries nothing: where LFNC is the raceway for a circuit, the equipment grounding conductor runs inside it like any other nonmetallic method.",
       "on_the_job": "On pool and outdoor equipment, confirm the specific LFNC type and its fittings are listed for the location before it goes on the truck — 'liquidtight' on the box is a listing claim, not a description.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1180,7 +1459,7 @@
         "C3-L-041"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C3-ART-355",
       "next_id": "C3-ART-358",
       "chapter": 3
@@ -1207,8 +1486,29 @@
         "S-01"
       ],
       "prev_id": "C3-ART-356",
-      "next_id": "C3-358.22",
+      "next_id": "C3-358.10",
       "chapter": 3
+    },
+    {
+      "id": "C3-358.10",
+      "article": "358",
+      "section": "358.10 / 358.12",
+      "title": "Where EMT may — and may not — be used",
+      "plain_explanation": "EMT's permitted list covers most of a commercial building: exposed or concealed, in wet locations where the fittings are listed for wet use (raintight), embedded in concrete, and in masonry in contact with the earth where protected against corrosion. EMT is itself steel, and it is permitted as the equipment grounding path (250.118(4)) — which is why its couplings must be made up tight. The not-permitted list is short: EMT may not be used where it will be subject to severe physical damage during installation or afterward, and it is never threaded in the field — EMT is joined with threadless fittings only.",
+      "on_the_job": "Two field checks: a wet location means raintight-listed fittings, not standard compression fittings and a prayer; and every coupling wrench-tight, because on an EMT job the raceway is the ground path — a loose set-screw is a loose ground.",
+      "sharma_note": "",
+      "figure_idea": "EMT run at a wet exterior wall with raintight fittings tagged, and a hand-cut thread on a piece of EMT crossed out.",
+      "related_ids": [
+        "C3-ART-358",
+        "C3-358.42",
+        "C3-L-065"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-ART-358",
+      "next_id": "C3-358.22",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-358.22",
@@ -1227,7 +1527,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-ART-358",
+      "prev_id": "C3-358.10",
       "next_id": "C3-358.24-26",
       "chapter": 3
     },
@@ -1318,8 +1618,28 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C3-ART-360",
-      "next_id": "C3-ART-366",
+      "next_id": "C3-362.10",
       "chapter": 3
+    },
+    {
+      "id": "C3-362.10",
+      "article": "362",
+      "section": "362.10 / 362.12",
+      "title": "Where ENT may — and may not — be used",
+      "plain_explanation": "ENT ('smurf tube') is permitted concealed in walls, floors, and ceilings, encased in concrete and in slab-on-grade work with listed fittings, and in wet locations where the tubing and fittings are listed for them. Its exposed use is height-limited: exposed ENT is permitted only in buildings not more than three floors above grade (with this section's own allowances), which is why it disappears into slabs and walls on taller work. It may not be used where subject to physical damage, in sunlight unless marked sunlight resistant, in hazardous (classified) locations except as specifically allowed, for circuits over 600 volts, or as a support for fixtures or other equipment.",
+      "on_the_job": "In a Florida slab, ENT is a sleeve and low-voltage raceway more than a branch-circuit method: coil and stub it where the island and floor outlets will land, cap the ends against concrete, and photograph every run before the pour — after the pour, the photo is the as-built.",
+      "sharma_note": "",
+      "figure_idea": "Slab plan with ENT coils stubbed at an island and a floor outlet, caps on the ends, and a camera icon marking the pre-pour photo.",
+      "related_ids": [
+        "C3-ART-362",
+        "C3-ART-352"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-ART-362",
+      "next_id": "C3-ART-366",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-ART-366",
@@ -1333,7 +1653,7 @@
       "related_ids": [],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-ART-362",
+      "prev_id": "C3-362.10",
       "next_id": "C3-ART-368",
       "chapter": 3
     },
@@ -1416,8 +1736,29 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C3-ART-374",
-      "next_id": "C3-ART-378",
+      "next_id": "C3-376.22",
       "chapter": 3
+    },
+    {
+      "id": "C3-376.22",
+      "article": "376",
+      "section": "376.22 / 376.56",
+      "title": "Wireway fill — 20 percent, and splices inside",
+      "plain_explanation": "A wireway is not a trough to fill to the brim. The conductors at any cross section may not exceed 20 percent of the wireway's interior cross-sectional area. Two allowances make wireways practical anyway: the ampacity adjustment (bundling derating) factors do not apply where the number of current-carrying conductors in the wireway is 30 or fewer, and splices and taps are permitted inside a wireway that remains accessible — provided the splices and taps do not fill more than 75 percent of the wiring space at that cross section.",
+      "on_the_job": "Do the 20 percent math at layout, not with the cover in your hand: list the conductors, take their areas from Chapter 9 Table 5, and check the total against one-fifth of the wireway's inside area. If the count of current-carrying conductors passes 30, derating enters the job — that is the moment to upsize the wireway or split the run.",
+      "sharma_note": "",
+      "figure_idea": "Wireway cross-section shaded to 20 percent conductor fill, with a splice bay shaded to its 75 percent limit.",
+      "related_ids": [
+        "C3-ART-376",
+        "C3-314.16",
+        "C3-L-066"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C3-ART-376",
+      "next_id": "C3-ART-378",
+      "chapter": 3,
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-ART-378",
@@ -1431,7 +1772,7 @@
       "related_ids": [],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C3-ART-376",
+      "prev_id": "C3-376.22",
       "next_id": "C3-ART-380",
       "chapter": 3
     },
@@ -1572,13 +1913,13 @@
       "article": "394",
       "section": "394",
       "title": "Concealed knob-and-tube wiring",
-      "plain_explanation": "Knob-and-tube is the oldest method in the chapter: single conductors run open on porcelain knobs and through porcelain tubes, found in older Florida houses. This article governs its (very limited) permitted extensions and uses today; new knob-and-tube installations are effectively a closed door, and insulation contact with it is a known fire concern that other codes also address.",
+      "plain_explanation": "Knob-and-tube is the oldest method in the chapter: single conductors run open on porcelain knobs and through porcelain tubes, found in older Florida houses. This article governs its (very limited) permitted extensions and uses today; new knob-and-tube installations are effectively a closed door, and insulation contact with it is a known fire concern that other codes also address.\n\nThe prohibition that matters most on Florida re-insulation jobs sits in 394.12: knob-and-tube is not permitted in the hollow spaces of walls, ceilings, and attics where loose, rolled, or foamed-in-place insulation envelops the conductors. Blowing insulation over live knob-and-tube buries a heat source the method was never designed for, and hides it. Where insulation work is planned over knob-and-tube, the wiring is replaced or the insulation plan changes — that conversation happens before the insulation truck, not after.",
       "on_the_job": "On remodels in older houses, Sharma practice is identification and safe handling: document it, do not bury it in new insulation or extend it casually, and put replacement options in front of the customer.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
-      "florida_note": "",
-      "verified": true,
+      "florida_note": "Older Florida housing stock — the pre-war bungalows of Tampa, Orlando, and Jacksonville — is where Sharma meets knob-and-tube, and it is exactly where blown-in attic insulation retrofits are sold hardest. Flag it on every survey.",
+      "verified": false,
       "prev_id": "C3-ART-393",
       "next_id": "C3-ART-396",
       "chapter": 3
@@ -1639,6 +1980,11 @@
       "title": "Wiring methods — general rules",
       "children": [
         {
+          "id": "C3-300.3",
+          "section": "300.3(B)",
+          "title": "All conductors of a circuit run together"
+        },
+        {
           "id": "C3-300.4",
           "section": "300.4",
           "title": "Protecting wiring from physical damage"
@@ -1647,6 +1993,11 @@
           "id": "C3-300.4(A)(1)",
           "section": "300.4(A)(1)",
           "title": "Bored holes in wood framing"
+        },
+        {
+          "id": "C3-300.4(B)",
+          "section": "300.4(B)",
+          "title": "Cables through metal framing — bushings and plates"
         },
         {
           "id": "C3-300.4(D)",
@@ -1684,6 +2035,11 @@
           "title": "A box or fitting at each splice, outlet and junction"
         },
         {
+          "id": "C3-300.18",
+          "section": "300.18",
+          "title": "Finish the raceway before the wire goes in"
+        },
+        {
           "id": "C3-300.21",
           "section": "300.21",
           "title": "Firestopping penetrations of rated construction"
@@ -1705,6 +2061,11 @@
       "article": "310",
       "title": "Conductors for general wiring",
       "children": [
+        {
+          "id": "C3-310.3",
+          "section": "310.3",
+          "title": "Conductor minimums — size, material, stranding"
+        },
         {
           "id": "C3-310.12",
           "section": "310.12",
@@ -1739,6 +2100,11 @@
       "title": "Cabinets, cutout boxes and meter socket enclosures",
       "children": [
         {
+          "id": "C3-312.5(C)",
+          "section": "312.5(C)",
+          "title": "Cables entering a cabinet — and the conduit-stub exception"
+        },
+        {
           "id": "C3-312.6",
           "section": "312.6",
           "title": "Conductor bending and deflection space in enclosures"
@@ -1766,6 +2132,11 @@
           "title": "The five counting rules, one by one"
         },
         {
+          "id": "C3-314.16(C)",
+          "section": "314.16(C)",
+          "title": "Conduit bodies — fill and splices"
+        },
+        {
           "id": "C3-314.17",
           "section": "314.17",
           "title": "Conductors and cables entering boxes"
@@ -1784,6 +2155,11 @@
           "id": "C3-314.23",
           "section": "314.23",
           "title": "Supporting boxes"
+        },
+        {
+          "id": "C3-314.27(A)",
+          "section": "314.27(A)",
+          "title": "Boxes at lighting outlets — the 50-pound rule"
         },
         {
           "id": "C3-314.27(C)",
@@ -1830,7 +2206,18 @@
       "id": "C3-ART-330",
       "article": "330",
       "title": "Metal-clad cable — Type MC",
-      "children": []
+      "children": [
+        {
+          "id": "C3-330.10",
+          "section": "330.10 / 330.12",
+          "title": "Where MC may — and may not — be used"
+        },
+        {
+          "id": "C3-330.30",
+          "section": "330.30",
+          "title": "Securing and supporting MC cable"
+        }
+      ]
     },
     {
       "id": "C3-ART-332",
@@ -1901,6 +2288,11 @@
           "id": "C3-338.10(B)(4)",
           "section": "338.10(B)(4)",
           "title": "SE cable used as interior wiring"
+        },
+        {
+          "id": "C3-338.12",
+          "section": "338.12",
+          "title": "Where SE and USE cable may not be used"
         }
       ]
     },
@@ -1908,7 +2300,13 @@
       "id": "C3-ART-340",
       "article": "340",
       "title": "Underground feeder cable — Type UF",
-      "children": []
+      "children": [
+        {
+          "id": "C3-340.10",
+          "section": "340.10 / 340.12",
+          "title": "Where UF may — and may not — be used"
+        }
+      ]
     },
     {
       "id": "C3-ART-342",
@@ -1938,7 +2336,18 @@
       "id": "C3-ART-352",
       "article": "352",
       "title": "Rigid polyvinyl chloride conduit — PVC",
-      "children": []
+      "children": [
+        {
+          "id": "C3-352.30",
+          "section": "352.30",
+          "title": "Supporting PVC — the Table 352.30 intervals"
+        },
+        {
+          "id": "C3-352.44",
+          "section": "352.44",
+          "title": "Expansion fittings — PVC moves"
+        }
+      ]
     },
     {
       "id": "C3-ART-353",
@@ -1969,6 +2378,11 @@
       "article": "358",
       "title": "Electrical metallic tubing — EMT",
       "children": [
+        {
+          "id": "C3-358.10",
+          "section": "358.10 / 358.12",
+          "title": "Where EMT may — and may not — be used"
+        },
         {
           "id": "C3-358.22",
           "section": "358.22",
@@ -2001,7 +2415,13 @@
       "id": "C3-ART-362",
       "article": "362",
       "title": "Electrical nonmetallic tubing — ENT ('smurf tube')",
-      "children": []
+      "children": [
+        {
+          "id": "C3-362.10",
+          "section": "362.10 / 362.12",
+          "title": "Where ENT may — and may not — be used"
+        }
+      ]
     },
     {
       "id": "C3-ART-366",
@@ -2037,7 +2457,13 @@
       "id": "C3-ART-376",
       "article": "376",
       "title": "Metal wireways",
-      "children": []
+      "children": [
+        {
+          "id": "C3-376.22",
+          "section": "376.22 / 376.56",
+          "title": "Wireway fill — 20 percent, and splices inside"
+        }
+      ]
     },
     {
       "id": "C3-ART-378",
@@ -2493,6 +2919,102 @@
       "term": "Condensation in raceways",
       "ids": [
         "C3-300.7"
+      ]
+    },
+    {
+      "term": "All conductors of a circuit together (300.3(B))",
+      "ids": [
+        "C3-300.3"
+      ]
+    },
+    {
+      "term": "Cabinet, cables entering (312.5(C))",
+      "ids": [
+        "C3-312.5(C)"
+      ]
+    },
+    {
+      "term": "Conduit bodies, fill and splices",
+      "ids": [
+        "C3-314.16(C)"
+      ]
+    },
+    {
+      "term": "EMT, uses permitted and not permitted",
+      "ids": [
+        "C3-358.10"
+      ]
+    },
+    {
+      "term": "ENT, uses permitted and not permitted",
+      "ids": [
+        "C3-362.10"
+      ]
+    },
+    {
+      "term": "Expansion fittings, PVC",
+      "ids": [
+        "C3-352.44"
+      ]
+    },
+    {
+      "term": "Luminaire support, 50-pound rule",
+      "ids": [
+        "C3-314.27(A)"
+      ]
+    },
+    {
+      "term": "MC cable, securing and supporting",
+      "ids": [
+        "C3-330.30"
+      ]
+    },
+    {
+      "term": "MC cable, uses permitted and not permitted",
+      "ids": [
+        "C3-330.10"
+      ]
+    },
+    {
+      "term": "Metal framing, cable protection in",
+      "ids": [
+        "C3-300.4(B)"
+      ]
+    },
+    {
+      "term": "Minimum conductor sizes (310.3)",
+      "ids": [
+        "C3-310.3"
+      ]
+    },
+    {
+      "term": "PVC support intervals (Table 352.30)",
+      "ids": [
+        "C3-352.30"
+      ]
+    },
+    {
+      "term": "Raceway, complete before pulling conductors",
+      "ids": [
+        "C3-300.18"
+      ]
+    },
+    {
+      "term": "SE and USE cable, uses not permitted",
+      "ids": [
+        "C3-338.12"
+      ]
+    },
+    {
+      "term": "UF cable, uses permitted and not permitted",
+      "ids": [
+        "C3-340.10"
+      ]
+    },
+    {
+      "term": "Wireway fill, 20 percent",
+      "ids": [
+        "C3-376.22"
       ]
     }
   ]
