@@ -1322,5 +1322,182 @@
     "verified_by": "Jarvis",
     "verified_date": "2026-11-11",
     "sharma_rule_id": "S-10"
+  },
+  {
+    "id": "C5-L-077",
+    "question": "How far does the classified area extend around a gas dispenser?",
+    "aliases": [
+      "dispenser classified area extent",
+      "514.3 division 2"
+    ],
+    "answer_plain": "514.3 and Table 514.3(B)(1) draw it: inside the dispenser is Class I, Division 1; around it, Division 2 commonly extends up to 18 inches above grade for 20 feet horizontally, with tighter Division 1 pockets at vents and fills per the table. Work from the classified-area drawing, not from memory.",
+    "nec_ref": "514.3",
+    "nec_edition": "2020",
+    "tags": [
+      "hazardous locations",
+      "fuel dispensing"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C5-L-078",
+    "question": "What are the three branches of a hospital essential electrical system?",
+    "aliases": [
+      "life safety critical equipment branch",
+      "517.19 branches"
+    ],
+    "answer_plain": "Life safety (egress lighting, exit signs, fire alarm, emergency communications), critical (selected patient-care loads such as bed-location receptacles and nurse call), and equipment (heavy facility loads that tolerate a later transfer). Land each circuit on the panel its branch label names — branch assignment is a design decision.",
+    "nec_ref": "517.19",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "emergency systems"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C5-L-079",
+    "question": "Do midway receptacles at a fair need GFCI protection?",
+    "aliases": [
+      "carnival GFCI 525.23",
+      "fair temporary power GFCI"
+    ],
+    "answer_plain": "Yes — 525.23 requires GFCI protection for personnel on 15 A and 20 A, 125 V receptacle circuits available to the public and event staff at carnivals, fairs, and similar events, with only narrow exceptions. Test at setup and after every generator restart cycle.",
+    "nec_ref": "525.23",
+    "nec_edition": "2020",
+    "tags": [
+      "GFCI",
+      "temporary power"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C5-L-080",
+    "question": "What receptacles does an RV pedestal provide?",
+    "aliases": [
+      "RV site supply equipment",
+      "551.71 pedestal receptacles"
+    ],
+    "answer_plain": "Per 551.71, site supply equipment offers combinations of 20 A 125 V, 30 A 125 V (TT-30), and 50 A 125/250 V receptacles, with a required share of sites providing the 50 A supply, plus the site's disconnect and overcurrent protection at the pedestal.",
+    "nec_ref": "551.71",
+    "nec_edition": "2020",
+    "tags": [
+      "RV parks",
+      "pedestals"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C5-L-081",
+    "question": "How is an RV park's service load calculated?",
+    "aliases": [
+      "RV park demand 551.73",
+      "551.73 volt-amperes per site"
+    ],
+    "answer_plain": "551.73 counts each site at its supply rating — 12,000 VA for a 50 A site, 3,600 VA for 30 A, 2,400 VA for 20 A — then applies the demand factors of Table 551.73(A), which step down as site count grows. Always read the demand factor from the printed table for the actual site count.",
+    "nec_ref": "551.73",
+    "nec_edition": "2020",
+    "tags": [
+      "RV parks",
+      "load calculations"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C5-L-082",
+    "question": "What changed for floating buildings in the 2020 NEC?",
+    "aliases": [
+      "floating buildings 553 deleted",
+      "555 Part III"
+    ],
+    "answer_plain": "Article 553 was deleted in 2020; floating buildings moved into Article 555, Part III (555.50 and following). Service equipment and the disconnect sit on land, not on the floating structure, with ground-fault protection on the supply.",
+    "nec_ref": "555.50",
+    "nec_edition": "2020",
+    "tags": [
+      "marinas",
+      "floating buildings"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C5-L-083",
+    "question": "On a modular classroom job, who inspects the wiring between sections?",
+    "aliases": [
+      "manufactured building interconnection inspection",
+      "545 sections"
+    ],
+    "answer_plain": "It splits: factory work and the listed interconnection system between sections ride on the state modular program paperwork; the site service/feeder connection is local AHJ work. Get the modular insignia paperwork before rough-in — an unlisted field splice between sections is the classic finding.",
+    "nec_ref": "545",
+    "nec_edition": "2020",
+    "tags": [
+      "manufactured buildings"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C5-L-084",
+    "question": "Is a park trailer wired like an RV?",
+    "aliases": [
+      "park trailer vs RV",
+      "552 definition 400 square feet"
+    ],
+    "answer_plain": "No — Article 552 is its own article. A park trailer is built on a single chassis on wheels and stays at or under 400 square feet in set-up mode; supply follows the unit's listing (cord or permanent feeder) with disconnect and protection at the site. Read the label before choosing between 550, 551, and 552.",
+    "nec_ref": "552",
+    "nec_edition": "2020",
+    "tags": [
+      "park trailers"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C5-L-085",
+    "question": "What does the life safety branch carry in a clinic?",
+    "aliases": [
+      "life safety branch loads",
+      "517.19 life safety"
+    ],
+    "answer_plain": "The loads that get people out and keep egress safe: exit and egress illumination, exit signs, fire alarm, and emergency communications. It is one of the three branches in 517.19, alongside critical and equipment.",
+    "nec_ref": "517.19",
+    "nec_edition": "2020",
+    "tags": [
+      "health care",
+      "emergency systems"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C5-L-086",
+    "question": "Temporary power on a construction site — what governs it besides 590?",
+    "aliases": [
+      "temporary installations other articles",
+      "590.4 services feeders"
+    ],
+    "answer_plain": "Article 590 layers on the ordinary rules: temporary services follow Article 230, feeders and branch circuits keep Article 240 protection, and 590.6 adds ground-fault protection for personnel on the receptacles. 590.4 adds the housekeeping discipline — approved equipment, guarded live parts, splices in boxes, protected cables.",
+    "nec_ref": "590.4",
+    "nec_edition": "2020",
+    "tags": [
+      "temporary power"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]

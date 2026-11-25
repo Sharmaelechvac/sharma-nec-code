@@ -432,8 +432,29 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C5-ART-513",
-      "next_id": "C5-514.11",
+      "next_id": "C5-514.3",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-514.3",
+      "chapter": 5,
+      "article": "514",
+      "section": "514.3",
+      "title": "Fuel dispensing areas — where the classified space actually is (514.3)",
+      "plain_explanation": "Section 514.3 and its table draw the classified map around motor fuel dispensing equipment. Inside the dispenser enclosure is the harshest space — Class I, Division 1. Around the dispenser, the table extends Division 2 in measured steps: the commonly used envelope is up to 18 inches above grade extending 20 feet horizontally from the dispenser, with tighter Division 1 pockets at vents, fills, and hose connections detailed in the table. Wiring methods, seals, and equipment all follow the classification of the exact spot they occupy — one conduit run can cross two classifications on a single wall.",
+      "on_the_job": "On a fuel-station service call, treat the classification drawing as part of the plans: if the set has no classified-area plan, stop and get one before choosing fittings or breaking a seal. Ordinary-location parts do not go inside the table's lines.",
+      "sharma_note": "",
+      "figure_idea": "Elevation sketch of a dispenser with the 18-inch / 20-foot Division 2 envelope drawn around it.",
+      "related_ids": [
+        "C5-ART-514",
+        "C5-514.11",
+        "C5-ART-500"
+      ],
+      "florida_note": "Florida convenience-store work is usually a design-build handoff from the tank contractor — confirm whose permit carries the classified wiring before pricing it.",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C5-ART-514",
+      "next_id": "C5-514.11"
     },
     {
       "id": "C5-514.11",
@@ -451,7 +472,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C5-ART-514",
+      "prev_id": "C5-514.3",
       "next_id": "C5-ART-515",
       "sharma_rule_ids": []
     },
@@ -586,7 +607,7 @@
       "article": "517",
       "section": "517.18",
       "title": "General care (Category 2) patient bed locations",
-      "plain_explanation": "Each patient bed location in a general care, Category 2 space needs at least two branch circuits, with at least one from the normal system and one from the emergency system where an essential system exists, and the normal circuits coming from a single panelboard. The 2020 edition sets a minimum of eight receptacles at each such bed location. Receptacles at bed locations are hospital grade, identified by the green dot marking. (The green TRIANGLE is a different mark — it denotes an isolated-ground receptacle, not hospital grade, and 517.16 restricts isolated-ground receptacles within the patient care vicinity.)13.",
+      "plain_explanation": "Each patient bed location in a general care, Category 2 space needs at least two branch circuits, with at least one from the normal system and one from the emergency system where an essential system exists, and the normal circuits coming from a single panelboard. The 2020 edition sets a minimum of eight receptacles at each such bed location. Receptacles at bed locations are hospital grade, identified by the green dot marking. (The green TRIANGLE is a different mark — it denotes an isolated-ground receptacle, not hospital grade, and 517.16 restricts isolated-ground receptacles within the patient care vicinity.)",
       "on_the_job": "Count receptacles and circuits per bed on the clinic takeoff, not per room — a four-bed room is four bed locations. Order hospital-grade devices early; they are not the standard tamper-resistant stock from house work.",
       "sharma_note": "Do not substitute standard receptacles from the Sharma house catalog in a patient care space. S-07's no-GFCI-receptacle pattern does not set the device grade here — hospital grade governs.",
       "figure_idea": "",
@@ -598,8 +619,28 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C5-517.16",
-      "next_id": "C5-517.30",
+      "next_id": "C5-517.19",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-517.19",
+      "chapter": 5,
+      "article": "517",
+      "section": "517.19",
+      "title": "The branches of a health care essential electrical system (517.19)",
+      "plain_explanation": "Where a health care facility has an essential electrical system, 517.19 sorts its loads into branches. The life safety branch carries the loads that get people out and keep egress safe — illumination of exits and exit signs, fire alarm, and emergency communications. The critical branch carries the patient-care loads the facility selects — task lighting and receptacles at bed locations, nurse call, and similar systems that must not die with normal power. The equipment branch carries the heavy mechanical and facility loads that support care but tolerate a later transfer. Which branch a circuit lands on is a design decision in the facility's plans; the field job is to land each circuit on the panel its branch label names.",
+      "on_the_job": "In a clinic or surgery-center tenant job, panel schedules carry branch labels (LS, CR, EQ, or the designer's equivalents). Land circuits exactly as labeled and flag any field change — moving a receptacle from critical to normal is a design change, not a shortcut.",
+      "sharma_note": "",
+      "figure_idea": "Three-lane diagram: generator to transfer switches to life safety / critical / equipment lanes with example loads in each.",
+      "related_ids": [
+        "C5-517.30",
+        "C5-517.18"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C5-517.18",
+      "next_id": "C5-517.30"
     },
     {
       "id": "C5-517.30",
@@ -617,7 +658,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C5-517.18",
+      "prev_id": "C5-517.19",
       "next_id": "C5-ART-518",
       "sharma_rule_ids": []
     },
@@ -691,7 +732,7 @@
       "article": "520",
       "section": "520",
       "title": "Theaters, audience areas, and performance spaces",
-      "plain_explanation": "Article 520 takes theaters, audience areas of movie and television studios, and performance areas out of Article 518 and gives them their own rules, built around stage and house lighting, switchboards, and portable stage equipment. Wiring methods echo the assembly rules, with added provisions for the portable and temporary-looking equipment that is actually permanent in a theater. Sharma would meet this on a school auditorium or church stage package, not on ordinary tenant work.",
+      "plain_explanation": "Article 520 takes theaters, audience areas of movie and television studios, and performance areas out of Article 518 and gives them their own rules, built around stage and house lighting, switchboards, and portable stage equipment. Wiring methods echo the assembly rules, with added provisions for the portable and temporary-looking equipment that is actually permanent in a theater. Sharma would meet this on a school auditorium or church stage package, not on ordinary tenant work.\n\nFor scope-spotting: fixed stage switchboards, portable switchboards used on stage, and the flexible cables and connectors feeding portable stage equipment are the article's center of gravity, and its wiring-method rules are stricter than ordinary commercial work because audiences sit in the dark in front of energized equipment. Any Sharma bid touching a stage should carry the article as a named scope with engineered drawings — it is never a 'few extra dimmers' add-on.",
       "on_the_job": "Treat any stage, dimming, or performance lighting scope as engineered work and price only detailed plans. Portable stage cable and connectors follow this article, not jobsite temporary rules.",
       "sharma_note": "",
       "figure_idea": "",
@@ -699,7 +740,7 @@
         "C5-L-041"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C5-518.6",
       "next_id": "C5-ART-522",
       "sharma_rule_ids": []
@@ -739,8 +780,28 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C5-ART-522",
-      "next_id": "C5-ART-530",
+      "next_id": "C5-525.23",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-525.23",
+      "chapter": 5,
+      "article": "525",
+      "section": "525.23",
+      "title": "Carnivals and fairs — GFCI protection for personnel (525.23)",
+      "plain_explanation": "Section 525.23 requires ground-fault circuit-interrupter protection for personnel on the 15 A and 20 A, 125-volt receptacle circuits that the public and event staff plug into at carnivals, circuses, fairs, and similar events — with the section's narrow exception pattern for receptacles that are not available for public use in the same way. Portable distribution at an event is temporary power with the public standing on the ground: the GFCI rule is the point of the article for a service electrician, and it applies to the event hookup even when the same box would be ordinary temporary power on a construction site under Article 590.",
+      "on_the_job": "Fairground and festival hookups: test every GFCI at setup, and again after any generator refuel-and-restart cycle. A nuisance trip on a midway is an annoyance; a missing GFCI is a liability.",
+      "sharma_note": "",
+      "figure_idea": "Event distro box with GFCI test arrows and the 15/20 A, 125 V receptacle row highlighted.",
+      "related_ids": [
+        "C5-ART-525",
+        "C5-590.6"
+      ],
+      "florida_note": "Florida's fair and festival season runs through the wet months — assume the ground is wet for every outdoor event hookup.",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C5-ART-525",
+      "next_id": "C5-ART-530"
     },
     {
       "id": "C5-ART-530",
@@ -757,7 +818,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C5-ART-525",
+      "prev_id": "C5-525.23",
       "next_id": "C5-ART-540",
       "sharma_rule_ids": []
     },
@@ -786,7 +847,7 @@
       "article": "545",
       "section": "545",
       "title": "Manufactured buildings and relocatable structures",
-      "plain_explanation": "Article 545 covers buildings built in a factory in sections or panels and assembled on site, plus relocatable structures such as portable classrooms and jobsite offices. The electrical questions are how the factory-built sections connect together, how the completed building connects to its service, and which parts are inspected at the factory versus on site. Florida's portable classroom and modular office market makes this a live article for Sharma even though this first pass stays at intro level.",
+      "plain_explanation": "Article 545 covers buildings built in a factory in sections or panels and assembled on site, plus relocatable structures such as portable classrooms and jobsite offices. The electrical questions are how the factory-built sections connect together, how the completed building connects to its service, and which parts are inspected at the factory versus on site. Florida's portable classroom and modular office market makes this a live article for Sharma even though this first pass stays at intro level.\n\nSite-side, the work concentrates at two joints: the interconnection between factory-built sections, made with the manufacturer's listed connection system and instructions, and the feeder or service connection to the completed building, which follows the ordinary service and feeder rules once the building is set. Which joint belongs to the factory's inspection and which to the local AHJ is decided by the state modular program paperwork — get it before rough-in, because an unlisted field splice between sections is the finding this article exists to prevent.",
       "on_the_job": "On a modular or portable classroom job, get the manufacturer's connection details and the state modular insignia paperwork before pricing the site connection. This page is verified at article level only — no subsection numbers are given on this pass, on purpose.",
       "sharma_note": "",
       "figure_idea": "This first pass intentionally gives no 545 subsection pages. Mike Holt to confirm the 2020 section list before any are added.",
@@ -794,7 +855,7 @@
         "C5-L-046"
       ],
       "florida_note": "Florida has its own modular building program and insignia process; confirm with the AHJ whether site electrical work on a state-insignia building is inspected locally before bidding the connection.",
-      "verified": true,
+      "verified": false,
       "prev_id": "C5-ART-540",
       "next_id": "C5-ART-547",
       "sharma_rule_ids": []
@@ -986,8 +1047,48 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C5-550.33",
-      "next_id": "C5-ART-552",
+      "next_id": "C5-551.71",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C5-551.71",
+      "chapter": 5,
+      "article": "551",
+      "section": "551.71",
+      "title": "RV site supply equipment — what each pedestal must offer (551.71)",
+      "plain_explanation": "Section 551.71 is the pedestal page for RV parks. Each RV site with an electrical supply gets site supply equipment with receptacles in the configurations travelers actually carry: 20-ampere, 125-volt; 30-ampere, 125-volt in the TT-30 travel-trailer configuration; and 50-ampere, 125/250-volt — with the section setting which sites must offer which, including a required share of sites with the 50-ampere supply. Each site's equipment includes its disconnecting means and overcurrent protection at the site, and receptacles carry the ground-fault protection the article requires. A pedestal is a small service repeated down a row: rating, configuration, and protection repeat with it.",
+      "on_the_job": "Bid the park by the pedestal schedule, not by the site count alone: how many 50 A sites, how many 30 A-only, and who furnishes the pedestals decide the number. Confirm the configuration mix with the owner before the feeder math in 551.73 means anything.",
+      "sharma_note": "",
+      "figure_idea": "Pedestal face drawing: 50 A 125/250 V, TT-30 30 A, and 20 A GFCI receptacles with the site breaker above them.",
+      "related_ids": [
+        "C5-551.73",
+        "C5-ART-551"
+      ],
+      "florida_note": "Florida RV parks run full through the winter season — size and stage the work for occupied parks; pedestal swaps are usually one row at a time with live sites on either side.",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C5-ART-551",
+      "next_id": "C5-551.73"
+    },
+    {
+      "id": "C5-551.73",
+      "chapter": 5,
+      "article": "551",
+      "section": "551.73",
+      "title": "Sizing RV park services and feeders (551.73)",
+      "plain_explanation": "Section 551.73 calculates an RV park's service and feeders from the sites themselves. Each site counts at its supply rating — the working figures are 12,000 volt-amperes for a 50-ampere site, 3,600 volt-amperes for a 30-ampere site, and 2,400 volt-amperes for a 20-ampere site — and the total is then reduced by the demand factors of Table 551.73(A), which step down as the number of sites grows, because a whole park never draws full load at every pedestal at once. The demand table is not optional color: on a forty-site park it is the difference between a service that prices the job and one that prices Sharma out of it.",
+      "on_the_job": "Worked example: ten sites, all 50 A — 10 × 12,000 = 120,000 VA before demand. Apply Table 551.73(A) for ten sites from the printed table on the worksheet; do not carry a remembered percentage between jobs.",
+      "sharma_note": "",
+      "figure_idea": "Worksheet card: sites times VA each, subtotal, Table 551.73(A) demand line, service amps.",
+      "related_ids": [
+        "C5-551.71",
+        "C5-ART-550"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C5-551.71",
+      "next_id": "C5-ART-552"
     },
     {
       "id": "C5-ART-552",
@@ -995,7 +1096,7 @@
       "article": "552",
       "section": "552",
       "title": "Park trailers",
-      "plain_explanation": "Article 552 covers park trailers — the trailer-type units built for park placement rather than highway travel, defined around a size threshold that separates them from recreational vehicles. Its rules parallel the mobile home and RV articles for supply and connection. Confusing a park trailer with an RV or a mobile home sends the job to the wrong article, so identification comes first.",
+      "plain_explanation": "Article 552 covers park trailers — the trailer-type units built for park placement rather than highway travel, defined around a size threshold that separates them from recreational vehicles. Its rules parallel the mobile home and RV articles for supply and connection. Confusing a park trailer with an RV or a mobile home sends the job to the wrong article, so identification comes first.\n\nIdentification turns on the definition: a park trailer is built on a single chassis on wheels and, in its set-up mode, stays at or under 400 square feet of gross area — bigger or permanently sited units fall to other articles. Supply follows the unit's listing: park trailers are typically served by a cord connection or a permanent feeder sized to the unit's load under this article, with the disconnect and protection at the site. When the paperwork and the unit disagree, the nameplate and listing govern.",
       "on_the_job": "Read the unit's label and paperwork before choosing between 550, 551, and 552. When the unit type is unclear, ask the AHJ rather than guessing the article.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1003,8 +1104,8 @@
         "C5-L-054"
       ],
       "florida_note": "",
-      "verified": true,
-      "prev_id": "C5-ART-551",
+      "verified": false,
+      "prev_id": "C5-551.73",
       "next_id": "C5-ART-553",
       "sharma_rule_ids": []
     },
@@ -1451,6 +1552,11 @@
       "title": "Motor fuel dispensing facilities",
       "children": [
         {
+          "id": "C5-514.3",
+          "section": "514.3",
+          "title": "Fuel dispensing areas — where the classified space actually is (514.3)"
+        },
+        {
           "id": "C5-514.11",
           "section": "514.11",
           "title": "Emergency disconnect at fuel dispensing"
@@ -1495,6 +1601,11 @@
           "title": "General care (Category 2) patient bed locations"
         },
         {
+          "id": "C5-517.19",
+          "section": "517.19",
+          "title": "The branches of a health care essential electrical system (517.19)"
+        },
+        {
           "id": "C5-517.30",
           "section": "517.30",
           "title": "Essential electrical systems — hospitals, at a high level"
@@ -1534,7 +1645,13 @@
       "id": "C5-ART-525",
       "article": "525",
       "title": "Carnivals, circuses, fairs, and similar events",
-      "children": []
+      "children": [
+        {
+          "id": "C5-525.23",
+          "section": "525.23",
+          "title": "Carnivals and fairs — GFCI protection for personnel (525.23)"
+        }
+      ]
     },
     {
       "id": "C5-ART-530",
@@ -1607,7 +1724,18 @@
       "id": "C5-ART-551",
       "article": "551",
       "title": "Recreational vehicles and recreational vehicle parks",
-      "children": []
+      "children": [
+        {
+          "id": "C5-551.71",
+          "section": "551.71",
+          "title": "RV site supply equipment — what each pedestal must offer (551.71)"
+        },
+        {
+          "id": "C5-551.73",
+          "section": "551.73",
+          "title": "Sizing RV park services and feeders (551.73)"
+        }
+      ]
     },
     {
       "id": "C5-ART-552",
@@ -1756,6 +1884,12 @@
       ]
     },
     {
+      "term": "Carnivals and fairs, GFCI",
+      "ids": [
+        "C5-525.23"
+      ]
+    },
+    {
       "term": "Classification, hazardous locations",
       "ids": [
         "C5-ART-500",
@@ -1772,15 +1906,16 @@
       ]
     },
     {
-      "term": "Datum plane, electrical",
+      "term": "Copper-clad aluminum (CCA)",
       "ids": [
-        "C5-555.3"
+        "C5-547.5",
+        "C5-555.35"
       ]
     },
     {
-      "term": "Disconnect, shore power",
+      "term": "Datum plane, electrical",
       "ids": [
-        "C5-555.36"
+        "C5-555.3"
       ]
     },
     {
@@ -1788,6 +1923,12 @@
       "ids": [
         "C5-550.11",
         "C5-550.32"
+      ]
+    },
+    {
+      "term": "Disconnect, shore power",
+      "ids": [
+        "C5-555.36"
       ]
     },
     {
@@ -1802,6 +1943,12 @@
         "C5-ART-555",
         "C5-555.35",
         "C5-555.10"
+      ]
+    },
+    {
+      "term": "Emergency disconnect, fuel dispensing",
+      "ids": [
+        "C5-514.11"
       ]
     },
     {
@@ -1831,24 +1978,18 @@
       ]
     },
     {
-      "term": "Copper-clad aluminum (CCA)",
-      "ids": [
-        "C5-547.5",
-        "C5-555.35"
-      ]
-    },
-    {
-      "term": "Emergency disconnect, fuel dispensing",
-      "ids": [
-        "C5-514.11"
-      ]
-    },
-    {
       "term": "Fuel dispensing",
       "ids": [
         "C5-ART-514",
         "C5-511.8",
         "C5-514.11"
+      ]
+    },
+    {
+      "term": "Fuel dispensing, classified areas",
+      "ids": [
+        "C5-514.3",
+        "C5-ART-514"
       ]
     },
     {
@@ -1891,6 +2032,12 @@
         "C5-517.10",
         "C5-517.13",
         "C5-517.18"
+      ]
+    },
+    {
+      "term": "Health care, essential system branches",
+      "ids": [
+        "C5-517.19"
       ]
     },
     {
@@ -1989,6 +2136,18 @@
       ]
     },
     {
+      "term": "RV parks, demand calculation",
+      "ids": [
+        "C5-551.73"
+      ]
+    },
+    {
+      "term": "RV parks, site supply",
+      "ids": [
+        "C5-551.71"
+      ]
+    },
+    {
       "term": "Service equipment, marina",
       "ids": [
         "C5-555.4"
@@ -2025,6 +2184,13 @@
       ]
     },
     {
+      "term": "Temporary power, general rules",
+      "ids": [
+        "C5-590.4",
+        "C5-ART-590"
+      ]
+    },
+    {
       "term": "Theaters and performance areas",
       "ids": [
         "C5-ART-520"
@@ -2043,15 +2209,15 @@
       ]
     },
     {
-      "term": "Zone system, gases and vapors",
-      "ids": [
-        "C5-ART-505"
-      ]
-    },
-    {
       "term": "Zone system, dusts and fibers",
       "ids": [
         "C5-ART-506"
+      ]
+    },
+    {
+      "term": "Zone system, gases and vapors",
+      "ids": [
+        "C5-ART-505"
       ]
     }
   ]

@@ -734,5 +734,117 @@
     "nec_ref": "Ch. 9 Table 8",
     "difficulty": 3,
     "exam": "master"
+  },
+  {
+    "id": "C5-Q-047",
+    "article": "514",
+    "question": "Around a motor fuel dispenser, the Division 2 envelope in Table 514.3(B)(1) commonly extends:",
+    "choices": [
+      "5 feet horizontally, up to 3 feet high",
+      "20 feet horizontally, up to 18 inches above grade",
+      "10 feet in all directions",
+      "Only inside the dispenser enclosure"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Inside the dispenser is Division 1; the table's Division 2 envelope around it commonly runs 20 feet horizontally and up to 18 inches above grade, with tighter Division 1 pockets at vents and fills.",
+    "nec_ref": "514.3",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C5-Q-048",
+    "article": "517",
+    "question": "Exit signs and fire alarm in a health care facility with an essential electrical system belong on the:",
+    "choices": [
+      "Equipment branch",
+      "Critical branch",
+      "Life safety branch",
+      "Normal system only"
+    ],
+    "answer_index": 2,
+    "explain_plain": "517.19 puts egress illumination, exit signs, fire alarm, and emergency communications on the life safety branch.",
+    "nec_ref": "517.19",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-049",
+    "article": "525",
+    "question": "At a county fair, 125 V, 15/20 A receptacles available to the public must have:",
+    "choices": [
+      "Tamper-resistant covers only",
+      "GFCI protection for personnel (525.23)",
+      "AFCI protection",
+      "No special protection — it is temporary"
+    ],
+    "answer_index": 1,
+    "explain_plain": "525.23 requires GFCI protection for personnel on those receptacle circuits at carnivals, fairs, and similar events.",
+    "nec_ref": "525.23",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C5-Q-050",
+    "article": "551",
+    "question": "A 50-ampere RV site counts toward the park's calculated load at:",
+    "choices": [
+      "6,000 VA",
+      "9,600 VA",
+      "12,000 VA",
+      "18,000 VA"
+    ],
+    "answer_index": 2,
+    "explain_plain": "551.73 counts a 50 A site at 12,000 VA (30 A site: 3,600 VA; 20 A site: 2,400 VA) before Table 551.73(A) demand factors.",
+    "nec_ref": "551.73",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C5-Q-051",
+    "article": "551",
+    "question": "The 30-ampere receptacle configuration standard at an RV pedestal is:",
+    "choices": [
+      "NEMA 14-30 dryer style",
+      "TT-30, 125 V travel-trailer configuration",
+      "NEMA 6-30, 250 V",
+      "A standard duplex receptacle"
+    ],
+    "answer_index": 1,
+    "explain_plain": "551.71 site supply equipment uses the TT-30 (30 A, 125 V) travel-trailer configuration alongside 20 A 125 V and 50 A 125/250 V receptacles.",
+    "nec_ref": "551.71",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-052",
+    "article": "590",
+    "question": "Which statement about temporary wiring is correct?",
+    "choices": [
+      "Splices may be taped and left on the ground if the job is short",
+      "Branch circuits must originate in an approved power outlet or panelboard with overcurrent protection",
+      "Temporary services skip Article 230",
+      "Receptacles never need GFCI protection on temporary work"
+    ],
+    "answer_index": 1,
+    "explain_plain": "590.4 requires approved equipment, guarded live parts, splices in boxes or fittings, protected cables, and branch circuits originating in approved equipment with overcurrent protection; 590.6 adds GFCI protection.",
+    "nec_ref": "590.4",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C5-Q-053",
+    "article": "545",
+    "question": "On a manufactured (modular) building, the electrical joint most likely to be a finding is:",
+    "choices": [
+      "The color of the feeder conductors",
+      "An unlisted field splice interconnecting factory-built sections",
+      "A panel set 1 inch off level",
+      "Oversized feeder conductors"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Section interconnections belong to the manufacturer's listed connection system under the state modular program; unlisted field splices between sections are the classic Article 545 finding.",
+    "nec_ref": "545",
+    "difficulty": 2,
+    "exam": "journeyman"
   }
 ]
