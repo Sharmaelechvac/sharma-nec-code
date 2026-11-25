@@ -542,5 +542,117 @@
     "nec_ref": "314.16",
     "exam": "both",
     "difficulty": 2
+  },
+  {
+    "id": "C4-Q-035",
+    "article": "400",
+    "question": "A flexible cord is being used as a permanent substitute for fixed wiring, run through a hole in the wall. This is:",
+    "choices": [
+      "Permitted if the cord is extra-hard usage",
+      "Prohibited by 400.8",
+      "Permitted for loads under 15 A",
+      "Permitted if protected by a GFCI"
+    ],
+    "answer_index": 1,
+    "explain_plain": "400.8 prohibits cords as a substitute for fixed wiring and prohibits running them through walls, ceilings, floors, doorways, or windows — regardless of cord type or load.",
+    "nec_ref": "400.8",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-036",
+    "article": "406",
+    "question": "Replacing a receptacle in a box with no equipment grounding conductor, using a GFCI receptacle, requires:",
+    "choices": [
+      "Nothing extra — the GFCI alone is enough",
+      "The receptacle to be marked 'No Equipment Ground'",
+      "A separate ground rod at the receptacle",
+      "A 20 A rated receptacle"
+    ],
+    "answer_index": 1,
+    "explain_plain": "406.4 permits a GFCI replacement in a no-ground box only when it is marked 'No Equipment Ground' (or a grounding-type device fed through a GFCI and marked the same way).",
+    "nec_ref": "406.4",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C4-Q-037",
+    "article": "424",
+    "question": "A 240 V fixed wall heater draws 20 A. Under 424.3(B), its branch circuit is sized at no less than:",
+    "choices": [
+      "20 A",
+      "22 A",
+      "25 A",
+      "30 A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Fixed electric space heating is continuous: 20 A × 125 percent = 25 A minimum for conductors and overcurrent protection.",
+    "nec_ref": "424.3(B)",
+    "difficulty": 1,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-038",
+    "article": "430",
+    "question": "A feeder supplies motors of 14 A, 10 A, and 10 A (table FLC); the largest branch fault device is 40 A. The maximum feeder protective device under 430.62(A) is:",
+    "choices": [
+      "40 A",
+      "54 A",
+      "60 A",
+      "74 A"
+    ],
+    "answer_index": 2,
+    "explain_plain": "Largest branch device plus the other motors' FLC: 40 + 10 + 10 = 60 A.",
+    "nec_ref": "430.62(A)",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C4-Q-039",
+    "article": "430",
+    "question": "Conductors supplying a variable-frequency drive are sized from:",
+    "choices": [
+      "The motor's horsepower table value",
+      "The drive's rated input current, at 125 percent",
+      "The motor nameplate amps at 100 percent",
+      "The drive's output current at 100 percent"
+    ],
+    "answer_index": 1,
+    "explain_plain": "430.122 sizes drive supply conductors at not less than 125 percent of the power conversion equipment's rated input current.",
+    "nec_ref": "430.122",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C4-Q-040",
+    "article": "440",
+    "question": "A cord-and-plug room air conditioner shares a branch circuit with lighting receptacles. Under 440.60, the unit may not exceed what share of the circuit rating?",
+    "choices": [
+      "80 percent",
+      "65 percent",
+      "50 percent",
+      "100 percent if the breaker holds"
+    ],
+    "answer_index": 2,
+    "explain_plain": "A single room unit alone on a circuit may reach 80 percent; where the circuit also feeds lighting or other receptacles, the cap is 50 percent.",
+    "nec_ref": "440.60",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C4-Q-041",
+    "article": "450",
+    "question": "An indoor dry-type transformer rated 75 kVA is set 6 inches from a combustible wall with no barrier. This installation:",
+    "choices": [
+      "Complies — 75 kVA is small equipment",
+      "Violates 450.21 — 12 inches minimum or a fire-resistant barrier/enclosure is required",
+      "Complies if the transformer is ventilated",
+      "Violates 450.9 only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "450.21 requires transformers of 112½ kVA or less to be at least 12 inches from combustible material unless separated by a fire-resistant, heat-insulated barrier or enclosed.",
+    "nec_ref": "450.21",
+    "difficulty": 2,
+    "exam": "journeyman"
   }
 ]

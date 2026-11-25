@@ -984,5 +984,184 @@
     "sharma_rule_id": null,
     "verified": false,
     "unverified_reason": "Added 2026-11-12 in the second-audit fix pass to close a confirmed gap; wording not yet checked against the printed 2020 book."
+  },
+  {
+    "id": "C4-L-058",
+    "question": "Can I run a flexible cord through a wall or over a door to reach an outlet?",
+    "aliases": [
+      "cord through wall",
+      "cord as permanent wiring"
+    ],
+    "answer_plain": "No. 400.7/400.8 permit cords only for flexible uses (pendants, portable equipment, service connections). A cord may not substitute for fixed wiring, pass through walls, ceilings, floors, doorways, or windows, or be attached to building surfaces outside narrow exceptions. A permanent load gets a real branch circuit.",
+    "nec_ref": "400.8",
+    "nec_edition": "2020",
+    "tags": [
+      "flexible cords"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C4-L-059",
+    "question": "What is 18 AWG fixture wire rated?",
+    "aliases": [
+      "fixture wire ampacity",
+      "402.5"
+    ],
+    "answer_plain": "6 amperes, per Table 402.5. Fixture wire has its own small ampacities (16 AWG is 8 A) and is protected under the fixture-wire rules of 240.5 — it is never branch-circuit wire and never leaves its fixture.",
+    "nec_ref": "402.5",
+    "nec_edition": "2020",
+    "tags": [
+      "fixture wires",
+      "ampacity"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C4-L-060",
+    "question": "Does a snap switch have to be grounded?",
+    "aliases": [
+      "switch grounding",
+      "404.9 yoke"
+    ],
+    "answer_plain": "Yes — 404.9 requires snap switches to be grounded, normally by bonding the metal yoke through the EGC (metal box bond or the switch's grounding terminal). A narrow replacement exception exists for boxes with no grounding means, with conditions such as GFCI protection or a nonmetallic plate.",
+    "nec_ref": "404.9",
+    "nec_edition": "2020",
+    "tags": [
+      "switches",
+      "grounding"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C4-L-061",
+    "question": "How do I replace a receptacle in a box with no ground?",
+    "aliases": [
+      "no equipment ground receptacle replacement",
+      "406.4 no ground"
+    ],
+    "answer_plain": "406.4 gives three paths: a nongrounding-type replacement; a GFCI replacement marked 'No Equipment Ground'; or a grounding-type receptacle fed through a GFCI and marked the same way. The marking is part of the rule.",
+    "nec_ref": "406.4",
+    "nec_edition": "2020",
+    "tags": [
+      "receptacles",
+      "replacements"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C4-L-062",
+    "question": "What is a control panel's SCCR and why does it matter?",
+    "aliases": [
+      "SCCR industrial control panel",
+      "409.110"
+    ],
+    "answer_plain": "SCCR is the short-circuit current rating marked on an industrial control panel under 409.110. It is a ceiling: the panel may not be installed where the available fault current exceeds its SCCR. Read it off the panel label with the voltage and phase before the panel is set.",
+    "nec_ref": "409.110",
+    "nec_edition": "2020",
+    "tags": [
+      "control panels",
+      "SCCR"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C4-L-063",
+    "question": "Is LED tape light on a plug-in power supply Code-compliant by itself?",
+    "aliases": [
+      "LED tape low voltage lighting",
+      "411 listed system"
+    ],
+    "answer_plain": "Not by itself. Article 411 covers lighting systems at 30 V or less and requires a listed system (or listed parts assembled as one), with the secondary circuit limited by its power source to 25 A maximum. Bare-conductor systems also carry concealment and location limits. A loose supply and unlisted tape is not an Article 411 system.",
+    "nec_ref": "411.4",
+    "nec_edition": "2020",
+    "tags": [
+      "low-voltage lighting",
+      "LED"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C4-L-064",
+    "question": "How is a fixed electric heater's branch circuit sized?",
+    "aliases": [
+      "space heating 125 percent",
+      "424.3(B)"
+    ],
+    "answer_plain": "Fixed electric space heating is a continuous load: 424.3(B) sizes the branch-circuit conductors and overcurrent protection at 125 percent of the heating load, on individual branch circuits per 424.3(A). A 20 A heater load needs a circuit built at 25 A.",
+    "nec_ref": "424.3",
+    "nec_edition": "2020",
+    "tags": [
+      "space heating",
+      "continuous load"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C4-L-065",
+    "question": "How do I size the breaker for a feeder feeding three motors?",
+    "aliases": [
+      "motor feeder protection 430.62",
+      "feeder largest motor"
+    ],
+    "answer_plain": "430.62(A): no larger than the largest branch-circuit fault device on the feeder plus the full-load currents of the other motors. The feeder conductors come from 430.24: 125 percent of the largest motor plus 100 percent of the rest.",
+    "nec_ref": "430.62",
+    "nec_edition": "2020",
+    "tags": [
+      "motors",
+      "feeders"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C4-L-066",
+    "question": "What size disconnect does a condenser with 28 A rated-load current need?",
+    "aliases": [
+      "AC disconnect 115 percent",
+      "440.12 disconnect rating"
+    ],
+    "answer_plain": "440.12 rates the disconnect at least 115 percent of the nameplate rated-load current (or branch-circuit selection current, if greater): 28 × 1.15 = 32.2 A minimum, so a 60 A disconnect is the common pick. A 30 A disconnect fails even though it exceeds running amps.",
+    "nec_ref": "440.12",
+    "nec_edition": "2020",
+    "tags": [
+      "air conditioning",
+      "disconnects"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C4-L-067",
+    "question": "How far must a dry-type transformer sit from a wood wall?",
+    "aliases": [
+      "transformer combustible 12 inches",
+      "450.21 clearance"
+    ],
+    "answer_plain": "450.21: indoor dry-type transformers rated 112½ kVA or less sit at least 12 inches from combustible material, unless separated by a fire-resistant, heat-insulated barrier or enclosed. Over 112½ kVA, a fire-resistant transformer room is the default, with the section's exceptions.",
+    "nec_ref": "450.21",
+    "nec_edition": "2020",
+    "tags": [
+      "transformers",
+      "locations"
+    ],
+    "sharma_rule_id": null,
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]

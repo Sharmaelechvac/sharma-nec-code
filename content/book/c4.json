@@ -22,6 +22,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": null,
+      "next_id": "C4-400.7"
+    },
+    {
+      "id": "C4-400.7",
+      "chapter": 4,
+      "article": "400",
+      "section": "400.7",
+      "title": "Uses permitted — and the hard limits on flexible cords (400.7 / 400.8)",
+      "plain_explanation": "Sections 400.7 and 400.8 draw the line for flexible cords. Permitted uses are the ones that need to move or be serviced: pendants, portable lamps and appliances, elevator and hoist cables, parts of listed equipment, and similar flexible connections. The not-permitted list is the one that fails inspections: a cord may not substitute for the fixed wiring of a building, run through holes in walls, ceilings, or floors, pass through doorways or windows, attach to building surfaces outside the narrow exceptions, hide inside walls or conduit, or sit where it will be damaged. If a cord is doing a cable's job permanently, it is the wrong wiring method.",
+      "on_the_job": "The classic callout: an appliance or tool left cord-connected through a wall or across a doorway 'temporarily' for months. If the load is permanent, price and install a real branch circuit — do not dress up a cord run.",
+      "sharma_note": "",
+      "figure_idea": "Two-column card: 'cord is fine here' scenes (pendant, portable tool) versus 'hardwire it' scenes (through a wall, under a door).",
+      "related_ids": [
+        "C4-400.10",
+        "C4-400.12"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-400",
       "next_id": "C4-400.10"
     },
     {
@@ -38,7 +58,7 @@
       "florida_note": "",
       "verified": false,
       "sharma_rule_ids": [],
-      "prev_id": "C4-ART-400",
+      "prev_id": "C4-400.7",
       "next_id": "C4-400.12"
     },
     {
@@ -73,6 +93,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-400.12",
+      "next_id": "C4-402.5"
+    },
+    {
+      "id": "C4-402.5",
+      "chapter": 4,
+      "article": "402",
+      "section": "402.5",
+      "title": "Fixture wire ampacity — small wire, small numbers (Table 402.5)",
+      "plain_explanation": "Fixture wires are the small conductors inside luminaires and equipment, and Table 402.5 gives them their own ampacities — far below what the same gauge carries as a branch conductor. The two sizes crews meet most:\n• 18 AWG fixture wire — 6 A\n• 16 AWG fixture wire — 8 A\nFixture wire is protected and tapped under the fixture-wire rules (240.5), never treated as branch-circuit wire, and it never leaves the fixture or equipment it belongs to.",
+      "on_the_job": "Rewiring a fixture whip or a driver lead: match the fixture wire to what the fixture came with. Never extend a circuit with fixture wire because it was handy on the truck.",
+      "sharma_note": "",
+      "figure_idea": "Gauge ladder: 18 AWG to 6 A, 16 AWG to 8 A, with a red line where branch-circuit wire tables take over.",
+      "related_ids": [
+        "C4-ART-402",
+        "C4-ART-410"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-402",
       "next_id": "C4-ART-404"
     },
     {
@@ -97,7 +137,7 @@
       "sharma_rule_ids": [
         "S-05"
       ],
-      "prev_id": "C4-ART-402",
+      "prev_id": "C4-402.5",
       "next_id": "C4-404.2(A)"
     },
     {
@@ -181,6 +221,26 @@
         "S-05"
       ],
       "prev_id": "C4-404.4",
+      "next_id": "C4-404.9"
+    },
+    {
+      "id": "C4-404.9",
+      "chapter": 4,
+      "article": "404",
+      "section": "404.9",
+      "title": "Grounding snap switches (404.9)",
+      "plain_explanation": "Section 404.9 requires snap switches to be grounded. In practice the switch's metal yoke is bonded through the equipment grounding conductor: a metal box bonded by its EGC grounds the switch through its mounting screws, and in a nonmetallic box the switch's own grounding terminal takes the EGC. The replacement exception matters in old houses: where an existing switch is replaced in a box with no grounding means, the exception's limited paths apply — including GFCI protection or a nonmetallic plate — rather than landing an ungrounded switch and moving on.",
+      "on_the_job": "On remodels, check for a ground before trim-out, not during the final walk. No EGC in the box changes what devices you may land — flag it at discovery.",
+      "sharma_note": "",
+      "figure_idea": "Yoke-to-box bond sketch: EGC to a metal box with the switch screws bonding the yoke; green terminal to EGC in a plastic box.",
+      "related_ids": [
+        "C4-404.8(A)",
+        "C4-406.4"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-404.8(A)",
       "next_id": "C4-404.14"
     },
     {
@@ -199,7 +259,7 @@
       "florida_note": "",
       "verified": false,
       "sharma_rule_ids": [],
-      "prev_id": "C4-404.8(A)",
+      "prev_id": "C4-404.9",
       "next_id": "C4-404.15(C)"
     },
     {
@@ -249,6 +309,26 @@
         "S-07"
       ],
       "prev_id": "C4-404.15(C)",
+      "next_id": "C4-406.4"
+    },
+    {
+      "id": "C4-406.4",
+      "chapter": 4,
+      "article": "406",
+      "section": "406.4",
+      "title": "Receptacle installation and replacement — the general rules (406.4(A)–(C))",
+      "plain_explanation": "Section 406.4 sets the baseline before the replacement details in 406.4(D). Receptacles must be of the grounding type where the wiring method provides a ground, must match the circuit's rating and configuration, and replacements follow a ladder: grounding-type for grounding-type where an EGC exists; where no grounding means exists, the permitted paths are a nongrounding replacement, a GFCI replacement marked 'No Equipment Ground,' or a grounding-type receptacle fed through a GFCI and marked the same way. The markings are part of the rule, not paperwork.",
+      "on_the_job": "Old two-wire house work: carry GFCI receptacles and 'No Equipment Ground' stickers on the truck. An unmarked GFCI swap in a no-ground box fails the detail even though the device itself works.",
+      "sharma_note": "",
+      "figure_idea": "Three-rung ladder graphic for a no-ground box: nongrounding replacement, GFCI marked, grounding-type through GFCI marked.",
+      "related_ids": [
+        "C4-406.4(D)",
+        "C4-404.9"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-406",
       "next_id": "C4-406.4(D)"
     },
     {
@@ -272,7 +352,7 @@
       "sharma_rule_ids": [
         "S-07"
       ],
-      "prev_id": "C4-ART-406",
+      "prev_id": "C4-406.4",
       "next_id": "C4-406.5(E)"
     },
     {
@@ -584,6 +664,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-408.43",
+      "next_id": "C4-409.110"
+    },
+    {
+      "id": "C4-409.110",
+      "chapter": 4,
+      "article": "409",
+      "section": "409.110",
+      "title": "Industrial control panels — marking and short-circuit current rating (409.110)",
+      "plain_explanation": "Article 409 panels — the factory-built control panels that run machinery and HVAC equipment — must be marked under 409.110 with the panel's electrical ratings, and the marking includes the panel's short-circuit current rating (SCCR). The SCCR is a ceiling: the panel may not be installed where the available fault current exceeds it. Read the panel label the way you read a motor nameplate before the panel is set — supply voltage, phases, and SCCR all come off that mark, and a missing or illegible SCCR is a stop-and-ask, not a guess.",
+      "on_the_job": "On light-commercial equipment swaps, photograph the control panel label with the rest of the nameplates. If the new panel's SCCR is lower than what the service can deliver, that is an engineering conversation before the panel is set, not after.",
+      "sharma_note": "",
+      "figure_idea": "Sample panel label with the SCCR line circled next to voltage and phase.",
+      "related_ids": [
+        "C4-ART-409",
+        "C4-408.6"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-409",
       "next_id": "C4-ART-410"
     },
     {
@@ -605,7 +705,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C4-ART-409",
+      "prev_id": "C4-409.110",
       "next_id": "C4-410.10(D)"
     },
     {
@@ -684,6 +784,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-410.116",
+      "next_id": "C4-411.4"
+    },
+    {
+      "id": "C4-411.4",
+      "chapter": 4,
+      "article": "411",
+      "section": "411.4",
+      "title": "Low-voltage lighting systems — where they may and may not go (Article 411)",
+      "plain_explanation": "Article 411 covers lighting systems operating at 30 volts or less — the listed low-voltage systems behind a lot of LED tape, under-cabinet, and accent work. The system must be listed as a complete system or assembled from listed parts, the power source limits the secondary circuit (the article caps secondary output at 25 amperes), and the bare-conductor versions carry location limits: not concealed or run through walls, floors, or ceilings unless the specific listed system permits it, and kept clear of pools, spas, and similar locations except as the article allows. A loose power supply and a roll of tape bought online is not an Article 411 system.",
+      "on_the_job": "Spec the listed system — power supply, cable, and fixtures from one listed family — and keep the driver accessible. Inspectors ask whose system it is; 'the homeowner bought it online' is not an answer.",
+      "sharma_note": "",
+      "figure_idea": "System diagram: listed power unit to secondary cable to fixtures, with the 30 V and 25 A limits marked on the secondary side.",
+      "related_ids": [
+        "C4-ART-411",
+        "C4-410.16"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-411",
       "next_id": "C4-ART-422"
     },
     {
@@ -709,7 +829,7 @@
       "sharma_rule_ids": [
         "S-06"
       ],
-      "prev_id": "C4-ART-411",
+      "prev_id": "C4-411.4",
       "next_id": "C4-422.5"
     },
     {
@@ -732,8 +852,48 @@
         "S-07"
       ],
       "prev_id": "C4-ART-422",
-      "next_id": "C4-422.13",
+      "next_id": "C4-422.10",
       "unverified_reason": "Verified badge removed after the 2026-11-15 field audit. The wording on this page was wrong or rested on a note that the printed NEC was not checked. Confirm against the printed 2020 text before relying on it."
+    },
+    {
+      "id": "C4-422.10",
+      "chapter": 4,
+      "article": "422",
+      "section": "422.10",
+      "title": "Branch circuits for appliances (422.10)",
+      "plain_explanation": "Section 422.10 starts appliance work with the circuit: the branch circuit must be sized for the appliance it serves, using the appliance's marked rating, and an individual branch circuit — one that supplies only that appliance — is the default pattern for the big fixed appliances. Where two or more appliances share a circuit, this section's load rules and the general rules of Articles 210 and 220 both apply. When the nameplate and the circuit disagree, the circuit gets corrected; the appliance does not get derated by hope.",
+      "on_the_job": "Takeoff habit: every fixed appliance on the plans gets a line — appliance, rating, circuit, disconnect. If a plan shows the appliance but no circuit home, that is an open question for the packet, not a field surprise.",
+      "sharma_note": "",
+      "figure_idea": "Takeoff worksheet strip: appliance, rating, circuit, disconnect — four boxes in a row.",
+      "related_ids": [
+        "C4-422.11",
+        "C4-422.31"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-422.5",
+      "next_id": "C4-422.11"
+    },
+    {
+      "id": "C4-422.11",
+      "chapter": 4,
+      "article": "422",
+      "section": "422.11",
+      "title": "Overcurrent protection for appliances (422.11)",
+      "plain_explanation": "Section 422.11 protects the appliance at the size the appliance was built for. Where the appliance is marked with a maximum overcurrent device, that marking governs. For a single non-motor appliance fastened in place and rated over 13.3 amperes, the article permits a protective device up to 150 percent of the appliance rating where standard protection will not serve — a ceiling, not a target. Motor-operated appliances follow the motor rules for their protection, and infrared heating appliances carry their own subdivision limits in this section.",
+      "on_the_job": "Read the appliance label before the breaker is chosen, every time. 'It matched the panel schedule from the last job' is how a 50 A device lands on an appliance marked 30 A maximum.",
+      "sharma_note": "",
+      "figure_idea": "Appliance label zoom: 'MAX FUSE / BREAKER 30 A' with an arrow to the panel breaker slot.",
+      "related_ids": [
+        "C4-422.10",
+        "C4-422.5"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-422.10",
+      "next_id": "C4-422.13"
     },
     {
       "id": "C4-422.13",
@@ -753,7 +913,7 @@
       "florida_note": "",
       "verified": false,
       "sharma_rule_ids": [],
-      "prev_id": "C4-422.5",
+      "prev_id": "C4-422.11",
       "next_id": "C4-422.16(B)(4)"
     },
     {
@@ -818,6 +978,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-422.31",
+      "next_id": "C4-424.3"
+    },
+    {
+      "id": "C4-424.3",
+      "chapter": 4,
+      "article": "424",
+      "section": "424.3",
+      "title": "Branch circuits for fixed electric space heating (424.3)",
+      "plain_explanation": "Fixed electric space heating — baseboard, wall heaters, ceiling heat, and the electric heat built into equipment — is served by individual branch circuits under 424.3(A), with the central systems the article names as the exception pattern. Under 424.3(B) the heating load is treated as continuous: branch-circuit conductors and overcurrent protection are sized at 125 percent of the total heating load on the circuit, before any other load is considered. A heater is not a convenience load that happens to get warm; it runs for hours at full draw.",
+      "on_the_job": "Worked example: a 4,800 W, 240 V wall heater draws 20 A. Continuous sizing makes the circuit 20 × 1.25 = 25 A — so the circuit is built at 25 A or above, never the 20 A circuit the raw math suggests.",
+      "sharma_note": "",
+      "figure_idea": "One heater, two math lines: nameplate amps, then the 125 percent continuous line landing on the breaker size.",
+      "related_ids": [
+        "C4-ART-424",
+        "C4-424.19"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-ART-424",
       "next_id": "C4-424.4(B)"
     },
     {
@@ -838,7 +1018,7 @@
       "florida_note": "",
       "verified": false,
       "sharma_rule_ids": [],
-      "prev_id": "C4-ART-424",
+      "prev_id": "C4-424.3",
       "next_id": "C4-424.19"
     },
     {
@@ -1026,6 +1206,26 @@
       "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C4-430.32",
+      "next_id": "C4-430.62"
+    },
+    {
+      "id": "C4-430.62",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.62",
+      "title": "Feeder protection where several motors share a feeder (430.62)",
+      "plain_explanation": "When one feeder supplies several motor branch circuits, 430.62(A) caps the feeder's protective device: no larger than the largest branch-circuit short-circuit and ground-fault device on the feeder, plus the full-load currents of the other motors on that feeder. The feeder conductors themselves are sized under 430.24 — 125 percent of the largest motor plus 100 percent of the rest. The two rules work as a pair: the wire math keeps the feeder from running hot, and the device math keeps a fault on one motor from being invisible to a feeder breaker sized for everything at once.",
+      "on_the_job": "Worked example: three motors at 14 A, 10 A, and 10 A table FLC, largest branch device 40 A. Feeder device ceiling: 40 + 10 + 10 = 60 A. Feeder conductors: 14 × 1.25 + 10 + 10 = 37.5 A minimum ampacity before other adjustments.",
+      "sharma_note": "",
+      "figure_idea": "Feeder tree: three motor branches joining one feeder, the two formulas written on the feeder segment.",
+      "related_ids": [
+        "C4-430.24",
+        "C4-430.52"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.52",
       "next_id": "C4-430.102"
     },
     {
@@ -1045,7 +1245,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C4-430.52",
+      "prev_id": "C4-430.62",
       "next_id": "C4-430.109"
     },
     {
@@ -1086,6 +1286,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-430.109",
+      "next_id": "C4-430.122"
+    },
+    {
+      "id": "C4-430.122",
+      "chapter": 4,
+      "article": "430",
+      "section": "430.122",
+      "title": "Conductors to drives and power conversion equipment (430.122)",
+      "plain_explanation": "Section 430.122 sizes the conductors feeding adjustable-speed drives and other power conversion equipment from the equipment's rated input current — not from the motor's horsepower table. The circuit conductors must have an ampacity of at least 125 percent of the drive's rated input current, and where the equipment has a bypass or its own rating rules, the section follows the larger demand. A drive can draw more at its input than the motor table suggests, so the drive nameplate — input amps — is the document that sizes this wire.",
+      "on_the_job": "Swapping a starter for a VFD on a pump or air handler: photograph the drive's input rating before ordering wire. Reusing the old starter's wire size without the input-current check is the standard failure.",
+      "sharma_note": "",
+      "figure_idea": "Nameplate zoom: 'INPUT 460 V 21 A' feeding the 125 percent math line.",
+      "related_ids": [
+        "C4-430.6",
+        "C4-430.22"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-430.110",
       "next_id": "C4-430.250"
     },
     {
@@ -1105,7 +1325,7 @@
       "florida_note": "",
       "verified": false,
       "sharma_rule_ids": [],
-      "prev_id": "C4-430.110",
+      "prev_id": "C4-430.122",
       "next_id": "C4-ART-440"
     },
     {
@@ -1175,6 +1395,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-440.4(B)",
+      "next_id": "C4-440.12"
+    },
+    {
+      "id": "C4-440.12",
+      "chapter": 4,
+      "article": "440",
+      "section": "440.12",
+      "title": "Rating the air-conditioning disconnect (440.12)",
+      "plain_explanation": "The disconnecting means for hermetic refrigerant motor-compressor equipment is rated under 440.12, separately from the branch-circuit protection in 440.22. The disconnect's ampere rating must be at least 115 percent of the nameplate rated-load current or the branch-circuit selection current, whichever is greater — or the disconnect may be chosen by the horsepower-equivalent method the section allows. A disconnect that matches the breaker size by habit can still be undersized by this section, because the two devices answer different questions.",
+      "on_the_job": "Worked example: nameplate rated-load current 28 A. Disconnect minimum: 28 × 1.15 = 32.2 A — so the common 60 A disconnect is the shelf pick, and a 30 A disconnect fails this section even though it exceeds the running amps.",
+      "sharma_note": "Sharma practice (not code): the condenser gets a standard disconnect and whip at trim — the rating still comes from this section, and the breaker follows the nameplate under S-03.",
+      "figure_idea": "Disconnect rating card: RLA × 1.15 arrow to the next standard disconnect size.",
+      "related_ids": [
+        "C4-440.14",
+        "C4-440.22"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-440.10",
       "next_id": "C4-440.14"
     },
     {
@@ -1198,7 +1438,7 @@
       "florida_note": "Florida note: exterior disconnects live in weather — use listed outdoor equipment and keep the working space clear of the condensate line and landscaping at final.",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C4-440.10",
+      "prev_id": "C4-440.12",
       "next_id": "C4-440.22"
     },
     {
@@ -1237,6 +1477,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-440.22",
+      "next_id": "C4-440.60"
+    },
+    {
+      "id": "C4-440.60",
+      "chapter": 4,
+      "article": "440",
+      "section": "440.60",
+      "title": "Room air conditioners (440.60–440.65)",
+      "plain_explanation": "Part VII of Article 440 covers the cord-and-plug room air conditioner — the window and through-wall units a tenant or homeowner plugs in. The load rules are the ones that matter: a single room unit on a branch circuit of its own may not exceed 80 percent of that circuit's rating; where the same circuit also feeds lighting or other receptacles, the unit may not exceed 50 percent. Section 440.65 adds the plug protection: single-phase room units must have leakage-current detection (LCDI) or arc-fault protection in the attachment plug or cord — the fat plug with the test buttons is a requirement, not an accessory.",
+      "on_the_job": "A window unit tripping a shared bedroom circuit is usually the 50 percent rule announcing itself. The fix is a dedicated circuit under the 80 percent rule, not a bigger breaker on the shared circuit.",
+      "sharma_note": "",
+      "figure_idea": "Two bars: dedicated circuit — unit up to 80 percent; shared circuit — unit capped at 50 percent.",
+      "related_ids": [
+        "C4-ART-440",
+        "C4-440.32"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-440.32",
       "next_id": "C4-ART-445"
     },
     {
@@ -1257,7 +1517,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C4-440.32",
+      "prev_id": "C4-440.60",
       "next_id": "C4-445.6"
     },
     {
@@ -1278,6 +1538,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-ART-445",
+      "next_id": "C4-445.12"
+    },
+    {
+      "id": "C4-445.12",
+      "chapter": 4,
+      "article": "445",
+      "section": "445.12",
+      "title": "Overcurrent protection for generators (445.12)",
+      "plain_explanation": "Section 445.12 requires generators to be protected from overload — by inherent design, circuit breakers, fuses, or another identified means — so a fault or an overload cannot cook the machine that is supposed to be the backup. It works with 445.13, which sizes the conductors from the generator at 115 percent of nameplate current. Together they mean the generator's own protection and the wire leaving it are both chosen from the nameplate, and a transfer scheme never leaves the generator feeding a fault with nothing able to open.",
+      "on_the_job": "Read the generator nameplate for both numbers at the site survey: rated amps for the 445.13 conductor math, and the machine's built-in protection for the 445.12 check. Both go on the job record.",
+      "sharma_note": "",
+      "figure_idea": "Generator nameplate card with two callouts: rated amps (wire math) and built-in protection (overload check).",
+      "related_ids": [
+        "C4-445.13",
+        "C4-445.18(D)"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-445.6",
       "next_id": "C4-445.13"
     },
     {
@@ -1296,7 +1576,7 @@
       "florida_note": "",
       "verified": false,
       "sharma_rule_ids": [],
-      "prev_id": "C4-445.6",
+      "prev_id": "C4-445.12",
       "next_id": "C4-445.18(D)"
     },
     {
@@ -1397,6 +1677,26 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-450.9",
+      "next_id": "C4-450.21"
+    },
+    {
+      "id": "C4-450.21",
+      "chapter": 4,
+      "article": "450",
+      "section": "450.21",
+      "title": "Where dry-type transformers may sit (450.21)",
+      "plain_explanation": "Section 450.21 governs indoor dry-type transformer locations. Transformers rated 112½ kVA or less must sit at least 12 inches from combustible material, unless separated from it by a fire-resistant, heat-insulated barrier, or enclosed so the heat stays in. Larger indoor dry-types — over 112½ kVA — go in a transformer room of fire-resistant construction, with the section's exceptions for enclosed units and higher insulation systems. Ventilation under 450.9 keeps the heat moving; this section keeps the heat away from things that burn.",
+      "on_the_job": "Setting a dry-type in a wood-framed electrical closet: measure the 12 inches before the transformer is hung, not after. The closet's wall finish decides which rule you are under — confirm what the wall is made of.",
+      "sharma_note": "",
+      "figure_idea": "Plan-view sketch: transformer with the 12-inch clear ring to a combustible wall, and the barrier alternative.",
+      "related_ids": [
+        "C4-450.9",
+        "C4-450.3"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "sharma_rule_ids": [],
+      "prev_id": "C4-450.14",
       "next_id": "C4-ART-455"
     },
     {
@@ -1413,7 +1713,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C4-450.14",
+      "prev_id": "C4-450.21",
       "next_id": "C4-ART-460"
     },
     {
@@ -1534,6 +1834,11 @@
       "title": "Flexible Cords and Cables",
       "children": [
         {
+          "id": "C4-400.7",
+          "section": "400.7",
+          "title": "Uses permitted — and the hard limits on flexible cords (400.7 / 400.8)"
+        },
+        {
           "id": "C4-400.10",
           "section": "400.10",
           "title": "What flexible cords may be used for"
@@ -1549,7 +1854,13 @@
       "id": "C4-ART-402",
       "article": "402",
       "title": "Fixture Wires",
-      "children": []
+      "children": [
+        {
+          "id": "C4-402.5",
+          "section": "402.5",
+          "title": "Fixture wire ampacity — small wire, small numbers (Table 402.5)"
+        }
+      ]
     },
     {
       "id": "C4-ART-404",
@@ -1577,6 +1888,11 @@
           "title": "Switches must be reachable — operating handle height"
         },
         {
+          "id": "C4-404.9",
+          "section": "404.9",
+          "title": "Grounding snap switches (404.9)"
+        },
+        {
           "id": "C4-404.14",
           "section": "404.14",
           "title": "Snap switch ratings and the loads they may control"
@@ -1593,6 +1909,11 @@
       "article": "406",
       "title": "Receptacles, Cord Connectors, and Attachment Plugs",
       "children": [
+        {
+          "id": "C4-406.4",
+          "section": "406.4",
+          "title": "Receptacle installation and replacement — the general rules (406.4(A)–(C))"
+        },
         {
           "id": "C4-406.4(D)",
           "section": "406.4(D)",
@@ -1676,7 +1997,13 @@
       "id": "C4-ART-409",
       "article": "409",
       "title": "Industrial Control Panels",
-      "children": []
+      "children": [
+        {
+          "id": "C4-409.110",
+          "section": "409.110",
+          "title": "Industrial control panels — marking and short-circuit current rating (409.110)"
+        }
+      ]
     },
     {
       "id": "C4-ART-410",
@@ -1704,7 +2031,13 @@
       "id": "C4-ART-411",
       "article": "411",
       "title": "Lighting Systems Operating at 30 Volts or Less",
-      "children": []
+      "children": [
+        {
+          "id": "C4-411.4",
+          "section": "411.4",
+          "title": "Low-voltage lighting systems — where they may and may not go (Article 411)"
+        }
+      ]
     },
     {
       "id": "C4-ART-422",
@@ -1715,6 +2048,16 @@
           "id": "C4-422.5",
           "section": "422.5",
           "title": "GFCI protection required for specific appliances"
+        },
+        {
+          "id": "C4-422.10",
+          "section": "422.10",
+          "title": "Branch circuits for appliances (422.10)"
+        },
+        {
+          "id": "C4-422.11",
+          "section": "422.11",
+          "title": "Overcurrent protection for appliances (422.11)"
         },
         {
           "id": "C4-422.13",
@@ -1738,6 +2081,11 @@
       "article": "424",
       "title": "Fixed Electric Space-Heating Equipment",
       "children": [
+        {
+          "id": "C4-424.3",
+          "section": "424.3",
+          "title": "Branch circuits for fixed electric space heating (424.3)"
+        },
         {
           "id": "C4-424.4(B)",
           "section": "424.4(B)",
@@ -1799,6 +2147,11 @@
           "title": "Branch-circuit short-circuit and ground-fault protection for motors"
         },
         {
+          "id": "C4-430.62",
+          "section": "430.62",
+          "title": "Feeder protection where several motors share a feeder (430.62)"
+        },
+        {
           "id": "C4-430.102",
           "section": "430.102",
           "title": "The motor disconnect must be within sight"
@@ -1812,6 +2165,11 @@
           "id": "C4-430.110",
           "section": "430.110",
           "title": "Rating of the motor disconnect — at least 115 percent"
+        },
+        {
+          "id": "C4-430.122",
+          "section": "430.122",
+          "title": "Conductors to drives and power conversion equipment (430.122)"
         },
         {
           "id": "C4-430.250",
@@ -1836,6 +2194,11 @@
           "title": "Short-circuit current rating of air-conditioning and refrigerating equipment"
         },
         {
+          "id": "C4-440.12",
+          "section": "440.12",
+          "title": "Rating the air-conditioning disconnect (440.12)"
+        },
+        {
           "id": "C4-440.14",
           "section": "440.14",
           "title": "The HVAC disconnect — within sight and readily accessible"
@@ -1849,6 +2212,11 @@
           "id": "C4-440.32",
           "section": "440.32",
           "title": "Conductor sizing for a single motor-compressor"
+        },
+        {
+          "id": "C4-440.60",
+          "section": "440.60",
+          "title": "Room air conditioners (440.60–440.65)"
         }
       ]
     },
@@ -1861,6 +2229,11 @@
           "id": "C4-445.6",
           "section": "445.6",
           "title": "Stationary generators must be listed (2020 addition)"
+        },
+        {
+          "id": "C4-445.12",
+          "section": "445.12",
+          "title": "Overcurrent protection for generators (445.12)"
         },
         {
           "id": "C4-445.13",
@@ -1893,6 +2266,11 @@
           "id": "C4-450.14",
           "section": "450.14",
           "title": "A transformer needs a disconnecting means"
+        },
+        {
+          "id": "C4-450.21",
+          "section": "450.21",
+          "title": "Where dry-type transformers may sit (450.21)"
         }
       ]
     },
@@ -1948,10 +2326,22 @@
       ]
     },
     {
+      "term": "Air conditioning, disconnect rating",
+      "ids": [
+        "C4-440.12"
+      ]
+    },
+    {
       "term": "Air handler, heat strips",
       "ids": [
         "C4-ART-424",
         "C4-424.19"
+      ]
+    },
+    {
+      "term": "Appliances, branch circuits",
+      "ids": [
+        "C4-422.10"
       ]
     },
     {
@@ -1965,6 +2355,12 @@
       "term": "Appliances, GFCI for specific",
       "ids": [
         "C4-422.5"
+      ]
+    },
+    {
+      "term": "Appliances, overcurrent protection",
+      "ids": [
+        "C4-422.11"
       ]
     },
     {
@@ -2065,6 +2461,12 @@
       ]
     },
     {
+      "term": "Drives (VFD), conductor sizing",
+      "ids": [
+        "C4-430.122"
+      ]
+    },
+    {
       "term": "Face-up panelboard, prohibited",
       "ids": [
         "C4-408.43"
@@ -2073,7 +2475,8 @@
     {
       "term": "Fixture wires",
       "ids": [
-        "C4-ART-402"
+        "C4-ART-402",
+        "C4-402.5"
       ]
     },
     {
@@ -2092,6 +2495,13 @@
       "term": "Flexible cords, prohibited uses (cite flagged)",
       "ids": [
         "C4-400.12"
+      ]
+    },
+    {
+      "term": "Flexible cords, uses permitted",
+      "ids": [
+        "C4-400.7",
+        "C4-400.10"
       ]
     },
     {
@@ -2121,6 +2531,12 @@
       ]
     },
     {
+      "term": "Generators, overcurrent protection",
+      "ids": [
+        "C4-445.12"
+      ]
+    },
+    {
       "term": "Heat trace, pipelines",
       "ids": [
         "C4-ART-427"
@@ -2137,13 +2553,22 @@
     {
       "term": "Industrial control panels, SCCR",
       "ids": [
-        "C4-ART-409"
+        "C4-ART-409",
+        "C4-409.110",
+        "C4-408.6"
       ]
     },
     {
       "term": "Interconnections, battery",
       "ids": [
         "C4-480.12"
+      ]
+    },
+    {
+      "term": "Low-voltage lighting",
+      "ids": [
+        "C4-411.4",
+        "C4-ART-411"
       ]
     },
     {
@@ -2200,6 +2625,12 @@
       ]
     },
     {
+      "term": "Motors, feeder protection",
+      "ids": [
+        "C4-430.62"
+      ]
+    },
+    {
       "term": "Neutral at switch locations",
       "ids": [
         "C4-404.2(C)"
@@ -2244,6 +2675,13 @@
       ]
     },
     {
+      "term": "Receptacle replacements",
+      "ids": [
+        "C4-406.4",
+        "C4-406.4(D)"
+      ]
+    },
+    {
       "term": "Receptacle, replacement rules",
       "ids": [
         "C4-406.4(D)",
@@ -2276,9 +2714,21 @@
       ]
     },
     {
+      "term": "Room air conditioners",
+      "ids": [
+        "C4-440.60"
+      ]
+    },
+    {
       "term": "Several motors, feeder sizing",
       "ids": [
         "C4-430.24"
+      ]
+    },
+    {
+      "term": "Snap switches, grounding",
+      "ids": [
+        "C4-404.9"
       ]
     },
     {
@@ -2286,6 +2736,12 @@
       "ids": [
         "C4-424.4(B)",
         "C4-L-049"
+      ]
+    },
+    {
+      "term": "Space heating, branch circuits",
+      "ids": [
+        "C4-424.3"
       ]
     },
     {
@@ -2323,6 +2779,12 @@
       "term": "Transformer, ventilation / no storage",
       "ids": [
         "C4-450.9"
+      ]
+    },
+    {
+      "term": "Transformers, dry-type locations",
+      "ids": [
+        "C4-450.21"
       ]
     },
     {
