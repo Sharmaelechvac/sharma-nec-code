@@ -1054,5 +1054,125 @@
     "sharma_rule_id": null,
     "verified": false,
     "unverified_reason": "Added 2026-11-12 in the second-audit fix pass to close a confirmed gap; wording not yet checked against the printed 2020 book."
+  },
+  {
+    "id": "C6-L-061",
+    "question": "Does a plug-in EV charger need a special receptacle?",
+    "aliases": [
+      "EV receptacle",
+      "charger plug receptacle rating"
+    ],
+    "answer_plain": "Yes — where EV equipment connects cord-and-plug, 625.44 requires a listed receptacle of the rating and configuration the equipment requires. On a dwelling job that usually means a 240V receptacle that matches the branch circuit, with the circuit sized at 125 percent of the charger's continuous draw (625.41/625.42).",
+    "nec_ref": "625.44",
+    "nec_edition": "2020",
+    "tags": [
+      "EV",
+      "receptacle"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C6-L-062",
+    "question": "How close to a pool can a light switch be?",
+    "aliases": [
+      "pool switch distance",
+      "switch 5 ft pool"
+    ],
+    "answer_plain": "Switching devices must be at least 5 ft horizontally from the inside wall of the pool, spa, or hot tub (680.22(C)), unless a permanent barrier such as a solid wall or fence separates the switch from the water so a person in the water cannot reach it.",
+    "nec_ref": "680.22(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "pool",
+      "switching devices"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C6-L-063",
+    "question": "What ground does a feeder to a pool panel need?",
+    "aliases": [
+      "pool subpanel feeder ground",
+      "pool feeder EGC"
+    ],
+    "answer_plain": "An insulated copper equipment grounding conductor, sized from Table 250.122 but never smaller than 12 AWG, run in one of the raceway wiring methods 680.25 lists. A bare ground or a cable feeder does not meet the pool feeder rule.",
+    "nec_ref": "680.25",
+    "nec_edition": "2020",
+    "tags": [
+      "pool",
+      "feeder",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C6-L-064",
+    "question": "What wire do I use for exposed PV runs on a roof?",
+    "aliases": [
+      "PV wire",
+      "solar home run cable type"
+    ],
+    "answer_plain": "A listed PV cable type — Type PV wire, or USE-2 where 690.31 permits it — built and marked for sunlight and rooftop heat. Where the dc circuits run on or in the building toward the disconnect or inverter, 690.31 requires metal raceways or enclosures.",
+    "nec_ref": "690.31",
+    "nec_edition": "2020",
+    "tags": [
+      "solar",
+      "wiring methods"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C6-L-065",
+    "question": "Does a solar array need its own ground rod?",
+    "aliases": [
+      "PV ground rod",
+      "solar grounding electrode"
+    ],
+    "answer_plain": "No separate grounding world: 690.47 ties the array into the building's grounding electrode system. An extra rod at the array is permitted, but it must be bonded back to that system and never replaces the bond.",
+    "nec_ref": "690.47",
+    "nec_edition": "2020",
+    "tags": [
+      "solar",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C6-L-066",
+    "question": "Can I feed a pool subpanel with NM cable?",
+    "aliases": [
+      "pool panel NM cable",
+      "pool feeder wiring method"
+    ],
+    "answer_plain": "No. A feeder supplying a panelboard that serves pool equipment must be in a listed raceway method under 680.25 and carry an insulated copper equipment grounding conductor, 12 AWG minimum.",
+    "nec_ref": "680.25",
+    "nec_edition": "2020",
+    "tags": [
+      "pool",
+      "feeder"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C6-L-067",
+    "question": "Is a hard-wired EV charger treated the same as a plug-in one?",
+    "aliases": [
+      "hardwired EV charger rules",
+      "EV direct wired"
+    ],
+    "answer_plain": "Not quite. 625.44's cord-and-plug provisions apply to equipment that connects through a receptacle; fastened-in-place hard-wired equipment follows its own provisions in that section, and the disconnect question is decided by 625.43 (required over 60A or 150V to ground).",
+    "nec_ref": "625.44",
+    "nec_edition": "2020",
+    "tags": [
+      "EV",
+      "disconnect"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]

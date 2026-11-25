@@ -351,6 +351,29 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-625.42",
+      "next_id": "C6-625.44"
+    },
+    {
+      "id": "C6-625.44",
+      "chapter": 6,
+      "article": "625",
+      "section": "625.44",
+      "title": "Equipment connections — how the charger plugs in",
+      "plain_explanation": "625.44 sorts electric vehicle equipment by how it connects to the premises wiring, and each style carries its own connection rule. Portable equipment connects cord-and-plug through a receptacle. Stationary equipment may also be cord-and-plug connected where the section permits it, and fastened-in-place equipment has its own provisions, including direct wiring. Where a receptacle is the connection, it must be a listed receptacle of the rating and configuration the equipment requires — the charger nameplate, not habit, picks the receptacle. The dwelling case crews see most is a 240-volt receptacle feeding a plug-in charger: the receptacle rating, the branch-circuit rating, and the charger's continuous draw all have to agree, which is why this section is read together with 625.41 and 625.42.",
+      "on_the_job": "Plug-in charger on a 50 A receptacle: the circuit is sized for the continuous load at 125 percent (a 40 A charger on a 50 A circuit), the receptacle matches the circuit, and the equipment is the listed unit the homeowner bought — not a dryer receptacle borrowed for the garage. If the charger is hard-wired instead, 625.44 steps aside and the disconnect rules of 625.43 decide.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Three connection styles side by side: portable cord-and-plug, stationary cord-and-plug, fastened-in-place direct-wired.",
+      "related_ids": [
+        "C6-625.40",
+        "C6-625.41",
+        "C6-625.42",
+        "C6-625.43",
+        "C6-L-061"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C6-625.43",
       "next_id": "C6-625.50"
     },
     {
@@ -369,7 +392,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C6-625.43",
+      "prev_id": "C6-625.44",
       "next_id": "C6-625.52"
     },
     {
@@ -823,6 +846,28 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.22(A)",
+      "next_id": "C6-680.22(C)"
+    },
+    {
+      "id": "C6-680.22(C)",
+      "chapter": 6,
+      "article": "680",
+      "section": "680.22(C)",
+      "title": "Switching devices — 5 ft from the water",
+      "plain_explanation": "Switching devices — the switches that control pool-area equipment and lighting — are located at least 5 ft horizontally from the inside wall of the pool, spa, or hot tub, unless they are separated from the water by a permanent barrier such as a solid wall or fence that keeps a person in the water from reaching the switch. The measurement follows the same thinking as the receptacle rules in 680.22(A): distance is about what a wet hand can reach, not about where the device looks convenient on the plan. Switches that are part of a listed assembly, or that the article specifically permits closer in, are exceptions to read on the equipment itself — not a general permission.",
+      "on_the_job": "Put the pool light switch and the pump control on the house wall or the equipment pad, outside the 5 ft line, at rough-in. The classic correction is a switch roughed in on the pool-side face of a screen enclosure post, within reach of the water.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Plan view: 5 ft switching-device line around the water, barrier exception shown at a fence.",
+      "related_ids": [
+        "C6-680.22(A)",
+        "C6-680.22(B)",
+        "C6-680.41",
+        "C6-L-062"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C6-680.22(B)",
       "next_id": "C6-680.23"
     },
     {
@@ -842,7 +887,7 @@
       "florida_note": "",
       "verified": false,
       "sharma_rule_ids": [],
-      "prev_id": "C6-680.22(B)",
+      "prev_id": "C6-680.22(C)",
       "next_id": "C6-680.24(A)"
     },
     {
@@ -862,6 +907,28 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.23",
+      "next_id": "C6-680.25"
+    },
+    {
+      "id": "C6-680.25",
+      "chapter": 6,
+      "article": "680",
+      "section": "680.25",
+      "title": "Feeders supplying pool equipment panelboards",
+      "plain_explanation": "Where a feeder supplies a panelboard that serves pool, spa, or fountain equipment, 680.25 holds the feeder to a stricter standard than an ordinary feeder. The feeder is installed in one of the wiring methods the section lists — rigid or intermediate metal conduit, rigid PVC conduit, or another identified raceway — and it must carry an insulated copper equipment grounding conductor, sized from Table 250.122 but never smaller than 12 AWG. The point of the insulated grounding conductor is the same as in 680.21(A) for motors: around water, the fault path is a real insulated wire, not the raceway alone and not a bare conductor in the dirt.",
+      "on_the_job": "Feeding a pool subpanel from the house panel: pull an insulated copper ground with the feeder, 12 AWG minimum even on a small feeder, and keep the run in raceway. A feeder roughed in cable with a bare ground is the correction waiting to happen.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Feeder run from house panel to pool panelboard: raceway shown, insulated EGC called out at 12 AWG minimum.",
+      "related_ids": [
+        "C6-680.21(A)",
+        "C6-680.11",
+        "C6-680.26",
+        "C6-L-063"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C6-680.24(A)",
       "next_id": "C6-680.26"
     },
     {
@@ -882,7 +949,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C6-680.24(A)",
+      "prev_id": "C6-680.25",
       "next_id": "C6-680.26(B)"
     },
     {
@@ -1350,6 +1417,49 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-690.13",
+      "next_id": "C6-690.31"
+    },
+    {
+      "id": "C6-690.31",
+      "chapter": 6,
+      "article": "690",
+      "section": "690.31",
+      "title": "Wiring methods — PV source and output circuits",
+      "plain_explanation": "690.31 is where solar wiring stops being ordinary branch-circuit wiring. Exposed single-conductor PV source-circuit wiring is a listed PV cable type (Type PV wire, or USE-2 where the section permits it) — conductors built and marked for sunlight, heat, and rooftop duty, not THHN pulled out of a raceway and left in the sun. Rooftop conductors also live in the hottest part of the job, which is why the temperature rules of Chapter 3 ride along. Where dc PV circuits run on or in a building on their way to the disconnect or inverter, the section requires them in metal raceways or enclosures, so a dc fault inside a wall is contained in metal. Module interconnects, home runs, and the inverter output each follow the part of the section written for them — read the subsection for the run in front of you.",
+      "on_the_job": "On a roof: PV wire for the exposed home runs, secured and kept off the roof surface the way the listing expects, then into metal raceway where the dc run enters and crosses the building to the inverter. Loose THHN or cable not listed for the exposure, lying on a Florida roof, is a failed inspection and a cooked conductor.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Roof plan: module strings, PV-wire home runs, transition to metal raceway at the building entry.",
+      "related_ids": [
+        "C6-690.8",
+        "C6-690.12",
+        "C3-310.15",
+        "C6-L-064"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C6-690.15",
+      "next_id": "C6-690.47"
+    },
+    {
+      "id": "C6-690.47",
+      "chapter": 6,
+      "article": "690",
+      "section": "690.47",
+      "title": "Grounding electrode system — PV ties into the building system",
+      "plain_explanation": "A PV installation does not get its own separate grounding world. 690.47 ties the array's equipment grounding and any dc grounding electrode conductor into the building's grounding electrode system, so the array, the service, and everything else bonded in the building sit at the same potential. An additional electrode at the array — a ground rod driven by the racking — is permitted, but it supplements the system: it must be bonded back to the building's grounding electrode system, and it never replaces that connection. A rod in the dirt by the array with no bond back to the service is a decoration, not a grounding electrode system.",
+      "on_the_job": "Ground-mount or roof array: bond the racking and equipment back to the house grounding electrode system, and if the design adds a rod at the array, bond that rod in too. The inspector's question is always the same — show me the path back to the service ground.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Array grounding: racking bond, conductor back to the service grounding electrode system, optional auxiliary rod bonded in.",
+      "related_ids": [
+        "C6-690.41(B)",
+        "C6-ART-690",
+        "C6-L-065"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C6-690.31",
       "next_id": "C6-690.56"
     },
     {
@@ -1369,7 +1479,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C6-690.15",
+      "prev_id": "C6-690.47",
       "next_id": "C6-ART-691"
     },
     {
@@ -1617,6 +1727,11 @@
           "title": "Disconnecting means — over 60A or 150V to ground"
         },
         {
+          "id": "C6-625.44",
+          "section": "625.44",
+          "title": "Equipment connections — how the charger plugs in"
+        },
+        {
           "id": "C6-625.50",
           "section": "625.50",
           "title": "Connector storage — 18 in. indoors, 24 in. outdoors"
@@ -1757,6 +1872,11 @@
           "title": "Lighting and fans over and near the pool"
         },
         {
+          "id": "C6-680.22(C)",
+          "section": "680.22(C)",
+          "title": "Switching devices — 5 ft from the water"
+        },
+        {
           "id": "C6-680.23",
           "section": "680.23",
           "title": "Underwater luminaires"
@@ -1765,6 +1885,11 @@
           "id": "C6-680.24(A)",
           "section": "680.24(A)",
           "title": "Junction boxes for underwater luminaires"
+        },
+        {
+          "id": "C6-680.25",
+          "section": "680.25",
+          "title": "Feeders supplying pool equipment panelboards"
         },
         {
           "id": "C6-680.26",
@@ -1894,6 +2019,16 @@
           "id": "C6-690.15",
           "section": "690.15",
           "title": "Disconnection of PV equipment"
+        },
+        {
+          "id": "C6-690.31",
+          "section": "690.31",
+          "title": "Wiring methods — PV source and output circuits"
+        },
+        {
+          "id": "C6-690.47",
+          "section": "690.47",
+          "title": "Grounding electrode system — PV ties into the building system"
         },
         {
           "id": "C6-690.56",
@@ -2054,6 +2189,20 @@
       ]
     },
     {
+      "term": "EV charging, equipment connections",
+      "ids": [
+        "C6-625.44",
+        "C6-L-061"
+      ]
+    },
+    {
+      "term": "Feeders, pool equipment panelboards",
+      "ids": [
+        "C6-680.25",
+        "C6-L-063"
+      ]
+    },
+    {
       "term": "Fire pump sources",
       "ids": [
         "C6-695.3",
@@ -2163,6 +2312,20 @@
       ]
     },
     {
+      "term": "PV grounding electrode system",
+      "ids": [
+        "C6-690.47",
+        "C6-L-065"
+      ]
+    },
+    {
+      "term": "PV wiring methods",
+      "ids": [
+        "C6-690.31",
+        "C6-L-064"
+      ]
+    },
+    {
       "term": "Rapid shutdown",
       "ids": [
         "C6-690.12",
@@ -2220,6 +2383,13 @@
       "ids": [
         "C6-680.30",
         "C6-L-030"
+      ]
+    },
+    {
+      "term": "Switching devices, pools and spas",
+      "ids": [
+        "C6-680.22(C)",
+        "C6-L-062"
       ]
     },
     {

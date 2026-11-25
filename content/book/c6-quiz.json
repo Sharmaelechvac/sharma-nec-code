@@ -494,5 +494,101 @@
     "nec_ref": "110.3(B) / 110.14",
     "difficulty": 2,
     "exam": "both"
+  },
+  {
+    "id": "C6-Q-032",
+    "article": "625",
+    "question": "A plug-in EV charger connects to the premises wiring through:",
+    "choices": [
+      "Any receptacle that the plug happens to fit",
+      "A listed receptacle of the rating and configuration the equipment requires",
+      "A dryer receptacle shared with the laundry circuit",
+      "A GFCI-protected 120V receptacle only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "625.44 ties the connection style to the rule: cord-and-plug equipment lands on a listed receptacle of the required rating and configuration, and the circuit is sized for the continuous load under 625.41/625.42.",
+    "nec_ref": "625.44",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C6-Q-033",
+    "article": "680",
+    "question": "A switch controlling pool lighting must be at least how far from the inside wall of the pool, absent a permanent barrier?",
+    "choices": [
+      "3 ft",
+      "5 ft",
+      "6 ft",
+      "10 ft"
+    ],
+    "answer_index": 1,
+    "explain_plain": "680.22(C) puts switching devices at least 5 ft horizontally from the inside wall, unless a permanent barrier keeps a person in the water from reaching the switch.",
+    "nec_ref": "680.22(C)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C6-Q-034",
+    "article": "680",
+    "question": "A feeder to a pool equipment panelboard must carry an equipment grounding conductor that is:",
+    "choices": [
+      "Bare copper, any size",
+      "Insulated copper, sized per Table 250.122 and never smaller than 12 AWG",
+      "Insulated aluminum, 12 AWG minimum",
+      "Not required if the raceway is metal"
+    ],
+    "answer_index": 1,
+    "explain_plain": "680.25 requires the feeder in a listed raceway method with an insulated copper EGC, Table 250.122 sizing, 12 AWG floor — the same insulated-fault-path thinking as 680.21(A).",
+    "nec_ref": "680.25",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C6-Q-035",
+    "article": "690",
+    "question": "DC PV circuits running inside a building to the inverter must be installed in:",
+    "choices": [
+      "NM cable",
+      "Open wiring on insulators",
+      "Metal raceways or enclosures",
+      "PVC conduit only"
+    ],
+    "answer_index": 2,
+    "explain_plain": "690.31 requires dc PV circuits on or in a building to be in metal raceways or enclosures, so a dc fault inside the building is contained in metal.",
+    "nec_ref": "690.31",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C6-Q-036",
+    "article": "690",
+    "question": "A ground rod driven at a solar array, by itself, satisfies 690.47 when:",
+    "choices": [
+      "It is 8 ft long and listed",
+      "It is bonded back to the building grounding electrode system — and even then it only supplements it",
+      "The array is under 10 kW",
+      "The AHJ waives the inspection"
+    ],
+    "answer_index": 1,
+    "explain_plain": "690.47 ties PV grounding into the building's grounding electrode system. An additional electrode is permitted but must be bonded to that system; alone it replaces nothing.",
+    "nec_ref": "690.47",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C6-Q-037",
+    "article": "680",
+    "question": "Which of these satisfies the 680.22(C) switch-distance rule without moving the switch?",
+    "choices": [
+      "Putting the switch on a GFCI breaker",
+      "A permanent barrier between the water and the switch that blocks reach from the water",
+      "Labeling the switch 'pool light'",
+      "Using a weatherproof cover"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The section's own exception is separation by a permanent barrier. GFCI protection, labels, and covers do not change the 5 ft reach rule.",
+    "nec_ref": "680.22(C)",
+    "difficulty": 2,
+    "exam": "journeyman"
   }
 ]
