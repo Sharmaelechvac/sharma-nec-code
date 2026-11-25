@@ -462,5 +462,131 @@
     "nec_ref": "240.4(D)",
     "difficulty": 2,
     "exam": "both"
+  },
+  {
+    "id": "C2-Q-030",
+    "article": "200",
+    "question": "The grounded (neutral) conductor of a receptacle lands on the terminal identified by:",
+    "choices": [
+      "A brass-colored screw",
+      "A silver-colored screw, or one marked WHITE",
+      "The green hex-head screw",
+      "Either load screw — polarity does not apply to AC"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The identified terminal is silver colored or marked WHITE. Brass is the ungrounded (hot) terminal and green is the grounding terminal.",
+    "nec_ref": "200.10",
+    "difficulty": 1,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-Q-031",
+    "article": "210",
+    "question": "Which of these may be fed from a dwelling's 20A small-appliance branch circuits?",
+    "choices": [
+      "A living-room receptacle used for a coffee bar",
+      "The kitchen clock receptacle",
+      "A bathroom receptacle on the same floor",
+      "The microwave, sharing the circuit"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The small-appliance circuits serve only kitchen, pantry, breakfast and dining receptacles (plus refrigeration). A clock receptacle is one of the two named exceptions; the other is supplemental equipment on a gas-fired range or cooktop.",
+    "nec_ref": "210.52(B)",
+    "difficulty": 2,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-Q-032",
+    "article": "220",
+    "question": "A dwelling's general load before demand is 18,000 VA. After the Table 220.42 demand factors are applied, the general load is:",
+    "choices": [
+      "18,000 VA",
+      "6,300 VA",
+      "8,250 VA",
+      "9,300 VA"
+    ],
+    "answer_index": 2,
+    "explain_plain": "First 3,000 VA at 100 percent = 3,000 VA; the remaining 15,000 VA at 35 percent = 5,250 VA; total 8,250 VA.",
+    "nec_ref": "220.42",
+    "difficulty": 2,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-Q-033",
+    "article": "225",
+    "question": "A feeder supplying a detached garage must have its building disconnecting means:",
+    "choices": [
+      "Only at the main house panel",
+      "Outside the garage, or inside nearest the point where the feeder conductors enter",
+      "Anywhere inside the garage, grouped or not",
+      "Inside the garage's subpanel, wherever the panel is placed"
+    ],
+    "answer_index": 1,
+    "explain_plain": "225.32 puts the disconnect outside the building or inside nearest the point of entrance, so the unprotected feeder run inside the building stays as short as possible.",
+    "nec_ref": "225.32",
+    "difficulty": 1,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-Q-034",
+    "article": "230",
+    "question": "Which of these may be attached to a service mast?",
+    "choices": [
+      "The cable TV drop, if it is below the power drop",
+      "A yard-light feed run to a pole light",
+      "Only the service-drop or service-lateral conductors",
+      "A grounded antenna mast clamp"
+    ],
+    "answer_index": 2,
+    "explain_plain": "230.28 limits mast attachments to the service-drop or service-lateral conductors — no other conductors and no unrelated equipment.",
+    "nec_ref": "230.28",
+    "difficulty": 1,
+    "exam": "journeyman",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-Q-035",
+    "article": "250",
+    "question": "A generator feeds a house through a transfer switch that switches the neutral. The generator is:",
+    "choices": [
+      "Never required to be grounded",
+      "A separately derived system, needing its own system bonding jumper and grounding electrode conductor",
+      "Grounded by its frame alone in all cases",
+      "Bonded at both the generator and the service"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Switching the neutral makes the generator a separately derived system under 250.30: system bonding jumper at the source or first disconnect (one point only), plus a grounding electrode conductor to an electrode.",
+    "nec_ref": "250.30",
+    "difficulty": 3,
+    "exam": "master",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-Q-036",
+    "article": "250",
+    "question": "An insulated equipment grounding conductor is identified by:",
+    "choices": [
+      "White or gray insulation",
+      "Green insulation, green with yellow stripe(s), or a bare conductor",
+      "Black insulation with white tape at the ends, at any size",
+      "Any color, provided both ends are taped green, at any size"
+    ],
+    "answer_index": 1,
+    "explain_plain": "250.119 reserves green, green with yellow stripes, and bare for the equipment grounding conductor. Tape-marking another color green is an allowance only for conductors larger than 6 AWG.",
+    "nec_ref": "250.119",
+    "difficulty": 1,
+    "exam": "both",
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]

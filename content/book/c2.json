@@ -25,6 +25,27 @@
       "florida_note": "",
       "verified": true,
       "prev_id": null,
+      "next_id": "C2-200.4",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-200.4",
+      "chapter": 2,
+      "article": "200",
+      "section": "200.4",
+      "title": "The neutral serves its own circuit",
+      "plain_explanation": "A grounded (neutral) conductor belongs to the circuit it was run with. It may not be borrowed to carry return current for a different circuit, and a neutral from one circuit or system may not be shared with another unless the arrangement is one the Code specifically builds — the multiwire branch circuit being the common one in a house. Where a neutral is shared, every rule for that shared arrangement (same raceway or cable, grouped disconnecting means, identification) has to be followed end to end. A neutral picked up from a nearby box because it was handy is a violation and a shock hazard: switching off one breaker leaves the shared neutral still carrying the other circuit's current.",
+      "on_the_job": "Troubleshooting rule: if you open a box and find a neutral spliced to a circuit it did not arrive with, stop and trace both ends before you land anything. On a multiwire circuit, killing one breaker does not make the neutral safe — that is why the two hots disconnect together (see the 210.4 page).",
+      "sharma_note": "",
+      "figure_idea": "Two circuits at one panel: one with its own neutral run beside it (correct), one borrowing a neutral from the circuit next door (crossed out).",
+      "related_ids": [
+        "C2-200.6",
+        "C2-210.4",
+        "C2-L-053"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-ART-200",
       "next_id": "C2-200.6",
       "sharma_rule_ids": []
     },
@@ -44,7 +65,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-ART-200",
+      "prev_id": "C2-200.4",
       "next_id": "C2-200.7",
       "sharma_rule_ids": []
     },
@@ -65,10 +86,31 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C2-200.6",
-      "next_id": "C2-ART-210",
+      "next_id": "C2-200.10",
       "sharma_rule_ids": [
         "S-10"
       ]
+    },
+    {
+      "id": "C2-200.10",
+      "chapter": 2,
+      "article": "200",
+      "section": "200.10 / 200.11",
+      "title": "Terminal identification and polarity",
+      "plain_explanation": "Terminals tell you where the grounded conductor lands. On receptacles, switches, lampholders and other devices, the terminal for the grounded conductor is identified — a silver-colored screw, or a terminal marked with the word WHITE — while the ungrounded (hot) terminal is brass or dark colored, and the grounding terminal is green. Polarity is the matching rule in 200.11: the grounded conductor goes to the identified terminal, never reversed. On a standard receptacle that puts the neutral on the longer slot and the hot on the shorter one, so a plug's wide blade lands on the neutral side.",
+      "on_the_job": "Reversed polarity is one of the most common findings in older Florida houses: the receptacle works, but the tester shows the fault. Land white on silver, black on brass, green on green, and check with a polarity tester at final — a lamp lighting up proves nothing about polarity.",
+      "sharma_note": "",
+      "figure_idea": "Duplex receptacle from the back: silver screw with the white conductor, brass screw with the black, green screw with the ground, and the face slots labeled to match.",
+      "related_ids": [
+        "C2-200.6",
+        "C2-200.7",
+        "C2-Q-030"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-200.7",
+      "next_id": "C2-ART-210",
+      "sharma_rule_ids": []
     },
     {
       "id": "C2-ART-210",
@@ -89,7 +131,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-200.7",
+      "prev_id": "C2-200.10",
       "next_id": "C2-210.4",
       "sharma_rule_ids": [
         "S-01"
@@ -112,6 +154,27 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C2-ART-210",
+      "next_id": "C2-210.5",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-210.5",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.5",
+      "title": "Identifying branch circuits — colors and directories",
+      "plain_explanation": "Branch circuits have to be identifiable where they are worked on. Where a building is fed by more than one nominal voltage system — a light-commercial building with both 208Y/120 and 480Y/277 is the common case — the ungrounded conductors of each system are identified by phase and by system, and the identification method has to be posted at each panelboard (or the conductors durably identified by another approved method an inspector can read). The trade color conventions are black, red, blue for 120/208V systems and brown, orange, yellow for 277/480V systems. In a house the same discipline shows up as an accurate panel directory: every breaker labeled for the load it actually serves.",
+      "on_the_job": "Write the directory as you trim the panel, not from memory at final. On a two-system commercial job, land the colors to the posted code from the first pull — re-identifying a pulled circuit with tape at every box is slower and gets missed.",
+      "sharma_note": "",
+      "figure_idea": "Panelboard door with the posted color-code card: two voltage systems, their phase colors, and a directory filled in circuit by circuit.",
+      "related_ids": [
+        "C2-210.4",
+        "C2-200.6",
+        "C2-200.7"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-210.4",
       "next_id": "C2-210.8",
       "sharma_rule_ids": []
     },
@@ -137,7 +200,7 @@
       ],
       "florida_note": "Florida enforces NEC 2020 through the FBC 8th Edition (2023). A local AHJ amendment controls over any general summary here.",
       "verified": true,
-      "prev_id": "C2-210.4",
+      "prev_id": "C2-210.5",
       "next_id": "C2-210.8(A)",
       "sharma_rule_ids": [
         "S-07"
@@ -509,10 +572,33 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C2-210.52",
-      "next_id": "C2-210.52(C)",
+      "next_id": "C2-210.52(B)",
       "sharma_rule_ids": [
         "S-04"
       ]
+    },
+    {
+      "id": "C2-210.52(B)",
+      "chapter": 2,
+      "article": "210",
+      "section": "210.52(B)",
+      "title": "Small-appliance circuits — what they may feed",
+      "plain_explanation": "The two (or more) 20A small-appliance branch circuits serve the receptacle outlets in the kitchen, pantry, breakfast room and dining room — and only those. A receptacle for refrigeration equipment in those rooms may ride on one of them. The only other outlets allowed are a clock receptacle and receptacles used for supplemental equipment on a gas-fired range, oven or cooktop. A receptacle in the living room, a bathroom receptacle, or the kitchen lighting may not be added to these circuits, and these circuits may not wander off to feed outlets in other rooms.",
+      "on_the_job": "Lay out the two circuits before rough-in so the countertop receptacles alternate between them (that layout rule is on the 210.52(C) page). A microwave shown on the plans gets its own circuit — it is not a small-appliance-circuit load.",
+      "sharma_note": "",
+      "figure_idea": "Kitchen plan with receptacles colored by circuit: countertop outlets split between SA-1 and SA-2, the fridge on SA-1, the microwave on its own circuit.",
+      "related_ids": [
+        "C2-210.52(C)",
+        "C2-210.11(C)",
+        "C2-220.52",
+        "C2-L-055",
+        "C2-Q-031"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-210.52(A)",
+      "next_id": "C2-210.52(C)",
+      "sharma_rule_ids": []
     },
     {
       "id": "C2-210.52(C)",
@@ -538,7 +624,7 @@
       ],
       "florida_note": "",
       "verified": false,
-      "prev_id": "C2-210.52(A)",
+      "prev_id": "C2-210.52(B)",
       "next_id": "C2-210.52(D)",
       "sharma_rule_ids": []
     },
@@ -771,7 +857,7 @@
       "article": "215",
       "section": "215.3",
       "title": "Feeder overcurrent protection",
-      "plain_explanation": "A feeder is protected by an overcurrent device rated not over the ampacity of its conductors, subject to the allowances in Article 240 — including the next-higher-standard-rating allowance where it applies and the tap rules where it does not. The breaker at the start of the feeder is therefore a conductor-protection question first and a load question second. Where a feeder continues to a subpanel, the equipment grounding conductor and the neutral treatment at that subpanel are Article 250 questions, covered later in this chapter.",
+      "plain_explanation": "A feeder is protected by an overcurrent device rated not over the ampacity of its conductors, subject to the allowances in Article 240 — including the next-higher-standard-rating allowance where it applies and the tap rules where it does not. The breaker at the start of the feeder is therefore a conductor-protection question first and a load question second. Where a feeder continues to a subpanel, the equipment grounding conductor and the neutral treatment at that subpanel are Article 250 questions, covered later in this chapter.\n\nThe feeder's equipment grounding conductor is part of the feeder: it is sized from Table 250.122 by the rating of this overcurrent device and run with the feeder conductors. Where the feeder supplies a separate building, the grounding arrangement at that building follows 250.32 — this device's rating still sets the equipment grounding conductor size.",
       "on_the_job": "Match three numbers before energizing: feeder conductor ampacity, breaker rating, and the Article 240 rule you are relying on. If the middle number is larger than the first, name the allowance in the job file.",
       "sharma_note": "",
       "figure_idea": "",
@@ -780,7 +866,7 @@
         "L-032"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-215.2",
       "next_id": "C2-ART-220",
       "sharma_rule_ids": []
@@ -846,6 +932,51 @@
       "florida_note": "",
       "verified": false,
       "prev_id": "C2-220.12",
+      "next_id": "C2-220.42",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.42",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.42",
+      "title": "Demand factors for the general load — Table 220.42",
+      "plain_explanation": "The standard method does not size a dwelling service for every volt-ampere connected. After the general load is added up (general lighting by floor area, the small-appliance and laundry allowances, and the other general loads), Table 220.42 applies this demand factor to a dwelling:\n• First 3,000 VA — at 100 percent\n• From 3,001 to 120,000 VA — at 35 percent\n• Over 120,000 VA — at 25 percent\nThe appliance, dryer, and range demands in their own sections are worked separately and added to this result.",
+      "on_the_job": "Worked example: a house whose general load adds to 18,000 VA before demand. First 3,000 VA at 100 percent = 3,000 VA. The remaining 15,000 VA at 35 percent = 5,250 VA. Demanded general load = 8,250 VA. Write the two steps down — anyone checking your math wants to see the 3,000 VA block, not just the answer.",
+      "sharma_note": "",
+      "figure_idea": "Stair-step diagram of Table 220.42: the 100 percent block, the 35 percent block, the 25 percent block, with the worked example filled in.",
+      "related_ids": [
+        "C2-220.12",
+        "C2-220.52",
+        "C2-220.53",
+        "C2-L-056",
+        "C2-Q-032"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-220.14",
+      "next_id": "C2-220.52",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-220.52",
+      "chapter": 2,
+      "article": "220",
+      "section": "220.52",
+      "title": "Small-appliance and laundry allowances — 1,500 VA each",
+      "plain_explanation": "In the standard method, the kitchen and laundry circuits enter the calculation at set values instead of nameplate numbers:\n• Each 20A small-appliance branch circuit — 1,500 VA (a dwelling has at least two, so at least 3,000 VA)\n• The laundry branch circuit — 1,500 VA\nThese allowances are added into the general load first; the Table 220.42 demand factor is then applied to the total. They are calculation allowances only — the circuits themselves are still wired and protected as full 20A circuits.",
+      "on_the_job": "Worked fragment: two small-appliance circuits (3,000 VA) plus one laundry circuit (1,500 VA) put 4,500 VA into the general load of every standard-method house calculation before floor-area lighting is added. If your worksheet shows less than 4,500 VA on these lines, the sheet is wrong.",
+      "sharma_note": "",
+      "figure_idea": "Standard-method worksheet with the lines highlighted: small-appliance × 2 = 3,000 VA, laundry = 1,500 VA, feeding into the 220.42 demand step.",
+      "related_ids": [
+        "C2-210.52(B)",
+        "C2-220.42",
+        "C2-220.14",
+        "C2-L-057"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-220.42",
       "next_id": "C2-220.53",
       "sharma_rule_ids": []
     },
@@ -865,7 +996,7 @@
       ],
       "florida_note": "",
       "verified": false,
-      "prev_id": "C2-220.14",
+      "prev_id": "C2-220.52",
       "next_id": "C2-220.54",
       "sharma_rule_ids": []
     },
@@ -1086,8 +1217,8 @@
       "article": "225",
       "section": "225.31",
       "title": "A disconnect at the building being supplied",
-      "plain_explanation": "A feeder or branch circuit supplying another building must have a disconnecting means at that building, located and grouped as this section and the following sections require, suitable for use as service equipment where required, and rated as those sections set out. The disconnect is what lets a person at the detached building kill its power without walking back to the main building. Its rating and location rules sit in the sections immediately after this one, so read them together on a real job.",
-      "on_the_job": "Mount and label the disconnect at rough-in, not at final. If the feeder feeds a subpanel inside the building, confirm which device is the building disconnect and that it is grouped and marked as such.",
+      "plain_explanation": "A feeder or branch circuit supplying another building must have a disconnecting means at that building, located and grouped as this section and the following sections require, suitable for use as service equipment where required, and rated as those sections set out. The disconnect is what lets a person at the detached building kill its power without walking back to the main building. Its rating and location rules sit in the sections immediately after this one, so read them together on a real job.\n\nHow many disconnects there may be, and how they are marked, sit in the sections right after this one:\n• The building's supply may be disconnected by up to six switches or circuit breakers, in a single enclosure or a group of separate enclosures (225.33)\n• The disconnects are grouped together, and each one is marked to show exactly what it disconnects (225.34)\n• A feeder disconnecting means serving a one-family dwelling is rated at least 100 amperes (225.39(D))",
+      "on_the_job": "Mount and label the disconnect at rough-in, not at final. If the feeder feeds a subpanel inside the building, confirm which device is the building disconnect and that it is grouped and marked as such.\n\nCount the disconnects before you set the gear: if the design needs a seventh throw, the design changes — one larger disconnecting means or a single main — not a seventh handle in a second can across the room.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
@@ -1095,8 +1226,29 @@
         "C2-Q-015"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C2-225.30",
+      "next_id": "C2-225.32",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-225.32",
+      "chapter": 2,
+      "article": "225",
+      "section": "225.32",
+      "title": "Where the separate building's disconnect must be",
+      "plain_explanation": "The disconnecting means for a feeder or branch circuit supplying a separate building goes in a readily accessible location either outside the building or inside, nearest the point where the conductors enter. 'Nearest the point of entrance' is the load-bearing phrase: feeder conductors inside the building are ahead of the building's own disconnect until they reach it, so the run from the entry point to the disconnect is kept as short as the building allows. The listed exceptions (fire pumps and a few special systems) place the disconnect elsewhere only where those systems' own rules say so.",
+      "on_the_job": "On a detached garage or casita, plan the panel or disconnect at the wall where the feeder enters — not across the building because the layout was prettier. If the feeder enters underground on the far side from the planned panel, that is a redesign conversation before the trench, not after.",
+      "sharma_note": "",
+      "figure_idea": "Detached building plan: feeder entering at the near wall with the disconnect right at the entry, and a crossed-out long interior run to a far panel.",
+      "related_ids": [
+        "C2-225.31",
+        "C2-225.30",
+        "C2-Q-033"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-225.31",
       "next_id": "C2-ART-230",
       "sharma_rule_ids": []
     },
@@ -1122,7 +1274,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-225.31",
+      "prev_id": "C2-225.32",
       "next_id": "C2-230.9",
       "sharma_rule_ids": [
         "S-02",
@@ -1166,6 +1318,71 @@
       "florida_note": "",
       "verified": false,
       "prev_id": "C2-230.9",
+      "next_id": "C2-230.28",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-230.28",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.28",
+      "title": "Service masts — what may ride on the mast",
+      "plain_explanation": "Where a mast is used to support overhead service conductors, the mast itself is part of the service. Only the service-drop or service-lateral conductors may be attached to it — no other conductors, and no antennas or other equipment that is not part of the service. The mast has to be strong enough for the strain the utility's drop puts on it, or be braced or guyed, and the fittings where conductors pass through or terminate are listed service fittings (the weatherhead and drip loop are on the 230.54 page). A mast that also carries a yard-light feed or a cable TV drop is a violation you can see from the street.",
+      "on_the_job": "Check the mast before the utility arrives: listed weatherhead, hub wrench-tight, guys where the span is long, and nothing else clamped to the pipe. Confirm the utility's attachment requirements at rough-in — masts through or over the roof carry height and bracing rules in the serving utility's standards as well.",
+      "sharma_note": "",
+      "figure_idea": "Service mast elevation: weatherhead, drip loop, and guys, with a red X over a TV antenna and a yard-light cable clamped to the same mast.",
+      "related_ids": [
+        "C2-230.24",
+        "C2-230.54",
+        "C2-L-059",
+        "C2-Q-034"
+      ],
+      "florida_note": "Florida utilities publish their own service standards (attachment heights, mast specifications, meter positions). The NEC sets the floor; the serving utility's book can add to it, and the utility connects last — build to both.",
+      "verified": false,
+      "prev_id": "C2-230.24",
+      "next_id": "C2-230.42",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-230.42",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.42",
+      "title": "Minimum size and rating of service-entrance conductors",
+      "plain_explanation": "Service-entrance conductors are sized for the calculated load from Article 220 — the calculation, not the size of the panel that was ordered, sets the floor. The conductor ampacity has to carry the load and coordinate with the service overcurrent protection; for a one-family dwelling the service itself may not be smaller than 100A (that rating rule is on the 230.79(C) page), and dwelling services and whole-load feeders may use the 83 percent sizing rule covered in Chapter 3 at 310.12. A 200A panel fed by conductors sized for 100A of calculated load is not a 200A service.",
+      "on_the_job": "Do the Article 220 math before the service gear is ordered, and keep the worksheet in the job file. If the calculated load lands close to the next standard size, that is a conversation for the office — not a field decision to round the conductors down.",
+      "sharma_note": "",
+      "figure_idea": "Flow line: Article 220 load → conductor ampacity (or 310.12 for a dwelling) → service disconnect rating → panel, with 'panel size alone' crossed out as a starting point.",
+      "related_ids": [
+        "C2-230.79(C)",
+        "C2-220.82",
+        "C2-ART-220"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-230.28",
+      "next_id": "C2-230.54",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-230.54",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.54",
+      "title": "Overhead service connections — attachment and drip loop",
+      "plain_explanation": "Where an overhead drop lands, three things have to be right at the top of the service. The point of attachment is located so the clearances on the 230.24 and 230.9 pages can actually be met, and the service head (weatherhead) sits at or above the point of attachment wherever practicable, so water runs away from the raceway instead of into it. The conductors form a drip loop below the weatherhead: each conductor loops down and back up, so rain drips off the bottom of the loop instead of following the wire into the head. Service-entrance conductors entering through the weatherhead are individually insulated where this section requires it, and splices in service conductors are made only by the methods 230.46 allows.",
+      "on_the_job": "Form the drip loop long enough to actually drip — a tight little kink at the head is not a loop. Leave the utility the working tails at the length its standards call for, and do not tape or splice anything at the weatherhead that the utility will have to undo.",
+      "sharma_note": "",
+      "figure_idea": "Weatherhead detail: attachment point, head above it, drip loop hanging below with a droplet falling from the bottom of the loop.",
+      "related_ids": [
+        "C2-230.28",
+        "C2-230.24",
+        "C2-230.9",
+        "C2-L-060"
+      ],
+      "florida_note": "The serving Florida utility's standards set the tail length it wants at the weatherhead and the attachment hardware it accepts; confirm both before the drop is scheduled.",
+      "verified": false,
+      "prev_id": "C2-230.42",
       "next_id": "C2-230.67",
       "sharma_rule_ids": []
     },
@@ -1188,7 +1405,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-230.24",
+      "prev_id": "C2-230.54",
       "next_id": "C2-230.70",
       "sharma_rule_ids": [
         "S-02"
@@ -1255,6 +1472,28 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C2-230.71",
+      "next_id": "C2-230.82",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-230.82",
+      "chapter": 2,
+      "article": "230",
+      "section": "230.82",
+      "title": "What may connect ahead of the service disconnect",
+      "plain_explanation": "The line side of the service disconnect is a closed list. The equipment this section allows to connect on the supply side includes meter enclosures and meter disconnect switches, current-transformer cabinets, the surge-protective device the service requires (see the 230.67 page), fire pump and legally required standby connections made under their own articles, and supply-side interconnections such as a solar system connected ahead of the main under Article 705's rules. Anything not on the list waits for the load side. Conductors ahead of the disconnect have no building overcurrent protection of their own, which is why the list stays short.",
+      "on_the_job": "Solar supply-side taps are the live case on Sharma roofs: the tap hardware, its rating, and where it lands are engineered decisions made before rough-in, with the utility and the AHJ in the loop — never a field improvisation inside a meter can.",
+      "sharma_note": "",
+      "figure_idea": "One-line of a service: utility → meter → allowed line-side items tagged → service disconnect → panel, with a random branch circuit tapped ahead of the main crossed out.",
+      "related_ids": [
+        "C2-230.67",
+        "C2-230.70",
+        "C2-230.71",
+        "C2-L-061"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-230.79(C)",
       "next_id": "C2-230.85",
       "sharma_rule_ids": []
     },
@@ -1277,7 +1516,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-230.79(C)",
+      "prev_id": "C2-230.82",
       "next_id": "C2-ART-240",
       "sharma_rule_ids": [
         "S-02"
@@ -1445,9 +1684,32 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C2-240.21",
-      "next_id": "C2-ART-250",
+      "next_id": "C2-240.83",
       "sharma_rule_ids": [
         "S-09"
+      ]
+    },
+    {
+      "id": "C2-240.83",
+      "chapter": 2,
+      "article": "240",
+      "section": "240.83 / 240.85",
+      "title": "Breaker markings — and the slash-rating trap",
+      "plain_explanation": "A circuit breaker's markings are working information: ampere rating and voltage rating are marked by the manufacturer, the interrupting rating is marked where the frame size requires it, and special-duty markings tell you where the breaker may be applied — SWD for breakers used to switch fluorescent or HID lighting loads, HACR for heating, air-conditioning and refrigeration equipment. Voltage markings come in two forms. A straight-rated breaker (marked 240V) may be used where a conductor's voltage to ground reaches that full voltage. A slash-rated breaker (marked 120/240V) may be used only where the voltage to ground on every conductor stays at or below the lower number — which is why a slash-rated breaker does not belong on the high leg of a 240V delta system (208V to ground) or on a corner-grounded system.",
+      "on_the_job": "On a high-leg delta panel, read the breaker voltage marking before you land the high leg: a 120/240 slash-rated breaker is the wrong breaker there even though the amp rating matches. Check the marking on the breaker in your hand, not the one you expected to find in the box.",
+      "sharma_note": "S-02: new gear is Siemens. The marking check applies to whatever breaker is actually installed — a substituted breaker with the wrong voltage rating is still the wrong breaker.",
+      "figure_idea": "Two breaker labels side by side: a '240V' straight rating approved for the high leg, a '120/240V' slash rating crossed out for the high leg, with the SWD and HACR marks called out.",
+      "related_ids": [
+        "C2-240.4",
+        "C2-240.6",
+        "C2-L-062"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-240.24",
+      "next_id": "C2-ART-250",
+      "sharma_rule_ids": [
+        "S-02"
       ]
     },
     {
@@ -1471,7 +1733,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-240.24",
+      "prev_id": "C2-240.83",
       "next_id": "C2-250.4",
       "sharma_rule_ids": []
     },
@@ -1492,6 +1754,48 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C2-ART-250",
+      "next_id": "C2-250.8",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.8",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.8",
+      "title": "How grounding and bonding connections are made",
+      "plain_explanation": "Grounding and bonding connections are made only by listed methods: listed pressure connectors, terminal bars, pressure connectors listed as grounding and bonding equipment, exothermic welding, machine screws that engage at least two threads, thread-forming machine screws that engage at least two threads in the enclosure, or connections to a pipe, rod or other electrode made with listed lugs, pressure connectors or clamps. Solder alone is never the connection — a soldered-only joint can melt open during a fault, which is the exact moment the path is needed. One screw or terminal takes one conductor unless the device is listed and identified for more.",
+      "on_the_job": "Crimp, clamp, or weld it — never solder-only. On a service call, two grounds landed under one ordinary green screw and a soldered splice in the grounding path are both rework items: correct them with listed connectors while the panel is open.",
+      "sharma_note": "",
+      "figure_idea": "Connection lineup: listed pressure connector, exothermic weld, and two-thread machine screw marked approved; a solder-only joint crossed out.",
+      "related_ids": [
+        "C2-250.68",
+        "C2-250.64",
+        "C2-250.4"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-250.4",
+      "next_id": "C2-250.20",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.20",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.20",
+      "title": "Which AC systems must be grounded",
+      "plain_explanation": "Some AC systems are required to be grounded, and the common Florida systems are on the list: a system that can be grounded so the maximum voltage to ground stays at or below 150 volts must be grounded, and systems whose neutral is used as a circuit conductor — the 120/240V house service, 208Y/120V and 480Y/277V commercial services — are grounded systems. Grounding the system fixes the voltage to ground, gives lightning and surge energy a reference, and makes the fault-clearing path on the 250.4 page possible. Whether a delta system is grounded, and which conductor is the grounded one (250.26), is set by this article — never by field preference.",
+      "on_the_job": "Identify the system before you bond anything: wye or delta, which conductor (if any) is grounded, and where the single grounding point is. On an unfamiliar commercial service, the transformer configuration answers these questions — get it from the drawings or the utility, not by testing until something looks right.",
+      "sharma_note": "",
+      "figure_idea": "Three service diagrams — 120/240 single-phase, 208Y/120, 480Y/277 — each with the grounded conductor marked and the single grounding point circled.",
+      "related_ids": [
+        "C2-250.24",
+        "C2-250.4",
+        "C2-250.30"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-250.8",
       "next_id": "C2-250.24",
       "sharma_rule_ids": []
     },
@@ -1514,7 +1818,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-250.4",
+      "prev_id": "C2-250.20",
       "next_id": "C2-250.28",
       "sharma_rule_ids": [
         "S-09"
@@ -1537,6 +1841,29 @@
       "florida_note": "",
       "verified": false,
       "prev_id": "C2-250.24",
+      "next_id": "C2-250.30",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.30",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.30",
+      "title": "Separately derived systems — generators and transformers",
+      "plain_explanation": "A separately derived system (SDS) is a source — a transformer, or a generator whose neutral is switched — that has no direct electrical connection to the supply system's circuit conductors; the two systems touch only through grounding and bonding. Because it is its own system, it needs its own grounding arrangement: a system bonding jumper connecting the derived neutral to the equipment grounds and enclosure, made at the source or at the first disconnecting means — one point, not both — and a grounding electrode conductor run to an electrode at or near the source, sized from the derived conductors by the same table used at a service (250.66). A ground rod driven beside a generator, without the bonding jumper and electrode conductor, is decoration, not grounding.",
+      "on_the_job": "The transfer switch decides the design. If the switch does not switch the neutral, the generator is usually NOT separately derived, and the neutral stays bonded only at the service. If it does switch the neutral, the generator is an SDS and gets its bonding jumper at the generator end. Confirm which design the job has before anyone bonds a generator neutral — two bonding points put neutral current on the grounding path.",
+      "sharma_note": "",
+      "figure_idea": "Generator and transfer switch one-line in both forms: unswitched neutral (bond at the service only) and switched neutral (SDS — bond at the generator), with the electrode conductor shown at the source.",
+      "related_ids": [
+        "C2-250.28",
+        "C2-250.24",
+        "C2-250.34",
+        "C2-L-063",
+        "C2-Q-035"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-250.28",
       "next_id": "C2-250.32",
       "sharma_rule_ids": []
     },
@@ -1556,7 +1883,28 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-250.28",
+      "prev_id": "C2-250.30",
+      "next_id": "C2-250.34",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.34",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.34",
+      "title": "Portable generators — frame grounding and the neutral bond",
+      "plain_explanation": "A portable generator is not automatically a separately derived system. Where the generator supplies only equipment mounted on it and cord-and-plug equipment plugged into its own receptacles, the generator frame itself serves as the grounding reference and the Code does not require a ground rod to be driven for it; the frame is bonded to the equipment grounding terminals of its receptacles. Whether the neutral is bonded to the frame depends on the generator's design — bonded-neutral and floating-neutral portables both exist, and they behave differently with GFCI receptacles and transfer equipment. The picture changes when the generator feeds premises wiring: then the transfer equipment and the rules on the 250.30 page decide whether the neutral is switched, where the single bonding point is, and what electrode connection is required.",
+      "on_the_job": "Read the generator's label before connecting it to a house: 'neutral bonded to frame' versus a floating neutral changes the transfer-switch design. The field failure is a bonded-neutral portable plugged into a system that also bonds at the service — neutral current on the grounding path and nuisance GFCI trips.",
+      "sharma_note": "",
+      "figure_idea": "Portable generator with its receptacle panel: frame bond shown, neutral-bond label called out, and a crossed-out back-feed cord beside it.",
+      "related_ids": [
+        "C2-250.30",
+        "C2-250.20",
+        "C2-L-063"
+      ],
+      "florida_note": "Hurricane season makes portable generators a standing Florida case — and homeowners back-feeding a panel through a dryer receptacle is a lethal, illegal arrangement. Sharma's answer is a listed inlet with an interlock or transfer switch, sized and bonded per the design, every time.",
+      "verified": false,
+      "prev_id": "C2-250.32",
       "next_id": "C2-250.50",
       "sharma_rule_ids": []
     },
@@ -1577,7 +1925,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C2-250.32",
+      "prev_id": "C2-250.34",
       "next_id": "C2-250.52",
       "sharma_rule_ids": []
     },
@@ -1747,6 +2095,28 @@
       "florida_note": "",
       "verified": false,
       "prev_id": "C2-250.104",
+      "next_id": "C2-250.119",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C2-250.119",
+      "chapter": 2,
+      "article": "250",
+      "section": "250.119",
+      "title": "Identifying the equipment grounding conductor",
+      "plain_explanation": "An equipment grounding conductor is identified by its color: continuous green, green with one or more yellow stripes, or bare. For sizes 6 AWG and smaller — and for conductors inside cables — that identification runs the conductor's whole length; a green conductor may not be re-marked into something else at the ends. For sizes larger than 6 AWG, an insulated conductor of another color may be identified as the equipment grounding conductor by green marking at each termination and at every point where the conductor is accessible. The reservation runs in both directions: a white or gray conductor is never an equipment ground, and a green conductor is never used as a current-carrying conductor.",
+      "on_the_job": "In a pull, if the green is missing, the pull is wrong — stop and fix the wire order rather than planning to tape a black conductor green at both ends of a 12 AWG run. Tape-marking is the large-conductor allowance, not a small-wire shortcut.",
+      "sharma_note": "",
+      "figure_idea": "Conductor lineup: green, green with yellow stripe, and bare marked as approved EGC identification; a black 12 AWG with green tape crossed out; the same tape marking at 4/0 by the lug marked approved.",
+      "related_ids": [
+        "C2-250.118",
+        "C2-250.122",
+        "C2-200.7",
+        "C2-Q-036"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C2-250.118",
       "next_id": "C2-250.122",
       "sharma_rule_ids": []
     },
@@ -1770,7 +2140,7 @@
       ],
       "florida_note": "",
       "verified": false,
-      "prev_id": "C2-250.118",
+      "prev_id": "C2-250.119",
       "next_id": "C2-250.140",
       "sharma_rule_ids": [
         "S-10"
@@ -1804,6 +2174,11 @@
       "title": "Grounded conductors — how they are identified",
       "children": [
         {
+          "id": "C2-200.4",
+          "section": "200.4",
+          "title": "The neutral serves its own circuit"
+        },
+        {
           "id": "C2-200.6",
           "section": "200.6",
           "title": "How a grounded conductor is marked"
@@ -1812,6 +2187,11 @@
           "id": "C2-200.7",
           "section": "200.7",
           "title": "What white or gray insulation may be used for"
+        },
+        {
+          "id": "C2-200.10",
+          "section": "200.10 / 200.11",
+          "title": "Terminal identification and polarity"
         }
       ]
     },
@@ -1824,6 +2204,11 @@
           "id": "C2-210.4",
           "section": "210.4",
           "title": "Multiwire branch circuits"
+        },
+        {
+          "id": "C2-210.5",
+          "section": "210.5",
+          "title": "Identifying branch circuits — colors and directories"
         },
         {
           "id": "C2-210.8",
@@ -1906,6 +2291,11 @@
           "title": "Wall spacing in habitable rooms"
         },
         {
+          "id": "C2-210.52(B)",
+          "section": "210.52(B)",
+          "title": "Small-appliance circuits — what they may feed"
+        },
+        {
           "id": "C2-210.52(C)",
           "section": "210.52(C)",
           "title": "Kitchen countertops, islands, and peninsulas"
@@ -1985,6 +2375,16 @@
           "title": "Other loads — receptacles and named loads at their set values"
         },
         {
+          "id": "C2-220.42",
+          "section": "220.42",
+          "title": "Demand factors for the general load — Table 220.42"
+        },
+        {
+          "id": "C2-220.52",
+          "section": "220.52",
+          "title": "Small-appliance and laundry allowances — 1,500 VA each"
+        },
+        {
           "id": "C2-220.53",
           "section": "220.53",
           "title": "Four or more fixed appliances — the 75 percent demand"
@@ -2045,6 +2445,11 @@
           "id": "C2-225.31",
           "section": "225.31",
           "title": "A disconnect at the building being supplied"
+        },
+        {
+          "id": "C2-225.32",
+          "section": "225.32",
+          "title": "Where the separate building's disconnect must be"
         }
       ]
     },
@@ -2062,6 +2467,21 @@
           "id": "C2-230.24",
           "section": "230.24",
           "title": "Overhead service conductors — clearance heights"
+        },
+        {
+          "id": "C2-230.28",
+          "section": "230.28",
+          "title": "Service masts — what may ride on the mast"
+        },
+        {
+          "id": "C2-230.42",
+          "section": "230.42",
+          "title": "Minimum size and rating of service-entrance conductors"
+        },
+        {
+          "id": "C2-230.54",
+          "section": "230.54",
+          "title": "Overhead service connections — attachment and drip loop"
         },
         {
           "id": "C2-230.67",
@@ -2082,6 +2502,11 @@
           "id": "C2-230.79(C)",
           "section": "230.79(C)",
           "title": "Minimum size for a one-family dwelling service"
+        },
+        {
+          "id": "C2-230.82",
+          "section": "230.82",
+          "title": "What may connect ahead of the service disconnect"
         },
         {
           "id": "C2-230.85",
@@ -2124,6 +2549,11 @@
           "id": "C2-240.24",
           "section": "240.24",
           "title": "Where overcurrent devices may be located"
+        },
+        {
+          "id": "C2-240.83",
+          "section": "240.83 / 240.85",
+          "title": "Breaker markings — and the slash-rating trap"
         }
       ]
     },
@@ -2138,6 +2568,16 @@
           "title": "What grounding and bonding must accomplish"
         },
         {
+          "id": "C2-250.8",
+          "section": "250.8",
+          "title": "How grounding and bonding connections are made"
+        },
+        {
+          "id": "C2-250.20",
+          "section": "250.20",
+          "title": "Which AC systems must be grounded"
+        },
+        {
           "id": "C2-250.24",
           "section": "250.24",
           "title": "Grounding at the service — and nowhere downstream"
@@ -2148,9 +2588,19 @@
           "title": "Main and system bonding jumpers"
         },
         {
+          "id": "C2-250.30",
+          "section": "250.30",
+          "title": "Separately derived systems — generators and transformers"
+        },
+        {
           "id": "C2-250.32",
           "section": "250.32",
           "title": "A separate building fed by a feeder"
+        },
+        {
+          "id": "C2-250.34",
+          "section": "250.34",
+          "title": "Portable generators — frame grounding and the neutral bond"
         },
         {
           "id": "C2-250.50",
@@ -2196,6 +2646,11 @@
           "id": "C2-250.118",
           "section": "250.118",
           "title": "Equipment grounding conductors — what counts as one"
+        },
+        {
+          "id": "C2-250.119",
+          "section": "250.119",
+          "title": "Identifying the equipment grounding conductor"
         },
         {
           "id": "C2-250.122",
@@ -2832,6 +3287,132 @@
       "term": "Equipment grounding conductor, types that count (250.118)",
       "ids": [
         "C2-250.118"
+      ]
+    },
+    {
+      "term": "Demand factors, general lighting (Table 220.42)",
+      "ids": [
+        "C2-220.42"
+      ]
+    },
+    {
+      "term": "Laundry load allowance, 1,500 VA",
+      "ids": [
+        "C2-220.52"
+      ]
+    },
+    {
+      "term": "Small-appliance circuits, load allowance",
+      "ids": [
+        "C2-220.52"
+      ]
+    },
+    {
+      "term": "Small-appliance circuits, outlets served",
+      "ids": [
+        "C2-210.52(B)"
+      ]
+    },
+    {
+      "term": "Branch circuits, identification of",
+      "ids": [
+        "C2-210.5"
+      ]
+    },
+    {
+      "term": "Neutral, borrowing from another circuit",
+      "ids": [
+        "C2-200.4"
+      ]
+    },
+    {
+      "term": "Terminals, identified",
+      "ids": [
+        "C2-200.10"
+      ]
+    },
+    {
+      "term": "Polarity, receptacle",
+      "ids": [
+        "C2-200.10"
+      ]
+    },
+    {
+      "term": "Mast, service",
+      "ids": [
+        "C2-230.28"
+      ]
+    },
+    {
+      "term": "Drip loop",
+      "ids": [
+        "C2-230.54"
+      ]
+    },
+    {
+      "term": "Service-entrance conductors, minimum size",
+      "ids": [
+        "C2-230.42"
+      ]
+    },
+    {
+      "term": "Service disconnect, supply-side equipment",
+      "ids": [
+        "C2-230.82"
+      ]
+    },
+    {
+      "term": "Breaker, slash-rated",
+      "ids": [
+        "C2-240.83"
+      ]
+    },
+    {
+      "term": "Grounding connections, permitted methods",
+      "ids": [
+        "C2-250.8"
+      ]
+    },
+    {
+      "term": "Systems required to be grounded",
+      "ids": [
+        "C2-250.20"
+      ]
+    },
+    {
+      "term": "Separately derived system",
+      "ids": [
+        "C2-250.30"
+      ]
+    },
+    {
+      "term": "Bonding jumper, system (separately derived)",
+      "ids": [
+        "C2-250.30"
+      ]
+    },
+    {
+      "term": "Generator, portable",
+      "ids": [
+        "C2-250.34"
+      ]
+    },
+    {
+      "term": "Disconnect, separate building — location",
+      "ids": [
+        "C2-225.32"
+      ]
+    },
+    {
+      "term": "Disconnects, separate building — number and grouping",
+      "ids": [
+        "C2-225.31"
+      ]
+    },
+    {
+      "term": "Grounding conductor, equipment — identification",
+      "ids": [
+        "C2-250.119"
       ]
     }
   ]

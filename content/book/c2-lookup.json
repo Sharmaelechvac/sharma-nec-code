@@ -877,5 +877,204 @@
     "verified": true,
     "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
     "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C2-L-053",
+    "question": "Can I borrow a neutral from a nearby circuit to finish a run?",
+    "aliases": [
+      "borrowed neutral",
+      "shared neutral wrong circuit",
+      "neutral from another circuit"
+    ],
+    "answer_plain": "No. A neutral belongs to the circuit it was run with. The only shared-neutral arrangement the Code builds is the multiwire branch circuit, with its own rules (opposite legs, grouped disconnect, all conductors in the same raceway or cable). A neutral picked up from another circuit leaves current on a conductor that stays live when the borrowed circuit's breaker is off.",
+    "nec_ref": "200.4",
+    "nec_edition": "2020",
+    "tags": [
+      "neutral",
+      "troubleshooting"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-054",
+    "question": "Which terminal does the neutral land on, on a receptacle?",
+    "aliases": [
+      "silver screw neutral",
+      "receptacle polarity terminals",
+      "white wire terminal"
+    ],
+    "answer_plain": "The identified terminal: the silver-colored screw, or a terminal marked WHITE. The hot lands on the brass (dark) screw and the equipment ground on the green screw. On the face, that puts the neutral on the longer slot. White on silver, black on brass, green on green.",
+    "nec_ref": "200.10",
+    "nec_edition": "2020",
+    "tags": [
+      "devices",
+      "polarity"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-055",
+    "question": "What outlets may the two small-appliance circuits feed?",
+    "aliases": [
+      "small appliance circuit outlets",
+      "what can go on kitchen circuits",
+      "210.52(B) outlets"
+    ],
+    "answer_plain": "Only the receptacle outlets in the kitchen, pantry, breakfast room and dining room — plus a receptacle for refrigeration equipment in those rooms. The only other outlets allowed are a clock receptacle and receptacles for supplemental equipment on a gas-fired range, oven or cooktop. No living-room, bathroom, or lighting outlets.",
+    "nec_ref": "210.52(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "kitchen",
+      "branch circuits"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-056",
+    "question": "How does the Table 220.42 demand work on an 18,000 VA general load?",
+    "aliases": [
+      "220.42 worked example",
+      "demand factor math dwelling",
+      "first 3000 VA 35 percent"
+    ],
+    "answer_plain": "First 3,000 VA at 100 percent = 3,000 VA. The remaining 15,000 VA at 35 percent = 5,250 VA. Total demanded general load = 8,250 VA. Above 120,000 VA the rate drops to 25 percent. Appliance, dryer and range demands are figured in their own sections and added after.",
+    "nec_ref": "220.42",
+    "nec_edition": "2020",
+    "tags": [
+      "load calculations",
+      "demand"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-057",
+    "question": "How many volt-amperes do the small-appliance and laundry circuits count for in a standard-method load calculation?",
+    "aliases": [
+      "1500 VA small appliance",
+      "laundry 1500 VA load calc",
+      "220.52 values"
+    ],
+    "answer_plain": "1,500 VA for each 20A small-appliance branch circuit (minimum two, so 3,000 VA) and 1,500 VA for the laundry branch circuit — 4,500 VA minimum into the general load before the Table 220.42 demand factor is applied to the total.",
+    "nec_ref": "220.52",
+    "nec_edition": "2020",
+    "tags": [
+      "load calculations",
+      "kitchen",
+      "laundry"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-058",
+    "question": "How many disconnects may a building supplied by a feeder have?",
+    "aliases": [
+      "six disconnects separate building",
+      "225.33 number of disconnects",
+      "grouped disconnects building"
+    ],
+    "answer_plain": "Up to six switches or circuit breakers, in a single enclosure or a group of separate enclosures, all grouped together at the building. Each disconnect must be marked to show exactly what it disconnects. A seventh handle means the design changes — it is not solved with another can across the room.",
+    "nec_ref": "225.33",
+    "nec_edition": "2020",
+    "tags": [
+      "disconnects",
+      "separate buildings"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-059",
+    "question": "What may be attached to a service mast?",
+    "aliases": [
+      "mast attachments",
+      "what can clamp to service mast",
+      "230.28 mast"
+    ],
+    "answer_plain": "Only the service-drop or service-lateral conductors. No other conductors, no antennas, no unrelated equipment. The mast must carry the drop's strain by its own strength or be braced or guyed, with listed service fittings.",
+    "nec_ref": "230.28",
+    "nec_edition": "2020",
+    "tags": [
+      "services",
+      "overhead"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-060",
+    "question": "What is a drip loop, and where does it go?",
+    "aliases": [
+      "drip loop purpose",
+      "weatherhead loop",
+      "230.54 drip loop"
+    ],
+    "answer_plain": "A loop formed in the service conductors just below the weatherhead: each conductor drops down and back up before entering the head, so rain runs to the bottom of the loop and drips off instead of following the wire into the raceway. The weatherhead sits at or above the point of attachment wherever practicable.",
+    "nec_ref": "230.54",
+    "nec_edition": "2020",
+    "tags": [
+      "services",
+      "overhead"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-061",
+    "question": "What may be connected ahead of (on the line side of) the service disconnect?",
+    "aliases": [
+      "supply side connections",
+      "line side of main",
+      "230.82 list"
+    ],
+    "answer_plain": "A closed list: meter enclosures and meter disconnect switches, current-transformer cabinets, the required surge-protective device, fire pump and legally required standby connections under their own articles, and supply-side interconnections such as solar under Article 705. Anything not on the list connects on the load side.",
+    "nec_ref": "230.82",
+    "nec_edition": "2020",
+    "tags": [
+      "services",
+      "solar"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-062",
+    "question": "Can a 120/240V slash-rated breaker be used on the high leg of a 240V delta panel?",
+    "aliases": [
+      "slash rated breaker high leg",
+      "120/240 breaker 208 to ground",
+      "240.85 slash rating"
+    ],
+    "answer_plain": "No. A slash-rated breaker (120/240V) may be used only where the voltage to ground on every conductor is at or below the lower number — 120V. The high leg sits at about 208V to ground, so it needs a straight-rated (240V) breaker, whatever the amp rating says.",
+    "nec_ref": "240.85",
+    "nec_edition": "2020",
+    "tags": [
+      "breakers",
+      "commercial"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C2-L-063",
+    "question": "Does a generator's neutral always get bonded at the generator?",
+    "aliases": [
+      "generator neutral bond",
+      "switched neutral transfer switch",
+      "separately derived generator"
+    ],
+    "answer_plain": "No — the transfer switch decides. If the switch does not switch the neutral, the generator is usually not separately derived and the neutral stays bonded only at the service. If the switch does switch the neutral, the generator is a separately derived system and gets its system bonding jumper at the generator (or its first disconnect) — one bonding point, never both.",
+    "nec_ref": "250.30",
+    "nec_edition": "2020",
+    "tags": [
+      "generators",
+      "grounding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]
