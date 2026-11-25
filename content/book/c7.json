@@ -12,7 +12,7 @@
       "article": "700",
       "section": "700",
       "title": "Emergency systems — the life-safety tier",
-      "plain_explanation": "Article 700 covers backup power that the law classes as emergency: power for getting people out and keeping them alive, such as egress lighting, exit signs, fire alarm and similar life-safety loads. A governmental agency having jurisdiction decides that a system is emergency; the owner does not get to choose the label. Emergency power has to be there fast, the wiring is kept apart from normal wiring, and the system is tested and documented. If life safety does not depend on it, you are probably in Article 701 or 702 instead.",
+      "plain_explanation": "Article 700 covers backup power that the law classes as emergency: power for getting people out and keeping them alive, such as egress lighting, exit signs, fire alarm and similar life-safety loads. A governmental agency having jurisdiction decides that a system is emergency; the owner does not get to choose the label. Emergency power has to be there fast, the wiring is kept apart from normal wiring, and the system is tested and documented. If life safety does not depend on it, you are probably in Article 701 or 702 instead.\n\nNEC 2023 CHANGE:\n• 700.11: New 700.11 sets wiring rules for emergency lighting run on Class 2 power: mark it, keep it apart from other Class 2 cabling, and protect it from damage. Emergency Class 2 wiring now needs physical protection: raceway, cable tray, Type MC or Type AC cable (700.11(D)).\n• 700.24: Only luminaires that go into emergency mode because an outside control signal tells them to must be emergency listed. A standard fixture fed through a listed emergency control device doesn't. A luminaire that responds to an outside control input and goes to emergency mode when normal power fails must be listed for emergency use.\n• 700.27: New 700.27: a device that feeds Class 2 emergency lighting with both power and control, like a PoE switch, has to carry an emergency lighting control device listing. A device sending Class 2 power and control signals together to emergency lighting must be listed for that job, as an emergency lighting control device.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "First question on any standby job: who required this system, and for what loads? The answer picks the article before you pick any gear.",
       "sharma_note": "",
       "figure_idea": "Original diagram: three stacked tiers labelled Emergency (700), Legally Required (701) and Optional (702), fastest/most protected at the top, with example loads under each tier.",
@@ -27,7 +27,30 @@
       "verified": true,
       "prev_id": null,
       "next_id": "C7-700.3",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "700.11",
+          "change": "New 700.11 sets wiring rules for emergency lighting run on Class 2 power: mark it, keep it apart from other Class 2 cabling, and protect it from damage. Emergency Class 2 wiring now needs physical protection: raceway, cable tray, Type MC or Type AC cable (700.11(D)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 700.11 Class 2 emergency lighting wiring",
+          "url": "https://www.electricalexamcoach.app/changes/2023/700-11",
+          "confirmed": true
+        },
+        {
+          "section": "700.24",
+          "change": "Only luminaires that go into emergency mode because an outside control signal tells them to must be emergency listed. A standard fixture fed through a listed emergency control device doesn't. A luminaire that responds to an outside control input and goes to emergency mode when normal power fails must be listed for emergency use.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 700.24 Directly controlled emergency luminaires",
+          "url": "https://www.electricalexamcoach.app/changes/2023/700-24",
+          "confirmed": true
+        },
+        {
+          "section": "700.27",
+          "change": "New 700.27: a device that feeds Class 2 emergency lighting with both power and control, like a PoE switch, has to carry an emergency lighting control device listing. A device sending Class 2 power and control signals together to emergency lighting must be listed for that job, as an emergency lighting control device.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 700.27 Class 2 emergency lighting control devices",
+          "url": "https://www.electricalexamcoach.app/changes/2023/700-27",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-700.3",
@@ -35,7 +58,7 @@
       "article": "700",
       "section": "700.3",
       "title": "Tests and maintenance — emergency systems",
-      "plain_explanation": "An emergency system is not finished when it is wired. The AHJ conducts or witnesses an acceptance test when the installation is complete, the system is tested periodically on a schedule the AHJ approves, and the equipment is maintained following the manufacturer instructions and industry standards. A written record of tests and maintenance has to be kept.",
+      "plain_explanation": "An emergency system is not finished when it is wired. The AHJ conducts or witnesses an acceptance test when the installation is complete, the system is tested periodically on a schedule the AHJ approves, and the equipment is maintained following the manufacturer instructions and industry standards. A written record of tests and maintenance has to be kept.\n\nNEC 2023 CHANGE:\n• 700.3: Commissioning of the emergency system now has to be done or witnessed by the AHJ, and the hookup point for a temporary generator must be outdoors and fully labeled. The AHJ (authority having jurisdiction) has to commission the whole emergency system, or witness it, at startup and periodically after that (700.3(A)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Leave the owner a test log, not just a working generator. If there is no record, treat the system as unproven at inspection and at every service visit after it.",
       "sharma_note": "",
       "figure_idea": "",
@@ -46,7 +69,16 @@
       "verified": true,
       "prev_id": "C7-ART-700",
       "next_id": "C7-700.4",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "700.3",
+          "change": "Commissioning of the emergency system now has to be done or witnessed by the AHJ, and the hookup point for a temporary generator must be outdoors and fully labeled. The AHJ (authority having jurisdiction) has to commission the whole emergency system, or witness it, at startup and periodically after that (700.3(A)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 700.3 Emergency system commissioning",
+          "url": "https://www.electricalexamcoach.app/changes/2023/700-3",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-700.4",
@@ -54,7 +86,7 @@
       "article": "700",
       "section": "700.4",
       "title": "Capacity and rating — emergency systems",
-      "plain_explanation": "Emergency equipment has to be suitable for the fault current available where it connects. The system also has to have enough capacity for its emergency load, figured under Article 220 or by another method the AHJ approves. There is no user-selects-the-load shortcut here the way there is for a manual optional standby system.",
+      "plain_explanation": "Emergency equipment has to be suitable for the fault current available where it connects. The system also has to have enough capacity for its emergency load, figured under Article 220 or by another method the AHJ approves. There is no user-selects-the-load shortcut here the way there is for a manual optional standby system.\n\nNEC 2023 CHANGE:\n• 700.4: Emergency capacity now has to cover transients and rapid load swings, and new rules spell out when an emergency source can run in parallel with the normal source or other emergency sources. Size the emergency system for all loads that run together, including rapid load swings and transients like motor starting (700.4(A)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Check the fault-current rating on the transfer gear against the service, and do the load calculation before the generator size is promised to anyone.",
       "sharma_note": "",
       "figure_idea": "",
@@ -65,7 +97,16 @@
       "verified": true,
       "prev_id": "C7-700.3",
       "next_id": "C7-700.5",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "700.4",
+          "change": "Emergency capacity now has to cover transients and rapid load swings, and new rules spell out when an emergency source can run in parallel with the normal source or other emergency sources. Size the emergency system for all loads that run together, including rapid load swings and transients like motor starting (700.4(A)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 700.4 Emergency system capacity",
+          "url": "https://www.electricalexamcoach.app/changes/2023/700-4",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-700.5",
@@ -73,7 +114,7 @@
       "article": "700",
       "section": "700.5",
       "title": "Transfer equipment — emergency systems",
-      "plain_explanation": "Emergency transfer equipment has to be automatic, listed and marked for emergency use, and approved by the AHJ. It is built and installed so the emergency source and the other sources cannot be connected together by accident. An automatic transfer switch has to be electrically operated and mechanically held, reconditioned transfer switches are not allowed, the gear may feed only emergency loads, and meter-mounted transfer switches are not permitted for emergency use. The documentation rule of 700.5(E) carries no dwelling exception — unlike 702.5(C) — so the transfer equipment short-circuit rating is field marked on the outside of the gear in dwellings too.",
+      "plain_explanation": "Emergency transfer equipment has to be automatic, listed and marked for emergency use, and approved by the AHJ. It is built and installed so the emergency source and the other sources cannot be connected together by accident. An automatic transfer switch has to be electrically operated and mechanically held, reconditioned transfer switches are not allowed, the gear may feed only emergency loads, and meter-mounted transfer switches are not permitted for emergency use. The documentation rule of 700.5(E) carries no dwelling exception — unlike 702.5(C) — so the transfer equipment short-circuit rating is field marked on the outside of the gear in dwellings too.\n\nNEC 2023 CHANGE:\n• 700.5: When a single feeder carries the emergency loads, redundant transfer equipment or a bypass-isolation transfer switch is now required, so maintenance on the transfer gear doesn't kill emergency power. One feeder supplying the emergency loads now means redundant transfer equipment or a bypass-isolation transfer switch is required (700.5(D)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Read the listing and the marking, not the sales sheet. If the switch is not marked for emergency use, it does not go on a 700 job, however big it is.",
       "sharma_note": "S-02 applies to gear Sharma furnishes: new transfer equipment is Siemens. Listing and emergency marking still govern — brand never replaces either one.",
       "figure_idea": "Original diagram: a utility feed and a generator feed entering one automatic transfer switch, with a mechanical interlock symbol showing the two can never be closed together.",
@@ -87,6 +128,15 @@
       "next_id": "C7-700.7",
       "sharma_rule_ids": [
         "S-02"
+      ],
+      "nec2023_change": [
+        {
+          "section": "700.5",
+          "change": "When a single feeder carries the emergency loads, redundant transfer equipment or a bypass-isolation transfer switch is now required, so maintenance on the transfer gear doesn't kill emergency power. One feeder supplying the emergency loads now means redundant transfer equipment or a bypass-isolation transfer switch is required (700.5(D)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 700.5 Redundant emergency transfer equipment",
+          "url": "https://www.electricalexamcoach.app/changes/2023/700-5",
+          "confirmed": true
+        }
       ]
     },
     {
@@ -103,7 +153,7 @@
         "C7-L-006"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C7-700.5",
       "next_id": "C7-700.8",
       "sharma_rule_ids": []
@@ -123,7 +173,7 @@
         "C7-L-005"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C7-700.7",
       "next_id": "C7-700.10",
       "sharma_rule_ids": []
@@ -153,7 +203,7 @@
       "article": "700",
       "section": "700.12",
       "title": "Sources of power — available in 10 seconds",
-      "plain_explanation": "When the normal supply fails, emergency power has to be available within 10 seconds. The article lists the permitted kinds of sources, from storage batteries and generator sets to a separate service and unit equipment, and it sets conditions for each one. Engine-driven sources carry on-site fuel rules, battery sources carry a minimum run-time duty at close to full voltage, and the equipment has to be located and designed so one fire, flood or act of vandalism is less likely to kill both supplies at once.\n\nTwo numbers carry most of the field weight. A storage battery used as the emergency source has to carry the emergency load for at least 1-1/2 hours without its voltage dropping below 87-1/2 percent of nominal — a battery that fades at 40 minutes is not a 700 source, whatever its amp-hour label says. And the on-site fuel rule for engine-driven sets is part of the source itself: the fuel plan has to be there when the generator is, sized for the run the design requires, not improvised after the outage starts.",
+      "plain_explanation": "When the normal supply fails, emergency power has to be available within 10 seconds. The article lists the permitted kinds of sources, from storage batteries and generator sets to a separate service and unit equipment, and it sets conditions for each one. Engine-driven sources carry on-site fuel rules, battery sources carry a minimum run-time duty at close to full voltage, and the equipment has to be located and designed so one fire, flood or act of vandalism is less likely to kill both supplies at once.\n\nTwo numbers carry most of the field weight. A storage battery used as the emergency source has to carry the emergency load for at least 1-1/2 hours without its voltage dropping below 87-1/2 percent of nominal — a battery that fades at 40 minutes is not a 700 source, whatever its amp-hour label says. And the on-site fuel rule for engine-driven sets is part of the source itself: the fuel plan has to be there when the generator is, sized for the run the design requires, not improvised after the outage starts. an internal-combustion prime mover requires an on-premises fuel supply sufficient for not less than 2 hours of full-demand operation.\n\nNEC 2023 CHANGE:\n• 700.12: The emergency-source microgrid rule now covers any microgrid, not just dc microgrids, and spells out how designated emergency sources must stay protected when other sources fail. Sources set aside for emergency use can now join a microgrid of any type, ac or dc (700.12(G)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "The 10-second clock is the design test. Ask how the source starts, how fast load lands on it, and where its fuel or charge comes from before you argue about brands.\n\nWorked check on the battery duty: a battery string nameplated at 24 V nominal must still be holding at least 21 V (87.5 percent of 24) at the end of a 90-minute full-load run. If the acceptance test did not run the clock and read the voltage, the duty is unproven.",
       "sharma_note": "",
       "figure_idea": "",
@@ -162,10 +212,19 @@
         "C7-Q-001"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C7-700.10",
       "next_id": "C7-700.15",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "700.12",
+          "change": "The emergency-source microgrid rule now covers any microgrid, not just dc microgrids, and spells out how designated emergency sources must stay protected when other sources fail. Sources set aside for emergency use can now join a microgrid of any type, ac or dc (700.12(G)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 700.12 Microgrids as emergency sources",
+          "url": "https://www.electricalexamcoach.app/changes/2023/700-12",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-700.15",
@@ -211,7 +270,7 @@
       "article": "700",
       "section": "700.32",
       "title": "Selective coordination — emergency systems",
-      "plain_explanation": "Emergency system overcurrent devices have to selectively coordinate with every supply-side overcurrent device, so a fault on one emergency branch opens only the device that should open instead of darkening the whole system. The coordination is designed by a qualified person and the documentation has to be available to the people who design, install, inspect, maintain and operate the system.",
+      "plain_explanation": "Emergency system overcurrent devices have to selectively coordinate with every supply-side overcurrent device, so a fault on one emergency branch opens only the device that should open instead of darkening the whole system. The coordination is designed by a qualified person and the documentation has to be available to the people who design, install, inspect, maintain and operate the system.\n\nNEC 2023 CHANGE:\n• 700.32: Selective coordination on emergency systems now has to be rechecked after any overcurrent device replacement and after any change to the system. New 700.32(B): replace an emergency overcurrent device and coordination has to be reevaluated.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "This is an engineering deliverable, not a field guess. Get the coordination study and keep it with the job record before the gear is released.",
       "sharma_note": "",
       "figure_idea": "",
@@ -222,7 +281,16 @@
       "verified": true,
       "prev_id": "C7-700.16",
       "next_id": "C7-ART-701",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "700.32",
+          "change": "Selective coordination on emergency systems now has to be rechecked after any overcurrent device replacement and after any change to the system. New 700.32(B): replace an emergency overcurrent device and coordination has to be reevaluated.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 700.32 Emergency selective coordination",
+          "url": "https://www.electricalexamcoach.app/changes/2023/700-32",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-ART-701",
@@ -230,7 +298,7 @@
       "article": "701",
       "section": "701",
       "title": "Legally required standby systems — the middle tier",
-      "plain_explanation": "Article 701 covers standby power that a law, code or AHJ requires, but that is not classed as emergency. These systems back up loads that aid firefighting and rescue, control health hazards, or keep ventilation, smoke removal, sewage, communications and similar loads running so an emergency does not get worse. They sit below Article 700 in priority: a 700 load always outranks a 701 load on a shared source. If nobody with authority required the system, it is not 701 — it is optional standby under 702.",
+      "plain_explanation": "Article 701 covers standby power that a law, code or AHJ requires, but that is not classed as emergency. These systems back up loads that aid firefighting and rescue, control health hazards, or keep ventilation, smoke removal, sewage, communications and similar loads running so an emergency does not get worse. They sit below Article 700 in priority: a 700 load always outranks a 701 load on a shared source. If nobody with authority required the system, it is not 701 — it is optional standby under 702.\n\nNEC 2023 CHANGE:\n• 701.4(C): Made modifications to the tide of Section 701.4(C), which now simply addresses load management requirements\n• 701.4(D): Added language that now identifies the two different types of parallel operation, normal and alternate sources, of legally required systems in new Section 701.4(D).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "The tell is paperwork: a code citation, a permit condition or an AHJ direction requiring standby power for named loads. No requirement, no 701.",
       "sharma_note": "",
       "figure_idea": "",
@@ -243,7 +311,23 @@
       "verified": true,
       "prev_id": "C7-700.32",
       "next_id": "C7-701.5",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "701.4(C)",
+          "change": "Made modifications to the tide of Section 701.4(C), which now simply addresses load management requirements",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 701.4{C) Load Management",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "701.4(D)",
+          "change": "Added language that now identifies the two different types of parallel operation, normal and alternate sources, of legally required systems in new Section 701.4(D).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 701.4{0) Parallel Operation",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-701.5",
@@ -273,7 +357,7 @@
       "article": "701",
       "section": "701.10",
       "title": "Wiring — legally required standby may share raceways",
-      "plain_explanation": "Unlike emergency wiring, legally required standby wiring is allowed to run in the same raceways, boxes and cabinets as general wiring. The strict separation duty belongs to Article 700, and importing it into a 701 job — or forgetting it on a 700 job — are both mistakes.",
+      "plain_explanation": "Unlike emergency wiring, legally required standby wiring is allowed to run in the same raceways, boxes and cabinets as general wiring. The strict separation duty belongs to Article 700, and importing it into a 701 job — or forgetting it on a 700 job — are both mistakes.\n\nNEC 2023 CHANGE:\n• 701.10: Added a new first-level subdivision (B) and new figure informational notes concerning wiring requirements for legally required standby systems to Section 701.10\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Know which article the job is under before you decide how to run the raceways. The wiring method follows the classification, not habit.",
       "sharma_note": "",
       "figure_idea": "",
@@ -284,7 +368,16 @@
       "verified": true,
       "prev_id": "C7-701.5",
       "next_id": "C7-701.12",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "701.10",
+          "change": "Added a new first-level subdivision (B) and new figure informational notes concerning wiring requirements for legally required standby systems to Section 701.10",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 701.10 Wiring Legally Required Standby Systems",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-701.12",
@@ -292,7 +385,7 @@
       "article": "701",
       "section": "701.12",
       "title": "Sources of power — available in 60 seconds",
-      "plain_explanation": "Legally required standby power has to be available within 60 seconds of the normal supply failing — slower than the 10 seconds of Article 700, far faster than a portable generator someone drags out of a garage. The article lists the permitted source types and their conditions, including on-site fuel for engine-driven sources and battery duty where batteries are the source. One source may also carry optional loads only where capacity is truly there, or where automatic pickup and shedding protect the legally required loads first.\n\nThe battery duty mirrors the emergency tier: a storage battery source has to supply and maintain the legally required load for at least 1-1/2 hours without the voltage falling below 87-1/2 percent of nominal. Note that this chapter asks two different questions of a battery system — the 60-second availability clock above, and the 90-minute endurance duty here — and a system can pass one and fail the other.",
+      "plain_explanation": "Legally required standby power has to be available within 60 seconds of the normal supply failing — slower than the 10 seconds of Article 700, far faster than a portable generator someone drags out of a garage. The article lists the permitted source types and their conditions, including on-site fuel for engine-driven sources and battery duty where batteries are the source. One source may also carry optional loads only where capacity is truly there, or where automatic pickup and shedding protect the legally required loads first.\n\nThe battery duty mirrors the emergency tier: a storage battery source has to supply and maintain the legally required load for at least 1-1/2 hours without the voltage falling below 87-1/2 percent of nominal. Note that this chapter asks two different questions of a battery system — the 60-second availability clock above, and the 90-minute endurance duty here — and a system can pass one and fail the other.\n\nNEC 2023 CHANGE:\n• 701.12(C): Added an informational note at Section 701.12(C) to reference classification information for emergency power supply systems (EPSS) used with legally required standby systems.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Design to the 60-second clock and to load priority. If optional loads can starve a 701 load, the design is wrong even if the generator starts on time.",
       "sharma_note": "",
       "figure_idea": "",
@@ -301,10 +394,19 @@
         "C7-Q-002"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C7-701.10",
       "next_id": "C7-701.32",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "701.12(C)",
+          "change": "Added an informational note at Section 701.12(C) to reference classification information for emergency power supply systems (EPSS) used with legally required standby systems.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 701.12{C) Supply Duration",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-701.32",
@@ -557,7 +659,7 @@
       "article": "702",
       "section": "702.7",
       "title": "Signs — standby sources, and the power inlet sign",
-      "plain_explanation": "Signs close the loop that transfer equipment starts. At service equipment, a sign identifies the type and location of each on-site optional standby source — for a house, the sign sits at the 230.85 emergency disconnect and points to the permanently installed standby source disconnect or the means to shut down the prime mover. Where a power inlet is used for a portable generator, a sign at the inlet states which kind of generator system may be connected there: a separately derived (bonded neutral) system only, or a nonseparately derived (floating neutral) system only.",
+      "plain_explanation": "Signs close the loop that transfer equipment starts. At service equipment, a sign identifies the type and location of each on-site optional standby source — for a house, the sign sits at the 230.85 emergency disconnect and points to the permanently installed standby source disconnect or the means to shut down the prime mover. Where a power inlet is used for a portable generator, a sign at the inlet states which kind of generator system may be connected there: a separately derived (bonded neutral) system only, or a nonseparately derived (floating neutral) system only.\n\nNEC 2023 CHANGE:\n• 702.7: Every building except a one- or two-family dwelling now needs the standby source sign at its service, not just commercial and industrial sites. Homes still get theirs at the outdoor emergency disconnect. Every building except a one- or two-family dwelling, apartments included, now gets the sign at the service equipment. In 2020, only commercial and industrial did.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Two different signs, two different jobs: the service sign says where the source is; the inlet sign says what kind of neutral arrangement the inlet accepts. Check the generator's neutral bonding before you letter the inlet sign.",
       "sharma_note": "",
       "figure_idea": "",
@@ -573,7 +675,16 @@
       "verified": true,
       "prev_id": "C7-702.5(E)",
       "next_id": "C7-702.10",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "702.7",
+          "change": "Every building except a one- or two-family dwelling now needs the standby source sign at its service, not just commercial and industrial sites. Homes still get theirs at the outdoor emergency disconnect. Every building except a one- or two-family dwelling, apartments included, now gets the sign at the service equipment. In 2020, only commercial and industrial did.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 702.7 Standby source signs",
+          "url": "https://www.electricalexamcoach.app/changes/2023/702-7",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-702.10",
@@ -614,7 +725,9 @@
       "sharma_rule_ids": [],
       "verified": false,
       "prev_id": "C7-702.10",
-      "next_id": "C7-702.12"
+      "next_id": "C7-702.12",
+      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Make the disconnect relief exact: \"702.11(B): a portable generator rated 15 kW or less, connected through a flanged inlet or other cord-and-plug connection, does not need an additional disconnecting means where its ungrounded conductors serve or pass through a building. 702.11(A): permanently installed generators and portable generators over 15 kW need a readily accessible disconnect per 445.18, within sight of the building, for that relief.\" Keep the 702.12(C) inlet note, the backfeed warning and the neutral-bonding guidance.",
+      "recheck_correction": "Make the disconnect relief exact: \"702.11(B): a portable generator rated 15 kW or less, connected through a flanged inlet or other cord-and-plug connection, does not need an additional disconnecting means where its ungrounded conductors serve or pass through a building. 702.11(A): permanently installed generators and portable generators over 15 kW need a readily accessible disconnect per 445.18, within sight of the building, for that relief.\" Keep the 702.12(C) inlet note, the backfeed warning and the neutral-bonding guidance."
     },
     {
       "id": "C7-702.12",
@@ -664,7 +777,7 @@
       "article": "705",
       "section": "705",
       "title": "Interconnected electric power production sources",
-      "plain_explanation": "Article 705 governs sources that operate in parallel with another source — most often a solar inverter, storage system or generator tied to a live utility service. It answers three practical questions: where may the source connect, how much current may the connection and the busbar carry, and how does everyone after you know the extra source exists. Connections land on the supply side under 705.11 or the load side under 705.12, and a power control system under 705.13 can change the math. Article 690 in Chapter 6 governs the solar array itself; this article governs its handshake with the premises wiring.",
+      "plain_explanation": "Article 705 governs sources that operate in parallel with another source — most often a solar inverter, storage system or generator tied to a live utility service. It answers three practical questions: where may the source connect, how much current may the connection and the busbar carry, and how does everyone after you know the extra source exists. Connections land on the supply side under 705.11 or the load side under 705.12, and a power control system under 705.13 can change the math. Article 690 in Chapter 6 governs the solar array itself; this article governs its handshake with the premises wiring.\n\nNEC 2023 CHANGE:\n• 705.50: The language describing the operational modes of a Microgrid in Section 705.50 was rewritten to clearly state that a microgrid can operate in parallel with other systems or in island mode.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Decide supply side or load side on paper first. The choice drives the overcurrent protection, the busbar math and the labels, in that order.",
       "sharma_note": "",
       "figure_idea": "Original diagram: a service panel in the middle, utility entering from the top, a solar inverter entering through a breaker at the far end of the bus, and a second sketch showing a supply-side tap ahead of the main.",
@@ -679,7 +792,16 @@
       "verified": true,
       "prev_id": "C7-702.12(C)",
       "next_id": "C7-705.10",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "705.50",
+          "change": "The language describing the operational modes of a Microgrid in Section 705.50 was rewritten to clearly state that a microgrid can operate in parallel with other systems or in island mode.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 705.50 System Operation",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-705.10",
@@ -707,7 +829,7 @@
       "article": "705",
       "section": "705.11",
       "title": "Supply-side source connections",
-      "plain_explanation": "A source may connect on the supply side of the service disconnect, at the points the service rules allow, under its own set of conditions for conductor sizing, overcurrent protection and grounding. A supply-side connection steps around the panelboard busbar limits entirely, which is why it is the escape route when the 120 percent math in 705.12 will not close. It trades that freedom for service-level work: the connection is ahead of the main, so its protection and its disconnecting means have to be planned like service equipment.",
+      "plain_explanation": "A source may connect on the supply side of the service disconnect, at the points the service rules allow, under its own set of conditions for conductor sizing, overcurrent protection and grounding. A supply-side connection steps around the panelboard busbar limits entirely, which is why it is the escape route when the 120 percent math in 705.12 will not close. It trades that freedom for service-level work: the connection is ahead of the main, so its protection and its disconnecting means have to be planned like service equipment.\n\nNEC 2023 CHANGE:\n• 705.11: Conductors from a supply-side tie-in to a power source's disconnect are now service conductors, so the Article 230 and 250 service rules govern them. The 2020 inside-building length limits dropped out. Conductors from the tie-in to the power source's disconnect are service conductors now, and that disconnect is a service disconnect located like one (230.70(A)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Price a supply-side tap as service work, with utility coordination, not as 'one more breaker.' If the busbar math fails, compare this route honestly against derating the main.",
       "sharma_note": "",
       "figure_idea": "",
@@ -718,7 +840,16 @@
       "verified": true,
       "prev_id": "C7-705.10",
       "next_id": "C7-705.12",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "705.11",
+          "change": "Conductors from a supply-side tie-in to a power source's disconnect are now service conductors, so the Article 230 and 250 service rules govern them. The 2020 inside-building length limits dropped out. Conductors from the tie-in to the power source's disconnect are service conductors now, and that disconnect is a service disconnect located like one (230.70(A)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 705.11 Supply-side connections to a service",
+          "url": "https://www.electricalexamcoach.app/changes/2023/705-11",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-705.12",
@@ -858,7 +989,7 @@
       "article": "705",
       "section": "705.13",
       "title": "Power control systems — a listed controller can limit the current",
-      "plain_explanation": "New in the 2020 code, this section recognizes a power control system: listed equipment that monitors and limits how much current a source puts onto conductors and busbars. Where one is installed, its controller setting is treated as the source output current for the 705.11 and 705.12 calculations, so a system set to a lower limit can fit a panel the raw inverter rating could not. The section also guards the settings themselves, because the whole method stands on the setting staying where it was set.",
+      "plain_explanation": "New in the 2020 code, this section recognizes a power control system: listed equipment that monitors and limits how much current a source puts onto conductors and busbars. Where one is installed, its controller setting is treated as the source output current for the 705.11 and 705.12 calculations, so a system set to a lower limit can fit a panel the raw inverter rating could not. The section also guards the settings themselves, because the whole method stands on the setting staying where it was set.\n\nNEC 2023 CHANGE:\n• 705.13: Most of the requirements that were located in Section 705.13 have been deleted byCMP-4.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Record the controller setting in the job file and on the labels the design calls for. If nobody wrote the setting down, nobody can prove the method later.",
       "sharma_note": "",
       "figure_idea": "",
@@ -870,7 +1001,16 @@
       "verified": true,
       "prev_id": "C7-705.12(B)(3)(4)",
       "next_id": "C7-705.20",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "705.13",
+          "change": "Most of the requirements that were located in Section 705.13 have been deleted byCMP-4.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 705.13 Energy Management Systems (EMS}",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-705.20",
@@ -878,7 +1018,7 @@
       "article": "705",
       "section": "705.20",
       "title": "Disconnecting means for sources",
-      "plain_explanation": "Every interconnected source needs a disconnecting means that meets this section, which in 2020 gathered the source disconnect rules into one place. The disconnect has to separate the source from the conductors of the other systems, and where a disconnect that unqualified people can reach would expose live parts when open, it has to be locked or need a tool to open. A source that can energize a panel from the far end is exactly the surprise this section exists to remove.",
+      "plain_explanation": "Every interconnected source needs a disconnecting means that meets this section, which in 2020 gathered the source disconnect rules into one place. The disconnect has to separate the source from the conductors of the other systems, and where a disconnect that unqualified people can reach would expose live parts when open, it has to be locked or need a tool to open. A source that can energize a panel from the far end is exactly the surprise this section exists to remove.\n\nNEC 2023 CHANGE:\n• 705.20: The requirement for enclosure covers in Section 705.20 requiring a tool to open or be locked has been deleted.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Land the disconnect where the 705.10 directory says it is, and check the open-position condition: terminals that stay live get the warning the equipment rules call for.",
       "sharma_note": "",
       "figure_idea": "",
@@ -889,7 +1029,16 @@
       "verified": true,
       "prev_id": "C7-705.13",
       "next_id": "C7-705.30",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "705.20",
+          "change": "The requirement for enclosure covers in Section 705.20 requiring a tool to open or be locked has been deleted.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 705.20 Source Disconnecting Means",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-705.30",
@@ -897,7 +1046,7 @@
       "article": "705",
       "section": "705.30",
       "title": "Overcurrent protection — interconnected sources",
-      "plain_explanation": "Conductors and equipment on an interconnected system get overcurrent protection under this section, working with the circuit-current sizing earlier in the article and with Article 240. A conductor fed from both ends can be overcurrented from either direction, so protection is planned for the source output the same way it is planned for a utility feed. Device ratings follow the calculated source currents, with the continuous-output factor built in.",
+      "plain_explanation": "Conductors and equipment on an interconnected system get overcurrent protection under this section, working with the circuit-current sizing earlier in the article and with Article 240. A conductor fed from both ends can be overcurrented from either direction, so protection is planned for the source output the same way it is planned for a utility feed. Device ratings follow the calculated source currents, with the continuous-output factor built in.\n\nNEC 2023 CHANGE:\n• 705.30(F): New language has been added at Section 705.30(F) to address transformer requirements for interconnected systems. The revised language now correlates with the transformer installation rules of Articles 240, 450, and the transformer product safery standard.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Size the source output conductors and their protection from the inverter's rated output on the nameplate, not from what the array produced on a cloudy site visit.",
       "sharma_note": "",
       "figure_idea": "",
@@ -908,7 +1057,16 @@
       "verified": true,
       "prev_id": "C7-705.20",
       "next_id": "C7-705.40",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "705.30(F)",
+          "change": "New language has been added at Section 705.30(F) to address transformer requirements for interconnected systems. The revised language now correlates with the transformer installation rules of Articles 240, 450, and the transformer product safery standard.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 705.30(F) Transformers",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-705.40",
@@ -959,7 +1117,7 @@
       "article": "706",
       "section": "706.7",
       "title": "Commissioning and maintenance — energy storage",
-      "plain_explanation": "Away from one- and two-family dwellings, an energy storage system is commissioned when it is installed, and every system is kept maintained in proper and safe operating condition following the manufacturer instructions and industry standards. Storage is not fit-and-forget equipment: connections, ventilation, controls and firmware all age.",
+      "plain_explanation": "Away from one- and two-family dwellings, an energy storage system is commissioned when it is installed, and every system is kept maintained in proper and safe operating condition following the manufacturer instructions and industry standards. Storage is not fit-and-forget equipment: connections, ventilation, controls and firmware all age.\n\nNEC 2023 CHANGE:\n• 706.7: Revised the existing text, adding commissioning requirements for energy storage systems in a new subdivision (A). The existing requirements for maintenance of these systems were moved into the new (B).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Hand over the commissioning record and the maintenance instructions with the job. If the owner cannot say who maintains the system, that conversation happens at sale, not at the first fault.",
       "sharma_note": "",
       "figure_idea": "",
@@ -970,7 +1128,16 @@
       "verified": true,
       "prev_id": "C7-ART-706",
       "next_id": "C7-706.15",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "706.7",
+          "change": "Revised the existing text, adding commissioning requirements for energy storage systems in a new subdivision (A). The existing requirements for maintenance of these systems were moved into the new (B).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 706.7 Commissioning and Maintenance (Energy Storage Systems}",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-706.15",
@@ -978,7 +1145,7 @@
       "article": "706",
       "section": "706.15",
       "title": "Disconnecting means — energy storage systems",
-      "plain_explanation": "A disconnecting means has to separate the storage system from the other power sources, the utilization equipment and the premises wiring, and integral disconnects in listed equipment can do that job. The disconnect is readily accessible, at the system or within sight of it, it plainly shows whether it is open or closed, and it is permanently marked as the energy storage system disconnect, with the system's nominal ac voltage, maximum dc voltage and available fault current marked where the section requires them. For a house, the disconnect or its remote control sits at a readily accessible spot outside the building, where responders can reach it. The marking package in 706.15 also calls for an arc-flash warning label, and where the label is based on an arc-flash hazard analysis it carries the date that analysis was performed. Items (2), (3) and (4) of that marking list are waived for energy storage systems in one- and two-family dwellings.",
+      "plain_explanation": "A disconnecting means has to separate the storage system from the other power sources, the utilization equipment and the premises wiring, and integral disconnects in listed equipment can do that job. The disconnect is readily accessible, at the system or within sight of it, it plainly shows whether it is open or closed, and it is permanently marked as the energy storage system disconnect, with the system's nominal ac voltage, maximum dc voltage and available fault current marked where the section requires them. For a house, the disconnect or its remote control sits at a readily accessible spot outside the building, where responders can reach it. The marking package in 706.15 also calls for an arc-flash warning label, and where the label is based on an arc-flash hazard analysis it carries the date that analysis was performed. Items (2), (3) and (4) of that marking list are waived for energy storage systems in one- and two-family dwellings.\n\nNEC 2023 CHANGE:\n• 706.15: A field-serviceable battery installed apart from its energy storage system (ESS) electronics now gets a dedicated disconnect within sight, string breaks above 240 volts and a hazard label. A field-serviceable battery located away from its ESS electronics now needs a readily accessible disconnect, within sight of the battery, opening every ungrounded conductor (706.15(E)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Mark it, then stand at the service and ask: could a responder who has never seen this house find and open this disconnect? If not, the install is not finished.",
       "sharma_note": "",
       "figure_idea": "",
@@ -990,7 +1157,16 @@
       "verified": true,
       "prev_id": "C7-706.7",
       "next_id": "C7-706.30",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "706.15",
+          "change": "A field-serviceable battery installed apart from its energy storage system (ESS) electronics now gets a dedicated disconnect within sight, string breaks above 240 volts and a hazard label. A field-serviceable battery located away from its ESS electronics now needs a readily accessible disconnect, within sight of the battery, opening every ungrounded conductor (706.15(E)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 706.15 Battery disconnects for ESS",
+          "url": "https://www.electricalexamcoach.app/changes/2023/706-15",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-706.30",
@@ -1017,7 +1193,7 @@
       "article": "708",
       "section": "708",
       "title": "Critical operations power systems (COPS)",
-      "plain_explanation": "Article 708 covers power systems for facilities an AHJ or governmental authority has designated as critical operations areas — places like certain 911 and emergency operations centers, critical infrastructure and national-security functions, where losing power is a public-safety event, not an inconvenience. The article layers extra reliability, testing, documentation and risk-assessment duties on top of the standby ideas in Articles 700 to 702. Sharma's residential and light-commercial work will rarely be designated COPS, and the practical skill is recognizing the designation on the rare job that carries it.",
+      "plain_explanation": "Article 708 covers power systems for facilities an AHJ or governmental authority has designated as critical operations areas — places like certain 911 and emergency operations centers, critical infrastructure and national-security functions, where losing power is a public-safety event, not an inconvenience. The article layers extra reliability, testing, documentation and risk-assessment duties on top of the standby ideas in Articles 700 to 702. Sharma's residential and light-commercial work will rarely be designated COPS, and the practical skill is recognizing the designation on the rare job that carries it.\n\nNEC 2023 CHANGE:\n• 708.24: Added new requirements for the separation of Class 2 circuits designated as emergency or nonemergency circuits in Section 700.1l(C).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If the drawings or the owner say 'critical operations,' stop and confirm the designation and who designated it. A big generator alone does not make a job a 708 job.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1028,7 +1204,16 @@
       "verified": true,
       "prev_id": "C7-706.30",
       "next_id": "C7-ART-710",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "708.24",
+          "change": "Added new requirements for the separation of Class 2 circuits designated as emergency or nonemergency circuits in Section 700.1l(C).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 708.24. New subdivision (D) describes the functionality needed when a single feeder supplies",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-ART-710",
@@ -1153,7 +1338,7 @@
       "article": "722",
       "section": "722",
       "title": "Article 722 — not in the 2020 code (a 2023 number)",
-      "plain_explanation": "There is no Article 722 in NEC 2020. The number was first used in the 2023 edition, where a new Article 722 gathers the cable rules for power-limited circuits that the 2020 book spreads across Articles 725, 760 and 770. Florida work under the Florida Building Code 8th Edition is NEC 2020, so a 2023 study book, app or exam sheet that sends you to 722 is pointing at a page this code does not have. In the 2020 book, the cable types, listing and substitution rules for Class 2 and Class 3 circuits live inside Article 725, the power-limited fire alarm cable rules live inside Article 760, and the optical fiber cable rules live in Article 770.",
+      "plain_explanation": "There is no Article 722 in NEC 2020. The number was first used in the 2023 edition, where a new Article 722 gathers the cable rules for power-limited circuits that the 2020 book spreads across Articles 725, 760 and 770. Florida work under the Florida Building Code 8th Edition (permits applied for through Dec 30, 2026) is NEC 2020, so a 2023 study book, app or exam sheet that sends you to 722 is pointing at a page this code does not have. In the 2020 book, the cable types, listing and substitution rules for Class 2 and Class 3 circuits live inside Article 725, the power-limited fire alarm cable rules live inside Article 760, and the optical fiber cable rules live in Article 770.\n\nNEC 2023 CHANGE:\n• Article 722: A new Article 722 was created for the general requirements for cables used with power-limited circuits and fault-managed power (Class 4) circuits installations.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If a plan note or a supplier sheet cites 722 on a Florida job, translate it back: a Class 2 or Class 3 cable question goes to 725, a fire alarm cable question goes to 760, and a fiber question goes to 770. Then flag the citation to the lead, because the rest of that document may be written to the wrong edition too.",
       "sharma_note": "",
       "figure_idea": "A road-sign style figure: '722' on a sign marked '2023', with three arrows back to 725, 760 and 770 labelled '2020 — this book'.",
@@ -1162,11 +1347,20 @@
         "C7-ART-760",
         "C7-ART-770"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not adopted in Florida, so its new Article 722 has no standing on a Florida job.",
-      "verified": false,
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. Article 722 has no standing on a Florida permit applied for through Dec 30, 2026 (NEC 2020); it applies under the FBC 9th Ed. (NEC 2023) to permits applied for on or after Dec 31, 2026.",
+      "verified": true,
       "prev_id": "C7-ART-720",
       "next_id": "C7-ART-725",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "Article 722",
+          "change": "A new Article 722 was created for the general requirements for cables used with power-limited circuits and fault-managed power (Class 4) circuits installations.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: Article 722 Cables for Power-Limited Circuits, Fault-Managed Power (Class 4) Circuits",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-ART-725",
@@ -1174,7 +1368,7 @@
       "article": "725",
       "section": "725",
       "title": "Class 1, Class 2 and Class 3 circuits — controls and signaling",
-      "plain_explanation": "Article 725 sorts remote-control, signaling and power-limited circuits into three classes, and the class comes from the power source, not from the wire in your hand. Class 1 circuits can carry serious energy and are wired much like power circuits. Class 2 circuits are limited so strictly that they are treated as safe from both shock and fire initiation — the thermostat, the doorbell, most controls. Class 3 circuits allow more voltage and power than Class 2, stay limited against fire, and need added protection against shock. The relaxed wiring methods in this article are earned by the listed power source; change the source and you may have changed the class.",
+      "plain_explanation": "Article 725 sorts remote-control, signaling and power-limited circuits into three classes, and the class comes from the power source, not from the wire in your hand. Class 1 circuits can carry serious energy and are wired much like power circuits. Class 2 circuits are limited so strictly that they are treated as safe from both shock and fire initiation — the thermostat, the doorbell, most controls. Class 3 circuits allow more voltage and power than Class 2, stay limited against fire, and need added protection against shock. The relaxed wiring methods in this article are earned by the listed power source; change the source and you may have changed the class.\n\nNEC 2023 CHANGE:\n• 724/726: Article 725 was split: Class 1 power-limited circuits moved to new Article 724; Article 725 keeps Class 2 and Class 3; new Article 726 covers Class 4 fault-managed power systems; cable rules moved to new Article 722.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On every controls job, find the power source and read its label before you choose a cable. No listed Class 2 source, no Class 2 wiring methods.",
       "sharma_note": "",
       "figure_idea": "Original diagram: three source boxes labelled Class 1, Class 2 and Class 3 feeding the same thermostat sketch, with the Class 2 box highlighted and the words 'the source makes the class' underneath.",
@@ -1189,7 +1383,16 @@
       "verified": true,
       "prev_id": "C7-ART-722",
       "next_id": "C7-725.2",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "724/726",
+          "change": "Article 725 was split: Class 1 power-limited circuits moved to new Article 724; Article 725 keeps Class 2 and Class 3; new Article 726 covers Class 4 fault-managed power systems; cable rules moved to new Article 722.",
+          "source": "ICC 2023 NEC Changes Educode (items 384-389); Utah DOPL objectives",
+          "url": "https://www.iccsafe.org/wp-content/uploads/Session-10-and-40-2023-NEC-Changes.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-725.2",
@@ -1301,7 +1504,7 @@
       "article": "725",
       "section": "725.144",
       "title": "Power and data in the same cable — 725.144 and PoE heating",
-      "plain_explanation": "When a Class 2 cable carries power and data together — Power over Ethernet feeding cameras, access points, and lighting — every powered pair adds heat to the bundle, and a big bundle of powered cables runs hotter than the same bundle carrying data alone. 725.144 answers with ampacity limits for the conductors of Class 2 cables used to transmit power: the permitted current depends on the conductor size, the cable's temperature rating, and how many cables are bundled together. Type LP (limited power) cables carry their permitted ampacity in the cable marking, which takes the bundle question out of the table and puts it on the jacket. A cable that is fine for data is not automatically fine as a power-delivery cable in a full bundle.",
+      "plain_explanation": "When a Class 2 cable carries power and data together — Power over Ethernet feeding cameras, access points, and lighting — every powered pair adds heat to the bundle, and a big bundle of powered cables runs hotter than the same bundle carrying data alone. 725.144 answers with ampacity limits for the conductors of Class 2 cables used to transmit power: the permitted current depends on the conductor size, the cable's temperature rating, and how many cables are bundled together. Type LP (limited power) cables carry their permitted ampacity in the cable marking, which takes the bundle question out of the table and puts it on the jacket. A cable that is fine for data is not automatically fine as a power-delivery cable in a full bundle.\n\nNEC 2023 CHANGE:\n• 725.144: Removed the words \"4-Pair\" from the title of Section 725.144 and added it to the title subdivision (A), where it was applicable to the types of cables discussed\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Sixty PoE drops home-run in one bundle to a rack: that bundle is a heating problem, not just a pulling problem. Split bundles, respect the LP marking where LP cable is specified, and do not promise a powered-device count the cable plant cannot carry cool.",
       "sharma_note": "",
       "florida_note": "",
@@ -1312,9 +1515,18 @@
         "C7-L-058"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C7-725.136(I)",
-      "next_id": "C7-ART-727"
+      "next_id": "C7-ART-727",
+      "nec2023_change": [
+        {
+          "section": "725.144",
+          "change": "Removed the words \"4-Pair\" from the title of Section 725.144 and added it to the title subdivision (A), where it was applicable to the types of cables discussed",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 725.144 Bundling of Cables Transmitting Power and Data",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-ART-727",
@@ -1322,7 +1534,7 @@
       "article": "727",
       "section": "727",
       "title": "Instrumentation tray cable — Type ITC",
-      "plain_explanation": "Article 727 covers instrumentation tray cable, the factory assembly of insulated conductors in a flame-retardant jacket used for instrumentation and control circuits in tray, largely in industrial work. Sharma's residential and light-commercial crews will meet it rarely, if ever, but the article sits between 725 and 728 in the printed book and the reader should know what the cable is when a commercial plan calls it out. It is not a substitute for a Class 2 cable job, and its permitted uses follow its own article.",
+      "plain_explanation": "Article 727 covers instrumentation tray cable, the factory assembly of insulated conductors in a flame-retardant jacket used for instrumentation and control circuits in tray, largely in industrial work. Sharma's residential and light-commercial crews will meet it rarely, if ever, but the article sits between 725 and 728 in the printed book and the reader should know what the cable is when a commercial plan calls it out. It is not a substitute for a Class 2 cable job, and its permitted uses follow its own article.\n\nNEC 2023 CHANGE:\n• 335: Instrumentation tray cable (Type ITC) moved from Article 727 to new Article 335.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If a plan specifies ITC, price and order it as its own wiring method. Do not value-engineer it into thermostat wire.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1331,7 +1543,16 @@
       "verified": true,
       "prev_id": "C7-725.144",
       "next_id": "C7-ART-728",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "335",
+          "change": "Instrumentation tray cable (Type ITC) moved from Article 727 to new Article 335.",
+          "source": "Utah DOPL 2023 NEC objectives; Daily Reporter 2023 NEC changes",
+          "url": "https://dailyreporter.com/2023/01/13/changes-to-the-2023-national-electric-code-2/",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-ART-728",
@@ -1356,7 +1577,7 @@
       "article": "750",
       "section": "750",
       "title": "Energy management systems",
-      "plain_explanation": "Article 750 covers energy management systems: equipment that monitors and controls how a building uses energy, including the load-management systems that Articles 702 and 705 lean on when a generator or a panel is deliberately run below its unmanaged peak. The article's guardrail is that managing energy never means defeating safety: controls may shed, schedule and limit loads within their listings, and the overcurrent and disconnect rules of the rest of the book still stand behind them.",
+      "plain_explanation": "Article 750 covers energy management systems: equipment that monitors and controls how a building uses energy, including the load-management systems that Articles 702 and 705 lean on when a generator or a panel is deliberately run below its unmanaged peak. The article's guardrail is that managing energy never means defeating safety: controls may shed, schedule and limit loads within their listings, and the overcurrent and disconnect rules of the rest of the book still stand behind them.\n\nNEC 2023 CHANGE:\n• 750.30: An energy management system (EMS) used to cap current now has rules for its setpoint, what happens on a malfunction, who can touch the settings, and how it's marked. The EMS gets one current setpoint: the load used in the 220.70 calculation and the most current it allows on the supply it controls (750.30(C)(1)).\n• 750.6: New in 2023: an energy management system (EMS) has to be listed, either as one complete system, as a kit installed in the field, or as listed components assembled into a system. Path 1: the EMS is listed as one complete system.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "When you install load management for a generator job, you are installing a 750 system doing a 702 job. Set it, record the settings, and leave them where only the right people can change them.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1368,7 +1589,23 @@
       "verified": true,
       "prev_id": "C7-ART-728",
       "next_id": "C7-ART-760",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "750.30",
+          "change": "An energy management system (EMS) used to cap current now has rules for its setpoint, what happens on a malfunction, who can touch the settings, and how it's marked. The EMS gets one current setpoint: the load used in the 220.70 calculation and the most current it allows on the supply it controls (750.30(C)(1)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 750.30 EMS current limiting",
+          "url": "https://www.electricalexamcoach.app/changes/2023/750-30",
+          "confirmed": true
+        },
+        {
+          "section": "750.6",
+          "change": "New in 2023: an energy management system (EMS) has to be listed, either as one complete system, as a kit installed in the field, or as listed components assembled into a system. Path 1: the EMS is listed as one complete system.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 750.6 Energy management system listing",
+          "url": "https://www.electricalexamcoach.app/changes/2023/750-6",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-ART-760",
@@ -1376,7 +1613,7 @@
       "article": "760",
       "section": "760",
       "title": "Fire alarm systems — wiring and power",
-      "plain_explanation": "Article 760 covers the installation of wiring and equipment for fire alarm systems, including the circuits the fire alarm system controls and powers: detection, notification, sprinkler waterflow and supervisory signals, and functions like door release and elevator control that the alarm commands. System design, device placement and testing live in NFPA 72; this article governs how the wiring and power are installed. Every fire alarm circuit is one of two kinds — non-power-limited or power-limited — and the kind comes from its power source, exactly the way Article 725 classes come from theirs.",
+      "plain_explanation": "Article 760 covers the installation of wiring and equipment for fire alarm systems, including the circuits the fire alarm system controls and powers: detection, notification, sprinkler waterflow and supervisory signals, and functions like door release and elevator control that the alarm commands. System design, device placement and testing live in NFPA 72; this article governs how the wiring and power are installed. Every fire alarm circuit is one of two kinds — non-power-limited or power-limited — and the kind comes from its power source, exactly the way Article 725 classes come from theirs.\n\nNEC 2023 CHANGE:\n• Article 760: Several sections throughout Article 760 were reworded, revised, relocated, or deleted. Hazardous (Classified) Location requirements were reworded and relocated to 760.12 to be consistent with Article 722. Some requirements applying to cables have been relocated to Article 722.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "First question on alarm work: which circuits are NPLFA and which are PLFA? The answer picks the cable, the wiring method and the separation rules for every run.",
       "sharma_note": "",
       "figure_idea": "Original diagram: a fire alarm control panel in the center, a riser going up with initiating circuits on one side and notification circuits on the other, each labelled with its circuit class. Describe only; do not copy a manufacturer's riser.",
@@ -1391,7 +1628,16 @@
       "verified": true,
       "prev_id": "C7-ART-750",
       "next_id": "C7-760.30",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "Article 760",
+          "change": "Several sections throughout Article 760 were reworded, revised, relocated, or deleted. Hazardous (Classified) Location requirements were reworded and relocated to 760.12 to be consistent with Article 722. Some requirements applying to cables have been relocated to Article 722.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: Article 760 Fire Alarm Systems",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C7-760.30",
@@ -1548,7 +1794,7 @@
         "C7-L-059"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C7-ART-770",
       "next_id": "C7-770.179"
     },
@@ -1558,7 +1804,7 @@
       "article": "770",
       "section": "770.179",
       "title": "Optical fiber cable types — reading the letters",
-      "plain_explanation": "The type letters on an optical fiber cable tell you two things: whether the cable is conductive, and where its fire and smoke listing lets it run. OFN is optical fiber nonconductive; OFC is optical fiber conductive — the C means a metallic member is part of the cable. The suffix grades the listing like the communications ladder in Chapter 8: OFNP and OFCP are plenum grade, OFNR and OFCR are riser grade, and plain OFN and OFC are general purpose. A higher grade may substitute for a lower one; a lower grade never substitutes up. Match the letters to the space — plenum, riser, or general — the same way you match CMP, CMR, and CM.",
+      "plain_explanation": "The type letters on an optical fiber cable tell you two things: whether the cable is conductive, and where its fire and smoke listing lets it run. OFN is optical fiber nonconductive; OFC is optical fiber conductive — the C means a metallic member is part of the cable. The suffix grades the listing like the communications ladder in Chapter 8: OFNP and OFCP are plenum grade, OFNR and OFCR are riser grade, and plain OFN and OFC are general purpose. A higher grade may substitute for a lower one; a lower grade never substitutes up. Match the letters to the space — plenum, riser, or general — the same way you match CMP, CMR, and CM. OFNG/OFCG and OFN/OFC are general-purpose grade. A nonconductive type may substitute for the conductive type of the same or lower grade (e.g., OFNR for OFCR), but a conductive type never substitutes for a nonconductive one.",
       "on_the_job": "Spec says OFNR for a riser shaft and the truck has OFN: that pull does not happen. Plenum-rated fiber (OFNP or OFCP) in the truck covers the riser too — the ladder only runs downhill.",
       "sharma_note": "",
       "florida_note": "",
@@ -1570,7 +1816,7 @@
         "C7-L-060"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C7-770.133",
       "next_id": null
     }

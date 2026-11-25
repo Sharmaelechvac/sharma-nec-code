@@ -11,7 +11,7 @@
       "article": "300",
       "section": "300",
       "title": "Wiring methods — general rules",
-      "plain_explanation": "Article 300 is the rulebook that sits over every wiring method in this chapter. Whichever cable or raceway you pick later — NM, MC, EMT, PVC — these general rules still apply: protect the wiring from damage, give underground runs enough cover, support what you install, and leave enough free wire at every box to make a proper joint. Read this article first, then go to the article for the specific method.",
+      "plain_explanation": "Article 300 is the rulebook that sits over every wiring method in this chapter. Whichever cable or raceway you pick later — NM, MC, EMT, PVC — these general rules still apply: protect the wiring from damage, give underground runs enough cover, support what you install, and leave enough free wire at every box to make a proper joint. Read this article first, then go to the article for the specific method.\n\nNEC 2023 CHANGE:\n• 300.17: Cables pulled into a raceway now fall under the general fill limit too, not only individual conductors. Too many cables trap heat and get skinned on the pull. Cables are now named in 300.17: a raceway can only hold as many conductors or cables as heat and a clean pull allow.\n• 300.26: New 300.26 sorts remote-control and signaling circuits into three groups and points each to its rules: Article 724, Article 725, or the general wiring rules of Article 300. Circuits that aren't power-limited are wired like any power circuit, using the general rules of Article 300 and Chapter 3 wiring methods.\n• 300.6: Enclosures, other than fences and walls, are now on the corrosion lists. Any thread not cut at the factory counts as field-cut and needs conductive compound where corrosion protection is needed. Enclosures, except fences and walls around equipment, now join raceways, boxes and fittings in needing materials fit for the location.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Before you choose a method, ask three questions: Where does it run (dry, damp, wet, underground, exposed)? What can hit it? How will it be supported? The answers pick the method and trigger the 300 rules.",
       "sharma_note": "",
       "figure_idea": "Cross-section of a house wall, slab and yard showing one circuit as NM in the wall, EMT on the surface and UF underground, with callouts to 300.4, 300.5 and 300.11.",
@@ -24,7 +24,30 @@
       "verified": true,
       "prev_id": null,
       "next_id": "C3-300.3",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "300.17",
+          "change": "Cables pulled into a raceway now fall under the general fill limit too, not only individual conductors. Too many cables trap heat and get skinned on the pull. Cables are now named in 300.17: a raceway can only hold as many conductors or cables as heat and a clean pull allow.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 300.17 Raceway fill now counts cables",
+          "url": "https://www.electricalexamcoach.app/changes/2023/300-17",
+          "confirmed": true
+        },
+        {
+          "section": "300.26",
+          "change": "New 300.26 sorts remote-control and signaling circuits into three groups and points each to its rules: Article 724, Article 725, or the general wiring rules of Article 300. Circuits that aren't power-limited are wired like any power circuit, using the general rules of Article 300 and Chapter 3 wiring methods.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 300.26 Sorting control and signal circuits",
+          "url": "https://www.electricalexamcoach.app/changes/2023/300-26",
+          "confirmed": true
+        },
+        {
+          "section": "300.6",
+          "change": "Enclosures, other than fences and walls, are now on the corrosion lists. Any thread not cut at the factory counts as field-cut and needs conductive compound where corrosion protection is needed. Enclosures, except fences and walls around equipment, now join raceways, boxes and fittings in needing materials fit for the location.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 300.6 Corrosion protection for enclosures",
+          "url": "https://www.electricalexamcoach.app/changes/2023/300-6",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-300.3",
@@ -42,7 +65,7 @@
         "C3-Q-032"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-300",
       "next_id": "C3-300.4",
       "chapter": 3,
@@ -53,7 +76,7 @@
       "article": "300",
       "section": "300.4",
       "title": "Protecting wiring from physical damage",
-      "plain_explanation": "This is the nail-and-screw section. Where cable or raceway passes through or runs alongside wood or metal framing, it has to sit far enough back from the face of the framing that drywall screws and nails miss it — or be shielded by a steel plate. It also covers cables run across the top of joists, through notches, and parallel to framing, where the same idea applies: keep the wiring out of the fastener zone, or armor it.",
+      "plain_explanation": "This is the nail-and-screw section. Where cable or raceway passes through or runs alongside wood or metal framing, it has to sit far enough back from the face of the framing that drywall screws and nails miss it — or be shielded by a steel plate. It also covers cables run across the top of joists, through notches, and parallel to framing, where the same idea applies: keep the wiring out of the fastener zone, or armor it.\n\nNEC 2023 CHANGE:\n• 300.4(E): A new Exception No. 1 and modifications to Exception No.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Center your holes, keep the 1-1/4 in setback in 300.4(A)(1), and plate anything that ends up closer. Kick plates / nail plates are not extras — if the cable is in the strike zone, the plate goes on before drywall, every time.",
       "sharma_note": "Kick plates are always in Sharma takeoffs — stock them on every rough-in truck, do not treat them as an optional add-on.",
       "figure_idea": "Front view of a stud bay: a centered bored hole marked 1-1/4 in minimum from each face, and beside it a shallow hole covered by a 1/16 in steel nail plate.",
@@ -67,7 +90,16 @@
       "verified": true,
       "prev_id": "C3-300.3",
       "next_id": "C3-300.4(A)(1)",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "300.4(E)",
+          "change": "A new Exception No. 1 and modifications to Exception No.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 300.4(E) Ex. No. 1 and 2 Cables, Raceways, or Boxes Installed in or Under Metal-Corrugated Roof",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-300.4(A)(1)",
@@ -107,7 +139,9 @@
       "prev_id": "C3-300.4(A)(1)",
       "next_id": "C3-300.4(D)",
       "chapter": 3,
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Rewrite the second rule: \"Where nails or screws are likely to penetrate NM cable or ENT in metal framing, protect it with a steel sleeve, steel plate or steel clip at least 1/16 in. thick (300.4(B)(2)).\" (2020 does not offer a listed bushing as an alternative there, and the rule is not limited to slots or notches.) Make it explicit that 300.4(B)(1) bushings and grommets must cover all metal edges and be securely fastened in the opening before the cable is installed.",
+      "recheck_correction": "Rewrite the second rule: \"Where nails or screws are likely to penetrate NM cable or ENT in metal framing, protect it with a steel sleeve, steel plate or steel clip at least 1/16 in. thick (300.4(B)(2)).\" (2020 does not offer a listed bushing as an alternative there, and the rule is not limited to slots or notches.) Make it explicit that 300.4(B)(1) bushings and grommets must cover all metal edges and be securely fastened in the opening before the cable is installed."
     },
     {
       "id": "C3-300.4(D)",
@@ -133,7 +167,7 @@
       "article": "300",
       "section": "300.4(G)",
       "title": "Protecting large conductors where they enter enclosures",
-      "plain_explanation": "Conductors 4 AWG and larger entering a cabinet, box or raceway have to be protected from abrasion at the entry — by a fitting, bushing or adapter that gives them a smooth, rounded surface to bear on, in the cases this subsection describes. Big conductors are stiff, heavy and expensive; a sharp knockout edge plus one hard pull is insulation damage you cannot see after the cover goes on. The research notes this protection was expanded and clarified for 2020; the exact fitting language is Mike's to confirm.",
+      "plain_explanation": "Conductors 4 AWG and larger entering a cabinet, box or raceway have to be protected from abrasion at the entry — by a fitting, bushing or adapter that gives them a smooth, rounded surface to bear on, in the cases this subsection describes. Big conductors are stiff, heavy and expensive; a sharp knockout edge plus one hard pull is insulation damage you cannot see after the cover goes on. The research notes this protection was expanded and clarified for 2020; the exact fitting language is Mike's to confirm.\n\nNEC 2023 CHANGE:\n• 300.4: Bushings for 4 AWG and larger now have to be on before the pull. Under metal roof decking, a concrete exception was added, and the rigid and intermediate metal conduit pass now depends on fittings. Where conductors 4 AWG or bigger enter a box or enclosure, the bushing or other protection now goes on before they're pulled (300.4(G)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Fit the insulating bushing before the pull, not after you see the scrape. On service and feeder entries, check every entry edge with a fingertip before conductors go in.",
       "sharma_note": "",
       "figure_idea": "Service conductor entering a meter enclosure through a listed fitting with a smooth rounded insulating surface, sharp-edge version crossed out beside it.",
@@ -144,14 +178,23 @@
       "verified": true,
       "prev_id": "C3-300.4(D)",
       "next_id": "C3-300.5",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "300.4",
+          "change": "Bushings for 4 AWG and larger now have to be on before the pull. Under metal roof decking, a concrete exception was added, and the rigid and intermediate metal conduit pass now depends on fittings. Where conductors 4 AWG or bigger enter a box or enclosure, the bushing or other protection now goes on before they're pulled (300.4(G)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 300.4 Protection from physical damage",
+          "url": "https://www.electricalexamcoach.app/changes/2023/300-4",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-300.5",
       "article": "300",
       "section": "300.5",
       "title": "Underground wiring — cover, protection and sealing",
-      "plain_explanation": "Underground runs have to be in a wiring method approved for burial and buried deep enough that digging, traffic and frost do not reach them. Cover is measured from the top of the cable or raceway to finished grade, and the required depth depends on the method and what is above it — a yard, a driveway and a slab are not the same row of the table. Risers coming out of the ground need protection from damage. Under 300.5(G), a raceway through which moisture could contact energized live parts has to be sealed or plugged at either or both ends, with a sealant identified for use with the cable or conductor insulation; the separate seal for a raceway that passes between different temperatures, where condensation is known to be a problem, is in 300.7(A), not in this section. Direct-buried splices and taps are permitted without a splice box only when made under 110.14(B), and wire connectors or splicing means used for direct burial must be listed for that use.",
+      "plain_explanation": "Underground runs have to be in a wiring method approved for burial and buried deep enough that digging, traffic and frost do not reach them. Cover is measured from the top of the cable or raceway to finished grade, and the required depth depends on the method and what is above it — a yard, a driveway and a slab are not the same row of the table. Risers coming out of the ground need protection from damage. Under 300.5(G), a raceway through which moisture could contact energized live parts has to be sealed or plugged at either or both ends, with a sealant identified for use with the cable or conductor insulation; the separate seal for a raceway that passes between different temperatures, where condensation is known to be a problem, is in 300.7(A), not in this section. Direct-buried splices and taps are permitted without a splice box only when made under 110.14(B), and wire connectors or splicing means used for direct burial must be listed for that use.\n\nNEC 2023 CHANGE:\n• 300.5: EMT now has its own burial depths in Table 300.5(A), and the underground damage protection rules, warning ribbon included, now apply to conductors in raceways as well as direct-buried ones. EMT now has a spot in Column 3 of Table 300.5(A): 18 inches of cover in general, 24 inches under streets and roads.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "The rows Sharma digs to most (Table 300.5, cover over the top of the cable or raceway): in open ground — direct-burial cable 24 in, nonmetallic raceway (PVC) 18 in, rigid metal conduit 6 in. Under a one- or two-family dwelling driveway or outdoor parking area used only for the dwelling — direct-burial cable, rigid metal conduit, and nonmetallic raceway (PVC) are all 18 in. The 12 in figure is only the separate column for a 120 V, 20 A or less, GFCI-protected residential branch circuit. It is not the depth for PVC in general. Under streets, roads, alleys, driveways and parking lots (the commercial row) — 24 in for EVERY method. A residential branch circuit 120V, 20A or less with GFCI protection gets the 12 in column in its own row. Slabs and building interiors have their own rows — check the table row for the actual location before you trench, and never carry one depth to every location.",
       "sharma_note": "",
       "figure_idea": "Trench cross-section with four parallel runs at 24, 18, 12 and 6 in, each labeled with its method, and a tape measure to finished grade.",
@@ -167,7 +210,16 @@
       "verified": true,
       "prev_id": "C3-300.4(G)",
       "next_id": "C3-300.7",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "300.5",
+          "change": "EMT now has its own burial depths in Table 300.5(A), and the underground damage protection rules, warning ribbon included, now apply to conductors in raceways as well as direct-buried ones. EMT now has a spot in Column 3 of Table 300.5(A): 18 inches of cover in general, 24 inches under streets and roads.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 300.5 Underground EMT and warning ribbon",
+          "url": "https://www.electricalexamcoach.app/changes/2023/300-5",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-300.7",
@@ -175,8 +227,8 @@
       "article": "300",
       "section": "300.7",
       "title": "Sealing raceways that pass between different temperatures",
-      "plain_explanation": "Where part of a raceway sits at a much lower temperature than another part — a run from a warm building into a cold-storage room is the textbook case — the warmer air inside the raceway circulates into the cold part and its moisture condenses there, wetting conductors that were installed dry. This section requires the raceway to be filled with an approved sealing material at the temperature boundary, to stop that air circulation. It is a condensation seal, not a waterproofing seal: the separate rule for sealing a raceway so moisture cannot reach live parts is 300.5(G), and explosionproof sealing fittings are a hazardous-location subject in Article 501, not this section.",
-      "on_the_job": "The Florida case is any conduit that leaves a hot attic or a sun-baked exterior wall and enters an air-conditioned space or a walk-in cooler: put the duct seal in the run where the temperature changes, on the warm side of the boundary, before the conductors are pulled or as the section's method directs. A run that drips at the panel in August is usually this rule, missed.",
+      "plain_explanation": "Where part of a raceway sits at a much lower temperature than another part — a run from a warm building into a cold-storage room is the textbook case — the warmer air inside the raceway circulates into the cold part and its moisture condenses there, wetting conductors that were installed dry. This section requires the raceway to be filled with an approved sealing material at the temperature boundary, to stop that air circulation. It is a condensation seal, not a waterproofing seal: the separate rule for sealing a raceway so moisture cannot reach live parts is 300.5(G), and explosionproof sealing fittings are a hazardous-location subject in Article 501, not this section. 300.7(A) does not say which side gets sealed; it requires the raceway or sleeve to be filled with an approved material to prevent circulation of warm air to a colder section. It also applies where a raceway passes from the interior to the exterior of a building, and sealants must be identified for use with the cable or conductor insulation, bare conductors, shields or other components. 300.7(B): expansion, expansion-deflection or deflection fittings are required where thermal expansion or contraction is expected.",
+      "on_the_job": "The Florida case is any conduit that leaves a hot attic or a sun-baked exterior wall and enters an air-conditioned space or a walk-in cooler: put the duct seal in the run where the temperature changes, , before the conductors are pulled or as the section's method directs. A run that drips at the panel in August is usually this rule, missed.",
       "sharma_note": "",
       "figure_idea": "A conduit crossing a wall from a sunlit exterior into a cooler interior, with a seal drawn inside the conduit at the wall line and condensation drops shown on the unsealed version beside it.",
       "related_ids": [
@@ -184,7 +236,7 @@
         "C3-ART-300"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-300.5",
       "next_id": "C3-300.11",
       "sharma_rule_ids": []
@@ -194,7 +246,7 @@
       "article": "300",
       "section": "300.11",
       "title": "Securing and supporting — general",
-      "plain_explanation": "Wiring methods must be secured in place and supported at the intervals their own article requires. Raceways and cables cannot hang off other raceways, pipes or ceiling wires unless the rule for that method specifically allows it, and in a fire-rated ceiling the support has to be independent so the wiring does not fall when the ceiling does.",
+      "plain_explanation": "Wiring methods must be secured in place and supported at the intervals their own article requires. Raceways and cables cannot hang off other raceways, pipes or ceiling wires unless the rule for that method specifically allows it, and in a fire-rated ceiling the support has to be independent so the wiring does not fall when the ceiling does.\n\nNEC 2023 CHANGE:\n• 300.11: Class 3 control cable can now be supported by the power raceway for the equipment it controls. In 2020, only Class 2 cable got that allowance. A raceway carrying power to equipment can hold up Class 2 or 3 control cable that serves only that same equipment (300.11(C)(2)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "When in doubt, support it yourself: your own strap, on structure, at the spacing in the method's article (334.30 for NM, 330.30 for MC, 358.30 for EMT, 352.30 for PVC). Never lay cable on a ceiling tile or tie it to a sprinkler pipe.",
       "sharma_note": "",
       "figure_idea": "",
@@ -205,14 +257,23 @@
       "verified": true,
       "prev_id": "C3-300.7",
       "next_id": "C3-300.14",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "300.11",
+          "change": "Class 3 control cable can now be supported by the power raceway for the equipment it controls. In 2020, only Class 2 cable got that allowance. A raceway carrying power to equipment can hold up Class 2 or 3 control cable that serves only that same equipment (300.11(C)(2)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 300.11 Raceways supporting control cables",
+          "url": "https://www.electricalexamcoach.app/changes/2023/300-11",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-300.14",
       "article": "300",
       "section": "300.14",
       "title": "Free conductor length at boxes",
-      "plain_explanation": "At every outlet, junction and switch point, leave at least 6 in of free conductor, measured from where the conductor comes out of its raceway or cable sheath. Where the box opening is smaller than 8 in in any direction, the conductors also have to stick out of the opening by at least 3 in, so devices can be made up and folded back without fighting short wires. Conductors that pass straight through a box without a splice or termination are not counted by this rule.",
+      "plain_explanation": "At every outlet, junction and switch point, leave at least 6 in of free conductor, measured from where the conductor comes out of its raceway or cable sheath. Where the box opening is smaller than 8 in in any direction, the conductors also have to stick out of the opening by at least 3 in, so devices can be made up and folded back without fighting short wires. Conductors that pass straight through a box without a splice or termination are not counted by this rule.\n\nNEC 2023 CHANGE:\n• 300.14: It's settled: the 6 inches of free conductor at a box can be spliced or unspliced, so a short conductor can be pieced out with a pigtail. The 6 inches of free conductor at each outlet, junction or switch point can now be spliced or unspliced.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Strip and make up with the full 6 in in hand. If you are short, the fix is a bigger pull or a re-pull — not a wire nut buried with 2 in stubs. Leave the same working length on the spare conductors you cap off.",
       "sharma_note": "",
       "figure_idea": "Side view of a single-gang box with 6 in of conductor looped out, and a 3 in dimension from the box opening.",
@@ -225,14 +286,23 @@
       "verified": true,
       "prev_id": "C3-300.11",
       "next_id": "C3-300.15",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "300.14",
+          "change": "It's settled: the 6 inches of free conductor at a box can be spliced or unspliced, so a short conductor can be pieced out with a pigtail. The 6 inches of free conductor at each outlet, junction or switch point can now be spliced or unspliced.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 300.14 6 inches of free conductor",
+          "url": "https://www.electricalexamcoach.app/changes/2023/300-14",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-300.15",
       "article": "300",
       "section": "300.15",
       "title": "A box or fitting at each splice, outlet and junction",
-      "plain_explanation": "Where the wiring method is conduit, tubing, Type AC cable, Type MC cable, Type MI cable, nonmetallic-sheathed cable or another cable method, a box or conduit body has to be installed at each conductor splice point, outlet point, switch point, junction point, termination point and pull point — unless one of the exceptions in 300.15(A) through (L) permits otherwise for that case. A fitting identified for the use may be used in place of a box or conduit body where conductors are not spliced or terminated inside the fitting, and that fitting has to stay accessible after installation unless it is listed for concealed installation. Boxes themselves have to stay accessible under 314.29, without tearing the building apart. A joint made in open air, in a wall cavity, or inside a raceway run, with no exception behind it, is not a joint the next electrician — or an inspector — can ever find.",
+      "plain_explanation": "Where the wiring method is conduit, tubing, Type AC cable, Type MC cable, Type MI cable, nonmetallic-sheathed cable or another cable method, a box or conduit body has to be installed at each conductor splice point, outlet point, switch point, junction point, termination point and pull point — unless one of the exceptions in 300.15(A) through (L) permits otherwise for that case. A fitting identified for the use may be used in place of a box or conduit body where conductors are not spliced or terminated inside the fitting, and that fitting has to stay accessible after installation unless it is listed for concealed installation. Boxes themselves have to stay accessible under 314.29, without tearing the building apart. A joint made in open air, in a wall cavity, or inside a raceway run, with no exception behind it, is not a joint the next electrician — or an inspector — can ever find.\n\nNEC 2023 CHANGE:\n• 300.15: A change from one wiring method to another, like MC cable to EMT, is now on the list of spots requiring a box, conduit body or fitting. A box, conduit body or identified fitting is now required where one wiring method changes to another, such as MC cable to EMT.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Plan box locations while the walls are open. If a splice has to exist, it gets a box with a cover that stays reachable after finishes go on.",
       "sharma_note": "",
       "figure_idea": "",
@@ -243,7 +313,16 @@
       "verified": true,
       "prev_id": "C3-300.14",
       "next_id": "C3-300.18",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "300.15",
+          "change": "A change from one wiring method to another, like MC cable to EMT, is now on the list of spots requiring a box, conduit body or fitting. A box, conduit body or identified fitting is now required where one wiring method changes to another, such as MC cable to EMT.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 300.15 Boxes at wiring method changes",
+          "url": "https://www.electricalexamcoach.app/changes/2023/300-15",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-300.18",
@@ -264,7 +343,9 @@
       "prev_id": "C3-300.15",
       "next_id": "C3-300.21",
       "chapter": 3,
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Replace \"Short sections are the everyday case, not a loophole\" with the actual exception: \"Short sections of raceway used only to protect conductors or cable assemblies from physical damage do not have to be installed complete before the conductors or cables are installed (300.18(A) Exception).\" For reaming, cite the wiring-method sections (for example 344.28, 358.28), not 300.18.",
+      "recheck_correction": "Replace \"Short sections are the everyday case, not a loophole\" with the actual exception: \"Short sections of raceway used only to protect conductors or cable assemblies from physical damage do not have to be installed complete before the conductors or cables are installed (300.18(A) Exception).\" For reaming, cite the wiring-method sections (for example 344.28, 358.28), not 300.18."
     },
     {
       "id": "C3-300.21",
@@ -305,7 +386,7 @@
       "article": "300",
       "section": "300.25",
       "title": "Wiring in exit enclosures",
-      "plain_explanation": "Exit enclosures — the protected stair towers and exit passageways people escape through — may contain only the wiring that serves the exit enclosure itself and the limited other wiring this section permits. Ordinary branch circuits passing through a stair tower on their way somewhere else do not belong there. This section was new in the 2020 NEC, which is why older study material and older habits do not mention it.",
+      "plain_explanation": "Exit enclosures — the protected stair towers and exit passageways people escape through — may contain only the wiring that serves the exit enclosure itself and the limited other wiring this section permits. Ordinary branch circuits passing through a stair tower on their way somewhere else do not belong there. This section was new in the 2020 NEC, which is why older study material and older habits do not mention it.\n\nNEC 2023 CHANGE:\n• 300.25: A new exception lets the egress light outside a stair tower's exterior door run off the wiring inside the stair. The rule itself now hinges on the building code's fire-resistance rating. New exception: the egress light over the stair's exterior exit door can be fed from the stair's own wiring.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On multi-family and commercial work, route around the stair tower by default. If a run must enter it, stop and check what it serves before it goes in.",
       "sharma_note": "",
       "figure_idea": "Building section of a stair tower with a foreign branch circuit shown re-routed around the enclosure and only the tower's own lighting circuit inside.",
@@ -314,14 +395,23 @@
       "verified": true,
       "prev_id": "C3-300.22",
       "next_id": "C3-ART-310",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "300.25",
+          "change": "A new exception lets the egress light outside a stair tower's exterior door run off the wiring inside the stair. The rule itself now hinges on the building code's fire-resistance rating. New exception: the egress light over the stair's exterior exit door can be fed from the stair's own wiring.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 300.25 Exit stair towers",
+          "url": "https://www.electricalexamcoach.app/changes/2023/300-25",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-310",
       "article": "310",
       "section": "310",
       "title": "Conductors for general wiring",
-      "plain_explanation": "Article 310 is about the conductors themselves: what they are made of, how they are insulated, and — most used of all — how much current they may carry. The ampacity work lives in 310.12 for dwelling services and feeders, 310.15 for correction and adjustment, and Table 310.16 for the ampacity values themselves. Termination temperature limits live back in 110.14(C) in Chapter 1; this article hands you the number, Chapter 1 tells you which column you may actually use.",
+      "plain_explanation": "Article 310 is about the conductors themselves: what they are made of, how they are insulated, and — most used of all — how much current they may carry. The ampacity work lives in 310.12 for dwelling services and feeders, 310.15 for correction and adjustment, and Table 310.16 for the ampacity values themselves. Termination temperature limits live back in 110.14(C) in Chapter 1; this article hands you the number, Chapter 1 tells you which column you may actually use.\n\nNEC 2023 CHANGE:\n• 310.10: Parallel conductor rules were rewritten for clarity, supply-side bonding jumpers joined the list of conductors that must match, and both temperature correction and adjustment now clearly apply. Supply-side bonding jumpers run in parallel now have to match each other in length, material, size, insulation and termination (310.10(G)(2)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Start every sizing question here in this order: load, then Table 310.16 column allowed by the terminations, then correction/adjustment in 310.15, then the small-conductor caps in 240.4(D) from Chapter 2.",
       "sharma_note": "",
       "figure_idea": "Flowchart with four boxes: Load -> Table 310.16 -> 310.15 correction/adjustment -> 240.4(D) cap.",
@@ -335,14 +425,23 @@
       "verified": true,
       "prev_id": "C3-300.25",
       "next_id": "C3-310.3",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "310.10",
+          "change": "Parallel conductor rules were rewritten for clarity, supply-side bonding jumpers joined the list of conductors that must match, and both temperature correction and adjustment now clearly apply. Supply-side bonding jumpers run in parallel now have to match each other in length, material, size, insulation and termination (310.10(G)(2)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 310.10 Parallel conductors",
+          "url": "https://www.electricalexamcoach.app/changes/2023/310-10",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-310.3",
       "article": "310",
       "section": "310.3",
       "title": "Conductor minimums — size, material, stranding",
-      "plain_explanation": "This section sets the floor for building wire. The smallest conductor for branch circuits and feeders is 14 AWG copper or 12 AWG aluminum or copper-clad aluminum — which is why there is no 14 AWG CCA branch-circuit wire in 2020 work. Conductors are copper, aluminum, or copper-clad aluminum, and the material decides which ampacity column and which termination rules apply. Conductors 8 AWG and larger installed in raceways are stranded. Smaller conductors and special circuits (fixture wires, control and signaling circuits, and the other cases other articles govern) follow their own articles — this floor is for general wiring.",
+      "plain_explanation": "This section sets the floor for building wire. The smallest conductor for branch circuits and feeders is 14 AWG copper or 12 AWG aluminum or copper-clad aluminum — which is why there is no 14 AWG CCA branch-circuit wire in 2020 work. Conductors are copper, aluminum, or copper-clad aluminum, and the material decides which ampacity column and which termination rules apply. Conductors 8 AWG and larger installed in raceways are stranded. Smaller conductors and special circuits (fixture wires, control and signaling circuits, and the other cases other articles govern) follow their own articles — this floor is for general wiring.\n\nNEC 2023 CHANGE:\n• 310.3: Copper-clad aluminum got its own material rule in 310.3(B): an AA-8000 series aluminum core wrapped in copper that makes up 10 percent or more of the cross-section. Copper-clad aluminum (CCA) now has its own item in 310.3(B): the aluminum core has to be AA-8000 series alloy.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Ordering rule that follows from this page: a '14 AWG' line on a takeoff means copper. If the job is CCA, the smallest branch-circuit reel on the truck is 12 AWG — and per S-10 it lands on a 15A breaker, not a 20A.",
       "sharma_note": "S-10: copper by default; CCA one size up. This section is where the 'no 14 AWG CCA' rule lives.",
       "figure_idea": "Three reels labeled by material with their minimum branch-circuit sizes: copper 14 AWG, aluminum 12 AWG, CCA 12 AWG.",
@@ -353,12 +452,21 @@
         "C3-Q-033"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-310",
       "next_id": "C3-310.12",
       "chapter": 3,
       "sharma_rule_ids": [
         "S-10"
+      ],
+      "nec2023_change": [
+        {
+          "section": "310.3",
+          "change": "Copper-clad aluminum got its own material rule in 310.3(B): an AA-8000 series aluminum core wrapped in copper that makes up 10 percent or more of the cross-section. Copper-clad aluminum (CCA) now has its own item in 310.3(B): the aluminum core has to be AA-8000 series alloy.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 310.3 Copper-clad aluminum conductors",
+          "url": "https://www.electricalexamcoach.app/changes/2023/310-3",
+          "confirmed": true
+        }
       ]
     },
     {
@@ -366,7 +474,7 @@
       "article": "310",
       "section": "310.12",
       "title": "The dwelling 83% rule for services and whole-load feeders",
-      "plain_explanation": "For a single-phase dwelling service rated 100A through 400A that carries the entire load of the house, the service conductors may be sized at 83% of the service rating instead of the full Table 310.16 ampacity. The same idea applies to a feeder that carries the entire dwelling load, such as the feeder from an outside meter-main to the inside main panel. It does not apply to a partial-load feeder, and it does not apply when temperature correction or bundling adjustment is in play.\n\nTable 310.12 in full — the service or whole-load feeder rating, then the conductor it permits:\n• 100A — 4 AWG copper / 2 AWG aluminum\n• 110A — 3 AWG copper / 1 AWG aluminum\n• 125A — 2 AWG copper / 1/0 aluminum\n• 150A — 1 AWG copper / 2/0 aluminum\n• 175A — 1/0 copper / 3/0 aluminum\n• 200A — 2/0 copper / 4/0 aluminum\n• 225A — 3/0 copper / 250 kcmil aluminum\n• 250A — 4/0 copper / 300 kcmil aluminum\n• 300A — 250 kcmil copper / 350 kcmil aluminum\n• 350A — 350 kcmil copper / 500 kcmil aluminum\n• 400A — 400 kcmil copper / 600 kcmil aluminum",
+      "plain_explanation": "For a single-phase dwelling service rated 100A through 400A that carries the entire load of the house, the service conductors may be sized at 83% of the service rating instead of the full Table 310.16 ampacity. The same idea applies to a feeder that carries the entire dwelling load, such as the feeder from an outside meter-main to the inside main panel. It does not apply to a partial-load feeder, Table 310.12 may be used directly only where no adjustment or correction factors are required; where they are, the 83% minimum still applies but the conductor has to be sized from Table 310.16 with the factors applied..\n\nTable 310.12 in full — the service or whole-load feeder rating, then the conductor it permits:\n• 100A — 4 AWG copper / 2 AWG aluminum\n• 110A — 3 AWG copper / 1 AWG aluminum\n• 125A — 2 AWG copper / 1/0 aluminum\n• 150A — 1 AWG copper / 2/0 aluminum\n• 175A — 1/0 copper / 3/0 aluminum\n• 200A — 2/0 copper / 4/0 aluminum\n• 225A — 3/0 copper / 250 kcmil aluminum\n• 250A — 4/0 copper / 300 kcmil aluminum\n• 300A — 250 kcmil copper / 350 kcmil aluminum\n• 350A — 350 kcmil copper / 500 kcmil aluminum\n• 400A — 400 kcmil copper / 600 kcmil aluminum The 83 percent rule applies to services rated 100–400A supplying the entire load of a one-family dwelling or an individual dwelling unit of a two-family or multifamily dwelling; feeders are not required to be larger than the service conductors (310.12(B), (C)).",
       "on_the_job": "The pair Sharma uses daily: a 200A house service is 2/0 copper or 4/0 aluminum when this rule applies. A feeder to a garage subpanel that carries only part of the house load gets sized at full value from Table 310.16 — no 83%.",
       "sharma_note": "",
       "figure_idea": "One-line of a house: meter-main outside, main panel inside, the feeder between them labeled 'whole load — 83% can apply'; a second feeder to a garage labeled 'partial load — full size'.",
@@ -379,7 +487,7 @@
         "C3-L-008"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-310.3",
       "next_id": "C3-310.15",
       "chapter": 3
@@ -389,7 +497,7 @@
       "article": "310",
       "section": "310.15",
       "title": "Ampacity correction (temperature) and adjustment (bundling)",
-      "plain_explanation": "Table 310.16 assumes no more than three current-carrying conductors together and a 30°C (86°F) surrounding temperature. When reality is hotter, or more conductors share a raceway or cable, the ampacity goes down: an ambient correction factor for temperature, and an adjustment factor for the count of current-carrying conductors — 80% for 4 to 6, 70% for 7 to 9, 50% for 10 to 20, 45% for 21 to 30, 40% for 31 to 40, and 35% for 41 or more. Equipment grounding conductors do not count, and a neutral that carries only the unbalanced load of its circuit usually does not count either. You may start the math from the conductor's insulation rating (for example the 90°C column for THHN or NM conductors) as long as the final number does not exceed what the termination column and the method's own limit allow.\n\nThe ambient correction factors themselves (Table 310.15(B)(1)), for the temperature bands above the 30°C base:\n• At 36–40°C — 0.82 for a 60°C conductor, 0.88 for 75°C, 0.91 for 90°C\n• At 41–45°C — 0.71 / 0.82 / 0.87\n• At 46–50°C — 0.58 / 0.75 / 0.82\n• At 51–55°C — 0.41 / 0.67 / 0.76\n• At 56–60°C — the 60°C column no longer corrects (shown as — in the table) / 0.58 / 0.71\n• At 61–70°C — — / 0.33 / 0.58\nWhere both apply, the two factors multiply: a bundled run in a hot attic takes the count factor and the temperature factor together.",
+      "plain_explanation": "Table 310.16 assumes no more than three current-carrying conductors together and a 30°C (86°F) surrounding temperature. When reality is hotter, or more conductors share a raceway or cable, the ampacity goes down: an ambient correction factor for temperature, and an adjustment factor for the count of current-carrying conductors — 80% for 4 to 6, 70% for 7 to 9, 50% for 10 to 20, 45% for 21 to 30, 40% for 31 to 40, and 35% for 41 or more. Equipment grounding conductors do not count, and a neutral that carries only the unbalanced load of its circuit usually does not count either. You may start the math from the conductor's insulation rating (for example the 90°C column for THHN or NM conductors) as long as the final number does not exceed what the termination column and the method's own limit allow.\n\nThe ambient correction factors themselves (Table 310.15(B)(1)), for the temperature bands above the 30°C base:\n• At 36–40°C — 0.82 for a 60°C conductor, 0.88 for 75°C, 0.91 for 90°C\n• At 41–45°C — 0.71 / 0.82 / 0.87\n• At 46–50°C — 0.58 / 0.75 / 0.82\n• At 51–55°C — 0.41 / 0.67 / 0.76\n• At 56–60°C — the 60°C column no longer corrects (shown as — in the table) / 0.58 / 0.71\n• At 61–65°C — — / 0.47 / 0.65\n• At 66–70°C — — / 0.33 / 0.58\nWhere both apply, the two factors multiply: a bundled run in a hot attic takes the count factor and the temperature factor together. At 31–35°C — 0.91 / 0.94 / 0.96 2020 rooftop rule: raceways or cables exposed to sunlight on or above rooftops and less than 7/8 in. above the roof add 33°C (60°F) to the outdoor ambient (310.15(B)(2)); Type XHHW-2 is exempt.\n\nNEC 2023 CHANGE:\n• 310.15: Raceways and cables in direct sun now escape the 60°F rooftop adder once they sit 3/4 inch above the roof, down from 7/8 inch. The ambient correction tables were also renumbered. Raceways or cables in direct sunlight less than 3/4 inch above a roof get 60°F added to the outdoor temperature (310.15(B)(2)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Count current-carrying conductors honestly on a home-run bundle: three 12/2 NM cables bundled over 24 in is six current-carrying conductors, not three circuits at full ampacity. Hot Florida attics are the ambient case Sharma hits most — see the attic tip AH-07, whose 310.15(B)(1) citation Mike should re-check against the 2020 numbering.\n\nWorked example: 12 AWG THHN starts at 30A in the 90°C column. In a 50°C attic the correction is 0.82, giving 24.6A — still enough for its 20A breaker. Run as NM cable, the same conductor is capped at its 60°C table value of 20A before the 240.4(D) cap is even reached, so a single attic circuit rarely changes; a bundle of home runs, where the count factor stacks on the temperature factor, is where the answer moves.",
       "sharma_note": "",
       "figure_idea": "Bar chart: one raceway at 3, 6 and 9 current-carrying conductors with the 100%, 80% and 70% factors marked.",
@@ -401,17 +509,26 @@
         "C3-L-010"
       ],
       "florida_note": "Florida attics routinely run far above 30°C in summer; that is a design condition here, not an edge case.",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-310.12",
       "next_id": "C3-310.16",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "310.15",
+          "change": "Raceways and cables in direct sun now escape the 60°F rooftop adder once they sit 3/4 inch above the roof, down from 7/8 inch. The ambient correction tables were also renumbered. Raceways or cables in direct sunlight less than 3/4 inch above a roof get 60°F added to the outdoor temperature (310.15(B)(2)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 310.15 Rooftop temperature adder",
+          "url": "https://www.electricalexamcoach.app/changes/2023/310-15",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-310.16",
       "article": "310",
       "section": "310.16",
       "title": "Table 310.16 — how to read the ampacity table",
-      "plain_explanation": "Table 310.16 gives the allowable ampacity of an insulated conductor by size, material and temperature column: 60°C, 75°C and 90°C, for copper on the left and for aluminum and copper-clad aluminum together on the right. Read it in four steps. One, find the size. Two, pick the material column — CCA is read in the aluminum columns, never the copper columns. Three, pick the temperature column your terminations allow under 110.14(C); most house equipment is 75°C, and the 90°C column is mainly a starting point for correction and adjustment. Four, apply 310.15, then check the small-conductor caps in 240.4(D): copper 14/12/10 AWG is capped at 15/20/30A, and aluminum/CCA 12/10 AWG is capped at 15/25A, no matter what the table row says.\n\nThe rows Sharma reads daily, stated as 60°C / 75°C / 90°C. Copper:\n• 14 AWG — 15 / 20 / 25 A\n• 12 AWG — 20 / 25 / 30 A\n• 10 AWG — 30 / 35 / 40 A\n• 8 AWG — 40 / 50 / 55 A\n• 6 AWG — 55 / 65 / 75 A\n• 4 AWG — 70 / 85 / 95 A\n• 3 AWG — 85 / 100 / 115 A\n• 2 AWG — 95 / 115 / 130 A\n• 1/0 AWG — 125 / 150 / 170 A\n• 2/0 AWG — 145 / 175 / 195 A\n• 3/0 AWG — 165 / 200 / 225 A\n• 4/0 AWG — 195 / 230 / 260 A\n• 250 kcmil — 215 / 255 / 290 A\nAluminum and copper-clad aluminum, same format:\n• 12 AWG — 15 / 20 / 25 A\n• 10 AWG — 25 / 30 / 35 A\n• 8 AWG — 30 / 40 / 45 A\n• 6 AWG — 40 / 50 / 60 A\n• 4 AWG — 55 / 65 / 75 A\n• 2 AWG — 75 / 90 / 100 A\n• 1/0 AWG — 100 / 120 / 135 A\n• 2/0 AWG — 115 / 135 / 150 A\n• 3/0 AWG — 130 / 155 / 175 A\n• 4/0 AWG — 150 / 180 / 205 A\n• 250 kcmil — 170 / 205 / 230 A\nThese are table values before 310.15 correction and adjustment, and before the 240.4(D) small-conductor caps — the caps, not the 90°C column, set the breaker on small conductors.",
+      "plain_explanation": "Table 310.16 gives the allowable ampacity of an insulated conductor by size, material and temperature column: 60°C, 75°C and 90°C, for copper on the left and for aluminum and copper-clad aluminum together on the right. Read it in four steps. One, find the size. Two, pick the material column — CCA is read in the aluminum columns, never the copper columns. Three, pick the temperature column your terminations allow under 110.14(C); most house equipment is 75°C, and the 90°C column is mainly a starting point for correction and adjustment. Four, apply 310.15, then check the small-conductor caps in 240.4(D): copper 14/12/10 AWG is capped at 15/20/30A, and aluminum/CCA 12/10 AWG is capped at 15/25A, no matter what the table row says.\n\nThe rows Sharma reads daily, stated as 60°C / 75°C / 90°C. Copper:\n• 14 AWG — 15 / 20 / 25 A\n• 12 AWG — 20 / 25 / 30 A\n• 10 AWG — 30 / 35 / 40 A\n• 8 AWG — 40 / 50 / 55 A\n• 6 AWG — 55 / 65 / 75 A\n• 4 AWG — 70 / 85 / 95 A\n• 3 AWG — 85 / 100 / 115 A\n• 2 AWG — 95 / 115 / 130 A\n• 1/0 AWG — 125 / 150 / 170 A\n• 2/0 AWG — 145 / 175 / 195 A\n• 3/0 AWG — 165 / 200 / 225 A\n• 4/0 AWG — 195 / 230 / 260 A\n• 250 kcmil — 215 / 255 / 290 A\nAluminum and copper-clad aluminum, same format:\n• 12 AWG — 15 / 20 / 25 A\n• 10 AWG — 25 / 30 / 35 A\n• 8 AWG — 35 / 40 / 45 A\n• 6 AWG — 40 / 50 / 55 A\n• 4 AWG — 55 / 65 / 75 A\n• 2 AWG — 75 / 90 / 100 A\n• 1/0 AWG — 100 / 120 / 135 A\n• 2/0 AWG — 115 / 135 / 150 A\n• 3/0 AWG — 130 / 155 / 175 A\n• 4/0 AWG — 150 / 180 / 205 A\n• 250 kcmil — 170 / 205 / 230 A\nThese are table values before 310.15 correction and adjustment, and before the 240.4(D) small-conductor caps — the caps, not the 90°C column, set the breaker on small conductors.",
       "on_the_job": "Worked reads from the v1 table: 12 AWG copper is 20/25/30A at 60/75/90°C. 12 AWG CCA is 15/20/25A in the aluminum columns — and 240.4(D) caps it at a 15A breaker. 10 AWG CCA is 25/30/35A, capped at 25A. That one-column shift is exactly why a CCA circuit goes one size up from copper for the same breaker.",
       "sharma_note": "S-10: branch circuits are copper by default — 14 AWG on 15A, 12 AWG on 20A. When CCA is used, go one AWG larger (12 on 15A, 10 on 20A) because Table 310.16 rates CCA in the aluminum column. Terminations must be marked for the conductor (110.14); wire connectors and lugs need AL-CU / CU-AL marking, CU-only connectors are not rated for CCA, and push-in terminals are 14 AWG solid copper only. Never backstab. The microwave circuit wire is PENDING under S-06 (12 AWG copper versus 10 AWG CCA).",
       "figure_idea": "A printed Table 310.16 excerpt with the 12 AWG and 10 AWG rows highlighted, an arrow from 'CCA' into the aluminum columns, and the 240.4(D) caps written under the rows.",
@@ -427,7 +544,7 @@
         "C3-Q-006"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [
         "S-10"
       ],
@@ -463,7 +580,7 @@
       ],
       "florida_note": "No 14 AWG CCA branch-circuit wiring in Florida 2020 work: 310.3(A) sets the minimum at 14 AWG copper or 12 AWG aluminum or copper-clad aluminum. Later editions debated 10-ampere branch circuits and 14 AWG CCA, and published sources disagree on what the 2023 edition actually adopted for 14 AWG CCA — do not rely on any later-edition 14 AWG CCA rule in 2020 work.",
       "verified": false,
-      "unverified_reason": "Kept unverified in the 2026-11-18 verification pass: (1) CCA voltage-drop resistance figures are derived from the ASTM B566 15 percent class maximum resistivity, not a Chapter 9 Table 8 value at 75 °C, and the class of the specific Copperweld building-wire product is not confirmed; (2) termination and device marking rules for CCA conflict between manufacturer sources; (3) sizing a CCA dwelling service or whole-load feeder from the aluminum sizes in Table 310.12 is not confirmed from the printed text; (4) published sources disagree on what the 2023 edition adopted for 14 AWG CCA and 10 A branch circuits. Page text softened so none of these points is stated as fact.",
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): Keep verified=false. Confirmed parts: CCA is read in the Al/CCA column of Table 310.16; Chapter 9 Table 8 has no CCA row; box fill (314.16(B), 2.50 in³ for 10 AWG) and Chapter 9 Tables 4/5 go by size and insulation, not metal; 310.3(A) minimum is 12 AWG Al/CCA; 334.104 NM conductors are 12 AWG and larger for Al/CCA. Still open: (1) no published 75°C resistance for the specific Copperweld NM-B product — get the manufacturer's datasheet; (2) the termination marking rule — see the CCA/UL ruling (connectors marked AL7CU/AL9CU, or CC/CU-CC per the UL guide, are the ones to look for; confirm on Product iQ for the exact product category); (3) whether Table 310.12's aluminum column says 'aluminum or copper-clad aluminum' needs a printed-2020 check; (4) the 2023 14 AWG CCA / 10A branch-circuit question needs a printed-2023 check. One edit now: delete the sentence quoting \"2.46 and 1.55 ohm figures\" — the page already says not to use them, so they should not appear at all.",
       "sharma_rule_ids": [
         "S-10"
       ],
@@ -475,7 +592,7 @@
       "article": "311",
       "section": "311",
       "title": "Medium-voltage conductors and cable",
-      "plain_explanation": "Article 311 covers the use, installation, construction specifications and ampacities for medium-voltage conductors and cable, Type MV — a single or multiconductor solid-dielectric cable rated 2,001 volts up to and including 35,000 volts, nominal. It was new in the 2020 NEC, built from material formerly in Articles 310 and 328, and Article 328 was deleted. In the 2023 NEC this material was moved and expanded as Article 315, and Article 305, the general article for systems over 1,000 volts, is also a 2023 addition — 315 and 305 are not 2020 numbers. Sharma does not pull medium-voltage cable on ordinary work; this page exists so the book's map is complete and nobody cites the wrong edition's number.",
+      "plain_explanation": "Article 311 covers the use, installation, construction specifications and ampacities for medium-voltage conductors and cable, Type MV — a single or multiconductor solid-dielectric cable rated 2,001 volts up to and including 35,000 volts, nominal. It was new in the 2020 NEC, built from material formerly in Articles 310 and 328, and Article 328 was deleted. In the 2023 NEC this material was moved and expanded as Article 315, and Article 305, the general article for systems over 1,000 volts, is also a 2023 addition — 315 and 305 are not 2020 numbers. Sharma does not pull medium-voltage cable on ordinary work; this page exists so the book's map is complete and nobody cites the wrong edition's number.\n\nNEC 2023 CHANGE:\n• 311: Article 311 was renumbered and expanded as Article 315, 'Medium Voltage Conductors, Cable, Cable Joints, and Cable Terminations' (new 315.6 listing, 315.17 marking of MV joints and terminations).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If a job genuinely involves Type MV cable — systems rated over 2,000 volts, up to 35,000 volts — that is engineered, utility-coordinated work — stop at this page and escalate; do not extend house habits (NM, ordinary splices, ordinary terminations) into this article.",
       "sharma_note": "",
       "figure_idea": "Single-line of a campus feeder at medium voltage with a clear 'specialized work — engineered' tag.",
@@ -484,14 +601,23 @@
       "verified": true,
       "prev_id": "C3-310.16-CCA",
       "next_id": "C3-ART-312",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "311",
+          "change": "Article 311 was renumbered and expanded as Article 315, 'Medium Voltage Conductors, Cable, Cable Joints, and Cable Terminations' (new 315.6 listing, 315.17 marking of MV joints and terminations).",
+          "source": "ICC 2023 NEC Changes Educode (items 172-175); Utah DOPL objectives",
+          "url": "https://www.iccsafe.org/wp-content/uploads/Session-10-and-40-2023-NEC-Changes.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-312",
       "article": "312",
       "section": "312",
       "title": "Cabinets, cutout boxes and meter socket enclosures",
-      "plain_explanation": "Article 312 covers the enclosures the conductors in Article 310 land in: panel cabinets, cutout boxes and meter sockets. Its job is room and protection inside the enclosure — enough space to deflect and bend conductors entering the top or bottom, no sharp edges cutting insulation, doors and covers that close properly, and enclosures kept out of damp and wet locations unless they are rated for them. Working space in front of the enclosure is a Chapter 1 rule (110.26), not this article.",
+      "plain_explanation": "Article 312 covers the enclosures the conductors in Article 310 land in: panel cabinets, cutout boxes and meter sockets. Its job is room and protection inside the enclosure — enough space to deflect and bend conductors entering the top or bottom, no sharp edges cutting insulation, doors and covers that close properly, and enclosures kept out of damp and wet locations unless they are rated for them. Working space in front of the enclosure is a Chapter 1 rule (110.26), not this article.\n\nNEC 2023 CHANGE:\n• 312.10: For the first time, screws that poke into a cabinet, cutout box or meter can are limited: blunt tips only, and 1/4 in. of reach unless the tip is protected. A field-added screw for a label or other gear must be a blunt machine screw reaching 1/4 in. or less, unless its tip is protected.\n• 312.102: New in 2023: cabinets, cutout boxes and meter cans all need a door or a cover. No open cans. Doors or covers are now mandatory on all three Article 312 enclosures: cabinets, cutout boxes and meter cans (312.102).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On a Sharma house this is the meter enclosure and the panel cabinet. Check conductor bending room before you land a 4/0 service conductor, not after, and keep the enclosure plumb so the deadfront and door seat correctly.",
       "sharma_note": "S-09 puts the meter outside and the panel inside, back to back, where the house allows — both enclosures still have to meet this article and the 110.26 working space.",
       "figure_idea": "Elevation of a meter socket beside a panel cabinet with the conductor bending space shaded at the top entry.",
@@ -506,7 +632,23 @@
       ],
       "prev_id": "C3-ART-311",
       "next_id": "C3-312.5(C)",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "312.10",
+          "change": "For the first time, screws that poke into a cabinet, cutout box or meter can are limited: blunt tips only, and 1/4 in. of reach unless the tip is protected. A field-added screw for a label or other gear must be a blunt machine screw reaching 1/4 in. or less, unless its tip is protected.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 312.10 Fasteners in panels and meter cans",
+          "url": "https://www.electricalexamcoach.app/changes/2023/312-10",
+          "confirmed": true
+        },
+        {
+          "section": "312.102",
+          "change": "New in 2023: cabinets, cutout boxes and meter cans all need a door or a cover. No open cans. Doors or covers are now mandatory on all three Article 312 enclosures: cabinets, cutout boxes and meter cans (312.102).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 312.102 Covers on cabinets and meter cans",
+          "url": "https://www.electricalexamcoach.app/changes/2023/312-102",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-312.5(C)",
@@ -527,7 +669,9 @@
       "prev_id": "C3-ART-312",
       "next_id": "C3-312.6",
       "chapter": 3,
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: The exception is incomplete. Replace the conditions with the full 2020 list: the raceway is nonflexible, at least 18 in. and not more than 10 ft long; it enters the top of a surface-mounted enclosure; each cable is fastened within 12 in. of the raceway's outer end, measured along the sheath; the raceway runs directly above the enclosure and does not penetrate a structural ceiling; there is a fitting on each end to protect against abrasion, and the fittings stay accessible; the outer end is sealed or plugged; the cable sheath runs continuously through the raceway and at least 1/4 in. into the enclosure; the raceway is fastened at its outer end and per its article; and the cable fill does not exceed Chapter 9 Table 1 (applying the 60% nipple rule does not apply). The on-the-job text should add the 18 in. minimum and the seal/plug.",
+      "recheck_correction": "The exception is incomplete. Replace the conditions with the full 2020 list: the raceway is nonflexible, at least 18 in. and not more than 10 ft long; it enters the top of a surface-mounted enclosure; each cable is fastened within 12 in. of the raceway's outer end, measured along the sheath; the raceway runs directly above the enclosure and does not penetrate a structural ceiling; there is a fitting on each end to protect against abrasion, and the fittings stay accessible; the outer end is sealed or plugged; the cable sheath runs continuously through the raceway and at least 1/4 in. into the enclosure; the raceway is fastened at its outer end and per its article; and the cable fill does not exceed Chapter 9 Table 1 (applying the 60% nipple rule does not apply). The on-the-job text should add the 18 in. minimum and the seal/plug."
     },
     {
       "id": "C3-312.6",
@@ -545,14 +689,15 @@
       "verified": false,
       "prev_id": "C3-312.5(C)",
       "next_id": "C3-312.8",
-      "chapter": 3
+      "chapter": 3,
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): The Table 312.6(B) one-wire bending-space values on this page (4/0 = 5½ in., 250 = 6 in., 300 = 6½ in., 350 = 7 in., 400–500 = 8 in., ...) do not match my recollection of either Table 312.6(A) or 312.6(B), and I could not confirm them from a public source. Remove the number list until it has been checked row by row against the printed 2020 Table 312.6(B). Also make clear that Table 312.6(B) applies where the conductor enters or leaves through the wall opposite its terminal, and Table 312.6(A) covers gutter width and bending space where it does not."
     },
     {
       "id": "C3-312.8",
       "article": "312",
       "section": "312.8",
       "title": "What may live inside an enclosure for switches and overcurrent devices",
-      "plain_explanation": "An enclosure that houses switches or overcurrent devices is not a general-purpose junction box, but it is not sealed against all other wiring either: this section allows conductors to run through and splice inside it within set limits — commonly taught as the wiring space used by feed-through conductors being limited to a share of the enclosure's cross-sectional wiring space (40%), and splices and taps to a larger share (75%), with the exact conditions in the section. The 2020 changes also addressed power-monitoring and energy-management equipment installed in these enclosures.",
+      "plain_explanation": "An enclosure that houses switches or overcurrent devices is not a general-purpose junction box, but it is not sealed against all other wiring either: this section allows conductors to run through and splice inside it within set limits — commonly taught as the wiring space used by feed-through conductors being limited to a share of the enclosure's cross-sectional wiring space (40%), and splices and taps to a larger share (75%), with the exact conditions in the section. The 2020 changes also addressed power-monitoring and energy-management equipment installed in these enclosures.\n\nNEC 2023 CHANGE:\n• 312.8: Switch and breaker enclosures carrying feed-through conductors, splices or taps now need enough bending space for 4 AWG and larger conductors, on top of the old 40 and 75 percent fill limits. New item (3): 4 AWG and larger conductors in the wiring space need bending room that meets 314.28(A)(2), the angle-pull rule for pull boxes.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Do not treat a panel as free splice space on a remodel. If feed-through or splices are planned in an overcurrent enclosure, count the space, keep it in the wiring gutter area, and be ready to show the inspector the section you relied on.",
       "sharma_note": "",
       "figure_idea": "Panel gutter detail with feed-through conductors occupying a measured share of the wiring space, splice bundle tagged separately.",
@@ -563,14 +708,23 @@
       "verified": true,
       "prev_id": "C3-312.6",
       "next_id": "C3-ART-314",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "312.8",
+          "change": "Switch and breaker enclosures carrying feed-through conductors, splices or taps now need enough bending space for 4 AWG and larger conductors, on top of the old 40 and 75 percent fill limits. New item (3): 4 AWG and larger conductors in the wiring space need bending room that meets 314.28(A)(2), the angle-pull rule for pull boxes.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 312.8 Splices and feed-through in panels",
+          "url": "https://www.electricalexamcoach.app/changes/2023/312-8",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-314",
       "article": "314",
       "section": "314",
       "title": "Outlet, device, pull and junction boxes",
-      "plain_explanation": "Article 314 is the box article: which box, how big, how it is set, how it is supported, and what may live in it. The sizing heart is 314.16 — a box is big enough only if its marked volume holds every conductor, device, clamp and ground the counting rules charge against it. The placement rules around it (setback, repair, support, fan rating, accessibility) are what inspectors check after the volume math passes.",
+      "plain_explanation": "Article 314 is the box article: which box, how big, how it is set, how it is supported, and what may live in it. The sizing heart is 314.16 — a box is big enough only if its marked volume holds every conductor, device, clamp and ground the counting rules charge against it. The placement rules around it (setback, repair, support, fan rating, accessibility) are what inspectors check after the volume math passes.\n\nNEC 2023 CHANGE:\n• 314.24: New clearances where wiring enters a box: at a side entry, the device stays behind the knockout centerline or 1/2 in. off that wall. A center-back entry adds room behind 12 or 10 AWG equipment. With a side entry, the back of the device can't reach past the centerline of that knockout or entry (314.24(C)(1)).\n• 314.25: Conduit bodies joined boxes in the closure rule: on a finished job, every LB and other conduit body needs a cover, faceplate, luminaire canopy or lampholder. On a finished job, every conduit body needs a cover, faceplate, luminaire canopy or lampholder, the same as a box.\n• 314.5: New fastener limits for boxes and conduit bodies: blunt machine screws, set reach limits for cover and wall screws, and nothing poking past flush in small boxes or conduit bodies. Pointed screws are out: field-added screws in boxes and conduit bodies must be blunt-end machine screws, unless the manufacturer supplied or specified them.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Run the fill math before the rough-in, not at trim. A box that fails fill in the wall fails the same way on paper — cheaper to catch it on paper.",
       "sharma_note": "",
       "figure_idea": "Cutaway of a 4-square box with a receptacle, two NM cables and clamps, each counted item tagged 1x, 2x or 'grounds = 1'.",
@@ -585,14 +739,37 @@
       "verified": true,
       "prev_id": "C3-312.8",
       "next_id": "C3-314.16",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "314.24",
+          "change": "New clearances where wiring enters a box: at a side entry, the device stays behind the knockout centerline or 1/2 in. off that wall. A center-back entry adds room behind 12 or 10 AWG equipment. With a side entry, the back of the device can't reach past the centerline of that knockout or entry (314.24(C)(1)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 314.24 Box clearances at wiring entries",
+          "url": "https://www.electricalexamcoach.app/changes/2023/314-24",
+          "confirmed": true
+        },
+        {
+          "section": "314.25",
+          "change": "Conduit bodies joined boxes in the closure rule: on a finished job, every LB and other conduit body needs a cover, faceplate, luminaire canopy or lampholder. On a finished job, every conduit body needs a cover, faceplate, luminaire canopy or lampholder, the same as a box.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 314.25 Covers on conduit bodies",
+          "url": "https://www.electricalexamcoach.app/changes/2023/314-25",
+          "confirmed": true
+        },
+        {
+          "section": "314.5",
+          "change": "New fastener limits for boxes and conduit bodies: blunt machine screws, set reach limits for cover and wall screws, and nothing poking past flush in small boxes or conduit bodies. Pointed screws are out: field-added screws in boxes and conduit bodies must be blunt-end machine screws, unless the manufacturer supplied or specified them.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 314.5 Screws and fasteners in boxes",
+          "url": "https://www.electricalexamcoach.app/changes/2023/314-5",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-314.16",
       "article": "314",
       "section": "314.16",
       "title": "Box fill — volume, allowances and counting",
-      "plain_explanation": "A box may not be filled past its volume. Start with the box volume: for a standard metal box use Table 314.16(A); for a nonmetallic or marked box use the volume marked on the box itself. Then charge the contents using Table 314.16(B) allowances — 2.00 cu in for each 14 AWG, 2.25 for each 12 AWG, 2.50 for each 10 AWG. The counting rules in 314.16(B)(1) through (5) decide how many allowances each thing costs — including the 2020 grounds rule on the next page (up to four grounds count once, each one past four adds a quarter) — and the total charge may not exceed the box volume.\n\nBox volumes from Table 314.16(A) for the boxes Sharma stocks:\n• 4 in square × 1-1/2 in deep — 21.0 cu in\n• 4 in square × 2-1/8 in deep — 30.3 cu in\n• 4-11/16 in square × 1-1/2 in deep — 25.5 cu in\n• 4-11/16 in square × 2-1/8 in deep — 42.0 cu in\n• 4 in octagonal × 1-1/4 in deep — 12.5 cu in\n• 4 in octagonal × 1-1/2 in deep — 15.0 cu in\n• 4 in octagonal × 2-1/8 in deep — 21.5 cu in\nA plaster ring or extension ring marked with its volume adds that volume; an unmarked one adds nothing you may count.",
+      "plain_explanation": "A box may not be filled past its volume. Start with the box volume: for a standard metal box use Table 314.16(A); for a nonmetallic or marked box use the volume marked on the box itself. Then charge the contents using Table 314.16(B) allowances — 2.00 cu in for each 14 AWG, 2.25 for each 12 AWG, 2.50 for each 10 AWG. The counting rules in 314.16(B)(1) through (5) decide how many allowances each thing costs — including the 2020 grounds rule on the next page (up to four grounds count once, each one past four adds a quarter) — and the total charge may not exceed the box volume.\n\nBox volumes from Table 314.16(A) for the boxes Sharma stocks:\n• 4 in square × 1-1/2 in deep — 21.0 cu in\n• 4 in square × 2-1/8 in deep — 30.3 cu in\n• 4-11/16 in square × 1-1/2 in deep — 25.5 cu in\n• 4-11/16 in square × 2-1/8 in deep — 42.0 cu in\n• 4 in octagonal × 1-1/4 in deep — 12.5 cu in\n• 15.5 cu in\n• 4 in octagonal × 2-1/8 in deep — 21.5 cu in\nA plaster ring or extension ring marked with its volume adds that volume; an unmarked one adds nothing you may count.",
       "on_the_job": "The five counts, in field order: (1) each conductor that enters from outside and ends or is spliced in the box counts once, and a conductor that passes through unbroken also counts once, while a short pigtail that starts and ends in the box counts zero; (2) [see the (B) page for the full list in order]. Worked example from the v1 tables: a 4 x 1-1/2 square box is 21.0 cu in. Three 12/2 NM cables, one receptacle and internal clamps charge 6 conductors x 2.25 = 13.50, grounds 2.25, device yoke 4.50, clamps 2.25 — total 22.50 cu in. It fails. The 4 x 2-1/8 square at 30.3 cu in passes.",
       "sharma_note": "Box height on the wall is not a 314 rule — Sharma S-04 (receptacles 18 in to the bottom of the box, plan silent) and S-05 (switches 48 in to center) govern placement; 314 governs whether the box you placed is big enough and set right.",
       "figure_idea": "Worksheet-style figure: left side a box volume stamp '30.3 cu in', right side a tally list adding to 22.50, with a green check.",
@@ -611,7 +788,7 @@
         "C3-Q-003"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-314",
       "next_id": "C3-314.16(B)",
       "chapter": 3
@@ -621,7 +798,7 @@
       "article": "314",
       "section": "314.16(B)",
       "title": "The five counting rules, one by one",
-      "plain_explanation": "314.16(B)(1) Conductors: each conductor from outside the box that is spliced or terminated counts once; a conductor that runs through unbroken counts once; an unbroken loop or coil of conductor not less than twice the minimum free-conductor length required by 300.14 — so 12 in or more of loop — counts twice; pigtails that originate in the box count zero. (B)(2) Clamps: where one or more internal cable clamps are present, all of them together count once, at the largest conductor in the box; a cable connector with its clamping mechanism outside the box counts zero. (B)(3) Support fittings: where luminaire studs or hickeys are present, count one allowance for each type of fitting — all studs together count once, and all hickeys together count once, so a box with both a stud and a hickey counts two — at the largest conductor in the box. (B)(4) Devices: each device yoke or strap counts twice, at the largest conductor connected to that device; a device wider than a single 2 in device box counts twice for each gang required to mount it. (B)(5) Grounds — the count that changed in 2020: up to four equipment grounding conductors and equipment bonding jumpers entering the box together count once, at the largest ground in the box, and each additional one beyond four adds a quarter of that allowance. Isolated-ground conductors count in with the rest of the grounds; the old separate extra allowance for an isolated-ground set is a 2017 rule and does not apply in 2020.",
+      "plain_explanation": "314.16(B)(1) Conductors: each conductor from outside the box that is spliced or terminated counts once; a conductor that runs through unbroken counts once; an unbroken loop or coil of conductor not less than twice the minimum free-conductor length required by 300.14 — so 12 in or more of loop — counts twice; pigtails that originate in the box count zero. (B)(2) Clamps: where one or more internal cable clamps are present, all of them together count once, at the largest conductor in the box; a cable connector with its clamping mechanism outside the box counts zero. (B)(3) Support fittings: where luminaire studs or hickeys are present, count one allowance for each type of fitting — all studs together count once, and all hickeys together count once, so a box with both a stud and a hickey counts two — at the largest conductor in the box. (B)(4) Devices: each device yoke or strap counts twice, at the largest conductor connected to that device; a device wider than a single 2 in device box counts twice for each gang required to mount it. (B)(5) Grounds — the count that changed in 2020: up to four equipment grounding conductors and equipment bonding jumpers entering the box together count once, at the largest ground in the box, and each additional one beyond four adds a quarter of that allowance. Isolated-ground conductors count in with the rest of the grounds; the old separate extra allowance for an isolated-ground set is a 2017 rule and does not apply in 2020.\n\nNEC 2023 CHANGE:\n• 314.16: New in 2023: a terminal block inside a box takes up box fill. Count one volume for the whole block, based on the biggest wire terminated on it. Add one volume allowance for each terminal block assembly, using the largest conductor terminated on it (314.16(B)(6)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Say the counts out loud as you tally: wires, clamps, studs, yokes, grounds. Field example at 12 AWG (2.25 cu in): four grounds = 2.25 cu in; six grounds = 2.25 + (2 x 0.25 x 2.25) = 3.38 cu in. In a normal house box with two or three cables the ground count is four or fewer, so the old habit gives the same answer — the quarter rule only bites in crowded multi-cable boxes, which is exactly where fill was already tight.",
       "sharma_note": "",
       "figure_idea": "Five-row tally card with icons: conductor, clamp, stud, yoke, ground bar, each with its multiplier.",
@@ -635,7 +812,16 @@
       "verified": true,
       "prev_id": "C3-314.16",
       "next_id": "C3-314.16(C)",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "314.16",
+          "change": "New in 2023: a terminal block inside a box takes up box fill. Count one volume for the whole block, based on the biggest wire terminated on it. Add one volume allowance for each terminal block assembly, using the largest conductor terminated on it (314.16(B)(6)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 314.16 Terminal blocks in box fill",
+          "url": "https://www.electricalexamcoach.app/changes/2023/314-16",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-314.16(C)",
@@ -652,7 +838,7 @@
         "C3-L-061"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-314.16(B)",
       "next_id": "C3-314.17",
       "chapter": 3,
@@ -663,7 +849,7 @@
       "article": "314",
       "section": "314.17",
       "title": "Conductors and cables entering boxes",
-      "plain_explanation": "Cables entering a box have to be secured to it, or the cable has to be fastened close enough that the box entry stays put, and the cable sheath has to continue into the box so the conductors are protected where they enter. The v1 field rule (L-065): the sheath extends at least 1/4 in inside the box past any clamp, and with single-gang nonmetallic boxes the cable is fastened within 8 in of the box while the sheath still goes 1/4 in in.",
+      "plain_explanation": "Cables entering a box have to be secured to it, or the cable has to be fastened close enough that the box entry stays put, and the cable sheath has to continue into the box so the conductors are protected where they enter. The v1 field rule (L-065): the sheath extends at least 1/4 in inside the box past any clamp, and with single-gang nonmetallic boxes the cable is fastened within 8 in of the box while the sheath still goes 1/4 in in.\n\nNEC 2023 CHANGE:\n• 314.17: The section now names cables in its title alongside conductors and was reworded for accuracy. The working rules for closing openings and securing NM and UF cable carry over. NM or UF through a clamp: jacket 1/4 in. or more into the box and past the clamp, and the cable secured to the box.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Strip the sheath outside the box, not inside it: 1/4 in of sheath past the clamp is protection; 2 in of sheath inside the box is fill you did not count and a make-up fight at trim.",
       "sharma_note": "",
       "figure_idea": "Close-up of an NM cable entering a plastic box: sheath ending 1/4 in past the knockout, conductors separating after that point.",
@@ -676,7 +862,16 @@
       "verified": true,
       "prev_id": "C3-314.16(C)",
       "next_id": "C3-314.20",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "314.17",
+          "change": "The section now names cables in its title alongside conductors and was reworded for accuracy. The working rules for closing openings and securing NM and UF cable carry over. NM or UF through a clamp: jacket 1/4 in. or more into the box and past the clamp, and the cable secured to the box.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 314.17 Cables entering boxes",
+          "url": "https://www.electricalexamcoach.app/changes/2023/314-17",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-314.20",
@@ -719,7 +914,7 @@
       "article": "314",
       "section": "314.23",
       "title": "Supporting boxes",
-      "plain_explanation": "A box has to be supported — screwed, nailed, braced or hung by a method the article allows for that box type — rigidly enough that it does not move when devices are plugged in and pulled out for twenty years. Surface boxes, pendant boxes and boxes in walls and ceilings each have their own allowed supports in this section, and a box supported by a raceway alone is allowed only in the narrow cases the section describes.",
+      "plain_explanation": "A box has to be supported — screwed, nailed, braced or hung by a method the article allows for that box type — rigidly enough that it does not move when devices are plugged in and pulled out for twenty years. Surface boxes, pendant boxes and boxes in walls and ceilings each have their own allowed supports in this section, and a box supported by a raceway alone is allowed only in the narrow cases the section describes.\n\nNEC 2023 CHANGE:\n• 314.23: Pendant boxes hung from cord: a box with a hub now has to hang from a listed cord grip that carries a threaded-hub marking. Cord-hung box with a hub? It has to be held by a listed cord grip marked for threaded-hub use (314.23(H)(1)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Wiggle test at rough-in: grab the box and push. If it moves, the device will move at trim and the plate will never sit flat. Add the brace or bracket now.",
       "sharma_note": "",
       "figure_idea": "",
@@ -730,7 +925,16 @@
       "verified": true,
       "prev_id": "C3-314.21",
       "next_id": "C3-314.27(A)",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "314.23",
+          "change": "Pendant boxes hung from cord: a box with a hub now has to hang from a listed cord grip that carries a threaded-hub marking. Cord-hung box with a hub? It has to be held by a listed cord grip marked for threaded-hub use (314.23(H)(1)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 314.23 Cord-hung pendant boxes",
+          "url": "https://www.electricalexamcoach.app/changes/2023/314-23",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-314.27(A)",
@@ -747,7 +951,7 @@
         "C3-Q-038"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-314.23",
       "next_id": "C3-314.27(C)",
       "chapter": 3,
@@ -758,7 +962,7 @@
       "article": "314",
       "section": "314.27(C)",
       "title": "Boxes at ceiling-fan outlets",
-      "plain_explanation": "Where an outlet in a habitable room ceiling is in a spot that could support a ceiling fan — wired and placed the way a fan location is — the box has to be listed for fan support, and the maximum weight it may carry is marked on it. A fan over 35 lb up to 70 lb needs a box marked for that weight; a fan heavier than 70 lb is supported independently of the box.",
+      "plain_explanation": "Where an outlet in a habitable room ceiling is in a spot that could support a ceiling fan — wired and placed the way a fan location is — the box has to be listed for fan support, and the maximum weight it may carry is marked on it. A fan over 35 lb up to 70 lb needs a box marked for that weight; a fan heavier than 70 lb is supported independently of the box.\n\nNEC 2023 CHANGE:\n• 314.27: The rules for plug-in ceiling receptacles that hold up a fixture or fan now use the defined names WSCR and WSAF, and spell out when the pair can carry a paddle fan. A listed weight-supporting ceiling receptacle (WSCR) paired with a compatible attachment fitting (WSAF) can solely support a paddle fan, if 314.27(C) is met.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If there is a ceiling outlet in a bedroom or living room with a switch leg, rough it in with a fan-rated box whether or not the plan shows a fan today — the next owner will hang one there. That is checklist BL-09.",
       "sharma_note": "",
       "figure_idea": "Ceiling box seen from below with its fan-support marking enlarged, and a fan outline above it.",
@@ -771,7 +975,16 @@
       "verified": true,
       "prev_id": "C3-314.27(A)",
       "next_id": "C3-314.28",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "314.27",
+          "change": "The rules for plug-in ceiling receptacles that hold up a fixture or fan now use the defined names WSCR and WSAF, and spell out when the pair can carry a paddle fan. A listed weight-supporting ceiling receptacle (WSCR) paired with a compatible attachment fitting (WSAF) can solely support a paddle fan, if 314.27(C) is met.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 314.27 Weight-supporting ceiling receptacles",
+          "url": "https://www.electricalexamcoach.app/changes/2023/314-27",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-314.28",
@@ -814,7 +1027,7 @@
       "article": "320",
       "section": "320",
       "title": "Armored cable — Type AC",
-      "plain_explanation": "Type AC is a factory cable with its conductors inside a flexible metal armor, with an internal bonding strip in contact with the armor so the armor can serve as the equipment ground path. Sharma meets this article most often through one cross-reference: 334.23 sends NM cable in accessible attics to the attic protection rules written here in 320.23. The cable itself shows up on Sharma jobs mainly in older work and the occasional commercial job.",
+      "plain_explanation": "Type AC is a factory cable with its conductors inside a flexible metal armor, with an internal bonding strip in contact with the armor so the armor can serve as the equipment ground path. Sharma meets this article most often through one cross-reference: 334.23 sends NM cable in accessible attics to the attic protection rules written here in 320.23. The cable itself shows up on Sharma jobs mainly in older work and the occasional commercial job.\n\nNEC 2023 CHANGE:\n• 320.23: The attic rule now speaks of framing members instead of floor joists, and measures the 7-ft zone from the floor or an equivalent horizontal surface. The distances didn't change. Cable laid over the tops of framing members in an accessible attic needs guard strips as tall as the cable or taller.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Do not confuse AC with MC: AC carries its bonding strip and uses fittings listed for AC; MC (Article 330) usually carries a separate green ground conductor. The fittings are not interchangeable by habit — use the fitting listed for the cable in your hand.",
       "sharma_note": "",
       "figure_idea": "Detail of AC cable end: armor, bonding strip folded back, anti-short bushing at the connector.",
@@ -827,14 +1040,23 @@
       "verified": true,
       "prev_id": "C3-314.29",
       "next_id": "C3-ART-322",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "320.23",
+          "change": "The attic rule now speaks of framing members instead of floor joists, and measures the 7-ft zone from the floor or an equivalent horizontal surface. The distances didn't change. Cable laid over the tops of framing members in an accessible attic needs guard strips as tall as the cable or taller.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 320.23 Cable protection in attics",
+          "url": "https://www.electricalexamcoach.app/changes/2023/320-23",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-322",
       "article": "322",
       "section": "322",
       "title": "Flat cable assemblies — Type FC",
-      "plain_explanation": "Type FC is a factory flat-cable assembly of parallel conductors formed integrally with an insulating web, made to be field-installed in a surface metal raceway identified for the use — a specialized method, not a substitute for NM run loose in a wall. It is permitted only as branch circuits, with a branch-circuit rating not exceeding 30 amperes, to supply suitable tap devices for lighting, small appliances, or small power loads, where installed for exposed work in locations where it will not be subject to physical damage, and protected by a cover identified for the use where it is installed less than 8 ft above the floor or a fixed working platform. The cable, raceway, tap devices and fittings are a listed system, installed by this article and the manufacturer's instructions.",
+      "plain_explanation": "Type FC is a factory flat-cable assembly of parallel conductors formed integrally with an insulating web, made to be field-installed in a surface metal raceway identified for the use — a specialized method, not a substitute for NM run loose in a wall. It is permitted only as branch circuits, with a branch-circuit rating not exceeding 30 amperes, to supply suitable tap devices for lighting, small appliances, or small power loads, where installed for exposed work in locations where it will not be subject to physical damage, and protected by a cover identified for the use where it is installed less than 8 ft above the floor or a fixed working platform. The cable, raceway, tap devices and fittings are a listed system, installed by this article and the manufacturer's instructions.\n\nNEC 2023 CHANGE:\n• 322.56(8): Made changes to flat cable assembly requirements by removing the term \"color-coded\" and replacing it with \"marked\" in Section 322.56(B).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Sharma does not install Type FC on ordinary work. If a spec calls for it, the listed system components come as a set — do not mix in ordinary boxes or fittings.",
       "sharma_note": "",
       "figure_idea": "",
@@ -843,7 +1065,16 @@
       "verified": true,
       "prev_id": "C3-ART-320",
       "next_id": "C3-ART-324",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "322.56(8)",
+          "change": "Made changes to flat cable assembly requirements by removing the term \"color-coded\" and replacing it with \"marked\" in Section 322.56(B).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 322.56(8) Taps",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-324",
@@ -882,7 +1113,7 @@
       "article": "330",
       "section": "330",
       "title": "Metal-clad cable — Type MC",
-      "plain_explanation": "Type MC is a factory assembly of insulated conductors inside a metal sheath — smooth, corrugated or interlocked armor — with its own equipment grounding arrangement. It is the commercial counterpart to NM: it can be used exposed or concealed, in dry locations and the other locations its listing allows, fished in existing walls, and run where NM cannot go, such as many commercial ceilings and walls. It may not be used where it will be subject to physical damage, in wet locations unless the specific cable is listed for it, or in the other prohibited uses its article lists.\n\nThe support numbers (330.30): MC must be secured within 12 in of every box, cabinet, and fitting, and supported at intervals not exceeding 6 ft. Short lengths to luminaires and fished runs in existing walls have their own exceptions in that section — the 12 in and 6 ft figures are the default rhythm.",
+      "plain_explanation": "Type MC is a factory assembly of insulated conductors inside a metal sheath — smooth, corrugated or interlocked armor — with its own equipment grounding arrangement. It is the commercial counterpart to NM: it can be used exposed or concealed, in dry locations and the other locations its listing allows, fished in existing walls, and run where NM cannot go, such as many commercial ceilings and walls. It may not be used where it will be subject to physical damage, in wet locations unless the specific cable is listed for it, or in the other prohibited uses its article lists.\n\nThe support numbers (330.30): MC is secured at intervals not exceeding 6 ft; cables with four or fewer conductors no larger than 10 AWG are also secured within 12 in. of every box, cabinet, fitting or other termination (330.30(B)). Listed cables with 250 kcmil or larger ungrounded conductors in vertical runs may be secured at up to 10 ft.. Short lengths to luminaires and fished runs in existing walls have their own exceptions in that section — the 12 in and 6 ft figures are the default rhythm.\n\nNEC 2023 CHANGE:\n• 330.112(A): Made a few editorial changes in Section 330.l 12(A) to correlate with the addition of 16 AWG copper conductors for general use wiring methods used with metal-dad cable (Type MC).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Cut MC with the right tool and use listed MC connectors — a Romex connector is not an MC connector. Support and securing follow 330.30 (see the companion lookup), with the familiar pattern of securing close to boxes and supporting at regular intervals, plus exceptions for fished runs and short lengths to luminaires.",
       "sharma_note": "S-01 applies on commercial work, where MC is most used: 20A minimum branch circuits, 12 AWG copper minimum.",
       "figure_idea": "MC cable run across commercial studs with a listed connector at a 4-square box, armor and green ground shown.",
@@ -892,13 +1123,22 @@
         "S-01"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [
         "S-01"
       ],
       "prev_id": "C3-ART-326",
       "next_id": "C3-330.10",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "330.112(A)",
+          "change": "Made a few editorial changes in Section 330.l 12(A) to correlate with the addition of 16 AWG copper conductors for general use wiring methods used with metal-dad cable (Type MC).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 330.112{A) 1000 Volts or Less. {MC Cable)",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-330.10",
@@ -914,7 +1154,7 @@
         "C3-330.30"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-330",
       "next_id": "C3-330.30",
       "chapter": 3,
@@ -925,7 +1165,7 @@
       "article": "330",
       "section": "330.30",
       "title": "Securing and supporting MC cable",
-      "plain_explanation": "MC is secured within 12 in of each box, cabinet, or fitting, and supported at intervals of not more than 6 ft. The exceptions carry the field cases:\n• Fished through existing walls or ceilings — no securing required where the cable cannot be reached\n• A length of not more than 6 ft from the last point of support to a luminaire or other equipment within an accessible ceiling — the ceiling whip\n• Short lengths at terminals where flexibility is needed for equipment that moves or vibrates\nOutside those cases, a long unsupported drape of MC across a ceiling is a violation even if it happens to be resting on the grid.",
+      "plain_explanation": "MC is secured within 12 in of each box, cabinet, or fitting, and supported at intervals of not more than 6 ft. The exceptions carry the field cases:\n• Fished through existing walls or ceilings — no securing required where the cable cannot be reached\n• A length of not more than 6 ft from the last point of support to a luminaire or other equipment within an accessible ceiling — the ceiling whip\n• Short lengths at terminals where flexibility is needed for equipment that moves or vibrates\nOutside those cases, a long unsupported drape of MC across a ceiling is a violation even if it happens to be resting on the grid. The 12 in. securing distance applies to cables with four or fewer conductors no larger than 10 AWG; the 6 ft interval applies to all. Flexibility exception: not more than 3 ft from the last point of support or securing where flexibility is needed after installation (330.30(D)(2)).",
       "on_the_job": "Strap MC like you mean it: within a foot of the box, then every 6 ft or less, with straps that fit the cable. The 6 ft whip allowance is measured from the last real support — not from wherever the cable happened to leave the bundle.",
       "sharma_note": "",
       "figure_idea": "MC run above a ceiling: strap at 12 in from the box, supports dimensioned at 6 ft, and a 6 ft whip dropping to a lay-in fixture.",
@@ -936,7 +1176,7 @@
         "C3-Q-034"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-330.10",
       "next_id": "C3-ART-332",
       "chapter": 3,
@@ -963,7 +1203,7 @@
       "article": "334",
       "section": "334",
       "title": "Nonmetallic-sheathed cable — Types NM, NMC, NMS (Romex)",
-      "plain_explanation": "This is Sharma's house cable. NM is two or more insulated conductors with an equipment ground, factory-wrapped in a nonmetallic sheath. Article 334 says where it may be used (334.10), where it may never be used (334.12), how it is protected and run (334.15, 334.17, 334.23), how it is bent (334.24), how often it is secured and supported (334.30), and how its ampacity is limited (334.80). Almost every Sharma rough-in decision — staple spacing, attic runs, the 60°C ampacity limit — traces back to this one article.",
+      "plain_explanation": "This is Sharma's house cable. NM is two or more insulated conductors with an equipment ground, factory-wrapped in a nonmetallic sheath. Article 334 says where it may be used (334.10), where it may never be used (334.12), how it is protected and run (334.15, 334.17, 334.23), how it is bent (334.24), how often it is secured and supported (334.30), and how its ampacity is limited (334.80). Almost every Sharma rough-in decision — staple spacing, attic runs, the 60°C ampacity limit — traces back to this one article.\n\nNEC 2023 CHANGE:\n• 334.19: A new NM cable-entry section: wherever NM enters a box, cabinet or other enclosure, at least 1/4 in. of its jacket has to extend past the clamp or entry point. Where NM enters an enclosure, its outer jacket has to run at least 1/4 in. beyond the clamp or entry (334.19).\n• 334.40: Splicing NM cable with no box inside walls and ceilings is now allowed on new work too, not just repairs, as long as the splice uses a listed NM cable interconnector. Listed NM cable interconnectors can join nonmetallic-sheathed (NM) cable without a box, exposed or hidden in walls and ceilings, new or existing (334.40(B)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If you learn one article in this chapter cold, learn this one. The other methods are variations; NM is the daily work.",
       "sharma_note": "",
       "figure_idea": "A coil of 12/2 NM beside a stapled stud bay run, with callouts to 334.30 (staples), 334.15 (protection) and 334.80 (ampacity).",
@@ -977,14 +1217,30 @@
       "verified": true,
       "prev_id": "C3-ART-332",
       "next_id": "C3-334.10",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "334.19",
+          "change": "A new NM cable-entry section: wherever NM enters a box, cabinet or other enclosure, at least 1/4 in. of its jacket has to extend past the clamp or entry point. Where NM enters an enclosure, its outer jacket has to run at least 1/4 in. beyond the clamp or entry (334.19).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 334.19 NM jacket past the clamp",
+          "url": "https://www.electricalexamcoach.app/changes/2023/334-19",
+          "confirmed": true
+        },
+        {
+          "section": "334.40",
+          "change": "Splicing NM cable with no box inside walls and ceilings is now allowed on new work too, not just repairs, as long as the splice uses a listed NM cable interconnector. Listed NM cable interconnectors can join nonmetallic-sheathed (NM) cable without a box, exposed or hidden in walls and ceilings, new or existing (334.40(B)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 334.40 Boxless NM cable splices",
+          "url": "https://www.electricalexamcoach.app/changes/2023/334-40",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-334.10",
       "article": "334",
       "section": "334.10",
       "title": "Where NM may be used",
-      "plain_explanation": "NM may be used exposed or concealed in normally dry locations, in one- and two-family dwellings and their garages, and in the other buildings and construction types this section allows. 'Normally dry' is the load-bearing phrase: the cable is a dry-location method, and the building type limits in this section are why a method that is fine in a house may not be fine in a larger commercial building.",
+      "plain_explanation": "NM may be used exposed or concealed in normally dry locations, in one- and two-family dwellings and their garages, and in the other buildings and construction types this section allows. 'Normally dry' is the load-bearing phrase: the cable is a dry-location method, and the building type limits in this section are why a method that is fine in a house may not be fine in a larger commercial building.\n\nNEC 2023 CHANGE:\n• 334.10: NM can now wire the detached garages that serve Type III, IV and V multifamily buildings, the same as the buildings themselves. NM is allowed in Type III, IV or V multifamily dwellings, and now in their detached garages too (334.10(2)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "House, garage and accessory work in dry interiors: NM is the default. Anything wet, damp, underground or in a bigger occupancy: stop and check 334.12 and pick another method.",
       "sharma_note": "",
       "figure_idea": "",
@@ -996,7 +1252,16 @@
       "verified": true,
       "prev_id": "C3-ART-334",
       "next_id": "C3-334.12",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "334.10",
+          "change": "NM can now wire the detached garages that serve Type III, IV and V multifamily buildings, the same as the buildings themselves. NM is allowed in Type III, IV or V multifamily dwellings, and now in their detached garages too (334.10(2)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 334.10 Where NM cable is allowed",
+          "url": "https://www.electricalexamcoach.app/changes/2023/334-10",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-334.12",
@@ -1022,7 +1287,7 @@
       "article": "334",
       "section": "334.15",
       "title": "NM in exposed work and through framing",
-      "plain_explanation": "Exposed NM has to follow the surface it is run on and be protected where it can be hit. Where it passes through a floor, a wall or framing, the Article 300 protection rules ride along: bored-hole setbacks and nail plates from 300.4, and protection where the cable passes through slots or notches. In unfinished basements and crawl spaces, this section sets how larger cables may run through joists and how smaller cables are run on running boards or through bored holes. The basement and crawl-space case has its own subsection, 334.15(C): where cable runs at angles with the joists, a cable at least as large as two 6 AWG or three 8 AWG conductors may be secured directly to the lower edges of the joists; smaller cables must run through bored holes in the joists or on running boards. NM on the wall of an unfinished basement must be protected — in listed conduit or tubing, or protected the way 300.4 requires — with a bushing or adapter where the cable enters the raceway.",
+      "plain_explanation": "Exposed NM has to follow the surface it is run on and be protected where it can be hit. Where it passes through a floor, a wall or framing, the Article 300 protection rules ride along: bored-hole setbacks and nail plates from 300.4, and protection where the cable passes through slots or notches. In unfinished basements and crawl spaces, this section sets how larger cables may run through joists and how smaller cables are run on running boards or through bored holes. The basement and crawl-space case has its own subsection, 334.15(C): where cable runs at angles with the joists, a cable at least as large as two 6 AWG or three 8 AWG conductors may be secured directly to the lower edges of the joists; smaller cables must run through bored holes in the joists or on running boards. NM on the wall of an unfinished basement must be protected — in listed conduit or tubing, or protected the way 300.4 requires — with a bushing or adapter where the cable enters the raceway.\n\nNEC 2023 CHANGE:\n• 334.15: Conduit or tubing that protects exposed NM from damage now needs a bushing or adapter at both ends, where the cable goes in and where it comes out (334.15(B)). A conduit or tubing sleeve protecting exposed NM needs a bushing or adapter where the cable enters and where it exits (334.15(B)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Treat an unfinished basement ceiling like a wall someone will finish later: bore the joists or use running boards, keep the cable tight to the framing, and plate anything in the strike zone.",
       "sharma_note": "",
       "figure_idea": "Basement joist bay with NM bored through joist centers and a smaller cable on a running board, both labeled.",
@@ -1035,7 +1300,16 @@
       "verified": true,
       "prev_id": "C3-334.12",
       "next_id": "C3-334.23",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "334.15",
+          "change": "Conduit or tubing that protects exposed NM from damage now needs a bushing or adapter at both ends, where the cable goes in and where it comes out (334.15(B)). A conduit or tubing sleeve protecting exposed NM needs a bushing or adapter where the cable enters and where it exits (334.15(B)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 334.15 Bushings on NM sleeves",
+          "url": "https://www.electricalexamcoach.app/changes/2023/334-15",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-334.23",
@@ -1062,7 +1336,7 @@
       "article": "334",
       "section": "334.24",
       "title": "Bending radius of NM cable",
-      "plain_explanation": "NM may not be bent so sharply that the bend damages the sheath or the conductors inside it; the rule of this section is expressed as a minimum radius measured to the inner edge of the bend — commonly taught as five times the cable diameter. A kinked flat cable at a tight stud turn is exactly the damage this section is aimed at.",
+      "plain_explanation": "NM may not be bent so sharply that the bend damages the sheath or the conductors inside it; the rule of this section is expressed as a minimum radius measured to the inner edge of the bend — commonly taught as five times the cable diameter. A kinked flat cable at a tight stud turn is exactly the damage this section is aimed at.\n\nNEC 2023 CHANGE:\n• 334.24: Flat NM no longer gets measured by a diameter it doesn't have. The minimum bend radius is now 5 times the cable's widest dimension. Every NM bend needs an inside radius of 5 times the cable's widest dimension or more.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Make wide, lazy turns. If you have to force it around a corner with your thumb creasing the sheath, the bend is too tight — re-route or move the hole.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1073,7 +1347,16 @@
       "verified": true,
       "prev_id": "C3-334.23",
       "next_id": "C3-334.30",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "334.24",
+          "change": "Flat NM no longer gets measured by a diameter it doesn't have. The minimum bend radius is now 5 times the cable's widest dimension. Every NM bend needs an inside radius of 5 times the cable's widest dimension or more.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 334.24 NM bending radius",
+          "url": "https://www.electricalexamcoach.app/changes/2023/334-24",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-334.30",
@@ -1112,21 +1395,20 @@
         "C3-L-031"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [
         "S-10"
       ],
       "prev_id": "C3-334.30",
       "next_id": "C3-ART-336",
-      "chapter": 3,
-      "unverified_reason": "Corrected 2026-11-25: this page previously stated the 60°C cap for 12 AWG NM as 25A; Table 310.16 gives 20A at 60°C for 12 AWG copper (25A is the 75°C column). Flagged for Mike Holt re-check after the correction."
+      "chapter": 3
     },
     {
       "id": "C3-ART-336",
       "article": "336",
       "section": "336",
       "title": "Power and control tray cable — Type TC",
-      "plain_explanation": "Type TC is a factory assembly of power or control conductors with an overall jacket, listed for installation in cable tray (Article 392) and the other uses its article permits. Tray-rated is the load-bearing word: a cable in a tray must be a cable type Article 392 allows, and TC is the common one. Certain TC constructions carry additional ratings (such as exposed-run ratings) only when the cable is marked for them.",
+      "plain_explanation": "Type TC is a factory assembly of power or control conductors with an overall jacket, listed for installation in cable tray (Article 392) and the other uses its article permits. Tray-rated is the load-bearing word: a cable in a tray must be a cable type Article 392 allows, and TC is the common one. Certain TC constructions carry additional ratings (such as exposed-run ratings) only when the cable is marked for them.\n\nNEC 2023 CHANGE:\n• 336.10: Type TC tray cable can now carry service-entrance conductors, but only when the jacket shows TC-ER and the cable is also identified for service use. Type TC power and control tray cable can now be used for service-entrance conductors (336.10(12)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On a light-commercial tray job, read the jacket print before the cable leaves the shop: TC alone is not every rating — check for the marking that matches the actual installation.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1135,14 +1417,23 @@
       "verified": true,
       "prev_id": "C3-334.80",
       "next_id": "C3-ART-337",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "336.10",
+          "change": "Type TC tray cable can now carry service-entrance conductors, but only when the jacket shows TC-ER and the cable is also identified for service use. Type TC power and control tray cable can now be used for service-entrance conductors (336.10(12)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 336.10 Tray cable for services",
+          "url": "https://www.electricalexamcoach.app/changes/2023/336-10",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-337",
       "article": "337",
       "section": "337",
       "title": "Type P cable",
-      "plain_explanation": "Type P is a rugged, flexible cable construction originating in marine and drilling work, listed in the 2020 NEC for the applications its article describes, including certain hazardous-location uses noted in the 2020 changes. It is not a house or ordinary commercial branch-circuit cable.",
+      "plain_explanation": "Type P is a rugged, flexible cable construction originating in marine and drilling work, listed in the 2020 NEC for the applications its article describes, including certain hazardous-location uses noted in the 2020 changes. It is not a house or ordinary commercial branch-circuit cable.\n\nNEC 2023 CHANGE:\n• Article 337: Changed all references to the former Type P cable to Type IM in Article 337.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "No Sharma field use on ordinary work. Its presence on a drawing signals a specialized, engineered specification.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1151,7 +1442,16 @@
       "verified": true,
       "prev_id": "C3-ART-336",
       "next_id": "C3-ART-338",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "Article 337",
+          "change": "Changed all references to the former Type P cable to Type IM in Article 337.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: Article 337 Industrial Mobile Cable: Type IM",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-338",
@@ -1200,7 +1500,7 @@
       "article": "338",
       "section": "338.12",
       "title": "Where SE and USE cable may not be used",
-      "plain_explanation": "The prohibitions keep service cable in its lane. Type USE is an underground cable: it may not be used for interior wiring, and not aboveground at all, except where it terminates inside listed equipment it is permitted to enter. Type SE may not be used underground (that is USE's job), and SE used as interior branch-circuit or feeder wiring is limited to the conditions on the 338.10(B)(4) page — outside those conditions, interior circuits get an interior wiring method. Service cable leaving the meter is service territory; it does not become a general-purpose house cable because it was on the truck.",
+      "plain_explanation": "The prohibitions keep service cable in its lane. Type USE is an underground cable: it may not be used for interior wiring, and not aboveground at all, . Type SE may not be used underground (that is USE's job), and SE used as interior branch-circuit or feeder wiring is limited to the conditions on the 338.10(B)(4) page — outside those conditions, interior circuits get an interior wiring method. Service cable leaving the meter is service territory; it does not become a general-purpose house cable because it was on the truck.",
       "on_the_job": "The classic misuse is USE pulled inside a building 'because it was already in the trench.' Once the run comes inside, the method has to change to one that is legal indoors — plan the transition at the entry, in a box or the panel, not mid-run.",
       "sharma_note": "",
       "figure_idea": "House wall section: USE stopping at the entry point and transitioning to an interior method (approved), versus USE continuing across the attic (crossed out).",
@@ -1214,7 +1514,9 @@
       "prev_id": "C3-338.10(B)(4)",
       "next_id": "C3-ART-340",
       "chapter": 3,
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Rewrite with the actual 2020 prohibitions. SE cable may not be used: (1) where subject to physical damage unless protected per 230.50(B); (2) underground, with or without a raceway; (3) for exterior branch circuits and feeders unless the installation meets Part I of Article 225 and is supported per 334.30, or is messenger-supported per Part II of Article 396. USE cable may not be used: (1) for interior wiring; (2) aboveground, except where it emerges from the ground and terminates in an enclosure at an outdoor location, with the cable protected per 300.5(D); (3) as aboveground cable except as permitted in 338.12(B)(2) (single-conductor and multiconductor exceptions). Delete \"except where it terminates inside listed equipment it is permitted to enter\". Note that a conductor dual-listed USE-2/RHH/RHW-2 may be used indoors under its RHW-2 listing.",
+      "recheck_correction": "Rewrite with the actual 2020 prohibitions. SE cable may not be used: (1) where subject to physical damage unless protected per 230.50(B); (2) underground, with or without a raceway; (3) for exterior branch circuits and feeders unless the installation meets Part I of Article 225 and is supported per 334.30, or is messenger-supported per Part II of Article 396. USE cable may not be used: (1) for interior wiring; (2) aboveground, except where it emerges from the ground and terminates in an enclosure at an outdoor location, with the cable protected per 300.5(D); (3) as aboveground cable except as permitted in 338.12(B)(2) (single-conductor and multiconductor exceptions). Delete \"except where it terminates inside listed equipment it is permitted to enter\". Note that a conductor dual-listed USE-2/RHH/RHW-2 may be used indoors under its RHW-2 listing."
     },
     {
       "id": "C3-ART-340",
@@ -1242,7 +1544,7 @@
       "article": "340",
       "section": "340.10 / 340.12",
       "title": "Where UF may — and may not — be used",
-      "plain_explanation": "UF's permitted list is the underground counterpart to NM's: direct burial, wet locations, corrosive locations, and sunlight exposure where the cable is marked sunlight resistant. Where UF is used in place of NM for a branch circuit, it is installed under the NM framework it points to (Article 334's protection and support rules). The not-permitted list keeps it out of service work and buildings it does not belong in: UF may not be used as service-entrance cable, in commercial garages, theaters and similar locations, motion picture studios, storage battery rooms, or hoistways, and not embedded in poured concrete or left exposed to physical damage without protection.",
+      "plain_explanation": "UF's permitted list is the underground counterpart to NM's: direct burial, wet locations, corrosive locations, and sunlight exposure where the cable is marked sunlight resistant. Where UF is used in place of NM for a branch circuit, it is installed under the NM framework it points to (Article 334's protection and support rules). The not-permitted list keeps it out of service work and buildings it does not belong in: UF may not be used as service-entrance cable, in commercial garages, theaters and similar locations, motion picture studios, storage battery rooms, or hoistways, and not embedded in poured concrete or left exposed to physical damage without protection. UF is also not permitted in any hazardous (classified) location except where specifically permitted elsewhere, or as overhead cable except as messenger-supported wiring under Part II of Article 396. UF used in place of NM follows Parts II and III of Article 334 and must be the multiconductor type (340.10(4)).",
       "on_the_job": "Yard lights and outbuilding feeds are UF's home turf — but the moment the feed becomes the building's service, UF is the wrong cable. And like NM, its ampacity is read at the 60°C limit (340.80), so size it the way the 334.80 page teaches.",
       "sharma_note": "",
       "figure_idea": "Yard cross-section: UF buried to a pedestal light (approved); UF rising into a meter base as a service cable (crossed out).",
@@ -1252,7 +1554,7 @@
         "C3-300.5"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-340",
       "next_id": "C3-ART-342",
       "chapter": 3,
@@ -1263,8 +1565,8 @@
       "article": "342",
       "section": "342",
       "title": "Intermediate metal conduit — IMC",
-      "plain_explanation": "IMC is the middle-weight steel raceway: thinner wall than rigid metal conduit, heavier and stronger than EMT, threaded like RMC and usable in most of the same places, including many wet and exposed locations with the right fittings. Sharma meets it mainly on commercial and service work where EMT is not tough enough and full rigid is not needed.\n\nThe support numbers (342.30): IMC must be fastened within 3 ft of each box, cabinet, conduit body, or other termination. For straight runs, Table 342.30(B)(2) spaces supports by size:\n• 1/2 in and 3/4 in — every 10 ft\n• 1 in — every 12 ft\n• 1-1/4 in and 1-1/2 in — every 14 ft\n• 2 in — every 16 ft\n• 2-1/2 in and larger — every 20 ft",
-      "on_the_job": "One trade size note that matters in the field: IMC and RMC share the same outside diameter, but IMC's thinner wall gives it a larger inside area, so its Chapter 9, Table 4 fill values are its own — do not use the RMC row for an IMC run. Link to Chapter 9 for the actual numbers; do not re-derive them here.",
+      "plain_explanation": "IMC is the middle-weight steel raceway: thinner wall than rigid metal conduit, heavier and stronger than EMT, threaded like RMC and usable in most of the same places, including many wet and exposed locations with the right fittings. Sharma meets it mainly on commercial and service work where EMT is not tough enough and full rigid is not needed.\n\nThe support numbers (342.30): IMC must be fastened within 3 ft of each box, cabinet, conduit body, or other termination. For straight runs, Table 344.30(B)(2) (applied through 342.30(B)(2)) spaces supports by size:\n• 1/2 in and 3/4 in — every 10 ft\n• 1 in — every 12 ft\n• 1-1/4 in and 1-1/2 in — every 14 ft\n• 2 in — every 16 ft\n• 3 in and larger — every 20 ft The 3 ft fastening distance may be increased to 5 ft where structural members do not readily permit fastening within 3 ft.\n\nNEC 2023 CHANGE:\n• 342.20: IMC can now go up to trade size 6, two sizes bigger than the old limit of 4 and the same top size rigid metal conduit already had. Intermediate metal conduit (IMC) now comes in two more allowed sizes: trade size 5 and trade size 6 (342.20(B)).\n• 342.30: IMC no longer needs a strap when one unbroken length is fished into a wall that's already finished or prefinished. Rigid metal conduit got the same break. New exception: a single unbroken length of IMC, no couplings, fished inside an existing wall or a prefinished wall doesn't have to be secured (342.30(A)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
+      "on_the_job": "One trade size note that matters in the field: IMC and RMC have nearly the same outside diameter and use the same threads and fittings, but IMC's thinner wall gives it a larger inside area, so its Chapter 9, Table 4 fill values are its own — do not use the RMC row for an IMC run. Link to Chapter 9 for the actual numbers; do not re-derive them here.",
       "sharma_note": "",
       "figure_idea": "Three short raceway stubs side by side — EMT, IMC, RMC — wall thickness shown in cross-section.",
       "related_ids": [
@@ -1272,17 +1574,33 @@
         "C3-L-034"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-340.10",
       "next_id": "C3-ART-344",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "342.20",
+          "change": "IMC can now go up to trade size 6, two sizes bigger than the old limit of 4 and the same top size rigid metal conduit already had. Intermediate metal conduit (IMC) now comes in two more allowed sizes: trade size 5 and trade size 6 (342.20(B)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 342.20 IMC up to trade size 6",
+          "url": "https://www.electricalexamcoach.app/changes/2023/342-20",
+          "confirmed": true
+        },
+        {
+          "section": "342.30",
+          "change": "IMC no longer needs a strap when one unbroken length is fished into a wall that's already finished or prefinished. Rigid metal conduit got the same break. New exception: a single unbroken length of IMC, no couplings, fished inside an existing wall or a prefinished wall doesn't have to be secured (342.30(A)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 342.30 Fished IMC in finished walls",
+          "url": "https://www.electricalexamcoach.app/changes/2023/342-30",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-344",
       "article": "344",
       "section": "344",
       "title": "Rigid metal conduit — RMC",
-      "plain_explanation": "RMC is the heavy-wall threaded steel raceway — the toughest common raceway in this chapter. It may be used in nearly every location, including underground (where its 6 in cover in the general open-ground row of Table 300.5 is the payoff for its strength. Under a one- or two-family dwelling driveway that same rigid metal conduit needs 18 in, the same as PVC and direct-burial cable. Streets, roads, and other driveways and parking lots demand 24 in for every method), wet locations, and places subject to physical damage, with fittings and supports made for it. Underground, corrosion protection and the soil conditions govern how long it lasts.\n\nThe support numbers (344.30): RMC must be fastened within 3 ft of each box, cabinet, conduit body, or other termination — with the section's allowances where threaded couplings make that impractical. For straight runs, Table 344.30(B)(2) spaces supports by size:\n• 1/2 in and 3/4 in — every 10 ft\n• 1 in — every 12 ft\n• 1-1/4 in and 1-1/2 in — every 14 ft\n• 2 in — every 16 ft\n• 2-1/2 in and larger — every 20 ft",
+      "plain_explanation": "RMC is the heavy-wall threaded steel raceway — the toughest common raceway in this chapter. It may be used in nearly every location, including underground (where its 6 in cover in the general open-ground row of Table 300.5 is the payoff for its strength. Under a one- or two-family dwelling driveway that same rigid metal conduit needs 18 in, the same as PVC and direct-burial cable. Streets, roads, and other driveways and parking lots demand 24 in for every method), wet locations, and places subject to physical damage, with fittings and supports made for it. Underground, corrosion protection and the soil conditions govern how long it lasts.\n\nThe support numbers (344.30): RMC must be fastened within 3 ft of each box, cabinet, conduit body, or other termination — with the section's allowances where threaded couplings make that impractical. For straight runs, Table 344.30(B)(2) spaces supports by size:\n• 1/2 in and 3/4 in — every 10 ft\n• 1 in — every 12 ft\n• 1-1/4 in and 1-1/2 in — every 14 ft\n• 2 in — every 16 ft\n• 2-1/2 in and larger — every 20 ft\n\nNEC 2023 CHANGE:\n• 344.28: Clarified adherence to the manufacturer's requirements for reaming and threading of PVC-coated rigid metal conduit (RMC) in Section 344.28.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "The 6 in burial depth is why RMC still earns its cost in open ground and in shallow-rock trenches that are not under a driveway. It is not a 6 in depth under a one- or two-family dwelling driveway — that row is 18 in for RMC and for PVC. Under streets, roads, alleys, and other driveways or parking lots, Table 300.5 requires 24 in of cover for every method, RMC included.",
       "sharma_note": "",
       "figure_idea": "Open-ground cross-section: RMC at 6 in beside a PVC run at 18 in. A one- or two-family dwelling driveway is a different Table 300.5 row — 18 in for both.",
@@ -1295,14 +1613,25 @@
       "verified": false,
       "prev_id": "C3-ART-342",
       "next_id": "C3-ART-348",
-      "chapter": 3
+      "chapter": 3,
+      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: The support table rows are wrong. Replace the last two bullets with \"2 in and 2-1/2 in — every 16 ft\" and \"3 in and larger — every 20 ft\". Clean up the broken parenthesis in the first paragraph (the driveway sentences sit inside a parenthetical). The Table 300.5 depths stated (6 in general, 18 in under one- and two-family dwelling driveways, 24 in under streets, roads, alleys, other driveways and parking lots) are correct.",
+      "recheck_correction": "The support table rows are wrong. Replace the last two bullets with \"2 in and 2-1/2 in — every 16 ft\" and \"3 in and larger — every 20 ft\". Clean up the broken parenthesis in the first paragraph (the driveway sentences sit inside a parenthetical). The Table 300.5 depths stated (6 in general, 18 in under one- and two-family dwelling driveways, 24 in under streets, roads, alleys, other driveways and parking lots) are correct.",
+      "nec2023_change": [
+        {
+          "section": "344.28",
+          "change": "Clarified adherence to the manufacturer's requirements for reaming and threading of PVC-coated rigid metal conduit (RMC) in Section 344.28.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 344.28 Reaming and Threading (Rigid Metal Conduit)",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-348",
       "article": "348",
       "section": "348",
       "title": "Flexible metal conduit — FMC ('Greenfield')",
-      "plain_explanation": "FMC is a flexible spiral metal raceway used for short, bendy final connections — inside equipment, across a vibration gap, or fished where a rigid method cannot go. It is not a wet-location method in its basic form (that is LFMC, Article 350), it needs fittings listed for it, and when it is used as the ground path its length and overcurrent limits are restricted — on Sharma work, pull a green ground and do not rely on the spiral.\n\nThe working numbers (348.30 and 348.60): FMC is fastened within 12 in of each termination and supported at intervals not over 4-1/2 ft, with exceptions for lengths fished in existing construction, for up to 3 ft at a terminal where flexibility is needed after installation, and for a whip of up to 6 ft to a luminaire in an accessible ceiling. As a grounding path, the spiral itself counts only where the fittings are listed for grounding, the total length in the ground return path is not over 6 ft, and the circuit's overcurrent protection stays within the limits this article sets for the trade size (20 amperes for 3/8 in and 1/2 in). Sharma practice stays ahead of all of this: pull the green ground.",
+      "plain_explanation": "FMC is a flexible spiral metal raceway used for short, bendy final connections — inside equipment, across a vibration gap, or fished where a rigid method cannot go. It is not a wet-location method in its basic form (that is LFMC, Article 350), it needs fittings listed for it, and when it is used as the ground path its length and overcurrent limits are restricted — on Sharma work, pull a green ground and do not rely on the spiral.\n\nThe working numbers (348.30 and 348.60): FMC is fastened within 12 in of each termination and supported at intervals not over 4-1/2 ft, with exceptions for lengths fished in existing construction, for up to 3 ft at a terminal where flexibility is needed after installation, and for a whip of up to 6 ft to a luminaire in an accessible ceiling. As a grounding path, the spiral itself counts only where the fittings are listed for grounding, the total length in the ground return path is not over 6 ft, and the circuit's overcurrent protection stays with circuit conductors protected at 20A or less, whatever the FMC trade size, and the FMC not installed for flexibility after installation (250.118(5)). Sharma practice stays ahead of all of this: pull the green ground. The trade-size steps (20A for 3/8–1/2 in, 60A for 3/4–1-1/4 in) belong to LFMC, 250.118(6). Flexibility exception lengths: 3 ft for 1/2–1-1/4 in, 4 ft for 1-1/2–2 in, 5 ft for 2-1/2 in and larger (348.30(A) Exception No. 2).\n\nNEC 2023 CHANGE:\n• 348.2: New in 2023: flexible metal conduit (FMC) can't be reconditioned. Liquidtight flexible metal conduit and ENT got the same ban in their own articles. Reconditioning flexible metal conduit (FMC) is off the table (348.2). Damaged FMC gets replaced, not rebuilt.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Keep FMC whips short and supported, bond with a real conductor, and switch to LFMC the moment the location is wet or outdoors.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1310,10 +1639,19 @@
         "C3-L-036"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-344",
       "next_id": "C3-ART-350",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "348.2",
+          "change": "New in 2023: flexible metal conduit (FMC) can't be reconditioned. Liquidtight flexible metal conduit and ENT got the same ban in their own articles. Reconditioning flexible metal conduit (FMC) is off the table (348.2). Damaged FMC gets replaced, not rebuilt.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 348.2 No reconditioned flexible conduit",
+          "url": "https://www.electricalexamcoach.app/changes/2023/348-2",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-350",
@@ -1328,7 +1666,7 @@
         "C3-L-037"
       ],
       "florida_note": "210.8(F) GFCI enforcement on outdoor HVAC outlets has varied by AHJ and amendment — see the Chapter 2 note; confirm locally before choosing the condenser breaker.",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-348",
       "next_id": "C3-ART-352",
       "chapter": 3
@@ -1338,7 +1676,7 @@
       "article": "352",
       "section": "352",
       "title": "Rigid polyvinyl chloride conduit — PVC",
-      "plain_explanation": "PVC is the nonmetallic rigid raceway Sharma uses underground and in wet and corrosive spots: services and feeders in the yard, pool-area runs, and sleeves. Schedule 40 is the standard wall; Schedule 80 is the heavier wall used where the run is exposed to physical damage. PVC may not be used where ambient or conductor heat will exceed its temperature rating, in the hazardous and theater-type locations its article bars, or as a support for fixtures and equipment hanging off it. Underground cover for PVC is 18 in in the general Table 300.5 case. Two field behaviors define the method: it expands and contracts a lot with temperature, and its joints are solvent-welded, not threaded (except at listed threaded fittings and adapters). PVC is nonmetallic, so the raceway itself is never the ground path — an equipment grounding conductor goes in the run where one is required.\n\nThe support numbers (Table 352.30) — PVC is supported far more often than metal raceway, because it sags:\n• 1/2 in through 1 in — every 3 ft\n• 1-1/4 in through 2 in — every 5 ft\n• 2-1/2 in through 3 in — every 6 ft\n• 3-1/2 in through 5 in — every 7 ft\n• 6 in — every 8 ft\nAnd the expansion numbers (Table 352.44): a 100 ft run of PVC changes length about 2 in with a 50°F temperature swing, and about 4.1 in with a 100°F swing. An expansion fitting is required where the expected change in length reaches 1/4 in — a threshold a short exposed Florida riser can cross between a winter morning and a summer afternoon.",
+      "plain_explanation": "PVC is the nonmetallic rigid raceway Sharma uses underground and in wet and corrosive spots: services and feeders in the yard, pool-area runs, and sleeves. Schedule 40 is the standard wall; Schedule 80 is the heavier wall used where the run is exposed to physical damage. PVC may not be used where ambient or conductor heat will exceed its temperature rating, in the hazardous and theater-type locations its article bars, or as a support for fixtures and equipment hanging off it. Underground cover for PVC is 18 in in the general Table 300.5 case. Two field behaviors define the method: it expands and contracts a lot with temperature, and its joints are solvent-welded, not threaded (except at listed threaded fittings and adapters). PVC is nonmetallic, so the raceway itself is never the ground path — an equipment grounding conductor goes in the run where one is required.\n\nThe support numbers (Table 352.30) — PVC is supported far more often than metal raceway, because it sags:\n• 1/2 in through 1 in — every 3 ft\n• 1-1/4 in through 2 in — every 5 ft\n• 2-1/2 in through 3 in — every 6 ft\n• 3-1/2 in through 5 in — every 7 ft\n• 6 in — every 8 ft\nAnd the expansion numbers (Table 352.44): a 100 ft run of PVC changes length about 2 in with a 50°F temperature swing, and about 4.1 in with a 100°F swing. An expansion fitting is required where the expected change in length reaches 1/4 in — a threshold a short exposed Florida riser can cross between a winter morning and a summer afternoon.\n\nNEC 2023 CHANGE:\n• 352.10: Schedule 80 PVC conduit and Schedule 80 elbows are now named in the rule for spots exposed to physical damage, and concrete encasement got its own item. In spots where PVC can get hit or crushed, use Schedule 80 conduit and elbows plus listed fittings (352.10(K)). Schedule 40 doesn't belong there.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Expansion is the inspection item apprentices forget: a long straight run in Florida sun moves. Where the expected length change reaches 1/4 in, an expansion fitting belongs in the run — the exact trigger and the movement math are flagged for Mike's check in the companion lookup, and the support spacings come from this article's support table, not from habit.",
       "sharma_note": "",
       "figure_idea": "Long PVC run down a block wall with an expansion fitting mid-run, sun arrows on the wall, and a support strap spacing callout.",
@@ -1350,10 +1688,19 @@
         "C3-L-040"
       ],
       "florida_note": "Florida sun on an exposed PVC riser is the textbook expansion case — check every long south- and west-wall run.",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-350",
       "next_id": "C3-352.30",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "352.10",
+          "change": "Schedule 80 PVC conduit and Schedule 80 elbows are now named in the rule for spots exposed to physical damage, and concrete encasement got its own item. In spots where PVC can get hit or crushed, use Schedule 80 conduit and elbows plus listed fittings (352.10(K)). Schedule 40 doesn't belong there.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 352.10 PVC in concrete and damage areas",
+          "url": "https://www.electricalexamcoach.app/changes/2023/352-10",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-352.30",
@@ -1370,7 +1717,7 @@
         "C3-L-063"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-352",
       "next_id": "C3-352.44",
       "chapter": 3,
@@ -1381,7 +1728,7 @@
       "article": "352",
       "section": "352.44",
       "title": "Expansion fittings — PVC moves",
-      "plain_explanation": "PVC grows and shrinks with temperature far more than the building it is attached to — roughly 4 in of length change per 100 ft of run for a 100°F temperature swing (Table 352.44 gives the exact characteristic). Where the expected length change is 1/4 in or more, a listed expansion fitting is required, so the movement happens at the fitting instead of pulling couplings apart, pushing into boxes, or bowing the run off the wall. Underground runs meet the same rule where they rise out of the ground into the sun.",
+      "plain_explanation": "PVC grows and shrinks with temperature far more than the building it is attached to — roughly 4 in of length change per 100 ft of run for a 100°F temperature swing (Table 352.44 gives the exact characteristic). Where the expected length change is 1/4 in or more, a listed expansion fitting is required, so the movement happens at the fitting instead of pulling couplings apart, pushing into boxes, or bowing the run off the wall. Underground runs meet the same rule where they rise out of the ground into the sun.\n\nNEC 2023 CHANGE:\n• 352.44: PVC expansion fittings now cover earth movement, not just temperature. A buried PVC run rising through grade on soil that can settle or frost-heave gets an expansion fitting on the riser, above grade. New 352.44(B): direct-buried PVC rising out of soil that can settle, shift or frost-heave gets an expansion fitting, installed above grade.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Worked example: a 40 ft PVC run on a sunny Florida wall, installed at 70°F, with surface temperatures reaching 150°F — an 80°F swing. Movement is about 40 ft × (4 in per 100 ft) × 0.8, roughly 1.3 in. That is five times the 1/4 in threshold: the run gets an expansion fitting, set at mid-travel for the installation temperature.",
       "sharma_note": "",
       "figure_idea": "Long PVC wall run with an expansion fitting at mid-run, arrows showing the piston travel, and a thermometer scale from installation temperature to summer peak.",
@@ -1392,18 +1739,27 @@
         "C3-Q-036"
       ],
       "florida_note": "Florida is expansion-fitting country: attic, roof, and sunlit-wall temperatures swing far past the indoor range, and a long PVC run glued rigid at both ends will find the weakest coupling by the second summer.",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-352.30",
       "next_id": "C3-ART-353",
       "chapter": 3,
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "352.44",
+          "change": "PVC expansion fittings now cover earth movement, not just temperature. A buried PVC run rising through grade on soil that can settle or frost-heave gets an expansion fitting on the riser, above grade. New 352.44(B): direct-buried PVC rising out of soil that can settle, shift or frost-heave gets an expansion fitting, installed above grade.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 352.44 PVC expansion fittings and earth movement",
+          "url": "https://www.electricalexamcoach.app/changes/2023/352-44",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-353",
       "article": "353",
       "section": "353",
       "title": "High-density polyethylene conduit — Type HDPE",
-      "plain_explanation": "HDPE conduit is the coiled, flexible nonmetallic raceway used mainly for long underground runs — directional-bored and trenched duct for utilities, site feeders and communications — joined by fusion or listed couplings rather than solvent cement. Its strength is the continuous long run with no joints in the bore.",
+      "plain_explanation": "HDPE conduit is the coiled, flexible nonmetallic raceway used mainly for long underground runs — directional-bored and trenched duct for utilities, site feeders and communications — joined by fusion or listed couplings rather than solvent cement. Its strength is the continuous long run with no joints in the bore.\n\nNEC 2023 CHANGE:\n• 353.48: Section 353.48 was revised by CMP 8 to specify that the joining methods of High Density Polyethylene Conduit (HDPE) are to be made by a method identified by the manufacturer. Heat fusion or butt fusion joints are not to be permitted.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Sharma meets HDPE most often as the duct the utility or site contractor provides. Confirm what is actually in the duct and who owns it before planning a pull through it.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1412,7 +1768,16 @@
       "verified": true,
       "prev_id": "C3-352.44",
       "next_id": "C3-ART-354",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "353.48",
+          "change": "Section 353.48 was revised by CMP 8 to specify that the joining methods of High Density Polyethylene Conduit (HDPE) are to be made by a method identified by the manufacturer. Heat fusion or butt fusion joints are not to be permitted.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 353.48 Joints",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-354",
@@ -1451,7 +1816,7 @@
       "article": "356",
       "section": "356",
       "title": "Liquidtight flexible nonmetallic conduit — LFNC",
-      "plain_explanation": "LFNC is the all-plastic liquidtight flexible raceway — no metal core — used for short flexible connections in wet and outdoor locations where a nonmetallic method is wanted, including many pool and equipment connections. It comes in listed types with different fittings and limits, has a maximum supported length pattern similar to other flex methods, and may not be used where subject to physical damage or beyond its temperature and listing limits.\n\nThe working numbers (356.30): LFNC is fastened within 12 in of each termination and supported at intervals not over 3 ft, with the familiar flex exceptions — fished lengths, short lengths at terminals where flexibility is needed, and up to 6 ft at a luminaire or equipment connection in an accessible ceiling. The tubing itself is plastic and carries nothing: where LFNC is the raceway for a circuit, the equipment grounding conductor runs inside it like any other nonmetallic method.",
+      "plain_explanation": "LFNC is the all-plastic liquidtight flexible raceway — no metal core — used for short flexible connections in wet and outdoor locations where a nonmetallic method is wanted, including many pool and equipment connections. It comes in listed types with different fittings and limits, has a maximum supported length pattern similar to other flex methods, and may not be used where subject to physical damage or beyond its temperature and listing limits.\n\nThe working numbers (356.30): LFNC is fastened within 12 in of each termination and supported at intervals not over 3 ft, with the familiar flex exceptions — fished lengths, short lengths at terminals where flexibility is needed, and up to 6 ft at a luminaire or equipment connection in an accessible ceiling. The tubing itself is plastic and carries nothing: where LFNC is the raceway for a circuit, the equipment grounding conductor runs inside it like any other nonmetallic method.\n\nNEC 2023 CHANGE:\n• 356.10: Liquidtight flexible nonmetallic conduit (LFNC) is now allowed in severely corrosive locations, as long as its material is approved for the chemicals in that space. New item 356.10(8): LFNC can go where severe corrosive conditions exist (see 300.6), as long as its material is approved for the specific chemicals there.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On pool and outdoor equipment, confirm the specific LFNC type and its fittings are listed for the location before it goes on the truck — 'liquidtight' on the box is a listing claim, not a description.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1459,17 +1824,26 @@
         "C3-L-041"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-355",
       "next_id": "C3-ART-358",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "356.10",
+          "change": "Liquidtight flexible nonmetallic conduit (LFNC) is now allowed in severely corrosive locations, as long as its material is approved for the chemicals in that space. New item 356.10(8): LFNC can go where severe corrosive conditions exist (see 300.6), as long as its material is approved for the specific chemicals there.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 356.10 LFNC in corrosive areas",
+          "url": "https://www.electricalexamcoach.app/changes/2023/356-10",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-358",
       "article": "358",
       "section": "358",
       "title": "Electrical metallic tubing — EMT",
-      "plain_explanation": "EMT is the thin-wall steel raceway that carries most of Sharma's light-commercial work: unthreaded, joined with set-screw or compression couplings and connectors, bent on the job with a hand or mechanical bender. It may be used exposed or concealed, in dry, damp and wet locations — in wet locations with fittings that comply with 314.15 and with supports, straps, bolts and screws of corrosion-resistant material or protected against corrosion. Galvanized steel and stainless steel EMT may be installed in concrete, in direct contact with the earth, and in areas subject to severe corrosive influences where protected by corrosion protection and approved as suitable for the condition; aluminum EMT encased in concrete or in direct contact with the earth must have approved supplementary corrosion protection. In cinder concrete or cinder fill subject to permanent moisture, galvanized or stainless EMT is allowed only when protected on all sides by at least 2 in. of noncinder concrete or installed at least 18 in. under the fill. EMT serves as its own equipment grounding conductor when installed with listed fittings made up properly. It may not be used where subject to severe physical damage, to support luminaires or other equipment — except a conduit body no larger than the largest trade size of the tubing — or threaded in the field like rigid conduit: EMT is not threaded, except for factory-threaded integral couplings.",
+      "plain_explanation": "EMT is the thin-wall steel raceway that carries most of Sharma's light-commercial work: unthreaded, joined with set-screw or compression couplings and connectors, bent on the job with a hand or mechanical bender. It may be used exposed or concealed, in dry, damp and wet locations — in wet locations with fittings that comply with 314.15 and with supports, straps, bolts and screws of corrosion-resistant material or protected against corrosion. Galvanized steel and stainless steel EMT may be installed in concrete, in direct contact with the earth, and in areas subject to severe corrosive influences where protected by corrosion protection and approved as suitable for the condition; aluminum EMT encased in concrete or in direct contact with the earth must have approved supplementary corrosion protection. In cinder concrete or cinder fill subject to permanent moisture, galvanized or stainless EMT is allowed only when protected on all sides by at least 2 in. of noncinder concrete or installed at least 18 in. under the fill. EMT serves as its own equipment grounding conductor when installed with listed fittings made up properly. It may not be used where subject to severe physical damage, to support luminaires or other equipment — except a conduit body no larger than the largest trade size of the tubing — or threaded in the field like rigid conduit: EMT is not threaded, except for factory-threaded integral couplings.\n\nNEC 2023 CHANGE:\n• 358.20: EMT can now go up to trade size 6, two sizes past the old limit of 4, so trade size 5 and 6 EMT is a code option. Electrical metallic tubing (EMT) can now be installed in trade sizes 5 and 6 (358.20(B)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "EMT is a system, not a tube: tube + listed fittings + tight make-up = the raceway and the ground path in one. A loose set-screw coupling is a loose ground.",
       "sharma_note": "S-01 on commercial EMT work: 20A minimum branch circuits, 12 AWG copper minimum.",
       "figure_idea": "EMT run across a commercial ceiling with a bend, a compression coupling and a support strap, each tagged.",
@@ -1487,14 +1861,23 @@
       ],
       "prev_id": "C3-ART-356",
       "next_id": "C3-358.10",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "358.20",
+          "change": "EMT can now go up to trade size 6, two sizes past the old limit of 4, so trade size 5 and 6 EMT is a code option. Electrical metallic tubing (EMT) can now be installed in trade sizes 5 and 6 (358.20(B)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 358.20 EMT up to trade size 6",
+          "url": "https://www.electricalexamcoach.app/changes/2023/358-20",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-358.10",
       "article": "358",
       "section": "358.10 / 358.12",
       "title": "Where EMT may — and may not — be used",
-      "plain_explanation": "EMT's permitted list covers most of a commercial building: exposed or concealed, in wet locations where the fittings are listed for wet use (raintight), embedded in concrete, and in masonry in contact with the earth where protected against corrosion. EMT is itself steel, and it is permitted as the equipment grounding path (250.118(4)) — which is why its couplings must be made up tight. The not-permitted list is short: EMT may not be used where it will be subject to severe physical damage during installation or afterward, and it is never threaded in the field — EMT is joined with threadless fittings only.",
+      "plain_explanation": "EMT's permitted list covers most of a commercial building: exposed or concealed, in wet locations where the fittings are listed for wet use (raintight), embedded in concrete, and in masonry in contact with the earth where protected against corrosion. EMT is itself steel, and it is permitted as the equipment grounding path (250.118(4)) — which is why its couplings must be made up tight. The not-permitted list is short: EMT may not be used where it will be subject to severe physical damage during installation or afterward, and it is never threaded in the field — EMT is joined with threadless fittings only. 358.12 also bars EMT from supporting luminaires or other equipment, except conduit bodies no larger than the largest trade size of the tubing, and from use where protected from corrosion solely by enamel or in cinder concrete or fill unless protected. Couplings and connectors in wet locations must be listed for wet locations (358.42).\n\nNEC 2023 CHANGE:\n• 358.10: EMT in the ground now has to use direct-burial fittings, and EMT joined the list of raceways allowed for manufactured wiring systems. EMT in direct contact with the earth has to use fittings that are identified for direct burial (358.10(A)(1)). Ordinary fittings don't qualify.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Two field checks: a wet location means raintight-listed fittings, not standard compression fittings and a prayer; and every coupling wrench-tight, because on an EMT job the raceway is the ground path — a loose set-screw is a loose ground.",
       "sharma_note": "",
       "figure_idea": "EMT run at a wet exterior wall with raintight fittings tagged, and a hand-cut thread on a piece of EMT crossed out.",
@@ -1504,11 +1887,20 @@
         "C3-L-065"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-358",
       "next_id": "C3-358.22",
       "chapter": 3,
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "358.10",
+          "change": "EMT in the ground now has to use direct-burial fittings, and EMT joined the list of raceways allowed for manufactured wiring systems. EMT in direct contact with the earth has to use fittings that are identified for direct burial (358.10(A)(1)). Ordinary fittings don't qualify.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 358.10 Buried EMT and its fittings",
+          "url": "https://www.electricalexamcoach.app/changes/2023/358-10",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-358.22",
@@ -1626,7 +2018,7 @@
       "article": "362",
       "section": "362.10 / 362.12",
       "title": "Where ENT may — and may not — be used",
-      "plain_explanation": "ENT ('smurf tube') is permitted concealed in walls, floors, and ceilings, encased in concrete and in slab-on-grade work with listed fittings, and in wet locations where the tubing and fittings are listed for them. Its exposed use is height-limited: exposed ENT is permitted only in buildings not more than three floors above grade (with this section's own allowances), which is why it disappears into slabs and walls on taller work. It may not be used where subject to physical damage, in sunlight unless marked sunlight resistant, in hazardous (classified) locations except as specifically allowed, for circuits over 600 volts, or as a support for fixtures or other equipment.",
+      "plain_explanation": "ENT ('smurf tube') is permitted concealed in walls, floors, and ceilings, encased in concrete and in slab-on-grade work with listed fittings, and in wet locations where the tubing and fittings are listed for them. Its exposed use is height-limited: exposed ENT is permitted only in buildings not more than three floors above grade (with this section's own allowances), which is why it disappears into slabs and walls on taller work. It may not be used where subject to physical damage, in sunlight unless marked sunlight resistant, in hazardous (classified) locations except as specifically allowed, for circuits over 600 volts, or as a support for fixtures or other equipment. In buildings over three floors above grade, ENT is permitted concealed in walls, floors and ceilings only where they provide a thermal barrier with at least a 15-minute finish rating (362.10(2)). ENT is also not permitted for direct earth burial, where ambient exceeds 50°C, for conductors operating above its listed temperature, or in theaters and similar locations except as Articles 518 and 520 allow (362.12).\n\nNEC 2023 CHANGE:\n• 362.10: The ENT uses list got cleaned up: the sprinkler standard moved to a note, and concrete use now has two separate items, one for encasement and one for slabs. Above three floors, ENT has to be hidden behind walls, floors or ceilings that carry a 15-minute finish rating or better (362.10(2)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "In a Florida slab, ENT is a sleeve and low-voltage raceway more than a branch-circuit method: coil and stub it where the island and floor outlets will land, cap the ends against concrete, and photograph every run before the pour — after the pour, the photo is the as-built.",
       "sharma_note": "",
       "figure_idea": "Slab plan with ENT coils stubbed at an island and a floor outlet, caps on the ends, and a camera icon marking the pre-pour photo.",
@@ -1635,11 +2027,20 @@
         "C3-ART-352"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-362",
       "next_id": "C3-ART-366",
       "chapter": 3,
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "362.10",
+          "change": "The ENT uses list got cleaned up: the sprinkler standard moved to a note, and concrete use now has two separate items, one for encasement and one for slabs. Above three floors, ENT has to be hidden behind walls, floors or ceilings that carry a 15-minute finish rating or better (362.10(2)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 362.10 ENT uses",
+          "url": "https://www.electricalexamcoach.app/changes/2023/362-10",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-366",
@@ -1662,7 +2063,7 @@
       "article": "368",
       "section": "368",
       "title": "Busways",
-      "plain_explanation": "A busway is a factory-built distribution system: busbars in a metal housing, with plug-in units that tap power off along the run — the backbone distribution of larger commercial and industrial buildings. Sections are joined, supported and tapped as a listed system; overcurrent protection and grounding follow its article and the system design.",
+      "plain_explanation": "A busway is a factory-built distribution system: busbars in a metal housing, with plug-in units that tap power off along the run — the backbone distribution of larger commercial and industrial buildings. Sections are joined, supported and tapped as a listed system; overcurrent protection and grounding follow its article and the system design.\n\nNEC 2023 CHANGE:\n• 369: New Article 369, Insulated Bus Pipe (IBP)/Tubular Covered Conductors (TCC) Systems.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Outside Sharma's ordinary scope, but common in the larger commercial spaces Sharma works in. Never open, move or tap a busway as if it were a big wireway — it is energized distribution equipment.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1671,14 +2072,23 @@
       "verified": true,
       "prev_id": "C3-ART-366",
       "next_id": "C3-ART-370",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "369",
+          "change": "New Article 369, Insulated Bus Pipe (IBP)/Tubular Covered Conductors (TCC) Systems.",
+          "source": "ICC 2023 NEC Changes Educode (item 200); ElectricalLicenseRenewal 'Global Changes'",
+          "url": "https://www.electricallicenserenewal.com/Electrical-Continuing-Education-Courses/NEC-Content.php?sectionID=1378",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-370",
       "article": "370",
       "section": "370",
       "title": "Cablebus",
-      "plain_explanation": "Cablebus is an engineered power-distribution assembly: insulated conductors supported in a ventilated metal enclosure, built to a specific design for large feeders, typically between major equipment. It is designed and supplied as a system for that job, not assembled from shelf parts in the field.",
+      "plain_explanation": "Cablebus is an engineered power-distribution assembly: insulated conductors supported in a ventilated metal enclosure, built to a specific design for large feeders, typically between major equipment. It is designed and supplied as a system for that job, not assembled from shelf parts in the field.\n\nNEC 2023 CHANGE:\n• 371: New Article 371, Flexible Bus Systems.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Industrial and large-commercial work only. Field changes to a cablebus run are engineering changes, not electrician improvisation.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1687,7 +2097,16 @@
       "verified": true,
       "prev_id": "C3-ART-368",
       "next_id": "C3-ART-372",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "371",
+          "change": "New Article 371, Flexible Bus Systems.",
+          "source": "ICC 2023 NEC Changes Educode (item 203); ElectricalLicenseRenewal 'Global Changes'",
+          "url": "https://www.electricallicenserenewal.com/Electrical-Continuing-Education-Courses/NEC-Content.php?sectionID=1378",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-372",
@@ -1726,7 +2145,7 @@
       "article": "376",
       "section": "376",
       "title": "Metal wireways",
-      "plain_explanation": "A wireway is a sheet-metal trough with a hinged or removable cover, used in light commercial work to carry feeders and branch circuits where conductors need to be laid in and remain accessible along a run — above panels, along shop walls, in electrical rooms. Conductors are limited by fill and by the number of current-carrying conductors before adjustment applies, splices and taps are allowed inside where the wireway stays accessible, and the cover is what makes the system legal: no cover, no wireway.",
+      "plain_explanation": "A wireway is a sheet-metal trough with a hinged or removable cover, used in light commercial work to carry feeders and branch circuits where conductors need to be laid in and remain accessible along a run — above panels, along shop walls, in electrical rooms. Conductors are limited by fill and by the number of current-carrying conductors before adjustment applies, splices and taps are allowed inside where the wireway stays accessible, and the cover is what makes the system legal: no cover, no wireway.\n\nNEC 2023 CHANGE:\n• 376.60: The wireway article now has its own grounding section, 376.60: a listed metal wireway is allowed to be the equipment grounding conductor (EGC). A listed metal wireway can act as the equipment grounding conductor (EGC) for the circuits run through it (376.60).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Wireway is the tidy alternative to a forest of parallel conduits leaving a panel — plan its size for the conductors plus their derating, not just their bulk.",
       "sharma_note": "",
       "figure_idea": "Electrical room wall: panel with a wireway trough above it, conduits dropping out of the bottom of the trough.",
@@ -1737,7 +2156,16 @@
       "verified": true,
       "prev_id": "C3-ART-374",
       "next_id": "C3-376.22",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "376.60",
+          "change": "The wireway article now has its own grounding section, 376.60: a listed metal wireway is allowed to be the equipment grounding conductor (EGC). A listed metal wireway can act as the equipment grounding conductor (EGC) for the circuits run through it (376.60).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 376.60 Wireways as the EGC",
+          "url": "https://www.electricalexamcoach.app/changes/2023/376-60",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-376.22",
@@ -1754,7 +2182,7 @@
         "C3-L-066"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-376",
       "next_id": "C3-ART-378",
       "chapter": 3,
@@ -1919,7 +2347,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "Older Florida housing stock — the pre-war bungalows of Tampa, Orlando, and Jacksonville — is where Sharma meets knob-and-tube, and it is exactly where blown-in attic insulation retrofits are sold hardest. Flag it on every survey.",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-393",
       "next_id": "C3-ART-396",
       "chapter": 3
@@ -1945,7 +2373,7 @@
       "article": "398",
       "section": "398",
       "title": "Open wiring on insulators",
-      "plain_explanation": "Open wiring on insulators — individual conductors run exposed on insulators with set separations — is a legacy and specialized method (agricultural and industrial settings are its remaining home), governed by its own clearances and protection rules. It is not a shortcut version of knob-and-tube and not a method for new house work.",
+      "plain_explanation": "Open wiring on insulators — individual conductors run exposed on insulators with set separations — is a legacy and specialized method (agricultural and industrial settings are its remaining home), governed by its own clearances and protection rules. It is not a shortcut version of knob-and-tube and not a method for new house work.\n\nNEC 2023 CHANGE:\n• 398.15(C): Removed high-density polyethylene conduit (HDPE) as a permitted means to provide physical protection for open wiring on insulators in Section 398.15(C).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Know it to recognize it. New Sharma work does not start here.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1954,14 +2382,23 @@
       "verified": true,
       "prev_id": "C3-ART-396",
       "next_id": "C3-ART-399",
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "398.15(C)",
+          "change": "Removed high-density polyethylene conduit (HDPE) as a permitted means to provide physical protection for open wiring on insulators in Section 398.15(C).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 398.15(C) Exposed to Physical Damage",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C3-ART-399",
       "article": "399",
       "section": "399",
       "title": "Outdoor overhead conductors over 1,000 volts",
-      "plain_explanation": "The chapter's last article covers outdoor overhead conductors operating over 1,000 volts on premises wiring — the campus- or plant-style medium-voltage distribution a property owner owns, not the serving utility. It is a short, engineered article, not a clearance table: it sets no prescriptive clearances of its own, 399.30 requires the supporting structures to be designed and documented by a licensed professional engineer, and the detailed clearance and construction rules live in the National Electrical Safety Code. Utility installations under a utility's exclusive control sit outside the NEC altogether under 90.2(B)(5). (Note the number: in the 2020 NEC this article is 399, not 395 — the research draft's body text used 395 before its own index corrected it.)",
+      "plain_explanation": "The chapter's last article covers outdoor overhead conductors operating over 1,000 volts on premises wiring — the campus- or plant-style medium-voltage distribution a property owner owns, not the serving utility. It is a short, engineered article, not a clearance table: it sets no prescriptive clearances of its own, 399.30 requires the supporting structures to be designed and documented by a licensed professional engineer, and the detailed clearance and construction rules live in the National Electrical Safety Code. Utility installations under a utility's exclusive control sit outside the NEC altogether under 90.2(B)(5). (Note the number: in the 2020 NEC this article is 399, not 395 — the research draft's body text used 395 before its own index corrected it.)\n\nNEC 2023 CHANGE:\n• 395: Article 399 was renumbered as Article 395, Outdoor Overhead Conductors over 1000 Volts.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Not Sharma field work. Its page exists so the book ends where the printed chapter ends, with the right number on it.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1970,7 +2407,16 @@
       "verified": true,
       "prev_id": "C3-ART-398",
       "next_id": null,
-      "chapter": 3
+      "chapter": 3,
+      "nec2023_change": [
+        {
+          "section": "395",
+          "change": "Article 399 was renumbered as Article 395, Outdoor Overhead Conductors over 1000 Volts.",
+          "source": "ICC 2023 NEC Changes Educode (renumbered 315, 395, 495); Daily Reporter 2023 NEC changes",
+          "url": "https://dailyreporter.com/2023/01/13/changes-to-the-2023-national-electric-code-2/",
+          "confirmed": true
+        }
+      ]
     }
   ],
   "toc": [

@@ -13,7 +13,7 @@
       "article": "600",
       "section": "600",
       "title": "Article 600 — Electric Signs and Outline Lighting",
-      "plain_explanation": "This article covers signs, outline lighting, and skeleton tubing — the lighted advertising and identification equipment on commercial buildings. Its field core is simple: a proper sign branch circuit and a real disconnect at the sign.\n\nThe numbers that size a sign job:\n• Sign branch circuit — 20A minimum, serving signs and outline lighting only (600.5)\n• Pedestrian entrances — at least one receptacle outlet at each entrance of a commercial building or occupancy accessible to pedestrians, supplied by that 20A sign circuit (600.5(A))\n• Load calculations — each required sign branch circuit is figured at not less than 1,200 VA in feeder and service calculations (220.14(F))\n• Neon and skeleton tubing — the high-voltage secondary wiring follows its own part of this article (600.31 and 600.32), and the tubing and its power supplies are listed equipment, not field-fabricated parts",
+      "plain_explanation": "This article covers signs, outline lighting, and skeleton tubing — the lighted advertising and identification equipment on commercial buildings. Its field core is simple: a proper sign branch circuit and a real disconnect at the sign.\n\nThe numbers that size a sign job:\n• Sign branch circuit — 20A minimum, serving signs and outline lighting only (600.5)\n• Pedestrian entrances — at least one outlet in an accessible location at each entrance to each tenant space, for sign or outline-lighting use, supplied by a branch circuit rated at least 20A that supplies no other load (600.5(A)); service hallways and corridors are not considered accessible to pedestrians. of a commercial building or occupancy accessible to pedestrians, supplied by that 20A sign circuit (600.5(A))\n• Load calculations — each required sign branch circuit is figured at not less than 1,200 VA in feeder and service calculations (220.14(F))\n• Neon and skeleton tubing — the high-voltage secondary wiring follows its own part of this article (600.31 and 600.32), and the tubing and its power supplies are listed equipment, not field-fabricated parts 600.5(B): circuits supplying signs with incandescent and fluorescent sources are rated 20A maximum; neon transformer or power-supply circuits are rated 30A maximum. Each sign needs a disconnect per 600.6.",
       "on_the_job": "If a bid has signage, price the circuit and the disconnect, not just the sign.",
       "sharma_note": "",
       "figure_idea": "Storefront with a channel-letter sign fed from its own labeled circuit.",
@@ -25,7 +25,7 @@
         "C6-L-044"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": null,
       "next_id": "C6-600.5"
@@ -36,7 +36,7 @@
       "article": "600",
       "section": "600.5",
       "title": "Sign branch circuits — 20A, signs only",
-      "plain_explanation": "600.5(A) requires at least one receptacle outlet in an accessible location at EACH ENTRANCE of each commercial building or occupancy that is accessible to pedestrians, supplied by a branch circuit rated at least 20A that serves no other load. The sign circuit itself is the same family of rule: a sign or outline lighting system is supplied by a branch circuit rated at least 20A that serves no other loads, other than signs and outline lighting tied to the same work.",
+      "plain_explanation": "600.5(A) requires at least one receptacle outlet in an accessible location at EACH ENTRANCE of each commercial building or occupancy that is accessible to pedestrians, supplied by a branch circuit rated at least 20A that serves no other load. The sign circuit itself is the same family of rule: a sign or outline lighting system is supplied by a branch circuit rated at least 20A that serves no other loads, other than signs and outline lighting tied to the same work.\n\nNEC 2023 CHANGE:\n• 600.5: The sign circuit can now also feed equipment that controls the sign, and the delivery-door and service-corridor exemption became a formal exception. The dedicated sign circuit can now also carry loads that control the sign, such as a time clock or photocell (Exception No. 2).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Don't hang storefront lighting or receptacles on the sign circuit.",
       "sharma_note": "S-01 already sets a 20A minimum on commercial branch circuits — the code and company practice land in the same place here.",
       "figure_idea": "Storefront sign on its own labeled 20A circuit.",
@@ -50,7 +50,16 @@
         "S-01"
       ],
       "prev_id": "C6-ART-600",
-      "next_id": "C6-600.6"
+      "next_id": "C6-600.6",
+      "nec2023_change": [
+        {
+          "section": "600.5",
+          "change": "The sign circuit can now also feed equipment that controls the sign, and the delivery-door and service-corridor exemption became a formal exception. The dedicated sign circuit can now also carry loads that control the sign, such as a time clock or photocell (Exception No. 2).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 600.5 Sign branch circuits",
+          "url": "https://www.electricalexamcoach.app/changes/2023/600-5",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-600.6",
@@ -77,7 +86,7 @@
       "article": "600",
       "section": "600.35",
       "title": "Retrofit kits (new in 2020)",
-      "plain_explanation": "Converting an existing sign to new lighting technology is a listed-kit job, not a lamp swap. A general-use or sign-specific retrofit kit must be listed and labeled and must include installation instructions for field conversion of the host sign. The kit is installed per those instructions; wiring methods follow Chapter 3 (with the Class 2 path in 600.12(C), 600.24, and 600.33); parts not replaced are inspected and damaged parts are repaired or replaced; workmanship follows 110.12; and the retrofitted sign is marked per 600.4(B) — including the alert label where tubular LED lamps run on the existing sign sockets, so nobody later installs fluorescent lamps. The 600.2 retrofit definitions (host sign, subassembly, general-use and sign-specific kits) ride with this section.",
+      "plain_explanation": "Converting an existing sign to new lighting technology is a listed-kit job, not a lamp swap. A general-use or sign-specific retrofit kit must be listed and labeled and must include installation instructions for field conversion of the host sign. The kit is installed per those instructions; wiring methods follow Chapter 3 (with the Class 2 path in 600.12(C), 600.24, and 600.33); parts not replaced are inspected and damaged parts are repaired or replaced; workmanship follows 110.12; and the retrofitted sign is marked per 600.4(B) — including the alert label where tubular LED lamps run on the existing sign sockets, so nobody later installs fluorescent lamps. The 600.2 retrofit definitions (host sign, subassembly, general-use and sign-specific kits) ride with this section.\n\nNEC 2023 CHANGE:\n• 600.35: Section 600.35 had redundant requirements removed, which are already covered in Chapters 1-4 of NEC.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Before quoting an LED sign conversion, confirm the kit is listed for that host sign and plan the label — an inspector can fail an unlisted conversion even if it lights.",
       "sharma_note": "",
       "figure_idea": "Host sign opened for conversion: listed kit, instructions, and the retrofit marking label.",
@@ -88,7 +97,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-600.6",
-      "next_id": "C6-ART-604"
+      "next_id": "C6-ART-604",
+      "nec2023_change": [
+        {
+          "section": "600.35",
+          "change": "Section 600.35 had redundant requirements removed, which are already covered in Chapters 1-4 of NEC.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 600.35 Retrofit Kits",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-ART-604",
@@ -104,7 +122,7 @@
         "C6-ART-605"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-600.35",
       "next_id": "C6-ART-605"
@@ -123,7 +141,7 @@
         "C6-ART-604"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-604",
       "next_id": "C6-ART-610"
@@ -140,7 +158,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-605",
       "next_id": "C6-ART-620"
@@ -151,7 +169,7 @@
       "article": "620",
       "section": "620",
       "title": "Article 620 — Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and Stairway Chairlifts",
-      "plain_explanation": "This article covers the electrical installation for elevators and similar equipment: the machine-room disconnect, the branch circuits that serve the car and the machine space, GFCI protection in pits and hoistways, and selective coordination where several machines share a feeder. Elevator work is always coordinated with the elevator contractor and ASME A17.1 — the electrical scope is defined here, the machine scope is theirs.",
+      "plain_explanation": "This article covers the electrical installation for elevators and similar equipment: the machine-room disconnect, the branch circuits that serve the car and the machine space, GFCI protection in pits and hoistways, and selective coordination where several machines share a feeder. Elevator work is always coordinated with the elevator contractor and ASME A17.1 — the electrical scope is defined here, the machine scope is theirs.\n\nNEC 2023 CHANGE:\n• 620.36: Received substantiation specifies which cable types may be installed in elevator raceway or traveling cable. Shielded pair cables, coaxial cables, and communication cables complying with 800.179 are now specifically permitted in Section 620.36. 620.Sl(A) Type. Ex. No.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On a job with an elevator, Sharma's piece is typically the disconnect, the car and machine-room circuits, and pit/hoistway receptacles — confirm that split in the bid, not on site.",
       "sharma_note": "",
       "figure_idea": "Machine room: one labeled disconnect per unit, car circuits tapped ahead of it.",
@@ -166,7 +184,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-610",
-      "next_id": "C6-620.6"
+      "next_id": "C6-620.6",
+      "nec2023_change": [
+        {
+          "section": "620.36",
+          "change": "Received substantiation specifies which cable types may be installed in elevator raceway or traveling cable. Shielded pair cables, coaxial cables, and communication cables complying with 800.179 are now specifically permitted in Section 620.36. 620.Sl(A) Type. Ex. No.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 620.36 Different Systems in One Raceway or Traveling Cable",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-620.6",
@@ -251,7 +278,7 @@
       "article": "625",
       "section": "625",
       "title": "Article 625 — Electric Vehicle Power Transfer System",
-      "plain_explanation": "The 2020 edition renamed this article from 'Charging System' to 'Power Transfer System' because the equipment now moves power both ways — charging, power export, and bidirectional flow are all inside the article's scope. The field core for Sharma: a dedicated branch circuit per outlet (625.40), protection at 125% of a continuous load (625.41, 625.42), a lockable disconnect above the threshold (625.43), and GFCI on every charging receptacle (625.54).\n\nOne more field number: the EVSE cord is limited to 25 ft of overall usable length unless the equipment includes a listed cable management system (a retractor or similar) that is part of the listed equipment (625.17). A longer cord draped across a garage floor or a parking space is a trip hazard and a listing problem at the same time — plan the charger location so 25 ft reaches the charge port of the vehicles the space serves.",
+      "plain_explanation": "The 2020 edition renamed this article from 'Charging System' to 'Power Transfer System' because the equipment now moves power both ways — charging, power export, and bidirectional flow are all inside the article's scope. The field core for Sharma: a dedicated branch circuit per outlet (625.40), protection at 125% of a continuous load (625.41, 625.42), a lockable disconnect above the threshold (625.43), and GFCI on every charging receptacle (625.54).\n\nOne more field number: the EVSE output cable (to the vehicle) is limited to 25 ft of overall usable length unless the listed equipment includes a cable management system (625.17(B)(3)); power-supply cords on cord-and-plug EVSE have their own length limits. A longer cord draped across a garage floor or a parking space is a trip hazard and a listing problem at the same time — plan the charger location so 25 ft reaches the charge port of the vehicles the space serves.\n\nNEC 2023 CHANGE:\n• 625.6: Clarified which electric vehicle equipment involved in electric vehicle power transfer systems should be listed in Section 625.6.\n• 625.49: Created a new Section 625.49 stating that electric vehicle power export equipment (EVPE) and bidirectional electric vehicle supply equipment (EVSE) are permitted to be a part of interconnected power systems operating in an island mode condition.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Garage EV points follow Sharma's garage rules (S-07, S-01) only where they don't conflict with Article 625 — the article wins where they differ.",
       "sharma_note": "",
       "figure_idea": "Garage wall with a hardwired EVSE on its own circuit; bidirectional unit exporting to a house panel shown in a second panel of the figure.",
@@ -265,11 +292,27 @@
         "Q-058",
         "G-05"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
-      "verified": false,
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. The NEC 2023 changes in this article apply in Florida to permits applied for on or after Dec 31, 2026 (FBC 9th Ed.); earlier permits stay on NEC 2020.",
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-620.62",
-      "next_id": "C6-625.40"
+      "next_id": "C6-625.40",
+      "nec2023_change": [
+        {
+          "section": "625.6",
+          "change": "Clarified which electric vehicle equipment involved in electric vehicle power transfer systems should be listed in Section 625.6.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 625.6 Listed",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "625.49",
+          "change": "Created a new Section 625.49 stating that electric vehicle power export equipment (EVPE) and bidirectional electric vehicle supply equipment (EVSE) are permitted to be a part of interconnected power systems operating in an island mode condition.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 625.49 Island Mode",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-625.40",
@@ -277,7 +320,7 @@
       "article": "625",
       "section": "625.40",
       "title": "Electric vehicle branch circuit — one outlet, one circuit",
-      "plain_explanation": "Each outlet installed for the purpose of charging electric vehicles must be supplied by an individual branch circuit, and each such circuit must have no other outlets. In the 2020 text that rule applies to every EV outlet regardless of size — the 'greater than 16A or 120V' qualifier and the exception letting one branch circuit feed multiple chargers are 2023 changes that Florida has not adopted.",
+      "plain_explanation": "Each outlet installed for the purpose of charging electric vehicles must be supplied by an individual branch circuit, and each such circuit must have no other outlets. In the 2020 text that rule applies to every EV outlet regardless of size — the 'greater than 16A or 120V' qualifier and the exception letting one branch circuit feed multiple chargers are 2023 changes that apply in Florida only to permits applied for on or after Dec 31, 2026 (FBC 9th Ed.).\n\nNEC 2023 CHANGE:\n• 625.40: Only EV charging outlets rated over 16 amps or 120 volts now need an individual branch circuit, and a new exception allows several chargers on one circuit when the load is managed. An individual branch circuit is now required only for outlets serving EV supply equipment (EVSE) rated more than 16 amps or more than 120 volts.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Two cars means two circuits under Florida's 2020 rules. Power sharing between chargers happens upstream through load management (625.42), not by doubling up a branch circuit.",
       "sharma_note": "",
       "figure_idea": "Two garage EV outlets, each home-run to its own breaker.",
@@ -286,11 +329,20 @@
         "L-084",
         "Q-057"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. The NEC 2023 changes in this article apply in Florida to permits applied for on or after Dec 31, 2026 (FBC 9th Ed.); earlier permits stay on NEC 2020.",
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-625",
-      "next_id": "C6-625.41"
+      "next_id": "C6-625.41",
+      "nec2023_change": [
+        {
+          "section": "625.40",
+          "change": "Only EV charging outlets rated over 16 amps or 120 volts now need an individual branch circuit, and a new exception allows several chargers on one circuit when the load is managed. An individual branch circuit is now required only for outlets serving EV supply equipment (EVSE) rated more than 16 amps or more than 120 volts.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 625.40 EV charger branch circuits",
+          "url": "https://www.electricalexamcoach.app/changes/2023/625-40",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-625.41",
@@ -319,7 +371,7 @@
       "article": "625",
       "section": "625.42",
       "title": "Rating — charging is a continuous load; load management",
-      "plain_explanation": "Electric vehicle charging loads are considered continuous loads for this article — that is the root of the 125% sizing in 625.41. Where a listed automatic load management system is used, the maximum equipment load on a service or feeder is the maximum load the system permits: the managed cap, not the sum of every charger's nameplate, is the figure used for the service and feeder. Adjustable equipment is figured at its setting only where the adjustment means meets the section's conditions.",
+      "plain_explanation": "Electric vehicle charging loads are considered continuous loads for this article — that is the root of the 125% sizing in 625.41. Where a listed automatic load management system is used, the maximum equipment load on a service or feeder is the maximum load the system permits: the managed cap, not the sum of every charger's nameplate, is the figure used for the service and feeder. Adjustable equipment is figured at its setting only where the adjustment means meets the section's conditions.\n\nNEC 2023 CHANGE:\n• 625.42: The two ways to size services and feeders below the nameplate, load management and restricted adjustable settings, now sit in 625.42(A) and (B) and tie to the energy management rules in 750.30. Every EV charger counts as a continuous load, so size its circuit conductors and overcurrent device at 125 percent of the rating.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Load management is how a 100A or 200A service legally carries two chargers — but it changes the service calculation, never the per-outlet branch-circuit rule in 625.40.",
       "sharma_note": "",
       "figure_idea": "Load management controller capping two chargers at a combined service figure.",
@@ -332,7 +384,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-625.41",
-      "next_id": "C6-625.43"
+      "next_id": "C6-625.43",
+      "nec2023_change": [
+        {
+          "section": "625.42",
+          "change": "The two ways to size services and feeders below the nameplate, load management and restricted adjustable settings, now sit in 625.42(A) and (B) and tie to the energy management rules in 750.30. Every EV charger counts as a continuous load, so size its circuit conductors and overcurrent device at 125 percent of the rating.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 625.42 EV charger rating and load management",
+          "url": "https://www.electricalexamcoach.app/changes/2023/625-42",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-625.43",
@@ -340,7 +401,7 @@
       "article": "625",
       "section": "625.43",
       "title": "Disconnecting means — over 60A or 150V to ground",
-      "plain_explanation": "EV charging equipment rated more than 60A, or more than 150V to ground, must have a disconnecting means that is readily accessible and capable of being locked in the open position, with the locking provision remaining in place as 110.25 requires. Equipment at or under both thresholds does not need the separate disconnect under this section.",
+      "plain_explanation": "EV charging equipment rated more than 60A, or more than 150V to ground, must have a disconnecting means that is readily accessible and capable of being locked in the open position, with the locking provision remaining in place as 110.25 requires. Equipment at or under both thresholds does not need the separate disconnect under this section.\n\nNEC 2023 CHANGE:\n• 625.43: When the disconnect for larger EV equipment (over 60 amps, or more than 150 volts to ground) is remote, the equipment now needs a plaque telling where it is. New: if the disconnect sits away from the EVSE or wireless power transfer equipment (WPTE), a plaque on that equipment must show its location.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Big commercial chargers and DC fast-charge equipment cross the threshold — plan the disconnect location at rough-in, not at the final.",
       "sharma_note": "",
       "figure_idea": "Wall-mounted lockable disconnect beside a high-output charger.",
@@ -351,7 +412,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-625.42",
-      "next_id": "C6-625.44"
+      "next_id": "C6-625.44",
+      "nec2023_change": [
+        {
+          "section": "625.43",
+          "change": "When the disconnect for larger EV equipment (over 60 amps, or more than 150 volts to ground) is remote, the equipment now needs a plaque telling where it is. New: if the disconnect sits away from the EVSE or wireless power transfer equipment (WPTE), a plaque on that equipment must show its location.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 625.43 EV charger disconnect location",
+          "url": "https://www.electricalexamcoach.app/changes/2023/625-43",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-625.44",
@@ -359,7 +429,7 @@
       "article": "625",
       "section": "625.44",
       "title": "Equipment connections — how the charger plugs in",
-      "plain_explanation": "625.44 sorts electric vehicle equipment by how it connects to the premises wiring, and each style carries its own connection rule. Portable equipment connects cord-and-plug through a receptacle. Stationary equipment may also be cord-and-plug connected where the section permits it, and fastened-in-place equipment has its own provisions, including direct wiring. Where a receptacle is the connection, it must be a listed receptacle of the rating and configuration the equipment requires — the charger nameplate, not habit, picks the receptacle. The dwelling case crews see most is a 240-volt receptacle feeding a plug-in charger: the receptacle rating, the branch-circuit rating, and the charger's continuous draw all have to agree, which is why this section is read together with 625.41 and 625.42.",
+      "plain_explanation": "625.44 sorts electric vehicle equipment by how it connects to the premises wiring, and each style carries its own connection rule. Portable equipment connects cord-and-plug through a receptacle. Stationary equipment may also be cord-and-plug connected where the section permits it, and fastened-in-place equipment has its own provisions, including direct wiring. Where a receptacle is the connection, it must be a listed receptacle of the rating and configuration the equipment requires — the charger nameplate, not habit, picks the receptacle. The dwelling case crews see most is a 240-volt receptacle feeding a plug-in charger: the receptacle rating, the branch-circuit rating, and the charger's continuous draw all have to agree, which is why this section is read together with 625.41 and 625.42.\n\nNEC 2023 CHANGE:\n• 625.44(A): Received substantiation that led to the addition of 60-ampere receptacles to the list of permitted receptacle amperages for portable electric vehicle supply equipment (EVSE) in Section 625.44(A).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Plug-in charger on a 50 A receptacle: the circuit is sized for the continuous load at 125 percent (a 40 A charger on a 50 A circuit), the receptacle matches the circuit, and the equipment is the listed unit the homeowner bought — not a dryer receptacle borrowed for the garage. If the charger is hard-wired instead, 625.44 steps aside and the disconnect rules of 625.43 decide.",
       "sharma_note": "",
       "florida_note": "",
@@ -372,9 +442,18 @@
         "C6-L-061"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C6-625.43",
-      "next_id": "C6-625.50"
+      "next_id": "C6-625.50",
+      "nec2023_change": [
+        {
+          "section": "625.44(A)",
+          "change": "Received substantiation that led to the addition of 60-ampere receptacles to the list of permitted receptacle amperages for portable electric vehicle supply equipment (EVSE) in Section 625.44(A).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 625.44(A) Portable Equipment",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-625.50",
@@ -469,7 +548,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-625.56",
       "next_id": "C6-ART-630"
@@ -480,16 +559,25 @@
       "article": "630",
       "section": "630",
       "title": "Article 630 — Electric Welders",
-      "plain_explanation": "Intro: duty-cycle-based conductor and overcurrent rules for arc and resistance welders — the one place the Code lets you size conductors below the nameplate input current using the welder's rated duty cycle (630.11 multipliers). Shop work: get the duty cycle off the nameplate before sizing.",
-      "on_the_job": "Worked example: a welder with a 50 A rated primary current at a 60 percent duty cycle takes the 630.11(A) multiplier of 0.78, so its supply conductors need an ampacity of at least 50 × 0.78 = 39 A. Read the duty cycle off the nameplate every time — a welder with no marked duty cycle is figured at the conservative end of the table, not guessed.",
+      "plain_explanation": "Intro: duty-cycle-based conductor and overcurrent rules for arc and resistance welders — using the welder's rated duty cycle (630.11 multipliers). Shop work: get the duty cycle off the nameplate before sizing.\n\nNEC 2023 CHANGE:\n• 630.8: Created a new Section 630.8 requiring ground-fault circuit-interrupter (GFCI) protection for personnel involved with electric welder applications.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
+      "on_the_job": "Worked example: a welder with a 50 A rated primary current at a 60 percent duty cycle takes the 630.11(A) multiplier of 0.78 for a nonmotor-generator arc welder (motor-generator welders use a different column), so its supply conductors need an ampacity of at least 50 × 0.78 = 39 A. Read the duty cycle off the nameplate every time, not guessed.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-626",
-      "next_id": "C6-ART-640"
+      "next_id": "C6-ART-640",
+      "nec2023_change": [
+        {
+          "section": "630.8",
+          "change": "Created a new Section 630.8 requiring ground-fault circuit-interrupter (GFCI) protection for personnel involved with electric welder applications.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 630.8 Ground-Fault Circuit-Interrupter Protection for Personnel (Electric Welders)",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-ART-640",
@@ -503,7 +591,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-630",
       "next_id": "C6-ART-645"
@@ -514,13 +602,13 @@
       "article": "645",
       "section": "645",
       "title": "Article 645 — Information Technology Equipment",
-      "plain_explanation": "Intro: special wiring allowances for IT equipment rooms that meet the article's conditions — including wiring under raised floors and the room disconnecting means. The allowances apply only when every condition in 645.4 is met; otherwise Chapters 1–4 govern as usual.\n\nThe room-level items Sharma would actually wire: a disconnecting means for the IT equipment — and for the dedicated HVAC serving the room — that can be operated from the room's principal exit doors (645.10), and underfloor branch circuits run only in the wiring methods 645.5 permits. The disconnect button at the door is the visible part of this article on a data-room job, and its location is settled at rough-in, not at trim.",
+      "plain_explanation": "Intro: special wiring allowances for IT equipment rooms that meet the article's conditions — including wiring under raised floors and the room disconnecting means. The allowances apply only when every condition in 645.4 is met; otherwise Chapters 1–4 govern as usual.\n\nThe room-level items Sharma would actually wire: a disconnecting means for the IT equipment — and for the dedicated HVAC serving the room — with remote disconnect controls at approved locations readily accessible in case of fire to authorized personnel and emergency responders (645.10(A)); the HVAC disconnect must also cause required fire/smoke dampers to close., and underfloor branch circuits run only in the wiring methods 645.5 permits. The disconnect button at the door is the visible part of this article on a data-room job, and its location is settled at rough-in, not at trim. 645.10 also allows the remote disconnect controls to cover designated zones within the room, and there is an exception for Critical Operations Data Systems.",
       "on_the_job": "Before using any 645 allowance — underfloor wiring, the room disconnect arrangement — verify the room meets every condition in 645.4: dedicated IT room, the required disconnecting means, separation, and fire protection as the article lists them. If one condition fails, wire the room under Chapters 1 through 4 like any other space.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-640",
       "next_id": "C6-ART-646"
@@ -531,16 +619,25 @@
       "article": "646",
       "section": "646",
       "title": "Article 646 — Modular Data Centers",
-      "plain_explanation": "Intro: factory-built data center modules treated as listed equipment with their own supply, disconnect, and grounding rules. Added in an earlier cycle (2014), not new in 2020.",
+      "plain_explanation": "Intro: factory-built data center modules treated as listed equipment with their own supply, disconnect, and grounding rules. Added in an earlier cycle (2014), not new in 2020.\n\nNEC 2023 CHANGE:\n• 646.19: The revision of Section 646.19 specifies the requirements for egress doors located in modular data centers.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Treat the module as listed equipment: Sharma's scope is the supply feeder, the disconnect, and the grounding connection landed on the module's marked terminals. Never field-modify the module's internal wiring to make a site condition fit — that is the manufacturer's listing you would be voiding.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-645",
-      "next_id": "C6-ART-647"
+      "next_id": "C6-ART-647",
+      "nec2023_change": [
+        {
+          "section": "646.19",
+          "change": "The revision of Section 646.19 specifies the requirements for egress doors located in modular data centers.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 646.19 Entrance to and Egress from Working Space",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-ART-647",
@@ -554,7 +651,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-646",
       "next_id": "C6-ART-650"
@@ -571,7 +668,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-647",
       "next_id": "C6-ART-660"
@@ -588,7 +685,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-650",
       "next_id": "C6-ART-665"
@@ -605,7 +702,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-660",
       "next_id": "C6-ART-668"
@@ -622,7 +719,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-665",
       "next_id": "C6-ART-669"
@@ -639,7 +736,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-668",
       "next_id": "C6-ART-670"
@@ -650,7 +747,7 @@
       "article": "670",
       "section": "670",
       "title": "Article 670 — Industrial Machinery",
-      "plain_explanation": "Intro: the nameplate, supply-conductor, and overcurrent rules for industrial machines with combined motor and control loads — the machine's nameplate current, not a 430 calculation, drives the supply sizing.",
+      "plain_explanation": "Intro: the nameplate, supply-conductor, and overcurrent rules for industrial machines with combined motor and control loads — the machine's nameplate current, not a 430 calculation, drives the supply sizing.\n\nNEC 2023 CHANGE:\n• 670.1: Revised Section 670.1 to now include overvoltage protection for supply conductors for industrial machinery.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Worked example: a machine whose nameplate gives a supply-circuit rating of 46 A is fed with conductors of at least that ampacity, figured under 670.4 from the nameplate — not by opening the machine and adding its internal motors under 430. Photograph the nameplate for the takeoff; it is the calculation.",
       "sharma_note": "",
       "figure_idea": "",
@@ -659,7 +756,18 @@
       "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-669",
-      "next_id": "C6-ART-675"
+      "next_id": "C6-ART-675",
+      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Supply conductors are not simply 'at least the nameplate current'. 670.4(A): ampacity not less than 125% of the full-load current of all resistance heating loads, plus 125% of the full-load current of the highest-rated motor, plus the full-load currents of all other connected motors and apparatus that may run at the same time (based on duty cycle). The 670.3(A) nameplate supplies the full-load current, SCCR and largest-motor data used in that calculation. Rewrite the worked example to show the 670.4(A) arithmetic, or say \"use the supply-conductor ampacity the machine's nameplate/documentation states per 670.4(A)\", and confirm the 670.3(A) nameplate items against the printed 2020 text.",
+      "recheck_correction": "Supply conductors are not simply 'at least the nameplate current'. 670.4(A): ampacity not less than 125% of the full-load current of all resistance heating loads, plus 125% of the full-load current of the highest-rated motor, plus the full-load currents of all other connected motors and apparatus that may run at the same time (based on duty cycle). The 670.3(A) nameplate supplies the full-load current, SCCR and largest-motor data used in that calculation. Rewrite the worked example to show the 670.4(A) arithmetic, or say \"use the supply-conductor ampacity the machine's nameplate/documentation states per 670.4(A)\", and confirm the 670.3(A) nameplate items against the printed 2020 text.",
+      "nec2023_change": [
+        {
+          "section": "670.1",
+          "change": "Revised Section 670.1 to now include overvoltage protection for supply conductors for industrial machinery.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 670.1 Scope. (Industrial Machinery)",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-ART-675",
@@ -673,7 +781,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-670",
       "next_id": "C6-ART-680"
@@ -684,7 +792,7 @@
       "article": "680",
       "section": "680",
       "title": "Article 680 — Swimming Pools, Fountains, and Similar Installations",
-      "plain_explanation": "Article 680 is organized by installation type, and the first job on any pool is knowing which part you are in: Part I general rules ride with every part; Part II is permanently installed pools; Part III storable pools; Part IV spas and hot tubs; Part V fountains; Part VII hydromassage bathtubs; Part VIII pool lifts. Two systems run through all of it and must never be confused: grounding (the fault path back to the source) and equipotential bonding under 680.26 (tying everything a swimmer can touch to one potential). Florida is pool country — this is the highest-value article in the chapter for Sharma.",
+      "plain_explanation": "Article 680 is organized by installation type, and the first job on any pool is knowing which part you are in: Part I general rules ride with every part; Part II is permanently installed pools; Part III storable pools; Part IV spas and hot tubs; Part V fountains; Part VII hydromassage bathtubs; Part VIII pool lifts. Two systems run through all of it and must never be confused: grounding (the fault path back to the source) and equipotential bonding under 680.26 (tying everything a swimmer can touch to one potential). Florida is pool country — this is the highest-value article in the chapter for Sharma.\n\nNEC 2023 CHANGE:\n• 680.10: Pool heat pumps and chillers finally have their own rule: listed, and wired by the nameplate. The 48-amp element split and 125 percent sizing now belong to resistance heaters only. Electric heat pumps and chillers that heat or cool pool water must be listed and installed to their nameplate ratings (680.10(B)).\n• 680.14: Wiring in corrosive pool areas now has to be suitable for the location. LFNC joins the accepted list, aluminum conduit and tubing are out, and other equipment gets its own rule. Aluminum conduit and aluminum tubing aren't allowed in a corrosive pool environment (680.14(A)).\n• 680.5: Pool ground-fault protection now depends on voltage to ground: Class A GFCI up to 150 volts to ground, and special purpose GFCI (SPGFCI) above 150 volts, up to 480 volts phase to phase. On circuits above 150 volts to ground, through 480 volts phase to phase, the device must be a special purpose GFCI (SPGFCI), 20 mA max.\n• 680.54: New 680.54(C) brings pool-style equipotential bonding to splash pads and settles where to measure from: the walking area and collection basin are the shell, and their outer edge is the inside wall. Splash pads now need equipotential bonding the way pools do, including the bonded perimeter surface around them (680.54(C)).\n• Article 680: Article 680 underwent a major reorganization to improve usability and compliance with the NEC Style Manual.\n• 680.12: Text at Section 680.12 has been revised and subdivided to require equipment rooms, vaults, or pits with equipment to have drainage or be suitable for submersion in first-level subdivision A. New first-level subdivision B requires a 125-volt, 15-or 20-ampere receptacle and requires any receptacle in the space rated 150 volts or less to be ground-fault circuit- interrupter (GFCI) protected.\n• 680.32: Received substantiation to revise the tide and text of Section 680.32 to indicate that both ground-fault circuit interrupter (GFCI) and special-purpose ground-fault circuit interrupter (SPGFCI) requirements are covered in this section and add a reference back to 680.S(B) and (C).\n• 680.44: Revised Section 680.44 to indicate that both GFCI and SPGFCI requirements are addressed for spa and hot tub installations.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Classify the install before pricing: a storable pool, an outdoor spa, and a permanently installed pool carry three different rule sets out of the same article.",
       "sharma_note": "",
       "figure_idea": "Pool cross-section with callouts: receptacle band 6–20 ft, bonding ring under the deck, deck box at 4 ft, overhead clearance arrows.",
@@ -699,11 +807,69 @@
         "Q-060",
         "O-08"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. The NEC 2023 changes in this article apply in Florida to permits applied for on or after Dec 31, 2026 (FBC 9th Ed.); earlier permits stay on NEC 2020.",
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-675",
-      "next_id": "C6-680.9"
+      "next_id": "C6-680.9",
+      "nec2023_change": [
+        {
+          "section": "680.10",
+          "change": "Pool heat pumps and chillers finally have their own rule: listed, and wired by the nameplate. The 48-amp element split and 125 percent sizing now belong to resistance heaters only. Electric heat pumps and chillers that heat or cool pool water must be listed and installed to their nameplate ratings (680.10(B)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 680.10 Pool heaters and heat pumps",
+          "url": "https://www.electricalexamcoach.app/changes/2023/680-10",
+          "confirmed": true
+        },
+        {
+          "section": "680.14",
+          "change": "Wiring in corrosive pool areas now has to be suitable for the location. LFNC joins the accepted list, aluminum conduit and tubing are out, and other equipment gets its own rule. Aluminum conduit and aluminum tubing aren't allowed in a corrosive pool environment (680.14(A)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 680.14 Corrosive pool areas",
+          "url": "https://www.electricalexamcoach.app/changes/2023/680-14",
+          "confirmed": true
+        },
+        {
+          "section": "680.5",
+          "change": "Pool ground-fault protection now depends on voltage to ground: Class A GFCI up to 150 volts to ground, and special purpose GFCI (SPGFCI) above 150 volts, up to 480 volts phase to phase. On circuits above 150 volts to ground, through 480 volts phase to phase, the device must be a special purpose GFCI (SPGFCI), 20 mA max.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 680.5 Pool GFCI and special purpose GFCI",
+          "url": "https://www.electricalexamcoach.app/changes/2023/680-5",
+          "confirmed": true
+        },
+        {
+          "section": "680.54",
+          "change": "New 680.54(C) brings pool-style equipotential bonding to splash pads and settles where to measure from: the walking area and collection basin are the shell, and their outer edge is the inside wall. Splash pads now need equipotential bonding the way pools do, including the bonded perimeter surface around them (680.54(C)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 680.54 Splash pad bonding",
+          "url": "https://www.electricalexamcoach.app/changes/2023/680-54",
+          "confirmed": true
+        },
+        {
+          "section": "Article 680",
+          "change": "Article 680 underwent a major reorganization to improve usability and compliance with the NEC Style Manual.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: Article 680 Swimming Pools, Fountains, and Similar Installations",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "680.12",
+          "change": "Text at Section 680.12 has been revised and subdivided to require equipment rooms, vaults, or pits with equipment to have drainage or be suitable for submersion in first-level subdivision A. New first-level subdivision B requires a 125-volt, 15-or 20-ampere receptacle and requires any receptacle in the space rated 150 volts or less to be ground-fault circuit- interrupter (GFCI) protected.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 680.12 Equipment Rooms, Vaults, and Pits",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "680.32",
+          "change": "Received substantiation to revise the tide and text of Section 680.32 to indicate that both ground-fault circuit interrupter (GFCI) and special-purpose ground-fault circuit interrupter (SPGFCI) requirements are covered in this section and add a reference back to 680.S(B) and (C).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 680.32 Ground-Fault Circuit-Interrupter (GFCI) and Special Purpose Ground-Fault Circuit-Interrupter",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "680.44",
+          "change": "Revised Section 680.44 to indicate that both GFCI and SPGFCI requirements are addressed for spa and hot tub installations.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 680.44 Ground-Fault Circuit-Interrupter (GFCI} and Special Purpose Ground-Fault Circuit-Interrupter",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-680.9",
@@ -711,7 +877,7 @@
       "article": "680",
       "section": "680.9",
       "title": "Overhead conductor clearances",
-      "plain_explanation": "In the 2020 edition the overhead rules live at 680.9(A) with Table 680.9(A) — older sources that cite 680.8 are working from a previous edition. The clearance in any direction from the water level, the edge of a diving structure, or the base of a diving platform is 22.5 ft for the conductors the table covers. Measured from maximum water level, the clearance to an observation stand, tower, or diving platform is 14.5 ft. All clearances are measured from maximum water level, not from the deck. Read Table 680.9(A) by its rows: the figures apply to the conductor types and voltages the table lists, measured as the table directs — they are not a blanket clearance for every wire over water. Overhead communications conductors and cables have their own rule at 680.9(B): a horizontal clearance of at least 10 ft from the pool and its associated structures.",
+      "plain_explanation": "In the 2020 edition the overhead rules live at 680.9(A) with Table 680.9(A) — older sources that cite 680.8 are working from a previous edition. The clearance in any direction from the water level, the edge of a diving structure, or the base of a diving platform is 22.5 ft for the conductors the table covers. Measured from maximum water level, the clearance to an observation stand, tower, or diving platform is 14.5 ft. All clearances are measured from maximum water level, not from the deck. Read Table 680.9(A) by its rows: the figures apply to the conductor types and voltages the table lists, measured as the table directs — they are not a blanket clearance for every wire over water. Overhead communications conductors and cables have their own rule at 680.9(B): a horizontal clearance of at least 10 ft from the pool and its associated structures.\n\nNEC 2023 CHANGE:\n• 680.9(A): In Section 680.9(A), clarifies that open overhead wiring in raceways is not subject to the clearance requirements in Table 680.9(A) and Figure 680.9(A).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Survey the overhead lines before the pool layout is final — moving a pool shell is cheaper than relocating a service drop, and 22.5 ft in ANY direction includes diagonals.",
       "sharma_note": "",
       "figure_idea": "Elevation sketch: pool, diving board, and an overhead line with the 22.5 ft diagonal arrow.",
@@ -723,7 +889,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-680",
-      "next_id": "C6-680.11"
+      "next_id": "C6-680.11",
+      "nec2023_change": [
+        {
+          "section": "680.9(A)",
+          "change": "In Section 680.9(A), clarifies that open overhead wiring in raceways is not subject to the clearance requirements in Table 680.9(A) and Figure 680.9(A).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 680.9{A) Power",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-680.11",
@@ -731,7 +906,7 @@
       "article": "680",
       "section": "680.11",
       "title": "Underground wiring",
-      "plain_explanation": "Underground wiring is not permitted under a pool or within 5 ft horizontally of the inside wall unless it is necessary to supply pool equipment permitted by the article. Wiring in that zone uses the article's listed raceway methods, and equipment grounding follows the pool rules — when in doubt, route around the 5 ft band.",
+      "plain_explanation": "Underground wiring is not permitted under a pool or within 5 ft horizontally of the inside wall unless it is necessary to supply pool equipment permitted by the article. Wiring in that zone uses the article's listed raceway methods, and equipment grounding follows the pool rules — when in doubt, route around the 5 ft band.\n\nNEC 2023 CHANGE:\n• 680.11: Underground runs within 5 ft of a pool's inside wall now count as suitable only when the wiring method is installed as a complete system, from one outlet, junction or splice point to the next. The underground methods for the zone within 5 ft horizontally of the inside wall now count only when installed as complete systems (680.11(A)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Keep site lighting and landscape conduits out of the 5 ft band unless they serve the pool itself.",
       "sharma_note": "",
       "figure_idea": "Plan view: pool shell with the 5 ft underground-wiring band shaded.",
@@ -742,7 +917,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.9",
-      "next_id": "C6-680.21(A)"
+      "next_id": "C6-680.21(A)",
+      "nec2023_change": [
+        {
+          "section": "680.11",
+          "change": "Underground runs within 5 ft of a pool's inside wall now count as suitable only when the wiring method is installed as a complete system, from one outlet, junction or splice point to the next. The underground methods for the zone within 5 ft horizontally of the inside wall now count only when installed as complete systems (680.11(A)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 680.11 Underground wiring near pools",
+          "url": "https://www.electricalexamcoach.app/changes/2023/680-11",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-680.21(A)",
@@ -769,7 +953,7 @@
       "article": "680",
       "section": "680.21(C)",
       "title": "GFCI protection for pool motors — re-checked",
-      "plain_explanation": "GFCI protection is required for outlets supplying pool motors on branch circuits rated 150V or less to ground and 60A or less, single-phase or three-phase — by receptacle or by direct connection. This was one of the figures re-checked against 2020-based sources before this chapter was written, and the v1 lookup (L-088) states it correctly: the scope is all pool motors inside those ratings, not just cord-and-plug pumps.",
+      "plain_explanation": "GFCI protection is required for outlets supplying pool motors on branch circuits rated 150V or less to ground and 60A or less, single-phase or three-phase — by receptacle or by direct connection. This was one of the figures re-checked against 2020-based sources before this chapter was written, and the v1 lookup (L-088) states it correctly: the scope is all pool motors inside those ratings, not just cord-and-plug pumps.\n\nNEC 2023 CHANGE:\n• 680.21: Repairing a pool pump motor now triggers ground-fault protection, just like replacing one. The device matches the circuit: a GFCI, or a special purpose GFCI (SPGFCI) above 150 volts to ground. Repair now counts: a pump motor covered by 680.21(C) that's repaired, not only one that's replaced, needs ground-fault protection on its circuit (680.21(D)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "A hardwired 240V pool pump needs GFCI protection just as much as a plug-in one — plan the protection device at design, not at the final walk.",
       "sharma_note": "Sharma note: like 625.54, a 240V pool circuit is not an S-07 120V DFN point. Meet 680.21(C) with the listed method specified for the job; device choice is Mike/Sanjay's per job.",
       "figure_idea": "Pump circuit showing GFCI protection device ahead of a hardwired motor.",
@@ -784,7 +968,16 @@
         "S-07"
       ],
       "prev_id": "C6-680.21(A)",
-      "next_id": "C6-680.21(D)"
+      "next_id": "C6-680.21(D)",
+      "nec2023_change": [
+        {
+          "section": "680.21",
+          "change": "Repairing a pool pump motor now triggers ground-fault protection, just like replacing one. The device matches the circuit: a GFCI, or a special purpose GFCI (SPGFCI) above 150 volts to ground. Repair now counts: a pump motor covered by 680.21(C) that's repaired, not only one that's replaced, needs ground-fault protection on its circuit (680.21(D)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 680.21 Repaired pool pump motors",
+          "url": "https://www.electricalexamcoach.app/changes/2023/680-21",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-680.21(D)",
@@ -792,7 +985,7 @@
       "article": "680",
       "section": "680.21(D)",
       "title": "Replacement pump motors",
-      "plain_explanation": "Where a pool pump motor is replaced, the replacement work must provide the GFCI protection 680.21(C) requires for that outlet. A service call that swaps a motor on an old unprotected circuit does not get to leave it unprotected.",
+      "plain_explanation": "Where a pool pump motor is replaced, the replacement work must provide the GFCI protection 680.21(C) requires for that outlet. A service call that swaps a motor on an old unprotected circuit does not get to leave it unprotected.\n\nNEC 2023 CHANGE:\n• 680.21(D): The revisions at 680.2l(D) expand the requirement to provide ground- fault circuit-interrupter (GFCI) protection for replaced pool pump motors and also include those that are repaired, but not replaced.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Service crews: a motor swap triggers the GFCI upgrade — quote it with the replacement, not as a surprise.",
       "sharma_note": "",
       "figure_idea": "",
@@ -803,7 +996,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.21(C)",
-      "next_id": "C6-680.22(A)"
+      "next_id": "C6-680.22(A)",
+      "nec2023_change": [
+        {
+          "section": "680.21(D)",
+          "change": "The revisions at 680.2l(D) expand the requirement to provide ground- fault circuit-interrupter (GFCI) protection for replaced pool pump motors and also include those that are repaired, but not replaced.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 680.21{D) Pool Pump Motor Replacement",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-680.22(A)",
@@ -822,7 +1024,7 @@
         "L-086",
         "Q-059"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. The NEC 2023 changes in this article apply in Florida to permits applied for on or after Dec 31, 2026 (FBC 9th Ed.); earlier permits stay on NEC 2020.",
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.21(D)",
@@ -866,7 +1068,7 @@
         "C6-L-062"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C6-680.22(B)",
       "next_id": "C6-680.23"
     },
@@ -876,7 +1078,7 @@
       "article": "680",
       "section": "680.23",
       "title": "Underwater luminaires",
-      "plain_explanation": "Underwater luminaires must be listed for the purpose and installed by niche type — wet-niche, dry-niche, or no-niche — with transformers and power supplies for low-voltage units listed for pool use under 680.23(A)(2). Units operating above the low-voltage contact limit get GFCI protection. Wall-mounted units sit with the top of the lens at least 18 in. below the normal water level unless the luminaire is listed and marked for use at a lesser depth.\n\nThe 'low-voltage contact limit' this section leans on is a defined term (680.2): not more than 15 V AC sinusoidal (RMS), 21.2 V peak for nonsinusoidal AC, or 30 V for continuous DC, with its own limits for interrupted DC. A listed low-voltage luminaire system at or under that limit is the path that avoids GFCI protection for the luminaire circuit; anything operating above the limit is GFCI protected. When a pool-light quote says 'low voltage,' confirm which side of that definition the system sits on before the protection is priced.",
+      "plain_explanation": "Underwater luminaires must be listed for the purpose and installed by niche type — wet-niche, dry-niche, or no-niche — with transformers and power supplies for low-voltage units listed for pool use under 680.23(A)(2). Units operating above the low-voltage contact limit get GFCI protection. Wall-mounted units sit with the top of the lens at least 18 in. below the normal water level unless the luminaire is listed and marked for use at a lesser depth.\n\nThe 'low-voltage contact limit' this section leans on is a defined term (680.2): not more than 15 V AC sinusoidal (RMS), 21.2 V peak for nonsinusoidal AC, or 30 V for continuous DC, with its own limits for interrupted DC. A listed low-voltage luminaire system at or under that limit is the path that avoids GFCI protection for the luminaire circuit; anything operating above the limit is GFCI protected. When a pool-light quote says 'low voltage,' confirm which side of that definition the system sits on before the protection is priced.\n\nNEC 2023 CHANGE:\n• 680.23(B)(2)(a): Substantiation was received that rigid metal conduit extending directly to wet niche luminaires in forming shells of pools must be as listed red brass or listed stainless steel.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "The light, its niche, its transformer, and its junction box are one system — check all four against the listing.",
       "sharma_note": "",
       "figure_idea": "Wet-niche luminaire cross-section with the 18 in. lens depth marked.",
@@ -885,10 +1087,19 @@
         "C6-680.24(A)"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.22(C)",
-      "next_id": "C6-680.24(A)"
+      "next_id": "C6-680.24(A)",
+      "nec2023_change": [
+        {
+          "section": "680.23(B)(2)(a)",
+          "change": "Substantiation was received that rigid metal conduit extending directly to wet niche luminaires in forming shells of pools must be as listed red brass or listed stainless steel.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 680.23(B}(2}(a} Forming Shell. (Metal Conduit}",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-680.24(A)",
@@ -929,7 +1140,8 @@
       "sharma_rule_ids": [],
       "verified": false,
       "prev_id": "C6-680.24(A)",
-      "next_id": "C6-680.26"
+      "next_id": "C6-680.26",
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): The wiring-method list looks incomplete: the page names only RMC, IMC, PVC or 'another identified raceway', but the code list also includes LFMC, LFNC, RTRC, EMT (on or within a building), ENT (within a building) and Type MC (within a building, not in a corrosive environment), plus an exception for existing feeders. I also could not confirm first-hand whether NEC 2020 still requires the feeder EGC to be INSULATED in 680.25(B) — the 2020 cycle changed several Article 680 grounding/wiring-method rules. Check 680.25(A) and (B) against the printed 2020 text, then publish the full list and the confirmed EGC wording. 'Table 250.122, not smaller than 12 AWG' is consistent with earlier editions."
     },
     {
       "id": "C6-680.26",
@@ -981,7 +1193,7 @@
       "article": "680",
       "section": "680.26(B)(2)",
       "title": "Perimeter surfaces — the ring",
-      "plain_explanation": "The bonded perimeter surface extends 3 ft beyond the inside walls of the pool. Where the ring method is used, it is one or more bare solid copper conductors not smaller than 8 AWG, laid 18 to 24 in. out from the inside walls and 4 to 6 in. below the subgrade, and attached to the pool's reinforcing steel or copper grid at a minimum of four uniformly spaced points. The perimeter rule exists so the deck a wet swimmer stands on is at the same potential as the water.",
+      "plain_explanation": "The bonded perimeter surface extends 3 ft beyond the inside walls of the pool. Where the ring method is used, it is one or more bare solid copper conductors not smaller than 8 AWG, laid 18 to 24 in. out from the inside walls and 4 to 6 in. below the subgrade, and attached to the pool's reinforcing steel or copper grid at a minimum of four uniformly spaced points. The perimeter rule exists so the deck a wet swimmer stands on is at the same potential as the water.\n\nNEC 2023 CHANGE:\n• 680.26: Perimeter bonding depth is now measured from finished grade: no deeper than 6 in under paving, 4 to 6 in under bare ground. An interim amendment later rewrote the perimeter rules again. As printed in 2023, a copper ring or grid goes in or under paving, no more than 6 in below finished grade (680.26(B)(2)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Set the ring before pavers or deck pour — depth and distance are both inspection points, and neither can be fixed after the deck is down.",
       "sharma_note": "",
       "figure_idea": "Section through the deck edge: ring at 18–24 in. out, 4–6 in. below subgrade, tie points marked.",
@@ -992,7 +1204,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.26(B)",
-      "next_id": "C6-680.26(C)"
+      "next_id": "C6-680.26(C)",
+      "nec2023_change": [
+        {
+          "section": "680.26",
+          "change": "Perimeter bonding depth is now measured from finished grade: no deeper than 6 in under paving, 4 to 6 in under bare ground. An interim amendment later rewrote the perimeter rules again. As printed in 2023, a copper ring or grid goes in or under paving, no more than 6 in below finished grade (680.26(B)(2)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 680.26 Pool perimeter bonding",
+          "url": "https://www.electricalexamcoach.app/changes/2023/680-26",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-680.26(C)",
@@ -1058,7 +1279,7 @@
       "article": "680",
       "section": "680.41",
       "title": "Spa emergency shutoff — 5 ft, in sight, labeled",
-      "plain_explanation": "Spas and hot tubs (other than at one-family dwellings) must have an emergency shutoff for the recirculation and jet system: readily accessible, adjacent to and within sight of the tub, at least 5 ft away from it, and clearly labeled as the emergency shutoff. The 5 ft floor keeps a person in the water from reaching it; the in-sight rule lets a bystander find it.",
+      "plain_explanation": "Spas and hot tubs (other than at one-family dwellings) must have an emergency shutoff for the recirculation and jet system: readily accessible, adjacent to and within sight of the tub, at least 5 ft away from it, and clearly labeled as the emergency shutoff. The 5 ft floor keeps a person in the water from reaching it; the in-sight rule lets a bystander find it.\n\nNEC 2023 CHANGE:\n• 680.41: Spas and hot tubs get an equipment setback in new 680.41(B): gear above the low-voltage contact limit needs 5 ft of horizontal distance from the inside wall unless a permanent barrier stands between. Anything above the low-voltage contact limit stays 5 ft or more, measured horizontally, from the inside wall of the spa or hot tub (680.41(B)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Hotels, condos, and amenity centers need the shutoff; a single-family backyard spa does not — know which job you're on before omitting it.",
       "sharma_note": "",
       "figure_idea": "Amenity-center spa with the labeled shutoff on the wall 5 ft away, in sight.",
@@ -1069,7 +1290,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.40",
-      "next_id": "C6-680.42"
+      "next_id": "C6-680.42",
+      "nec2023_change": [
+        {
+          "section": "680.41",
+          "change": "Spas and hot tubs get an equipment setback in new 680.41(B): gear above the low-voltage contact limit needs 5 ft of horizontal distance from the inside wall unless a permanent barrier stands between. Anything above the low-voltage contact limit stays 5 ft or more, measured horizontally, from the inside wall of the spa or hot tub (680.41(B)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 680.41 Spa equipment setback",
+          "url": "https://www.electricalexamcoach.app/changes/2023/680-41",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-680.42",
@@ -1091,7 +1321,8 @@
       "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.41",
-      "next_id": "C6-680.43"
+      "next_id": "C6-680.43",
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): Two likely errors, not confirmed first-hand. (1) \"a factory-built tub does not waive the bonding\" overstates it. Since 2017, 680.42 has relieved perimeter-surface equipotential bonding (680.26(B)(2)) for listed self-contained spas/hot tubs installed above a finished surface, under stated conditions, while the tub's own equipment bonding still applies. (2) In NEC 2020 the maintenance disconnecting means appears to be 680.13, not 680.12 (2020 added 680.14 Corrosive Environment and renumbered). Check both against the printed 2020 text, then correct the bullet and the citation."
     },
     {
       "id": "C6-680.43",
@@ -1118,7 +1349,7 @@
       "article": "680",
       "section": "680.50",
       "title": "Fountains — Parts I and V",
-      "plain_explanation": "Fountains are governed by Parts I and V, and where people can enter the water (an interactive fountain or splash feature), the referenced Part II rules come in as well. Fountain equipment — submersible pumps, luminaires, and their supplies — is pool-grade listed equipment, not landscape-lighting stock.",
+      "plain_explanation": "Fountains are governed by Parts I and V, and where people can enter the water (an interactive fountain or splash feature), the referenced Part II rules come in as well. Fountain equipment — submersible pumps, luminaires, and their supplies — is pool-grade listed equipment, not landscape-lighting stock.\n\nNEC 2023 CHANGE:\n• 680.50: Fountains now get the same 5 ft equipment rule as pools: anything above the low-voltage contact limit stays 5 ft from the inside wall unless a permanent barrier separates it. Gear running above the low-voltage contact limit needs at least 5 ft of separation from the fountain's inside wall (680.50(B)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "A 'decorative fountain' that kids can wade in is not wired like a dry-deck ornament — ask about entry before pricing.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1129,7 +1360,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.43",
-      "next_id": "C6-680.51"
+      "next_id": "C6-680.51",
+      "nec2023_change": [
+        {
+          "section": "680.50",
+          "change": "Fountains now get the same 5 ft equipment rule as pools: anything above the low-voltage contact limit stays 5 ft from the inside wall unless a permanent barrier separates it. Gear running above the low-voltage contact limit needs at least 5 ft of separation from the fountain's inside wall (680.50(B)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 680.50 Fountain equipment setback",
+          "url": "https://www.electricalexamcoach.app/changes/2023/680-50",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-680.51",
@@ -1145,7 +1385,7 @@
         "C6-L-032"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.50",
       "next_id": "C6-680.71"
@@ -1192,16 +1432,39 @@
       "article": "682",
       "section": "682",
       "title": "Article 682 — Natural and Artificially Made Bodies of Water",
-      "plain_explanation": "Intro: electrical installations in and around lakes, ponds, and similar natural or artificial bodies of water that are not pools or fountains — floating structures, docks outside Article 555's scope, and equipment near the water's edge. Florida lakefront work lands here; the shock-hazard logic follows Article 680's thinking.",
+      "plain_explanation": "Intro: electrical installations in and around lakes, ponds, and similar natural or artificial bodies of water that are not pools or fountains — floating structures, docks outside Article 555's scope, and equipment near the water's edge. Florida lakefront work lands here; the shock-hazard logic follows Article 680's thinking.\n\nNEC 2023 CHANGE:\n• 682.11: Distribution equipment on land, feeder equipment included, now falls under the shoreline location rule that once covered only service equipment: 5 ft back, live parts 12 in above the datum plane. The location rules now cover distribution equipment on land, feeder equipment included, not just the service equipment.\n• 682.12: Floating structures can now have splices between the waterline and the datum plane if they're submersion-rated, and replacement connections in that zone must be listed and identified for submersion. Floating structures: splices can now sit below the datum plane, as long as they stay above the waterline.\n• 682.31: Near natural and man-made bodies of water, every metal enclosure, equipment frame and receptacle grounding terminal ties to an equipment grounding conductor run with the circuit conductors. Metal boxes, cabinets and enclosures, metal frames of utilization equipment, and receptacle grounding terminals all connect to the equipment grounding conductor (EGC).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On lakefront work, treat every receptacle and piece of equipment near the waterline as shock-hazard work: GFCI protection, bonding of the metal parts, and heights above the water figured before anything is set. Where a dock is involved, Article 555 may govern instead of or alongside this article — ask Mike which one controls before rough-in.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.80",
-      "next_id": "C6-ART-685"
+      "next_id": "C6-ART-685",
+      "nec2023_change": [
+        {
+          "section": "682.11",
+          "change": "Distribution equipment on land, feeder equipment included, now falls under the shoreline location rule that once covered only service equipment: 5 ft back, live parts 12 in above the datum plane. The location rules now cover distribution equipment on land, feeder equipment included, not just the service equipment.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 682.11 Equipment location near shorelines",
+          "url": "https://www.electricalexamcoach.app/changes/2023/682-11",
+          "confirmed": true
+        },
+        {
+          "section": "682.12",
+          "change": "Floating structures can now have splices between the waterline and the datum plane if they're submersion-rated, and replacement connections in that zone must be listed and identified for submersion. Floating structures: splices can now sit below the datum plane, as long as they stay above the waterline.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 682.12 Splices and connections near water",
+          "url": "https://www.electricalexamcoach.app/changes/2023/682-12",
+          "confirmed": true
+        },
+        {
+          "section": "682.31",
+          "change": "Near natural and man-made bodies of water, every metal enclosure, equipment frame and receptacle grounding terminal ties to an equipment grounding conductor run with the circuit conductors. Metal boxes, cabinets and enclosures, metal frames of utilization equipment, and receptacle grounding terminals all connect to the equipment grounding conductor (EGC).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 682.31 Equipment grounding near bodies of water",
+          "url": "https://www.electricalexamcoach.app/changes/2023/682-31",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-ART-685",
@@ -1215,7 +1478,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-682",
       "next_id": "C6-ART-690"
@@ -1226,7 +1489,7 @@
       "article": "690",
       "section": "690",
       "title": "Article 690 — Solar Photovoltaic (PV) Systems",
-      "plain_explanation": "Article 690 covers PV systems from the module terminals to the point of connection: how circuit current is figured (690.8), how conductors and overcurrent devices are sized (690.8, 690.9), maximum voltage (690.7), ground-fault and arc-fault protection (690.41(B) and 690.11; the old 690.5 number was deleted in 2020), rapid shutdown on buildings (690.12), disconnects (690.13, 690.15), and the marking that tells the next person — and the fire department — what the system is (690.56). Interconnection to the premises system runs through Article 705: the 120% bus rule lives at 705.12(B)(3)(2) in Chapter 7 and is deliberately not repeated here.",
+      "plain_explanation": "Article 690 covers PV systems from the module terminals to the point of connection: how circuit current is figured (690.8), how conductors and overcurrent devices are sized (690.8, 690.9), maximum voltage (690.7), ground-fault and arc-fault protection (690.41(B) and 690.11; the old 690.5 number was deleted in 2020), rapid shutdown on buildings (690.12), disconnects (690.13, 690.15), and the marking that tells the next person — and the fire department — what the system is (690.56). Interconnection to the premises system runs through Article 705: the 120% bus rule lives at 705.12(B)(3)(2) in Chapter 7 and is deliberately not repeated here.\n\nNEC 2023 CHANGE:\n• 690.4: New 690.4(G) covers PV that floats on ponds, lakes and reservoirs: the equipment must be identified for floating use, and the wiring method has to handle the array's movement. Floating PV, whether the gear rides on the water itself or mounts to something that floats, must be identified for that use (690.4(G)).\n• Article 690: The use of the term \"PV output circuit\" has been removed throughout\n• 690.1: Added new simplified illustrations to Section 690.1 identifying typical PV system dc components and conductors using new or revised definitions.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Sharma's solar-adjacent work is mostly service, additions, and builder rough-ins that a solar contractor finishes — the disconnect, marking, and rapid-shutdown pages are the ones that decide whose inspection fails.",
       "sharma_note": "",
       "figure_idea": "Rooftop array with the 1 ft rapid-shutdown boundary drawn around it; initiation device at the service.",
@@ -1236,11 +1499,34 @@
         "C6-690.12",
         "L-093"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). The NEC 2023 changes in this article are not adopted in Florida.",
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. The NEC 2023 changes in this article apply in Florida to permits applied for on or after Dec 31, 2026 (FBC 9th Ed.); earlier permits stay on NEC 2020.",
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-685",
-      "next_id": "C6-690.41(B)"
+      "next_id": "C6-690.41(B)",
+      "nec2023_change": [
+        {
+          "section": "690.4",
+          "change": "New 690.4(G) covers PV that floats on ponds, lakes and reservoirs: the equipment must be identified for floating use, and the wiring method has to handle the array's movement. Floating PV, whether the gear rides on the water itself or mounts to something that floats, must be identified for that use (690.4(G)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 690.4 Floating PV arrays",
+          "url": "https://www.electricalexamcoach.app/changes/2023/690-4",
+          "confirmed": true
+        },
+        {
+          "section": "Article 690",
+          "change": "The use of the term \"PV output circuit\" has been removed throughout",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: Article 690 Solar Photovoltaic (PV) Systems",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "690.1",
+          "change": "Added new simplified illustrations to Section 690.1 identifying typical PV system dc components and conductors using new or revised definitions.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 690.1 Figure Informational Note Figure 690.l(a), (b), (c)",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-690.41(B)",
@@ -1267,7 +1553,7 @@
       "article": "690",
       "section": "690.7",
       "title": "Maximum voltage — correct Voc for cold",
-      "plain_explanation": "A PV string's voltage is not its nameplate total. Module open-circuit voltage rises as temperature falls, so maximum system voltage is calculated from the sum of the series modules' rated open-circuit voltages corrected to the lowest expected ambient temperature at the site, using a method 690.7(A) allows: the manufacturer's temperature coefficient of Voc from the module listing instructions, or the correction factors of Table 690.7(A) for crystalline and multicrystalline silicon modules. The corrected voltage must not exceed the rated voltage of the connected equipment (inverter input, disconnects, conductors), and maximum PV system voltage for one- and two-family dwellings is limited to 600V.\n\nTable 690.7(A) correction factors (crystalline and multicrystalline silicon modules), by lowest expected ambient temperature:\n• 4°C to 0°C — 1.10\n• −1°C to −5°C — 1.12\n• −6°C to −10°C — 1.14\n• −11°C to −15°C — 1.16\n• −16°C to −20°C — 1.18\n• −21°C to −25°C — 1.20\nFlorida's design lows sit in the top rows of that table — but the factor is taken from the site's lowest expected temperature, not from the weather on install day.",
+      "plain_explanation": "A PV string's voltage is not its nameplate total. Module open-circuit voltage rises as temperature falls, so maximum system voltage is calculated from the sum of the series modules' rated open-circuit voltages corrected to the lowest expected ambient temperature at the site, using a method 690.7(A) allows: the manufacturer's temperature coefficient of Voc from the module listing instructions, or the correction factors of Table 690.7(A) for crystalline and multicrystalline silicon modules. The corrected voltage must not exceed the rated voltage of the connected equipment (inverter input, disconnects, conductors), and maximum PV system voltage for one- and two-family dwellings is limited to 600V.\n\nTable 690.7(A) correction factors (crystalline and multicrystalline silicon modules), by lowest expected ambient temperature:\n• 4°C to 0°C — 1.10\n• −1°C to −5°C — 1.12\n• −6°C to −10°C — 1.14\n• −11°C to −15°C — 1.16\n• −16°C to −20°C — 1.18\n• −21°C to −25°C — 1.20\nFlorida's lowest expected ambient temperatures usually fall in the 1.02–1.12 rows; use the site's design low (e.g., the ASHRAE extreme annual mean minimum, per the Informational Note) — but the factor is taken from the site's lowest expected temperature, not from the weather on install day. Warmer Table 690.7(A) rows used in central and south Florida: 24 to 20°C — 1.02; 19 to 15°C — 1.04; 14 to 10°C — 1.06; 9 to 5°C — 1.08 (above the 4 to 0°C row at 1.10). 690.7(A)(3): systems with inverter generating capacity of 100 kW or more may use a documented, stamped engineering method — PE design required; flag for Sanjay.",
       "on_the_job": "Size the string on the coldest bright morning of the year, not on the day of the install — over-voltage on a frosty sunrise is the failure this section exists to prevent.",
       "sharma_note": "",
       "figure_idea": "Thermometer at dawn beside an array; Voc arrow rising as the temperature falls; 600V dwelling cap marked.",
@@ -1275,7 +1561,7 @@
         "C6-L-051"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-690.41(B)",
       "next_id": "C6-690.8"
@@ -1295,7 +1581,7 @@
         "C6-L-035"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-690.7",
       "next_id": "C6-690.9"
@@ -1306,7 +1592,7 @@
       "article": "690",
       "section": "690.9",
       "title": "Overcurrent protection",
-      "plain_explanation": "Where overcurrent protection is required for a PV circuit, the device rating is not less than 125% of the maximum current figured under 690.8(A). The section also states the two-condition case in which no overcurrent device is required at all — conductors sized for the full available current and no external source able to backfeed beyond their ampacity. String fusing questions are answered by applying those conditions, not by habit.",
+      "plain_explanation": "Where overcurrent protection is required for a PV circuit, the device rating is not less than 125% of the maximum current figured under 690.8(A). The section also states the two-condition case in which no overcurrent device is required at all — conductors sized for the full available current and no external source able to backfeed beyond their ampacity. String fusing questions are answered by applying those conditions, not by habit.\n\nNEC 2023 CHANGE:\n• 690.9(D): Revised language in Section 690.9(D), providing a pointer to 705.30(F), where specific requirements applicable to interconnected systems are addressed.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Three or more parallel strings is where the backfeed condition usually starts to bite — check it before deciding fuses are 'never needed' or 'always needed.'",
       "sharma_note": "",
       "figure_idea": "",
@@ -1317,7 +1603,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-690.8",
-      "next_id": "C6-690.11"
+      "next_id": "C6-690.11",
+      "nec2023_change": [
+        {
+          "section": "690.9(D)",
+          "change": "Revised language in Section 690.9(D), providing a pointer to 705.30(F), where specific requirements applicable to interconnected systems are addressed.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 690.9(0) Transformers",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-690.11",
@@ -1345,7 +1640,7 @@
       "article": "690",
       "section": "690.12",
       "title": "Rapid shutdown of PV systems on buildings",
-      "plain_explanation": "Rapid shutdown controls PV conductors on and in buildings to protect firefighters. The array boundary is 1 ft from the array in all directions. Outside the boundary — and for conductors more than 3 ft from the point of entry into the building — controlled conductors must be limited to not more than 30V within 30 seconds of initiation. Inside the boundary, the installation must use one of the section's paths: a listed PV hazard control system (PVHCS, UL 3741), or conductors limited to not more than 80V within 30 seconds, or an array with no exposed wiring methods or conductive parts and installed not less than 8 ft from exposed grounded conductive parts. The v1 lookup L-093 covers this section and is linked, not rewritten.",
+      "plain_explanation": "Rapid shutdown controls PV conductors on and in buildings to protect firefighters. The array boundary is 1 ft from the array in all directions. Outside the boundary — and for conductors more than 3 ft from the point of entry into the building — controlled conductors must be limited to not more than 30V within 30 seconds of initiation. Inside the boundary, the installation must use one of the section's paths: a listed PV hazard control system (PVHCS, UL 3741), or conductors limited to not more than 80V within 30 seconds, or an array with no exposed wiring methods or conductive parts and installed not less than 8 ft from exposed grounded conductive parts. The v1 lookup L-093 covers this section and is linked, not rewritten.\n\nNEC 2023 CHANGE:\n• 690.12: Carports, parking shades and other open detached structures can now carry PV without rapid shutdown. The third inside-array option is gone, and the building label moved into 690.12(D). New Exception No. 2: PV on nonenclosed detached structures, such as carports, parking shade structures and solar trellises, skips rapid shutdown.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Module-level shutdown electronics are the common residential path; whichever path is chosen, the initiation device and its label (690.12(C), 690.56) are what the inspector and the fire crew actually look for.",
       "sharma_note": "",
       "figure_idea": "Roof plan: array, 1 ft boundary line, conductor leaving the boundary tagged '30V in 30 s.'",
@@ -1359,7 +1654,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-690.11",
-      "next_id": "C6-690.12(C)"
+      "next_id": "C6-690.12(C)",
+      "nec2023_change": [
+        {
+          "section": "690.12",
+          "change": "Carports, parking shades and other open detached structures can now carry PV without rapid shutdown. The third inside-array option is gone, and the building label moved into 690.12(D). New Exception No. 2: PV on nonenclosed detached structures, such as carports, parking shade structures and solar trellises, skips rapid shutdown.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 690.12 Rapid shutdown",
+          "url": "https://www.electricalexamcoach.app/changes/2023/690-12",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-690.12(C)",
@@ -1406,7 +1710,7 @@
       "article": "690",
       "section": "690.15",
       "title": "Disconnection of PV equipment",
-      "plain_explanation": "Equipment disconnecting means must open all ungrounded conductors from all sources — on a PV job that means the utility side and the array side, and on hybrid systems the storage side too. A disconnect that isolates the inverter from the grid but leaves it connected to a live array has not made the equipment safe to service.",
+      "plain_explanation": "Equipment disconnecting means must open all ungrounded conductors from all sources — on a PV job that means the utility side and the array side, and on hybrid systems the storage side too. A disconnect that isolates the inverter from the grid but leaves it connected to a live array has not made the equipment safe to service.\n\nNEC 2023 CHANGE:\n• 690.15: Rearranged 690.15 with some grammatical changes. A requirement for an equipment disconnecting means to be within 10 feet of the equipment to now be within sight was also modified.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Before opening an inverter, verify both sides are dead — the array makes power whenever the sun is up.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1417,7 +1721,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-690.13",
-      "next_id": "C6-690.31"
+      "next_id": "C6-690.31",
+      "nec2023_change": [
+        {
+          "section": "690.15",
+          "change": "Rearranged 690.15 with some grammatical changes. A requirement for an equipment disconnecting means to be within 10 feet of the equipment to now be within sight was also modified.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 690.15 Disconnecting Means for Isolating Photovoltaic Equipment",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-690.31",
@@ -1425,7 +1738,7 @@
       "article": "690",
       "section": "690.31",
       "title": "Wiring methods — PV source and output circuits",
-      "plain_explanation": "690.31 is where solar wiring stops being ordinary branch-circuit wiring. Exposed single-conductor PV source-circuit wiring is a listed PV cable type (Type PV wire, or USE-2 where the section permits it) — conductors built and marked for sunlight, heat, and rooftop duty, not THHN pulled out of a raceway and left in the sun. Rooftop conductors also live in the hottest part of the job, which is why the temperature rules of Chapter 3 ride along. Where dc PV circuits run on or in a building on their way to the disconnect or inverter, the section requires them in metal raceways or enclosures, so a dc fault inside a wall is contained in metal. Module interconnects, home runs, and the inverter output each follow the part of the section written for them — read the subsection for the run in front of you.",
+      "plain_explanation": "690.31 is where solar wiring stops being ordinary branch-circuit wiring. Exposed single-conductor PV source-circuit wiring is a listed PV cable type (Type PV wire, or USE-2 where the section permits it) — conductors built and marked for sunlight, heat, and rooftop duty, not THHN pulled out of a raceway and left in the sun. Rooftop conductors also live in the hottest part of the job, which is why the temperature rules of Chapter 3 ride along. Where dc PV circuits run on or in a building on their way to the disconnect or inverter, the section requires them in metal raceways or enclosures, so a dc fault inside a wall is contained in metal. Module interconnects, home runs, and the inverter output each follow the part of the section written for them — read the subsection for the run in front of you.\n\nNEC 2023 CHANGE:\n• 690.31(B): Section 690.31(B) was revised and a new list item (1), Conductors of Different Systems, was added while the previous text in that location was moved to list item (2), Identification. The text revisions provide conditions where PV dc circuits and inverter output circuits can now be installed in the same junction box, pull box or wireway provided they are identified, grouped, and separated in accordance with 690.31 (B)(2) and (B)(3).\n• 690.31(B)(1): Exception revised to permit the dc and ac conductors of a PV system to be located within the same enclosure where all the conductors are insulated for the highest voltage present and grouped appropriately.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On a roof: PV wire for the exposed home runs, secured and kept off the roof surface the way the listing expects, then into metal raceway where the dc run enters and crosses the building to the inverter. Loose THHN or cable not listed for the exposure, lying on a Florida roof, is a failed inspection and a cooked conductor.",
       "sharma_note": "",
       "florida_note": "",
@@ -1439,7 +1752,25 @@
       "sharma_rule_ids": [],
       "verified": false,
       "prev_id": "C6-690.15",
-      "next_id": "C6-690.47"
+      "next_id": "C6-690.47",
+      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Make the inside-building rule exact: \"Where inside a building, PV system DC circuits over 30V or 8A must be in metal raceways, in Type MC cable that complies with 250.118(10), or in metal enclosures, from the point of penetration into the building to the first readily accessible disconnecting means (690.31(D) in 2020).\" The rule applies inside buildings, not to runs 'on' the building, and Type MC is a permitted alternative. Exposed single-conductor PV wire or USE-2 is permitted in PV source circuits within the array. Confirm the (C)/(D) sub-letters against the printed 2020 text.",
+      "recheck_correction": "Make the inside-building rule exact: \"Where inside a building, PV system DC circuits over 30V or 8A must be in metal raceways, in Type MC cable that complies with 250.118(10), or in metal enclosures, from the point of penetration into the building to the first readily accessible disconnecting means (690.31(D) in 2020).\" The rule applies inside buildings, not to runs 'on' the building, and Type MC is a permitted alternative. Exposed single-conductor PV wire or USE-2 is permitted in PV source circuits within the array. Confirm the (C)/(D) sub-letters against the printed 2020 text.",
+      "nec2023_change": [
+        {
+          "section": "690.31(B)",
+          "change": "Section 690.31(B) was revised and a new list item (1), Conductors of Different Systems, was added while the previous text in that location was moved to list item (2), Identification. The text revisions provide conditions where PV dc circuits and inverter output circuits can now be installed in the same junction box, pull box or wireway provided they are identified, grouped, and separated in accordance with 690.31 (B)(2) and (B)(3).",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 690.31{B} Identification and Grouping. (1) Conductors of Different Sys­ tems. Exception List Item (2)",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "690.31(B)(1)",
+          "change": "Exception revised to permit the dc and ac conductors of a PV system to be located within the same enclosure where all the conductors are insulated for the highest voltage present and grouped appropriately.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 690.31{B}{1} Conductors of Different Systems. - Exception",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-690.47",
@@ -1447,7 +1778,7 @@
       "article": "690",
       "section": "690.47",
       "title": "Grounding electrode system — PV ties into the building system",
-      "plain_explanation": "A PV installation does not get its own separate grounding world. 690.47 ties the array's equipment grounding and any dc grounding electrode conductor into the building's grounding electrode system, so the array, the service, and everything else bonded in the building sit at the same potential. An additional electrode at the array — a ground rod driven by the racking — is permitted, but it supplements the system: it must be bonded back to the building's grounding electrode system, and it never replaces that connection. A rod in the dirt by the array with no bond back to the service is a decoration, not a grounding electrode system.",
+      "plain_explanation": "A PV installation does not get its own separate grounding world. 690.47 ties the array's equipment grounding and any dc grounding electrode conductor into the building's grounding electrode system, so the array, the service, and everything else bonded in the building sit at the same potential. An additional electrode at the array — a ground rod driven by the racking — is permitted, but it supplements the system: it is an auxiliary electrode under 690.47(B) and 250.54. It may connect directly to the array frame or structure, and it does not have to be bonded to the building GES, because the bonding path back to the service is the array's equipment grounding conductor (Part VII of Article 250). The earth is never the fault-current path., and it never replaces that connection. A rod in the dirt by the array with no bond back to the service is a decoration, not a grounding electrode system. A rod with no EGC path back to the service is not compliant: the array equipment grounding conductors connect to the building's grounding electrode system per 690.47(A).",
       "on_the_job": "Ground-mount or roof array: bond the racking and equipment back to the house grounding electrode system, and if the design adds a rod at the array, bond that rod in too. The inspector's question is always the same — show me the path back to the service ground.",
       "sharma_note": "",
       "florida_note": "",
@@ -1458,7 +1789,7 @@
         "C6-L-065"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C6-690.31",
       "next_id": "C6-690.56"
     },
@@ -1468,7 +1799,7 @@
       "article": "690",
       "section": "690.56",
       "title": "Marking — plaques, directories, and the rapid shutdown label",
-      "plain_explanation": "PV systems carry permanent plaques and directories: a stand-alone system follows the directory rule of 710.10, and a system interconnected with another source follows 705.10, so the sources at a building can be found from the service equipment. Two rapid-shutdown labels apply: a permanent label on or within 3 ft of the service disconnecting means states that the system is equipped with rapid shutdown and carries the 690.56(C) diagram with the switch locations; and a reflective label on or within 3 ft of the rapid shutdown initiation device reads RAPID SHUTDOWN SWITCH FOR SOLAR PV SYSTEM, in capital letters at least 3/8 in. high, white on a red background (690.56(C)(2)). Marking is not paperwork; it is the part of the system the fire department uses.",
+      "plain_explanation": "PV systems carry permanent plaques and directories: a stand-alone system follows the directory rule of 710.10, and a system interconnected with another source follows 705.10, so the sources at a building can be found from the service equipment. Two rapid-shutdown labels apply: a permanent label on or within 3 ft of the service disconnecting means states that the system is equipped with rapid shutdown and carries the 690.56(C) diagram with the switch locations; and a reflective label on or within 3 ft of the rapid shutdown initiation device reads RAPID SHUTDOWN SWITCH FOR SOLAR PV SYSTEM, in capital letters at least 3/8 in. high, white on a red background (690.56(C)(2)). Marking is not paperwork; it is the part of the system the fire department uses.\n\nNEC 2023 CHANGE:\n• 690.56: The building rapid shutdown label moved out of 690.56(C) into 690.12(D). What stays in 690.56 is power source identification by plaque or directory. The building rapid shutdown label, with its simple roof diagram, moved from 690.56(C) to 690.12(D).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Carry the red RSD labels in the truck stock — a missing 3/8 in. label fails finals.",
       "sharma_note": "",
       "figure_idea": "Red-and-white rapid shutdown placard beside the service disconnect, letters dimensioned 3/8 in.",
@@ -1480,7 +1811,16 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-690.47",
-      "next_id": "C6-ART-691"
+      "next_id": "C6-ART-691",
+      "nec2023_change": [
+        {
+          "section": "690.56",
+          "change": "The building rapid shutdown label moved out of 690.56(C) into 690.12(D). What stays in 690.56 is power source identification by plaque or directory. The building rapid shutdown label, with its simple roof diagram, moved from 690.56(C) to 690.12(D).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 690.56 Rapid shutdown label moved",
+          "url": "https://www.electricalexamcoach.app/changes/2023/690-56",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-ART-691",
@@ -1494,7 +1834,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-690.56",
       "next_id": "C6-ART-692"
@@ -1511,7 +1851,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-691",
       "next_id": "C6-ART-694"
@@ -1528,7 +1868,7 @@
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-692",
       "next_id": "C6-ART-695"
@@ -1539,7 +1879,7 @@
       "article": "695",
       "section": "695",
       "title": "Article 695 — Fire Pumps",
-      "plain_explanation": "Article 695 exists for one reason: the fire pump must run, even at the cost of the equipment itself. Everything in it runs backward from ordinary motor practice — sources are chosen for reliability above all (695.3), overcurrent devices are sized to carry locked-rotor current indefinitely rather than to trip (695.4), and disconnects are arranged so the pump cannot be casually shut off. Recognition level is the right depth for Sharma: this is engineered, AHJ-scrutinized work, and the pages here cover what to recognize and what never to improvise. The article does not apply to sprinkler-system pumps at one- and two-family dwellings, and pressure-maintenance (jockey) pumps sit outside its scope as pumps — though their current counts in the 695.3 source sizing.",
+      "plain_explanation": "Article 695 exists for one reason: the fire pump must run, even at the cost of the equipment itself. Everything in it runs backward from ordinary motor practice — sources are chosen for reliability above all (695.3), overcurrent devices are sized to carry locked-rotor current indefinitely rather than to trip (695.4), and disconnects are arranged so the pump cannot be casually shut off. Recognition level is the right depth for Sharma: this is engineered, AHJ-scrutinized work, and the pages here cover what to recognize and what never to improvise. The article does not apply to sprinkler-system pumps at one- and two-family dwellings, and pressure-maintenance (jockey) pumps sit outside its scope as pumps — though their current counts in the 695.3 source sizing.\n\nNEC 2023 CHANGE:\n• 695.1: Article 695 now plainly excludes fire suppression water pumps in one- and two-family homes, so a house sprinkler pump isn't treated as a fire pump. New item (4) in 695.1(B) takes fire suppression water pumps in one- and two-family homes out of Article 695.\n• 695.15: Diesel-driven fire pumps no longer need a surge-protective device at the controller. Electric fire pumps still do. New exception: a diesel-driven fire pump doesn't need a surge-protective device (SPD) at its controller.\n• 695.6: Every fitting on the controller-to-motor wiring for a fire pump now needs a wet-location listing. The wiring methods and motor connection rules carried over. New 695.6(D)(2): every fitting on the controller-to-motor run has to be listed for wet locations.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If a bid touches a fire pump, the electrical design comes from the engineer of record and NFPA 20 — Sharma prices the installation of a designed system, never a redesign in the field.",
       "sharma_note": "",
       "figure_idea": "Fire pump room: controller, dedicated disconnect placarded in 1 in. letters, transfer equipment in the room.",
@@ -1555,7 +1895,30 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-ART-694",
-      "next_id": "C6-695.3"
+      "next_id": "C6-695.3",
+      "nec2023_change": [
+        {
+          "section": "695.1",
+          "change": "Article 695 now plainly excludes fire suppression water pumps in one- and two-family homes, so a house sprinkler pump isn't treated as a fire pump. New item (4) in 695.1(B) takes fire suppression water pumps in one- and two-family homes out of Article 695.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 695.1 Fire pump article scope",
+          "url": "https://www.electricalexamcoach.app/changes/2023/695-1",
+          "confirmed": true
+        },
+        {
+          "section": "695.15",
+          "change": "Diesel-driven fire pumps no longer need a surge-protective device at the controller. Electric fire pumps still do. New exception: a diesel-driven fire pump doesn't need a surge-protective device (SPD) at its controller.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 695.15 Fire pump surge protection",
+          "url": "https://www.electricalexamcoach.app/changes/2023/695-15",
+          "confirmed": true
+        },
+        {
+          "section": "695.6",
+          "change": "Every fitting on the controller-to-motor wiring for a fire pump now needs a wet-location listing. The wiring methods and motor connection rules carried over. New 695.6(D)(2): every fitting on the controller-to-motor run has to be listed for wet locations.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 695.6 Fire pump motor wiring",
+          "url": "https://www.electricalexamcoach.app/changes/2023/695-6",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C6-695.3",
@@ -1610,7 +1973,9 @@
       "verified": false,
       "sharma_rule_ids": [],
       "prev_id": "C6-695.4",
-      "next_id": "C6-695.7"
+      "next_id": "C6-695.7",
+      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: \"Dedicated\" is not absolute. Change it to: \"Transformers between the system supply and the fire pump controller are sized at not less than 125% of the fire pump and pressure-maintenance motor loads plus 100% of the fire-pump accessory equipment they supply (695.5(B)). Only a feeder-source transformer covered by 695.5(C) may also supply loads not directly associated with the fire pump system.\" Add: primary overcurrent protection is sized to carry indefinitely the sum of the locked-rotor currents of the fire pump and pressure-maintenance motors plus the full-load current of the accessory equipment, and no secondary OCPD is permitted (695.5(B)). Update the on-the-job text to match.",
+      "recheck_correction": "\"Dedicated\" is not absolute. Change it to: \"Transformers between the system supply and the fire pump controller are sized at not less than 125% of the fire pump and pressure-maintenance motor loads plus 100% of the fire-pump accessory equipment they supply (695.5(B)). Only a feeder-source transformer covered by 695.5(C) may also supply loads not directly associated with the fire pump system.\" Add: primary overcurrent protection is sized to carry indefinitely the sum of the locked-rotor currents of the fire pump and pressure-maintenance motors plus the full-load current of the accessory equipment, and no secondary OCPD is permitted (695.5(B)). Update the on-the-job text to match."
     },
     {
       "id": "C6-695.7",
@@ -1618,7 +1983,7 @@
       "article": "695",
       "section": "695.7",
       "title": "Voltage drop — 15% starting, 5% running",
-      "plain_explanation": "One of the NEC's few mandatory voltage-drop rules, and it is a calculation rule: (A) starting — the voltage at the controller's line terminals must not drop more than 15% below normal (controller-rated) voltage under motor starting conditions; (B) running — the voltage at the controller's load terminals must not drop more than 5% below the motor's voltage rating when the motor operates at 115% of its full-load current. Conductors under 695.6(B) must satisfy both their ampacity floor and these limits.",
+      "plain_explanation": "One of the NEC's few mandatory voltage-drop rules, and it is a calculation rule: (A) starting — the voltage at the controller's line terminals must not drop more than 15% below normal (controller-rated) voltage under motor starting conditions; (B) running — the voltage at the controller's load terminals must not drop more than 5% below the motor's voltage rating when the motor operates at 115% of its full-load current. Conductors under 695.6(B) must satisfy both their ampacity floor and these limits.\n\nNEC 2023 CHANGE:\n• 695.7: Fire pump voltage drop was rebuilt around the fire pump installation standard's limits: 15 percent starting, 5 percent running, with two starting carve-outs that need a proven generator start. Starting (695.7(A)): the controller's line terminals must hold at least 85 percent of the controller's rated voltage.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Long fire pump runs get upsized for starting voltage, not just ampacity — if the pump can't start and hold, nothing else in Article 695 matters.",
       "sharma_note": "",
       "figure_idea": "Voltage profile along a long pump feeder: 15% dip envelope at start, 5% at run.",
@@ -1630,14 +1995,23 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-695.5",
-      "next_id": null
+      "next_id": null,
+      "nec2023_change": [
+        {
+          "section": "695.7",
+          "change": "Fire pump voltage drop was rebuilt around the fire pump installation standard's limits: 15 percent starting, 5 percent running, with two starting carve-outs that need a proven generator start. Starting (695.7(A)): the controller's line terminals must hold at least 85 percent of the controller's rated voltage.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 695.7 Fire pump voltage drop",
+          "url": "https://www.electricalexamcoach.app/changes/2023/695-7",
+          "confirmed": true
+        }
+      ]
     }
   ],
   "toc": [
     {
       "id": "C6-ART-600",
       "article": "600",
-      "title": "Electric Signs and Outline Lighting",
+      "title": "Article 600 — Electric Signs and Outline Lighting",
       "children": [
         {
           "id": "C6-600.5",
@@ -1659,25 +2033,25 @@
     {
       "id": "C6-ART-604",
       "article": "604",
-      "title": "Manufactured Wiring Systems",
+      "title": "Article 604 — Manufactured Wiring Systems",
       "children": []
     },
     {
       "id": "C6-ART-605",
       "article": "605",
-      "title": "Office Furnishings",
+      "title": "Article 605 — Office Furnishings",
       "children": []
     },
     {
       "id": "C6-ART-610",
       "article": "610",
-      "title": "Cranes and Hoists",
+      "title": "Article 610 — Cranes and Hoists",
       "children": []
     },
     {
       "id": "C6-ART-620",
       "article": "620",
-      "title": "Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and Stairway Chairlifts",
+      "title": "Article 620 — Elevators, Dumbwaiters, Escalators, Moving Walks, Platform Lifts, and Stairway Chairlifts",
       "children": [
         {
           "id": "C6-620.6",
@@ -1704,7 +2078,7 @@
     {
       "id": "C6-ART-625",
       "article": "625",
-      "title": "Electric Vehicle Power Transfer System",
+      "title": "Article 625 — Electric Vehicle Power Transfer System",
       "children": [
         {
           "id": "C6-625.40",
@@ -1756,85 +2130,85 @@
     {
       "id": "C6-ART-626",
       "article": "626",
-      "title": "Electrified Truck Parking Spaces",
+      "title": "Article 626 — Electrified Truck Parking Spaces",
       "children": []
     },
     {
       "id": "C6-ART-630",
       "article": "630",
-      "title": "Electric Welders",
+      "title": "Article 630 — Electric Welders",
       "children": []
     },
     {
       "id": "C6-ART-640",
       "article": "640",
-      "title": "Audio Signal Processing, Amplification, and Reproduction Equipment",
+      "title": "Article 640 — Audio Signal Processing, Amplification, and Reproduction Equipment",
       "children": []
     },
     {
       "id": "C6-ART-645",
       "article": "645",
-      "title": "Information Technology Equipment",
+      "title": "Article 645 — Information Technology Equipment",
       "children": []
     },
     {
       "id": "C6-ART-646",
       "article": "646",
-      "title": "Modular Data Centers",
+      "title": "Article 646 — Modular Data Centers",
       "children": []
     },
     {
       "id": "C6-ART-647",
       "article": "647",
-      "title": "Sensitive Electronic Equipment",
+      "title": "Article 647 — Sensitive Electronic Equipment",
       "children": []
     },
     {
       "id": "C6-ART-650",
       "article": "650",
-      "title": "Pipe Organs",
+      "title": "Article 650 — Pipe Organs",
       "children": []
     },
     {
       "id": "C6-ART-660",
       "article": "660",
-      "title": "X-Ray Equipment",
+      "title": "Article 660 — X-Ray Equipment",
       "children": []
     },
     {
       "id": "C6-ART-665",
       "article": "665",
-      "title": "Induction and Dielectric Heating Equipment",
+      "title": "Article 665 — Induction and Dielectric Heating Equipment",
       "children": []
     },
     {
       "id": "C6-ART-668",
       "article": "668",
-      "title": "Electrolytic Cells",
+      "title": "Article 668 — Electrolytic Cells",
       "children": []
     },
     {
       "id": "C6-ART-669",
       "article": "669",
-      "title": "Electroplating",
+      "title": "Article 669 — Electroplating",
       "children": []
     },
     {
       "id": "C6-ART-670",
       "article": "670",
-      "title": "Industrial Machinery",
+      "title": "Article 670 — Industrial Machinery",
       "children": []
     },
     {
       "id": "C6-ART-675",
       "article": "675",
-      "title": "Electrically Driven or Controlled Irrigation Machines",
+      "title": "Article 675 — Electrically Driven or Controlled Irrigation Machines",
       "children": []
     },
     {
       "id": "C6-ART-680",
       "article": "680",
-      "title": "Swimming Pools, Fountains, and Similar Installations",
+      "title": "Article 680 — Swimming Pools, Fountains, and Similar Installations",
       "children": [
         {
           "id": "C6-680.9",
@@ -1961,19 +2335,19 @@
     {
       "id": "C6-ART-682",
       "article": "682",
-      "title": "Natural and Artificially Made Bodies of Water",
+      "title": "Article 682 — Natural and Artificially Made Bodies of Water",
       "children": []
     },
     {
       "id": "C6-ART-685",
       "article": "685",
-      "title": "Integrated Electrical Systems",
+      "title": "Article 685 — Integrated Electrical Systems",
       "children": []
     },
     {
       "id": "C6-ART-690",
       "article": "690",
-      "title": "Solar Photovoltaic (PV) Systems",
+      "title": "Article 690 — Solar Photovoltaic (PV) Systems",
       "children": [
         {
           "id": "C6-690.41(B)",
@@ -2040,25 +2414,25 @@
     {
       "id": "C6-ART-691",
       "article": "691",
-      "title": "Large-Scale Photovoltaic (PV) Electric Supply Stations",
+      "title": "Article 691 — Large-Scale Photovoltaic (PV) Electric Supply Stations",
       "children": []
     },
     {
       "id": "C6-ART-692",
       "article": "692",
-      "title": "Fuel Cell Systems",
+      "title": "Article 692 — Fuel Cell Systems",
       "children": []
     },
     {
       "id": "C6-ART-694",
       "article": "694",
-      "title": "Wind Electric Systems",
+      "title": "Article 694 — Wind Electric Systems",
       "children": []
     },
     {
       "id": "C6-ART-695",
       "article": "695",
-      "title": "Fire Pumps",
+      "title": "Article 695 — Fire Pumps",
       "children": [
         {
           "id": "C6-695.3",

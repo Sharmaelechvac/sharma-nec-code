@@ -178,7 +178,7 @@
       "article": "9",
       "chapter": 9,
       "figure_idea": "A workbench view: four table cards laid in order — percent, raceway, conductor, resistance — with an arrow showing the fill calculation moving left to right.",
-      "florida_note": "Reference aid only; the AHJ and the printed NEC govern. Florida work in this book is NEC 2020 as adopted by the FBC 8th Edition (2023).",
+      "florida_note": "Reference aid only; the AHJ and the printed NEC govern. Florida work in this book is NEC 2020 as adopted by the FBC 8th Edition (2023), for permits applied for through Dec 30, 2026; NEC 2023 applies under the FBC 9th Edition from Dec 31, 2026.",
       "id": "C9-ART-9",
       "next_id": "C9-Table1",
       "on_the_job": "Come here in this order: Table 1 for the allowed percentage, Table 4 for the raceway, Table 5 for insulated conductors, and Table 8 when a voltage-drop check needs resistance. Do not size conduit from a memorized count you heard on another job — raceway type, insulation type, and conductor count all change the answer.",
@@ -252,7 +252,7 @@
       "id": "C9-Table2",
       "next_id": "C9-Table4",
       "on_the_job": "A bender's shoe sets the radius for you: use the shoe made for the conduit type and size and the bend lands on the first column by construction. Heat-bent PVC is where crews get caught — form the sweep to at least the 'other bends' number, because a tight heat bend that kinks or flattens also fails the 'do not damage, do not effectively reduce the inside diameter' half of the bending sections.\n\nWorked check: a 2 in PVC stub-up sweep formed at a 10 in centerline radius fails Table 2 by 2 in even if it looks smooth. Re-form it at 12 in or better before the concrete truck is called.",
-      "plain_explanation": "Table 2 sets the smallest radius a field bend may have, measured to the centerline of the conduit — not to the inside face of the bend. It has two columns. Bends made on a one-shot or full-shoe bender use the first; all other bends use the second, and a PVC heat bend falls in the second column (352.24 sends heat bends there, while 344.24, 342.24 and 358.24 send rigid, IMC and EMT bender work to the first). The minimum centerline radii for the sizes Sharma bends most:\n\n• 1/2 in — 4 in one-shot / full-shoe, 4 in other bends\n• 3/4 in — 4-1/2 in one-shot / full-shoe, 5 in other bends\n• 1 in — 5-3/4 in one-shot / full-shoe, 6 in other bends\n• 1-1/4 in — 7-1/4 in one-shot / full-shoe, 8 in other bends\n• 1-1/2 in — 8-1/4 in one-shot / full-shoe, 10 in other bends\n• 2 in — 9-1/2 in one-shot / full-shoe, 12 in other bends\n\nThe table keeps climbing past 2 in — 2-1/2 in is 10-1/2 / 15 in and 4 in is 16 / 24 in — and runs to 6 in in the printed book. A factory sweep or a segmented bend laid out well above these numbers is fine; the table is a floor, not a target.",
+      "plain_explanation": "Table 2 sets the smallest radius a field bend may have, measured to the centerline of the conduit — not to the inside face of the bend. It has two columns. Bends made on a one-shot or full-shoe bender use the first; all other bends use the second, and a PVC heat bend falls in the second column. The column is set by the bending method, not by a section number. The minimum centerline radii for the sizes Sharma bends most: • 1/2 in — 4 in one-shot / full-shoe, 4 in other bends\n• 3/4 in — 4-1/2 in one-shot / full-shoe, 5 in other bends\n• 1 in — 5-3/4 in one-shot / full-shoe, 6 in other bends\n• 1-1/4 in — 7-1/4 in one-shot / full-shoe, 8 in other bends\n• 1-1/2 in — 8-1/4 in one-shot / full-shoe, 10 in other bends\n• 2 in — 9-1/2 in one-shot / full-shoe, 12 in other bends The table keeps climbing past 2 in — 2-1/2 in is 10-1/2 / 15 in and 4 in is 16 / 24 in — and runs to 6 in in the printed book. A factory sweep or a segmented bend laid out well above these numbers is fine; the table is a floor, not a target.",
       "prev_id": "C9-Table1-Nipples",
       "related_ids": [
         "C9-Table1",
@@ -262,7 +262,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 2 — minimum radius of conduit bends",
-      "verified": false
+      "verified": true
     },
     {
       "article": "9",
@@ -288,7 +288,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 4 — raceway inside dimensions and usable area",
-      "verified": false
+      "verified": true
     },
     {
       "article": "9",
@@ -313,7 +313,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 5 — how much room an insulated conductor takes",
-      "verified": false
+      "verified": true
     },
     {
       "id": "C9-Table5A",
@@ -333,7 +333,7 @@
         "C9-L-061"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C9-Table5",
       "next_id": "C9-FILL-METHOD"
     },
@@ -455,7 +455,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Annex B — ampacity calculation under engineering supervision",
-      "verified": false
+      "verified": true
     },
     {
       "article": "9",
@@ -503,7 +503,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 8 — conductor properties and DC resistance",
-      "verified": false
+      "verified": true
     },
     {
       "article": "9",
@@ -539,7 +539,7 @@
       ],
       "title": "CCA in Table 8 — not listed, and no substitute value",
       "verified": false,
-      "unverified_reason": "Kept unverified, consistent with C3-310.16-CCA. Verified against the printed table: Table 8 carries copper (uncoated and coated) and aluminum only — there is no CCA data in it — and the aluminum value quoted here (12 AWG stranded, 3.25 ohm/kft at 75 degrees C) matches the printed table. What cannot be verified is any CCA resistance: no cited manufacturer (Copperweld) 75 degrees C DC resistance for the actual CCA building-wire product is on file, so no CCA voltage-drop figure is published and the aluminum column is not presented as a substitute. Promote when a cited product value lands."
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): Keep verified=false. Confirmed: Table 8 has no CCA data, and the page correctly refuses to substitute the aluminum column. Still open: no cited manufacturer (Copperweld) 75°C DC resistance for the actual CCA NM-B product. Promote only when a manufacturer datasheet value is on file with its source. Also check the 3.25 Ω/kft aluminum figure against the printed table (solid vs stranded row)."
     },
     {
       "article": "9",
@@ -649,7 +649,7 @@
       "id": "C9-Table9",
       "next_id": "C9-Table11",
       "on_the_job": "If a voltage-drop answer matters enough to fight over — a long feeder, a big motor, a plan review comment — do not settle it with the Table 8 approximation. Flag it for Mike to run with Table 9 and the actual raceway and power factor.\n\nWorked example with the effective-Z column: a 208 V three-phase feeder carrying 100 A at 0.85 power factor, 200 ft one-way, on 2 AWG copper in PVC (Z = 0.19 ohm/kft). VD = 1.732 × 200 × 0.19 × 100 / 1000 = 6.58 V, about 3.2 percent of 208 V — over the 3 percent recommendation on the feeder alone, so the design conversation starts at 1 AWG or 1/0, not at hope.",
-      "plain_explanation": "Table 9 is the next step past Table 8 for voltage drop. Its full title is 'Alternating-Current Resistance and Reactance for 600-Volt Cables, 3-Phase, 60 Hz, 75 degrees C — Three Single Conductors in Conduit,' and instead of DC resistance alone it gives, in ohms to neutral per 1000 ft, the inductive reactance for all wires, the alternating-current resistance for uncoated copper and for aluminum, and the effective impedance Z at 0.85 power factor — each broken out for PVC, aluminum, and steel conduit, because a magnetic steel raceway raises reactance and, in the larger sizes, AC resistance as well. The table's Note 1 limits its values to conductors at 75 degrees C under the conditions its title states. This book publishes no Table 9 values by size; the teaching here is when to reach for it — large conductors, long three-phase runs, steel raceway, or a Table 8 approximation that lands near a limit — and to run those cases from the printed table rather than from memory.\n\nCommon-size values are now carried here after all, for the sizes Sharma runs most — uncoated copper, ohms to neutral per 1000 ft. Reactance and the effective-Z column are the parts Table 8 cannot give you; the AC resistance column tracks Table 8 closely at small sizes and climbs above it in steel conduit as sizes grow. Sizes above 4/0, and the aluminum columns, stay in the printed table:\n• 14 AWG copper — reactance 0.058 in PVC or aluminum conduit, 0.073 in steel; AC resistance 3.1 in PVC; effective Z at 0.85 PF 2.7 in PVC\n• 12 AWG copper — reactance 0.054 in PVC or aluminum conduit, 0.068 in steel; AC resistance 2.0 in PVC; effective Z at 0.85 PF 1.7 in PVC\n• 10 AWG copper — reactance 0.050 in PVC or aluminum conduit, 0.063 in steel; AC resistance 1.2 in PVC; effective Z at 0.85 PF 1.1 in PVC\n• 8 AWG copper — reactance 0.052 in PVC or aluminum conduit, 0.065 in steel; AC resistance 0.78 in PVC; effective Z at 0.85 PF 0.69 in PVC\n• 6 AWG copper — reactance 0.051 in PVC or aluminum conduit, 0.064 in steel; AC resistance 0.49 in PVC; effective Z at 0.85 PF 0.44 in PVC\n• 4 AWG copper — reactance 0.048 in PVC or aluminum conduit, 0.060 in steel; AC resistance 0.31 in PVC; effective Z at 0.85 PF 0.29 in PVC\n• 3 AWG copper — reactance 0.047 in PVC or aluminum conduit, 0.059 in steel; AC resistance 0.25 in PVC; effective Z at 0.85 PF 0.23 in PVC\n• 2 AWG copper — reactance 0.045 in PVC or aluminum conduit, 0.057 in steel; AC resistance 0.19 in PVC; effective Z at 0.85 PF 0.19 in PVC\n• 1 AWG copper — reactance 0.046 in PVC or aluminum conduit, 0.057 in steel; AC resistance 0.15 in PVC; effective Z at 0.85 PF 0.16 in PVC\n• 1/0 AWG copper — reactance 0.044 in PVC or aluminum conduit, 0.055 in steel; AC resistance 0.12 in PVC; effective Z at 0.85 PF 0.13 in PVC\n• 4/0 AWG copper — reactance 0.041 in PVC or aluminum conduit, 0.051 in steel; AC resistance 0.062 in PVC",
+      "plain_explanation": "Table 9 is the next step past Table 8 for voltage drop. Its full title is 'Alternating-Current Resistance and Reactance for 600-Volt Cables, 3-Phase, 60 Hz, 75 degrees C — Three Single Conductors in Conduit,' and instead of DC resistance alone it gives, in ohms to neutral per 1000 ft, the inductive reactance for all wires, the alternating-current resistance for uncoated copper and for aluminum, and the effective impedance Z at 0.85 power factor — each broken out for PVC, aluminum, and steel conduit, because a magnetic steel raceway raises reactance and, in the larger sizes, AC resistance as well. The table's Note 1 limits its values to conductors at 75 degrees C under the conditions its title states. the teaching here is when to reach for it — large conductors, long three-phase runs, steel raceway, or a Table 8 approximation that lands near a limit — and to run those cases from the printed table rather than from memory. Common copper sizes are carried below (aluminum and sizes above 4/0 stay in the printed table) — uncoated copper, ohms to neutral per 1000 ft. Reactance and the effective-Z column are the parts Table 8 cannot give you; the AC resistance column tracks Table 8 closely at small sizes and climbs above it in steel conduit as sizes grow. Sizes above 4/0, and the aluminum columns, stay in the printed table:\n• 14 AWG copper — reactance 0.058 in PVC or aluminum conduit, 0.073 in steel; AC resistance 3.1 in PVC; effective Z at 0.85 PF 2.7 in PVC\n• 12 AWG copper — reactance 0.054 in PVC or aluminum conduit, 0.068 in steel; AC resistance 2.0 in PVC; effective Z at 0.85 PF 1.7 in PVC\n• 10 AWG copper — reactance 0.050 in PVC or aluminum conduit, 0.063 in steel; AC resistance 1.2 in PVC; effective Z at 0.85 PF 1.1 in PVC\n• 8 AWG copper — reactance 0.052 in PVC or aluminum conduit, 0.065 in steel; AC resistance 0.78 in PVC; effective Z at 0.85 PF 0.69 in PVC\n• 6 AWG copper — reactance 0.051 in PVC or aluminum conduit, 0.064 in steel; AC resistance 0.49 in PVC; effective Z at 0.85 PF 0.44 in PVC\n• 4 AWG copper — reactance 0.048 in PVC or aluminum conduit, 0.060 in steel; AC resistance 0.31 in PVC; effective Z at 0.85 PF 0.29 in PVC\n• 3 AWG copper — reactance 0.047 in PVC or aluminum conduit, 0.059 in steel; AC resistance 0.25 in PVC; effective Z at 0.85 PF 0.23 in PVC\n• 2 AWG copper — reactance 0.045 in PVC or aluminum conduit, 0.057 in steel; AC resistance 0.19 in PVC; effective Z at 0.85 PF 0.19 in PVC\n• 1 AWG copper — reactance 0.046 in PVC or aluminum conduit, 0.057 in steel; AC resistance 0.15 in PVC; effective Z at 0.85 PF 0.16 in PVC\n• 1/0 AWG copper — reactance 0.044 in PVC or aluminum conduit, 0.055 in steel; AC resistance 0.12 in PVC; effective Z at 0.85 PF 0.13 in PVC\n• 4/0 AWG copper — reactance 0.041 in PVC or aluminum conduit, 0.051 in steel; AC resistance 0.062 in PVC The 3 percent / 5 percent voltage-drop figures are Informational Note recommendations, not requirements.",
       "prev_id": "C9-VD-LIMITS",
       "related_ids": [
         "C9-L-043",
@@ -660,7 +660,7 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "Table 9 — AC resistance and reactance, for finer voltage-drop work",
-      "verified": false
+      "verified": true
     },
     {
       "id": "C9-Table11",
@@ -679,7 +679,7 @@
         "C9-L-062"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C9-Table9",
       "next_id": "C9-ANNEXD"
     },
@@ -735,7 +735,7 @@
       "id": "C9-ANNEXES-INFORMATIVE",
       "next_id": null,
       "on_the_job": "When someone quotes an annex at you on a job, ask the deciding question: is that in a mandatory section, or in an annex or a note? Both can be good practice; only one can be enforced as written, and knowing which keeps you from arguing the wrong point with an inspector.",
-      "plain_explanation": "The annexes sit behind the mandatory chapters as explanation, examples, and reference data. Unless an adopting ordinance specifically adopts an annex, its content is not a requirement an inspector can cite the way a numbered article section can be cited — that is the same status the 3 and 5 percent voltage-drop figures carry as Informational Notes. This chapter covers the annexes Sharma work actually touches — C for same-size fill checks, D for calculation examples, and I for torque. The remaining annex letters were not written as pages in this pass, because their letters and subjects were not confirmed against the printed 2020 book, and this book does not invent an annex.\n\nUpdate since this page was first written: Annex B has since been added as a brief page (C9-ANNEXB), scoped the same way as the annexes above — what it is, when it is used, and no reproduced ampacity tables. The other held-back items in the flag on this page are unchanged.",
+      "plain_explanation": "The annexes sit behind the mandatory chapters as explanation, examples, and reference data. Unless an adopting ordinance specifically adopts an annex, its content is not a requirement an inspector can cite the way a numbered article section can be cited — that is the same status the 3 and 5 percent voltage-drop figures carry as Informational Notes. This chapter covers the annexes Sharma work actually touches — C for same-size fill checks, D for calculation examples, and I for torque. The remaining annex letters were not written as pages in this pass, because their letters and subjects were not confirmed against the printed 2020 book, and this book does not invent an annex.\n\nUpdate since this page was first written: Annex B has since been added as a brief page (C9-ANNEXB), scoped the same way as the annexes above — what it is, when it is used, and no reproduced ampacity tables. Table 5A, Tables 11(A)/(B) and Annex B now have their own pages. Still held back: Table 10 (stranding), Table 12 (PLFA power source limits), and the annex letters not yet written. The 2020 informative annexes are A (product safety standards), B (ampacity calculation), C (same-size fill tables), D (examples), E (types of construction), F (critical operations power systems), G (SCADA), H (administration and enforcement), I (torque tables from UL 486A-B) and J (ADA standards). Annex K is new in NEC 2023, so the 2020 book has none.\n\nNEC 2023 CHANGE:\n• Annex K: New Informative Annex K, Use of Medical Electrical Equipment in Dwellings and Residential Board-and-Care Occupancies. (So the 2020 book correctly has no Annex K.)\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "prev_id": "C9-ANNEXI",
       "related_ids": [
         "C9-L-049",
@@ -746,7 +746,16 @@
       "sharma_note": "",
       "sharma_rule_ids": [],
       "title": "What 'informative annex' means — and what this chapter held back",
-      "verified": false
+      "verified": true,
+      "nec2023_change": [
+        {
+          "section": "Annex K",
+          "change": "New Informative Annex K, Use of Medical Electrical Equipment in Dwellings and Residential Board-and-Care Occupancies. (So the 2020 book correctly has no Annex K.)",
+          "source": "ElectricalLicenseRenewal 'Global Changes'",
+          "url": "https://www.electricallicenserenewal.com/Electrical-Continuing-Education-Courses/NEC-Content.php?sectionID=1378",
+          "confirmed": true
+        }
+      ]
     }
   ],
   "toc": [
@@ -766,41 +775,41 @@
         }
       ],
       "id": "C9-Table1",
-      "title": "Table 1 — percent of raceway fill"
+      "title": "Table 1 — how much of a raceway you may fill"
     },
     {
       "article": "9",
       "children": [],
       "id": "C9-Table2",
-      "title": "Table 2 — radius of conduit bends"
+      "title": "Table 2 — minimum radius of conduit bends"
     },
     {
       "article": "9",
       "children": [],
       "id": "C9-Table4",
-      "title": "Table 4 — raceway dimensions and usable area"
+      "title": "Table 4 — raceway inside dimensions and usable area"
     },
     {
       "article": "9",
       "children": [
         {
           "id": "C9-FILL-METHOD",
-          "section": "Tables 1, 4, 5",
+          "section": "Tables 1, 4, and 5 together",
           "title": "The conduit-fill method, step by step"
         },
         {
           "id": "C9-FILL-SAME",
-          "section": "Tables 4, 5",
+          "section": "Tables 4 and 5, same-size conductors",
           "title": "Same-size fill — divide, then round down"
         },
         {
           "id": "C9-FILL-MIXED",
-          "section": "Tables 4, 5",
+          "section": "Tables 4 and 5, mixed sizes",
           "title": "Mixed-size fill — add the areas"
         },
         {
           "id": "C9-FILL-EGC-AND-BARE",
-          "section": "Tables 5, 8",
+          "section": "Tables 5 and 8, grounds and bare conductors",
           "title": "Grounds count, and bare conductors use Table 8"
         },
         {
@@ -810,19 +819,19 @@
         }
       ],
       "id": "C9-Table5",
-      "title": "Table 5 — insulated conductor dimensions"
+      "title": "Table 5 — how much room an insulated conductor takes"
     },
     {
       "article": "9",
       "children": [],
       "id": "C9-ANNEXB",
-      "title": "Annex B — ampacity calculation (engineering supervision)"
+      "title": "Annex B — ampacity calculation under engineering supervision"
     },
     {
       "article": "9",
       "children": [],
       "id": "C9-ANNEXC",
-      "title": "Annex C — same-size fill tables (method only)"
+      "title": "Annex C — the same-size shortcut, and its limits"
     },
     {
       "article": "9",
@@ -830,26 +839,26 @@
         {
           "id": "C9-Table8-CCA",
           "section": "Table 8, CCA",
-          "title": "CCA — no CCA column in Table 8"
+          "title": "CCA in Table 8 — not listed, and no substitute value"
         },
         {
           "id": "C9-VD-METHOD",
-          "section": "Table 8",
+          "section": "Table 8, voltage-drop method",
           "title": "Voltage drop — the single-phase method"
         },
         {
           "id": "C9-VD-WORKED",
-          "section": "Table 8",
+          "section": "Table 8, worked examples",
           "title": "Voltage drop worked — fail, then upsize"
         },
         {
           "id": "C9-VD-3PH",
-          "section": "Table 8",
-          "title": "Three-phase voltage drop — 1.732 approximation"
+          "section": "Table 8, three-phase approximation",
+          "title": "Three-phase voltage drop — same idea, 1.732 factor"
         },
         {
           "id": "C9-VD-LIMITS",
-          "section": "210.19(A) / 215.2(A) notes",
+          "section": "210.19(A) and 215.2(A) Informational Notes",
           "title": "3 percent and 5 percent — recommendations, not requirements"
         }
       ],
@@ -860,19 +869,19 @@
       "article": "9",
       "children": [],
       "id": "C9-Table9",
-      "title": "Table 9 — AC resistance and reactance (method only)"
+      "title": "Table 9 — AC resistance and reactance, for finer voltage-drop work"
     },
     {
       "article": "9",
       "children": [],
       "id": "C9-Table11",
-      "title": "Tables 11(A) and 11(B) — Class 2 and Class 3 power source limits"
+      "title": "Tables 11(A) and 11(B) — how much power a Class 2 or Class 3 source may deliver"
     },
     {
       "article": "9",
       "children": [],
       "id": "C9-ANNEXD",
-      "title": "Annex D — load-calculation examples"
+      "title": "Annex D — worked load-calculation examples"
     },
     {
       "article": "9",
@@ -884,7 +893,7 @@
       "article": "9",
       "children": [],
       "id": "C9-ANNEXES-INFORMATIVE",
-      "title": "Informative annexes — what the status means"
+      "title": "What 'informative annex' means — and what this chapter held back"
     }
   ]
 }

@@ -21,7 +21,7 @@
         "C1-L-001",
         "C1-L-002"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not yet adopted in Florida.",
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. NEC 2023 takes effect in Florida with the FBC 9th Edition for permits applied for on or after Dec 31, 2026.",
       "verified": true,
       "prev_id": null,
       "next_id": "C1-90.1",
@@ -33,7 +33,7 @@
       "article": "90",
       "section": "90.1",
       "title": "Purpose of the Code",
-      "plain_explanation": "The point of the Code is to protect people and property from the hazards that come with using electricity. Following it, together with proper maintenance, produces an installation that is largely free from hazard. The Code is not a design manual for beginners, and meeting the Code does not promise the most efficient or most convenient system — it sets the safety floor.",
+      "plain_explanation": "The point of the Code is to protect people and property from the hazards that come with using electricity. Following it, together with proper maintenance, produces an installation that is largely free from hazard. The Code is not a design manual for beginners, and meeting the Code does not promise the most efficient or most convenient system — it sets the safety floor.\n\nNEC 2023 CHANGE:\n• 90.1: Article 90 was reshuffled. 90.1 is now the scope of Article 90 itself, and the old purpose statement moved into 90.2, Use and Application. The purpose statement that used to be 90.1 now sits in 90.2, Use and Application, along with what the code covers and doesn't cover.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "When a plan meets the Code but works poorly, that is a design problem, not proof the Code failed. When a shortcut works but is hazardous, the Code still controls. Build to the safety floor first, then to good design above it.",
       "sharma_note": "",
       "figure_idea": "A house and a small shop side by side under one open Code book — the NEC covers both, and everything electrical inside the property line.",
@@ -44,7 +44,16 @@
       "verified": true,
       "prev_id": "C1-ART-90",
       "next_id": "C1-90.2",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "90.1",
+          "change": "Article 90 was reshuffled. 90.1 is now the scope of Article 90 itself, and the old purpose statement moved into 90.2, Use and Application. The purpose statement that used to be 90.1 now sits in 90.2, Use and Application, along with what the code covers and doesn't cover.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 90.1 Article 90 gets its own scope",
+          "url": "https://www.electricalexamcoach.app/changes/2023/90-1",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-90.2",
@@ -94,7 +103,7 @@
       "article": "90",
       "section": "90.4",
       "title": "Enforcement and the AHJ",
-      "plain_explanation": "The authority having jurisdiction — the AHJ, usually the local building department and its inspectors — enforces the Code and approves equipment and installations. The AHJ can grant special permission where the Code allows it, and can interpret how a rule applies to a local situation. An inspector's reading on your job carries weight that a handbook, an app or a study guide does not.",
+      "plain_explanation": "The authority having jurisdiction — the AHJ, usually the local building department and its inspectors — enforces the Code and approves equipment and installations. The AHJ can grant special permission where the Code allows it, and can interpret how a rule applies to a local situation. An inspector's reading on your job carries weight that a handbook, an app or a study guide does not.\n\nNEC 2023 CHANGE:\n• 90.4: The enforcement section was broken into separate subdivisions, and a new informational note sends readers to Annex H for help setting up an inspection program. The inspector's powers didn't change. 90.4 is now split into lettered subdivisions, so each power is easy to find: interpretations (90.4(B)), alternative methods (90.4(C)), products not yet available (90.4(D)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If a rule could be read two ways on a real job, ask the AHJ before rough-in, not at inspection. Write down who said what and when. This book is a reference aid; the AHJ and the printed NEC govern.",
       "sharma_note": "",
       "figure_idea": "",
@@ -105,7 +114,16 @@
       "verified": true,
       "prev_id": "C1-90.3",
       "next_id": "C1-90.5",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "90.4",
+          "change": "The enforcement section was broken into separate subdivisions, and a new informational note sends readers to Annex H for help setting up an inspection program. The inspector's powers didn't change. 90.4 is now split into lettered subdivisions, so each power is easy to find: interpretations (90.4(B)), alternative methods (90.4(C)), products not yet available (90.4(D)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 90.4 Enforcement",
+          "url": "https://www.electricalexamcoach.app/changes/2023/90-4",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-90.5",
@@ -113,7 +131,7 @@
       "article": "90",
       "section": "90.5",
       "title": "Mandatory rules, permissive rules, and explanatory material",
-      "plain_explanation": "Mandatory rules use shall or shall not language — they must be followed. Permissive rules use shall be permitted language — they allow an option, they do not require it. Explanatory material, including Informational Notes, is there to explain or point to other material; a note by itself does not create a requirement you can be failed for, and you cannot use a note to override a rule.",
+      "plain_explanation": "Mandatory rules use shall or shall not language — they must be followed. Permissive rules use shall be permitted language — they allow an option, they do not require it. Explanatory material, including Informational Notes, is there to explain or point to other material; a note by itself does not create a requirement you can be failed for, and you cannot use a note to override a rule.\n\nNEC 2023 CHANGE:\n• 90.5: When the code mentions another standard without giving an edition year, that reference now means the latest edition of that standard. New in 90.5(C): a reference to another standard with no date means that standard's latest edition.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "When someone cites a note as the reason for a red tag or a change, ask for the rule section behind it. Notes are where good explanations live, but the enforceable requirement is always in the rule text or in another standard the rule points to.",
       "sharma_note": "",
       "figure_idea": "Three traffic signs side by side: a red shall/shall not sign, a green shall be permitted sign, and a blue information sign labelled Informational Note — not a requirement.",
@@ -125,7 +143,16 @@
       "verified": true,
       "prev_id": "C1-90.4",
       "next_id": "C1-90.6",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "90.5",
+          "change": "When the code mentions another standard without giving an edition year, that reference now means the latest edition of that standard. New in 90.5(C): a reference to another standard with no date means that standard's latest edition.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 90.5 Mandatory and permissive rules",
+          "url": "https://www.electricalexamcoach.app/changes/2023/90-5",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-90.6",
@@ -208,18 +235,27 @@
       "article": "100",
       "section": "100",
       "title": "Article 100 — Definitions: the words the Code uses",
-      "plain_explanation": "Article 100 defines the terms that carry a special meaning inside the Code. When a defined word appears in a rule, it means what Article 100 says it means, even if the everyday meaning is broader or narrower. In the 2020 edition the definitions sit in three parts — general definitions, definitions for installations over 1000 volts, and definitions for hazardous (classified) locations — arranged alphabetically inside each part rather than as numbered sections. This chapter covers the job-critical general terms a Sharma helper meets first; it does not attempt every definition in the article.",
+      "plain_explanation": "Article 100 defines the terms that carry a special meaning inside the Code. When a defined word appears in a rule, it means what Article 100 says it means, even if the everyday meaning is broader or narrower. In the 2020 edition the definitions sit in three parts — general definitions, definitions for installations over 1000 volts, and definitions for hazardous (classified) locations — arranged alphabetically inside each part rather than as numbered sections. This chapter covers the job-critical general terms a Sharma helper meets first; it does not attempt every definition in the article.\n\nNEC 2023 CHANGE:\n• 100: All definitions were moved into Article 100 (the .2 sections of each article no longer hold definitions; Article 100 is no longer split into parts). Many terms are new or revised, e.g. Counter (Countertop), Work Surface, Servicing, Short Circuit, Likely to Become Energized, Energy Management System, WSCR/WSAF.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "When an argument turns on a single word — accessible, listed, outlet, service — come back to this article before arguing from everyday speech. A surprising number of inspection fights are really definition fights.",
       "sharma_note": "",
       "figure_idea": "An open dictionary: the terms the whole Code shares, defined once in Article 100 instead of being repeated in every article.",
       "related_ids": [
         "C1-L-011"
       ],
-      "florida_note": "NEC 2023 — not yet adopted in FL: the 2023 edition reorganized Article 100 into a single consolidated alphabetical list. Do not use a 2023 study book's arrangement to locate a definition under Florida's 2020 edition.",
+      "florida_note": "NEC 2023 (FL: FBC 9th Ed., permits applied for on or after Dec 31, 2026): the 2023 edition reorganized Article 100 into a single consolidated alphabetical list. Do not use a 2023 study book's arrangement to locate a definition under Florida's 2020 edition.",
       "verified": true,
       "prev_id": "C1-90.9",
       "next_id": "C1-100-ACCESSIBLE",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "100",
+          "change": "All definitions were moved into Article 100 (the .2 sections of each article no longer hold definitions; Article 100 is no longer split into parts). Many terms are new or revised, e.g. Counter (Countertop), Work Surface, Servicing, Short Circuit, Likely to Become Energized, Energy Management System, WSCR/WSAF.",
+          "source": "Carosella 2023 NEC workbook; Electrical Exam Coach 2023 Article 100",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-100-ACCESSIBLE",
@@ -281,7 +317,7 @@
         "C1-100-GROUNDED-GROUNDING"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-AMPACITY",
       "next_id": "C1-100-VOLTAGE-FAMILY",
       "sharma_rule_ids": []
@@ -301,7 +337,7 @@
         "C1-110.26(A)(1)"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-CONDUCTORS",
       "next_id": "C1-100-APPLIANCE",
       "sharma_rule_ids": []
@@ -369,7 +405,7 @@
         "C1-110.3"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-APPROVAL-FAMILY",
       "next_id": "C1-100-BONDING",
       "sharma_rule_ids": []
@@ -399,8 +435,8 @@
       "article": "100",
       "section": "100",
       "title": "Grounding conductors and electrodes — EGC, GEC, and bonding jumpers",
-      "plain_explanation": "The grounding family splits by job. The equipment grounding conductor (EGC) connects the metal frames of equipment back to the source so a ground fault becomes a big fault current that trips the breaker — it is the green or bare wire in every branch circuit. The grounding electrode conductor (GEC) connects the system to the grounding electrode — the rod, plate, concrete-encased electrode or other recognized earth connection itself. The main bonding jumper is the connection at the service between the grounded conductor and the EGC side; a system bonding jumper does the same job at a separately derived system. The existing Bonding and Grounded/Grounding pages cover the base words; this page is the conductor-by-conductor map.",
-      "on_the_job": "Mixing up the EGC and the GEC is the classic exam and inspection trap: the EGC protects people from energized metal, the GEC connects the system to earth, and they are sized from different tables (250.122 for the EGC, 250.66 for the GEC). The only neutral-to-ground bond in a house is the main bonding jumper at the service — downstream panels keep them separate.",
+      "plain_explanation": "The grounding family splits by job. The equipment grounding conductor (EGC) connects the metal frames of equipment back to the source so a ground fault becomes a big fault current that trips the breaker — it is usually the green or bare wire, but 250.118 also lets certain raceways and cable armor serve as the EGC.. The grounding electrode conductor (GEC) connects the system to the grounding electrode — the rod, plate, concrete-encased electrode or other recognized earth connection itself. The main bonding jumper is the connection at the service between the grounded conductor and the EGC side; a system bonding jumper does the same job at a separately derived system. The existing Bonding and Grounded/Grounding pages cover the base words; this page is the conductor-by-conductor map.",
+      "on_the_job": "Mixing up the EGC and the GEC is the classic exam and inspection trap: the EGC protects people from energized metal, the GEC connects the system to earth, and they are sized from different tables (250.122 for the EGC, 250.66 for the GEC). In a normal house the only neutral-to-ground bond is the main bonding jumper at the service; a separately derived system (for example a transformer or a generator switched as an SDS) gets its own system bonding jumper, and downstream panels keep neutral and ground separate. — downstream panels keep them separate.",
       "sharma_note": "",
       "figure_idea": "A house service diagram tracing three paths in three colours: EGC back to the panel, GEC down to the rod, and the main bonding jumper tying neutral to the enclosure at the service only.",
       "related_ids": [
@@ -409,7 +445,7 @@
         "C1-100-GROUNDED-GROUNDING"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-BONDING",
       "next_id": "C1-100-GROUNDED-GROUNDING",
       "sharma_rule_ids": []
@@ -441,7 +477,7 @@
       "article": "100",
       "section": "100",
       "title": "Ground fault, GFCI, and ground-fault protection of equipment",
-      "plain_explanation": "A ground fault is an unintended connection between an ungrounded conductor and normally non-current-carrying metal or the earth — the fault the EGC exists to turn into a breaker trip. Two protective terms build on it and are not interchangeable. A ground-fault circuit interrupter (GFCI) protects people: it watches for current leaking outside the intended path and opens the circuit at a few milliamperes, the personnel-protection level (Class A devices trip in the 4–6 mA range). Ground-fault protection of equipment (GFPE) protects equipment and conductors from damaging fault currents at much higher levels — hundreds of amperes on large services — and is not intended to protect a person from shock.",
+      "plain_explanation": "A ground fault is an unintended connection between an ungrounded conductor and normally non-current-carrying metal or the earth — the fault the EGC exists to turn into a breaker trip. Two protective terms build on it and are not interchangeable. A ground-fault circuit interrupter (GFCI) protects people: it watches for current leaking outside the intended path and opens the circuit at a few milliamperes, the personnel-protection level (a Class A GFCI must trip when ground-fault current reaches 6 mA and must not trip below 4 mA — Art. 100 GFCI Informational Note, from UL 943).. Ground-fault protection of equipment (GFPE) protects equipment and conductors from damaging fault currents at much higher levels — hundreds of amperes on large services — and is not intended to protect a person from shock.",
       "on_the_job": "A GFPE breaker on a big service will not save a helper who contacts a live part, and a receptacle GFCI is not equipment protection for a service. When a spec or an inspector says 'ground-fault protection,' ask which of the two is meant before ordering gear.",
       "sharma_note": "",
       "figure_idea": "Two trip curves side by side: a GFCI opening at a few milliamperes for personnel, and GFPE opening at hundreds of amperes for equipment.",
@@ -450,7 +486,7 @@
         "C1-100-GROUNDING-FAMILY"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-GROUNDED-GROUNDING",
       "next_id": "C1-100-BRANCH-CIRCUIT",
       "sharma_rule_ids": []
@@ -492,7 +528,7 @@
         "C1-100-BRANCH-CIRCUIT"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-BRANCH-CIRCUIT",
       "next_id": "C1-100-CIRCUIT-BREAKER",
       "sharma_rule_ids": []
@@ -503,7 +539,7 @@
       "article": "100",
       "section": "100",
       "title": "Circuit breaker, panelboard, cabinet, and the fault ratings",
-      "plain_explanation": "A circuit breaker is a device that opens and closes a circuit by nonautomatic means and opens it automatically at a preset overcurrent — an adjustable-trip breaker lets that trip setting be changed without swapping internal parts. A panelboard is a single panel, or group of panel units, of switches or breakers in a cabinet, designed to mount in or against a wall; the cabinet (or cutout box) is the enclosure around it, surface or flush, with doors or trim as designed. Two fault ratings live here and are constantly confused: interrupting rating is the highest fault current a device itself can safely open at its rated voltage; short-circuit current rating (SCCR) is the fault current a piece of equipment as a whole can withstand or be protected at. The 110.9 and 110.10 pages carry the rules behind both ratings.",
+      "plain_explanation": "A circuit breaker is a device that opens and closes a circuit by nonautomatic means and opens it automatically at a preset overcurrent — an adjustable-trip breaker lets that trip setting be changed without swapping internal parts. A panelboard is a single panel, or group of panel units, of switches or breakers in a cabinet, designed to mount in or against a wall; the enclosure is a cabinet or a cutout box — two separately defined terms (a cabinet has a frame/trim for a swinging door; a cutout box has a door or cover hinged directly to the box walls)., surface or flush, with doors or trim as designed. Two fault ratings live here and are constantly confused: interrupting rating is the highest fault current a device itself can safely open at its rated voltage; short-circuit current rating (SCCR) is the fault current a piece of equipment as a whole can withstand or be protected at. The 110.9 and 110.10 pages carry the rules behind both ratings.",
       "on_the_job": "A breaker that fits is not a breaker that belongs: its interrupting rating must meet or beat the available fault current at its terminals, and the panel's SCCR must cover the installation — check the labels before the gear is set, not at inspection.",
       "sharma_note": "",
       "figure_idea": "A panelboard cutaway: breakers inside, cabinet around them, with callouts for the interrupting rating on a breaker label and the SCCR on the panel label.",
@@ -514,7 +550,7 @@
         "C1-100-APPROVAL-FAMILY"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-BRANCH-CIRCUIT-TYPES",
       "next_id": "C1-100-FEEDER",
       "sharma_rule_ids": []
@@ -574,7 +610,7 @@
         "C1-100-BRANCH-CIRCUIT-TYPES"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-CONTINUOUS-LOAD",
       "next_id": "C1-100-DWELLING-UNIT",
       "sharma_rule_ids": []
@@ -604,7 +640,7 @@
       "article": "100",
       "section": "100",
       "title": "Bathroom and clothes closet",
-      "plain_explanation": "A bathroom, in Article 100, is an area that includes a basin plus at least one of a toilet, a tub, or a shower — a room with only a toilet and no basin is not a bathroom under the Code, and a basin with nothing else is not either. The definition matters because whole rule sets switch on it: the 20A bathroom receptacle circuit, GFCI protection for bathroom receptacles, and the ban on receptacles inside tub and shower spaces. A clothes closet is the nonhabitable room or space meant for storing clothes — the definition behind the luminaire rules that keep hot, exposed lamps away from stored clothing and shelving.",
+      "plain_explanation": "A bathroom, in Article 100, is an area that includes a basin plus one or more of a toilet, a urinal, a tub, a shower, a bidet, or a similar plumbing fixture. — a room with only a toilet and no basin is not a bathroom under the Code, and a basin with nothing else is not either. The definition matters because whole rule sets switch on it: the 20A bathroom receptacle circuit, GFCI protection for bathroom receptacles, and the ban on receptacles inside tub and shower spaces. A clothes closet is the nonhabitable room or space meant for storing clothes — the definition behind the luminaire rules that keep hot, exposed lamps away from stored clothing and shelving.",
       "on_the_job": "On plans, check the fixture list before applying bathroom rules: a powder room with a basin and toilet is a bathroom; a water closet alone is not. In closets, the clothes-closet definition is what triggers the luminaire type and clearance rules in 410.16 — treat any closet with a rod and shelf as one unless the plans say otherwise.",
       "sharma_note": "",
       "figure_idea": "Two small floor plans: basin + toilet ticked as a bathroom, toilet alone crossed, with a closet plan showing shelf and rod.",
@@ -614,7 +650,7 @@
         "C1-100-DWELLING-UNIT"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-DWELLING-UNIT",
       "next_id": "C1-100-EXPOSED",
       "sharma_rule_ids": []
@@ -653,7 +689,7 @@
         "C1-100-ACCESSIBLE"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-EXPOSED",
       "next_id": "C1-100-LOCATIONS",
       "sharma_rule_ids": []
@@ -695,7 +731,7 @@
         "C1-110.28"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-LOCATIONS",
       "next_id": "C1-100-OUTLET-RECEPTACLE",
       "sharma_rule_ids": []
@@ -738,7 +774,7 @@
         "C1-100-OUTLET-RECEPTACLE"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-OUTLET-RECEPTACLE",
       "next_id": "C1-100-SERVICE",
       "sharma_rule_ids": []
@@ -780,7 +816,7 @@
         "C1-100-SERVICE"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-SERVICE",
       "next_id": "C1-100-IN-SIGHT",
       "sharma_rule_ids": [
@@ -823,7 +859,7 @@
         "C1-110.25"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-IN-SIGHT",
       "next_id": "C1-100-SYSTEMS-WIRING",
       "sharma_rule_ids": []
@@ -844,7 +880,7 @@
         "C1-100-GROUNDING-FAMILY"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-100-DEVICE-DISCONNECT",
       "next_id": "C1-100-SPECIAL-PERMISSION",
       "sharma_rule_ids": []
@@ -897,7 +933,7 @@
       "article": "110",
       "section": "110",
       "title": "Article 110 — Requirements for electrical installations",
-      "plain_explanation": "Article 110 sets the general rules that apply to almost every installation: use approved and listed equipment the way its listing intends, terminate conductors correctly, do neat and workmanlike work, mark what needs marking, and leave safe working space around equipment. If a habit is wrong on every job, the rule against it is probably in this article.",
+      "plain_explanation": "Article 110 sets the general rules that apply to almost every installation: use approved and listed equipment the way its listing intends, terminate conductors correctly, do neat and workmanlike work, mark what needs marking, and leave safe working space around equipment. If a habit is wrong on every job, the rule against it is probably in this article.\n\nNEC 2023 CHANGE:\n• 110.29: The 50-ft, must-be-visible test for in-sight-from now stands as its own requirement in 110.29 instead of hiding inside an Article 100 definition. In sight now has its own rule, 110.29: the equipment must be visible from the other equipment and 50 ft away or closer.\n• 110.33(A): Requirements for access and egress from working space for equipment over 1000 volts, nominal, was revised and clarified in Section 110.33(A)\n• 110.34(A): Section 110.34(A) was revised to address the condition of the work surface making up the floor, grade, or platform area within the working space of electrical equipment 1000 volts, nominal, and above.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Most Article 110 failures are visible without a meter: wrong-brand breakers, sloppy terminations, unmarked disconnects, blocked panels. A slow walk with this article in mind catches them before the inspector does.",
       "sharma_note": "",
       "figure_idea": "",
@@ -908,7 +944,30 @@
       "verified": true,
       "prev_id": "C1-100-AREAS-IN-USE",
       "next_id": "C1-110.1",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.29",
+          "change": "The 50-ft, must-be-visible test for in-sight-from now stands as its own requirement in 110.29 instead of hiding inside an Article 100 definition. In sight now has its own rule, 110.29: the equipment must be visible from the other equipment and 50 ft away or closer.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.29 In sight: 50 ft and visible",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-29",
+          "confirmed": true
+        },
+        {
+          "section": "110.33(A)",
+          "change": "Requirements for access and egress from working space for equipment over 1000 volts, nominal, was revised and clarified in Section 110.33(A)",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 110.33{A) Entrance",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "110.34(A)",
+          "change": "Section 110.34(A) was revised to address the condition of the work surface making up the floor, grade, or platform area within the working space of electrical equipment 1000 volts, nominal, and above.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 110.34{A) Working Space and Guarding",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.1",
@@ -959,7 +1018,7 @@
       "article": "110",
       "section": "110.3",
       "title": "Examination, identification, installation, and use of equipment",
-      "plain_explanation": "When equipment is examined for approval, the things considered include its suitability for the installation, its mechanical strength, wire-bending space, electrical insulation, heating effects, arcing behavior, and how it is classified by type, size, voltage, current capacity and specific use. In plain terms: the right equipment, of the right rating, in the right place, with room for its conductors to land properly.",
+      "plain_explanation": "When equipment is examined for approval, the things considered include its suitability for the installation, its mechanical strength, wire-bending space, electrical insulation, heating effects, arcing behavior, and how it is classified by type, size, voltage, current capacity and specific use. In plain terms: the right equipment, of the right rating, in the right place, with room for its conductors to land properly.\n\nNEC 2023 CHANGE:\n• 110.3: Cybersecurity for networked life safety equipment joined the list of things weighed when judging equipment, and gear identified for a use now has to be installed and used by its instructions too. New 110.3(A)(8): approving networked life safety gear now means weighing its cybersecurity, so it holds up against hacking and unauthorized updates and keeps working safely.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Suitability is decided before installation. A device rated for a dry interior wall does not become suitable on an exterior wet wall because it was the one in the box.",
       "sharma_note": "",
       "figure_idea": "",
@@ -970,7 +1029,16 @@
       "verified": true,
       "prev_id": "C1-110.2",
       "next_id": "C1-110.3(B)",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.3",
+          "change": "Cybersecurity for networked life safety equipment joined the list of things weighed when judging equipment, and gear identified for a use now has to be installed and used by its instructions too. New 110.3(A)(8): approving networked life safety gear now means weighing its cybersecurity, so it holds up against hacking and unauthorized updates and keeps working safely.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.3 Cybersecurity and equipment instructions",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-3",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.3(B)",
@@ -978,7 +1046,7 @@
       "article": "110",
       "section": "110.3(B)",
       "title": "Install and use listed equipment per its instructions",
-      "plain_explanation": "Listed and labeled equipment has to be installed and used following the instructions that come with its listing and labeling. The manufacturer's instructions are not suggestions where the listing depends on them — a torque value, a conductor material, a temperature rating or a mounting requirement in those instructions has Code force through this section.",
+      "plain_explanation": "Listed and labeled equipment has to be installed and used following the instructions that come with its listing and labeling. The manufacturer's instructions are not suggestions where the listing depends on them — a torque value, a conductor material, a temperature rating or a mounting requirement in those instructions has Code force through this section.\n\nNEC 2023 CHANGE:\n• 110.3(B): Created a new informational note allowing the use of a QR code to access installation instructions.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "This is the daily rule behind half of field quality: read the label inside the panel door, the sheet in the device box, and the nameplate on the equipment. If the instructions and a habit disagree, the instructions win.",
       "sharma_note": "",
       "figure_idea": "Panel door label enlarged, with torque table, conductor material and temperature rating highlighted as instructions that carry Code force.",
@@ -992,7 +1060,16 @@
       "verified": true,
       "prev_id": "C1-110.3",
       "next_id": "C1-110.4",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.3(B)",
+          "change": "Created a new informational note allowing the use of a QR code to access installation instructions.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 110.3(B) Examination, Identification, Installation, Use, and Listing (Product Certification) of Equipment.",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.4",
@@ -1000,13 +1077,13 @@
       "article": "110",
       "section": "110.4",
       "title": "Voltages",
-      "plain_explanation": "Equipment is used at the voltage it is rated for, and where the Code states a voltage it means the nominal system voltage the circuit actually operates at, unless a rule says otherwise. A device rated for a lower voltage does not become suitable on a higher-voltage circuit because its terminals fit, and the nominal voltage is what load, protection and clearance rules are keyed to.\n\nThe nominal system voltages crews actually meet, from this section's list:\n• 120 V — single-phase branch circuits\n• 120/240 V — the standard one-family house service\n• 208Y/120 V — three-phase wye, common in commercial buildings and multifamily services\n• 240 V — single-phase or three-phase delta\n• 277 V — one leg of a 480Y/277 V system to neutral, the commercial lighting voltage\n• 480Y/277 V and 480 V — larger commercial services\nEquipment is rated for the nominal voltage of the system it is connected to; a device marked for one system voltage is not interchangeable with another just because the plugs look alike.",
+      "plain_explanation": "The voltage considered is the voltage at which the circuit operates, and equipment's voltage rating may not be less than the nominal voltage of the circuit it is connected to. Equipment is used at the voltage it is rated for, and where the Code states a voltage it means the nominal system voltage the circuit actually operates at, unless a rule says otherwise. A device rated for a lower voltage does not become suitable on a higher-voltage circuit because its terminals fit, and the nominal voltage is what load, protection and clearance rules are keyed to.\n\nCommon nominal system voltages (the list itself is in 220.5(A), not 110.4):\n• 120 V — single-phase branch circuits\n• 120/240 V — the standard one-family house service\n• 208Y/120 V — three-phase wye, common in commercial buildings and multifamily services\n• 240 V — single-phase or three-phase delta\n• 277 V — one leg of a 480Y/277 V system to neutral, the commercial lighting voltage\n• 480Y/277 V and 480 V — larger commercial services\nEquipment is rated for the nominal voltage of the system it is connected to; a device marked for one system voltage is not interchangeable with another just because the plugs look alike.",
       "on_the_job": "Check the nameplate voltage against the system in front of you — 120/240 single-phase, 208Y/120 and 480Y/277 three-phase are different worlds for device ratings even when the hardware looks similar.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-110.3(B)",
       "next_id": "C1-110.5",
       "sharma_rule_ids": []
@@ -1049,7 +1126,7 @@
         "C1-L-014"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-110.5",
       "next_id": "C1-110.7",
       "sharma_rule_ids": []
@@ -1077,7 +1154,7 @@
       "article": "110",
       "section": "110.8",
       "title": "Wiring methods — use only recognized methods",
-      "plain_explanation": "Only wiring methods the Code recognizes for the application may be used. A cable or raceway that conducts electricity is not thereby a permitted wiring method for a given location: each method has its own article, its permitted uses and its prohibited uses, and those govern. Improvised assemblies and products used outside their article's limits fail here before any other rule is reached.",
+      "plain_explanation": "Only wiring methods the Code recognizes for the application may be used. A cable or raceway that conducts electricity is not thereby a permitted wiring method for a given location: each method has its own article, its permitted uses and its prohibited uses, and those govern. Improvised assemblies and products used outside their article's limits fail here before any other rule is reached.\n\nNEC 2023 CHANGE:\n• 110.8: A recognized wiring method is now clearly allowed in any premises wiring system, not just any building or occupancy, unless another rule limits it. That reaches wiring outside buildings too. A recognized wiring method can go in any type of building, occupancy or premises wiring system, unless another rule says otherwise.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Before running anything, name the method and its article — NM cable, EMT, PVC, MC and the rest each carry their own use lists. A method allowed indoors is not automatically allowed outdoors or in a wet location.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1086,7 +1163,16 @@
       "verified": true,
       "prev_id": "C1-110.7",
       "next_id": "C1-110.9",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.8",
+          "change": "A recognized wiring method is now clearly allowed in any premises wiring system, not just any building or occupancy, unless another rule limits it. That reaches wiring outside buildings too. A recognized wiring method can go in any type of building, occupancy or premises wiring system, unless another rule says otherwise.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.8 Recognized wiring methods",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-8",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.9",
@@ -1094,7 +1180,7 @@
       "article": "110",
       "section": "110.9",
       "title": "Interrupting rating",
-      "plain_explanation": "Equipment meant to interrupt current during a fault has to be able to interrupt the fault current that can actually be delivered at its terminals. A breaker asked to open a fault beyond its interrupting rating can fail violently instead of clearing the fault. The rating is printed on the device and must equal or exceed the available fault current at that point.",
+      "plain_explanation": "Equipment meant to interrupt current during a fault has to be able to interrupt the fault current that can actually be delivered at its terminals. A breaker asked to open a fault beyond its interrupting rating can fail violently instead of clearing the fault. The rating is printed on the device and must equal or exceed the available fault current at that point.\n\nNEC 2023 CHANGE:\n• 110.9: A wording update using the defined term available fault current. Every breaker and fuse still has to be rated to interrupt the available fault current at its line terminals. Any breaker or fuse meant to open fault current needs an interrupting rating that meets or beats the available fault current at its line terminals.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Check the kAIC marking on breakers against the job's available fault current, especially close to large services and transformers. Series-rated combinations are only valid as tested and documented combinations, not as a field guess.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1105,7 +1191,16 @@
       "verified": true,
       "prev_id": "C1-110.8",
       "next_id": "C1-110.10",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.9",
+          "change": "A wording update using the defined term available fault current. Every breaker and fuse still has to be rated to interrupt the available fault current at its line terminals. Any breaker or fuse meant to open fault current needs an interrupting rating that meets or beats the available fault current at its line terminals.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.9 Interrupting rating",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-9",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.10",
@@ -1151,7 +1246,7 @@
       "article": "110",
       "section": "110.12",
       "title": "Mechanical execution of work — workmanship and unused openings",
-      "plain_explanation": "Electrical work has to be done in a neat and workmanlike manner. Unused openings in enclosures, boxes and equipment have to be closed with closures that give protection much like the wall of the equipment itself — a missing knockout blank is an open door for fingers, pests and arc products. Conductors must also be protected where insulation can be damaged. (Keeping water out of enclosures in wet locations is a different rule — see 312.2 and 314.15 — not part of 110.12.) Part (B) covers integrity of equipment and connections: internal parts, busbars, wiring terminals, and other components must not be damaged or contaminated by foreign materials, and there must be no damaged, broken, bent, cut, or deteriorated parts.",
+      "plain_explanation": "Electrical work has to be done in a neat and workmanlike manner. Unused openings in enclosures, boxes and equipment have to be closed with closures that give protection much like the wall of the equipment itself — a missing knockout blank is an open door for fingers, pests and arc products. Conductors must also be protected where insulation can be damaged. (Keeping water out of enclosures in wet locations is a different rule — see 312.2 and 314.15 — not part of 110.12.) Part (B) covers integrity of equipment and connections: internal parts, busbars, wiring terminals, and other components must not be damaged or contaminated by foreign materials, and there must be no damaged, broken, bent, cut, or deteriorated parts.\n\nNEC 2023 CHANGE:\n• 110.12: Neat and workmanlike is out. The standard for every electrical install is now professional and skillful work. The workmanship standard changed from neat and workmanlike to professional and skillful.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Close every unused opening with a listed blank or plug, not tape or a folded piece of can. Neat work is not cosmetic here — it is the section the inspector cites when a panel looks like a hazard even before testing anything.",
       "sharma_note": "",
       "figure_idea": "Before/after panel photos in drawing form: open knockouts and stray conductors on one side, blanks fitted and conductors dressed on the other.",
@@ -1164,7 +1259,16 @@
       "verified": true,
       "prev_id": "C1-110.11",
       "next_id": "C1-110.13",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.12",
+          "change": "Neat and workmanlike is out. The standard for every electrical install is now professional and skillful work. The workmanship standard changed from neat and workmanlike to professional and skillful.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.12 Professional and skillful work",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-12",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.13",
@@ -1191,7 +1295,7 @@
       "article": "110",
       "section": "110.14",
       "title": "Electrical connections — terminations in general",
-      "plain_explanation": "Most electrical failures start at a connection, and this section is the Code's main defense. Conductors must land on terminals suited to their metal and size, with the connection made by an approved method. Dissimilar metals in contact must be handled only where the device is identified for that combination, because corrosion between unlike metals loosens and overheats a joint over time. Solder, where used, cannot be the thing that holds a joint against pulling apart.",
+      "plain_explanation": "Most electrical failures start at a connection, and this section is the Code's main defense. Conductors must land on terminals suited to their metal and size, with the connection made by an approved method. Dissimilar metals in contact must be handled only where the device is identified for that combination, because corrosion between unlike metals loosens and overheats a joint over time. Solder, where used, cannot be the thing that holds a joint against pulling apart.\n\nNEC 2023 CHANGE:\n• 110.14: Terminals now have to make a mechanically secure electrical connection, replacing the old thoroughly good wording, and the example metal pairs were cut from the dissimilar-metals rule. 110.14(A): landing a conductor on a terminal has to produce a mechanically secure electrical connection, with no damage to the wire.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Read the lug and device markings before landing wire. CU-only means copper only. A connector for aluminum, copper and CCA together must carry the AL-CU or CU-AL marking, or the intermixed marking where the metals actually touch, and breaker and equipment lugs get the same check.",
       "sharma_note": "S-10 CCA practice: 15A and 20A device screw terminals take copper and CCA unless marked otherwise; devices 30A and up are copper-only unless marked AL/CU. Copper and CCA are not dissimilar metals; aluminum with copper, or aluminum with CCA, is. Backstab (push-in) terminals are 14 AWG solid copper only — never backstab CCA, stranded wire, or 12 AWG. UNVERIFIED FLAG (v1 README item 9): the UL guide wording behind the CCA terminal markings (RTRT / WJQR / ZMVV / AALZ) was taken from NEMA and UL/IAEI quotations, not read first-hand in UL Product iQ, and no CC or CC/CU marking was found in the ZMVV table. Do not invent a marking. A NEMA citation to 404.15(C) for switch terminals was not checked against the code text and is not relied on here.",
       "figure_idea": "Three lugs side by side marked CU, AL-CU and CU-AL, with a chart of which conductor metals each may take, and a crossed-out backstab terminal on CCA wire.",
@@ -1210,6 +1314,15 @@
       "next_id": "C1-110.14(C)",
       "sharma_rule_ids": [
         "S-10"
+      ],
+      "nec2023_change": [
+        {
+          "section": "110.14",
+          "change": "Terminals now have to make a mechanically secure electrical connection, replacing the old thoroughly good wording, and the example metal pairs were cut from the dissimilar-metals rule. 110.14(A): landing a conductor on a terminal has to produce a mechanically secure electrical connection, with no damage to the wire.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.14 Terminal connections and dissimilar metals",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-14",
+          "confirmed": true
+        }
       ]
     },
     {
@@ -1280,7 +1393,7 @@
       "article": "110",
       "section": "110.16",
       "title": "Arc-flash hazard warning marking",
-      "plain_explanation": "Certain equipment that is likely to be examined, adjusted or worked on while energized — such as switchboards, panelboards and motor control centers in other than dwelling settings — must carry a durable field-applied warning marking telling people about the arc-flash hazard. The marking warns; it does not replace safe work practice, and it belongs where a person approaching the gear will see it. On service equipment, 110.16(B) makes the label specific: it must show the nominal system voltage, the arc-flash boundary, and at least one of the available incident energy with its working distance, the arc rating of required clothing, or the site-specific level of PPE.",
+      "plain_explanation": "Certain equipment that is likely to be examined, adjusted or worked on while energized — such as switchboards, panelboards and motor control centers in other than dwelling settings — must carry a durable field-applied warning marking telling people about the arc-flash hazard. The marking warns; it does not replace safe work practice, and it belongs where a person approaching the gear will see it. 110.16(B) (NEC 2020): in other than dwelling units, service equipment rated 1200A or more also needs a permanent label (meeting 110.21(B)) showing the nominal system voltage, the available fault current at the service overcurrent devices, the clearing time of those devices based on that fault current, and the date the label was applied; it is not required where an arc-flash label is applied per acceptable industry practice.\n\nNEC 2023 CHANGE:\n• 110.16(B): 110.16(B) now covers service equipment AND feeder-supplied equipment rated 1000A or more (was service equipment 1200A or more), and the permanent label must be an arc-flash label per applicable industry practice, with the date applied.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On commercial work, confirm the arc-flash warning label is present and legible before final. Houses are not the target of this section, but the hazard it names is real on any energized panel.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1291,7 +1404,16 @@
       "verified": true,
       "prev_id": "C1-110.15",
       "next_id": "C1-110.17",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.16(B)",
+          "change": "110.16(B) now covers service equipment AND feeder-supplied equipment rated 1000A or more (was service equipment 1200A or more), and the permanent label must be an arc-flash label per applicable industry practice, with the date applied.",
+          "source": "EC&M 'Arc Flash Hazard Warning and Labeling' (Mark Ode, Dec 2022); Carosella 2023 NEC workbook",
+          "url": "https://www.ecmag.com/magazine/articles/article-detail/arc-flash-hazard-warning-and-labeling-what-the-2023-nec-has-to-say-on-these-requirements",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.17",
@@ -1299,16 +1421,25 @@
       "article": "110",
       "section": "110.17",
       "title": "Servicing and maintenance of equipment",
-      "plain_explanation": "This section, new in the 2020 edition, addresses the servicing and maintenance of electrical equipment: servicing is to be done by qualified persons, and replacement parts and components are to be suitable for the equipment — identified for it or the manufacturer's specified replacements. Experience alone is not the standard; the person doing the work needs the training and knowledge the task and its hazards require.",
+      "plain_explanation": "This section is new in the 2023 NEC (it does not exist in NEC 2020, the edition Florida enforces), addresses the servicing and maintenance of electrical equipment: servicing is to be done by qualified persons, and replacement parts and components are to be suitable for the equipment — identified for it or the manufacturer's specified replacements. Experience alone is not the standard; the person doing the work needs the training and knowledge the task and its hazards require. The 2023 rule also says the work is done per the manufacturer's instructions or listing information, industry standards, or as approved by the AHJ, and replacement parts must be identified and come from the original manufacturer, be designed by an engineer experienced in replacement parts for that equipment, or be approved by the AHJ.\n\nNEC 2023 CHANGE:\n• 110.17: New section: only qualified, trained persons can service and maintain electrical equipment, and replacement parts have to be identified and verified to product standards. Only qualified persons, trained in servicing and maintaining equipment, can do that work.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On service calls, replace failed components with parts identified for that equipment, and treat unfamiliar gear — especially commercial switchgear — as a qualified-persons-only job until the right person is on it.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [],
-      "florida_note": "",
-      "verified": false,
+      "florida_note": "Not in force on Florida jobs under NEC 2020 (permits applied for through Dec 30, 2026); know it for the NEC 2023 exam. FBC 9th Ed. (NEC 2023) applies to permits applied for on or after Dec 31, 2026.",
+      "verified": true,
       "prev_id": "C1-110.16",
       "next_id": "C1-110.18",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.17",
+          "change": "New section: only qualified, trained persons can service and maintain electrical equipment, and replacement parts have to be identified and verified to product standards. Only qualified persons, trained in servicing and maintaining equipment, can do that work.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.17 Servicing and maintaining equipment",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-17",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.18",
@@ -1350,18 +1481,27 @@
       "article": "110",
       "section": "110.20",
       "title": "Reconditioned equipment",
-      "plain_explanation": "This section, new in the 2020 edition, governs equipment that has been reconditioned — rebuilt or restored — as distinct from equipment that has merely been serviced or had a failed part replaced with an approved equal. Reconditioned equipment has to be evaluated and accepted under the section's terms, the party that reconditioned it has to be identifiable, and some categories of equipment are restricted or not permitted to be reconditioned at all. A previous listing does not automatically survive an extensive rebuild.",
+      "plain_explanation": "This section is new in the 2023 NEC; under NEC 2020 the only general reconditioned-equipment rule is the marking rule in 110.21(A)(2), plus scattered article rules such as 240.62 and 240.88., governs equipment that has been reconditioned — rebuilt or restored — as distinct from equipment that has merely been serviced or had a failed part replaced with an approved equal. Reconditioned equipment has to be evaluated and accepted under the section's terms, the party that reconditioned it has to be identifiable, and some categories of equipment are restricted or not permitted to be reconditioned at all. A previous listing does not automatically survive an extensive rebuild.\n\nNEC 2023 CHANGE:\n• 110.20: New section: reconditioned equipment is allowed unless another rule bans it, and it gets accepted through a listing, a field label, the original maker's instructions, or approval by the authority having jurisdiction. Reconditioned equipment is allowed unless a rule elsewhere in the code prohibits reconditioning that item.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On commercial renovations, treat refurbished switchboards, panelboards and breakers as a question, not a bargain: who reconditioned it, under what evaluation, and is that category of equipment permitted to be reconditioned? Get the answer before it is set, not at inspection.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
         "C1-L-034"
       ],
-      "florida_note": "",
-      "verified": false,
+      "florida_note": "Not in force on Florida jobs under NEC 2020 (permits applied for through Dec 30, 2026). FBC 9th Ed. (NEC 2023) applies to permits applied for on or after Dec 31, 2026.",
+      "verified": true,
       "prev_id": "C1-110.19",
       "next_id": "C1-110.21",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.20",
+          "change": "New section: reconditioned equipment is allowed unless another rule bans it, and it gets accepted through a listing, a field label, the original maker's instructions, or approval by the authority having jurisdiction. Reconditioned equipment is allowed unless a rule elsewhere in the code prohibits reconditioning that item.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.20 Reconditioned equipment",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-20",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.21",
@@ -1369,7 +1509,7 @@
       "article": "110",
       "section": "110.21",
       "title": "Marking — manufacturer marks and field-applied hazard marks",
-      "plain_explanation": "Equipment carries the manufacturer's name and its ratings so the user can tell what it is and what it is rated for. Where the Code requires a field-applied hazard marking, it has to be durable enough for its environment, use signal wording everyone recognizes, and not be handwritten where the Code requires a proper marking. A faded or missing rating plate makes equipment hard to approve and harder to service safely. Reconditioned equipment has its own marking rule at 110.21(A)(2): it must be marked with the name or trademark of the business that reconditioned it and the date of reconditioning, identified as reconditioned, and the original listing mark must be removed or voided — reconditioned gear is never passed off as new.",
+      "plain_explanation": "Equipment carries the manufacturer's name and its ratings so the user can tell what it is and what it is rated for. Where the Code requires a field-applied hazard marking, it has to be durable enough for its environment, use signal wording everyone recognizes, and not be handwritten where the Code requires a proper marking. A faded or missing rating plate makes equipment hard to approve and harder to service safely. Reconditioned equipment has its own marking rule at 110.21(A)(2): it must be marked with the name or trademark of the business that reconditioned it and the date of reconditioning, identified as reconditioned, and the original listing mark must be removed or voided — reconditioned gear is never passed off as new.\n\nNEC 2023 CHANGE:\n• 110.21: Reconditioned gear has to show who rebuilt it, when, and that it's reconditioned. The original listing mark comes off or is made unreadable, but the nameplate can stay. Required: strip off the original listing mark or deface it so nobody can read it. The rest of the nameplate, ratings included, can stay.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Do not paint over, cover or discard rating labels. When you add a required field marking, use a proper printed label suited to the location, not a marker scrawl.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1380,7 +1520,16 @@
       "verified": true,
       "prev_id": "C1-110.20",
       "next_id": "C1-110.22",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.21",
+          "change": "Reconditioned gear has to show who rebuilt it, when, and that it's reconditioned. The original listing mark comes off or is made unreadable, but the nameplate can stay. Required: strip off the original listing mark or deface it so nobody can read it. The rest of the nameplate, ratings included, can stay.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.21 Marking reconditioned equipment",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-21",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.22",
@@ -1388,7 +1537,7 @@
       "article": "110",
       "section": "110.22",
       "title": "Identification of disconnecting means",
-      "plain_explanation": "Every disconnecting means has to be legibly marked to show what it shuts off, unless the purpose is already obvious from where it sits and what it feeds. The marking must be durable for its environment. On a multi-unit or multi-tenant job, each service disconnect and fault-protection device also has to show where its supply side comes from, so no one opens the wrong gear.",
+      "plain_explanation": "Every disconnecting means has to be legibly marked to show what it shuts off, unless the purpose is already obvious from where it sits and what it feeds. The marking must be durable for its environment. On a multi-unit or multi-tenant job, each service disconnect and fault-protection device also has to show where its supply side comes from, so no one opens the wrong gear.\n\nNEC 2023 CHANGE:\n• 110.22: Outside one- and two-family dwellings, a disconnect's label now has to say where its supply source is located, not just which source feeds it. In commercial, industrial and multifamily buildings, each disconnect's label has to identify the panel or source feeding it and where that source sits.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Label every breaker and disconnect with its actual load — 'condenser', 'air handler 2', 'water heater' — not 'spare' labels on live circuits or a directory copied from another house. Update the directory whenever a circuit changes.",
       "sharma_note": "",
       "figure_idea": "Panel directory card filled in legibly, one line per breaker, with a crossed-out example directory that just repeats 'lights / receptacles'.",
@@ -1400,7 +1549,16 @@
       "verified": true,
       "prev_id": "C1-110.21",
       "next_id": "C1-110.23",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.22",
+          "change": "Outside one- and two-family dwellings, a disconnect's label now has to say where its supply source is located, not just which source feeds it. In commercial, industrial and multifamily buildings, each disconnect's label has to identify the panel or source feeding it and where that source sits.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.22 Disconnect labels show source location",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-22",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.23",
@@ -1464,7 +1622,7 @@
       "article": "110",
       "section": "110.26",
       "title": "Spaces about electrical equipment — the section as a whole",
-      "plain_explanation": "Sufficient access and working space must be provided and kept clear around electrical equipment so people can work on it safely and maintain it. The section breaks into the working space itself, clear space, entrance and egress, illumination, dedicated equipment space, and special rules indoors and outdoors. Space that exists on rough-in day and is filled by the plumber's water heater later is not working space.",
+      "plain_explanation": "Sufficient access and working space must be provided and kept clear around electrical equipment so people can work on it safely and maintain it. The section breaks into the working space itself, clear space, entrance and egress, illumination, dedicated equipment space, and special rules indoors and outdoors. Space that exists on rough-in day and is filled by the plumber's water heater later is not working space.\n\nNEC 2023 CHANGE:\n• 110.26: Open doors on any equipment can't shrink the exit path below 24 inches by 6½ feet, working-space floors have to be flat as practical, and dedicated space now includes service equipment. Doors on any equipment, opened at once, can't leave less than 24 inches of width or 6½ feet of height to get in or out.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Defend the space from rough-in to final. Coordinate with the other trades early — once a water heater or shelving unit is set inside the panel's space, somebody is moving something, and it is cheaper if it is not us at final.",
       "sharma_note": "S-09 back-to-back meter and panel is Sharma's preferred layout, and it still owes this section its full working space in front of the panel.",
       "figure_idea": "",
@@ -1481,6 +1639,15 @@
       "next_id": "C1-110.26(A)",
       "sharma_rule_ids": [
         "S-09"
+      ],
+      "nec2023_change": [
+        {
+          "section": "110.26",
+          "change": "Open doors on any equipment can't shrink the exit path below 24 inches by 6½ feet, working-space floors have to be flat as practical, and dedicated space now includes service equipment. Doors on any equipment, opened at once, can't leave less than 24 inches of width or 6½ feet of height to get in or out.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 110.26 Working space and egress",
+          "url": "https://www.electricalexamcoach.app/changes/2023/110-26",
+          "confirmed": true
+        }
       ]
     },
     {
@@ -1489,7 +1656,7 @@
       "article": "110",
       "section": "110.26(A)",
       "title": "Working space about equipment",
-      "plain_explanation": "Live electrical equipment that may need examination or work while energized has to have a clear working space in front of it. For a typical 120/240V house panel (150V or less to ground), Table 110.26(A)(1) requires 3 ft of depth under all three conditions — what changes the depth is higher voltage to ground, not the house panel case. The space is at least 30 in wide or the width of the equipment, whichever is greater (110.26(A)(2)), and it runs from the floor up to 6-1/2 ft or the height of the equipment, whichever is greater (110.26(A)(3)). The space also has to be arranged so equipment doors and hinged panels can open at least 90°.",
+      "plain_explanation": "Live electrical equipment that may need examination or work while energized has to have a clear working space in front of it. For a typical 120/240V house panel (150V or less to ground), Table 110.26(A)(1) requires 3 ft of depth under all three conditions — what changes the depth is higher voltage to ground, not the house panel case. The space is at least 30 in wide or the width of the equipment, whichever is greater (110.26(A)(2)), and it runs from the floor up to 6-1/2 ft or the height of the equipment, whichever is greater (110.26(A)(3)). The space also has to be arranged so equipment doors and hinged panels can open at least 90°.\n\nNEC 2023 CHANGE:\n• 110.26(A)(6): Added a new list item (6) at 110.26(A) to address the working space conditions of the floor at electrical equipment locations, emphasizing a need to be clear of objects and level and flat as practical.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Measure from the face of the panel, not from the wall behind it. The 30-inch width has to cover the equipment, and it may sit to either side. It does not have to be centered. Do not park water heaters, shelving, or stored material in that space.",
       "sharma_note": "S-09 prefers the meter outside and the panel inside, back to back, where the house allows. That layout still has to leave the 110.26 working space in front of the panel.",
       "figure_idea": "A plan view of a 200A panel on a garage wall with a 30 in-wide by 3 ft-deep rectangle in front, height marked 6 ft 6 in, and a 'do not store here' callout.",
@@ -1510,7 +1677,15 @@
       "sharma_rule_ids": [
         "S-09"
       ],
-      "unverified_reason": "Verified badge removed after the 2026-11-15 field audit. The wording on this page was wrong or rested on a note that the printed NEC was not checked. Confirm against the printed 2020 text before relying on it."
+      "nec2023_change": [
+        {
+          "section": "110.26(A)(6)",
+          "change": "Added a new list item (6) at 110.26(A) to address the working space conditions of the floor at electrical equipment locations, emphasizing a need to be clear of objects and level and flat as practical.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 110.26{A){6) Grade, Floor, or Working Platform",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C1-110.26(A)(1)",
@@ -1530,7 +1705,7 @@
         "C1-Q-019"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-110.26(A)",
       "next_id": "C1-110.26(A)(2)",
       "sharma_rule_ids": []
@@ -1551,7 +1726,7 @@
         "C1-110.26(A)(1)"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-110.26(A)(1)",
       "next_id": "C1-110.26(A)(3)",
       "sharma_rule_ids": []
@@ -1563,7 +1738,7 @@
       "section": "110.26(A)(3)",
       "title": "Height of working space",
       "plain_explanation": "The working space must extend from the floor or platform up to a height of 6½ ft, or the height of the equipment itself, whichever is greater. Two everyday exceptions temper the number: in existing buildings, smaller service equipment or panelboards (200A or less, in dwelling-related installations) that do not meet the height may be permitted where the AHJ allows, and meters and meter sockets may project into the space within limits. Equipment above the space — a sprinkler pipe or a duct that is not electrical — is a dedicated-space question under 110.26(E), not a reason to shrink the height.\n• Height: 6½ ft minimum, or the height of the equipment if the equipment is taller",
-      "on_the_job": "Six and a half feet is taller than most helpers pace it off — a standard door header sits right at the line. Check the height before a soffit or duct gets framed over a panel location, and treat the exceptions as AHJ conversations, not assumptions.",
+      "on_the_job": "Six and a half feet is taller than most helpers pace it off — a standard door header sits right at the line. Check the height before a soffit or duct gets framed over a panel location, and the existing-dwelling exception applies only to existing dwelling units, never to new construction., not assumptions.",
       "sharma_note": "",
       "figure_idea": "A panel elevation with a 6½ ft dimension line from floor to the top of the working space and a duct drawn above the line.",
       "related_ids": [
@@ -1572,7 +1747,7 @@
         "C1-110.26(E)"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-110.26(A)(2)",
       "next_id": "C1-110.26(B-D)",
       "sharma_rule_ids": []
@@ -1603,7 +1778,7 @@
       "article": "110",
       "section": "110.26(C)",
       "title": "Entrance to and exit from working space",
-      "plain_explanation": "There must be at least one entrance to and exit from the working space, sized and arranged so a worker can get in, work, and get out without squeezing past the equipment. For large equipment — rated 1200A or more and over 6 ft wide, containing overcurrent, switching or control devices — there must be an entrance at each end of the working space, and a single entrance is only allowed where the layout gives an unobstructed, doubled-depth or otherwise Code-accepted escape path. Doors serving these spaces that open into the working-space area are part of the rule's concern: personnel doors within the stated distance of the equipment must open in the direction of exit travel and be fitted with listed panic hardware, so a worker reacting to an arc event pushes out instead of pulling a door against the blast.",
+      "plain_explanation": "There must be at least one entrance to and exit from the working space, sized and arranged so a worker can get in, work, and get out without squeezing past the equipment. For large equipment — rated 1200A or more and over 6 ft wide, containing overcurrent, switching or control devices — there must be one entrance to and egress from the working space at each end, at least 24 in. wide and 6½ ft high; a single entrance is permitted where the egress is unobstructed, or where the working space depth is doubled per Table 110.26(A)(1). Doors serving these spaces that open into the working-space area are part of the rule's concern: personnel doors where equipment rated 800A or more containing overcurrent, switching or control devices is installed, personnel doors intended for entrance to and egress from the working space that are less than 25 ft from the nearest edge of the working space must open in the direction of egress and have listed panic hardware. of the equipment must open in the direction of exit travel and be fitted with listed panic hardware, so a worker reacting to an arc event pushes out instead of pulling a door against the blast.",
       "on_the_job": "Houses rarely trip the 1200A rule, but the one-entrance principle applies everywhere: never let a panel room get framed so the only way out is past the gear. On commercial jobs with big switchboards, count the entrances at layout, and check the door swing and panic hardware before the doors are hung.",
       "sharma_note": "",
       "figure_idea": "A switchboard room plan: a wide lineup with a door at each end of the working space, arrows showing exit travel away from the gear.",
@@ -1613,7 +1788,7 @@
         "C1-110.26(B-D)"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-110.26(B-D)",
       "next_id": "C1-110.26(D)",
       "sharma_rule_ids": []
@@ -1624,8 +1799,8 @@
       "article": "110",
       "section": "110.26(D)",
       "title": "Illumination",
-      "plain_explanation": "Illumination must be provided for the working spaces about service equipment, switchboards, switchgear, panelboards and motor control centers — a worker reading a directory, a torque spec or a fault label cannot be expected to do it in the dark. The light may not be controlled by automatic means only, so a motion-sensor-only setup that can strand a worker in darkness mid-task does not satisfy the rule; there has to be a manual way to keep the light on. Outdoor working spaces are covered by the same requirement, with the light arranged for the space itself.",
-      "on_the_job": "A panel in a garage or an exterior disconnect still needs its light. If the only light on the plan is a motion sensor, flag it at rough-in — adding the manual control after trim is a return trip.",
+      "plain_explanation": "Illumination must be provided for the working spaces about service equipment, switchboards, switchgear, panelboards and motor control centers — a worker reading a directory, a torque spec or a fault label cannot be expected to do it in the dark. The light may not be controlled by automatic means only, so a motion-sensor-only setup that can strand a worker in darkness mid-task does not satisfy the rule; there has to be a manual way to keep the light on. No additional lighting outlet is required where the working space is lit by an adjacent light source, or as permitted by 210.70(A)(1) Exception No. 1 for switched receptacles.",
+      "on_the_job": "A panel in a garage an indoor panel (garage, closet, utility room) needs its light; 110.26(D) does not require a light at an outdoor disconnect.. If the only light on the plan is a motion sensor, flag it at rough-in — adding the manual control after trim is a return trip.",
       "sharma_note": "",
       "figure_idea": "A panel with a dedicated light above the working space and a wall switch beside it, the motion-sensor-only version crossed out.",
       "related_ids": [
@@ -1633,7 +1808,7 @@
         "C1-110.26(A)"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-110.26(C)",
       "next_id": "C1-110.26(E)",
       "sharma_rule_ids": []
@@ -1692,7 +1867,7 @@
         "C1-L-041"
       ],
       "florida_note": "Salt air makes enclosure type a live issue on Florida coastal work; corrosion-resistant types earn their cost outdoors near the coast.",
-      "verified": false,
+      "verified": true,
       "prev_id": "C1-110.27",
       "next_id": "C1-110.31",
       "sharma_rule_ids": []
@@ -1703,7 +1878,7 @@
       "article": "110",
       "section": "110.31",
       "title": "Equipment over 1000 volts — enclosure and access (overview)",
-      "plain_explanation": "Part III of Article 110 adds stricter rules for installations over 1000 volts, nominal, starting with how electrical equipment in such installations is enclosed and how access to it is controlled. Metal-enclosed gear and vault-type installations have to keep unqualified people away from high-voltage parts with real physical barriers, locks and warning signs. Sharma rarely installs this class of work, so this page is an orientation marker rather than a working guide.",
+      "plain_explanation": "Part III of Article 110 adds stricter rules for installations over 1000 volts, nominal, starting with how electrical equipment in such installations is enclosed and how access to it is controlled. Metal-enclosed gear and vault-type installations have to keep unqualified people away from high-voltage parts with real physical barriers, locks and warning signs. Sharma rarely installs this class of work, so this page is an orientation marker rather than a working guide.\n\nNEC 2023 CHANGE:\n• 110.30-110.41: The over-1000V material was reorganized into new articles: 235 (branch circuits, feeders and services over 1000V ac / 1500V dc), 245 (overcurrent protection over 1000V), 305 (wiring methods over 1000V), 315 (medium-voltage conductors and cable, formerly 311), 395 (outdoor overhead conductors over 1000V, formerly 399) and 495 (equipment over 1000V, formerly 490).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If a commercial job crosses into over-1000V equipment, stop and escalate — design, guarding and access rules change materially, and this work is engineered and permitted differently from ordinary premises wiring.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1714,14 +1889,23 @@
       "verified": true,
       "prev_id": "C1-110.28",
       "next_id": null,
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "110.30-110.41",
+          "change": "The over-1000V material was reorganized into new articles: 235 (branch circuits, feeders and services over 1000V ac / 1500V dc), 245 (overcurrent protection over 1000V), 305 (wiring methods over 1000V), 315 (medium-voltage conductors and cable, formerly 311), 395 (outdoor overhead conductors over 1000V, formerly 399) and 495 (equipment over 1000V, formerly 490).",
+          "source": "ICC 2023 NEC Changes Educode; Utah DOPL 2023 NEC objectives; ElectricalLicenseRenewal 'Global Changes'",
+          "url": "https://www.iccsafe.org/wp-content/uploads/Session-10-and-40-2023-NEC-Changes.pdf",
+          "confirmed": true
+        }
+      ]
     }
   ],
   "toc": [
     {
       "id": "C1-ART-90",
       "article": "90",
-      "title": "Introduction",
+      "title": "Article 90 — Introduction: how this Code is set up",
       "children": [
         {
           "id": "C1-90.1",
@@ -1773,7 +1957,7 @@
     {
       "id": "C1-ART-100",
       "article": "100",
-      "title": "Definitions",
+      "title": "Article 100 — Definitions: the words the Code uses",
       "children": [
         {
           "id": "C1-100-ACCESSIBLE",
@@ -1940,7 +2124,7 @@
     {
       "id": "C1-ART-110",
       "article": "110",
-      "title": "Requirements for Electrical Installations",
+      "title": "Article 110 — Requirements for electrical installations",
       "children": [
         {
           "id": "C1-110.1",

@@ -21,7 +21,7 @@
         "C8-L-001",
         "C8-Q-001"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not yet adopted in Florida, so a 2023 study book may show different Chapter 8 numbering or wording.",
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. NEC 2023 applies in Florida only to permits applied for on or after Dec 31, 2026 (FBC 9th Ed.), so until then a 2023 study book may show different Chapter 8 numbering or wording.",
       "verified": true,
       "prev_id": null,
       "next_id": "C8-ART-800",
@@ -41,7 +41,7 @@
         "C8-L-002",
         "C8-Q-002"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not yet adopted in Florida, so a 2023 study book may show different Chapter 8 numbering or wording.",
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. NEC 2023 applies in Florida only to permits applied for on or after Dec 31, 2026 (FBC 9th Ed.), so until then a 2023 study book may show different Chapter 8 numbering or wording.",
       "verified": true,
       "prev_id": "C8-90.3",
       "next_id": "C8-800.1",
@@ -507,7 +507,8 @@
       "verified": false,
       "prev_id": "C8-800.133(A)(2)",
       "next_id": "C8-800.179",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): The ladder content is correct (CMP > CMR > CMG/CM > CMX; no upward substitution). But the 2020 edition restructured Chapter 8: Article 800 became the general article and communications circuits moved to Article 805. I could not confirm first-hand whether the 2020 Table 800.154(a) also carries the CATV (coax) types, which would make the page's statement that coax \"has its own application table, Table 820.154\" a 2017 holdover. Check the 2020 table titles and contents, then fix the cross-reference. Also add that CMX is limited to dwellings, raceways and short exposed runs per the table conditions."
     },
     {
       "id": "C8-800.179",
@@ -515,7 +516,7 @@
       "article": "800",
       "section": "800.179",
       "title": "The cable types themselves — CMP, CMR, CMG, CM, CMX",
-      "plain_explanation": "This section defines the listed communications cable types by how they behave in fire. Type CMP is the plenum type, tested for low flame spread and smoke in air-handling spaces. Type CMR is the riser type, for vertical runs between floors, and Types CMG and CM are general-purpose types for ordinary horizontal runs. Type CMX is the limited-use type, restricted in size and use, and at home mainly in one- and two-family dwellings. Conductors in these cables are copper, other than in coaxial constructions handled under Article 820. The letters say nothing about speed or category — a CMP Cat 5e and a CM Cat 6 are rated by fire behavior, not performance.",
+      "plain_explanation": "This section defines the listed communications cable types by how they behave in fire. Type CMP is the plenum type, tested for low flame spread and smoke in air-handling spaces. Type CMR is the riser type, for vertical runs between floors, and Types CMG and CM are general-purpose types for ordinary horizontal runs. Type CMX is the limited-use type, restricted in size and use, and at home mainly in one- and two-family dwellings. Conductors in these cables are copper, other than in coaxial constructions handled under Article 820. The letters say nothing about speed or category — a CMP Cat 5e and a CM Cat 6 are rated by fire behavior, not performance.\n\nNEC 2023 CHANGE:\n• 800.179: Moved hybrid power and communications cable general requirements to Article 800 with the other communication cable types.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Read the jacket before you pull: the type letters decide where the cable may go, and the category marking decides what it can carry. Do not let a cheap roll of CMX talk you into a commercial riser. Keep one shelf rule in your head: plenum space, CMP; between floors, CMR; same floor, CM or CMG; house, CM or CMX within its limits.",
       "sharma_note": "",
       "figure_idea": "",
@@ -528,7 +529,16 @@
       "verified": true,
       "prev_id": "C8-800.154",
       "next_id": "C8-800.180",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "800.179",
+          "change": "Moved hybrid power and communications cable general requirements to Article 800 with the other communication cable types.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 800.179 Wires and Cables",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C8-800.180",
@@ -570,18 +580,27 @@
       "article": "805",
       "section": "805",
       "title": "Article 805 — Communications circuits",
-      "plain_explanation": "Article 805 is where the old pre-2020 Article 800 went to live. It covers the traditional communications circuits — the telephone-style circuits that run from the service provider's demarcation point to the customer's communications equipment — and the specific rules for those circuits that Article 800 does not already state generally. Its key topics are which circuits need a primary protector, how the metallic sheath of an entering cable is grounded or interrupted, and the one dwelling-unit outlet every new house owes. If Article 800 is the chapter's foundation, Article 805 is the phone-and-data entrance built on it.",
+      "plain_explanation": "Article 805 is where the old pre-2020 Article 800 went to live. It covers the traditional communications circuits — the telephone-style circuits that run from the service provider's demarcation point to the customer's communications equipment — and the specific rules for those circuits that Article 800 does not already state generally. Its key topics are which circuits need a primary protector, how the metallic sheath of an entering cable is grounded or interrupted, and the one dwelling-unit outlet every new house owes. If Article 800 is the chapter's foundation, Article 805 is the phone-and-data entrance built on it.\n\nNEC 2023 CHANGE:\n• 805.170: Moved communication equipment listing requirements to Article 800 leaving two subdivisions (A) and (B) for primary and secondary protectors.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Most of Sharma's houses touch this article lightly: a demarc, a protector, a bond, and one outlet. The failures are just as light — no protector where one is required, a sheath left floating, no outlet roughed in. Catch them at rough-in, when they are still cheap.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
         "C8-L-021"
       ],
-      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code, 8th Edition (2023). NEC 2023 is not yet adopted in Florida, so a 2023 study book may show different Chapter 8 numbering or wording.",
+      "florida_note": "Florida enforces NEC 2020 through the Florida Building Code 8th Edition (2023), for permits applied for through Dec 30, 2026; the FBC 9th Edition (2026) adopts NEC 2023 for permits applied for on or after Dec 31, 2026. NEC 2023 applies in Florida only to permits applied for on or after Dec 31, 2026 (FBC 9th Ed.), so until then a 2023 study book may show different Chapter 8 numbering or wording.",
       "verified": true,
       "prev_id": "C8-800.182",
       "next_id": "C8-805.1",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "805.170",
+          "change": "Moved communication equipment listing requirements to Article 800 leaving two subdivisions (A) and (B) for primary and secondary protectors.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 805.170 Protectors",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C8-805.1",
@@ -882,7 +901,8 @@
       "verified": false,
       "prev_id": "C8-ART-820",
       "next_id": "C8-820.100",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): The substance (ground the coax shield as close as practicable to entrance; 14 AWG min, 6 AWG max required, 20 ft max at one-/two-family dwellings) matches the Chapter 8 pattern. But the page sends the conductor rules to \"820.100\", while C8-840.93 sends the same rules to \"800.100\". After the 2020 Chapter 8 reorganization, the general bonding/grounding recipe lives in 800.100. Confirm whether 2020 820.100 still restates it or just references 800.100, then make both pages cite the same section."
     },
     {
       "id": "C8-820.100",
@@ -963,7 +983,8 @@
       "sharma_rule_ids": [],
       "verified": false,
       "prev_id": "C8-820.133",
-      "next_id": "C8-820.179"
+      "next_id": "C8-820.179",
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): Same issue as C8-800.154. The CATVP > CATVR > CATV > CATVX ladder is correct, but I could not confirm whether the 2020 edition keeps a separate 'Table 820.154' or folds coax applications into Table 800.154(a). Confirm the table number before publishing a page titled with it."
     },
     {
       "id": "C8-820.179",
@@ -985,7 +1006,8 @@
       "sharma_rule_ids": [],
       "verified": false,
       "prev_id": "C8-820.154",
-      "next_id": "C8-ART-830"
+      "next_id": "C8-ART-830",
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): The type letters and substitution rule are correct. Confirm whether the 2020 listing/marking rules for coax remain at 820.179 or moved into 800.179 in the 2020 Chapter 8 consolidation, and fix the citation if needed."
     },
     {
       "id": "C8-ART-830",
@@ -1082,7 +1104,7 @@
         "C8-L-057"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C8-830.100",
       "next_id": "C8-ART-840"
     },
@@ -1100,7 +1122,7 @@
         "C8-L-044"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C8-830.133",
       "next_id": "C8-840.93",
       "sharma_rule_ids": []
@@ -1120,7 +1142,7 @@
         "C8-Q-031"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C8-ART-840",
       "next_id": "C8-840.160",
       "sharma_rule_ids": []
@@ -1131,7 +1153,7 @@
       "article": "840",
       "section": "840.160",
       "title": "Premises-powered broadband circuits and power circuits — 840.160",
-      "plain_explanation": "840.160 is the section that faces the question the rest of Chapter 8 answers with separation: what happens when premises-powered broadband communications circuits meet electric light and power circuits. The chapter's default does not change — communications and power are kept apart under the installation rules that apply to the broadband system — and 840.160 works as the narrow, conditioned door, addressing the combinations the article itself describes, such as circuits associated with the same equipment. It is an exception path with conditions, not a general permission to land broadband and power in the same box because both serve the same terminal.",
+      "plain_explanation": "840.160 is the section that faces the question the rest of Chapter 8 answers with separation: what happens when premises-powered broadband communications circuits meet electric light and power circuits. The chapter's default does not change — communications and power are kept apart under the installation rules that apply to the broadband system — and 840.160 works as the narrow, conditioned door, addressing the combinations the article itself describes, such as circuits associated with the same equipment. It is an exception path with conditions, not a general permission to land broadband and power in the same box because both serve the same terminal.\n\nNEC 2023 CHANGE:\n• 840.160: Changed the reference from Section 725.154(A) to Section 722.135 as cable substitution, and installation requirements are now in Article 722.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "At an optical network terminal: the power supply and the broadband drops each follow their own rules, and any combined enclosure or shared path has to be one the equipment listing and 840.160 actually describe. When in doubt, separate — separation is never the violation.",
       "sharma_note": "",
       "florida_note": "",
@@ -1145,20 +1167,30 @@
       "sharma_rule_ids": [],
       "verified": false,
       "prev_id": "C8-840.93",
-      "next_id": null
+      "next_id": null,
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): I believe 840.160 is titled 'Powering Circuits'. It permits communications cables to also carry circuits that power communications equipment, within power-limited limits. It is not a 'broadband-meets-light-and-power' separation exception as this page describes. I could not confirm the 2020 text first-hand. Pull the printed 2020 840.160 and rewrite the page from it; until then, do not publish the current interpretation.",
+      "nec2023_change": [
+        {
+          "section": "840.160",
+          "change": "Changed the reference from Section 725.154(A) to Section 722.135 as cable substitution, and installation requirements are now in Article 722.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 840.160 Powering Circuits",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     }
   ],
   "toc": [
     {
       "id": "C8-90.3",
       "article": "90",
-      "title": "Chapter 8 and Article 90.3 — how this chapter stands apart",
+      "title": "Chapter 8 stands on its own — the 90.3 rule",
       "children": []
     },
     {
       "id": "C8-ART-800",
       "article": "800",
-      "title": "General Requirements for Communications Systems",
+      "title": "Article 800 — General requirements for communications systems",
       "children": [
         {
           "id": "C8-800.1",
@@ -1295,7 +1327,7 @@
     {
       "id": "C8-ART-805",
       "article": "805",
-      "title": "Communications Circuits",
+      "title": "Article 805 — Communications circuits",
       "children": [
         {
           "id": "C8-805.1",
@@ -1327,7 +1359,7 @@
     {
       "id": "C8-ART-810",
       "article": "810",
-      "title": "Radio and Television Equipment",
+      "title": "Article 810 — Radio and television equipment",
       "children": [
         {
           "id": "C8-810.15",
@@ -1369,7 +1401,7 @@
     {
       "id": "C8-ART-820",
       "article": "820",
-      "title": "Community Antenna Television and Radio Distribution Systems",
+      "title": "Article 820 — Community antenna television and radio distribution (coax)",
       "children": [
         {
           "id": "C8-820.93",
@@ -1406,7 +1438,7 @@
     {
       "id": "C8-ART-830",
       "article": "830",
-      "title": "Network-Powered Broadband Communications Systems",
+      "title": "Article 830 — Network-powered broadband systems",
       "children": [
         {
           "id": "C8-830.90",
@@ -1433,7 +1465,7 @@
     {
       "id": "C8-ART-840",
       "article": "840",
-      "title": "Premises-Powered Broadband Communications Systems",
+      "title": "Article 840 — Premises-powered broadband systems",
       "children": [
         {
           "id": "C8-840.93",

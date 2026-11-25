@@ -12,7 +12,7 @@
       "article": "500",
       "section": "500",
       "title": "Hazardous (classified) locations — the starting point",
-      "plain_explanation": "Some areas hold enough flammable gas or vapor, combustible dust, or ignitible fibers in the air that a normal spark or hot surface could start a fire or explosion. Article 500 is the foundation for those areas: it explains how a location gets classified, how materials are grouped, which protection methods exist, and what equipment markings mean. Articles 501 through 516 then give the working rules for each kind of location.",
+      "plain_explanation": "Some areas hold enough flammable gas or vapor, combustible dust, or ignitible fibers in the air that a normal spark or hot surface could start a fire or explosion. Article 500 is the foundation for those areas: it explains how a location gets classified, how materials are grouped, which protection methods exist, and what equipment markings mean. Articles 501 through 516 then give the working rules for each kind of location.\n\nNEC 2023 CHANGE:\n• 500.4: Hazardous (classified) areas, and areas judged unclassified, now go on an area classification drawing, and the authority having jurisdiction (AHJ) gets access to the documentation. Areas classified as hazardous, and areas determined to be unclassified, now get documented on an area classification drawing backed by related documents.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Before any work in a suspect area, find the classification drawing or ask the engineer and the AHJ what the classification is. If nobody can tell you the class, division or zone, and group, stop — that answer decides every wiring method and every fitting that follows.",
       "sharma_note": "Sharma does not design hazardous-location classifications. When a job touches a classified area, the classification comes from the plans or the AHJ, and Mike Holt reviews the method before anyone roughs it in.",
       "figure_idea": "Simple three-box diagram: what is in the air (class), how often it is there (division), and what the material is (group), with an arrow to 'then open Articles 501-503'.",
@@ -27,7 +27,16 @@
       "verified": true,
       "prev_id": null,
       "next_id": "C5-500.5",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "500.4",
+          "change": "Hazardous (classified) areas, and areas judged unclassified, now go on an area classification drawing, and the authority having jurisdiction (AHJ) gets access to the documentation. Areas classified as hazardous, and areas determined to be unclassified, now get documented on an area classification drawing backed by related documents.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 500.4 Hazardous area documentation",
+          "url": "https://www.electricalexamcoach.app/changes/2023/500-4",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-500.5",
@@ -35,7 +44,7 @@
       "article": "500",
       "section": "500.5",
       "title": "How locations are classified — class and division",
-      "plain_explanation": "Classification starts with what the hazardous material is and how likely it is to be present in an ignitible amount. Class I covers gases and vapors from flammable or combustible liquids, Class II covers combustible dusts, and Class III covers easily ignitible fibers and flyings. Division 1 means the hazard can be present during normal operation, while Division 2 means it is normally contained and shows up only when something fails or operates abnormally.",
+      "plain_explanation": "Classification starts with what the hazardous material is and how likely it is to be present in an ignitible amount. Class I covers gases and vapors from flammable or combustible liquids, Class II covers combustible dusts, and Class III covers easily ignitible fibers and flyings. Division 1 means the hazard can be present during normal operation, while Division 2 means it is normally contained and shows up only when something fails or operates abnormally.\n\nNEC 2023 CHANGE:\n• 500.5: Class III now splits fibers and flyings into combustible ones that can explode as a cloud and ignitible ones that mainly burn as a layer. Metal combustible fibers are Class II, Division 1, Group E. Class III now sorts fibers/flyings two ways: combustible ones that can form an explosive cloud, and ignitible ones that mainly burn as a settled layer.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Read the class and division off the classification documents for the exact room or area, not the whole building — one bay can be classified while the next is not. Treat a Division 1 boundary line on the drawing as a hard wall for wiring methods and seals.",
       "sharma_note": "",
       "figure_idea": "Cross-section of a room with a Division 1 pocket near a source, a Division 2 ring around it, and unclassified space beyond, labeled in plain words.",
@@ -49,7 +58,16 @@
       "verified": true,
       "prev_id": "C5-ART-500",
       "next_id": "C5-500.6",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "500.5",
+          "change": "Class III now splits fibers and flyings into combustible ones that can explode as a cloud and ignitible ones that mainly burn as a layer. Metal combustible fibers are Class II, Division 1, Group E. Class III now sorts fibers/flyings two ways: combustible ones that can form an explosive cloud, and ignitible ones that mainly burn as a settled layer.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 500.5 Class III area classification",
+          "url": "https://www.electricalexamcoach.app/changes/2023/500-5",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-500.6",
@@ -66,7 +84,7 @@
         "C5-Q-003"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-500.5",
       "next_id": "C5-500.7",
       "sharma_rule_ids": []
@@ -77,7 +95,7 @@
       "article": "500",
       "section": "500.7",
       "title": "Protection techniques",
-      "plain_explanation": "This section lists the accepted ways to keep electrical equipment from igniting the surrounding atmosphere. The familiar ones are explosionproof enclosures that contain an internal explosion, dust-ignitionproof enclosures that keep dust out, purging and pressurizing that hold clean air inside, intrinsic safety that limits circuit energy below ignition level, oil immersion, and nonincendive designs for the less severe division. Each technique only counts where the section and the equipment marking allow it.",
+      "plain_explanation": "This section lists the accepted ways to keep electrical equipment from igniting the surrounding atmosphere. The familiar ones are explosionproof enclosures that contain an internal explosion, dust-ignitionproof enclosures that keep dust out, purging and pressurizing that hold clean air inside, intrinsic safety that limits circuit energy below ignition level, oil immersion, and nonincendive designs for the less severe division. Each technique only counts where the section and the equipment marking allow it.\n\nNEC 2023 CHANGE:\n• 500.7: Five protection techniques, (P) through (T), joined 500.7 in 2023: two heating methods, enclosed-break and nonsparking devices, and sealed equipment. A new Chapter 9 table matches protection types to each area. Five techniques were added at 500.7(P) through (T). A new table in Chapter 9 (Table 13) shows which protection types suit each area classification.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Match the technique on the equipment to the technique the design calls for — do not substitute a dust-ignitionproof box for an explosionproof one because it looks similar. Keep enclosure bolts, covers, and flame paths complete and undamaged, or the technique is defeated.",
       "sharma_note": "",
       "figure_idea": "",
@@ -89,7 +107,16 @@
       "verified": true,
       "prev_id": "C5-500.6",
       "next_id": "C5-500.8",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "500.7",
+          "change": "Five protection techniques, (P) through (T), joined 500.7 in 2023: two heating methods, enclosed-break and nonsparking devices, and sealed equipment. A new Chapter 9 table matches protection types to each area. Five techniques were added at 500.7(P) through (T). A new table in Chapter 9 (Table 13) shows which protection types suit each area classification.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 500.7 Five new protection techniques",
+          "url": "https://www.electricalexamcoach.app/changes/2023/500-7",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-500.8",
@@ -97,7 +124,7 @@
       "article": "500",
       "section": "500.8",
       "title": "Equipment suitability, marking, and temperature",
-      "plain_explanation": "Equipment for a classified location has to suit the exact class, division, and group where it sits, and gear approved for Division 1 may also serve in Division 2 of the same class and group. Nameplates carry the class, division or zone, group, and a temperature marking that shows the hottest surface the equipment can reach. That temperature marking has to stay below the ignition temperature of the gas, vapor, or dust involved.\n\nTemperature codes (the T-marking) run from the hottest permitted surface down:\n• T1 — 450°C (842°F)\n• T2 — 300°C (572°F)\n• T3 — 200°C (392°F)\n• T4 — 135°C (275°F)\n• T5 — 100°C (212°F)\n• T6 — 85°C (185°F)\nThe equipment's marked maximum surface temperature must stay at or below the ignition temperature of the material in the location — a T3 device, allowed a 200°C surface, has no place where the gas present ignites at 180°C.",
+      "plain_explanation": "Equipment for a classified location has to suit the exact class, division, and group where it sits, and gear approved for Division 1 may also serve in Division 2 of the same class and group. Nameplates carry the class, division or zone, group, and a temperature marking that shows the hottest surface the equipment can reach. That temperature marking has to stay below the ignition temperature of the gas, vapor, or dust involved.\n\nTemperature codes (the T-marking) run from the hottest permitted surface down:\n• T1 — 450°C (842°F)\n• T2 — 300°C (572°F)\n• T3 — 200°C (392°F)\n• T4 — 135°C (275°F)\n• T5 — 100°C (212°F)\n• T6 — 85°C (185°F)\nThe equipment's marked maximum surface temperature must stay at or below the ignition temperature of the material in the location — a T3 device, allowed a 200°C surface, has no place where the gas present ignites at 180°C. Table 500.8(C) also has intermediate codes (T2A–T2D, T3A–T3C, T4A) — read the exact code off the nameplate.\n\nNEC 2023 CHANGE:\n• 500.8: Class III equipment now has a temperature rule in 500.8: its marking can't exceed the fibers' ignition temperature, with a 165°C (329°F) cap, or 120°C (248°F) for overloadable gear around ignitible fibers. In a Class III area, the equipment's temperature marking can't go above the ignition temperature of the fibers/flyings that make it hazardous (500.8(D)(3)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Read the full nameplate, including the temperature code, before setting equipment — a correct class and group with the wrong temperature code is still a failed install. Photograph nameplates on classified work for the job record.",
       "sharma_note": "",
       "figure_idea": "Nameplate close-up sketch with callouts pointing to class, group, and temperature code fields (generic plate, no brand).",
@@ -106,10 +133,19 @@
         "C5-Q-005"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-500.7",
       "next_id": "C5-ART-501",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "500.8",
+          "change": "Class III equipment now has a temperature rule in 500.8: its marking can't exceed the fibers' ignition temperature, with a 165°C (329°F) cap, or 120°C (248°F) for overloadable gear around ignitible fibers. In a Class III area, the equipment's temperature marking can't go above the ignition temperature of the fibers/flyings that make it hazardous (500.8(D)(3)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 500.8 Class III equipment temperature",
+          "url": "https://www.electricalexamcoach.app/changes/2023/500-8",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-ART-501",
@@ -117,7 +153,7 @@
       "article": "501",
       "section": "501",
       "title": "Class I locations — gases and vapors",
-      "plain_explanation": "Article 501 gives the wiring, sealing, and equipment rules for Class I locations, where the hazard is flammable gas or liquid vapor. It is the article behind fuel-handling rooms, some process areas, and the classified pockets inside garages and hangars covered later in this chapter. Seals that stop gases traveling through conduit, and threaded metal raceways, are everyday themes here.",
+      "plain_explanation": "Article 501 gives the wiring, sealing, and equipment rules for Class I locations, where the hazard is flammable gas or liquid vapor. It is the article behind fuel-handling rooms, some process areas, and the classified pockets inside garages and hangars covered later in this chapter. Seals that stop gases traveling through conduit, and threaded metal raceways, are everyday themes here.\n\nNEC 2023 CHANGE:\n• 501.10: Threaded rigid and intermediate metal conduit wearing an extra anti-corrosion coat, PVC-coated rigid being the common one, is now named as an acceptable Class I, Division 1 wiring method. The first item in 501.10(A)(1) now covers threaded RMC (rigid metal conduit) and IMC (intermediate metal conduit) that carry a supplemental corrosion-protection coating.\n• 501.30: 501.30 now splits grounding from bonding, adds cable trays and tray-cable strut to what gets bonded, and narrows the Division 2 short-flex jumper exception to meter, instrument and relay circuits. New: bond any metal strut, channel or angle used to hold up or shield ITC, TC or power-limited tray cable in a Class I area.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If a Sharma job enters a Class I area, work only from the classified drawing and the method Mike Holt has reviewed. Do not carry house or light-commercial habits — NM cable, ordinary boxes, unsealed conduit — across the boundary.",
       "sharma_note": "",
       "figure_idea": "",
@@ -129,7 +165,23 @@
       "verified": true,
       "prev_id": "C5-500.8",
       "next_id": "C5-ART-502",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "501.10",
+          "change": "Threaded rigid and intermediate metal conduit wearing an extra anti-corrosion coat, PVC-coated rigid being the common one, is now named as an acceptable Class I, Division 1 wiring method. The first item in 501.10(A)(1) now covers threaded RMC (rigid metal conduit) and IMC (intermediate metal conduit) that carry a supplemental corrosion-protection coating.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 501.10 Coated conduit in Division 1",
+          "url": "https://www.electricalexamcoach.app/changes/2023/501-10",
+          "confirmed": true
+        },
+        {
+          "section": "501.30",
+          "change": "501.30 now splits grounding from bonding, adds cable trays and tray-cable strut to what gets bonded, and narrows the Division 2 short-flex jumper exception to meter, instrument and relay circuits. New: bond any metal strut, channel or angle used to hold up or shield ITC, TC or power-limited tray cable in a Class I area.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 501.30 Class I grounding and bonding",
+          "url": "https://www.electricalexamcoach.app/changes/2023/501-30",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-ART-502",
@@ -194,7 +246,7 @@
       "article": "505",
       "section": "505",
       "title": "Zone 0, 1, and 2 locations — the zone system for gases and vapors",
-      "plain_explanation": "Article 505 is the alternative zone classification system for gas and vapor hazards, used more in industrial and international-style designs. Zone 0 is where an ignitible atmosphere is present continuously or for long periods, Zone 1 where it is likely in normal operation, and Zone 2 where it is unlikely and short-lived. Equipment carries zone-specific markings and protection types that do not read the same as class and division markings.",
+      "plain_explanation": "Article 505 is the alternative zone classification system for gas and vapor hazards, used more in industrial and international-style designs. Zone 0 is where an ignitible atmosphere is present continuously or for long periods, Zone 1 where it is likely in normal operation, and Zone 2 where it is unlikely and short-lived. Equipment carries zone-specific markings and protection types that do not read the same as class and division markings.\n\nNEC 2023 CHANGE:\n• 505.9(C): Created a new Table 13 in Chapter 9 entitled Equipment Suitable for Hazardous (Classified) Locations. The text was deleted at 505.9(C)(2)(4) referencing Table 505.9(C)(2)(4) with new text added to reference Chapter 9 Table 13.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Do not assume a Division-rated fitting and a Zone-rated fitting are interchangeable — read the marking for the system the design uses. When the plans classify by zone, this article, not 501, is the rulebook.",
       "sharma_note": "",
       "figure_idea": "",
@@ -205,7 +257,16 @@
       "verified": true,
       "prev_id": "C5-ART-504",
       "next_id": "C5-ART-506",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "505.9(C)",
+          "change": "Created a new Table 13 in Chapter 9 entitled Equipment Suitable for Hazardous (Classified) Locations. The text was deleted at 505.9(C)(2)(4) referencing Table 505.9(C)(2)(4) with new text added to reference Chapter 9 Table 13.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 505.9(C} Chapter 9 Table 13 Equipment Suitable for Hazardous (Classi­ fied} Locations",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-ART-506",
@@ -232,7 +293,7 @@
       "article": "510",
       "section": "510",
       "title": "Hazardous locations — specific occupancies gateway",
-      "plain_explanation": "Article 510 is the short gateway article that points from the general classified-location rules to the specific occupancies that follow it in this chapter. Commercial garages, aircraft hangars, fuel dispensing, bulk storage, and spray operations each get their own article because each one pre-decides common classifications for that occupancy. When one of those articles applies, it works together with Articles 500 through 503.",
+      "plain_explanation": "Article 510 is the short gateway article that points from the general classified-location rules to the specific occupancies that follow it in this chapter. Commercial garages, aircraft hangars, fuel dispensing, bulk storage, and spray operations each get their own article because each one pre-decides common classifications for that occupancy. When one of those articles applies, it works together with Articles 500 through 503.\n\nNEC 2023 CHANGE:\n• 512: New Article 512, Cannabis Oil Equipment and Cannabis Oil Systems Using Flammable Materials: covers preparatory, extraction and post-processing equipment and booths using flammable solvents; equipment and systems must be listed for the location (512.20); fixed wiring above classified areas in metal raceway, PVC, RTRC, ENT or MI/TC/MC cable (512.13).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "When a job is one of the named occupancies, start with its own article to see what classification has already been decided for you. Then use 500 through 503 for the wiring and equipment rules inside the classified parts.",
       "sharma_note": "",
       "figure_idea": "",
@@ -243,7 +304,16 @@
       "verified": true,
       "prev_id": "C5-ART-506",
       "next_id": "C5-ART-511",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "512",
+          "change": "New Article 512, Cannabis Oil Equipment and Cannabis Oil Systems Using Flammable Materials: covers preparatory, extraction and post-processing equipment and booths using flammable solvents; equipment and systems must be listed for the location (512.20); fixed wiring above classified areas in metal raceway, PVC, RTRC, ENT or MI/TC/MC cable (512.13).",
+          "source": "ElectricalLicenseRenewal 'Article 512'; ICC 2023 NEC Changes Educode (item 283)",
+          "url": "https://www.electricallicenserenewal.com/Electrical-Continuing-Education-Courses/NEC-Content.php?sectionID=1519",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-ART-511",
@@ -291,7 +361,8 @@
       "verified": false,
       "prev_id": "C5-ART-511",
       "next_id": "C5-511.4",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "unverified_reason": "Still unverified after Mike Holt recheck (2026-11-25): The page states, as an unconditional rule, that the floor of a major repair garage up to 18 in. is Class I, Division 2. Under the 2020 tables the floor and pit classifications depend on whether the specified ventilation is provided. My understanding is that a ventilated major-repair floor is unclassified and an unventilated one is Division 2 up to 18 in., but I could not confirm the Table 511.3(C) and 511.3(D) cells from a public source. Rewrite the floor sentences as \"depends on the ventilation the table specifies\" and check every cell against the printed 2020 Tables 511.3(C)/(D) before publishing. The parking-garage statement (511.3(A), unclassified) is correct."
     },
     {
       "id": "C5-511.4",
@@ -451,7 +522,7 @@
         "C5-ART-500"
       ],
       "florida_note": "Florida convenience-store work is usually a design-build handoff from the tank contractor — confirm whose permit carries the classified wiring before pricing it.",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C5-ART-514",
       "next_id": "C5-514.11"
@@ -482,7 +553,7 @@
       "article": "515",
       "section": "515",
       "title": "Bulk storage plants",
-      "plain_explanation": "Article 515 covers bulk storage plants, where flammable liquids are stored in large tanks and transferred to trucks or containers. Classifications follow the tanks, pumps, and loading areas, and the wiring rules build on Articles 500 through 501. It is industrial work Sharma would only touch with an engineered classification package.",
+      "plain_explanation": "Article 515 covers bulk storage plants, where flammable liquids are stored in large tanks and transferred to trucks or containers. Classifications follow the tanks, pumps, and loading areas, and the wiring rules build on Articles 500 through 501. It is industrial work Sharma would only touch with an engineered classification package.\n\nNEC 2023 CHANGE:\n• 515.10: Changed the title of Section 515.10 from \"Gasoline Dispensers\" to \"Motor Fuel Dispensers.\"\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If a bulk plant appears in an invitation, the first deliverable is the classification drawing, not a price. No drawing, no takeoff.",
       "sharma_note": "",
       "figure_idea": "",
@@ -493,7 +564,16 @@
       "verified": true,
       "prev_id": "C5-514.11",
       "next_id": "C5-ART-516",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "515.10",
+          "change": "Changed the title of Section 515.10 from \"Gasoline Dispensers\" to \"Motor Fuel Dispensers.\"",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 515.10 Special Equipment - Motor Fuel Dispensers",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-ART-516",
@@ -520,7 +600,7 @@
       "article": "517",
       "section": "517",
       "title": "Health care facilities — the light-commercial slice",
-      "plain_explanation": "Article 517 covers electrical work in facilities that examine or treat patients — hospitals at the deep end, and clinics, medical and dental offices at the end Sharma is likely to bid. Its themes are redundant grounding in patient care spaces, hospital-grade receptacles at bed locations, and, for hospitals, an essential electrical system that keeps life safety and critical loads alive on a second source. This first pass covers only the small-clinic slice; hospital design belongs to engineers and later passes of this book.",
+      "plain_explanation": "Article 517 covers electrical work in facilities that examine or treat patients — hospitals at the deep end, and clinics, medical and dental offices at the end Sharma is likely to bid. Its themes are redundant grounding in patient care spaces, hospital-grade receptacles at bed locations, and, for hospitals, an essential electrical system that keeps life safety and critical loads alive on a second source. This first pass covers only the small-clinic slice; hospital design belongs to engineers and later passes of this book.\n\nNEC 2023 CHANGE:\n• 517.70: Article 517, Part V no longer stops at X-ray. It now reaches diagnostic imaging and treatment equipment of every kind, and notes list common examples. Part V's reach grew from X-ray installations to imaging and treatment machines of all types.\n• Article 517: With the edition of the 2023 NEC, completed the phased approach of changing the references found in Article 517 for health care facilities from critical, general, basic, and support spaces to Category 1, 2, 3, and 4 Spaces\n• 517.6: Determined that the reconditioning requirements found elsewhere in the Code do not apply to patient care-related electrical equipment.\n• 517.22: The members of determined that the use of demand factors is acceptable and permitted for general-purpose receptacle loads in Category 1, 2, 3, and 4 patient care spaces.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On a clinic or dental bid, the first question is which rooms are patient care spaces — that answer, from the plans or the facility, turns this article on. Price those rooms differently from the waiting room and offices from the start.",
       "sharma_note": "S-01 and S-02 apply to the commercial shell work: 20 ampere minimum branch circuits, Siemens gear. Inside patient care spaces, the article's grounding and device grades govern over house habits.",
       "figure_idea": "",
@@ -536,6 +616,36 @@
       "sharma_rule_ids": [
         "S-01",
         "S-02"
+      ],
+      "nec2023_change": [
+        {
+          "section": "517.70",
+          "change": "Article 517, Part V no longer stops at X-ray. It now reaches diagnostic imaging and treatment equipment of every kind, and notes list common examples. Part V's reach grew from X-ray installations to imaging and treatment machines of all types.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 517.70 Diagnostic imaging and treatment equipment",
+          "url": "https://www.electricalexamcoach.app/changes/2023/517-70",
+          "confirmed": true
+        },
+        {
+          "section": "Article 517",
+          "change": "With the edition of the 2023 NEC, completed the phased approach of changing the references found in Article 517 for health care facilities from critical, general, basic, and support spaces to Category 1, 2, 3, and 4 Spaces",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: Article 517 Health Care Facilities",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "517.6",
+          "change": "Determined that the reconditioning requirements found elsewhere in the Code do not apply to patient care-related electrical equipment.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 517.6 Patient Care-Related Electrical Equipment",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "517.22",
+          "change": "The members of determined that the use of demand factors is acceptable and permitted for general-purpose receptacle loads in Category 1, 2, 3, and 4 patient care spaces.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 517.22 Demand Factors",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
       ]
     },
     {
@@ -544,7 +654,7 @@
       "article": "517",
       "section": "517.10",
       "title": "Where Part II of Article 517 applies — and where it does not",
-      "plain_explanation": "Part II of Article 517, the wiring and grounding part, applies to patient care spaces in health care facilities. It does not apply to business offices, corridors, waiting rooms, and similar non-treatment areas, to sleeping rooms in nursing and limited care facilities in the way it applies to treatment spaces, or to areas used exclusively for things like immunizations, psychiatry or psychotherapy, alternative medicine, and optometry. The facility's governing body sorts spaces into patient care categories, and the category drives how strict the rules are.",
+      "plain_explanation": "Part II of Article 517, the wiring and grounding part, applies to patient care spaces in health care facilities. It does not apply to business offices, corridors, waiting rooms, and similar non-treatment areas, to sleeping rooms in nursing and limited care facilities in the way it applies to treatment spaces, or to areas used exclusively for things like immunizations, psychiatry or psychotherapy, alternative medicine, and optometry. The facility's governing body sorts spaces into patient care categories, and the category drives how strict the rules are.\n\nNEC 2023 CHANGE:\n• 517.10: Stand-alone pharmacies that aren't part of a health care facility are now outside Part II of Article 517. Two new notes point to the tamper-resistant receptacle and AFCI rules that still apply. Pharmacy services not connected to a health care facility now join the list of spaces Part II doesn't cover (517.10(B)(3)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Get the room-by-room patient care determination in writing on the bid documents — guessing which rooms count is how a clinic job gets underpriced. Wire the excluded areas under the normal chapters and note the boundary on the takeoff.",
       "sharma_note": "",
       "figure_idea": "Floor plan sketch of a small clinic with treatment rooms shaded as patient care spaces and office and waiting areas unshaded.",
@@ -557,7 +667,16 @@
       "verified": true,
       "prev_id": "C5-ART-517",
       "next_id": "C5-517.13",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "517.10",
+          "change": "Stand-alone pharmacies that aren't part of a health care facility are now outside Part II of Article 517. Two new notes point to the tamper-resistant receptacle and AFCI rules that still apply. Pharmacy services not connected to a health care facility now join the list of spaces Part II doesn't cover (517.10(B)(3)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 517.10 Health care Part II scope",
+          "url": "https://www.electricalexamcoach.app/changes/2023/517-10",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-517.13",
@@ -565,7 +684,7 @@
       "article": "517",
       "section": "517.13",
       "title": "Redundant grounding in patient care spaces",
-      "plain_explanation": "Branch circuits serving patient care spaces need two independent ground-fault return paths working together. The wiring method itself — a metal raceway, or a cable with a metal armor or sheath that qualifies as a grounding path — provides one path, and an insulated copper equipment grounding conductor run with the circuit provides the second. Receptacle grounding terminals and exposed metal of fixed equipment in those spaces connect to that insulated copper conductor, sized from Table 250.122.\n\nThe methods that can supply the metal ground path are the metal wiring methods — rigid metal conduit, intermediate metal conduit, or EMT, or Type MI, MC, or AC cable whose armor or sheath assembly itself qualifies as an equipment grounding conductor — in each case with listed fittings. The insulated copper conductor is pulled in every case: the metal path is the second path, never a substitute for it, and a cable whose armor does not qualify as a grounding path does not become compliant because it looks like the one that does.",
+      "plain_explanation": "Branch circuits serving patient care spaces need two independent ground-fault return paths working together. The wiring method itself — a metal raceway, or a cable with a metal armor or sheath that qualifies as a grounding path — provides one path, and an insulated copper equipment grounding conductor run with the circuit provides the second. Receptacle grounding terminals and exposed metal of fixed equipment in those spaces connect to that insulated copper conductor, sized from Table 250.122.\n\nThe methods that can supply the metal ground path are the metal wiring methods — rigid metal conduit, intermediate metal conduit, or EMT, or Type MI, MC, or AC cable whose armor or sheath assembly itself qualifies as an equipment grounding conductor — in each case with listed fittings. The insulated copper conductor is pulled in every case: the metal path is the second path, never a substitute for it, and a cable whose armor does not qualify as a grounding path does not become compliant because it looks like the one that does.\n\nNEC 2023 CHANGE:\n• 517.13: Section 517.13 was revised for clarity by relocating former Exception No. 2 to follow the opening paragraph and by stating wiring \"serving\" patient care spaces.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On a patient care rough-in, there is no NM cable and no relying on the raceway alone — pull the insulated copper grounding conductor on every branch circuit. Check that the cable or raceway chosen actually qualifies as a grounding path before it is ordered.",
       "sharma_note": "",
       "figure_idea": "Single-line sketch of one patient care branch circuit showing two parallel ground paths: metal raceway and insulated copper conductor.",
@@ -576,10 +695,19 @@
         "C5-Q-017"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-517.10",
       "next_id": "C5-517.16",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "517.13",
+          "change": "Section 517.13 was revised for clarity by relocating former Exception No. 2 to follow the opening paragraph and by stating wiring \"serving\" patient care spaces.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 517.13 Equipment Grounding Conductor for Receptacles and Fixed Electri­ cal Equipment in Patient Care",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-517.16",
@@ -626,9 +754,9 @@
       "id": "C5-517.19",
       "chapter": 5,
       "article": "517",
-      "section": "517.19",
-      "title": "The branches of a health care essential electrical system (517.19)",
-      "plain_explanation": "Where a health care facility has an essential electrical system, 517.19 sorts its loads into branches. The life safety branch carries the loads that get people out and keep egress safe — illumination of exits and exit signs, fire alarm, and emergency communications. The critical branch carries the patient-care loads the facility selects — task lighting and receptacles at bed locations, nurse call, and similar systems that must not die with normal power. The equipment branch carries the heavy mechanical and facility loads that support care but tolerate a later transfer. Which branch a circuit lands on is a design decision in the facility's plans; the field job is to land each circuit on the panel its branch label names.",
+      "section": "517.31",
+      "title": "The branches of a hospital essential electrical system (517.31–517.35)",
+      "plain_explanation": "Where a health care facility has an essential electrical system, 517.31 sorts its loads into branches (life safety, critical and equipment), with branch contents in 517.33, 517.34 and 517.35 (confirm the sub-numbering in the printed 2020 Part III). In NEC 2020, 517.19 is the Category 1 (critical care) patient bed location rule in Part II. The life safety branch carries the loads that get people out and keep egress safe — illumination of exits and exit signs, fire alarm, and emergency communications. The critical branch carries the patient-care loads the facility selects — task lighting and receptacles at bed locations, nurse call, and similar systems that must not die with normal power. The equipment branch carries the heavy mechanical and facility loads that support care but tolerate a later transfer. Which branch a circuit lands on is a design decision in the facility's plans; the field job is to land each circuit on the panel its branch label names.",
       "on_the_job": "In a clinic or surgery-center tenant job, panel schedules carry branch labels (LS, CR, EQ, or the designer's equivalents). Land circuits exactly as labeled and flag any field change — moving a receptacle from critical to normal is a design change, not a shortcut.",
       "sharma_note": "",
       "figure_idea": "Three-lane diagram: generator to transfer switches to life safety / critical / equipment lanes with example loads in each.",
@@ -637,7 +765,7 @@
         "C5-517.18"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C5-517.18",
       "next_id": "C5-517.30"
@@ -648,7 +776,7 @@
       "article": "517",
       "section": "517.30",
       "title": "Essential electrical systems — hospitals, at a high level",
-      "plain_explanation": "Hospitals and similar facilities with critical care spaces need an essential electrical system: a second source of power, usually a generator, feeding separated branches — the life safety branch, the critical branch, and the equipment branch. Wiring for the essential system is kept independent of normal wiring, mechanically protected, and transferred automatically on loss of normal power. Nursing homes and limited care facilities have a scaled version in the sections that follow. This page is orientation only — Sharma does not design these systems on a first pass.",
+      "plain_explanation": "Hospitals and similar facilities with critical care spaces need an essential electrical system: a second source of power, usually a generator, feeding separated branches — the life safety branch, the critical branch, and the equipment branch. Wiring for the essential system is kept independent of normal wiring, mechanically protected, and transferred automatically on loss of normal power. Nursing homes and limited care facilities have a scaled version in the sections that follow. This page is orientation only — Sharma does not design these systems on a first pass.\n\nNEC 2023 CHANGE:\n• 517.30: Both independent sources for the essential electrical system must now be able to carry the whole system, and at least one must be on site. The source lists name energy storage and health care microgrids. The essential electrical system (EES) needs two or more independent sources, and each of the first two must be able to carry the whole EES.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "If a bid shows an essential electrical system, the generator, transfer equipment, and branch separation are engineered scope — price only what the plans fully detail. Keep essential and normal raceways separate in any rough-in Sharma does perform.",
       "sharma_note": "",
       "figure_idea": "Block diagram: normal source and generator feeding separate life safety, critical, and equipment branches (blocks only, no wiring detail).",
@@ -660,7 +788,16 @@
       "verified": true,
       "prev_id": "C5-517.19",
       "next_id": "C5-ART-518",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "517.30",
+          "change": "Both independent sources for the essential electrical system must now be able to carry the whole system, and at least one must be on site. The source lists name energy storage and health care microgrids. The essential electrical system (EES) needs two or more independent sources, and each of the first two must be able to carry the whole EES.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 517.30 Essential system power sources",
+          "url": "https://www.electricalexamcoach.app/changes/2023/517-30",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-ART-518",
@@ -668,7 +805,7 @@
       "article": "518",
       "section": "518",
       "title": "Assembly occupancies",
-      "plain_explanation": "Article 518 covers buildings or parts of buildings designed or intended for the gathering of 100 or more people — auditoriums, churches, restaurants, gyms, exhibition halls, and the like. The core demand is tougher, more fire-resilient wiring in the assembly area, plus attention to the emergency systems that serve a crowd. Theaters and similar performance spaces are carved out to Article 520 instead.",
+      "plain_explanation": "Article 518 covers buildings or parts of buildings designed or intended for the gathering of 100 or more people — auditoriums, churches, restaurants, gyms, exhibition halls, and the like. The core demand is tougher, more fire-resilient wiring in the assembly area, plus attention to the emergency systems that serve a crowd. Theaters and similar performance spaces are carved out to Article 520 instead.\n\nNEC 2023 CHANGE:\n• 518.2: Casinos and gaming facilities are now included in the list of assembly occupancy examples.\n• 518.5: The section concerning assembly occupancies was reorganized for clarity and revised, including requirements for commercial appliance outlet centers and panelboard orientation.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Ask for the occupant load of each space on a commercial bid — crossing 100 people is what turns this article on. A 60-seat café and a 300-seat hall are different wiring jobs even if the menus match.",
       "sharma_note": "S-01: 20 ampere minimum branch circuits on commercial work, which fits the metal raceway and MC methods this article pushes toward anyway.",
       "figure_idea": "Seating plan sketch with a '100 or more' threshold callout over the assembly room only, offices unshaded.",
@@ -683,6 +820,22 @@
       "next_id": "C5-518.4",
       "sharma_rule_ids": [
         "S-01"
+      ],
+      "nec2023_change": [
+        {
+          "section": "518.2",
+          "change": "Casinos and gaming facilities are now included in the list of assembly occupancy examples.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 518.2 General Classification. {A) Examples.",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "518.5",
+          "change": "The section concerning assembly occupancies was reorganized for clarity and revised, including requirements for commercial appliance outlet centers and panelboard orientation.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 518.5 Supply",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
       ]
     },
     {
@@ -691,7 +844,7 @@
       "article": "518",
       "section": "518.4",
       "title": "Wiring methods in assembly occupancies",
-      "plain_explanation": "Fixed wiring in the assembly area has to be in metal raceways or flexible metal raceways, in nonmetallic raceways encased in at least 2 inches of concrete, or be Type MI, MC, or AC cable. The method itself has to qualify as a grounding path, or the wiring has to contain an insulated equipment grounding conductor sized from Table 250.122. Nonmetallic-sheathed cable is not a fixed wiring method for the assembly area in the fire-rated construction cases this section is built around, though the section does allow the ordinary nonmetallic methods in areas not required to be fire-rated construction.",
+      "plain_explanation": "Fixed wiring in the assembly area has to be in metal raceways or flexible metal raceways, in nonmetallic raceways encased in at least 2 inches of concrete, or be Type MI, MC, or AC cable. The method itself has to qualify as a grounding path, or the wiring has to contain an insulated equipment grounding conductor sized from Table 250.122. Nonmetallic-sheathed cable is not a fixed wiring method for the assembly area in the fire-rated construction cases this section is built around, though the section does allow the ordinary nonmetallic methods in areas not required to be fire-rated construction.\n\nNEC 2023 CHANGE:\n• 518.4: Section 5 l 8.4(A) and the Exception were revised into a list format, and two titled subdivisions and content were added to clarify that Power over Ethernet (PoE) is included.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Take off assembly areas in EMT, MC, or AC as the plans direct — do not carry NM pricing from a tenant fit-out into a hall. Confirm which parts of the building are the assembly area and which are ordinary occupancies on the same floor.",
       "sharma_note": "",
       "figure_idea": "",
@@ -704,7 +857,16 @@
       "verified": true,
       "prev_id": "C5-ART-518",
       "next_id": "C5-518.6",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "518.4",
+          "change": "Section 5 l 8.4(A) and the Exception were revised into a list format, and two titled subdivisions and content were added to clarify that Power over Ethernet (PoE) is included.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 518.4 Wiring Methods",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-518.6",
@@ -740,7 +902,7 @@
         "C5-L-041"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-518.6",
       "next_id": "C5-ART-522",
       "sharma_rule_ids": []
@@ -789,7 +951,7 @@
       "article": "525",
       "section": "525.23",
       "title": "Carnivals and fairs — GFCI protection for personnel (525.23)",
-      "plain_explanation": "Section 525.23 requires ground-fault circuit-interrupter protection for personnel on the 15 A and 20 A, 125-volt receptacle circuits that the public and event staff plug into at carnivals, circuses, fairs, and similar events — with the section's narrow exception pattern for receptacles that are not available for public use in the same way. Portable distribution at an event is temporary power with the public standing on the ground: the GFCI rule is the point of the article for a service electrician, and it applies to the event hookup even when the same box would be ordinary temporary power on a construction site under Article 590.",
+      "plain_explanation": "Section 525.23 requires ground-fault circuit-interrupter protection for personnel on the 15 A and 20 A, 125-volt 15A and 20A, 125V, single-phase receptacles readily accessible to the general public, and equipment readily accessible to the general public supplied from a 15A or 20A, 120V branch circuit (525.23(A)). at carnivals, circuses, fairs, and similar events — with the section's narrow exception pattern for receptacles that are not available for public use in the same way. Portable distribution at an event is temporary power with the public standing on the ground: the GFCI rule is the point of the article for a service electrician, and it applies to the event hookup even when the same box would be ordinary temporary power on a construction site under Article 590. GFCI is not required on receptacles that are not accessible from grade level and serve only quick-disconnect connections for amusement rides (525.23(B)), and egress lighting may not be GFCI protected (525.23(C)).",
       "on_the_job": "Fairground and festival hookups: test every GFCI at setup, and again after any generator refuel-and-restart cycle. A nuisance trip on a midway is an annoyance; a missing GFCI is a liability.",
       "sharma_note": "",
       "figure_idea": "Event distro box with GFCI test arrows and the 15/20 A, 125 V receptacle row highlighted.",
@@ -798,7 +960,7 @@
         "C5-590.6"
       ],
       "florida_note": "Florida's fair and festival season runs through the wet months — assume the ground is wet for every outdoor event hookup.",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C5-ART-525",
       "next_id": "C5-ART-530"
@@ -809,7 +971,7 @@
       "article": "530",
       "section": "530",
       "title": "Motion picture and television studios",
-      "plain_explanation": "Article 530 covers studios and similar locations where motion picture or television production happens, including the stage power, portable distribution, and single-conductor feeder practices that are unique to studio work. It exists because studio lighting loads and portable equipment do not behave like ordinary commercial installations. Florida production work is the only likely Sharma encounter.",
+      "plain_explanation": "Article 530 covers studios and similar locations where motion picture or television production happens, including the stage power, portable distribution, and single-conductor feeder practices that are unique to studio work. It exists because studio lighting loads and portable equipment do not behave like ordinary commercial installations. Florida production work is the only likely Sharma encounter.\n\nNEC 2023 CHANGE:\n• Article 530: Article 530 was completely reorganized for clarity and rewritten to remove old technologies and to include dominant and emerging new technologies.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Studio scope is specialty scope — work from the production electrical package. Nothing in this intro authorizes studio feeder practices on ordinary jobs.",
       "sharma_note": "",
       "figure_idea": "",
@@ -820,7 +982,16 @@
       "verified": true,
       "prev_id": "C5-525.23",
       "next_id": "C5-ART-540",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "Article 530",
+          "change": "Article 530 was completely reorganized for clarity and rewritten to remove old technologies and to include dominant and emerging new technologies.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: Article 530 Motion Picture and Television Studios and Remote Locations",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-ART-540",
@@ -855,7 +1026,7 @@
         "C5-L-046"
       ],
       "florida_note": "Florida has its own modular building program and insignia process; confirm with the AHJ whether site electrical work on a state-insignia building is inspected locally before bidding the connection.",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-ART-540",
       "next_id": "C5-ART-547",
       "sharma_rule_ids": []
@@ -866,7 +1037,7 @@
       "article": "547",
       "section": "547",
       "title": "Agricultural buildings",
-      "plain_explanation": "Article 547 covers agricultural buildings and areas where excessive dust, dust with water, or a corrosive atmosphere is present — livestock confinement, dairies, poultry houses, and similar Florida rural work. Animals are far more sensitive to small voltages than people, so the article adds equipotential planes, a special site distribution arrangement, and wiring methods that survive corrosion. It modifies the normal chapters; it does not replace them.",
+      "plain_explanation": "Article 547 covers agricultural buildings and areas where excessive dust, dust with water, or a corrosive atmosphere is present — livestock confinement, dairies, poultry houses, and similar Florida rural work. Animals are far more sensitive to small voltages than people, so the article adds equipotential planes, a special site distribution arrangement, and wiring methods that survive corrosion. It modifies the normal chapters; it does not replace them.\n\nNEC 2023 CHANGE:\n• 547.26: Nonmetallic cable can no longer be concealed in walls or above ceilings of buildings attached to livestock confinement areas. Rodents chewing hidden cable is the reason. In any building, or portion of one, that adjoins a livestock confinement area, nonmetallic cable can't be concealed inside walls or run above ceilings.\n• 547.44: Article 547 was regrouped into parts in 2023, carrying the plane rules for livestock areas from 547.10 to 547.44. The plane's bonding connection point is now spelled out. The 2023 renumbering of Article 547 moved the livestock plane rules from 547.10 over to 547.44.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On any barn or confinement bid, ask early whether livestock will be confined on concrete — that answer pulls in equipotential planes and the distribution point. Price corrosion-resistant methods from the start instead of discovering them at inspection.",
       "sharma_note": "",
       "figure_idea": "Barn cross-section sketch: concrete confinement floor with a bonded mesh plane, animals above, and a distribution point feeding several buildings.",
@@ -879,7 +1050,23 @@
       "verified": true,
       "prev_id": "C5-ART-545",
       "next_id": "C5-547.5",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "547.26",
+          "change": "Nonmetallic cable can no longer be concealed in walls or above ceilings of buildings attached to livestock confinement areas. Rodents chewing hidden cable is the reason. In any building, or portion of one, that adjoins a livestock confinement area, nonmetallic cable can't be concealed inside walls or run above ceilings.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 547.26 Concealed cable near livestock",
+          "url": "https://www.electricalexamcoach.app/changes/2023/547-26",
+          "confirmed": true
+        },
+        {
+          "section": "547.44",
+          "change": "Article 547 was regrouped into parts in 2023, carrying the plane rules for livestock areas from 547.10 to 547.44. The plane's bonding connection point is now spelled out. The 2023 renumbering of Article 547 moved the livestock plane rules from 547.10 over to 547.44.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 547.44 Livestock equipotential planes",
+          "url": "https://www.electricalexamcoach.app/changes/2023/547-44",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-547.5",
@@ -1003,7 +1190,7 @@
       "article": "550",
       "section": "550.32",
       "title": "Service equipment — in sight and within 30 ft of the home",
-      "plain_explanation": "Mobile home service equipment is located adjacent to the home, never mounted in or on it, in sight from the home and not more than 30 ft from its exterior wall. If the service equipment must sit elsewhere on the premises, a disconnecting means suitable for use as service equipment still has to be within sight and within 30 ft of the wall, with grounding at that disconnect per 250.32. The equipment is rated not less than 100 amperes at 120/240 volts and must allow the feeder to be connected by a permanent wiring method. Mounting height is fixed too: the bottom of the enclosure at least 2 ft above the ground, and the disconnect not more than 6 ft 7 in. above the ground or platform. A manufactured home on a permanent foundation that meets the conditions of 550.32(B) is the exception — its service equipment may be installed in or on the home.",
+      "plain_explanation": "Mobile home service equipment is located adjacent to the home, never mounted in or on it, in sight from the home and not more than 30 ft from its exterior wall. If the service equipment must sit elsewhere on the premises, a disconnecting means suitable for use as service equipment still has to be within sight and within 30 ft of the wall, with grounding at that disconnect per 250.32. The equipment is rated not less than 100 amperes at 120/240 volts and must allow the feeder to be connected by a permanent wiring method. Mounting height is fixed too: the bottom of the enclosure at least 2 ft above the ground, and the disconnect not more than 6 ft 7 in. above the ground or platform. A manufactured home on a permanent foundation that meets the conditions of 550.32(B) is the exception — its service equipment may be installed in or on the home.\n\nNEC 2023 CHANGE:\n• 550.32: Mobile home service equipment now has to be within sight from the home, meaning visible and up to 50 ft away, instead of within 30 ft. Its disconnect can double as the emergency disconnect. Service equipment for a mobile home must be within sight from the home: visible and no more than 50 ft away (see 110.29).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Measure the 30 ft from the exterior wall before the pedestal or pole is set, and check the mounting height against finished grade — both are tape-measure inspection items. Keep the disconnect in sight of the home it serves.",
       "sharma_note": "",
       "figure_idea": "Lot sketch: pedestal service equipment beside the home, a 30 ft dimension line to the exterior wall, and the enclosure bottom shown 2 ft above grade.",
@@ -1012,7 +1199,16 @@
       "verified": true,
       "prev_id": "C5-550.11",
       "next_id": "C5-550.33",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "550.32",
+          "change": "Mobile home service equipment now has to be within sight from the home, meaning visible and up to 50 ft away, instead of within 30 ft. Its disconnect can double as the emergency disconnect. Service equipment for a mobile home must be within sight from the home: visible and no more than 50 ft away (see 110.29).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 550.32 Mobile home service location",
+          "url": "https://www.electricalexamcoach.app/changes/2023/550-32",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-550.33",
@@ -1037,7 +1233,7 @@
       "article": "551",
       "section": "551",
       "title": "Recreational vehicles and recreational vehicle parks",
-      "plain_explanation": "Article 551 covers recreational vehicles themselves and, more importantly for site work, RV parks — the site supply equipment, receptacle configurations, and grounding for each RV lot. Park work is a feeder and pedestal job repeated many times, with GFCI and polarity details at every site. It pairs with Article 552, which covers park trailers separately.",
+      "plain_explanation": "Article 551 covers recreational vehicles themselves and, more importantly for site work, RV parks — the site supply equipment, receptacle configurations, and grounding for each RV lot. Park work is a feeder and pedestal job repeated many times, with GFCI and polarity details at every site. It pairs with Article 552, which covers park trailers separately.\n\nNEC 2023 CHANGE:\n• 551.3: Substantiation was submitted to for the need to address recreational vehicle sites located next to natural bodies of water. As a result, a new Section 551.3, Electrical Datum Plane Distances, was added.\n• 551.40(D): Section 551.40(D) was changed to eliminate the need for a Reverse Polarity Device in a recreational vehicle. Substantiation was submitted to for the addition of language for a loss of a ground device.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "On an RV park bid, count sites and pedestal types carefully and confirm the supply equipment listing. Do not price park pedestals as ordinary receptacle posts.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1048,7 +1244,23 @@
       "verified": true,
       "prev_id": "C5-550.33",
       "next_id": "C5-551.71",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "551.3",
+          "change": "Substantiation was submitted to for the need to address recreational vehicle sites located next to natural bodies of water. As a result, a new Section 551.3, Electrical Datum Plane Distances, was added.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 551.3 Electrical Datum Plane Distances",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        },
+        {
+          "section": "551.40(D)",
+          "change": "Section 551.40(D) was changed to eliminate the need for a Reverse Polarity Device in a recreational vehicle. Substantiation was submitted to for the addition of language for a loss of a ground device.",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 551.40(0} Loss of Ground Device",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-551.71",
@@ -1065,7 +1277,7 @@
         "C5-ART-551"
       ],
       "florida_note": "Florida RV parks run full through the winter season — size and stage the work for occupied parks; pedestal swaps are usually one row at a time with live sites on either side.",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C5-ART-551",
       "next_id": "C5-551.73"
@@ -1076,8 +1288,8 @@
       "article": "551",
       "section": "551.73",
       "title": "Sizing RV park services and feeders (551.73)",
-      "plain_explanation": "Section 551.73 calculates an RV park's service and feeders from the sites themselves. Each site counts at its supply rating — the working figures are 12,000 volt-amperes for a 50-ampere site, 3,600 volt-amperes for a 30-ampere site, and 2,400 volt-amperes for a 20-ampere site — and the total is then reduced by the demand factors of Table 551.73(A), which step down as the number of sites grows, because a whole park never draws full load at every pedestal at once. The demand table is not optional color: on a forty-site park it is the difference between a service that prices the job and one that prices Sharma out of it.",
-      "on_the_job": "Worked example: ten sites, all 50 A — 10 × 12,000 = 120,000 VA before demand. Apply Table 551.73(A) for ten sites from the printed table on the worksheet; do not carry a remembered percentage between jobs.",
+      "plain_explanation": "Section 551.73 calculates an RV park's service and feeders from the sites themselves. Each site counts at its supply rating — the 551.73(A) basis is 9,600 volt-amperes per site with 50-ampere, 208Y/120V or 120/240V supply; 3,600 volt-amperes per site with both 20- and 30-ampere supply; 2,400 volt-amperes per site with only 20-ampere supply; and 600 volt-amperes per site with only 20-ampere supply dedicated to tent sites — and the total is then reduced by the demand factors of Table 551.73(A), which step down as the number of sites grows, because a whole park never draws full load at every pedestal at once. The demand table is not optional color: on a forty-site park it is the difference between a service that prices the job and one that prices Sharma out of it.",
+      "on_the_job": "Worked example: ten sites, all 50 A — 10 × 9,600 = 96,000 VA before demand. Apply Table 551.73(A) for ten sites from the printed table on the worksheet; do not carry a remembered percentage between jobs.",
       "sharma_note": "",
       "figure_idea": "Worksheet card: sites times VA each, subtotal, Table 551.73(A) demand line, service amps.",
       "related_ids": [
@@ -1085,7 +1297,7 @@
         "C5-ART-550"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C5-551.71",
       "next_id": "C5-ART-552"
@@ -1104,7 +1316,7 @@
         "C5-L-054"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-551.73",
       "next_id": "C5-ART-553",
       "sharma_rule_ids": []
@@ -1134,7 +1346,7 @@
       "article": "555",
       "section": "555",
       "title": "Marinas, boatyards, floating buildings, and docking facilities",
-      "plain_explanation": "Article 555 covers wiring and equipment at fixed and floating piers, marinas, boatyards, boathouses, and residential and commercial docking facilities, plus floating buildings in their own part of the article. The driving hazard is electric shock drowning: stray current in the water around an energized boat or dock can paralyze a swimmer without any visible warning. That is why this article layers ground-fault protection, bonding, and strict height rules over ordinary outdoor wiring. 555.1 expressly includes docking facilities associated with one-family dwellings, so a private residential dock is inside this article — not an AHJ judgment call.",
+      "plain_explanation": "Article 555 covers wiring and equipment at fixed and floating piers, marinas, boatyards, boathouses, and residential and commercial docking facilities, plus floating buildings in their own part of the article. The driving hazard is electric shock drowning: stray current in the water around an energized boat or dock can paralyze a swimmer without any visible warning. That is why this article layers ground-fault protection, bonding, and strict height rules over ordinary outdoor wiring. 555.1 expressly includes docking facilities associated with one-family dwellings, so a private residential dock is inside this article — not an AHJ judgment call.\n\nNEC 2023 CHANGE:\n• 555.14: New in 2023: outdoor marina service equipment and disconnects for in-water equipment need an equipotential plane when the system tops 250 volts to ground and the gear sits within 10 ft of the water. Both triggers have to be present: a system over 250 volts to ground, and equipment sitting within 10 ft of the body of water.\n• 555.15: New in 2023: replacing or modifying dock enclosures, devices or wiring means the new work meets the current code and the whole circuit gets inspected. Damaged gear found gets documented and repaired. Swap or modify a dock's enclosure, device or wiring method, and that new work has to meet the edition in force now.\n• 555.38: New in 2023: marina luminaires must be listed for their location and fastened against boat damage and sea-life tangles, and fixtures that can end up underwater have extra rules. A light mounted below the highest high tide or the electrical datum plane, where it can end up underwater, must be identified as submersible.\n• 555.6: The marina shore power demand factors moved out of Article 555 and into Article 220 at 220.120, with the table renumbered Table 220.120. The factors themselves didn't change. Shore power demand factors for marina, boatyard, floating building and docking facility services and feeders now live at 220.120 and Table 220.120.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": " Treat every marina circuit as life-safety work: test ground-fault devices, verify bonding, and never defeat a tripping device to keep a boat powered. If a pedestal keeps tripping, find the fault — the trip is the protection working.",
       "sharma_note": "",
       "figure_idea": "Dock plan sketch: shore service on land, feeder along the pier, pedestals at slips, datum plane line above the water.",
@@ -1147,7 +1359,37 @@
       "verified": true,
       "prev_id": "C5-ART-553",
       "next_id": "C5-555.3",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "555.14",
+          "change": "New in 2023: outdoor marina service equipment and disconnects for in-water equipment need an equipotential plane when the system tops 250 volts to ground and the gear sits within 10 ft of the water. Both triggers have to be present: a system over 250 volts to ground, and equipment sitting within 10 ft of the body of water.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 555.14 Equipotential planes at marinas",
+          "url": "https://www.electricalexamcoach.app/changes/2023/555-14",
+          "confirmed": true
+        },
+        {
+          "section": "555.15",
+          "change": "New in 2023: replacing or modifying dock enclosures, devices or wiring means the new work meets the current code and the whole circuit gets inspected. Damaged gear found gets documented and repaired. Swap or modify a dock's enclosure, device or wiring method, and that new work has to meet the edition in force now.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 555.15 Dock equipment replacement and repair",
+          "url": "https://www.electricalexamcoach.app/changes/2023/555-15",
+          "confirmed": true
+        },
+        {
+          "section": "555.38",
+          "change": "New in 2023: marina luminaires must be listed for their location and fastened against boat damage and sea-life tangles, and fixtures that can end up underwater have extra rules. A light mounted below the highest high tide or the electrical datum plane, where it can end up underwater, must be identified as submersible.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 555.38 Marina luminaires",
+          "url": "https://www.electricalexamcoach.app/changes/2023/555-38",
+          "confirmed": true
+        },
+        {
+          "section": "555.6",
+          "change": "The marina shore power demand factors moved out of Article 555 and into Article 220 at 220.120, with the table renumbered Table 220.120. The factors themselves didn't change. Shore power demand factors for marina, boatyard, floating building and docking facility services and feeders now live at 220.120 and Table 220.120.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 555.6 Marina demand factors",
+          "url": "https://www.electricalexamcoach.app/changes/2023/555-6",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-555.3",
@@ -1175,7 +1417,7 @@
       "article": "555",
       "section": "555.4",
       "title": "Location of service equipment — on land, not on the structure",
-      "plain_explanation": "The service equipment for a floating building, dock, or marina is installed on land, adjacent to the structure it serves — never on or in the floating structure itself. A floating structure rides up and down with the water, so the service stays on solid ground, where it can be reached and worked on like any other service. Everything downstream of it — the feeders out along the pier — is supplied from that shore-side point.",
+      "plain_explanation": "The service equipment for a floating building, dock, or marina is installed on land, adjacent to the structure it serves — never on or in the floating structure itself. A floating structure rides up and down with the water, so the service stays on solid ground, where it can be reached and worked on like any other service. Everything downstream of it — the feeders out along the pier — is supplied from that shore-side point.\n\nNEC 2023 CHANGE:\n• 555.4: Service equipment for a marina, dock or floating building must now sit on land at least 5 ft horizontally from the structure it serves and at least 12 in. above the electrical datum plane. Set service equipment for a floating building, docking facility or marina on land, at least 5 ft back from the structure it serves, measured horizontally.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Set the service on land next to the dock or marina it serves and run the feeder out to the pier from there. If a plan or an existing installation shows the service mounted on a floating dock, flag it before rough-in — that location fails this section.",
       "sharma_note": "",
       "figure_idea": "Site sketch: service equipment on shore beside the pier, feeder running out along the pier to the pedestals, the floating dock shown without service equipment on it.",
@@ -1184,7 +1426,16 @@
       "verified": true,
       "prev_id": "C5-555.3",
       "next_id": "C5-555.5",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "555.4",
+          "change": "Service equipment for a marina, dock or floating building must now sit on land at least 5 ft horizontally from the structure it serves and at least 12 in. above the electrical datum plane. Set service equipment for a floating building, docking facility or marina on land, at least 5 ft back from the structure it serves, measured horizontally.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 555.4 Marina service equipment location",
+          "url": "https://www.electricalexamcoach.app/changes/2023/555-4",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-555.5",
@@ -1243,7 +1494,7 @@
       "article": "555",
       "section": "555.13",
       "title": "Bonding at marinas and docking facilities",
-      "plain_explanation": "Metal parts that touch the water, metal piping, and non-current-carrying metal parts that could become energized have to be bonded back to the grounding bus in the panelboard. The bonding conductor is solid copper, insulated, covered, or bare, and at least 8 AWG. This equipotential bonding is what keeps dock metal, boat metal, and the water around them from sitting at different voltages.",
+      "plain_explanation": "Metal parts that touch the water, metal piping, and non-current-carrying metal parts that could become energized have to be bonded back to the grounding bus in the panelboard. The bonding conductor is solid copper, insulated, covered, or bare, and at least 8 AWG. This equipotential bonding is what keeps dock metal, boat metal, and the water around them from sitting at different voltages.\n\nNEC 2023 CHANGE:\n• 555.13: Metal parts already grounded through a branch-circuit or feeder equipment grounding conductor no longer need their own 8 AWG bonding conductor. Everything else still bonds to the panelboard grounding bus. Metal parts already connected to a branch-circuit or feeder equipment grounding conductor (EGC) no longer need a separate bonding conductor.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Bond ladders, lifts, metal framing, and piping as one system, and keep the 8 AWG solid copper bond continuous and protected from dock damage. Test continuity at trim — a bonding jumper cut by later dock work is a silent failure.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1255,7 +1506,16 @@
       "verified": true,
       "prev_id": "C5-555.10",
       "next_id": "C5-555.36",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "555.13",
+          "change": "Metal parts already grounded through a branch-circuit or feeder equipment grounding conductor no longer need their own 8 AWG bonding conductor. Everything else still bonds to the panelboard grounding bus. Metal parts already connected to a branch-circuit or feeder equipment grounding conductor (EGC) no longer need a separate bonding conductor.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 555.13 Marina bonding",
+          "url": "https://www.electricalexamcoach.app/changes/2023/555-13",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-555.36",
@@ -1263,7 +1523,7 @@
       "article": "555",
       "section": "555.36",
       "title": "Disconnecting means for shore power connections (2020 section 555.36)",
-      "plain_explanation": "Each boat's shore power connection needs its own disconnecting means that isolates that boat from its supply. The disconnect is a circuit breaker, a switch, or both, identified to show which receptacle it controls, readily accessible, ahead of the receptacle in the circuit, and located not more than 30 inches from the receptacle it controls. Breakers or switches inside a marine power outlet can serve as this disconnect when they meet those conditions.",
+      "plain_explanation": "Each boat's shore power connection needs its own disconnecting means that isolates that boat from its supply. The disconnect is a circuit breaker, a switch, or both, identified to show which receptacle it controls, readily accessible, ahead of the receptacle in the circuit, and located not more than 30 inches from the receptacle it controls. Breakers or switches inside a marine power outlet can serve as this disconnect when they meet those conditions.\n\nNEC 2023 CHANGE:\n• 555.36: New in 2023: each marina power outlet or enclosure feeding shore power needs a listed emergency shutoff marked for that use, within sight of it. A breaker handle doesn't count. Each marina power outlet or enclosure that feeds boats needs its own listed emergency shutoff within sight, marked with the words \"Emergency Shutoff\" (555.36(C)).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Label every pedestal disconnect with the slip and receptacle it controls, and measure the 30-inch limit before the pedestal is set. A boater in the dark needs to kill one connection, not the whole dock.",
       "sharma_note": "This is the 2020 section number, 555.36. The older number 555.17 is not the 2020 section, and 555.36 is not a 2023-only number.",
       "figure_idea": "",
@@ -1275,7 +1535,16 @@
       "verified": true,
       "prev_id": "C5-555.13",
       "next_id": "C5-555.33",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "555.36",
+          "change": "New in 2023: each marina power outlet or enclosure feeding shore power needs a listed emergency shutoff marked for that use, within sight of it. A breaker handle doesn't count. Each marina power outlet or enclosure that feeds boats needs its own listed emergency shutoff within sight, marked with the words \"Emergency Shutoff\" (555.36(C)).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 555.36 Shore power emergency shutoff",
+          "url": "https://www.electricalexamcoach.app/changes/2023/555-36",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-555.33",
@@ -1303,7 +1572,7 @@
       "article": "555",
       "section": "555.35",
       "title": "Ground-fault protection — GFPE and GFCI at marinas",
-      "plain_explanation": "The 2020 edition reorganized this section into three clear layers. Shore power receptacles get individual ground-fault protection of equipment set to open at not more than 30 milliamperes, 15- and 20-ampere receptacles other than shore power get Class A GFCI protection for people, and feeder and branch circuit conductors supplying a dock or slip get ground-fault protection of equipment set at not more than 100 milliamperes. GFPE protects equipment and wiring at milliampere levels far above the 4 to 6 milliampere Class A GFCI trip that protects people, so the two are not interchangeable labels.",
+      "plain_explanation": "The 2020 edition reorganized this section into three clear layers. Shore power receptacles get individual ground-fault protection of equipment set to open at not more than 30 milliamperes, 15- and 20-ampere receptacles other than shore power get Class A GFCI protection for people, and feeder and branch circuit conductors supplying a dock or slip get ground-fault protection of equipment set at not more than 100 milliamperes. GFPE protects equipment and wiring at milliampere levels far above the 4 to 6 milliampere Class A GFCI trip that protects people, so the two are not interchangeable labels.\n\nNEC 2023 CHANGE:\n• 555.35: GFCI now reaches non-shore-power dock outlets on circuits no higher than 150 volts to ground and 60 amps (100 amps three-phase), plus boat hoists at every dock. Leakage testers must be listed from 2026. Non-shore-power outlets, lights and equipment included, need GFCI when the circuit is no higher than 150 volts to ground and 60 amps (100 amps three-phase).\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Build the protection in layers exactly as the design shows — pedestal, then feeder — and record the trip settings at startup. Never swap a GFPE device for an ordinary breaker because a boat keeps tripping it.",
       "sharma_note": "S-07 caution: Sharma's residential DFN breaker is a personnel GFCI and AFCI device. It is not, by itself, the GFPE protection this section requires at 30 and 100 milliamperes — do not carry the house device pattern onto a dock without Mike Holt confirming the specified marina equipment.",
       "figure_idea": "Layer diagram: shore receptacle with 30 milliampere GFPE, general receptacle with Class A GFCI, feeder with 100 milliampere GFPE, stacked as three bands.",
@@ -1317,7 +1586,16 @@
       "verified": true,
       "prev_id": "C5-555.33",
       "next_id": "C5-ART-590",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "555.35",
+          "change": "GFCI now reaches non-shore-power dock outlets on circuits no higher than 150 volts to ground and 60 amps (100 amps three-phase), plus boat hoists at every dock. Leakage testers must be listed from 2026. Non-shore-power outlets, lights and equipment included, need GFCI when the circuit is no higher than 150 volts to ground and 60 amps (100 amps three-phase).",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 555.35 Marina GFPE and GFCI",
+          "url": "https://www.electricalexamcoach.app/changes/2023/555-35",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-ART-590",
@@ -1369,7 +1647,7 @@
       "article": "590",
       "section": "590.4",
       "title": "General requirements for temporary wiring",
-      "plain_explanation": "This is the working section of the article. A temporary service is installed to the service rules of Article 230, feeders and branch circuits keep the overcurrent protection of Article 240, and hard or extra-hard usage cords and cables do much of the distribution work. Receptacles on a branch circuit may not share it with temporary lighting on a construction site, receptacles in wet locations need weatherproof protection with a plug inserted, every temporary circuit needs a way to disconnect all its ungrounded conductors, lamps need guards, splices need enclosures, and cords crossing doorways and pinch points need protection. Cables and cords used as feeders or branch circuits may not lie on the ground or floor — support them or use the extension cord and protection routes the section actually allows.",
+      "plain_explanation": "This is the working section of the article. A temporary service is installed to the service rules of Article 230, feeders and branch circuits keep the overcurrent protection of Article 240, and hard or extra-hard usage cords and cables do much of the distribution work. Receptacles on a branch circuit may not share it with temporary lighting on a construction site, receptacles in wet locations need weatherproof protection with a plug inserted, every temporary circuit needs a way to disconnect all its ungrounded conductors, lamps need guards, splices need enclosures, and cords crossing doorways and pinch points need protection. Cables and cords used as feeders or branch circuits may not lie on the ground or floor — support them or use the extension cord and protection routes the section actually allows.\n\nNEC 2023 CHANGE:\n• 590.4(F): Eliminated some existing text concerning various socket styles at Section\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Walk a temp installation weekly: guards on lamps, covers on splice boxes, cords up off the ground and out of doorways, and disconnects working. Most temp-power citations are housekeeping items from this one section.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1384,7 +1662,16 @@
       "verified": true,
       "prev_id": "C5-590.3",
       "next_id": "C5-590.6",
-      "sharma_rule_ids": []
+      "sharma_rule_ids": [],
+      "nec2023_change": [
+        {
+          "section": "590.4(F)",
+          "change": "Eliminated some existing text concerning various socket styles at Section",
+          "source": "Carosella/NFPA-based 2023 NEC change workbook: 590.4(F) Lamp Protection",
+          "url": "https://afcarosella.com/uploads/3/4/0/5/34051045/2023_nec_book_carosella__completed_.pdf",
+          "confirmed": true
+        }
+      ]
     },
     {
       "id": "C5-590.6",
@@ -1392,7 +1679,7 @@
       "article": "590",
       "section": "590.6",
       "title": "GFCI protection and the assured grounding program",
-      "plain_explanation": "Receptacles that supply temporary power for construction style work need GFCI protection for personnel: the 125-volt, 15-, 20-, and 30-ampere receptacles are covered directly by 590.6(A)(1) and (A)(2); 125/250-volt receptacles join the GFCI list only under (A)(3), and only where they are receptacle outlets on a portable generator rated not greater than 15 kW, including receptacles that are part of the building's permanent wiring when they are being used for the temporary work. For receptacles outside that list, the choice is GFCI protection or a written assured equipment grounding conductor program with documented testing of cords and equipment. All receptacles used for temporary power are of the grounding type.\n\nWhere the assured equipment grounding conductor program covers the receptacles outside the GFCI list, its tests run on a fixed rhythm: before first use, before equipment is returned to service after a repair, after any incident that could reasonably be suspected of having caused damage, and at intervals not exceeding 3 months — 6 months only for cord sets and receptacles that are fixed in place and not exposed to damage. Each test verifies the equipment grounding conductor's continuity and that it terminates correctly, and the program is documented, by color coding or tagging and by records. An undocumented program is treated as no program.",
+      "plain_explanation": "Receptacles that supply temporary power for construction style work need GFCI protection for personnel: the 125-volt, 15-, 20-, and 30-ampere receptacles are covered directly by 590.6(A)(1) and (A)(2); 125/250-volt receptacles join the GFCI list only under (A)(3), and only where they are receptacle outlets on a portable generator rated not greater than 15 kW, including receptacles that are part of the building's permanent wiring when they are being used for the temporary work. For receptacles outside that list, the choice is GFCI protection or a written assured equipment grounding conductor program with documented testing of cords and equipment. All receptacles used for temporary power are of the grounding type.\n\nWhere the assured equipment grounding conductor program covers the receptacles outside the GFCI list, the NEC (590.6(B)(2)) requires written procedures and tests before first use on site, when there is evidence of damage, before equipment is returned to service after repairs, and at intervals not exceeding 3 months, recorded and made available to the AHJ. OSHA 29 CFR 1926.404(b)(1)(iii), not the NEC, adds the following details: before first use, before equipment is returned to service after a repair, after any incident that could reasonably be suspected of having caused damage, and at intervals not exceeding 3 months — 6 months only for cord sets and receptacles that are fixed in place and not exposed to damage. Each test verifies the equipment grounding conductor's continuity and that it terminates correctly, and the program is documented, by color coding or tagging and by records. An undocumented program is treated as no program. In NEC 2020 the GFCI scope is: (A)(1) all 125V, single-phase, 15-, 20- and 30A receptacle outlets that are not part of the permanent wiring and are in use by personnel; (A)(2) receptacles of any other rating, including the building's permanent receptacles, used to supply temporary power to equipment used by personnel during construction, remodeling, maintenance, repair or demolition — GFCI protection or a listed cord set or device with listed GFCI protection; (A)(3) 125V and 125/250V, single-phase, 15-, 20- and 30A receptacle outlets on a portable generator rated 15 kW or less — listed GFCI protection. The 6-month interval for fixed cord sets and receptacles and the color coding are OSHA rules, not NEC rules.",
       "on_the_job": "Test temp GFCI devices on a schedule and keep the test log with the temp panel. If a site runs an assured grounding program instead for the larger receptacles, the paperwork and cord color coding have to exist before the inspector asks, not after.",
       "sharma_note": "S-07 caution: a DFN breaker feeding a receptacle can be the GFCI method on a house's permanent wiring used temporarily, but a spider box or temp panel on site needs its own GFCI protection verified device by device — do not assume the upstream house pattern covers a jobsite distribution box.",
       "figure_idea": "",
@@ -1403,7 +1690,7 @@
         "C5-Q-040"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C5-590.4",
       "next_id": "C5-590.8",
       "sharma_rule_ids": [
@@ -1416,7 +1703,7 @@
       "article": "590",
       "section": "590.8",
       "title": "Overcurrent devices in temporary installations — new in 2020",
-      "plain_explanation": "Added in the 2020 edition, this section speaks to the reused breakers and fuses that end up in temp panels. Reused overcurrent devices have to be inspected and maintained for the reuse, and current-limiting protection is required in the higher fault current cases the section describes, such as larger temporary services. It closes the old habit of treating the temp panel as a junk drawer for retired breakers.",
+      "plain_explanation": "Added in the 2020 edition, this section speaks to the reused breakers and fuses that end up in temp panels. Reused overcurrent devices have to be inspected and maintained for the reuse, and current-limiting protection is required in the higher fault current cases the section describes, such as larger temporary services. It closes the old habit of treating the temp panel as a junk drawer for retired breakers.\n\nNEC 2023 CHANGE:\n• 590.8: Temporary services on 3-phase wye systems over 150 volts to ground now need current-limiting overcurrent devices only when available fault current exceeds 10,000 amps. Current-limiting service overcurrent devices are now needed only when the available fault current goes above 10,000 amps.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "Retire damaged or unknown-history breakers instead of cycling them into temp panels. When a temp service is large, confirm the current-limiting requirement with Mike Holt at takeoff, not at energization.",
       "sharma_note": "S-03 reinforces this: breakers go only in panels they are listed for, temp panels included.",
       "figure_idea": "",
@@ -1430,6 +1717,15 @@
       "next_id": null,
       "sharma_rule_ids": [
         "S-03"
+      ],
+      "nec2023_change": [
+        {
+          "section": "590.8",
+          "change": "Temporary services on 3-phase wye systems over 150 volts to ground now need current-limiting overcurrent devices only when available fault current exceeds 10,000 amps. Current-limiting service overcurrent devices are now needed only when the available fault current goes above 10,000 amps.",
+          "source": "Electrical Exam Coach, 2023 NEC change summary: 590.8 Temporary service overcurrent devices",
+          "url": "https://www.electricalexamcoach.app/changes/2023/590-8",
+          "confirmed": true
+        }
       ]
     }
   ],
@@ -1602,8 +1898,8 @@
         },
         {
           "id": "C5-517.19",
-          "section": "517.19",
-          "title": "The branches of a health care essential electrical system (517.19)"
+          "section": "517.31",
+          "title": "The branches of a hospital essential electrical system (517.31–517.35)"
         },
         {
           "id": "C5-517.30",
