@@ -558,5 +558,101 @@
     "nec_ref": "314.16",
     "difficulty": 1,
     "exam": "both"
+  },
+  {
+    "id": "C8-Q-036",
+    "article": "820",
+    "question": "The plenum-rated coaxial cable type is:",
+    "choices": [
+      "CATVX",
+      "CATV",
+      "CATVR",
+      "CATVP"
+    ],
+    "answer_index": 3,
+    "explain_plain": "Table 820.154 and 820.179: CATVP is plenum, CATVR riser, CATV general purpose, CATVX limited use in dwellings.",
+    "nec_ref": "820.179",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C8-Q-037",
+    "article": "820",
+    "question": "Which substitution is permitted?",
+    "choices": [
+      "CATVX where CATV is specified, in a commercial riser",
+      "CATVR where CATV is specified",
+      "CATV in a plenum ceiling",
+      "Unmarked coax anywhere in a dwelling"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The ladder runs downhill only: a higher-listed type may substitute for a lower one. CATVR (riser) may stand in for CATV (general purpose); nothing substitutes upward.",
+    "nec_ref": "820.179",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C8-Q-038",
+    "article": "830",
+    "question": "In open runs, network-powered broadband cable keeps what separation from power conductors, absent a raceway or sheathed cable?",
+    "choices": [
+      "No separation is required",
+      "2 in",
+      "6 in",
+      "12 in"
+    ],
+    "answer_index": 1,
+    "explain_plain": "830.133 repeats the chapter pattern: 2 in in open runs unless one side is in a raceway or a sheathed cable assembly, and no shared raceway or box with power except under the article's conditions.",
+    "nec_ref": "830.133",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C8-Q-039",
+    "article": "840",
+    "question": "840.160 is best described as:",
+    "choices": [
+      "A general permission to mix broadband and power in any enclosure",
+      "A narrow, conditioned door for the combinations the article describes; separation stays the default",
+      "A rule that only applies to fiber with no metal members",
+      "The section that bans optical network terminals indoors"
+    ],
+    "answer_index": 1,
+    "explain_plain": "840.160 addresses premises-powered broadband circuits meeting power circuits under stated conditions. It does not repeal the chapter's separation discipline.",
+    "nec_ref": "840.160",
+    "difficulty": 3,
+    "exam": "master"
+  },
+  {
+    "id": "C8-Q-040",
+    "article": "800",
+    "question": "CMX communications cable is permitted:",
+    "choices": [
+      "In plenums if sleeved",
+      "In risers of dwellings only",
+      "For limited use in dwellings, within the application table's size and length limits",
+      "Anywhere CM is permitted"
+    ],
+    "answer_index": 2,
+    "explain_plain": "CMX is the bottom of the 800.154 ladder — dwelling-limited. CMP, CMR, and CMG/CM each cover more territory than the type below them.",
+    "nec_ref": "800.154",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C8-Q-041",
+    "article": "820",
+    "question": "CATVX coax pulled into a commercial riser is:",
+    "choices": [
+      "Fine, coax is coax",
+      "A violation — CATVX is limited to dwellings and short listed runs",
+      "Fine if the run is under 50 ft",
+      "Fine if labeled at both ends"
+    ],
+    "answer_index": 1,
+    "explain_plain": "820.179 restricts CATVX to dwellings and the limited runs described. A commercial riser needs CATVR or better.",
+    "nec_ref": "820.179",
+    "difficulty": 2,
+    "exam": "both"
   }
 ]

@@ -976,5 +976,124 @@
     "verified": true,
     "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
     "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C8-L-055",
+    "question": "Which coax can I pull through a plenum ceiling?",
+    "aliases": [
+      "coax plenum type",
+      "CATVP"
+    ],
+    "answer_plain": "CATVP — the plenum-listed coaxial type in Table 820.154 — or run a lower type in a raceway where the table permits. CATV (general purpose) and CATVX (limited use) do not go in a plenum space.",
+    "nec_ref": "820.154",
+    "nec_edition": "2020",
+    "tags": [
+      "coax",
+      "plenum"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C8-L-056",
+    "question": "What is CATVX coax?",
+    "aliases": [
+      "CATVX",
+      "limited use coax"
+    ],
+    "answer_plain": "The limited-use coaxial type in 820.179: restricted to dwellings and the short runs the article describes. It is the trap type — fine in its dwelling niche, a violation in a commercial riser or plenum.",
+    "nec_ref": "820.179",
+    "nec_edition": "2020",
+    "tags": [
+      "coax",
+      "cable types"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C8-L-057",
+    "question": "How far must network-powered broadband cable stay from power conductors?",
+    "aliases": [
+      "broadband separation",
+      "830.133 2 inch"
+    ],
+    "answer_plain": "Same pattern as the rest of Chapter 8 (830.133): no shared raceway, box, or enclosure with light and power except under the article's conditions, and 2 in separation in open runs unless one side is in a raceway or a sheathed cable assembly.",
+    "nec_ref": "830.133",
+    "nec_edition": "2020",
+    "tags": [
+      "broadband",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C8-L-058",
+    "question": "Can premises-powered broadband and power share a box at the network terminal?",
+    "aliases": [
+      "840.160 sharing box",
+      "ONT power and broadband"
+    ],
+    "answer_plain": "Only where 840.160's conditions and the equipment listing actually describe the combination — it is a narrow, conditioned door. The chapter's default is separation, and separation is never the violation.",
+    "nec_ref": "840.160",
+    "nec_edition": "2020",
+    "tags": [
+      "broadband",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C8-L-059",
+    "question": "Can CATVR be substituted where CATV is specified?",
+    "aliases": [
+      "coax substitution",
+      "riser for general coax"
+    ],
+    "answer_plain": "Yes. The Chapter 8 ladder runs downhill: a higher-listed type (CATVR riser) may substitute for a lower one (CATV general purpose), and plenum (CATVP) may substitute for either. A lower type never substitutes upward.",
+    "nec_ref": "820.179",
+    "nec_edition": "2020",
+    "tags": [
+      "coax",
+      "substitution"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C8-L-060",
+    "question": "Where is CMX communications cable allowed?",
+    "aliases": [
+      "CMX limits",
+      "communications cable dwelling"
+    ],
+    "answer_plain": "Limited use in dwellings only, within the size and length limits of the application table in 800.154. It sits at the bottom of the ladder: CMP plenum, CMR riser, CMG/CM general, CMX dwelling-limited.",
+    "nec_ref": "800.154",
+    "nec_edition": "2020",
+    "tags": [
+      "communications",
+      "cable types"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C8-L-061",
+    "question": "Does Article 830 broadband cable get a pass on separation because it is 'just cable TV style' wiring?",
+    "aliases": [
+      "broadband separation myth",
+      "830 separation"
+    ],
+    "answer_plain": "No — and it deserves the opposite instinct. A network-powered broadband circuit arrives carrying power from the network, which is exactly why 830.133 keeps the chapter's separation discipline in full.",
+    "nec_ref": "830.133",
+    "nec_edition": "2020",
+    "tags": [
+      "broadband",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]

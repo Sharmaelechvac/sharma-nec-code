@@ -494,13 +494,14 @@
       "article": "800",
       "section": "800.154",
       "title": "Where each cable type may be used — the application tables",
-      "plain_explanation": "The tables in this section are the permission slip for cable types. One table matches listed communications cables and raceways against the places they may be installed — plenums, risers, general use, dwellings — and the coaxial cable types used under Article 820 have their own application table, Table 820.154. A higher-rated cable may substitute for a lower one down the ladder; a lower-rated cable may never substitute upward. Plenum cable sits at the top of the ladder, then riser, then general-purpose, then the limited-use dwelling type.",
+      "plain_explanation": "The tables in this section are the permission slip for cable types. One table matches listed communications cables and raceways against the places they may be installed — plenums, risers, general use, dwellings — and the coaxial cable types used under Article 820 have their own application table, Table 820.154. A higher-rated cable may substitute for a lower one down the ladder; a lower-rated cable may never substitute upward. Plenum cable sits at the top of the ladder, then riser, then general-purpose, then the limited-use dwelling type.\n\nWhere each communications type may run, in one view (the application table in plain form):\n• CMP — plenum spaces, and anywhere a lower type may run\n• CMR — risers and general use; not plenums\n• CMG and CM — general use and dwellings; not plenums or risers\n• CMX — limited use in dwellings only, within the size and length limits the table sets",
       "on_the_job": "When a supplier substitutes cable, check the jacket legend against the space, not against the purchase order. CMP can go almost anywhere communications cable can go; CMX cannot leave its dwelling lane. The substitution ladder is in the figure that accompanies this section in the printed book — use it rather than memory when a job mixes types.",
       "sharma_note": "",
       "figure_idea": "",
       "related_ids": [
         "C8-L-020",
-        "C8-Q-016"
+        "C8-Q-016",
+        "C8-820.154"
       ],
       "florida_note": "",
       "verified": false,
@@ -939,8 +940,52 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C8-820.113",
-      "next_id": "C8-ART-830",
+      "next_id": "C8-820.154",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-820.154",
+      "chapter": 8,
+      "article": "820",
+      "section": "820.154",
+      "title": "Where each coaxial cable type may be used — Table 820.154",
+      "plain_explanation": "Table 820.154 is the coax permission slip: it matches the listed coaxial cable types against the places they may be installed — plenums, risers, general use, and dwellings. It is the same ladder Article 800 builds for communications cable, restated for coax: plenum cable (CATVP) at the top, then riser (CATVR), then general-purpose (CATV), then the limited-use dwelling type (CATVX). The table, not the jacket color and not what the supplier shipped, decides whether a given reel may go in a given space.",
+      "on_the_job": "Coax home runs through a return-air plenum in a light-commercial ceiling: CATVP, or a raceway — the CATV reel from the truck does not become legal because the ceiling is almost never opened.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Ladder diagram: CATVP, CATVR, CATV, CATVX against plenum, riser, general, and dwelling spaces.",
+      "related_ids": [
+        "C8-ART-820",
+        "C8-820.179",
+        "C8-800.154",
+        "C8-L-055"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C8-820.133",
+      "next_id": "C8-820.179"
+    },
+    {
+      "id": "C8-820.179",
+      "chapter": 8,
+      "article": "820",
+      "section": "820.179",
+      "title": "Coaxial cable types — CATVP, CATVR, CATV, CATVX",
+      "plain_explanation": "820.179 lists the coaxial cable types and their markings. CATVP is the plenum type, CATVR the riser type, CATV the general-purpose type, and CATVX the limited-use type, restricted to dwellings and the short runs the article describes. The substitution rule follows the chapter's pattern: a higher-listed type may be substituted for a lower one — plenum for riser, riser for general — and a lower type may never be substituted upward. Read the print legend on the jacket; coax that carries no type marking carries no permission.",
+      "on_the_job": "CATVX is the trap type: fine in the dwelling work it is listed for, a violation pulled into a commercial riser. Check the legend before the pull, not at the inspection.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Four jacket legends with type letters highlighted and permitted spaces under each.",
+      "related_ids": [
+        "C8-820.154",
+        "C8-800.179",
+        "C8-ART-820",
+        "C8-L-056"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C8-820.154",
+      "next_id": "C8-ART-830"
     },
     {
       "id": "C8-ART-830",
@@ -957,7 +1002,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C8-820.133",
+      "prev_id": "C8-820.179",
       "next_id": "C8-830.90",
       "sharma_rule_ids": []
     },
@@ -1016,8 +1061,30 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C8-830.93",
-      "next_id": "C8-ART-840",
+      "next_id": "C8-830.133",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-830.133",
+      "chapter": 8,
+      "article": "830",
+      "section": "830.133",
+      "title": "Separation for network-powered broadband cable",
+      "plain_explanation": "Broadband cable under Article 830 keeps the same separation discipline as the rest of Chapter 8. It does not share a raceway, box, or enclosure with electric light and power conductors except where the article's own conditions are met, and in open runs it keeps the chapter's familiar 2 in separation from power conductors unless one side or the other is in a raceway or a sheathed cable assembly. The network power on a broadband circuit makes the separation worth more, not less: this is the one communications-style cable whose network side arrives carrying power from outside the building.",
+      "on_the_job": "Broadband entrance and inside runs: own holes, own supports, 2 in off the power runs — the same muscle memory as 800.133 and 820.133, because the Code intends one pattern for the whole chapter.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Open-run cross-section: broadband cable held 2 in from a power run; raceway exception beside it.",
+      "related_ids": [
+        "C8-ART-830",
+        "C8-800.133",
+        "C8-820.133",
+        "C8-L-057"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C8-830.100",
+      "next_id": "C8-ART-840"
     },
     {
       "id": "C8-ART-840",
@@ -1034,7 +1101,7 @@
       ],
       "florida_note": "",
       "verified": false,
-      "prev_id": "C8-830.100",
+      "prev_id": "C8-830.133",
       "next_id": "C8-840.93",
       "sharma_rule_ids": []
     },
@@ -1055,8 +1122,30 @@
       "florida_note": "",
       "verified": false,
       "prev_id": "C8-ART-840",
-      "next_id": null,
+      "next_id": "C8-840.160",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C8-840.160",
+      "chapter": 8,
+      "article": "840",
+      "section": "840.160",
+      "title": "Premises-powered broadband circuits and power circuits — 840.160",
+      "plain_explanation": "840.160 is the section that faces the question the rest of Chapter 8 answers with separation: what happens when premises-powered broadband communications circuits meet electric light and power circuits. The chapter's default does not change — communications and power are kept apart under the installation rules that apply to the broadband system — and 840.160 works as the narrow, conditioned door, addressing the combinations the article itself describes, such as circuits associated with the same equipment. It is an exception path with conditions, not a general permission to land broadband and power in the same box because both serve the same terminal.",
+      "on_the_job": "At an optical network terminal: the power supply and the broadband drops each follow their own rules, and any combined enclosure or shared path has to be one the equipment listing and 840.160 actually describe. When in doubt, separate — separation is never the violation.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "ONT installation: power and broadband paths shown separate, with the conditioned shared-equipment case called out.",
+      "related_ids": [
+        "C8-ART-840",
+        "C8-840.93",
+        "C7-ART-770",
+        "C8-L-058"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C8-840.93",
+      "next_id": null
     }
   ],
   "toc": [
@@ -1301,6 +1390,16 @@
           "id": "C8-820.133",
           "section": "820.133",
           "title": "Separation for coaxial cable"
+        },
+        {
+          "id": "C8-820.154",
+          "section": "820.154",
+          "title": "Where each coaxial cable type may be used — Table 820.154"
+        },
+        {
+          "id": "C8-820.179",
+          "section": "820.179",
+          "title": "Coaxial cable types — CATVP, CATVR, CATV, CATVX"
         }
       ]
     },
@@ -1323,6 +1422,11 @@
           "id": "C8-830.100",
           "section": "830.100",
           "title": "Broadband bonding and grounding conductors"
+        },
+        {
+          "id": "C8-830.133",
+          "section": "830.133",
+          "title": "Separation for network-powered broadband cable"
         }
       ]
     },
@@ -1335,6 +1439,11 @@
           "id": "C8-840.93",
           "section": "840.93",
           "title": "Grounding at a premises-powered broadband entrance"
+        },
+        {
+          "id": "C8-840.160",
+          "section": "840.160",
+          "title": "Premises-powered broadband circuits and power circuits — 840.160"
         }
       ]
     }
@@ -1381,6 +1490,13 @@
       ]
     },
     {
+      "term": "Broadband and power circuits, premises-powered",
+      "ids": [
+        "C8-840.160",
+        "C8-L-058"
+      ]
+    },
+    {
       "term": "Broadband, network-powered",
       "ids": [
         "C8-ART-830",
@@ -1393,6 +1509,13 @@
       "ids": [
         "C8-ART-840",
         "C8-840.93"
+      ]
+    },
+    {
+      "term": "Broadband, separation (network-powered)",
+      "ids": [
+        "C8-830.133",
+        "C8-L-057"
       ]
     },
     {
@@ -1425,6 +1548,20 @@
       "term": "Chapter 8, independence from Chapters 1–7",
       "ids": [
         "C8-90.3"
+      ]
+    },
+    {
+      "term": "Coaxial cable types, CATVP/CATVR/CATV/CATVX",
+      "ids": [
+        "C8-820.179",
+        "C8-L-056"
+      ]
+    },
+    {
+      "term": "Coaxial cable, where each type may be used",
+      "ids": [
+        "C8-820.154",
+        "C8-L-055"
       ]
     },
     {
