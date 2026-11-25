@@ -591,8 +591,30 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-702.7",
-      "next_id": "C7-702.12",
+      "next_id": "C7-702.11",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-702.11",
+      "chapter": 7,
+      "article": "702",
+      "section": "702.11",
+      "title": "Outdoor portable generators",
+      "plain_explanation": "702.11 covers the portable generator that lives in the garage and rolls out to the driveway when the power fails. A portable generator located outdoors gets relief from some of the disconnect requirements written for permanently installed sets — the set itself answers much of the disconnect question, because it can simply be shut down and unplugged. The connection to the house is still through listed transfer equipment and a proper power inlet (702.12(C) covers inlets 100 A and up); a cord through a window to a dryer receptacle is backfeeding, not a connection method. The neutral question decides the transfer equipment: whether the portable set's neutral is bonded to its frame determines whether the transfer switch must switch the neutral, and the generator's documentation — not habit — answers it.",
+      "on_the_job": "Hurricane setup: inlet box on the outside wall, listed transfer equipment or an interlocked breaker inside, generator outdoors and clear of windows and doors while it runs. Check the set's neutral bonding before you choose the transfer switch, and label the inlet for the size of set it accepts.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "House elevation: outdoor inlet, generator placement clear of openings, cord run.",
+      "related_ids": [
+        "C7-702.5",
+        "C7-702.12",
+        "C7-702.12(C)",
+        "C7-L-057"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C7-702.10",
+      "next_id": "C7-702.12"
     },
     {
       "id": "C7-702.12",
@@ -611,7 +633,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C7-702.10",
+      "prev_id": "C7-702.11",
       "next_id": "C7-702.12(C)",
       "sharma_rule_ids": []
     },
@@ -1270,8 +1292,29 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-725.136",
-      "next_id": "C7-ART-727",
+      "next_id": "C7-725.144",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-725.144",
+      "chapter": 7,
+      "article": "725",
+      "section": "725.144",
+      "title": "Power and data in the same cable — 725.144 and PoE heating",
+      "plain_explanation": "When a Class 2 cable carries power and data together — Power over Ethernet feeding cameras, access points, and lighting — every powered pair adds heat to the bundle, and a big bundle of powered cables runs hotter than the same bundle carrying data alone. 725.144 answers with ampacity limits for the conductors of Class 2 cables used to transmit power: the permitted current depends on the conductor size, the cable's temperature rating, and how many cables are bundled together. Type LP (limited power) cables carry their permitted ampacity in the cable marking, which takes the bundle question out of the table and puts it on the jacket. A cable that is fine for data is not automatically fine as a power-delivery cable in a full bundle.",
+      "on_the_job": "Sixty PoE drops home-run in one bundle to a rack: that bundle is a heating problem, not just a pulling problem. Split bundles, respect the LP marking where LP cable is specified, and do not promise a powered-device count the cable plant cannot carry cool.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Bundle cross-section: powered pairs heating the center of a large bundle; LP marking callout.",
+      "related_ids": [
+        "C7-725.121",
+        "C7-725.130",
+        "C7-L-058"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C7-725.136(I)",
+      "next_id": "C7-ART-727"
     },
     {
       "id": "C7-ART-727",
@@ -1286,7 +1329,7 @@
       "related_ids": [],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C7-725.136(I)",
+      "prev_id": "C7-725.144",
       "next_id": "C7-ART-728",
       "sharma_rule_ids": []
     },
@@ -1484,8 +1527,52 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-760.135",
-      "next_id": null,
+      "next_id": "C7-770.133",
       "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-770.133",
+      "chapter": 7,
+      "article": "770",
+      "section": "770.133",
+      "title": "Installing optical fiber cables",
+      "plain_explanation": "770.133 governs how optical fiber cables are installed with other systems. The dividing line is whether the fiber cable is conductive — carrying a metallic strength member, armor, or sheath — or nonconductive. Nonconductive fiber may share a raceway, enclosure, or cable tray with electric light, power, and Class 1 conductors under the conditions the section sets, because the fiber itself brings no conductive path into the box. Conductive fiber is treated with more suspicion: its metal member can carry a fault or a foreign potential into the enclosure, so the section restricts how it mixes with power conductors. Either way, the fiber cable's own listing for the space (770.179) still applies, and abandoned fiber comes out under the same discipline as the rest of Chapter 7.",
+      "on_the_job": "Pulling fiber toward a panel-adjacent raceway: the first question is conductive or nonconductive — read the jacket. Nonconductive dielectric fiber is the easy roommate; a steel-armored fiber changes the answer and gets its own path.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Two raceway cross-sections: nonconductive fiber sharing with power; conductive fiber separated.",
+      "related_ids": [
+        "C7-ART-770",
+        "C7-770.179",
+        "C8-ART-840",
+        "C7-L-059"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C7-ART-770",
+      "next_id": "C7-770.179"
+    },
+    {
+      "id": "C7-770.179",
+      "chapter": 7,
+      "article": "770",
+      "section": "770.179",
+      "title": "Optical fiber cable types — reading the letters",
+      "plain_explanation": "The type letters on an optical fiber cable tell you two things: whether the cable is conductive, and where its fire and smoke listing lets it run. OFN is optical fiber nonconductive; OFC is optical fiber conductive — the C means a metallic member is part of the cable. The suffix grades the listing like the communications ladder in Chapter 8: OFNP and OFCP are plenum grade, OFNR and OFCR are riser grade, and plain OFN and OFC are general purpose. A higher grade may substitute for a lower one; a lower grade never substitutes up. Match the letters to the space — plenum, riser, or general — the same way you match CMP, CMR, and CM.",
+      "on_the_job": "Spec says OFNR for a riser shaft and the truck has OFN: that pull does not happen. Plenum-rated fiber (OFNP or OFCP) in the truck covers the riser too — the ladder only runs downhill.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Type-letter decoder: OF + C/N + P/R, with the substitution ladder.",
+      "related_ids": [
+        "C7-ART-770",
+        "C7-770.133",
+        "C8-800.179",
+        "C7-L-060"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C7-770.133",
+      "next_id": null
     }
   ],
   "toc": [
@@ -1632,6 +1719,11 @@
           "id": "C7-702.10",
           "section": "702.10",
           "title": "Wiring — optional standby wiring may share raceways"
+        },
+        {
+          "id": "C7-702.11",
+          "section": "702.11",
+          "title": "Outdoor portable generators"
         },
         {
           "id": "C7-702.12",
@@ -1810,6 +1902,11 @@
           "id": "C7-725.136(I)",
           "section": "725.136(I)",
           "title": "Other applications — the 2-inch spacing rule"
+        },
+        {
+          "id": "C7-725.144",
+          "section": "725.144",
+          "title": "Power and data in the same cable — 725.144 and PoE heating"
         }
       ]
     },
@@ -1872,7 +1969,18 @@
       "id": "C7-ART-770",
       "article": "770",
       "title": "Optical fiber cables",
-      "children": []
+      "children": [
+        {
+          "id": "C7-770.133",
+          "section": "770.133",
+          "title": "Installing optical fiber cables"
+        },
+        {
+          "id": "C7-770.179",
+          "section": "770.179",
+          "title": "Optical fiber cable types — reading the letters"
+        }
+      ]
     }
   ],
   "index": [
@@ -1882,6 +1990,12 @@
         "C7-705.12(B)(3)(2)",
         "C7-705.12(B)(3)(4)",
         "C7-705.12"
+      ]
+    },
+    {
+      "term": "Article 722, not in NEC 2020",
+      "ids": [
+        "C7-ART-722"
       ]
     },
     {
@@ -2048,6 +2162,13 @@
       ]
     },
     {
+      "term": "Generators, portable (outdoor)",
+      "ids": [
+        "C7-702.11",
+        "C7-L-057"
+      ]
+    },
+    {
       "term": "Inadvertent interconnection",
       "ids": [
         "C7-702.5(D)",
@@ -2101,9 +2222,23 @@
       ]
     },
     {
+      "term": "Optical fiber cable types",
+      "ids": [
+        "C7-770.179",
+        "C7-L-060"
+      ]
+    },
+    {
       "term": "Optical fiber cables",
       "ids": [
         "C7-ART-770"
+      ]
+    },
+    {
+      "term": "Optical fiber, installation with other systems",
+      "ids": [
+        "C7-770.133",
+        "C7-L-059"
       ]
     },
     {
@@ -2124,6 +2259,22 @@
         "C7-702.7",
         "C7-702.12",
         "C7-702.12(C)"
+      ]
+    },
+    {
+      "term": "Power over Ethernet (PoE), cable heating",
+      "ids": [
+        "C7-725.144",
+        "C7-L-058"
+      ]
+    },
+    {
+      "term": "Power-limited cables, where the 2020 rules live",
+      "ids": [
+        "C7-ART-722",
+        "C7-ART-725",
+        "C7-ART-760",
+        "C7-ART-770"
       ]
     },
     {
@@ -2194,21 +2345,6 @@
       "term": "Under 50 volts, circuits",
       "ids": [
         "C7-ART-720"
-      ]
-    },
-    {
-      "term": "Article 722, not in NEC 2020",
-      "ids": [
-        "C7-ART-722"
-      ]
-    },
-    {
-      "term": "Power-limited cables, where the 2020 rules live",
-      "ids": [
-        "C7-ART-722",
-        "C7-ART-725",
-        "C7-ART-760",
-        "C7-ART-770"
       ]
     }
   ]

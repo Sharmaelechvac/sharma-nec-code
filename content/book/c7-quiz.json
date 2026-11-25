@@ -494,5 +494,101 @@
     "nec_ref": "Chapter 9, Table 8",
     "difficulty": 2,
     "exam": "master"
+  },
+  {
+    "id": "C7-Q-032",
+    "article": "702",
+    "question": "For an outdoor portable generator, the transfer switch neutral question is decided by:",
+    "choices": [
+      "The size of the generator in kW",
+      "Whether the generator's neutral is bonded to its frame, per its documentation",
+      "The length of the cord",
+      "Whether the inlet is 30 A or 50 A"
+    ],
+    "answer_index": 1,
+    "explain_plain": "702.11's portable-set rules turn on the set itself: a bonded neutral makes the connected set a separately derived source, so the transfer equipment must switch the neutral. The generator's documentation answers it.",
+    "nec_ref": "702.11",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-033",
+    "article": "725",
+    "question": "725.144 limits current in Class 2 cables carrying power and data (PoE) mainly because:",
+    "choices": [
+      "Data signals degrade above 24 V",
+      "Powered conductors heat the bundle, and the center of a large bundle runs hot",
+      "Class 2 sources cannot exceed 30 V",
+      "Plenum spaces prohibit powered cables"
+    ],
+    "answer_index": 1,
+    "explain_plain": "The section is a heating rule: ampacity depends on conductor size, temperature rating, and bundle count. Type LP cable carries its permitted ampacity in its marking.",
+    "nec_ref": "725.144",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C7-Q-034",
+    "article": "770",
+    "question": "A fiber cable marked OFC differs from OFN because OFC:",
+    "choices": [
+      "Is plenum rated",
+      "Contains a metallic member and is conductive",
+      "Carries two fibers instead of one",
+      "Is rated for direct burial"
+    ],
+    "answer_index": 1,
+    "explain_plain": "In 770.179's type letters, C means conductive — a metallic strength member, armor, or sheath is part of the cable. N is nonconductive. P and R suffixes grade plenum and riser listings.",
+    "nec_ref": "770.179",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C7-Q-035",
+    "article": "770",
+    "question": "Nonconductive optical fiber sharing a raceway with power conductors is:",
+    "choices": [
+      "Always prohibited",
+      "Permitted under the conditions of 770.133, because the fiber brings no conductive path into the enclosure",
+      "Permitted only in dwellings",
+      "Permitted only if the power circuit is GFCI protected"
+    ],
+    "answer_index": 1,
+    "explain_plain": "770.133 draws the line at conductive vs nonconductive. Dielectric fiber can share under the section's conditions; conductive fiber is restricted because its metal can carry a fault.",
+    "nec_ref": "770.133",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C7-Q-036",
+    "article": "770",
+    "question": "Which fiber type may be installed in a plenum space?",
+    "choices": [
+      "OFN",
+      "OFNR",
+      "OFNP",
+      "Any type, fiber cannot burn"
+    ],
+    "answer_index": 2,
+    "explain_plain": "The P suffix is the plenum grade (OFNP nonconductive, OFCP conductive). Riser (R) and general-purpose types may not substitute upward into a plenum.",
+    "nec_ref": "770.179",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C7-Q-037",
+    "article": "702",
+    "question": "A portable generator feeding a house must connect through:",
+    "choices": [
+      "A dryer receptacle and a double-male cord",
+      "Listed transfer equipment and a proper power inlet",
+      "The meter socket, pulled by the homeowner",
+      "Any breaker with the main switched off"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Article 702 requires transfer equipment that prevents inadvertent interconnection (702.5) and a proper inlet — 702.11 covers outdoor portable sets. Backfeeding arrangements are prohibited.",
+    "nec_ref": "702.5",
+    "difficulty": 1,
+    "exam": "both"
   }
 ]

@@ -973,5 +973,126 @@
     "verified": true,
     "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
     "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C7-L-057",
+    "question": "What decides whether my transfer switch must switch the neutral for a portable generator?",
+    "aliases": [
+      "generator neutral bonding",
+      "switch the neutral"
+    ],
+    "answer_plain": "Whether the generator's neutral is bonded to its frame (702.11 sends you to the set's documentation). A bonded-neutral set is a separately derived source when connected, so the transfer equipment must switch the neutral; a floating-neutral set does not. Read the generator's manual, not habit.",
+    "nec_ref": "702.11",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "transfer switch",
+      "neutral"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C7-L-058",
+    "question": "What is Type LP cable?",
+    "aliases": [
+      "LP cable",
+      "limited power cable marking"
+    ],
+    "answer_plain": "Type LP (limited power) is a Class 2 cable whose jacket marking states the ampacity it is permitted to carry when it transmits power, per 725.144. The marking takes the bundle-heating question out of the table and puts it on the cable itself.",
+    "nec_ref": "725.144",
+    "nec_edition": "2020",
+    "tags": [
+      "Class 2",
+      "PoE",
+      "cable types"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C7-L-059",
+    "question": "Can optical fiber share a raceway with power conductors?",
+    "aliases": [
+      "fiber in conduit with power",
+      "fiber sharing raceway"
+    ],
+    "answer_plain": "Sometimes. Under 770.133, nonconductive fiber may share a raceway or enclosure with light, power, and Class 1 conductors under the section's conditions. Conductive fiber — with a metallic strength member, armor, or sheath — is restricted because its metal can carry a fault into the enclosure.",
+    "nec_ref": "770.133",
+    "nec_edition": "2020",
+    "tags": [
+      "fiber",
+      "separation"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C7-L-060",
+    "question": "What do OFNP, OFNR, and OFN mean?",
+    "aliases": [
+      "fiber cable types",
+      "OFNP OFNR OFN"
+    ],
+    "answer_plain": "Optical fiber type letters: OFN is nonconductive, OFC is conductive (metallic member). The last letter grades the listing — P for plenum (OFNP/OFCP), R for riser (OFNR/OFCR), and no suffix letter beyond the base type for general purpose (OFN/OFC). Higher grades substitute downward, never the reverse (770.179).",
+    "nec_ref": "770.179",
+    "nec_edition": "2020",
+    "tags": [
+      "fiber",
+      "cable types"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C7-L-061",
+    "question": "Can I backfeed a house panel from a portable generator through a dryer receptacle?",
+    "aliases": [
+      "backfeeding generator",
+      "generator suicide cord"
+    ],
+    "answer_plain": "Never. 702 requires listed transfer equipment that prevents inadvertent interconnection of the sources (702.5), with a proper power inlet — 702.11 for outdoor portable sets and 702.12(C) for inlets 100 A and up. A cord arrangement that can energize the panel — or the utility lines — without transfer equipment is prohibited and lethal.",
+    "nec_ref": "702.5",
+    "nec_edition": "2020",
+    "tags": [
+      "generator",
+      "safety"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C7-L-062",
+    "question": "Why does a big bundle of PoE cable matter if each cable is only Class 2?",
+    "aliases": [
+      "PoE bundle heating",
+      "725.144 bundle"
+    ],
+    "answer_plain": "Heat adds up. 725.144 limits the current Class 2 cable conductors may carry for power delivery based on conductor size, temperature rating, and bundle count, because the center of a large powered bundle runs much hotter than a single cable in free air.",
+    "nec_ref": "725.144",
+    "nec_edition": "2020",
+    "tags": [
+      "Class 2",
+      "PoE"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C7-L-063",
+    "question": "How do I know if a fiber cable is conductive?",
+    "aliases": [
+      "conductive fiber check",
+      "OFC marking"
+    ],
+    "answer_plain": "Read the jacket: the type letters answer it. OFC (and OFCP/OFCR) means a metallic member is part of the cable; OFN types are nonconductive. The answer decides how 770.133 lets the cable mix with power conductors.",
+    "nec_ref": "770.179",
+    "nec_edition": "2020",
+    "tags": [
+      "fiber",
+      "cable types"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]
