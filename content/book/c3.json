@@ -125,7 +125,7 @@
       "article": "300",
       "section": "300.4(B)",
       "title": "Cables through metal framing — bushings and plates",
-      "plain_explanation": "Metal studs change the protection hardware. Where a cable passes through a hole in a metal framing member, it is protected by a bushing or a listed grommet that covers the sharp edge of the hole and is designed to stay in place. Where a cable runs in a slot or notch in metal framing, it is protected against nails and screws by a steel plate at least 1/16 in thick, or by a bushing or grommet listed for the purpose. A raw punched steel edge will saw through a cable jacket under vibration and thermal movement — the bushing is not optional trim.",
+      "plain_explanation": "Metal studs change the protection hardware. Where a cable passes through a hole in a metal framing member, it is protected by a bushing or a listed grommet: under 300.4(B)(1) the bushing or grommet must cover all metal edges and be securely fastened in the opening before the cable is installed. Where nails or screws are likely to penetrate NM cable or ENT in metal framing, protect it with a steel sleeve, steel plate or steel clip at least 1/16 in. thick (300.4(B)(2)). A raw punched steel edge will saw through a cable jacket under vibration and thermal movement — the bushing is not optional trim.",
       "on_the_job": "Stock grommets on the truck for steel-stud work and snap them in as you lay out the holes, not after the cable is pulled — a grommet forced over a pulled cable usually ends up in a pocket instead. Walk the run before insulation: every hole, every cable, one bushing.",
       "sharma_note": "",
       "figure_idea": "Steel stud with three holes: a bare punched hole with cable through it (crossed out), a hole with a snap-in grommet, and a slotted run protected by a 1/16 in plate.",
@@ -135,13 +135,11 @@
         "C3-L-058"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-300.4(A)(1)",
       "next_id": "C3-300.4(D)",
       "chapter": 3,
-      "sharma_rule_ids": [],
-      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Rewrite the second rule: \"Where nails or screws are likely to penetrate NM cable or ENT in metal framing, protect it with a steel sleeve, steel plate or steel clip at least 1/16 in. thick (300.4(B)(2)).\" (2020 does not offer a listed bushing as an alternative there, and the rule is not limited to slots or notches.) Make it explicit that 300.4(B)(1) bushings and grommets must cover all metal edges and be securely fastened in the opening before the cable is installed.",
-      "recheck_correction": "Rewrite the second rule: \"Where nails or screws are likely to penetrate NM cable or ENT in metal framing, protect it with a steel sleeve, steel plate or steel clip at least 1/16 in. thick (300.4(B)(2)).\" (2020 does not offer a listed bushing as an alternative there, and the rule is not limited to slots or notches.) Make it explicit that 300.4(B)(1) bushings and grommets must cover all metal edges and be securely fastened in the opening before the cable is installed."
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-300.4(D)",
@@ -329,7 +327,7 @@
       "article": "300",
       "section": "300.18",
       "title": "Finish the raceway before the wire goes in",
-      "plain_explanation": "A raceway system is installed complete — runs finished, boxes set, fittings in place — before the conductors are pulled into it. Cut ends are reamed or otherwise finished so no sharp edge waits inside to skin insulation during the pull. Short sections are the everyday case, not a loophole: a nipple between two enclosures follows its own fill rules, but it is still a finished piece of raceway before wire enters it. Pulling wire into a half-built run and 'finishing around it' damages insulation where nobody can see it.",
+      "plain_explanation": "A raceway system is installed complete — runs finished, boxes set, fittings in place — before the conductors are pulled into it. Cut ends are reamed or otherwise finished so no sharp edge waits inside to skin insulation during the pull (the reaming rule itself lives in the wiring-method sections — for example 344.28 and 358.28 — not in 300.18). Short sections of raceway used only to protect conductors or cable assemblies from physical damage do not have to be installed complete before the conductors or cables are installed (300.18(A) Exception); the everyday nipple between two enclosures still follows its own fill rules. Pulling wire into a half-built run and 'finishing around it' damages insulation where nobody can see it.",
       "on_the_job": "Walk the run with a flashlight before the pull: every coupling tight, every end reamed, bushings on. The time to find a burr is before 200 ft of THHN is sitting in the pipe.",
       "sharma_note": "",
       "figure_idea": "Conduit run in two states: complete with reamed ends and bushings, wire spool staged (ready); versus a gap in the run with wire already threaded through it (crossed out).",
@@ -339,13 +337,11 @@
         "C3-ART-300"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-300.15",
       "next_id": "C3-300.21",
       "chapter": 3,
-      "sharma_rule_ids": [],
-      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Replace \"Short sections are the everyday case, not a loophole\" with the actual exception: \"Short sections of raceway used only to protect conductors or cable assemblies from physical damage do not have to be installed complete before the conductors or cables are installed (300.18(A) Exception).\" For reaming, cite the wiring-method sections (for example 344.28, 358.28), not 300.18.",
-      "recheck_correction": "Replace \"Short sections are the everyday case, not a loophole\" with the actual exception: \"Short sections of raceway used only to protect conductors or cable assemblies from physical damage do not have to be installed complete before the conductors or cables are installed (300.18(A) Exception).\" For reaming, cite the wiring-method sections (for example 344.28, 358.28), not 300.18."
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-300.21",
@@ -655,8 +651,8 @@
       "article": "312",
       "section": "312.5(C)",
       "title": "Cables entering a cabinet — and the conduit-stub exception",
-      "plain_explanation": "Each cable that enters a cabinet or cutout box is secured to it — the clamp or connector at the entry is what keeps a tug on the cable out of the terminations. The exception everyone uses on panel changes: where nonmetallic-sheathed cables enter the top of a surface-mounted enclosure through a raceway, the cables do not have to be individually secured to the enclosure if the raceway is not longer than 10 ft, does not penetrate a structural ceiling, each cable is fastened within 12 in — measured along the sheath — of the outer end of the raceway, and the entry is fitted to protect the cables from abrasion. Outside that exception, every cable gets its own connector and clamp.",
-      "on_the_job": "The stub exception is a panel-swap tool, not a rough-in shortcut: 10 ft maximum of raceway, straight into the top of the can, cables strapped within a foot of the end of the stub. If any condition fails — longer stub, or a structural ceiling in the path — each cable is secured at the enclosure like any other entry.",
+      "plain_explanation": "Each cable that enters a cabinet or cutout box is secured to it — the clamp or connector at the entry is what keeps a tug on the cable out of the terminations. The exception everyone uses on panel changes: where nonmetallic-sheathed cables enter the top of a surface-mounted enclosure through a raceway, the cables do not have to be individually secured to the enclosure if all of these hold: the raceway is nonflexible, at least 18 in. and not more than 10 ft long, and enters the top of a surface-mounted enclosure; each cable is fastened within 12 in. of the raceway's outer end, measured along the sheath; the raceway runs directly above the enclosure and does not penetrate a structural ceiling; there is a fitting on each end to protect against abrasion, and the fittings stay accessible; the outer end is sealed or plugged; the cable sheath runs continuously through the raceway and at least 1/4 in. into the enclosure; the raceway is fastened at its outer end and per its article; and the cable fill does not exceed Chapter 9 Table 1 (the 60% nipple rule does not apply here). Outside that exception, every cable gets its own connector and clamp.",
+      "on_the_job": "The stub exception is a panel-swap tool, not a rough-in shortcut: 18 in. minimum and 10 ft maximum of raceway, straight into the top of the can, cables strapped within a foot of the end of the stub, and the outer end sealed or plugged. If any condition fails — longer stub, or a structural ceiling in the path — each cable is secured at the enclosure like any other entry.",
       "sharma_note": "",
       "figure_idea": "Surface panel with a short conduit stub out the top: NM cables entering through it, straps marked within 12 in of the stub end, and the 10 ft limit dimensioned.",
       "related_ids": [
@@ -665,13 +661,11 @@
         "C3-L-060"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-312",
       "next_id": "C3-312.6",
       "chapter": 3,
-      "sharma_rule_ids": [],
-      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: The exception is incomplete. Replace the conditions with the full 2020 list: the raceway is nonflexible, at least 18 in. and not more than 10 ft long; it enters the top of a surface-mounted enclosure; each cable is fastened within 12 in. of the raceway's outer end, measured along the sheath; the raceway runs directly above the enclosure and does not penetrate a structural ceiling; there is a fitting on each end to protect against abrasion, and the fittings stay accessible; the outer end is sealed or plugged; the cable sheath runs continuously through the raceway and at least 1/4 in. into the enclosure; the raceway is fastened at its outer end and per its article; and the cable fill does not exceed Chapter 9 Table 1 (applying the 60% nipple rule does not apply). The on-the-job text should add the 18 in. minimum and the seal/plug.",
-      "recheck_correction": "The exception is incomplete. Replace the conditions with the full 2020 list: the raceway is nonflexible, at least 18 in. and not more than 10 ft long; it enters the top of a surface-mounted enclosure; each cable is fastened within 12 in. of the raceway's outer end, measured along the sheath; the raceway runs directly above the enclosure and does not penetrate a structural ceiling; there is a fitting on each end to protect against abrasion, and the fittings stay accessible; the outer end is sealed or plugged; the cable sheath runs continuously through the raceway and at least 1/4 in. into the enclosure; the raceway is fastened at its outer end and per its article; and the cable fill does not exceed Chapter 9 Table 1 (applying the 60% nipple rule does not apply). The on-the-job text should add the 18 in. minimum and the seal/plug."
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-312.6",
@@ -1500,7 +1494,7 @@
       "article": "338",
       "section": "338.12",
       "title": "Where SE and USE cable may not be used",
-      "plain_explanation": "The prohibitions keep service cable in its lane. Type USE is an underground cable: it may not be used for interior wiring, and not aboveground at all, . Type SE may not be used underground (that is USE's job), and SE used as interior branch-circuit or feeder wiring is limited to the conditions on the 338.10(B)(4) page — outside those conditions, interior circuits get an interior wiring method. Service cable leaving the meter is service territory; it does not become a general-purpose house cable because it was on the truck.",
+      "plain_explanation": "The prohibitions keep service cable in its lane. Type SE may not be used: (1) where subject to physical damage unless protected per 230.50(B); (2) underground, with or without a raceway; (3) for exterior branch circuits and feeders unless the installation meets Part I of Article 225 and is supported per 334.30, or is messenger-supported per Part II of Article 396. Type USE may not be used: (1) for interior wiring; (2) aboveground, except where it emerges from the ground and terminates in an enclosure at an outdoor location, with the cable protected per 300.5(D); (3) as aboveground cable except as permitted in 338.12(B)(2) (the single-conductor and multiconductor exceptions). A conductor dual-listed USE-2/RHH/RHW-2 may be used indoors under its RHW-2 listing. SE used as interior branch-circuit or feeder wiring is limited to the conditions on the 338.10(B)(4) page — outside those conditions, interior circuits get an interior wiring method. Service cable leaving the meter is service territory; it does not become a general-purpose house cable because it was on the truck.",
       "on_the_job": "The classic misuse is USE pulled inside a building 'because it was already in the trench.' Once the run comes inside, the method has to change to one that is legal indoors — plan the transition at the entry, in a box or the panel, not mid-run.",
       "sharma_note": "",
       "figure_idea": "House wall section: USE stopping at the entry point and transitioning to an interior method (approved), versus USE continuing across the attic (crossed out).",
@@ -1510,13 +1504,11 @@
         "C3-Q-035"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-338.10(B)(4)",
       "next_id": "C3-ART-340",
       "chapter": 3,
-      "sharma_rule_ids": [],
-      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Rewrite with the actual 2020 prohibitions. SE cable may not be used: (1) where subject to physical damage unless protected per 230.50(B); (2) underground, with or without a raceway; (3) for exterior branch circuits and feeders unless the installation meets Part I of Article 225 and is supported per 334.30, or is messenger-supported per Part II of Article 396. USE cable may not be used: (1) for interior wiring; (2) aboveground, except where it emerges from the ground and terminates in an enclosure at an outdoor location, with the cable protected per 300.5(D); (3) as aboveground cable except as permitted in 338.12(B)(2) (single-conductor and multiconductor exceptions). Delete \"except where it terminates inside listed equipment it is permitted to enter\". Note that a conductor dual-listed USE-2/RHH/RHW-2 may be used indoors under its RHW-2 listing.",
-      "recheck_correction": "Rewrite with the actual 2020 prohibitions. SE cable may not be used: (1) where subject to physical damage unless protected per 230.50(B); (2) underground, with or without a raceway; (3) for exterior branch circuits and feeders unless the installation meets Part I of Article 225 and is supported per 334.30, or is messenger-supported per Part II of Article 396. USE cable may not be used: (1) for interior wiring; (2) aboveground, except where it emerges from the ground and terminates in an enclosure at an outdoor location, with the cable protected per 300.5(D); (3) as aboveground cable except as permitted in 338.12(B)(2) (single-conductor and multiconductor exceptions). Delete \"except where it terminates inside listed equipment it is permitted to enter\". Note that a conductor dual-listed USE-2/RHH/RHW-2 may be used indoors under its RHW-2 listing."
+      "sharma_rule_ids": []
     },
     {
       "id": "C3-ART-340",
@@ -1600,7 +1592,7 @@
       "article": "344",
       "section": "344",
       "title": "Rigid metal conduit — RMC",
-      "plain_explanation": "RMC is the heavy-wall threaded steel raceway — the toughest common raceway in this chapter. It may be used in nearly every location, including underground (where its 6 in cover in the general open-ground row of Table 300.5 is the payoff for its strength. Under a one- or two-family dwelling driveway that same rigid metal conduit needs 18 in, the same as PVC and direct-burial cable. Streets, roads, and other driveways and parking lots demand 24 in for every method), wet locations, and places subject to physical damage, with fittings and supports made for it. Underground, corrosion protection and the soil conditions govern how long it lasts.\n\nThe support numbers (344.30): RMC must be fastened within 3 ft of each box, cabinet, conduit body, or other termination — with the section's allowances where threaded couplings make that impractical. For straight runs, Table 344.30(B)(2) spaces supports by size:\n• 1/2 in and 3/4 in — every 10 ft\n• 1 in — every 12 ft\n• 1-1/4 in and 1-1/2 in — every 14 ft\n• 2 in — every 16 ft\n• 2-1/2 in and larger — every 20 ft\n\nNEC 2023 CHANGE:\n• 344.28: Clarified adherence to the manufacturer's requirements for reaming and threading of PVC-coated rigid metal conduit (RMC) in Section 344.28.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
+      "plain_explanation": "RMC is the heavy-wall threaded steel raceway — the toughest common raceway in this chapter. It may be used in nearly every location, including underground — where its 6 in cover in the general open-ground row of Table 300.5 is the payoff for its strength — wet locations, and places subject to physical damage, with fittings and supports made for it. Under a one- or two-family dwelling driveway that same rigid metal conduit needs 18 in of cover, the same as PVC and direct-burial cable; streets, roads, and other driveways and parking lots demand 24 in for every method. Underground, corrosion protection and the soil conditions govern how long it lasts.\n\nThe support numbers (344.30): RMC must be fastened within 3 ft of each box, cabinet, conduit body, or other termination — with the section's allowances where threaded couplings make that impractical. For straight runs, Table 344.30(B)(2) spaces supports by size:\n• 1/2 in and 3/4 in — every 10 ft\n• 1 in — every 12 ft\n• 1-1/4 in and 1-1/2 in — every 14 ft\n• 2 in and 2-1/2 in — every 16 ft\n• 3 in and larger — every 20 ft\n\nNEC 2023 CHANGE:\n• 344.28: Clarified adherence to the manufacturer's requirements for reaming and threading of PVC-coated rigid metal conduit (RMC) in Section 344.28.\nFBC 9th Ed. adopts NEC 2023 for permits applied for on or after Dec 31, 2026; permits applied for through Dec 30, 2026 stay on the NEC 2020 rule above.",
       "on_the_job": "The 6 in burial depth is why RMC still earns its cost in open ground and in shallow-rock trenches that are not under a driveway. It is not a 6 in depth under a one- or two-family dwelling driveway — that row is 18 in for RMC and for PVC. Under streets, roads, alleys, and other driveways or parking lots, Table 300.5 requires 24 in of cover for every method, RMC included.",
       "sharma_note": "",
       "figure_idea": "Open-ground cross-section: RMC at 6 in beside a PVC run at 18 in. A one- or two-family dwelling driveway is a different Table 300.5 row — 18 in for both.",
@@ -1610,12 +1602,10 @@
         "C3-L-035"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "prev_id": "C3-ART-342",
       "next_id": "C3-ART-348",
       "chapter": 3,
-      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: The support table rows are wrong. Replace the last two bullets with \"2 in and 2-1/2 in — every 16 ft\" and \"3 in and larger — every 20 ft\". Clean up the broken parenthesis in the first paragraph (the driveway sentences sit inside a parenthetical). The Table 300.5 depths stated (6 in general, 18 in under one- and two-family dwelling driveways, 24 in under streets, roads, alleys, other driveways and parking lots) are correct.",
-      "recheck_correction": "The support table rows are wrong. Replace the last two bullets with \"2 in and 2-1/2 in — every 16 ft\" and \"3 in and larger — every 20 ft\". Clean up the broken parenthesis in the first paragraph (the driveway sentences sit inside a parenthetical). The Table 300.5 depths stated (6 in general, 18 in under one- and two-family dwelling driveways, 24 in under streets, roads, alleys, other driveways and parking lots) are correct.",
       "nec2023_change": [
         {
           "section": "344.28",

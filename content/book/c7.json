@@ -711,7 +711,7 @@
       "article": "702",
       "section": "702.11",
       "title": "Outdoor portable generators",
-      "plain_explanation": "702.11 covers the portable generator that lives in the garage and rolls out to the driveway when the power fails. A portable generator located outdoors gets relief from some of the disconnect requirements written for permanently installed sets — the set itself answers much of the disconnect question, because it can simply be shut down and unplugged. The connection to the house is still through listed transfer equipment and a proper power inlet (702.12(C) covers inlets 100 A and up); a cord through a window to a dryer receptacle is backfeeding, not a connection method. The neutral question decides the transfer equipment: whether the portable set's neutral is bonded to its frame determines whether the transfer switch must switch the neutral, and the generator's documentation — not habit — answers it.",
+      "plain_explanation": "702.11 covers the portable generator that lives in the garage and rolls out to the driveway when the power fails. The disconnect relief is exact: under 702.11(B), a portable generator rated 15 kW or less, connected through a flanged inlet or other cord-and-plug connection, does not need an additional disconnecting means where its ungrounded conductors serve or pass through a building. Under 702.11(A), permanently installed generators and portable generators over 15 kW need a readily accessible disconnect per 445.18, within sight of the building, for that relief. The connection to the house is still through listed transfer equipment and a proper power inlet (702.12(C) covers inlets 100 A and up); a cord through a window to a dryer receptacle is backfeeding, not a connection method. The neutral question decides the transfer equipment: whether the portable set's neutral is bonded to its frame determines whether the transfer switch must switch the neutral, and the generator's documentation — not habit — answers it.",
       "on_the_job": "Hurricane setup: inlet box on the outside wall, listed transfer equipment or an interlocked breaker inside, generator outdoors and clear of windows and doors while it runs. Check the set's neutral bonding before you choose the transfer switch, and label the inlet for the size of set it accepts.",
       "sharma_note": "",
       "florida_note": "",
@@ -723,11 +723,9 @@
         "C7-L-057"
       ],
       "sharma_rule_ids": [],
-      "verified": false,
+      "verified": true,
       "prev_id": "C7-702.10",
-      "next_id": "C7-702.12",
-      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Make the disconnect relief exact: \"702.11(B): a portable generator rated 15 kW or less, connected through a flanged inlet or other cord-and-plug connection, does not need an additional disconnecting means where its ungrounded conductors serve or pass through a building. 702.11(A): permanently installed generators and portable generators over 15 kW need a readily accessible disconnect per 445.18, within sight of the building, for that relief.\" Keep the 702.12(C) inlet note, the backfeed warning and the neutral-bonding guidance.",
-      "recheck_correction": "Make the disconnect relief exact: \"702.11(B): a portable generator rated 15 kW or less, connected through a flanged inlet or other cord-and-plug connection, does not need an additional disconnecting means where its ungrounded conductors serve or pass through a building. 702.11(A): permanently installed generators and portable generators over 15 kW need a readily accessible disconnect per 445.18, within sight of the building, for that relief.\" Keep the 702.12(C) inlet note, the backfeed warning and the neutral-bonding guidance."
+      "next_id": "C7-702.12"
     },
     {
       "id": "C7-702.12",

@@ -1502,7 +1502,7 @@
       "article": "430",
       "section": "430.52",
       "title": "Branch-circuit short-circuit and ground-fault protection for motors",
-      "plain_explanation": "Section 430.52 sizes the device that clears a fault on a motor branch circuit, using the percentages in Table 430.52 applied to the table full-load current, with the device type (fuses, inverse-time breaker, instantaneous-trip breaker, and so on) deciding which column applies. These percentages are deliberately far above running current, because the device must ride through motor starting inrush without opening, while still clearing a fault. That is why a motor circuit can legally have a breaker that looks oversized for its wire — the overload device, not the breaker, is protecting the motor and, through its sizing rules, the circuit against overload.\n\nTable 430.52 maximum ratings, as a percentage of table full-load current:\n• Nontime-delay (single-element) fuses — 300 percent\n• Dual-element (time-delay) fuses — 175 percent\n• Inverse-time circuit breakers — 250 percent\n• Instantaneous-trip breakers — 800 percent, with the table's notes permitting up to 1300 percent for the listed motor designs and sizes\nWorked example: the 5 hp, 230 V motor at 28 A table FLC takes an inverse-time breaker of at most 28 × 2.50 = 70 A. If that device will not hold through starting, 430.52(C)(1) Exception 1 permits an inverse-time breaker up to 400 percent where the FLC is 100 A or less — an exception to document, not a habit.",
+      "plain_explanation": "Section 430.52 sizes the device that clears a fault on a motor branch circuit, using the percentages in Table 430.52 applied to the table full-load current, with the device type (fuses, inverse-time breaker, instantaneous-trip breaker, and so on) deciding which column applies. These percentages are deliberately far above running current, because the device must ride through motor starting inrush without opening, while still clearing a fault. That is why a motor circuit can legally have a breaker that looks oversized for its wire — the overload device, not the breaker, is protecting the motor and, through its sizing rules, the circuit against overload.\n\nTable 430.52 maximum ratings, as a percentage of table full-load current:\n• Nontime-delay (single-element) fuses — 300 percent\n• Dual-element (time-delay) fuses — 175 percent\n• Inverse-time circuit breakers — 250 percent\n• Instantaneous-trip breakers — 800 percent (1100 percent for Design B energy-efficient motors); 430.52(C)(3) Exception No. 1 permits up to 1300 percent where the 800% setting won't let the motor start, and Design B energy-efficient premium motors may go up to 1700 percent\nWorked example: the 5 hp, 230 V motor at 28 A table FLC takes an inverse-time breaker of at most 28 × 2.50 = 70 A. If that device will not hold through starting, 430.52(C)(1) Exception No. 2(c) permits an inverse-time breaker up to 400 percent where the FLC is 100 A or less — an exception to document, not a habit. (Exception No. 1 is the next-higher-standard-size permission, for where the table percentage does not land on a standard rating.)",
       "on_the_job": "Never judge a motor circuit by house-circuit instincts. Check all three together: conductor at 125 percent of table FLC (430.22), overload from the nameplate (430.32), fault protection from Table 430.52. If one of the three is missing from the job paperwork, the calculation is not finished.",
       "sharma_note": "",
       "figure_idea": "",
@@ -1510,12 +1510,10 @@
         "C4-L-027"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-430.32",
-      "next_id": "C4-430.62",
-      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: (1) The 400% inverse-time breaker permission is 430.52(C)(1) Exception No. 2(c), not \"Exception 1\". Exception No. 1 is the next-higher-standard-size permission when the percentage does not land on a standard rating. (2) The 1300% instantaneous-trip permission is 430.52(C)(3) Exception No. 1, not a table note. It applies where the 800% setting won't let the motor start; Design B energy-efficient premium motors go up to 1700%. Add: Table 430.52 lists 1100% instantaneous-trip for Design B energy-efficient motors. Confirm all these figures against the printed 2020 Table 430.52 and 430.52(C)(3). The 300/175/250/800% values and the 70A worked example are correct.",
-      "recheck_correction": "(1) The 400% inverse-time breaker permission is 430.52(C)(1) Exception No. 2(c), not \"Exception 1\". Exception No. 1 is the next-higher-standard-size permission when the percentage does not land on a standard rating. (2) The 1300% instantaneous-trip permission is 430.52(C)(3) Exception No. 1, not a table note. It applies where the 800% setting won't let the motor start; Design B energy-efficient premium motors go up to 1700%. Add: Table 430.52 lists 1100% instantaneous-trip for Design B energy-efficient motors. Confirm all these figures against the printed 2020 Table 430.52 and 430.52(C)(3). The 300/175/250/800% values and the 70A worked example are correct."
+      "next_id": "C4-430.62"
     },
     {
       "id": "C4-430.62",
@@ -2062,7 +2060,7 @@
       "article": "450",
       "section": "450.21",
       "title": "Where dry-type transformers may sit (450.21)",
-      "plain_explanation": "Section 450.21 governs indoor dry-type transformer locations. Transformers rated 112½ kVA or less must sit at least 12 inches from combustible material, unless separated from it by a fire-resistant, heat-insulated barrier, or enclosed so the heat stays in. Larger indoor dry-types — over 112½ kVA — go in a transformer room of fire-resistant construction, with the section's exceptions for enclosed units and higher insulation systems. Ventilation under 450.9 keeps the heat moving; this section keeps the heat away from things that burn.",
+      "plain_explanation": "Section 450.21 governs indoor dry-type transformer locations. Transformers rated 112½ kVA or less must sit at least 12 inches from combustible material, unless separated from it by a fire-resistant, heat-insulating barrier. This does not apply to transformers rated 1000V or less that are completely enclosed, except for ventilating openings (450.21(A) Exception). Larger indoor dry-types — over 112½ kVA — go in a transformer room of fire-resistant construction with a minimum 1-hour fire rating, with the section's exceptions: Exception No. 1 covers Class 155 or higher insulation systems separated by a fire-resistant, heat-insulating barrier, or by at least 6 ft horizontally and 12 ft vertically from combustible material. Ventilation under 450.9 keeps the heat moving; this section keeps the heat away from things that burn.",
       "on_the_job": "Setting a dry-type in a wood-framed electrical closet: measure the 12 inches before the transformer is hung, not after. The closet's wall finish decides which rule you are under — confirm what the wall is made of.",
       "sharma_note": "",
       "figure_idea": "Plan-view sketch: transformer with the 12-inch clear ring to a combustible wall, and the barrier alternative.",
@@ -2071,12 +2069,10 @@
         "C4-450.3"
       ],
       "florida_note": "",
-      "verified": false,
+      "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C4-450.14",
-      "next_id": "C4-ART-455",
-      "unverified_reason": "Mike Holt recheck correction (2026-11-25) not yet fully folded into the text above, so read this first: Change \"or enclosed so the heat stays in\" to the actual exception: \"This does not apply to transformers rated 1000V or less that are completely enclosed, except for ventilating openings (450.21(A) Exception).\" Add that the over-112½ kVA transformer room is of fire-resistant construction with a minimum 1-hour fire rating. Exception No. 1 covers Class 155 or higher insulation systems separated by a fire-resistant, heat-insulating barrier, or by at least 6 ft horizontally and 12 ft vertically from combustible material.",
-      "recheck_correction": "Change \"or enclosed so the heat stays in\" to the actual exception: \"This does not apply to transformers rated 1000V or less that are completely enclosed, except for ventilating openings (450.21(A) Exception).\" Add that the over-112½ kVA transformer room is of fire-resistant construction with a minimum 1-hour fire rating. Exception No. 1 covers Class 155 or higher insulation systems separated by a fire-resistant, heat-insulating barrier, or by at least 6 ft horizontally and 12 ft vertically from combustible material."
+      "next_id": "C4-ART-455"
     },
     {
       "id": "C4-ART-455",
