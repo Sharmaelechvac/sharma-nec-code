@@ -254,15 +254,57 @@
       "figure_idea": "Cross-section of a conductor with heat arrows leaving it: ampacity is set by the heat the insulation can take, not by the copper alone.",
       "related_ids": [
         "C1-L-014",
-        "S-10"
+        "S-10",
+        "C1-L-063"
       ],
       "florida_note": "Florida attic temperatures make ambient correction a real design step, not a paperwork exercise.",
       "verified": true,
       "prev_id": "C1-100-ACCESSIBLE",
-      "next_id": "C1-100-APPLIANCE",
+      "next_id": "C1-100-CONDUCTORS",
       "sharma_rule_ids": [
         "S-10"
       ]
+    },
+    {
+      "id": "C1-100-CONDUCTORS",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Conductors — bare, covered, insulated, and the neutral",
+      "plain_explanation": "Article 100 sorts conductors by what is on the metal. A bare conductor has no covering or insulation at all. A covered conductor has a covering that is not recognized insulation — it may protect against weather or abrasion, but it earns the wire no insulation rating. An insulated conductor has insulation that is recognized for the use, which is the normal building wire a crew handles. The neutral conductor is the conductor connected to the system's neutral point that is intended to carry current under normal conditions; the neutral point is the common point of a wye connection, or the midpoint of a single-phase or DC system, from which the circuit conductors are referenced.",
+      "on_the_job": "Do not treat a covered conductor as insulated when a rule calls for insulation — service-drop covering is the classic example. And the neutral is a current-carrying working conductor, not a spare ground: it lands on the neutral bar and is only bonded to ground where the Code allows the bond.",
+      "sharma_note": "",
+      "figure_idea": "Three wire cross-sections side by side: bare metal, a weather covering, and full insulation, with the neutral point of a wye drawn beside them.",
+      "related_ids": [
+        "C1-L-071",
+        "C1-100-AMPACITY",
+        "C1-100-GROUNDED-GROUNDING"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-AMPACITY",
+      "next_id": "C1-100-VOLTAGE-FAMILY",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-VOLTAGE-FAMILY",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Voltage — nominal voltage, voltage to ground, and circuit voltage",
+      "plain_explanation": "Three voltage terms run through the whole Code. Voltage of a circuit is the greatest difference of potential between any two conductors of that circuit. Nominal voltage is the value the system is named by — 120, 240, 480 — used to classify circuits and equipment even though the actual voltage wanders a little above and below it. Voltage to ground is the voltage between a conductor and the earth or the grounded point of the system: on a 120/240V house service it is 120V, and on a 208Y/120V system it is 120V, which is why so many clearance and working-space rules key on it instead of the phase-to-phase number.",
+      "on_the_job": "When a table asks for voltage to ground, answer with the leg-to-ground number, not the nameplate of the service. A 120/240V panel sits in the 0–150V-to-ground row even though 240V appears across its bus.",
+      "sharma_note": "",
+      "figure_idea": "A 120/240V panel diagram with 120V arrows from each leg to ground and a 240V arrow leg-to-leg, each labelled with its term.",
+      "related_ids": [
+        "C1-110.4",
+        "C1-110.26(A)(1)"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-CONDUCTORS",
+      "next_id": "C1-100-APPLIANCE",
+      "sharma_rule_ids": []
     },
     {
       "id": "C1-100-APPLIANCE",
@@ -280,7 +322,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-AMPACITY",
+      "prev_id": "C1-100-VOLTAGE-FAMILY",
       "next_id": "C1-100-APPROVAL-FAMILY",
       "sharma_rule_ids": [
         "S-06"
@@ -306,11 +348,31 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C1-100-APPLIANCE",
-      "next_id": "C1-100-BONDING",
+      "next_id": "C1-100-EQUIPMENT-FAMILY",
       "sharma_rule_ids": [
         "S-02",
         "S-03"
       ]
+    },
+    {
+      "id": "C1-100-EQUIPMENT-FAMILY",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Equipment, utilization equipment, enclosures, and fittings",
+      "plain_explanation": "Equipment is the Code's umbrella word for the apparatus of an installation — fittings, devices, appliances, luminaires, machines and the like, whether they carry current or just support the parts that do. Utilization equipment is the narrower slice that actually uses electric energy to do work: heating, lighting, cooling, data processing and similar jobs. An enclosure is the case or housing around apparatus that keeps people away from live parts and protects the contents; enclosed describes apparatus that has such a case. A fitting is an accessory — a locknut, bushing or similar part — that does a mechanical job rather than an electrical one. A handhole enclosure is a small below-grade access enclosure, set flush or buried, whose cover a worker removes by hand to reach the conductors inside.",
+      "on_the_job": "Calling something 'equipment' is what brings the Article 110 rules with it — approval, working space, guarding. Handholes are the buried splice points on site work: they are enclosures, so the splices inside still have to be made with listed methods and the cover kept accessible, not paved over.",
+      "sharma_note": "",
+      "figure_idea": "A panel, a luminaire and a handhole in grade, each tagged with the term that covers it.",
+      "related_ids": [
+        "C1-110.28",
+        "C1-110.3"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-APPROVAL-FAMILY",
+      "next_id": "C1-100-BONDING",
+      "sharma_rule_ids": []
     },
     {
       "id": "C1-100-BONDING",
@@ -327,7 +389,28 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-APPROVAL-FAMILY",
+      "prev_id": "C1-100-EQUIPMENT-FAMILY",
+      "next_id": "C1-100-GROUNDING-FAMILY",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-GROUNDING-FAMILY",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Grounding conductors and electrodes — EGC, GEC, and bonding jumpers",
+      "plain_explanation": "The grounding family splits by job. The equipment grounding conductor (EGC) connects the metal frames of equipment back to the source so a ground fault becomes a big fault current that trips the breaker — it is the green or bare wire in every branch circuit. The grounding electrode conductor (GEC) connects the system to the grounding electrode — the rod, plate, concrete-encased electrode or other recognized earth connection itself. The main bonding jumper is the connection at the service between the grounded conductor and the EGC side; a system bonding jumper does the same job at a separately derived system. The existing Bonding and Grounded/Grounding pages cover the base words; this page is the conductor-by-conductor map.",
+      "on_the_job": "Mixing up the EGC and the GEC is the classic exam and inspection trap: the EGC protects people from energized metal, the GEC connects the system to earth, and they are sized from different tables (250.122 for the EGC, 250.66 for the GEC). The only neutral-to-ground bond in a house is the main bonding jumper at the service — downstream panels keep them separate.",
+      "sharma_note": "",
+      "figure_idea": "A house service diagram tracing three paths in three colours: EGC back to the panel, GEC down to the rod, and the main bonding jumper tying neutral to the enclosure at the service only.",
+      "related_ids": [
+        "C1-L-074",
+        "C1-100-BONDING",
+        "C1-100-GROUNDED-GROUNDING"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-BONDING",
       "next_id": "C1-100-GROUNDED-GROUNDING",
       "sharma_rule_ids": []
     },
@@ -348,7 +431,27 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-BONDING",
+      "prev_id": "C1-100-GROUNDING-FAMILY",
+      "next_id": "C1-100-GROUND-FAULT-FAMILY",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-GROUND-FAULT-FAMILY",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Ground fault, GFCI, and ground-fault protection of equipment",
+      "plain_explanation": "A ground fault is an unintended connection between an ungrounded conductor and normally non-current-carrying metal or the earth — the fault the EGC exists to turn into a breaker trip. Two protective terms build on it and are not interchangeable. A ground-fault circuit interrupter (GFCI) protects people: it watches for current leaking outside the intended path and opens the circuit at a few milliamperes, the personnel-protection level (Class A devices trip in the 4–6 mA range). Ground-fault protection of equipment (GFPE) protects equipment and conductors from damaging fault currents at much higher levels — hundreds of amperes on large services — and is not intended to protect a person from shock.",
+      "on_the_job": "A GFPE breaker on a big service will not save a helper who contacts a live part, and a receptacle GFCI is not equipment protection for a service. When a spec or an inspector says 'ground-fault protection,' ask which of the two is meant before ordering gear.",
+      "sharma_note": "",
+      "figure_idea": "Two trip curves side by side: a GFCI opening at a few milliamperes for personnel, and GFPE opening at hundreds of amperes for equipment.",
+      "related_ids": [
+        "C1-L-070",
+        "C1-100-GROUNDING-FAMILY"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-GROUNDED-GROUNDING",
       "next_id": "C1-100-BRANCH-CIRCUIT",
       "sharma_rule_ids": []
     },
@@ -368,11 +471,53 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-GROUNDED-GROUNDING",
-      "next_id": "C1-100-FEEDER",
+      "prev_id": "C1-100-GROUND-FAULT-FAMILY",
+      "next_id": "C1-100-BRANCH-CIRCUIT-TYPES",
       "sharma_rule_ids": [
         "S-01"
       ]
+    },
+    {
+      "id": "C1-100-BRANCH-CIRCUIT-TYPES",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Branch-circuit types — appliance, general purpose, individual, multiwire",
+      "plain_explanation": "Article 100 names four branch-circuit types. An appliance branch circuit feeds energy-utilizing equipment other than luminaires. A general purpose branch circuit feeds two or more receptacles or outlets for lighting and appliances. An individual branch circuit feeds only one piece of utilization equipment. A multiwire branch circuit uses two or more ungrounded conductors that have a voltage between them, sharing one grounded (neutral) conductor that carries only the unbalanced difference between them — the shared-neutral circuit a crew meets on kitchen and homerun work. The base Branch circuit page covers where a branch circuit starts and ends; this page is the family tree.",
+      "on_the_job": "The shared neutral is what makes a multiwire circuit efficient and dangerous at the same time: open that neutral under load and the two legs go in series across 240V, over-volting one side. Both legs must disconnect together, and the conductors must land on opposite legs — same-leg 'sharing' overloads the neutral instead of cancelling.",
+      "sharma_note": "",
+      "figure_idea": "Four simple one-line diagrams, one per type, with the multiwire circuit showing two hots sharing one neutral.",
+      "related_ids": [
+        "C1-L-068",
+        "C1-100-BRANCH-CIRCUIT"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-BRANCH-CIRCUIT",
+      "next_id": "C1-100-CIRCUIT-BREAKER",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-CIRCUIT-BREAKER",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Circuit breaker, panelboard, cabinet, and the fault ratings",
+      "plain_explanation": "A circuit breaker is a device that opens and closes a circuit by nonautomatic means and opens it automatically at a preset overcurrent — an adjustable-trip breaker lets that trip setting be changed without swapping internal parts. A panelboard is a single panel, or group of panel units, of switches or breakers in a cabinet, designed to mount in or against a wall; the cabinet (or cutout box) is the enclosure around it, surface or flush, with doors or trim as designed. Two fault ratings live here and are constantly confused: interrupting rating is the highest fault current a device itself can safely open at its rated voltage; short-circuit current rating (SCCR) is the fault current a piece of equipment as a whole can withstand or be protected at. The 110.9 and 110.10 pages carry the rules behind both ratings.",
+      "on_the_job": "A breaker that fits is not a breaker that belongs: its interrupting rating must meet or beat the available fault current at its terminals, and the panel's SCCR must cover the installation — check the labels before the gear is set, not at inspection.",
+      "sharma_note": "",
+      "figure_idea": "A panelboard cutaway: breakers inside, cabinet around them, with callouts for the interrupting rating on a breaker label and the SCCR on the panel label.",
+      "related_ids": [
+        "C1-L-069",
+        "C1-110.9",
+        "C1-110.10",
+        "C1-100-APPROVAL-FAMILY"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-BRANCH-CIRCUIT-TYPES",
+      "next_id": "C1-100-FEEDER",
+      "sharma_rule_ids": []
     },
     {
       "id": "C1-100-FEEDER",
@@ -389,7 +534,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-BRANCH-CIRCUIT",
+      "prev_id": "C1-100-CIRCUIT-BREAKER",
       "next_id": "C1-100-CONTINUOUS-LOAD",
       "sharma_rule_ids": []
     },
@@ -410,6 +555,27 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C1-100-FEEDER",
+      "next_id": "C1-100-LOAD-TERMS",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-LOAD-TERMS",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Demand factor, nonlinear load, and overcurrent",
+      "plain_explanation": "Demand factor is the ratio of the maximum demand of a system (or part of one) to the total connected load — it is always 1.0 or less, and it is what lets a feeder be smaller than the sum of everything plugged into it, because not everything runs at once. A nonlinear load is a load whose current waveform does not follow the voltage waveform — LED drivers, electronic ballasts, variable-speed drives and most plug-in electronics — which pushes harmonic current onto the system, especially the shared neutral. Overcurrent is any current above a conductor's or equipment's rating, from either of two causes crews must tell apart: an overload is too much legitimate load in an otherwise sound circuit, while a short circuit or ground fault is a failure — the protection and the troubleshooting are different for each.",
+      "on_the_job": "Demand factor is why the service math in Chapter 2 never just adds every breaker. Nonlinear loads are why a shared neutral on a multiwire circuit feeding LED lighting may need to be treated as current-carrying and sometimes upsized — the harmonics add on the neutral instead of cancelling.",
+      "sharma_note": "",
+      "figure_idea": "A bar chart: connected load tall, maximum demand shorter, the ratio labelled demand factor; beside it a distorted current waveform labelled nonlinear.",
+      "related_ids": [
+        "C1-L-073",
+        "C1-100-CONTINUOUS-LOAD",
+        "C1-100-BRANCH-CIRCUIT-TYPES"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-CONTINUOUS-LOAD",
       "next_id": "C1-100-DWELLING-UNIT",
       "sharma_rule_ids": []
     },
@@ -428,7 +594,28 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-CONTINUOUS-LOAD",
+      "prev_id": "C1-100-LOAD-TERMS",
+      "next_id": "C1-100-BATHROOM",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-BATHROOM",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Bathroom and clothes closet",
+      "plain_explanation": "A bathroom, in Article 100, is an area that includes a basin plus at least one of a toilet, a tub, or a shower — a room with only a toilet and no basin is not a bathroom under the Code, and a basin with nothing else is not either. The definition matters because whole rule sets switch on it: the 20A bathroom receptacle circuit, GFCI protection for bathroom receptacles, and the ban on receptacles inside tub and shower spaces. A clothes closet is the nonhabitable room or space meant for storing clothes — the definition behind the luminaire rules that keep hot, exposed lamps away from stored clothing and shelving.",
+      "on_the_job": "On plans, check the fixture list before applying bathroom rules: a powder room with a basin and toilet is a bathroom; a water closet alone is not. In closets, the clothes-closet definition is what triggers the luminaire type and clearance rules in 410.16 — treat any closet with a rod and shelf as one unless the plans say otherwise.",
+      "sharma_note": "",
+      "figure_idea": "Two small floor plans: basin + toilet ticked as a bathroom, toilet alone crossed, with a closet plan showing shelf and rod.",
+      "related_ids": [
+        "C1-L-061",
+        "C1-100-AREAS-IN-USE",
+        "C1-100-DWELLING-UNIT"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-DWELLING-UNIT",
       "next_id": "C1-100-EXPOSED",
       "sharma_rule_ids": []
     },
@@ -447,7 +634,27 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-DWELLING-UNIT",
+      "prev_id": "C1-100-BATHROOM",
+      "next_id": "C1-100-CONCEALED",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-CONCEALED",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Concealed",
+      "plain_explanation": "Concealed describes wiring or equipment that is made inaccessible by the structure or finish of the building — behind drywall, above a finished ceiling, inside a slab. It is the mirror of the Exposed page: concealed does not mean hidden from the Code. Concealed work still has to be installed by the rules for the method, because once the finish goes on, nobody can inspect or reach it without demolition — which is exactly why rough-in inspection happens before cover.",
+      "on_the_job": "Anything concealed still has to be accessible where the Code demands access — junction boxes and splices may not be buried behind finish, the trap the Accessible page warns about. If a box will end up concealed and unreachable, move it or add an access panel before the drywall goes up.",
+      "sharma_note": "",
+      "figure_idea": "A wall cross-section: cable and a box inside the finished wall marked concealed, with the box flagged as the part that may not be buried.",
+      "related_ids": [
+        "C1-100-EXPOSED",
+        "C1-100-ACCESSIBLE"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-EXPOSED",
       "next_id": "C1-100-LOCATIONS",
       "sharma_rule_ids": []
     },
@@ -468,7 +675,28 @@
       ],
       "florida_note": "Florida humidity and wind-driven rain push many borderline porch and carport locations toward damp or wet in the AHJ's judgment. Confirm borderline locations with the inspector rather than assuming dry.",
       "verified": true,
-      "prev_id": "C1-100-EXPOSED",
+      "prev_id": "C1-100-CONCEALED",
+      "next_id": "C1-100-EXPOSURE-TERMS",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-EXPOSURE-TERMS",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Weatherproof, watertight, and dusttight",
+      "plain_explanation": "Three enclosure-exposure terms, in rising order of sealing. Weatherproof means constructed or protected so that exposure to the weather does not interfere with successful operation — rain may reach it, but the equipment still works; it does not promise that water stays out. Watertight means constructed so moisture does not enter the enclosure under specified test conditions — the seal itself is the point. Dusttight means constructed so dust does not enter under specified test conditions. These sit alongside the Locations page: the location says how wet the place is, these terms say what the enclosure does about its environment.",
+      "on_the_job": "Weatherproof is the word that fools people — a weatherproof bell box sheds weather well enough to work, but it is not watertight, and neither word substitutes for the wet-location listing and in-use cover rules where those apply. Read the enclosure's actual rating for the job at hand.",
+      "sharma_note": "",
+      "figure_idea": "Three enclosures in rain: one working with water running off, one sealed against entry, one sealed against dust, each labelled.",
+      "related_ids": [
+        "C1-L-077",
+        "C1-100-LOCATIONS",
+        "C1-110.28"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-LOCATIONS",
       "next_id": "C1-100-OUTLET-RECEPTACLE",
       "sharma_rule_ids": []
     },
@@ -490,11 +718,30 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-LOCATIONS",
-      "next_id": "C1-100-SERVICE",
+      "prev_id": "C1-100-EXPOSURE-TERMS",
+      "next_id": "C1-100-LUMINAIRE-OUTLET",
       "sharma_rule_ids": [
         "S-04"
       ]
+    },
+    {
+      "id": "C1-100-LUMINAIRE-OUTLET",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Luminaire and lighting outlet",
+      "plain_explanation": "A luminaire is the complete lighting unit — lamp or LED source, the parts that distribute the light, position and protect the source, and connect it to the supply. It is the Code's word for what crews call a fixture, and the Code uses luminaire everywhere a rule means the whole unit, not just the bulb. A lighting outlet is an outlet intended to connect directly to a luminaire or lampholder — one of the outlet types on the Outlet and receptacle page, and the point where the branch circuit's responsibility for that light ends.",
+      "on_the_job": "Fixture counts on a takeoff are luminaire counts. When a rule or a plan says 'lighting outlet,' it means the box and circuit point, whether or not the luminaire itself has been set yet — rough-in is inspected against outlets, trim against luminaires.",
+      "sharma_note": "",
+      "figure_idea": "A ceiling box labelled lighting outlet with the luminaire below it labelled as the complete unit, lamp to housing.",
+      "related_ids": [
+        "C1-100-OUTLET-RECEPTACLE"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-OUTLET-RECEPTACLE",
+      "next_id": "C1-100-SERVICE",
+      "sharma_rule_ids": []
     },
     {
       "id": "C1-100-SERVICE",
@@ -512,7 +759,29 @@
       ],
       "florida_note": "The utility serving the job (for example FPL or a municipal utility) sets its own service-point and meter requirements alongside the NEC. Confirm the utility's current requirements on service work.",
       "verified": true,
-      "prev_id": "C1-100-OUTLET-RECEPTACLE",
+      "prev_id": "C1-100-LUMINAIRE-OUTLET",
+      "next_id": "C1-100-SERVICE-FAMILY",
+      "sharma_rule_ids": [
+        "S-09"
+      ]
+    },
+    {
+      "id": "C1-100-SERVICE-FAMILY",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Service conductors, drop, lateral, entrance, equipment, and point",
+      "plain_explanation": "The service family, piece by piece. The service point is the point where the utility's facilities meet the premises wiring — the boundary of responsibility. Service conductors run from the service point to the service disconnecting means. Overhead, they split into the service drop (the utility's overhead conductors from its system to the service point) and service-entrance conductors (on the customer side, from the service point to the service equipment). Underground, the utility's run to the service point is the service lateral. Service equipment is the gear — usually the main disconnect and its enclosure — that controls and cuts off the supply to the building. The base Service page introduces the family; this page is the map of who owns what, where.",
+      "on_the_job": "Nearly every service argument is a service-point argument: whose conductor, whose repair, whose standard. On Sharma services the meter sits outside and the panel inside, back to back, so the service-entrance run stays as short as the layout allows — and the utility's requirements govern everything on its side of the point.",
+      "sharma_note": "S-09: meter outside and panel inside, back to back, where the layout allows — the arrangement that keeps the service-entrance conductors short.",
+      "figure_idea": "An overhead and an underground service side by side, each split at a marked service point: drop/lateral on the utility side, entrance conductors and service equipment on the building side.",
+      "related_ids": [
+        "C1-L-029",
+        "C1-100-SERVICE"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-SERVICE",
       "next_id": "C1-100-IN-SIGHT",
       "sharma_rule_ids": [
         "S-09"
@@ -534,7 +803,49 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-SERVICE",
+      "prev_id": "C1-100-SERVICE-FAMILY",
+      "next_id": "C1-100-DEVICE-DISCONNECT",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-DEVICE-DISCONNECT",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Device, disconnecting means, and switch types",
+      "plain_explanation": "A device is a unit of an electrical system, other than a conductor, that carries or controls electric energy — switches, receptacles, breakers and thermostats are devices; wire and conduit are not. A disconnecting means is a device, group of devices, or other means by which the conductors of a circuit can be disconnected from their source — the thing the In Sight page measures from. Three switch types round out the family: a general-use switch controls lighting and appliance loads and is rated in amperes at its marked voltage; an isolating switch is meant to isolate a circuit from its source and is not intended to interrupt current under load; a motor-circuit switch is rated in horsepower and is built to interrupt the maximum operating overload current of the motor it serves.",
+      "on_the_job": "An isolating switch is not a load-break switch — opening one under load is an arc event, not a disconnect. When a rule calls for a disconnecting means, check that the device in hand is actually rated to do the disconnecting job for that load type.",
+      "sharma_note": "",
+      "figure_idea": "Three switches in a row — general-use, isolating, motor-circuit — with the load each is built to interrupt drawn beside it.",
+      "related_ids": [
+        "C1-100-IN-SIGHT",
+        "C1-110.22",
+        "C1-110.25"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-IN-SIGHT",
+      "next_id": "C1-100-SYSTEMS-WIRING",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-100-SYSTEMS-WIRING",
+      "chapter": 1,
+      "article": "100",
+      "section": "100",
+      "title": "Premises wiring, separately derived systems, raceway, and splices",
+      "plain_explanation": "The premises wiring system is all the wiring inside (and attached to) a building, from the service point — or from another power source such as a generator or solar system — out to the outlets; it does not include the internal wiring of equipment itself. A separately derived system is a premises wiring system fed from a source other than a service — a transformer, generator, converter or battery — that has no direct electrical connection to the supply conductors of another system, other than through grounding and bonding. A raceway is an enclosed channel built to hold conductors or cables — conduit and tubing are raceways; cable is not. A splice is the connection between conductors, and a splicing wire connector is the device — wire nut, lever connector, terminal block — listed to make that connection under pressure. A hoistway is the shaft-like space an elevator, dumbwaiter or similar equipment travels in, a space with its own wiring rules in Article 620.",
+      "on_the_job": "A transformer-fed panel is a separately derived system, which is why it gets its own neutral-to-ground bond through a system bonding jumper — the bond the Grounding family page describes. And every splice a crew makes lives or dies by the connector's listing: the connector, not the tape over it, is the splice.",
+      "sharma_note": "",
+      "figure_idea": "A building outline from service point to last outlet labelled premises wiring, a transformer feeding its own panel labelled separately derived, and a raceway cut open to show the conductors inside.",
+      "related_ids": [
+        "C1-L-072",
+        "C1-L-076",
+        "C1-100-GROUNDING-FAMILY"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-100-DEVICE-DISCONNECT",
       "next_id": "C1-100-SPECIAL-PERMISSION",
       "sharma_rule_ids": []
     },
@@ -553,7 +864,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-100-IN-SIGHT",
+      "prev_id": "C1-100-SYSTEMS-WIRING",
       "next_id": "C1-100-AREAS-IN-USE",
       "sharma_rule_ids": []
     },
@@ -712,7 +1023,9 @@
       "figure_idea": "",
       "related_ids": [
         "C1-L-038",
-        "S-10"
+        "S-10",
+        "C1-L-064",
+        "C1-L-067"
       ],
       "florida_note": "",
       "verified": true,
@@ -888,7 +1201,8 @@
         "L-039",
         "S-10",
         "C1-Q-013",
-        "C1-Q-014"
+        "C1-Q-014",
+        "C1-L-065"
       ],
       "florida_note": "",
       "verified": true,
@@ -976,6 +1290,23 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C1-110.15",
+      "next_id": "C1-110.17",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.17",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.17",
+      "title": "Servicing and maintenance of equipment",
+      "plain_explanation": "This section, new in the 2020 edition, addresses the servicing and maintenance of electrical equipment: servicing is to be done by qualified persons, and replacement parts and components are to be suitable for the equipment — identified for it or the manufacturer's specified replacements. Experience alone is not the standard; the person doing the work needs the training and knowledge the task and its hazards require.",
+      "on_the_job": "On service calls, replace failed components with parts identified for that equipment, and treat unfamiliar gear — especially commercial switchgear — as a qualified-persons-only job until the right person is on it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-110.16",
       "next_id": "C1-110.18",
       "sharma_rule_ids": []
     },
@@ -992,7 +1323,7 @@
       "related_ids": [],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-110.16",
+      "prev_id": "C1-110.17",
       "next_id": "C1-110.19",
       "sharma_rule_ids": []
     },
@@ -1010,6 +1341,25 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C1-110.18",
+      "next_id": "C1-110.20",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.20",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.20",
+      "title": "Reconditioned equipment",
+      "plain_explanation": "This section, new in the 2020 edition, governs equipment that has been reconditioned — rebuilt or restored — as distinct from equipment that has merely been serviced or had a failed part replaced with an approved equal. Reconditioned equipment has to be evaluated and accepted under the section's terms, the party that reconditioned it has to be identifiable, and some categories of equipment are restricted or not permitted to be reconditioned at all. A previous listing does not automatically survive an extensive rebuild.",
+      "on_the_job": "On commercial renovations, treat refurbished switchboards, panelboards and breakers as a question, not a bargain: who reconditioned it, under what evaluation, and is that category of equipment permitted to be reconditioned? Get the answer before it is set, not at inspection.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-L-034"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-110.19",
       "next_id": "C1-110.21",
       "sharma_rule_ids": []
     },
@@ -1028,7 +1378,7 @@
       ],
       "florida_note": "Exterior Florida labels fade fast. Use UV- and moisture-durable labels outside so required markings survive to the next inspection.",
       "verified": true,
-      "prev_id": "C1-110.19",
+      "prev_id": "C1-110.20",
       "next_id": "C1-110.22",
       "sharma_rule_ids": []
     },
@@ -1168,7 +1518,7 @@
       "article": "110",
       "section": "110.26(A)(1)",
       "title": "Depth of working space and the three conditions",
-      "plain_explanation": "Depth is read from the table in this section, which sets the distance by the voltage to ground and by what faces the worker. Condition 1 is exposed live parts on one side of the space with no live or grounded parts on the other side. Condition 2 puts a grounded surface, such as a concrete or masonry wall, on the far side. Condition 3 puts exposed live parts on both sides. At 0 to 150 volts to ground the table gives 3 ft for all three conditions; the conditions only change the depth at higher voltages — at 151 to 600 volts to ground the depths are 3 ft, 3 ft 6 in, and 4 ft. The worse the exposure across the aisle, the deeper the space must be once voltage makes the conditions diverge.",
+      "plain_explanation": "Depth is read from the table in this section, which sets the distance by the voltage to ground and by what faces the worker. Condition 1 is exposed live parts on one side of the space with no live or grounded parts on the other side. Condition 2 puts a grounded surface, such as a concrete or masonry wall, on the far side. Condition 3 puts exposed live parts on both sides. At 0 to 150 volts to ground the table gives 3 ft for all three conditions; the conditions only change the depth at higher voltages — at 151 to 600 volts to ground the depths are 3 ft, 3 ft 6 in, and 4 ft. The worse the exposure across the aisle, the deeper the space must be once voltage makes the conditions diverge.\n\nTable 110.26(A)(1) — minimum depth of working space, by voltage to ground:\n• 0–150 V to ground — Condition 1: 3 ft · Condition 2: 3 ft · Condition 3: 3 ft\n• 151–600 V to ground — Condition 1: 3 ft · Condition 2: 3½ ft · Condition 3: 4 ft\n• 601–1000 V to ground — Condition 1: 3 ft · Condition 2: 4 ft · Condition 3: 5 ft",
       "on_the_job": "For a house panel on a wood-framed wall with nothing live across the aisle, Condition 1 and its 3 ft depth for up to 150V to ground is the everyday case. A second panel facing the first makes it Condition 3 — still 3 ft at house voltage, because at 150V or less to ground all three conditions are 3 ft. Recheck the table when the voltage to ground goes above 150V.",
       "sharma_note": "",
       "figure_idea": "Three aisle cross-sections labelled Condition 1, 2 and 3, showing what is on the far wall in each and an arrow pointing to the table for the depth.",
@@ -1180,8 +1530,50 @@
         "C1-Q-019"
       ],
       "florida_note": "",
-      "verified": true,
+      "verified": false,
       "prev_id": "C1-110.26(A)",
+      "next_id": "C1-110.26(A)(2)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.26(A)(2)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(A)(2)",
+      "title": "Width of working space",
+      "plain_explanation": "The working space in front of electrical equipment must be at least 30 in. wide, or the width of the equipment itself, whichever is greater. The width is measured so the worker can stand squarely in front of the gear: the space may be arranged with the equipment offset within it, but the 30 in. minimum — or the full equipment width on wider gear — has to be there, and like all working space it must stay clear, not become storage.\n• Width: 30 in. minimum, or the width of the equipment if the equipment is wider",
+      "on_the_job": "A residential panel is usually narrower than 30 in., so the 30 in. rule is the one that governs — measure it before closets, shelving or a water heater get framed into that strip. On wide commercial switchgear, the equipment's own width takes over.",
+      "sharma_note": "",
+      "figure_idea": "A panel front-on with a 30 in. dimension line across the working space and a wider switchboard beside it measured at its own width.",
+      "related_ids": [
+        "C1-L-053",
+        "C1-110.26(A)",
+        "C1-110.26(A)(1)"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-110.26(A)(1)",
+      "next_id": "C1-110.26(A)(3)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.26(A)(3)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(A)(3)",
+      "title": "Height of working space",
+      "plain_explanation": "The working space must extend from the floor or platform up to a height of 6½ ft, or the height of the equipment itself, whichever is greater. Two everyday exceptions temper the number: in existing buildings, smaller service equipment or panelboards (200A or less, in dwelling-related installations) that do not meet the height may be permitted where the AHJ allows, and meters and meter sockets may project into the space within limits. Equipment above the space — a sprinkler pipe or a duct that is not electrical — is a dedicated-space question under 110.26(E), not a reason to shrink the height.\n• Height: 6½ ft minimum, or the height of the equipment if the equipment is taller",
+      "on_the_job": "Six and a half feet is taller than most helpers pace it off — a standard door header sits right at the line. Check the height before a soffit or duct gets framed over a panel location, and treat the exceptions as AHJ conversations, not assumptions.",
+      "sharma_note": "",
+      "figure_idea": "A panel elevation with a 6½ ft dimension line from floor to the top of the working space and a duct drawn above the line.",
+      "related_ids": [
+        "C1-L-053",
+        "C1-110.26(A)",
+        "C1-110.26(E)"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-110.26(A)(2)",
       "next_id": "C1-110.26(B-D)",
       "sharma_rule_ids": []
     },
@@ -1201,7 +1593,48 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-110.26(A)(1)",
+      "prev_id": "C1-110.26(A)(3)",
+      "next_id": "C1-110.26(C)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.26(C)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(C)",
+      "title": "Entrance to and exit from working space",
+      "plain_explanation": "There must be at least one entrance to and exit from the working space, sized and arranged so a worker can get in, work, and get out without squeezing past the equipment. For large equipment — rated 1200A or more and over 6 ft wide, containing overcurrent, switching or control devices — there must be an entrance at each end of the working space, and a single entrance is only allowed where the layout gives an unobstructed, doubled-depth or otherwise Code-accepted escape path. Doors serving these spaces that open into the working-space area are part of the rule's concern: personnel doors within the stated distance of the equipment must open in the direction of exit travel and be fitted with listed panic hardware, so a worker reacting to an arc event pushes out instead of pulling a door against the blast.",
+      "on_the_job": "Houses rarely trip the 1200A rule, but the one-entrance principle applies everywhere: never let a panel room get framed so the only way out is past the gear. On commercial jobs with big switchboards, count the entrances at layout, and check the door swing and panic hardware before the doors are hung.",
+      "sharma_note": "",
+      "figure_idea": "A switchboard room plan: a wide lineup with a door at each end of the working space, arrows showing exit travel away from the gear.",
+      "related_ids": [
+        "C1-L-075",
+        "C1-110.26(A)",
+        "C1-110.26(B-D)"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-110.26(B-D)",
+      "next_id": "C1-110.26(D)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.26(D)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(D)",
+      "title": "Illumination",
+      "plain_explanation": "Illumination must be provided for the working spaces about service equipment, switchboards, switchgear, panelboards and motor control centers — a worker reading a directory, a torque spec or a fault label cannot be expected to do it in the dark. The light may not be controlled by automatic means only, so a motion-sensor-only setup that can strand a worker in darkness mid-task does not satisfy the rule; there has to be a manual way to keep the light on. Outdoor working spaces are covered by the same requirement, with the light arranged for the space itself.",
+      "on_the_job": "A panel in a garage or an exterior disconnect still needs its light. If the only light on the plan is a motion sensor, flag it at rough-in — adding the manual control after trim is a return trip.",
+      "sharma_note": "",
+      "figure_idea": "A panel with a dedicated light above the working space and a wall switch beside it, the motion-sensor-only version crossed out.",
+      "related_ids": [
+        "C1-110.26(B-D)",
+        "C1-110.26(A)"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "prev_id": "C1-110.26(C)",
       "next_id": "C1-110.26(E)",
       "sharma_rule_ids": []
     },
@@ -1222,7 +1655,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-110.26(B-D)",
+      "prev_id": "C1-110.26(D)",
       "next_id": "C1-110.27",
       "sharma_rule_ids": []
     },
@@ -1353,6 +1786,16 @@
           "title": "Ampacity"
         },
         {
+          "id": "C1-100-CONDUCTORS",
+          "section": "100",
+          "title": "Conductors — bare, covered, insulated, and the neutral"
+        },
+        {
+          "id": "C1-100-VOLTAGE-FAMILY",
+          "section": "100",
+          "title": "Voltage — nominal voltage, voltage to ground, and circuit voltage"
+        },
+        {
           "id": "C1-100-APPLIANCE",
           "section": "100",
           "title": "Appliance"
@@ -1363,9 +1806,19 @@
           "title": "Approved, identified, labeled, and listed"
         },
         {
+          "id": "C1-100-EQUIPMENT-FAMILY",
+          "section": "100",
+          "title": "Equipment, utilization equipment, enclosures, and fittings"
+        },
+        {
           "id": "C1-100-BONDING",
           "section": "100",
           "title": "Bonding — bonded, bonding conductor, bonding jumper"
+        },
+        {
+          "id": "C1-100-GROUNDING-FAMILY",
+          "section": "100",
+          "title": "Grounding conductors and electrodes — EGC, GEC, and bonding jumpers"
         },
         {
           "id": "C1-100-GROUNDED-GROUNDING",
@@ -1373,9 +1826,24 @@
           "title": "Grounded and grounding — telling the conductors apart"
         },
         {
+          "id": "C1-100-GROUND-FAULT-FAMILY",
+          "section": "100",
+          "title": "Ground fault, GFCI, and ground-fault protection of equipment"
+        },
+        {
           "id": "C1-100-BRANCH-CIRCUIT",
           "section": "100",
           "title": "Branch circuit"
+        },
+        {
+          "id": "C1-100-BRANCH-CIRCUIT-TYPES",
+          "section": "100",
+          "title": "Branch-circuit types — appliance, general purpose, individual, multiwire"
+        },
+        {
+          "id": "C1-100-CIRCUIT-BREAKER",
+          "section": "100",
+          "title": "Circuit breaker, panelboard, cabinet, and the fault ratings"
         },
         {
           "id": "C1-100-FEEDER",
@@ -1388,9 +1856,19 @@
           "title": "Continuous load"
         },
         {
+          "id": "C1-100-LOAD-TERMS",
+          "section": "100",
+          "title": "Demand factor, nonlinear load, and overcurrent"
+        },
+        {
           "id": "C1-100-DWELLING-UNIT",
           "section": "100",
           "title": "Dwelling unit"
+        },
+        {
+          "id": "C1-100-BATHROOM",
+          "section": "100",
+          "title": "Bathroom and clothes closet"
         },
         {
           "id": "C1-100-EXPOSED",
@@ -1398,9 +1876,19 @@
           "title": "Exposed — live parts and wiring methods"
         },
         {
+          "id": "C1-100-CONCEALED",
+          "section": "100",
+          "title": "Concealed"
+        },
+        {
           "id": "C1-100-LOCATIONS",
           "section": "100",
           "title": "Locations — dry, damp, and wet"
+        },
+        {
+          "id": "C1-100-EXPOSURE-TERMS",
+          "section": "100",
+          "title": "Weatherproof, watertight, and dusttight"
         },
         {
           "id": "C1-100-OUTLET-RECEPTACLE",
@@ -1408,14 +1896,34 @@
           "title": "Outlet and receptacle"
         },
         {
+          "id": "C1-100-LUMINAIRE-OUTLET",
+          "section": "100",
+          "title": "Luminaire and lighting outlet"
+        },
+        {
           "id": "C1-100-SERVICE",
           "section": "100",
           "title": "Service — the family of service terms"
         },
         {
+          "id": "C1-100-SERVICE-FAMILY",
+          "section": "100",
+          "title": "Service conductors, drop, lateral, entrance, equipment, and point"
+        },
+        {
           "id": "C1-100-IN-SIGHT",
           "section": "100",
           "title": "In sight from — and disconnecting means"
+        },
+        {
+          "id": "C1-100-DEVICE-DISCONNECT",
+          "section": "100",
+          "title": "Device, disconnecting means, and switch types"
+        },
+        {
+          "id": "C1-100-SYSTEMS-WIRING",
+          "section": "100",
+          "title": "Premises wiring, separately derived systems, raceway, and splices"
         },
         {
           "id": "C1-100-SPECIAL-PERMISSION",
@@ -1472,7 +1980,7 @@
         {
           "id": "C1-110.7",
           "section": "110.7",
-          "title": "Integrity of equipment and connections"
+          "title": "Wiring integrity"
         },
         {
           "id": "C1-110.8",
@@ -1530,6 +2038,11 @@
           "title": "Arc-flash hazard warning marking"
         },
         {
+          "id": "C1-110.17",
+          "section": "110.17",
+          "title": "Servicing and maintenance of equipment"
+        },
+        {
           "id": "C1-110.18",
           "section": "110.18",
           "title": "Arcing parts"
@@ -1538,6 +2051,11 @@
           "id": "C1-110.19",
           "section": "110.19",
           "title": "Light and power from railway conductors (orientation)"
+        },
+        {
+          "id": "C1-110.20",
+          "section": "110.20",
+          "title": "Reconditioned equipment"
         },
         {
           "id": "C1-110.21",
@@ -1580,9 +2098,29 @@
           "title": "Depth of working space and the three conditions"
         },
         {
+          "id": "C1-110.26(A)(2)",
+          "section": "110.26(A)(2)",
+          "title": "Width of working space"
+        },
+        {
+          "id": "C1-110.26(A)(3)",
+          "section": "110.26(A)(3)",
+          "title": "Height of working space"
+        },
+        {
           "id": "C1-110.26(B-D)",
           "section": "110.26(B)",
           "title": "Clear space, entrance and egress, and illumination"
+        },
+        {
+          "id": "C1-110.26(C)",
+          "section": "110.26(C)",
+          "title": "Entrance to and exit from working space"
+        },
+        {
+          "id": "C1-110.26(D)",
+          "section": "110.26(D)",
+          "title": "Illumination"
         },
         {
           "id": "C1-110.26(E)",
@@ -1662,6 +2200,12 @@
       ]
     },
     {
+      "term": "Bathroom",
+      "ids": [
+        "C1-100-BATHROOM"
+      ]
+    },
+    {
       "term": "Bonding",
       "ids": [
         "C1-100-BONDING"
@@ -1674,6 +2218,18 @@
       ]
     },
     {
+      "term": "Branch circuit, types",
+      "ids": [
+        "C1-100-BRANCH-CIRCUIT-TYPES"
+      ]
+    },
+    {
+      "term": "Cabinet and cutout box",
+      "ids": [
+        "C1-100-CIRCUIT-BREAKER"
+      ]
+    },
+    {
       "term": "CCA (copper-clad aluminum)",
       "ids": [
         "C1-100-AMPACITY",
@@ -1682,9 +2238,33 @@
       ]
     },
     {
+      "term": "Circuit breaker",
+      "ids": [
+        "C1-100-CIRCUIT-BREAKER"
+      ]
+    },
+    {
+      "term": "Clothes closet",
+      "ids": [
+        "C1-100-BATHROOM"
+      ]
+    },
+    {
+      "term": "Concealed",
+      "ids": [
+        "C1-100-CONCEALED"
+      ]
+    },
+    {
       "term": "Conductor sizes (AWG / kcmil)",
       "ids": [
         "C1-110.6"
+      ]
+    },
+    {
+      "term": "Conductors, bare / covered / insulated",
+      "ids": [
+        "C1-100-CONDUCTORS"
       ]
     },
     {
@@ -1713,6 +2293,18 @@
       ]
     },
     {
+      "term": "Demand factor",
+      "ids": [
+        "C1-100-LOAD-TERMS"
+      ]
+    },
+    {
+      "term": "Device",
+      "ids": [
+        "C1-100-DEVICE-DISCONNECT"
+      ]
+    },
+    {
       "term": "Disconnect, identification of",
       "ids": [
         "C1-110.22"
@@ -1723,7 +2315,8 @@
       "ids": [
         "C1-100-IN-SIGHT",
         "C1-110.22",
-        "C1-110.25"
+        "C1-110.25",
+        "C1-100-DEVICE-DISCONNECT"
       ]
     },
     {
@@ -1739,9 +2332,21 @@
       ]
     },
     {
+      "term": "Dusttight",
+      "ids": [
+        "C1-100-EXPOSURE-TERMS"
+      ]
+    },
+    {
       "term": "Dwelling unit",
       "ids": [
         "C1-100-DWELLING-UNIT"
+      ]
+    },
+    {
+      "term": "Enclosed and enclosure",
+      "ids": [
+        "C1-100-EQUIPMENT-FAMILY"
       ]
     },
     {
@@ -1749,6 +2354,18 @@
       "ids": [
         "C1-110.28",
         "C1-110.11"
+      ]
+    },
+    {
+      "term": "Equipment",
+      "ids": [
+        "C1-100-EQUIPMENT-FAMILY"
+      ]
+    },
+    {
+      "term": "Equipment grounding conductor (EGC)",
+      "ids": [
+        "C1-100-GROUNDING-FAMILY"
       ]
     },
     {
@@ -1773,9 +2390,33 @@
       ]
     },
     {
+      "term": "Fitting",
+      "ids": [
+        "C1-100-EQUIPMENT-FAMILY"
+      ]
+    },
+    {
       "term": "Garage",
       "ids": [
         "C1-100-AREAS-IN-USE"
+      ]
+    },
+    {
+      "term": "GFCI (ground-fault circuit interrupter)",
+      "ids": [
+        "C1-100-GROUND-FAULT-FAMILY"
+      ]
+    },
+    {
+      "term": "Ground fault",
+      "ids": [
+        "C1-100-GROUND-FAULT-FAMILY"
+      ]
+    },
+    {
+      "term": "Ground-fault protection of equipment (GFPE)",
+      "ids": [
+        "C1-100-GROUND-FAULT-FAMILY"
       ]
     },
     {
@@ -1791,9 +2432,27 @@
       ]
     },
     {
+      "term": "Grounding electrode",
+      "ids": [
+        "C1-100-GROUNDING-FAMILY"
+      ]
+    },
+    {
+      "term": "Grounding electrode conductor (GEC)",
+      "ids": [
+        "C1-100-GROUNDING-FAMILY"
+      ]
+    },
+    {
       "term": "Guarding of live parts",
       "ids": [
         "C1-110.27"
+      ]
+    },
+    {
+      "term": "Handhole enclosure",
+      "ids": [
+        "C1-100-EQUIPMENT-FAMILY"
       ]
     },
     {
@@ -1803,9 +2462,21 @@
       ]
     },
     {
+      "term": "Hoistway",
+      "ids": [
+        "C1-100-SYSTEMS-WIRING"
+      ]
+    },
+    {
       "term": "Identified",
       "ids": [
         "C1-100-APPROVAL-FAMILY"
+      ]
+    },
+    {
+      "term": "Illumination, working space",
+      "ids": [
+        "C1-110.26(D)"
       ]
     },
     {
@@ -1831,7 +2502,8 @@
       "term": "Interrupting rating",
       "ids": [
         "C1-110.9",
-        "C1-110.24"
+        "C1-110.24",
+        "C1-100-CIRCUIT-BREAKER"
       ]
     },
     {
@@ -1853,6 +2525,12 @@
       ]
     },
     {
+      "term": "Lighting outlet",
+      "ids": [
+        "C1-100-LUMINAIRE-OUTLET"
+      ]
+    },
+    {
       "term": "Listed",
       "ids": [
         "C1-100-APPROVAL-FAMILY",
@@ -1867,6 +2545,18 @@
       ]
     },
     {
+      "term": "Luminaire",
+      "ids": [
+        "C1-100-LUMINAIRE-OUTLET"
+      ]
+    },
+    {
+      "term": "Main bonding jumper",
+      "ids": [
+        "C1-100-GROUNDING-FAMILY"
+      ]
+    },
+    {
       "term": "Marking, equipment",
       "ids": [
         "C1-110.21",
@@ -1875,9 +2565,57 @@
       ]
     },
     {
+      "term": "Multiwire branch circuit",
+      "ids": [
+        "C1-100-BRANCH-CIRCUIT-TYPES"
+      ]
+    },
+    {
+      "term": "Neutral conductor and neutral point",
+      "ids": [
+        "C1-100-CONDUCTORS"
+      ]
+    },
+    {
+      "term": "Nominal voltage",
+      "ids": [
+        "C1-100-VOLTAGE-FAMILY"
+      ]
+    },
+    {
+      "term": "Nonlinear load",
+      "ids": [
+        "C1-100-LOAD-TERMS"
+      ]
+    },
+    {
       "term": "Outlet",
       "ids": [
         "C1-100-OUTLET-RECEPTACLE"
+      ]
+    },
+    {
+      "term": "Overcurrent and overload",
+      "ids": [
+        "C1-100-LOAD-TERMS"
+      ]
+    },
+    {
+      "term": "Panelboard",
+      "ids": [
+        "C1-100-CIRCUIT-BREAKER"
+      ]
+    },
+    {
+      "term": "Premises wiring system",
+      "ids": [
+        "C1-100-SYSTEMS-WIRING"
+      ]
+    },
+    {
+      "term": "Raceway",
+      "ids": [
+        "C1-100-SYSTEMS-WIRING"
       ]
     },
     {
@@ -1893,9 +2631,34 @@
       ]
     },
     {
+      "term": "Reconditioned equipment",
+      "ids": [
+        "C1-110.20"
+      ]
+    },
+    {
       "term": "Scope of the Code",
       "ids": [
         "C1-90.2"
+      ]
+    },
+    {
+      "term": "Separately derived system",
+      "ids": [
+        "C1-100-SYSTEMS-WIRING"
+      ]
+    },
+    {
+      "term": "Service conductors, drop, lateral, entrance",
+      "ids": [
+        "C1-100-SERVICE-FAMILY"
+      ]
+    },
+    {
+      "term": "Service point",
+      "ids": [
+        "C1-100-SERVICE-FAMILY",
+        "C1-100-SERVICE"
       ]
     },
     {
@@ -1903,6 +2666,18 @@
       "ids": [
         "C1-100-SERVICE",
         "C1-90.2"
+      ]
+    },
+    {
+      "term": "Servicing and maintenance",
+      "ids": [
+        "C1-110.17"
+      ]
+    },
+    {
+      "term": "Short-circuit current rating (SCCR)",
+      "ids": [
+        "C1-100-CIRCUIT-BREAKER"
       ]
     },
     {
@@ -1917,6 +2692,18 @@
         "C1-100-SPECIAL-PERMISSION",
         "C1-90.2",
         "C1-90.4"
+      ]
+    },
+    {
+      "term": "Splice and splicing wire connector",
+      "ids": [
+        "C1-100-SYSTEMS-WIRING"
+      ]
+    },
+    {
+      "term": "Switches — general-use, isolating, motor-circuit",
+      "ids": [
+        "C1-100-DEVICE-DISCONNECT"
       ]
     },
     {
@@ -1939,9 +2726,33 @@
       ]
     },
     {
+      "term": "Utilization equipment",
+      "ids": [
+        "C1-100-EQUIPMENT-FAMILY"
+      ]
+    },
+    {
+      "term": "Voltage to ground",
+      "ids": [
+        "C1-100-VOLTAGE-FAMILY"
+      ]
+    },
+    {
       "term": "Voltages, nominal",
       "ids": [
         "C1-110.4"
+      ]
+    },
+    {
+      "term": "Watertight",
+      "ids": [
+        "C1-100-EXPOSURE-TERMS"
+      ]
+    },
+    {
+      "term": "Weatherproof",
+      "ids": [
+        "C1-100-EXPOSURE-TERMS"
       ]
     },
     {
@@ -1961,7 +2772,15 @@
       "term": "Working space, depth / width / height",
       "ids": [
         "C1-110.26(A)",
-        "C1-110.26(A)(1)"
+        "C1-110.26(A)(1)",
+        "C1-110.26(A)(2)",
+        "C1-110.26(A)(3)"
+      ]
+    },
+    {
+      "term": "Working space, entrance and exit",
+      "ids": [
+        "C1-110.26(C)"
       ]
     },
     {

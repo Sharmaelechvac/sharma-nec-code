@@ -1003,5 +1003,284 @@
     "verified": true,
     "verified_by": "Master audit reconciliation 2026-11-12 (external audit claim verified against NEC 2020 Article 100)",
     "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C1-L-063",
+    "question": "How do calculations change when the conductor is CCA? (material option overview)",
+    "aliases": [
+      "CCA calculations",
+      "material choice copper aluminum CCA",
+      "CCA calculator rules"
+    ],
+    "answer_plain": "Every conductor calculation in this book runs with a material choice: copper, aluminum, or copper-clad aluminum. Ampacity for CCA comes from the aluminum column of Table 310.16, with the tighter 240.4(D) small-conductor caps, so Sharma sizes CCA one AWG larger than copper for the same breaker. Box fill and conduit fill do not change with the metal at the same size, and load calculations are done in volt-amperes first, with the conductor picked last in the chosen material.",
+    "nec_ref": "110.5",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "CCA",
+      "calculations"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C1-L-064",
+    "question": "What resistance do I use for voltage drop on CCA?",
+    "aliases": [
+      "CCA voltage drop",
+      "CCA resistance ohms"
+    ],
+    "answer_plain": "Use resistance data for CCA itself, not the copper values and not a guessed factor. Chapter 9 Table 8 may not list CCA; where it does not, the value must come from cited manufacturer or UL data for the actual product, and any CCA resistance figure used in a calculation stays flagged until that citation is on file. Never invent a CCA resistance number to finish a voltage-drop calculation.",
+    "nec_ref": "110.5",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "CCA",
+      "voltage drop"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11",
+    "verified": false,
+    "unverified_reason": "No CCA resistance value is stated here: NEC Chapter 9 Table 8 may not list CCA, and no manufacturer/UL CCA resistance table was on file for this pass. Rule stated per Sanjay's direction 2026-11-11; values to be added only from cited manufacturer or UL data."
+  },
+  {
+    "id": "C1-L-065",
+    "question": "Where is CCA OK to terminate? (calculation and device summary)",
+    "aliases": [
+      "CCA terminations summary",
+      "CCA devices wire nuts lugs"
+    ],
+    "answer_plain": "Fifteen- and 20-amp device screw terminals are fine for CCA unless the device is marked otherwise, and devices 30A and up are copper-only unless marked AL/CU. Wire nuts, splicing connectors and lugs used with CCA or aluminum must be marked for the combination (AL-CU / CU-AL, or the intermixed marking where metals touch); a CU-only connector is not suitable. Backstab push-in terminals are 14 AWG solid copper only, so CCA is never backstabbed.",
+    "nec_ref": "110.14",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "CCA",
+      "terminations"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C1-L-066",
+    "question": "Does box fill or conduit fill change if the wire is CCA instead of copper?",
+    "aliases": [
+      "CCA box fill",
+      "CCA conduit fill",
+      "fill by metal"
+    ],
+    "answer_plain": "No — fill goes by the conductor's size and insulation, not its metal. A 12 AWG conductor counts 2.25 cu in under Table 314.16(B) and takes its Table 5 area from its size and insulation type whether it is copper or CCA, so the same sizes in the same box or raceway give the same result. What changes on a CCA job is the size itself: a 20A circuit wired in 10 AWG CCA counts at 10 AWG volume, because the conductor in the box is bigger.",
+    "nec_ref": "314.16",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "CCA",
+      "box fill",
+      "conduit fill"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C1-L-067",
+    "question": "How do load calculations and service sizing work when the job is wired in CCA?",
+    "aliases": [
+      "CCA load calc",
+      "CCA service sizing material"
+    ],
+    "answer_plain": "The load calculation itself does not change: demand is figured in volt-amperes and amperes the same way whatever the metal will be. The material choice lands at the last step, when the conductor is picked — a CCA service or feeder conductor is selected from the aluminum column of Table 310.16 at the size the calculated load requires. Run the math once, then pick the conductor in the material the job is actually using.",
+    "nec_ref": "220.82",
+    "nec_edition": "2020",
+    "sharma_rule_id": "S-10",
+    "tags": [
+      "CCA",
+      "load calculations"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-11"
+  },
+  {
+    "id": "C1-L-068",
+    "question": "What is a multiwire branch circuit, and why does the shared neutral matter?",
+    "aliases": [
+      "multiwire branch circuit",
+      "shared neutral circuit",
+      "MWBC"
+    ],
+    "answer_plain": "A multiwire branch circuit has two or more ungrounded conductors with a voltage between them, sharing one neutral that carries only the unbalanced difference. Landed on opposite legs, the neutral currents cancel; landed on the same leg, they add and can overload the neutral. If the shared neutral opens under load, the loads on the two legs end up in series across the full voltage between legs. Both ungrounded conductors must be disconnected at the same time.",
+    "nec_ref": "Article 100",
+    "nec_edition": "2020",
+    "tags": [
+      "branch circuit",
+      "multiwire",
+      "neutral"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C1-L-069",
+    "question": "Interrupting rating vs short-circuit current rating — what is the difference?",
+    "aliases": [
+      "interrupting rating vs SCCR",
+      "kAIC vs SCCR",
+      "fault ratings difference"
+    ],
+    "answer_plain": "Interrupting rating belongs to the protective device: it is the highest fault current that breaker or fuse can safely open at its rated voltage. Short-circuit current rating (SCCR) belongs to equipment as a whole: it is the fault current the equipment can withstand, or be protected at, without creating a hazard. A panel can carry breakers whose interrupting rating is fine and still be limited by the panel's own SCCR — both labels have to cover the available fault current at the install.",
+    "nec_ref": "110.9",
+    "nec_edition": "2020",
+    "tags": [
+      "fault current",
+      "ratings",
+      "panelboard"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C1-L-070",
+    "question": "GFCI vs ground-fault protection of equipment — what is the difference?",
+    "aliases": [
+      "GFCI vs GFPE",
+      "ground fault protection types",
+      "personnel vs equipment ground fault"
+    ],
+    "answer_plain": "A GFCI protects people: it opens the circuit when a few milliamperes of current leak outside the intended path (Class A devices trip in the 4–6 mA range). Ground-fault protection of equipment (GFPE) protects equipment and conductors: it opens at much higher ground-fault levels, hundreds of amperes on large services, to limit burn damage from arcing faults. GFPE is not shock protection for a person, and a receptacle GFCI is not service equipment protection.",
+    "nec_ref": "Article 100",
+    "nec_edition": "2020",
+    "tags": [
+      "GFCI",
+      "GFPE",
+      "ground fault"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C1-L-071",
+    "question": "What is the neutral conductor, and what is the neutral point?",
+    "aliases": [
+      "neutral conductor definition",
+      "neutral point",
+      "what is the neutral"
+    ],
+    "answer_plain": "The neutral conductor is the conductor connected to the system's neutral point that is intended to carry current in normal operation — the white or gray working conductor, not a ground. The neutral point is the common point of a wye system, or the midpoint of a single-phase or DC system. On a 120/240V house service the neutral point is the center tap of the utility transformer, which is why each leg measures 120V to the neutral and 240V leg to leg.",
+    "nec_ref": "Article 100",
+    "nec_edition": "2020",
+    "tags": [
+      "neutral",
+      "conductors"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C1-L-072",
+    "question": "What is a separately derived system?",
+    "aliases": [
+      "separately derived system",
+      "transformer derived system",
+      "generator derived system"
+    ],
+    "answer_plain": "A separately derived system is premises wiring fed from a source other than a service — a transformer, generator, converter or battery — with no direct electrical connection to the supply conductors of another system, other than through grounding and bonding connections. Because it is its own source, it gets its own neutral-to-ground bond through a system bonding jumper, sized and installed under Article 250's rules for derived systems.",
+    "nec_ref": "Article 100",
+    "nec_edition": "2020",
+    "tags": [
+      "separately derived",
+      "transformer",
+      "bonding"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C1-L-073",
+    "question": "What is a demand factor?",
+    "aliases": [
+      "demand factor",
+      "demand factor definition",
+      "connected load vs demand"
+    ],
+    "answer_plain": "Demand factor is the ratio of a system's maximum demand to its total connected load. It is never more than 1.0, because not every load runs at the same time. It is the idea behind the demand factors in load calculations: a feeder or service may be sized for the demand, not for the arithmetic sum of everything connected to it.",
+    "nec_ref": "Article 100",
+    "nec_edition": "2020",
+    "tags": [
+      "load calculations",
+      "demand"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C1-L-074",
+    "question": "Equipment grounding conductor vs grounding electrode conductor — which is which?",
+    "aliases": [
+      "EGC vs GEC",
+      "equipment grounding conductor vs grounding electrode conductor"
+    ],
+    "answer_plain": "The equipment grounding conductor (EGC) connects equipment metal back to the source so a ground fault draws enough current to trip the overcurrent device — it is sized from Table 250.122. The grounding electrode conductor (GEC) connects the system to the grounding electrode (rod, concrete-encased electrode, and so on) and is sized from Table 250.66. One protects people from energized metal; the other ties the system to earth. Different jobs, different tables.",
+    "nec_ref": "Article 100",
+    "nec_edition": "2020",
+    "tags": [
+      "grounding",
+      "EGC",
+      "GEC"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C1-L-075",
+    "question": "When does electrical working space need an entrance at each end?",
+    "aliases": [
+      "two entrances working space",
+      "1200 amp entrance rule",
+      "110.26(C) entrances"
+    ],
+    "answer_plain": "For large equipment — rated 1200A or more and over 6 ft wide, containing overcurrent, switching or control devices — 110.26(C) requires an entrance at each end of the working space, unless the layout provides one of the section's accepted alternatives such as an unobstructed exit path or doubled working-space depth. Personnel doors near the equipment must open in the direction of exit travel and have listed panic hardware.",
+    "nec_ref": "110.26(C)",
+    "nec_edition": "2020",
+    "tags": [
+      "working space",
+      "entrances"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C1-L-076",
+    "question": "What is the premises wiring system — where does it start and end?",
+    "aliases": [
+      "premises wiring system",
+      "premises wiring definition",
+      "where premises wiring begins"
+    ],
+    "answer_plain": "The premises wiring system is all the wiring within or attached to a building, from the service point (or from another source such as a generator or solar system) out to the outlets. It does not include the internal wiring inside equipment. It is the boundary term that separates the customer's installation, which the NEC governs, from the utility's side of the service point.",
+    "nec_ref": "Article 100",
+    "nec_edition": "2020",
+    "tags": [
+      "premises wiring",
+      "service point"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C1-L-077",
+    "question": "Weatherproof vs watertight — what is the difference?",
+    "aliases": [
+      "weatherproof vs watertight",
+      "enclosure exposure terms",
+      "dusttight"
+    ],
+    "answer_plain": "Weatherproof equipment is built or protected so weather exposure does not keep it from operating — it does not promise that water stays out. Watertight equipment is built so moisture does not enter the enclosure under its test conditions — the seal is the point. Dusttight is the same idea for dust. Neither weatherproof nor watertight replaces a wet-location listing where a rule requires one.",
+    "nec_ref": "Article 100",
+    "nec_edition": "2020",
+    "tags": [
+      "enclosures",
+      "locations"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]

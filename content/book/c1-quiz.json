@@ -366,5 +366,197 @@
     "nec_ref": "110.14",
     "difficulty": 2,
     "exam": "both"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "The copper column",
+      "The aluminum column",
+      "A separate CCA column printed in 110.5",
+      "The 90 degree column regardless of metal"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "CCA is rated in the aluminum column of 310.16, and 240.4(D) caps it tighter (15A on 12 AWG, 25A on 10 AWG) — which is why Sharma goes one AWG size up from copper.",
+    "id": "C1-Q-024",
+    "nec_ref": "110.5",
+    "question": "For ampacity, CCA conductors are sized from which column of Table 310.16?"
+  },
+  {
+    "answer_index": 2,
+    "article": "110",
+    "choices": [
+      "12 AWG CCA",
+      "14 AWG CCA",
+      "10 AWG CCA",
+      "8 AWG CCA"
+    ],
+    "difficulty": 2,
+    "exam": "both",
+    "explain_plain": "12 AWG CCA is capped at 15A by 240.4(D); 10 AWG CCA is capped at 25A, so 10 AWG is the smallest CCA size that may sit on a 20A breaker (Sharma S-10 one-size-up rule).",
+    "id": "C1-Q-025",
+    "nec_ref": "240.4(D)",
+    "question": "A 20A branch circuit is wired in CCA. The minimum CCA size is:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "More — CCA always counts one size larger",
+      "The same — 2.25 cu in; fill goes by size, not metal",
+      "Less — CCA is mostly aluminum",
+      "Zero — CCA is not counted in box fill"
+    ],
+    "difficulty": 2,
+    "exam": "journeyman",
+    "explain_plain": "Table 314.16(B) allowances are by AWG size only: 12 AWG is 2.25 cu in in either metal. A CCA job only counts more when the conductor itself is a bigger AWG.",
+    "id": "C1-Q-026",
+    "nec_ref": "314.16(B)",
+    "question": "For box fill, a 12 AWG CCA conductor counts how much volume, compared with a 12 AWG copper conductor?"
+  },
+  {
+    "answer_index": 2,
+    "article": "110",
+    "choices": [
+      "Use the copper resistance — it is close enough",
+      "Use the aluminum resistance and call it CCA",
+      "Use cited manufacturer or UL resistance data for the CCA product, flagged until the citation is on file",
+      "Skip voltage drop for CCA runs"
+    ],
+    "difficulty": 3,
+    "exam": "master",
+    "explain_plain": "CCA resistance is its own data. Where the Code table does not list it, only cited manufacturer or UL data may be used, and the figure stays marked unverified until that citation exists — never invent a value.",
+    "id": "C1-Q-027",
+    "nec_ref": "110.5",
+    "question": "You need a voltage-drop calculation for a CCA run, and Chapter 9 Table 8 does not list CCA. The correct move is:"
+  },
+  {
+    "answer_index": 1,
+    "article": "100",
+    "choices": [
+      "Any room with a toilet",
+      "An area with a basin plus a toilet, tub, or shower",
+      "Any room with a basin only",
+      "Any room with a shower only"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "The definition needs both halves: a basin, plus at least one of a toilet, a tub, or a shower. That is what switches on the bathroom circuit and GFCI rules.",
+    "id": "C1-Q-028",
+    "nec_ref": "Article 100",
+    "question": "Under Article 100, which room counts as a bathroom?"
+  },
+  {
+    "answer_index": 1,
+    "article": "100",
+    "choices": [
+      "Two circuits that happen to run in the same raceway",
+      "Two or more ungrounded conductors with a voltage between them, sharing one neutral that carries only the unbalanced current",
+      "A circuit with two neutrals and one hot",
+      "Any circuit feeding more than one outlet"
+    ],
+    "difficulty": 2,
+    "exam": "both",
+    "explain_plain": "The shared neutral is the defining feature — and the reason both legs must land on opposite legs and disconnect together.",
+    "id": "C1-Q-029",
+    "nec_ref": "Article 100",
+    "question": "A multiwire branch circuit is:"
+  },
+  {
+    "answer_index": 1,
+    "article": "110",
+    "choices": [
+      "They are two names for the same rating",
+      "Interrupting rating is what a breaker or fuse can safely open; SCCR is what a piece of equipment as a whole can withstand or be protected at",
+      "SCCR applies only to fuses",
+      "Interrupting rating applies only to panels"
+    ],
+    "difficulty": 2,
+    "exam": "both",
+    "explain_plain": "One rating belongs to the protective device, the other to the equipment. Both have to cover the available fault current where the gear is installed.",
+    "id": "C1-Q-030",
+    "nec_ref": "110.9",
+    "question": "Interrupting rating and short-circuit current rating (SCCR) differ in that:"
+  },
+  {
+    "answer_index": 1,
+    "article": "100",
+    "choices": [
+      "Trips at 20A like a small breaker",
+      "Opens the circuit when a few milliamperes leak outside the intended path",
+      "Opens only on a bolted short circuit",
+      "Is the same as ground-fault protection of equipment"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "Class A GFCI devices trip in the 4–6 mA range — personnel protection. Ground-fault protection of equipment works at far higher levels and protects equipment, not people.",
+    "id": "C1-Q-031",
+    "nec_ref": "Article 100",
+    "question": "A GFCI protects people because it:"
+  },
+  {
+    "answer_index": 2,
+    "article": "100",
+    "choices": [
+      "The main breaker inside the panel",
+      "The meter socket",
+      "The point where the utility's facilities meet the premises wiring",
+      "The first outlet on the service"
+    ],
+    "difficulty": 1,
+    "exam": "journeyman",
+    "explain_plain": "The service point is the boundary of responsibility between the utility and the premises — service conductors, drops and laterals are all measured from it.",
+    "id": "C1-Q-032",
+    "nec_ref": "Article 100",
+    "question": "The service point is:"
+  },
+  {
+    "answer_index": 2,
+    "article": "110",
+    "choices": [
+      "5 ft",
+      "6 ft",
+      "6½ ft or the height of the equipment, whichever is greater",
+      "8 ft"
+    ],
+    "difficulty": 2,
+    "exam": "both",
+    "explain_plain": "Height runs from the floor to 6½ ft — or taller where the equipment itself is taller. Width, from (A)(2), is 30 in. or the width of the equipment.",
+    "id": "C1-Q-033",
+    "nec_ref": "110.26(A)(3)",
+    "question": "Under 110.26(A)(3), the height of working space about electrical equipment must be at least:"
+  },
+  {
+    "answer_index": 1,
+    "article": "100",
+    "choices": [
+      "Any feeder longer than 100 ft",
+      "A system fed from a source other than a service, with no direct connection to another system's supply conductors except through grounding and bonding",
+      "A panel with its own main breaker",
+      "A system with two utility services"
+    ],
+    "difficulty": 2,
+    "exam": "master",
+    "explain_plain": "Transformers and generators create derived systems — which is why a transformer-fed panel gets its own system bonding jumper.",
+    "id": "C1-Q-034",
+    "nec_ref": "Article 100",
+    "question": "A separately derived system is best described as:"
+  },
+  {
+    "answer_index": 1,
+    "article": "100",
+    "choices": [
+      "A spare grounding conductor",
+      "The conductor connected to the system's neutral point, intended to carry current in normal operation",
+      "The bare wire in a cable assembly",
+      "Only present on three-phase systems"
+    ],
+    "difficulty": 1,
+    "exam": "both",
+    "explain_plain": "The neutral is a working, current-carrying conductor referenced to the neutral point — it is bonded to ground only where the Code permits, normally at the service.",
+    "id": "C1-Q-035",
+    "nec_ref": "Article 100",
+    "question": "The neutral conductor is:"
   }
 ]
