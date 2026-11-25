@@ -446,5 +446,101 @@
     "exam": "both",
     "article": "Ch9",
     "explain_plain": "No CCA resistance may be invented or borrowed unchecked. Until a manufacturer or UL value is cited and checked (and any book entry for it stays flagged verified=false), the working method is the aluminum column for the same AWG, with the result stated as an approximation."
+  },
+  {
+    "id": "C9-Q-029",
+    "article": "9",
+    "question": "A compact-stranded 3/0 aluminum conductor's area for conduit fill comes from:",
+    "choices": [
+      "Table 5",
+      "Table 5A",
+      "Table 8",
+      "Table 1"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Compact stranding is compressed, so the conductor is smaller than standard stranding of the same AWG. Table 5A carries compact conductor dimensions and areas; Table 5 is for standard stranding.",
+    "nec_ref": "Table 5A",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C9-Q-030",
+    "article": "9",
+    "question": "Figuring a standard conductor from Table 5A is a problem because it:",
+    "choices": [
+      "Overstates the area and fails legal fills",
+      "Understates the area, so the raceway can be overfilled",
+      "Changes the conductor's ampacity",
+      "Only affects runs over 100 ft"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Table 5A areas are smaller. Using them for a standard conductor understates the fill — the dangerous direction. Using Table 5 for a compact conductor only wastes conduit size.",
+    "nec_ref": "Table 5A",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C9-Q-031",
+    "article": "9",
+    "question": "Tables 11(A) and 11(B) cap all of the following for Class 2 and Class 3 power sources EXCEPT:",
+    "choices": [
+      "Maximum circuit voltage",
+      "Maximum current",
+      "Maximum volt-amperes",
+      "Maximum conductor length"
+    ],
+    "answer_index": 3,
+    "explain_plain": "The tables limit what the source may deliver — voltage, current, and VA — split by ac (11(A)) and dc (11(B)) and by inherently limited vs overcurrent-protected sources. Conductor length is not a table limit.",
+    "nec_ref": "Tables 11(A) and 11(B)",
+    "difficulty": 2,
+    "exam": "both"
+  },
+  {
+    "id": "C9-Q-032",
+    "article": "9",
+    "question": "An inherently limited Class 2 source is one that:",
+    "choices": [
+      "Has a fuse sized from Table 11",
+      "Stays inside the Table 11 limits by its own construction, under any load or fault",
+      "Is limited to 24 V",
+      "Must be installed in a metal enclosure"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Inherently limited means the limiting is built into the source itself. Sources that are not inherently limited rely on overcurrent protection sized from the same tables.",
+    "nec_ref": "Tables 11(A) and 11(B)",
+    "difficulty": 2,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C9-Q-033",
+    "article": "9",
+    "question": "For a dc Class 2 power supply, the limits are in:",
+    "choices": [
+      "Table 11(A)",
+      "Table 11(B)",
+      "Table 8",
+      "Annex D"
+    ],
+    "answer_index": 1,
+    "explain_plain": "11(A) is the ac table; 11(B) is the dc table. Article 725's power-source rules point to both.",
+    "nec_ref": "Table 11(B)",
+    "difficulty": 1,
+    "exam": "journeyman"
+  },
+  {
+    "id": "C9-Q-034",
+    "article": "9",
+    "question": "Compact stranding is most often met in:",
+    "choices": [
+      "14 AWG branch-circuit conductors",
+      "Larger aluminum feeder conductors",
+      "Fixture wires",
+      "Service-drop triplex only"
+    ],
+    "answer_index": 1,
+    "explain_plain": "Compact stranding shows up in the larger sizes — feeders and service conductors, commonly aluminum — which is exactly where the Table 5 vs 5A difference decides a conduit size.",
+    "nec_ref": "Table 5A",
+    "difficulty": 1,
+    "exam": "both"
   }
 ]

@@ -1010,5 +1010,123 @@
     "verified": true,
     "verified_by": "Master audit reconciliation 2026-11-12 (external audit gap claim verified)",
     "verified_date": "2026-11-12"
+  },
+  {
+    "id": "C9-L-061",
+    "question": "When do I use Table 5A instead of Table 5?",
+    "aliases": [
+      "compact conductor table",
+      "Table 5A vs Table 5"
+    ],
+    "answer_plain": "When the conductor is compact-stranded — common in larger aluminum feeders. Compact stranding is compressed at manufacture, so the conductor is smaller across than standard stranding of the same AWG, and Table 5A carries its dimensions and areas. Standard conductors stay on Table 5.",
+    "nec_ref": "Table 5A",
+    "nec_edition": "2020",
+    "tags": [
+      "conduit fill",
+      "compact conductor"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C9-L-062",
+    "question": "What do Tables 11(A) and 11(B) decide?",
+    "aliases": [
+      "Class 2 power limits",
+      "Table 11 purpose"
+    ],
+    "answer_plain": "Whether a power source truly qualifies as power-limited for a Class 2 or Class 3 circuit. The tables cap maximum voltage, current, and volt-amperes — 11(A) for ac sources, 11(B) for dc — split between inherently limited sources and sources relying on overcurrent protection.",
+    "nec_ref": "Tables 11(A) and 11(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "Class 2",
+      "Class 3",
+      "power source"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C9-L-063",
+    "question": "What does 'inherently limited' mean for a Class 2 source?",
+    "aliases": [
+      "inherently limited source",
+      "Class 2 transformer"
+    ],
+    "answer_plain": "The source's own construction keeps its output inside the Table 11 limits under any load or fault condition — no fuse or breaker is doing the limiting. A source that is not inherently limited must be protected by an overcurrent device sized from the same tables.",
+    "nec_ref": "Tables 11(A) and 11(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "Class 2",
+      "power source"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C9-L-064",
+    "question": "I figured a compact 4/0 feeder from Table 5 and the fill failed. Now what?",
+    "aliases": [
+      "compact feeder fill failed",
+      "wrong table fill"
+    ],
+    "answer_plain": "Recheck the stranding before you upsize the conduit. If the conductor is compact, Table 5 overstated its area; Table 5A is the correct table and the fill may pass as designed. The reverse error — Table 5A for a standard conductor — understates the area and is a violation.",
+    "nec_ref": "Table 5A",
+    "nec_edition": "2020",
+    "tags": [
+      "conduit fill"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C9-L-065",
+    "question": "A transformer is marked Class 2. Is that the end of the question?",
+    "aliases": [
+      "Class 2 marking check",
+      "verify Class 2 source"
+    ],
+    "answer_plain": "No. Article 725 sends you to Tables 11(A) and 11(B): the source's voltage, current, and VA at its rating must sit inside the table row for its type (ac or dc, inherently limited or overcurrent-protected). The marking is a claim the tables verify.",
+    "nec_ref": "Tables 11(A) and 11(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "Class 2",
+      "transformer"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C9-L-066",
+    "question": "Which Chapter 9 table do I open for a dc Class 3 power supply?",
+    "aliases": [
+      "dc class 3 table",
+      "Table 11(B)"
+    ],
+    "answer_plain": "Table 11(B) — the dc table. Table 11(A) covers ac sources. Both cap voltage, current, and VA for Class 2 and Class 3 sources.",
+    "nec_ref": "Table 11(B)",
+    "nec_edition": "2020",
+    "tags": [
+      "Class 3",
+      "power source"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
+  },
+  {
+    "id": "C9-L-067",
+    "question": "How can I tell a compact conductor from a standard one?",
+    "aliases": [
+      "identify compact conductor",
+      "compact stranding marking"
+    ],
+    "answer_plain": "From the conductor's marking and the manufacturer's data: compact-stranded conductors are identified as compact (the stranding is visibly tighter and rounder in cross-section). When the marking says compact, Table 5A — not Table 5 — carries its area.",
+    "nec_ref": "Table 5A",
+    "nec_edition": "2020",
+    "tags": [
+      "compact conductor"
+    ],
+    "verified_by": "Jarvis",
+    "verified_date": "2026-11-25"
   }
 ]

@@ -5,6 +5,12 @@
   "index": [
     {
       "ids": [
+        "C9-ANNEXB"
+      ],
+      "term": "Annex B, ampacity under engineering supervision"
+    },
+    {
+      "ids": [
         "C9-ANNEXC",
         "C9-FILL-SAME"
       ],
@@ -41,6 +47,26 @@
         "C9-Table8-CCA"
       ],
       "term": "CCA, resistance approximation"
+    },
+    {
+      "term": "Class 2 and Class 3 power source limits, Tables 11(A) and 11(B)",
+      "ids": [
+        "C9-Table11",
+        "C9-L-062"
+      ]
+    },
+    {
+      "term": "Compact conductors, dimensions and areas (Table 5A)",
+      "ids": [
+        "C9-Table5A",
+        "C9-L-061"
+      ]
+    },
+    {
+      "ids": [
+        "C9-Table2"
+      ],
+      "term": "Conduit bends, minimum radius"
     },
     {
       "ids": [
@@ -90,6 +116,12 @@
     },
     {
       "ids": [
+        "C9-Table2"
+      ],
+      "term": "Table 2, radius of conduit bends"
+    },
+    {
+      "ids": [
         "C9-Table4"
       ],
       "term": "Table 4, raceway area"
@@ -136,24 +168,6 @@
         "C9-VD-WORKED"
       ],
       "term": "Voltage drop, upsizing to fix"
-    },
-    {
-      "ids": [
-        "C9-Table2"
-      ],
-      "term": "Table 2, radius of conduit bends"
-    },
-    {
-      "ids": [
-        "C9-Table2"
-      ],
-      "term": "Conduit bends, minimum radius"
-    },
-    {
-      "ids": [
-        "C9-ANNEXB"
-      ],
-      "term": "Annex B, ampacity under engineering supervision"
     }
   ],
   "jurisdiction": "Florida Building Code 8th Edition (2023)",
@@ -282,7 +296,7 @@
       "figure_idea": "Cross-sections of 14, 12, 10, and 8 AWG THHN drawn to scale, each labeled with its Table 5 area.",
       "florida_note": "",
       "id": "C9-Table5",
-      "next_id": "C9-FILL-METHOD",
+      "next_id": "C9-Table5A",
       "on_the_job": "Confirm the insulation type on the reel before you calculate. If the job switches from THHN to a thicker insulation type, redo the fill math with that type's Table 5 area instead of assuming the count still fits.",
       "plain_explanation": "Table 5 gives the approximate diameter and area of insulated conductors and fixture wires, by size and insulation type. Fill is figured on the insulated conductor you are actually pulling, insulation included — not on the bare metal. In the v1 data used throughout this chapter, 12 AWG THHN/THWN/THWN-2 is 0.0133 sq in, 10 AWG is 0.0211, 8 AWG is 0.0366, and 6 AWG is 0.0507. A different insulation type in the same AWG can have a different area, so the insulation column is part of the answer.\n\nThe working list for the insulation type Sharma pulls most — THHN / THWN / THWN-2, approximate area in square inches:\n• 14 AWG THHN — 0.0097 in²\n• 12 AWG THHN — 0.0133 in²\n• 10 AWG THHN — 0.0211 in²\n• 8 AWG THHN — 0.0366 in²\n• 6 AWG THHN — 0.0507 in²\n• 4 AWG THHN — 0.0824 in²\n• 3 AWG THHN — 0.0973 in²\n• 2 AWG THHN — 0.1158 in²\n• 1 AWG THHN — 0.1562 in²\n• 1/0 AWG THHN — 0.1855 in²\n• 2/0 AWG THHN — 0.2223 in²\n• 3/0 AWG THHN — 0.2679 in²\n• 4/0 AWG THHN — 0.3237 in²",
       "prev_id": "C9-Table4",
@@ -302,6 +316,28 @@
       "verified": false
     },
     {
+      "id": "C9-Table5A",
+      "chapter": 9,
+      "article": "9",
+      "section": "Table 5A",
+      "title": "Table 5A — compact conductor dimensions and areas",
+      "plain_explanation": "Table 5A is Table 5's sibling for compact-stranded conductors. In a compact conductor the strands are compressed during manufacture, so the finished conductor is rounder and smaller across than a standard concentric-stranded conductor of the same AWG — a stranding common in larger aluminum feeder conductors. Fill is figured on the conductor actually in the raceway: compact conductors take their diameter and area from Table 5A, standard conductors from Table 5. Figuring a compact conductor from Table 5 overstates its area, so a fill can fail on paper that would pass in the raceway; figuring a standard conductor from Table 5A understates it, and that direction is the violation. The conductor's marking and its manufacturer tell you which stranding you hold.",
+      "on_the_job": "A 4/0 aluminum compact feeder: open Table 5A, not Table 5, before you tell the foreman the conduit size. The difference between the two tables is regularly the difference between the conduit on the truck and the next size up.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Cross-sections: concentric vs compact stranding at the same AWG, diameters compared.",
+      "related_ids": [
+        "C9-Table5",
+        "C9-FILL-METHOD",
+        "C9-Table4",
+        "C9-L-061"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C9-Table5",
+      "next_id": "C9-FILL-METHOD"
+    },
+    {
       "article": "9",
       "chapter": 9,
       "figure_idea": "A four-step flow strip: list conductors, add Table 5 areas, pick Table 1 percent, compare in Table 4.",
@@ -310,7 +346,7 @@
       "next_id": "C9-FILL-SAME",
       "on_the_job": "Say the steps out loud on a mixed pull before you order material. Most failed fills come from a skipped step — a ground left out of the list, an EMT row used for a PVC run, or the 40 percent column used for a two-conductor pull that only gets 31 percent.",
       "plain_explanation": "Every fill problem is the same four steps. First, list every conductor in the raceway, including equipment grounds, with its size and insulation type. Second, take each conductor's area from Table 5 (Table 8 area for a bare conductor) and add them. Third, pick the Table 1 percentage from the conductor count — 53, 31, 40, or 60 for a short nipple. Fourth, open Table 4 for your raceway type and take the first trade size whose usable area at that percentage is equal to or larger than your conductor total. If the total is even slightly over, go up a trade size; close does not count.",
-      "prev_id": "C9-Table5",
+      "prev_id": "C9-Table5A",
       "related_ids": [
         "Ch9-T4",
         "Ch9-T5",
@@ -460,7 +496,8 @@
         "C9-L-027",
         "C9-L-028",
         "C9-L-029",
-        "310.16"
+        "310.16",
+        "C3-310.15"
       ],
       "section": "Table 8",
       "sharma_note": "",
@@ -610,7 +647,7 @@
       "figure_idea": "A fork in the road: short branch runs take the Table 8 path; a long large feeder takes the Table 9 path with a 'run it from the printed Table 9' sign.",
       "florida_note": "",
       "id": "C9-Table9",
-      "next_id": "C9-ANNEXD",
+      "next_id": "C9-Table11",
       "on_the_job": "If a voltage-drop answer matters enough to fight over — a long feeder, a big motor, a plan review comment — do not settle it with the Table 8 approximation. Flag it for Mike to run with Table 9 and the actual raceway and power factor.\n\nWorked example with the effective-Z column: a 208 V three-phase feeder carrying 100 A at 0.85 power factor, 200 ft one-way, on 2 AWG copper in PVC (Z = 0.19 ohm/kft). VD = 1.732 × 200 × 0.19 × 100 / 1000 = 6.58 V, about 3.2 percent of 208 V — over the 3 percent recommendation on the feeder alone, so the design conversation starts at 1 AWG or 1/0, not at hope.",
       "plain_explanation": "Table 9 is the next step past Table 8 for voltage drop. Its full title is 'Alternating-Current Resistance and Reactance for 600-Volt Cables, 3-Phase, 60 Hz, 75 degrees C — Three Single Conductors in Conduit,' and instead of DC resistance alone it gives, in ohms to neutral per 1000 ft, the inductive reactance for all wires, the alternating-current resistance for uncoated copper and for aluminum, and the effective impedance Z at 0.85 power factor — each broken out for PVC, aluminum, and steel conduit, because a magnetic steel raceway raises reactance and, in the larger sizes, AC resistance as well. The table's Note 1 limits its values to conductors at 75 degrees C under the conditions its title states. This book publishes no Table 9 values by size; the teaching here is when to reach for it — large conductors, long three-phase runs, steel raceway, or a Table 8 approximation that lands near a limit — and to run those cases from the printed table rather than from memory.\n\nCommon-size values are now carried here after all, for the sizes Sharma runs most — uncoated copper, ohms to neutral per 1000 ft. Reactance and the effective-Z column are the parts Table 8 cannot give you; the AC resistance column tracks Table 8 closely at small sizes and climbs above it in steel conduit as sizes grow. Sizes above 4/0, and the aluminum columns, stay in the printed table:\n• 14 AWG copper — reactance 0.058 in PVC or aluminum conduit, 0.073 in steel; AC resistance 3.1 in PVC; effective Z at 0.85 PF 2.7 in PVC\n• 12 AWG copper — reactance 0.054 in PVC or aluminum conduit, 0.068 in steel; AC resistance 2.0 in PVC; effective Z at 0.85 PF 1.7 in PVC\n• 10 AWG copper — reactance 0.050 in PVC or aluminum conduit, 0.063 in steel; AC resistance 1.2 in PVC; effective Z at 0.85 PF 1.1 in PVC\n• 8 AWG copper — reactance 0.052 in PVC or aluminum conduit, 0.065 in steel; AC resistance 0.78 in PVC; effective Z at 0.85 PF 0.69 in PVC\n• 6 AWG copper — reactance 0.051 in PVC or aluminum conduit, 0.064 in steel; AC resistance 0.49 in PVC; effective Z at 0.85 PF 0.44 in PVC\n• 4 AWG copper — reactance 0.048 in PVC or aluminum conduit, 0.060 in steel; AC resistance 0.31 in PVC; effective Z at 0.85 PF 0.29 in PVC\n• 3 AWG copper — reactance 0.047 in PVC or aluminum conduit, 0.059 in steel; AC resistance 0.25 in PVC; effective Z at 0.85 PF 0.23 in PVC\n• 2 AWG copper — reactance 0.045 in PVC or aluminum conduit, 0.057 in steel; AC resistance 0.19 in PVC; effective Z at 0.85 PF 0.19 in PVC\n• 1 AWG copper — reactance 0.046 in PVC or aluminum conduit, 0.057 in steel; AC resistance 0.15 in PVC; effective Z at 0.85 PF 0.16 in PVC\n• 1/0 AWG copper — reactance 0.044 in PVC or aluminum conduit, 0.055 in steel; AC resistance 0.12 in PVC; effective Z at 0.85 PF 0.13 in PVC\n• 4/0 AWG copper — reactance 0.041 in PVC or aluminum conduit, 0.051 in steel; AC resistance 0.062 in PVC",
       "prev_id": "C9-VD-LIMITS",
@@ -626,6 +663,27 @@
       "verified": false
     },
     {
+      "id": "C9-Table11",
+      "chapter": 9,
+      "article": "9",
+      "section": "Tables 11(A) and 11(B)",
+      "title": "Tables 11(A) and 11(B) — how much power a Class 2 or Class 3 source may deliver",
+      "plain_explanation": "Tables 11(A) and 11(B) are the numbers behind the words 'power limited.' For Class 2 and Class 3 circuits, the tables cap what the power source may deliver — maximum circuit voltage, maximum current, and maximum volt-amperes — with one table for ac sources and one for dc sources. Each table splits sources two ways: inherently limited sources, whose construction keeps them inside the limits under any load or fault, and sources that are not inherently limited and therefore rely on overcurrent protection sized from the table. Article 725 sends you here to decide whether a transformer or supply really is a Class 2 source; a 'Class 2' claim on a nameplate is checked against these tables, not taken on faith.",
+      "on_the_job": "A door-control transformer marked Class 2: the table row for its voltage is what makes that marking true, and it is also what earns the wiring-method freedoms Chapter 7 gives Class 2 circuits. No table match, no Class 2 treatment — the circuit is wired like power.",
+      "sharma_note": "",
+      "florida_note": "",
+      "figure_idea": "Table skeleton: ac and dc tables, inherently limited vs overcurrent-protected columns.",
+      "related_ids": [
+        "C7-725.121",
+        "C9-ART-9",
+        "C9-L-062"
+      ],
+      "sharma_rule_ids": [],
+      "verified": false,
+      "prev_id": "C9-Table9",
+      "next_id": "C9-ANNEXD"
+    },
+    {
       "article": "9",
       "chapter": 9,
       "figure_idea": "A flowchart from a house's load list through demand factors to a service size, with a signpost pointing back to Chapter 2 and 220.82.",
@@ -634,7 +692,7 @@
       "next_id": "C9-ANNEXI",
       "on_the_job": "When a load calc is due, work it in the annex's order — general loads, then the named appliances and motors, then demand, then the service size — and keep the arithmetic with the estimate so Mike can re-run it. If your total and the annex pattern disagree, the inputs are wrong somewhere, not the pattern.",
       "plain_explanation": "Annex D shows the load-calculation articles worked end to end on example buildings: add the loads the articles name, apply the demand factors the articles allow, and arrive at a service or feeder size. The 2020 annex works eight example families: D1, a one-family dwelling by the standard method, with and without air conditioning; D2, a one-family dwelling by the optional method of 220.82, including a heat-pump version with backup heat; D3, a store building; D4 and D5, multifamily dwellings — D5 served at 208Y/120 volts, three-phase; D6, maximum demand for range loads from Table 220.55; D7, dwelling service conductors sized with 310.12; and D8, motor conductors and protection under Article 430. This book teaches that method and points you to the real work in Chapter 2 — especially the optional dwelling calculation data carried in v1 as table 220.82 — rather than copying an annex example. A Sharma example must be computed fresh from the actual house, labeled as a Sharma example, and checked; an annex example is a pattern to follow, not a number to borrow for a different building.",
-      "prev_id": "C9-Table9",
+      "prev_id": "C9-Table11",
       "related_ids": [
         "220.82",
         "C9-L-045",
@@ -744,6 +802,11 @@
           "id": "C9-FILL-EGC-AND-BARE",
           "section": "Tables 5, 8",
           "title": "Grounds count, and bare conductors use Table 8"
+        },
+        {
+          "id": "C9-Table5A",
+          "section": "Table 5A",
+          "title": "Table 5A — compact conductor dimensions and areas"
         }
       ],
       "id": "C9-Table5",
@@ -798,6 +861,12 @@
       "children": [],
       "id": "C9-Table9",
       "title": "Table 9 — AC resistance and reactance (method only)"
+    },
+    {
+      "article": "9",
+      "children": [],
+      "id": "C9-Table11",
+      "title": "Tables 11(A) and 11(B) — Class 2 and Class 3 power source limits"
     },
     {
       "article": "9",
