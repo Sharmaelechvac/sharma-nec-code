@@ -1339,7 +1339,28 @@
       "verified": true,
       "sharma_rule_ids": [],
       "prev_id": "C6-680.42",
-      "next_id": "C6-680.50"
+      "next_id": "C6-680.44"
+    },
+    {
+      "id": "C6-680.44",
+      "chapter": 6,
+      "article": "680",
+      "section": "680.44",
+      "title": "Spas and hot tubs — GFCI protection (680.44)",
+      "plain_explanation": "680.44 is the protection rule for spas and hot tubs: the outlet supplying a spa or hot tub must have GFCI protection. Read it with the pages around it — the outdoor installations of 680.42 and the indoor installations of 680.43 — because the protection point, the wiring method and the bonding all have to land together on the same tub. Edition note: this page states the NEC 2020 rule Florida enforces; any 2023 change is confirmed against the printed 2023 text before it is taught here.",
+      "on_the_job": "On a spa or hot tub hookup, confirm the GFCI protection point before the tub is filled — breaker, receptacle or disconnect device — and test it at final with the tub's own equipment running.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C6-680.42",
+        "C6-680.43"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "New short page written 2026-11-25 per Mike Holt ruling 8 (the C6 checklists already cite 680.44). Verified=false until checked against the printed NEC 2020.",
+      "prev_id": "C6-680.43",
+      "next_id": "C6-680.50",
+      "sharma_rule_ids": []
     },
     {
       "id": "C6-680.50",
@@ -1357,7 +1378,7 @@
       "florida_note": "",
       "verified": true,
       "sharma_rule_ids": [],
-      "prev_id": "C6-680.43",
+      "prev_id": "C6-680.44",
       "next_id": "C6-680.51",
       "nec2023_change": [
         {
@@ -2305,6 +2326,11 @@
           "title": "Indoor spas and hot tubs"
         },
         {
+          "id": "C6-680.44",
+          "section": "680.44",
+          "title": "Spas and hot tubs — GFCI protection (680.44)"
+        },
+        {
           "id": "C6-680.50",
           "section": "680.50",
           "title": "Fountains — Parts I and V"
@@ -2545,7 +2571,8 @@
       "term": "Emergency shutoff, spa",
       "ids": [
         "C6-680.41",
-        "C6-L-031"
+        "C6-L-031",
+        "C6-680.44"
       ]
     },
     {
@@ -2596,7 +2623,8 @@
       "term": "GFCI, elevator spaces",
       "ids": [
         "C6-620.6",
-        "C6-L-045"
+        "C6-L-045",
+        "C6-680.44"
       ]
     },
     {
@@ -2735,7 +2763,8 @@
       "term": "Spa, outdoor installation",
       "ids": [
         "C6-680.42",
-        "C6-680.40"
+        "C6-680.40",
+        "C6-680.44"
       ]
     },
     {
@@ -2743,7 +2772,8 @@
       "ids": [
         "C6-680.40",
         "C6-680.43",
-        "C6-680.42"
+        "C6-680.42",
+        "C6-680.44"
       ]
     },
     {
@@ -2757,7 +2787,8 @@
       "term": "Switching devices, pools and spas",
       "ids": [
         "C6-680.22(C)",
-        "C6-L-062"
+        "C6-L-062",
+        "C6-680.44"
       ]
     },
     {

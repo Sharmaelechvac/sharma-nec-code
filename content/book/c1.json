@@ -1749,6 +1749,27 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C1-110.26(A)(2)",
+      "next_id": "C1-110.26(A)(4)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.26(A)(4)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(A)(4)",
+      "title": "Limited access — working space above ceilings and in crawl spaces",
+      "plain_explanation": "Where equipment of 1000V or less that is likely to need examination, adjustment, servicing or maintenance while energized has to sit in a limited-access space (above a lay-in ceiling, in a crawl space), all of these apply. (a) Above a lay-in ceiling, the opening must be at least 22 in. x 22 in. In a crawl space, the accessible opening must be at least 22 in. x 30 in. (b) The working space width is the equipment width or 30 in., whichever is greater. (c) Enclosure doors and hinged panels must open at least 90 degrees. (d) The depth in front must meet Table 110.26(A)(1). The maximum height is whatever is needed to install the equipment, and a horizontal ceiling structural member or access panel is permitted in the space. NEC 2023 retains this rule; its paragraph number there is to be confirmed against the printed 2023 book.",
+      "on_the_job": "Air handler disconnects and RTU or attic equipment above T-bar: plan the 22x22 tile and the 90-degree door swing before rough-in.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-110.26(A)",
+        "C1-110.26(A)(1)"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "New page written 2026-11-25 from Mike Holt's recheck draft (ruling 3). Verified=false until checked against the printed NEC 2020.",
+      "prev_id": "C1-110.26(A)(3)",
       "next_id": "C1-110.26(B-D)",
       "sharma_rule_ids": []
     },
@@ -1768,7 +1789,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-110.26(A)(3)",
+      "prev_id": "C1-110.26(A)(4)",
       "next_id": "C1-110.26(C)",
       "sharma_rule_ids": []
     },
@@ -1831,6 +1852,26 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C1-110.26(D)",
+      "next_id": "C1-110.26(F)",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.26(F)",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.26(F)",
+      "title": "Locked electrical equipment rooms or enclosures",
+      "plain_explanation": "Electrical equipment rooms or enclosures housing electrical apparatus that are controlled by a lock are considered accessible to qualified persons.",
+      "on_the_job": "A locked electrical room still counts as 'accessible' for the qualified-person rules. Locking the room doesn't get you out of working space, and it doesn't let you put equipment where unqualified people can reach it.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-110.26"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "New page written 2026-11-25 from Mike Holt's recheck draft (ruling 3). Verified=false until checked against the printed NEC 2020.",
+      "prev_id": "C1-110.26(E)",
       "next_id": "C1-110.27",
       "sharma_rule_ids": []
     },
@@ -1849,7 +1890,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C1-110.26(E)",
+      "prev_id": "C1-110.26(F)",
       "next_id": "C1-110.28",
       "sharma_rule_ids": []
     },
@@ -1888,7 +1929,7 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C1-110.28",
-      "next_id": null,
+      "next_id": "C1-110.32-34",
       "sharma_rule_ids": [],
       "nec2023_change": [
         {
@@ -1899,6 +1940,46 @@
           "confirmed": true
         }
       ]
+    },
+    {
+      "id": "C1-110.32-34",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.32–110.34",
+      "title": "Working space, entrances and guarding over 1000 volts (110.32–110.34)",
+      "plain_explanation": "Part III continues with the working-space rules for over-1000V equipment. 110.32 sets the working space about the equipment; 110.33 covers entrances to and exits from the working space, including entrance size and panic hardware; 110.34 covers the depth of working space (Table 110.34(A) by reference), guarding of live parts, and illumination. The depths and dimensions live in the printed tables and the design documents — this page is the map, not the numbers.",
+      "on_the_job": "Sharma does not design over-1000V work. If a job touches it, the working-space, entrance and guarding questions go to the engineer of record with the printed Part III in hand — stop and escalate.",
+      "sharma_note": "Engineered work — escalate. Sharma does not design over-1000V installations.",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-110.31"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "New orientation page written 2026-11-25 per Mike Holt ruling 4. No table values published. Verified=false until checked against the printed NEC 2020.",
+      "prev_id": "C1-110.31",
+      "next_id": "C1-110.36-41",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C1-110.36-41",
+      "chapter": 1,
+      "article": "110",
+      "section": "110.36, 110.40, 110.41",
+      "title": "Circuit conductors, temperature limits and pre-energization tests over 1000 volts (110.36, 110.40, 110.41)",
+      "plain_explanation": "The rest of Part III closes the installation: 110.36 covers circuit conductors, 110.40 sets temperature limits at terminations, and 110.41 requires pre-energization inspections and tests before over-1000V equipment is put in service. All three are engineered-work territory: conductor selection, termination temperature and acceptance testing on this class of gear follow the design documents and the printed Code, not field judgment.",
+      "on_the_job": "If Sharma is asked to connect or energize over-1000V equipment, the inspections and tests of 110.41 are scheduled and documented before energization — and the design questions go to the engineer, not the field.",
+      "sharma_note": "Engineered work — escalate. Sharma does not design over-1000V installations.",
+      "figure_idea": "",
+      "related_ids": [
+        "C1-110.31"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "New orientation page written 2026-11-25 per Mike Holt ruling 4. No table values published. Verified=false until checked against the printed NEC 2020.",
+      "prev_id": "C1-110.32-34",
+      "next_id": null,
+      "sharma_rule_ids": []
     }
   ],
   "toc": [
@@ -2292,6 +2373,11 @@
           "title": "Height of working space"
         },
         {
+          "id": "C1-110.26(A)(4)",
+          "section": "110.26(A)(4)",
+          "title": "Limited access — working space above ceilings and in crawl spaces"
+        },
+        {
           "id": "C1-110.26(B-D)",
           "section": "110.26(B)",
           "title": "Clear space, entrance and egress, and illumination"
@@ -2312,6 +2398,11 @@
           "title": "Dedicated equipment space"
         },
         {
+          "id": "C1-110.26(F)",
+          "section": "110.26(F)",
+          "title": "Locked electrical equipment rooms or enclosures"
+        },
+        {
           "id": "C1-110.27",
           "section": "110.27",
           "title": "Guarding of live parts"
@@ -2325,6 +2416,16 @@
           "id": "C1-110.31",
           "section": "110.31",
           "title": "Equipment over 1000 volts — enclosure and access (overview)"
+        },
+        {
+          "id": "C1-110.32-34",
+          "section": "110.32–110.34",
+          "title": "Working space, entrances and guarding over 1000 volts (110.32–110.34)"
+        },
+        {
+          "id": "C1-110.36-41",
+          "section": "110.36, 110.40, 110.41",
+          "title": "Circuit conductors, temperature limits and pre-energization tests over 1000 volts (110.36, 110.40, 110.41)"
         }
       ]
     }
@@ -2978,6 +3079,25 @@
       "term": "Workmanship",
       "ids": [
         "C1-110.12"
+      ]
+    },
+    {
+      "term": "Working space, limited access",
+      "ids": [
+        "C1-110.26(A)(4)"
+      ]
+    },
+    {
+      "term": "Locked electrical equipment rooms",
+      "ids": [
+        "C1-110.26(F)"
+      ]
+    },
+    {
+      "term": "Over 1000 volts, working space and enclosures",
+      "ids": [
+        "C1-110.32-34",
+        "C1-110.36-41"
       ]
     }
   ]

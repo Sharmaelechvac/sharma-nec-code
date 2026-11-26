@@ -261,6 +261,27 @@
       "florida_note": "",
       "verified": true,
       "prev_id": "C7-700.15",
+      "next_id": "C7-700.25",
+      "sharma_rule_ids": []
+    },
+    {
+      "id": "C7-700.25",
+      "chapter": 7,
+      "article": "700",
+      "section": "700.25",
+      "title": "Branch-circuit emergency lighting transfer switch (700.25)",
+      "plain_explanation": "700.25 covers the branch-circuit emergency lighting transfer switch: where emergency lighting is served from a branch circuit, a listed transfer switch at the branch-circuit level is the device that moves that lighting load to the emergency source when normal power fails, so the egress lighting does not depend on an upstream decision. It is a narrow, listed-device rule — the switch, its listing and its wiring follow the printed section and the design documents. Edition note: this page states the NEC 2020 rule Florida enforces; any 2023 change is confirmed against the printed 2023 text before it is taught here.",
+      "on_the_job": "Emergency-system design is engineered work. If a plan shows branch-circuit transfer switches for egress lighting, land them exactly as the drawings and the device listing say, and flag any field change to the designer — do not re-feed egress lighting on your own call.",
+      "sharma_note": "",
+      "figure_idea": "",
+      "related_ids": [
+        "C7-ART-700",
+        "C7-700.12"
+      ],
+      "florida_note": "",
+      "verified": false,
+      "unverified_reason": "New short page written 2026-11-25 per Mike Holt ruling 8. Verified=false until checked against the printed NEC 2020.",
+      "prev_id": "C7-700.16",
       "next_id": "C7-700.32",
       "sharma_rule_ids": []
     },
@@ -279,7 +300,7 @@
       ],
       "florida_note": "",
       "verified": true,
-      "prev_id": "C7-700.16",
+      "prev_id": "C7-700.25",
       "next_id": "C7-ART-701",
       "sharma_rule_ids": [],
       "nec2023_change": [
@@ -1871,6 +1892,11 @@
           "title": "Emergency illumination — no single failure leaves a space dark"
         },
         {
+          "id": "C7-700.25",
+          "section": "700.25",
+          "title": "Branch-circuit emergency lighting transfer switch (700.25)"
+        },
+        {
           "id": "C7-700.32",
           "section": "700.32",
           "title": "Selective coordination — emergency systems"
@@ -2589,6 +2615,12 @@
       "term": "Under 50 volts, circuits",
       "ids": [
         "C7-ART-720"
+      ]
+    },
+    {
+      "term": "Emergency lighting, branch-circuit transfer switch",
+      "ids": [
+        "C7-700.25"
       ]
     }
   ]
